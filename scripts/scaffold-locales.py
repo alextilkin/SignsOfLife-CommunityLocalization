@@ -18,6 +18,7 @@ TABLES = (
     "ProjectileRegistrationData.json",
     "CreatureRegistrationData.json",
     "StaticPrefabRegistrationData.json",
+    "DatapadTextData.json",
 )
 
 

@@ -40,6 +40,7 @@ PROSE_TABLES = (
         ),
         ("DescriptionsByState", "SpecificTooltips"),
     ),
+    ("DatapadTextData.json", "ID", ("Title", "Category", "Text"), ()),
 )
 
 

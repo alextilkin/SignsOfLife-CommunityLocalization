@@ -18,10 +18,11 @@ This repository can overlay these compiled JSON tables:
 - `ProjectileRegistrationData.json` — projectile display names (leave `SaveName`; translate `Name`)
 - `CreatureRegistrationData.json` — creature names / codex (leave `LivingEntityType`; translate `Name` / `Description` / `CodexCategory`)
 - `StaticPrefabRegistrationData.json` — prefab catalog (leave `SaveName` / `SaveAliases`; translate `Name` / `DisplayName` / `Description` / tooltip fields)
+- `DatapadTextData.json` — datapad lore (leave `ID`; translate `Title` / `Category` / `Text`)
 
 Missing overlay IDs keep English. Empty overlay fields keep English. Unknown
-keys are skipped. Datapads, armor XML, and container gump titles are **not**
-overlayable yet.
+keys are skipped. Armor XML and container gump titles are **not** overlayable
+yet.
 
 The sections below still mention game-repo paths (`Content/Config/...`). For
 the overlay tables in this repository, use `english/Config/` instead.
@@ -30,8 +31,8 @@ the overlay tables in this repository, use `english/Config/` instead.
 
 The shipping game is English-only unless a locale overlay pack is loaded.
 Spoken lines, help, journal, HUD chrome, compiled items, melee/ranged names,
-projectiles, creatures, and static-prefab catalog English live in JSON tables
-that a pack can overlay from `Config/`. Datapads, armor XML, container gump
+projectiles, creatures, static-prefab catalog English, and datapad lore live
+in tables that a pack can overlay from `Config/`. Armor XML, container gump
 titles, glyph quotes, and leftover C# HUD crumbs are not overlayable yet.
 Treat every player-facing English sentence as in-scope unless this guide says
 to leave it alone.
@@ -384,10 +385,11 @@ literally. That is intended.
 
 One concern, one store. Do not add a parallel translation file that nothing
 loads. Locale overlay packs reuse the same compiled JSON filenames under
-`Config/` and fall back to English for missing/empty fields. Unknown keys are
-skipped. Combat stats, `SaveName`, `ItemID`, `LivingEntityType`,
-`StaticPrefabType`, and `AutoOrganizeString` stay English even if the overlay
-copies them.
+`Config/` (datapads overlay `Config/DatapadTextData.json` even though
+English is XML) and fall back to English for missing/empty fields. Unknown
+keys are skipped. Combat stats, `SaveName`, `ItemID`, `LivingEntityType`,
+`StaticPrefabType`, datapad `ID`, and `AutoOrganizeString` stay English even
+if the overlay copies them.
 
 | Kind of text | Store | Notes |
 | --- | --- | --- |
@@ -398,7 +400,7 @@ copies them.
 | HUD / menu chrome | `Content/Config/UILocalization.json` | String keys. Menus, settings, load tips, and keybind action labels are here. Pack overlay: `Config/UILocalization.json`. |
 | HUD hover tooltips | `Content/Config/TooltipLocalization.json` | `tooltip.*` IDs. Live numbers and key names are `{0}` placeholders. Pack overlay: `Config/TooltipLocalization.json`. |
 | Status-effect labels | `Content/Config/StatusEffectLocalization.json` | `status.{StatusEffectType}` IDs. Types with no authored label stay off the table. Pack overlay: `Config/StatusEffectLocalization.json`. |
-| Datapads | `Content/XML/DatapadTextData.xml` | `title`, `category`, body. Not overlayable yet. |
+| Datapads | `Content/XML/DatapadTextData.xml` | Leave `id`. Translate `title`, `category`, body. Pack overlay: `Config/DatapadTextData.json` (`ID`, `Title`, `Category`, `Text`). |
 | Compiled item names / descriptions | `Content/Config/InventoryItemData.json` | Optional `Name` / `Description` plus `Templates` for instance states (`[itemname]`, `[level]`, `[mobname]`). Furniture and placeable display names live here. Shared status lines in `UILocalization.json`. Melee torches keep `MeleeWeaponData.json`. Pack overlay: `Config/InventoryItemData.json` (do not overlay `AutoOrganizeString`). |
 | Compiled projectiles | `Content/Config/ProjectileRegistrationData.json` | Leave `SaveName` in English. Translate `Name`. Inventory ammo names stay in `InventoryItemData.json`. Pack overlay: `Config/ProjectileRegistrationData.json`. |
 | Container gump layouts | `Content/XML/ContainerGumpData.xml` | Leave `<id>` in English slug form. Translate `<name>` (gump title fallback). Item names stay in `InventoryItemData.json`. Not overlayable yet. |

@@ -1,7 +1,7 @@
 {
   "game": "Signs of Life",
-  "snapshotCommit": "90165c635f1be7ff8c83cc8d7787e4d1afbb5563",
-  "snapshotSubject": "Move leftover AGIS SayQuiet English into DialogLocalization.json.",
+  "snapshotCommit": "29724152b549bedac2bb7293c74d461f4b452cef",
+  "snapshotSubject": "Let locale packs overlay compiled datapad lore.",
   "snapshotDate": "2026-08-18",
   "overlayableFiles": [
     "Config/UILocalization.json",
@@ -15,7 +15,8 @@
     "Config/RangedWeaponData.json",
     "Config/ProjectileRegistrationData.json",
     "Config/CreatureRegistrationData.json",
-    "Config/StaticPrefabRegistrationData.json"
+    "Config/StaticPrefabRegistrationData.json",
+    "Config/DatapadTextData.json"
   ],
-  "notes": "Packs overlay prose fields only. Leave ItemID, SaveName, LivingEntityType, StaticPrefabType, SaveAliases, AutoOrganizeString, Complexity, IsDefault, and combat stats in English. XML datapads/armor/container gumps are not overlayable yet."
+  "notes": "Packs overlay prose fields only. Leave ItemID, SaveName, LivingEntityType, StaticPrefabType, SaveAliases, AutoOrganizeString, Complexity, IsDefault, datapad ID, and combat stats in English. Armor XML and container gump titles are not overlayable yet. Datapad English is XML in the game; this JSON is the overlay snapshot."
 }
