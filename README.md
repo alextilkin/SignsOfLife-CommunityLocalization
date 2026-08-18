@@ -5,7 +5,9 @@ locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
 restart. Enable only one locale pack at a time; the last loaded overlay wins.
 
-Do not add machine-generated player-facing text.
+Do not add machine-generated player-facing text. License terms are in
+[`LICENSE.md`](LICENSE.md). By opening a pull request you agree to them
+([`CONTRIBUTING.md`](CONTRIBUTING.md)).
 
 ## Languages
 
@@ -73,8 +75,10 @@ These scripts have **no pack** yet: the shipped fonts cannot draw them, so in-ga
 | [`english/Config/`](english/Config/) | Shipping English tables (snapshot; see `english/SOURCE.json`) |
 | [`locales/<code>/`](locales/) | One loadable pack per language the current fonts can draw |
 | [`TRANSLATING.md`](TRANSLATING.md) | Voice, glossary, markup tokens |
+| [`LICENSE.md`](LICENSE.md) | English stays studio-owned; translators keep their wording, studio may ship it |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to submit, and that a PR accepts the license |
 | [`languages.json`](languages.json) | Locale list |
-| [`NOTICE`](NOTICE) | Copyright on the English snapshot |
+| [`NOTICE`](NOTICE) | Short copyright pointer |
 
 ## What the game actually overlays
 

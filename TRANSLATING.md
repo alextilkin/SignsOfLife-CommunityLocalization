@@ -3,6 +3,7 @@
 Voice, glossary, and markup. English snapshots live in `english/Config/`.
 Put translations in `locales/<code>/Config/`. Do not add machine-generated
 player-facing text. If a line is not ready, omit it so the game keeps English.
+A pull request accepts [`LICENSE.md`](LICENSE.md).
 
 This repository can overlay these compiled JSON tables:
 
@@ -485,4 +486,5 @@ For a human or agent starting a language pass:
 
 - String-store map: game repository `docs/content-authoring.md`
 - Datapad authorship vs shipped lore: game repository `docs/datapads.md`
+- License: [`LICENSE.md`](LICENSE.md)
 - Coverage: [`coverage.md`](coverage.md)

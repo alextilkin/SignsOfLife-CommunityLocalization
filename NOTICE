@@ -1,5 +1,8 @@
-English game text in english/ is copied from Signs of Life and remains
-copyright Sweet Dog Studios LLC. Do not treat this repository as a license
-to ship or sell that text outside a Signs of Life localization pack.
+See LICENSE.md.
 
-Locale folders contain community translations of those strings.
+English game text in english/ is copyright Sweet Dog Studios LLC and is
+provided only as a translation reference.
+
+Community translations in locales/ remain the contributor's copyright, with
+a license to Sweet Dog Studios LLC to ship them in Signs of Life. Opening a
+pull request accepts those terms.
