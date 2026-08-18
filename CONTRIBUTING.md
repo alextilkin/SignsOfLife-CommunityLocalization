@@ -18,8 +18,5 @@ In short:
 2. Edit files under `locales/<code>/Config/`. Leave untranslated rows out so
    the game keeps English.
 3. Do not copy `english/` into a locale folder.
-4. Do not submit machine-generated player-facing text.
+4. Do not submit AI generated text.
 5. Open a pull request.
-
-Empty `[]` overlay files mean the language is waiting for a translation, not
-that English has been copied in.

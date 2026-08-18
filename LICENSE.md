@@ -45,7 +45,7 @@ You represent that:
 - The contribution is your original work, or you otherwise have the right to
   grant this license
 - It is not copied from another game's localization
-- It is not machine-generated player-facing text
+- It was not AI generated
 
 ## 3. Scripts, docs, and other files
 
