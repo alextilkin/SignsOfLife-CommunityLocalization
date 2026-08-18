@@ -242,13 +242,12 @@ def render_readme_table(results: list, source: dict) -> str:
         results,
         key=lambda row: (-row["percent"], row["locale"].lower()),
     )
-    snapshot = source.get("snapshotCommit", "?")[:8]
     total = ordered[0]["total"] if ordered else 0
     lines = [
         README_TABLE_START,
         "",
-        "Counted against English snapshot `%s` (%s overlay fields). A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game."
-        % (snapshot, total),
+        "A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game. %s fields."
+        % total,
         "",
         "| Language | Pack | Translated |",
         "| --- | --- | ---: |",

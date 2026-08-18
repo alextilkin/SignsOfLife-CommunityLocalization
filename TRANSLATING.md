@@ -1,8 +1,8 @@
 # Translating Signs of Life
 
 Voice, glossary, and markup. English snapshots live in `english/Config/`.
-Put translations in `locales/<code>/Config/`. Do not add machine-generated
-player-facing text. If a line is not ready, omit it so the game keeps English.
+Put translations in `locales/<code>/Config/`. Do not submit AI generated
+text. If a line is not ready, omit it so the game keeps English.
 A pull request accepts [`LICENSE.md`](LICENSE.md).
 
 This repository can overlay these compiled JSON tables:
@@ -24,7 +24,7 @@ keys are skipped. Datapads, armor XML, and container gump titles are **not**
 overlayable yet.
 
 The sections below still mention game-repo paths (`Content/Config/...`). For
-the overlay tables, use `english/Config/` in this snapshot instead.
+the overlay tables in this repository, use `english/Config/` instead.
 
 # Translation guide
 
@@ -470,21 +470,12 @@ Leave these intact; they are jokes, not errors.
 For a human or agent starting a language pass:
 
 1. This file.
-2. Press sheet in the Signs of Life game repository:
-   `website/press/signs-of-life-fact-sheet.txt`.
-3. AGIS Normal vs Robot pairs in `english/Config/DialogLocalization.json`
+2. AGIS Normal vs Robot pairs in `english/Config/DialogLocalization.json`
    (IDs 138–144 are a complete voice sample).
-4. Datapads in the game repository `Content/XML/DatapadTextData.xml`,
-   especially “So You've Been Stranded,” Pioneer Station Records, and anything
-   mentioning Hahn. Datapads are not overlayable from this pack yet.
-5. Xenoid dialog IDs around the Source Mnemonic (about 376–392) in
+3. Xenoid dialog IDs around the Source Mnemonic (about 376–392) in
    `english/Config/DialogLocalization.json`.
-6. Game repository `docs/content-authoring.md` before assuming a string can
-   move between files.
 
 ## Related
 
-- String-store map: game repository `docs/content-authoring.md`
-- Datapad authorship vs shipped lore: game repository `docs/datapads.md`
 - License: [`LICENSE.md`](LICENSE.md)
-- Coverage: [`coverage.md`](coverage.md)
+- How to submit: [`CONTRIBUTING.md`](CONTRIBUTING.md)

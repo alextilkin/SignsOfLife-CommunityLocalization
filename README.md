@@ -13,7 +13,7 @@ Do not submit AI generated text. License terms are in
 
 <!-- coverage-table:start -->
 
-Counted against English snapshot `90165c63` (4728 overlay fields). A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game.
+A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game. 4728 fields.
 
 | Language | Pack | Translated |
 | --- | --- | ---: |
@@ -76,13 +76,11 @@ The shipped fonts cannot draw these scripts yet, so there is no pack folder.
 
 | Path | What it is |
 | --- | --- |
-| [`english/Config/`](english/Config/) | Shipping English tables (snapshot; see `english/SOURCE.json`) |
-| [`locales/<code>/`](locales/) | One loadable pack per language the current fonts can draw |
+| [`english/Config/`](english/Config/) | English tables to translate against |
+| [`locales/<code>/`](locales/) | One loadable pack per language |
 | [`TRANSLATING.md`](TRANSLATING.md) | Voice, glossary, markup tokens |
 | [`LICENSE.md`](LICENSE.md) | English stays studio-owned; translators keep their wording, studio may ship it |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to submit, and that a PR accepts the license |
-| [`languages.json`](languages.json) | Locale list |
-| [`NOTICE`](NOTICE) | Short copyright pointer |
 
 ## What the game actually overlays
 
