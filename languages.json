@@ -1,0 +1,37 @@
+{
+  "fontNotes": {
+    "runtime": "Default. FontStashSharp rasterizes Kimberley Bl.ttf. Latin-1 plus Latin Extended-A (Polish, Czech, Turkish, Hungarian, Romanian, Baltic, …). No Cyrillic, CJK, Arabic, Hebrew, Thai, or Vietnamese horned vowels.",
+    "baked": "Optional BMFont atlas (Settings → Font Glyphs → Baked). Western European / Windows-1252 plus Ł/ł, Š/š, Ž/ž, Œ/œ, Ÿ, ı. Central European letters such as ą, č, ę, ğ, ő, ș need Runtime."
+  },
+  "languages": [
+    { "code": "af", "endonym": "Afrikaans", "font": "baked" },
+    { "code": "ca", "endonym": "Català", "font": "baked" },
+    { "code": "cs", "endonym": "Čeština", "font": "runtime" },
+    { "code": "da", "endonym": "Dansk", "font": "baked" },
+    { "code": "de", "endonym": "Deutsch", "font": "baked" },
+    { "code": "es", "endonym": "Español", "font": "baked" },
+    { "code": "et", "endonym": "Eesti", "font": "runtime" },
+    { "code": "eu", "endonym": "Euskara", "font": "baked" },
+    { "code": "fi", "endonym": "Suomi", "font": "baked" },
+    { "code": "fr", "endonym": "Français", "font": "baked" },
+    { "code": "gl", "endonym": "Galego", "font": "baked" },
+    { "code": "hr", "endonym": "Hrvatski", "font": "runtime" },
+    { "code": "hu", "endonym": "Magyar", "font": "runtime" },
+    { "code": "id", "endonym": "Bahasa Indonesia", "font": "baked" },
+    { "code": "is", "endonym": "Íslenska", "font": "baked" },
+    { "code": "it", "endonym": "Italiano", "font": "baked" },
+    { "code": "lt", "endonym": "Lietuvių", "font": "runtime" },
+    { "code": "lv", "endonym": "Latviešu", "font": "runtime" },
+    { "code": "nb", "endonym": "Norsk bokmål", "font": "baked" },
+    { "code": "nl", "endonym": "Nederlands", "font": "baked" },
+    { "code": "pl", "endonym": "Polski", "font": "runtime" },
+    { "code": "pt", "endonym": "Português", "font": "baked" },
+    { "code": "pt-BR", "endonym": "Português (Brasil)", "font": "baked" },
+    { "code": "ro", "endonym": "Română", "font": "runtime" },
+    { "code": "sk", "endonym": "Slovenčina", "font": "runtime" },
+    { "code": "sl", "endonym": "Slovenščina", "font": "runtime" },
+    { "code": "sr-Latn", "endonym": "Srpski (latinica)", "font": "runtime" },
+    { "code": "sv", "endonym": "Svenska", "font": "baked" },
+    { "code": "tr", "endonym": "Türkçe", "font": "runtime" }
+  ]
+}

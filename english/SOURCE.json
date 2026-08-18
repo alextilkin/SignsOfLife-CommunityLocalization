@@ -1,0 +1,13 @@
+{
+  "game": "Signs of Life",
+  "snapshotCommit": "90165c635f1be7ff8c83cc8d7787e4d1afbb5563",
+  "snapshotSubject": "Move leftover AGIS SayQuiet English into DialogLocalization.json.",
+  "snapshotDate": "2026-08-18",
+  "overlayableFiles": [
+    "Config/UILocalization.json",
+    "Config/TooltipLocalization.json",
+    "Config/StatusEffectLocalization.json",
+    "Config/DialogLocalization.json"
+  ],
+  "notes": "Packs load only these four files from Config/. Other English stores (items, help, journal, datapads, creatures, prefabs) are not overlayable yet and are not snapshotted here."
+}

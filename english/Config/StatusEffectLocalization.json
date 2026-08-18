@@ -1,0 +1,314 @@
+[
+  {
+    "ID": "status.SPITTER_SPIT",
+    "Text": "Corrosive Spitter Spit"
+  },
+  {
+    "ID": "status.HEAL_OVER_TIME",
+    "Text": "Health Regeneration"
+  },
+  {
+    "ID": "status.ENERGY_OVER_TIME",
+    "Text": "Energy Regeneration"
+  },
+  {
+    "ID": "status.RESPAWN",
+    "Text": "Respawning"
+  },
+  {
+    "ID": "status.SLOW",
+    "Text": "Slow"
+  },
+  {
+    "ID": "status.WELL_FED",
+    "Text": "Grants a small amount of health regeneration due to being well fed."
+  },
+  {
+    "ID": "status.FIRE",
+    "Text": "Fire"
+  },
+  {
+    "ID": "status.THORNS",
+    "Text": "Damages enemies who touch you"
+  },
+  {
+    "ID": "status.MOVE_SPEED",
+    "Text": "Increased movement and attack speed."
+  },
+  {
+    "ID": "status.MELEE_SPEED",
+    "Text": "Melee Speed"
+  },
+  {
+    "ID": "status.MAX_ENERGY",
+    "Text": "Increased Maximum Energy"
+  },
+  {
+    "ID": "status.MAX_HEALTH",
+    "Text": "Increased Maximum Health"
+  },
+  {
+    "ID": "status.SOLAR_CHARGE",
+    "Text": "Solar Charge"
+  },
+  {
+    "ID": "status.REDUCE_FALL_DAMAGE",
+    "Text": "Fall Damage Reduction"
+  },
+  {
+    "ID": "status.CHARGE_ON_STEP",
+    "Text": "Charge On Step"
+  },
+  {
+    "ID": "status.STATIC_CAPACITOR",
+    "Text": "Static Capacitor"
+  },
+  {
+    "ID": "status.ARMORED",
+    "Text": "Reduces incoming damage by a flat amount."
+  },
+  {
+    "ID": "status.ANTGOO",
+    "Text": "Ant Goo"
+  },
+  {
+    "ID": "status.STINKY",
+    "Text": "Stinky"
+  },
+  {
+    "ID": "status.RESIST_FIRE",
+    "Text": "Resist Fire"
+  },
+  {
+    "ID": "status.RESIST_FIRE_PERCENT",
+    "Text": "Resist Fire"
+  },
+  {
+    "ID": "status.RESIST_CORROSIVE_PERCENT",
+    "Text": "Resist Corrosion"
+  },
+  {
+    "ID": "status.HUD_MOB_HEALTH",
+    "Text": "Health Display"
+  },
+  {
+    "ID": "status.XENOLITH",
+    "Text": "???"
+  },
+  {
+    "ID": "status.HARD_LIKE_ROCK",
+    "Text": "Hard like rock"
+  },
+  {
+    "ID": "status.JUMP_HEIGHT",
+    "Text": "Increased Jump Height"
+  },
+  {
+    "ID": "status.THROW_POWER",
+    "Text": "Increased Throw Power"
+  },
+  {
+    "ID": "status.OPTICAL_CAMO",
+    "Text": "Makes you sorta invisible!"
+  },
+  {
+    "ID": "status.PROJECTILE_REPULSOR",
+    "Text": "Projectile Repulsor"
+  },
+  {
+    "ID": "status.CALM",
+    "Text": "Calm"
+  },
+  {
+    "ID": "status.FREEZE",
+    "Text": "Freeze"
+  },
+  {
+    "ID": "status.XENOID_IMPORTANT",
+    "Text": "???"
+  },
+  {
+    "ID": "status.RESIST_SULFUR_GAS_PERCENT",
+    "Text": "Resist Poison Gas"
+  },
+  {
+    "ID": "status.SOUL_DRAIN",
+    "Text": "Increases the amount of soul energy drained."
+  },
+  {
+    "ID": "status.SOUL_EFFECT",
+    "Text": "Increases the damage done by soul energy."
+  },
+  {
+    "ID": "status.BLEED",
+    "Text": "Bleeding"
+  },
+  {
+    "ID": "status.DUGLETTE_POISON",
+    "Text": "Damages you and makes you more vulnerable to attacks"
+  },
+  {
+    "ID": "status.LIGHT_AURA",
+    "Text": "Light Aura"
+  },
+  {
+    "ID": "status.RESIST_BLEED",
+    "Text": "Reduced severity and duration of bleeding."
+  },
+  {
+    "ID": "status.SPELL_DAMAGE",
+    "Text": "Increased Damage of Strange Abilities"
+  },
+  {
+    "ID": "status.SPELL_COST",
+    "Text": "Reduced Cost of Strange Abilities"
+  },
+  {
+    "ID": "status.SLIGHT_MELEE_DAMAGE",
+    "Text": "Slightly Increased Melee Damage"
+  },
+  {
+    "ID": "status.MEDIUM_MELEE_DAMAGE",
+    "Text": "Moderately Increased Melee Damage"
+  },
+  {
+    "ID": "status.GREAT_MELEE_DAMAGE",
+    "Text": "Greatly Increased Melee Damage"
+  },
+  {
+    "ID": "status.SLIGHT_RANGED_DAMAGE",
+    "Text": "Slightly Increased Ranged Damage"
+  },
+  {
+    "ID": "status.MEDIUM_RANGED_DAMAGE",
+    "Text": "Moderately Increased Ranged Damage"
+  },
+  {
+    "ID": "status.GREAT_RANGED_DAMAGE",
+    "Text": "Greatly Increased Ranged Damage"
+  },
+  {
+    "ID": "status.THE_HUNGER",
+    "Text": "The Hunger"
+  },
+  {
+    "ID": "status.RESIST_POISON_PERCENT",
+    "Text": "Resist Liquid Poison"
+  },
+  {
+    "ID": "status.VULNERABILITY",
+    "Text": "Makes you weaker to all damage types"
+  },
+  {
+    "ID": "status.PROTECTION",
+    "Text": "Protects from all damage"
+  },
+  {
+    "ID": "status.POISON",
+    "Text": "Damages you over time."
+  },
+  {
+    "ID": "status.DODGE_SPEED",
+    "Text": "Improved Dodge"
+  },
+  {
+    "ID": "status.RESIST_XENITE_PERCENT",
+    "Text": "Resist Xenite Damage"
+  },
+  {
+    "ID": "status.CHARGE_ALIEN_ENERGY",
+    "Text": "Charges Strange Energy over time."
+  },
+  {
+    "ID": "status.MELEE_DAMAGE_PERCENT",
+    "Text": "Modified Melee Damage"
+  },
+  {
+    "ID": "status.CURE",
+    "Text": "Cure Negative Status Effects"
+  },
+  {
+    "ID": "status.MAX_STAMINA",
+    "Text": "Increased Maximum Stamina"
+  },
+  {
+    "ID": "status.RIDICULOUSLY_FULL",
+    "Text": "You're ridiculously full right now. You shouldn't eat another bite. I'm serious."
+  },
+  {
+    "ID": "status.PARASITE_PHASE_ONE",
+    "Text": "You're quite hungry for some reason."
+  },
+  {
+    "ID": "status.PARASITE_PHASE_TWO",
+    "Text": "Something is growing inside of you, and it is making you voraciously hungry."
+  },
+  {
+    "ID": "status.PARASITE_PHASE_THREE",
+    "Text": "You're eating for two now."
+  },
+  {
+    "ID": "status.IMPROVED_WELL_FED",
+    "Text": "Improved conversion of Food to Health."
+  },
+  {
+    "ID": "status.MOVEMENT_STAMINA_COST",
+    "Text": "Adjusted Movement Stamina Cost"
+  },
+  {
+    "ID": "status.RANGED_ACCURACY",
+    "Text": "Ranged Accuracy"
+  },
+  {
+    "ID": "status.MELEE_STAMINA_COST",
+    "Text": "Melee Stamina Cost"
+  },
+  {
+    "ID": "status.BIOREACTOR",
+    "Text": "Increased Energy Regeneration from Food Digestion"
+  },
+  {
+    "ID": "status.ENERGY_SHIELD",
+    "Text": "You are currently protected by an energy shield."
+  },
+  {
+    "ID": "status.STIMULANT",
+    "Text": "Increases your movement speed and jump height."
+  },
+  {
+    "ID": "status.FORTITUDE",
+    "Text": "Increased resistance to extreme temperatures and slowing effects."
+  },
+  {
+    "ID": "status.CONSTITUTION",
+    "Text": "Increased resistance to poison, acid and diseases."
+  },
+  {
+    "ID": "status.INCREASED_STAMINA_REGEN",
+    "Text": "Increases the rate that stamina is regenerated."
+  },
+  {
+    "ID": "status.INCREASED_INTENSITY",
+    "Text": "Increased intensity of other ingredients."
+  },
+  {
+    "ID": "status.INCREASED_DURATION",
+    "Text": "Increased duration of effects"
+  },
+  {
+    "ID": "status.SAD_BAD_FOOD",
+    "Text": "Causes you to feel sad about having eaten a terrible meal."
+  },
+  {
+    "ID": "status.MAX_HEALTH_PERCENT",
+    "Text": "Increased Maximum Health %"
+  },
+  {
+    "ID": "status.PARASITIC",
+    "Text": "May contain live parasites."
+  },
+  {
+    "ID": "status.ANTIPARASITIC",
+    "Text": "Prevents parasites from attaching themselves to the inside of your organs while they gestate."
+  }
+]

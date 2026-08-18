@@ -1,0 +1,199 @@
+#!/usr/bin/env python3
+"""Compare locale overlays against english/ and print coverage."""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+UI_TABLES = (
+    "UILocalization.json",
+    "TooltipLocalization.json",
+    "StatusEffectLocalization.json",
+)
+DIALOG_TABLE = "DialogLocalization.json"
+OVERLAY_TABLES = UI_TABLES + (DIALOG_TABLE,)
+
+
+def load_json(path: Path):
+    if not path.is_file():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def ui_index(rows):
+    index = {}
+    for row in rows or []:
+        ident = row.get("ID")
+        if ident is None or ident == "":
+            continue
+        index[str(ident)] = (row.get("Text") or "").strip()
+    return index
+
+
+def dialog_index(rows):
+    index = {}
+    for row in rows or []:
+        ident = row.get("ID")
+        if ident is None:
+            continue
+        index[int(ident)] = {
+            "Normal": (row.get("Normal") or "").strip(),
+            "Robot": (row.get("Robot") or "").strip(),
+        }
+    return index
+
+
+def classify(overlay_value: str, english_value: str) -> str:
+    if not overlay_value:
+        return "missing"
+    if overlay_value == english_value:
+        return "same-as-english"
+    return "translated"
+
+
+def measure_locale(english_root: Path, locale_root: Path) -> dict:
+    errors = []
+    tables = {}
+    translated = 0
+    total = 0
+
+    for name in UI_TABLES:
+        english_rows = ui_index(load_json(english_root / "Config" / name) or [])
+        overlay_rows = ui_index(load_json(locale_root / "Config" / name) or [])
+        unknown = sorted(set(overlay_rows) - set(english_rows))
+        if unknown:
+            errors.append("%s unknown IDs: %s" % (name, ", ".join(unknown[:20])))
+
+        counts = {"translated": 0, "missing": 0, "same-as-english": 0}
+        for ident, english_value in english_rows.items():
+            total += 1
+            status = classify(overlay_rows.get(ident, ""), english_value)
+            counts[status] += 1
+            if status == "translated":
+                translated += 1
+        tables[name] = {"total": len(english_rows), **counts}
+
+    english_dialog = dialog_index(load_json(english_root / "Config" / DIALOG_TABLE) or [])
+    overlay_dialog = dialog_index(load_json(locale_root / "Config" / DIALOG_TABLE) or [])
+    unknown_ids = sorted(set(overlay_dialog) - set(english_dialog))
+    if unknown_ids:
+        errors.append(
+            "%s unknown IDs: %s"
+            % (DIALOG_TABLE, ", ".join(str(i) for i in unknown_ids[:20]))
+        )
+
+    counts = {"translated": 0, "missing": 0, "same-as-english": 0}
+    dialog_total = 0
+    for ident, english_row in english_dialog.items():
+        overlay_row = overlay_dialog.get(ident, {})
+        fields = ["Normal"]
+        if english_row["Robot"]:
+            fields.append("Robot")
+        for field in fields:
+            dialog_total += 1
+            total += 1
+            status = classify(overlay_row.get(field, ""), english_row[field])
+            counts[status] += 1
+            if status == "translated":
+                translated += 1
+    tables[DIALOG_TABLE] = {"total": dialog_total, **counts}
+
+    percent = (100.0 * translated / total) if total else 0.0
+    return {
+        "locale": locale_root.name,
+        "translated": translated,
+        "total": total,
+        "percent": round(percent, 1),
+        "tables": tables,
+        "errors": errors,
+    }
+
+
+def load_languages(repo: Path) -> list:
+    data = json.loads((repo / "languages.json").read_text(encoding="utf-8"))
+    return data["languages"]
+
+
+def render_markdown(results: list, source: dict) -> str:
+    lines = [
+        "# Coverage",
+        "",
+        "Counted against `english/` snapshot `%s`." % source.get("snapshotCommit", "?")[:8],
+        "A field counts as translated when the overlay is non-empty and not identical to English.",
+        "Empty overlay fields keep English in-game and count as missing.",
+        "",
+        "| Locale | Font | Translated | Total | Percent |",
+        "| --- | --- | ---: | ---: | ---: |",
+    ]
+    for row in results:
+        lines.append(
+            "| `%s` | %s | %s | %s | %s%% |"
+            % (
+                row["locale"],
+                row.get("font", ""),
+                row["translated"],
+                row["total"],
+                row["percent"],
+            )
+        )
+    lines.append("")
+    return "\n".join(lines)
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--repo", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument("--write", type=Path, help="Write coverage.md")
+    parser.add_argument("--json-out", type=Path, help="Write coverage.json")
+    args = parser.parse_args(argv)
+
+    repo = args.repo
+    english_root = repo / "english"
+    locales_root = repo / "locales"
+    source = json.loads((english_root / "SOURCE.json").read_text(encoding="utf-8"))
+    languages = load_languages(repo)
+
+    results = []
+    failed = False
+    listed = {lang["code"] for lang in languages}
+    present = {p.name for p in locales_root.iterdir() if p.is_dir()} if locales_root.is_dir() else set()
+
+    missing_dirs = sorted(listed - present)
+    extra_dirs = sorted(present - listed)
+    if missing_dirs:
+        print("Missing locale folders: " + ", ".join(missing_dirs), file=sys.stderr)
+        failed = True
+    if extra_dirs:
+        print("Unexpected locale folders: " + ", ".join(extra_dirs), file=sys.stderr)
+        failed = True
+
+    for lang in languages:
+        locale_root = locales_root / lang["code"]
+        if not locale_root.is_dir():
+            continue
+        result = measure_locale(english_root, locale_root)
+        result["font"] = lang.get("font", "")
+        result["endonym"] = lang.get("endonym", "")
+        results.append(result)
+        if result["errors"]:
+            failed = True
+            for err in result["errors"]:
+                print("%s: %s" % (result["locale"], err), file=sys.stderr)
+
+    markdown = render_markdown(results, source)
+    if args.write:
+        args.write.write_text(markdown, encoding="utf-8", newline="\n")
+    if args.json_out:
+        args.json_out.write_text(
+            json.dumps({"source": source, "locales": results}, indent=2) + "\n",
+            encoding="utf-8",
+            newline="\n",
+        )
+    sys.stdout.write(markdown)
+    return 1 if failed else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
