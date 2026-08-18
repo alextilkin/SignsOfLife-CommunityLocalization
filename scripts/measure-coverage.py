@@ -210,12 +210,6 @@ def load_languages(repo: Path) -> list:
     return load_languages_file(repo)["languages"]
 
 
-def in_game_label(font: str) -> str:
-    if font == "runtime":
-        return "Yes ([Runtime font](FONTS.md))"
-    return "Yes"
-
-
 def render_markdown(results: list, source: dict) -> str:
     lines = [
         "# Coverage",
@@ -224,15 +218,14 @@ def render_markdown(results: list, source: dict) -> str:
         "A field counts as translated when the overlay is non-empty and not identical to English.",
         "Empty overlay fields keep English in-game and count as missing.",
         "",
-        "| Locale | Font | Translated | Total | Percent |",
-        "| --- | --- | ---: | ---: | ---: |",
+        "| Locale | Translated | Total | Percent |",
+        "| --- | ---: | ---: | ---: |",
     ]
     for row in results:
         lines.append(
-            "| `%s` | %s | %s | %s | %s%% |"
+            "| `%s` | %s | %s | %s%% |"
             % (
                 row["locale"],
-                row.get("font", ""),
                 row["translated"],
                 row["total"],
                 row["percent"],
@@ -262,14 +255,14 @@ def render_readme_table(results: list, source: dict, unsupported: list) -> str:
         code = row["locale"]
         name = row.get("endonym") or code
         lines.append(
-            "| %s | [`%s`](locales/%s/) | %s | %s%% |"
-            % (name, code, code, in_game_label(row.get("font", "")), row["percent"])
+            "| %s | [`%s`](locales/%s/) | Yes | %s%% |"
+            % (name, code, code, row["percent"])
         )
 
     lines.extend(
         [
             "",
-            "`Yes` means the current Kimberley fonts can draw the language. Packs marked Runtime need Settings → Font Glyphs → **Runtime** (the default). See [`FONTS.md`](FONTS.md).",
+            "`Yes` means the current fonts can draw the language.",
             "",
             "These scripts have **no pack** yet: the shipped fonts cannot draw them, so in-game text would be blank.",
             "",
@@ -337,7 +330,6 @@ def main(argv: list[str] | None = None) -> int:
         if not locale_root.is_dir():
             continue
         result = measure_locale(english_root, locale_root)
-        result["font"] = lang.get("font", "")
         result["endonym"] = lang.get("endonym", "")
         results.append(result)
         if result["errors"]:

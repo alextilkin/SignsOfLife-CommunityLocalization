@@ -17,35 +17,35 @@ Counted against English snapshot `90165c63` (4728 overlay fields). A field count
 | --- | --- | --- | ---: |
 | Afrikaans | [`af`](locales/af/) | Yes | 0.0% |
 | Català | [`ca`](locales/ca/) | Yes | 0.0% |
-| Čeština | [`cs`](locales/cs/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
+| Čeština | [`cs`](locales/cs/) | Yes | 0.0% |
 | Dansk | [`da`](locales/da/) | Yes | 0.0% |
 | Deutsch | [`de`](locales/de/) | Yes | 0.0% |
 | Español | [`es`](locales/es/) | Yes | 0.0% |
-| Eesti | [`et`](locales/et/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
+| Eesti | [`et`](locales/et/) | Yes | 0.0% |
 | Euskara | [`eu`](locales/eu/) | Yes | 0.0% |
 | Suomi | [`fi`](locales/fi/) | Yes | 0.0% |
 | Français | [`fr`](locales/fr/) | Yes | 0.0% |
 | Galego | [`gl`](locales/gl/) | Yes | 0.0% |
-| Hrvatski | [`hr`](locales/hr/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
-| Magyar | [`hu`](locales/hu/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
+| Hrvatski | [`hr`](locales/hr/) | Yes | 0.0% |
+| Magyar | [`hu`](locales/hu/) | Yes | 0.0% |
 | Bahasa Indonesia | [`id`](locales/id/) | Yes | 0.0% |
 | Íslenska | [`is`](locales/is/) | Yes | 0.0% |
 | Italiano | [`it`](locales/it/) | Yes | 0.0% |
-| Lietuvių | [`lt`](locales/lt/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
-| Latviešu | [`lv`](locales/lv/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
+| Lietuvių | [`lt`](locales/lt/) | Yes | 0.0% |
+| Latviešu | [`lv`](locales/lv/) | Yes | 0.0% |
 | Norsk bokmål | [`nb`](locales/nb/) | Yes | 0.0% |
 | Nederlands | [`nl`](locales/nl/) | Yes | 0.0% |
-| Polski | [`pl`](locales/pl/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
+| Polski | [`pl`](locales/pl/) | Yes | 0.0% |
 | Português | [`pt`](locales/pt/) | Yes | 0.0% |
 | Português (Brasil) | [`pt-BR`](locales/pt-BR/) | Yes | 0.0% |
-| Română | [`ro`](locales/ro/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
-| Slovenčina | [`sk`](locales/sk/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
-| Slovenščina | [`sl`](locales/sl/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
-| Srpski (latinica) | [`sr-Latn`](locales/sr-Latn/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
+| Română | [`ro`](locales/ro/) | Yes | 0.0% |
+| Slovenčina | [`sk`](locales/sk/) | Yes | 0.0% |
+| Slovenščina | [`sl`](locales/sl/) | Yes | 0.0% |
+| Srpski (latinica) | [`sr-Latn`](locales/sr-Latn/) | Yes | 0.0% |
 | Svenska | [`sv`](locales/sv/) | Yes | 0.0% |
-| Türkçe | [`tr`](locales/tr/) | Yes ([Runtime font](FONTS.md)) | 0.0% |
+| Türkçe | [`tr`](locales/tr/) | Yes | 0.0% |
 
-`Yes` means the current Kimberley fonts can draw the language. Packs marked Runtime need Settings → Font Glyphs → **Runtime** (the default). See [`FONTS.md`](FONTS.md).
+`Yes` means the current fonts can draw the language.
 
 These scripts have **no pack** yet: the shipped fonts cannot draw them, so in-game text would be blank.
 
@@ -73,8 +73,7 @@ These scripts have **no pack** yet: the shipped fonts cannot draw them, so in-ga
 | [`english/Config/`](english/Config/) | Shipping English tables (snapshot; see `english/SOURCE.json`) |
 | [`locales/<code>/`](locales/) | One loadable pack per language the current fonts can draw |
 | [`TRANSLATING.md`](TRANSLATING.md) | Voice, glossary, markup tokens |
-| [`FONTS.md`](FONTS.md) | Kimberley TTF vs baked BMFont |
-| [`languages.json`](languages.json) | Locale list and font mode |
+| [`languages.json`](languages.json) | Locale list |
 | [`NOTICE`](NOTICE) | Copyright on the English snapshot |
 
 ## What the game actually overlays

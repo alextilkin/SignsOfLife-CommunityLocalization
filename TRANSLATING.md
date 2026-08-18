@@ -22,9 +22,6 @@ Missing overlay IDs keep English. Empty overlay fields keep English. Unknown
 keys are skipped. Datapads, armor XML, and container gump titles are **not**
 overlayable yet.
 
-Keep Font Glyphs on **Runtime** unless your language is marked `baked` in
-`languages.json`. See [`FONTS.md`](FONTS.md).
-
 The sections below still mention game-repo paths (`Content/Config/...`). For
 the overlay tables, use `english/Config/` in this snapshot instead.
 
@@ -488,5 +485,4 @@ For a human or agent starting a language pass:
 
 - String-store map: game repository `docs/content-authoring.md`
 - Datapad authorship vs shipped lore: game repository `docs/datapads.md`
-- Font limits: [`FONTS.md`](FONTS.md)
 - Coverage: [`coverage.md`](coverage.md)

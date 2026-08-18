@@ -4,34 +4,34 @@ Counted against `english/` snapshot `90165c63`.
 A field counts as translated when the overlay is non-empty and not identical to English.
 Empty overlay fields keep English in-game and count as missing.
 
-| Locale | Font | Translated | Total | Percent |
-| --- | --- | ---: | ---: | ---: |
-| `af` | baked | 0 | 4728 | 0.0% |
-| `ca` | baked | 0 | 4728 | 0.0% |
-| `cs` | runtime | 0 | 4728 | 0.0% |
-| `da` | baked | 0 | 4728 | 0.0% |
-| `de` | baked | 0 | 4728 | 0.0% |
-| `es` | baked | 0 | 4728 | 0.0% |
-| `et` | runtime | 0 | 4728 | 0.0% |
-| `eu` | baked | 0 | 4728 | 0.0% |
-| `fi` | baked | 0 | 4728 | 0.0% |
-| `fr` | baked | 0 | 4728 | 0.0% |
-| `gl` | baked | 0 | 4728 | 0.0% |
-| `hr` | runtime | 0 | 4728 | 0.0% |
-| `hu` | runtime | 0 | 4728 | 0.0% |
-| `id` | baked | 0 | 4728 | 0.0% |
-| `is` | baked | 0 | 4728 | 0.0% |
-| `it` | baked | 0 | 4728 | 0.0% |
-| `lt` | runtime | 0 | 4728 | 0.0% |
-| `lv` | runtime | 0 | 4728 | 0.0% |
-| `nb` | baked | 0 | 4728 | 0.0% |
-| `nl` | baked | 0 | 4728 | 0.0% |
-| `pl` | runtime | 0 | 4728 | 0.0% |
-| `pt` | baked | 0 | 4728 | 0.0% |
-| `pt-BR` | baked | 0 | 4728 | 0.0% |
-| `ro` | runtime | 0 | 4728 | 0.0% |
-| `sk` | runtime | 0 | 4728 | 0.0% |
-| `sl` | runtime | 0 | 4728 | 0.0% |
-| `sr-Latn` | runtime | 0 | 4728 | 0.0% |
-| `sv` | baked | 0 | 4728 | 0.0% |
-| `tr` | runtime | 0 | 4728 | 0.0% |
+| Locale | Translated | Total | Percent |
+| --- | ---: | ---: | ---: |
+| `af` | 0 | 4728 | 0.0% |
+| `ca` | 0 | 4728 | 0.0% |
+| `cs` | 0 | 4728 | 0.0% |
+| `da` | 0 | 4728 | 0.0% |
+| `de` | 0 | 4728 | 0.0% |
+| `es` | 0 | 4728 | 0.0% |
+| `et` | 0 | 4728 | 0.0% |
+| `eu` | 0 | 4728 | 0.0% |
+| `fi` | 0 | 4728 | 0.0% |
+| `fr` | 0 | 4728 | 0.0% |
+| `gl` | 0 | 4728 | 0.0% |
+| `hr` | 0 | 4728 | 0.0% |
+| `hu` | 0 | 4728 | 0.0% |
+| `id` | 0 | 4728 | 0.0% |
+| `is` | 0 | 4728 | 0.0% |
+| `it` | 0 | 4728 | 0.0% |
+| `lt` | 0 | 4728 | 0.0% |
+| `lv` | 0 | 4728 | 0.0% |
+| `nb` | 0 | 4728 | 0.0% |
+| `nl` | 0 | 4728 | 0.0% |
+| `pl` | 0 | 4728 | 0.0% |
+| `pt` | 0 | 4728 | 0.0% |
+| `pt-BR` | 0 | 4728 | 0.0% |
+| `ro` | 0 | 4728 | 0.0% |
+| `sk` | 0 | 4728 | 0.0% |
+| `sl` | 0 | 4728 | 0.0% |
+| `sr-Latn` | 0 | 4728 | 0.0% |
+| `sv` | 0 | 4728 | 0.0% |
+| `tr` | 0 | 4728 | 0.0% |

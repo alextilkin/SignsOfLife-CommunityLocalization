@@ -2,6 +2,4 @@ English game text in english/ is copied from Signs of Life and remains
 copyright Sweet Dog Studios LLC. Do not treat this repository as a license
 to ship or sell that text outside a Signs of Life localization pack.
 
-Locale folders contain community translations of those strings. Do not add
-machine-generated player-facing text. If a string is not translated yet,
-leave it out of the overlay so the game keeps English.
+Locale folders contain community translations of those strings.
