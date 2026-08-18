@@ -1,0 +1,751 @@
+[
+  {
+    "LivingEntityType": "ANT",
+    "Name": "Ant",
+    "Description": "This seems to be some kind of insect.",
+    "CodexCategory": "Insects",
+    "Health": 1
+  },
+  {
+    "LivingEntityType": "ANT_EGG",
+    "Name": "Ant Egg",
+    "Description": "This is some kind of insect egg.",
+    "CodexCategory": "Insects",
+    "Health": 1
+  },
+  {
+    "LivingEntityType": "ANT_LARVA",
+    "Name": "Ant Larva",
+    "Description": "These seem to be some kind of wriggly gross larva.",
+    "CodexCategory": "Insects",
+    "Health": 1
+  },
+  {
+    "LivingEntityType": "ANT_QUEEN",
+    "Name": "Ant Queen",
+    "Description": "Scans indicate that this is some kind of large insect. The front claws look vicious, but if you can avoid them the body looks nice and soft.",
+    "CodexCategory": "Insects",
+    "Health": 400,
+    "MeleeDamage": 100
+  },
+  {
+    "LivingEntityType": "DUGLETTE_ARBOREAL",
+    "Name": "Arboreal Duglette",
+    "Description": "This little guy seems to like hanging out in trees, but will use an adorable little blowpipe to attack interlopers with a bleeding poison.",
+    "CodexCategory": "Hairy",
+    "Health": 50
+  },
+  {
+    "LivingEntityType": "BUFFMECHINGTON",
+    "Name": "Buff Mechington",
+    "Description": "It looks like some kind of giant mechanical chicken. Believe me, I wish I had more information than that.",
+    "CodexCategory": "Robotic",
+    "Health": 400,
+    "MeleeDamage": 50,
+    "DamageReduction": 30
+  },
+  {
+    "LivingEntityType": "CHICKEN",
+    "Name": "Chicken",
+    "Description": "This is just a normal earth-native chicken.",
+    "CodexCategory": "Earth-Native",
+    "Health": 25
+  },
+  {
+    "LivingEntityType": "CLEANING_BOT",
+    "Name": "Cleaning Bot",
+    "CodexCategory": "Robotic",
+    "Health": 15
+  },
+  {
+    "LivingEntityType": "CRAWLER",
+    "Name": "Crawler",
+    "Description": "This is some kind of chitinous spiked creature. It seems to be more active in the dark.",
+    "CodexCategory": "Chitinous",
+    "Health": 30,
+    "MeleeDamage": 15,
+    "MeleeDamage2": 25,
+    "DamageReduction": 7
+  },
+  {
+    "LivingEntityType": "CRAWLER_EYE",
+    "Name": "Crawler Eye",
+    "Description": "That is some kind of disgusting eyeball that keeps looking at me. It seems to be part of a larger organism.",
+    "CodexCategory": "Chitinous",
+    "Health": 50,
+    "DamageReduction": 0
+  },
+  {
+    "LivingEntityType": "CRAWLER_MEDUSA",
+    "Name": "Crawler Medusa",
+    "Description": "It looks like some kind of horrible tentacled monster. I'd stay far away from those nasty spikes if I were you.",
+    "CodexCategory": "Chitinous",
+    "Health": 1000,
+    "MeleeDamage": 50,
+    "DamageReduction": 0
+  },
+  {
+    "LivingEntityType": "CRAWLER_POD",
+    "Name": "Crawler Pod",
+    "Description": "That spiked pod seems to produce those horrible spiky creatures.",
+    "CodexCategory": "Chitinous",
+    "Health": 100,
+    "MeleeDamage": 35,
+    "DamageReduction": 20
+  },
+  {
+    "LivingEntityType": "CRAWLER_WALL",
+    "Name": "Crawler Wall",
+    "Description": "This bizarre organism violently ejects spikes when it detects prey.",
+    "CodexCategory": "Chitinous",
+    "Health": 100,
+    "DamageReduction": 100
+  },
+  {
+    "LivingEntityType": "CRICKET_DRONE",
+    "Name": "Cricket Drone",
+    "Description": "This seems to be some kind of robotic defense drone. It has some kind of compartment on the side, but you would need some kind of tool to access it.",
+    "CodexCategory": "Robotic",
+    "Health": 800,
+    "DamageReduction": 30
+  },
+  {
+    "LivingEntityType": "CRYSTAL_NUG",
+    "Name": "Crystal Nug",
+    "Description": "This seems to be some kind of nug-like creature.",
+    "CodexCategory": "Proto-Xenoid"
+  },
+  {
+    "LivingEntityType": "DUGLETTE_DARK",
+    "Name": "Dark Duglette",
+    "Description": "This guy is a crafty lil jerk. He can throw flash bangs, caltrops and he'll even try to steal from you if given a chance.",
+    "CodexCategory": "Hairy",
+    "Health": 50
+  },
+  {
+    "LivingEntityType": "DART_CRAWLER",
+    "Name": "Dart Crawler",
+    "Description": "That is a spiked crawling creature that periodically shoots darts out of cavities in it's back.",
+    "CodexCategory": "Chitinous",
+    "Health": 25,
+    "DamageReduction": 7
+  },
+  {
+    "LivingEntityType": "GOLEM_DIRT",
+    "Name": "Dirt Golem",
+    "Description": "This creature is a bit of a mystery to me. All I can say conclusively is that it is composed primarily of dirt.",
+    "CodexCategory": "Golems",
+    "Health": 100,
+    "MeleeDamage": 35,
+    "DamageReduction": 5
+  },
+  {
+    "LivingEntityType": "DRIPPER",
+    "Name": "Dripper",
+    "Health": 30,
+    "MeleeDamage": 35
+  },
+  {
+    "LivingEntityType": "DUGLETTE",
+    "Name": "Duglette",
+    "Description": "This little hairy jerk doesn't like to be messed with. He seems to prefer the dark, and will sometimes even attack sources of light.",
+    "CodexCategory": "Hairy",
+    "Health": 50,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "DUGLETTE_TORTOISE",
+    "Name": "Tunnel Tortoise",
+    "Description": "This looks to be a giant alien tortoise-like creature that is acting as a war machine for some tiny mammals.",
+    "CodexCategory": "Shelled",
+    "Health": 400
+  },
+  {
+    "LivingEntityType": "EXPLOSIVE_CHICKEN",
+    "Name": "Explosive Chicken",
+    "Description": "This is a chicken with a proximity explosive attached. That is uh.. weird.",
+    "CodexCategory": "Earth-Native",
+    "Health": 25
+  },
+  {
+    "LivingEntityType": "FLANCER",
+    "Name": "Flancer",
+    "Description": "That is some kind of weird plant creature. It seems to be passive unless disturbed, but scans indicate it hides some kind of organic blade in its \\\"arm\\\" stalks.",
+    "CodexCategory": "Plantae",
+    "Health": 100,
+    "MeleeDamage": 40
+  },
+  {
+    "LivingEntityType": "FLASH_BEETLE",
+    "Name": "Flash Beetle",
+    "Description": "Some kind of beetle.",
+    "CodexCategory": "Insects",
+    "Health": 1
+  },
+  {
+    "LivingEntityType": "FLYER",
+    "Name": "Flyer",
+    "Description": "This bizarre flying creature seems to be filled with a lighter than air gas.",
+    "CodexCategory": "Leathery",
+    "Health": 30,
+    "MeleeDamage": 25
+  },
+  {
+    "LivingEntityType": "GEOGUY",
+    "Name": "Geoguy",
+    "Description": "This creature seems to be encased in some kind of mineral-like organic armor.",
+    "CodexCategory": "Mineral Based",
+    "Health": 100,
+    "MeleeDamage": 60,
+    "DamageReduction": 30
+  },
+  {
+    "LivingEntityType": "GHOST",
+    "Name": "Ghost",
+    "Description": "This ghostly apparition is a mystery to me. The creature seems bound to the red orb in it's center, although it's purpose eludes me.",
+    "CodexCategory": "Weird Stuff",
+    "Health": 150,
+    "MeleeDamage": 25
+  },
+  {
+    "LivingEntityType": "GOAT",
+    "Name": "Goat",
+    "Description": "This is just a normal earth-native goat. It must be a descendant of the animals brought by the Hermes crew.",
+    "CodexCategory": "Earth-Native",
+    "Health": 50,
+    "MeleeDamage": 35,
+    "DamageReduction": 0
+  },
+  {
+    "LivingEntityType": "DUGLETTE_GRASS",
+    "Name": "Grass Duglette",
+    "Description": "These little creatures seem to use a blade that they will periodically coat in a poison that will increase your susceptibility to damage.",
+    "CodexCategory": "Hairy",
+    "Health": 50,
+    "MeleeDamage": 25
+  },
+  {
+    "LivingEntityType": "GOLEM_GRASS",
+    "Name": "Grass Golem",
+    "Description": "This creature is a bit of a mystery to me. All I can say conclusively is that it is composed primarily of dirt and it has a bunch of grass all over it.",
+    "CodexCategory": "Golems",
+    "Health": 100,
+    "MeleeDamage": 25,
+    "DamageReduction": 5
+  },
+  {
+    "LivingEntityType": "GRONDAY",
+    "Name": "Gronday",
+    "Description": "This bizarre creature couldn't possibly have evolved on earth, but it does have familiar looking udders. Convergent evolution I suppose!",
+    "CodexCategory": "Hairy",
+    "Health": 100,
+    "MeleeDamage": 50
+  },
+  {
+    "LivingEntityType": "HOG",
+    "Name": "Hog",
+    "Description": "This is just a normal earth-native hog. It must be a descendant of the animals brought by the Hermes crew.",
+    "CodexCategory": "Earth-Native",
+    "Health": 40,
+    "MeleeDamage": 25,
+    "DamageReduction": 5
+  },
+  {
+    "LivingEntityType": "IGNEOUS_BOULDER",
+    "Name": "Igneous Boulder",
+    "CodexCategory": "Mineral Based",
+    "Health": 25,
+    "DamageReduction": 20
+  },
+  {
+    "LivingEntityType": "IMPALER",
+    "Name": "Impaler",
+    "Description": "This creature ejects spikes when it detects movement below. It is unclear how it retrieves it's prey, but I suspect that it shares a symbiotic relationship with some of the other native life.",
+    "CodexCategory": "Weird Stuff",
+    "Health": 50
+  },
+  {
+    "LivingEntityType": "TUNNEL_TORTOISE_JUVENILE",
+    "Name": "Juvenile Tunnel Tortoise",
+    "Description": "This adorable lil guy seems to be a juvenile tortoise-like creature.",
+    "CodexCategory": "Shelled",
+    "Health": 50
+  },
+  {
+    "LivingEntityType": "KANGIT",
+    "Name": "Kangit",
+    "Description": "This is an adorable little alien with a bushy tail.",
+    "CodexCategory": "Hairy",
+    "Health": 25
+  },
+  {
+    "LivingEntityType": "LARVAL_EGG",
+    "Name": "Larval Egg",
+    "Description": "This seems to be some kind of disgusting alien egg.",
+    "CodexCategory": "Insects",
+    "Health": 1
+  },
+  {
+    "LivingEntityType": "LEAPER",
+    "Name": "Leaper",
+    "Description": "This creature seems to have evolved a shapely rear that it uses, along with it's extending tongue, to hunt prey.",
+    "CodexCategory": "Leathery",
+    "Health": 200,
+    "MeleeDamage": 60,
+    "DamageReduction": 15
+  },
+  {
+    "LivingEntityType": "MEDUSA_SPIKE",
+    "Name": "Medusa Spike",
+    "Description": "This seems to be some kind of hostile tenticle. My scans indicate that this is only an appendage of a larger organism.",
+    "CodexCategory": "Chitinous",
+    "Health": 999,
+    "MeleeDamage": 30,
+    "DamageReductionPercent": 100
+  },
+  {
+    "LivingEntityType": "NECTAR_GRUB",
+    "Name": "Nectar Grub",
+    "Description": "This seemingly passive creature seems to emit a cleansing organic fluid.",
+    "CodexCategory": "Insects",
+    "Health": 100
+  },
+  {
+    "LivingEntityType": "PARASITIC_FLAGELLA",
+    "Name": "Parasitic Flagella",
+    "Description": "This seems to be some kind of violent flagella.",
+    "CodexCategory": "Insects",
+    "Health": 50,
+    "MeleeDamage": 25
+  },
+  {
+    "LivingEntityType": "PINDLEBAG",
+    "Name": "Pindlebag",
+    "Description": "This creature detaches from the walls and floats towards any detected movement. It seems to be filled with an explosive gas that detonates when the creature's skin is pierced. Like earth-native bees, it seems to be willing to sacrifice itself to drive away predators.",
+    "CodexCategory": "Weird Stuff",
+    "Health": 6,
+    "ExplosionPower": 5,
+    "ExplosionRange": 5
+  },
+  {
+    "LivingEntityType": "POPPER",
+    "Name": "Popper",
+    "Description": "This strange chitinous creature ejects flaming projectiles. The creature presumably creates a flammable substance in it's innards.",
+    "CodexCategory": "Chitinous",
+    "Health": 50,
+    "DamageReduction": 15
+  },
+  {
+    "LivingEntityType": "PUMPKIN_SNAKE",
+    "Name": "Pumpkin Snake",
+    "Description": "This freakish creature seems to be a pumpkin that has been infected by some kind of alien parasite. Spooky!",
+    "CodexCategory": "Weird Stuff",
+    "Health": 50
+  },
+  {
+    "LivingEntityType": "PUNCHER",
+    "Name": "Puncher",
+    "Description": "This creature seems to have a thick tongue that it uses to attack it's prey. It is heavily armored, but the tongue may be a weak point.",
+    "CodexCategory": "Chitinous",
+    "Health": 120,
+    "MeleeDamage": 50,
+    "DamageReduction": 30
+  },
+  {
+    "LivingEntityType": "PUPA",
+    "Name": "Pupa",
+    "Description": "This small pupa spits a sticky goo when it detects potential prey.",
+    "CodexCategory": "Insects",
+    "Health": 35
+  },
+  {
+    "LivingEntityType": "NEW_SHEEP",
+    "Name": "Sheep",
+    "Description": "This is just a normal earth-native sheep. It must be a descendant of the animals brought by the Hermes crew.",
+    "CodexCategory": "Earth-Native",
+    "Health": 35,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "SOLDIER_ANT",
+    "Name": "Soldier Ant",
+    "Description": "This seems to be some kind of large insect.",
+    "CodexCategory": "Insects",
+    "Health": 30,
+    "MeleeDamage": 25
+  },
+  {
+    "LivingEntityType": "SPRINGTAIL",
+    "Name": "Springtail",
+    "Description": "This is some sort of alien insect. It is a jumpy lil bastard.",
+    "CodexCategory": "Insects",
+    "Health": 10
+  },
+  {
+    "LivingEntityType": "STEEL_SPIDER_BOT",
+    "Name": "Steel Spider Bot",
+    "Description": "This appears to be a defense robot of some kind.",
+    "CodexCategory": "Robotic",
+    "Health": 50,
+    "DamageReduction": 20
+  },
+  {
+    "LivingEntityType": "GOLEM_STONE",
+    "Name": "Stone Golem",
+    "Description": "This creature is a bit of a mystery to me. All I can say conclusively is that it is composed primarily of stone.",
+    "CodexCategory": "Golems",
+    "Health": 150,
+    "MeleeDamage": 35,
+    "DamageReduction": 20
+  },
+  {
+    "LivingEntityType": "SULFUR_POLYP",
+    "Name": "Sulfur Polyp",
+    "Description": "This crazy looking thing seems to produce sulfur and emits it periodically.",
+    "CodexCategory": "Mineral Based",
+    "Health": 100,
+    "DamageReduction": 10
+  },
+  {
+    "LivingEntityType": "DUGLETTE_TANK",
+    "Name": "Tank Duglette",
+    "Description": "This seems to be one of those little mammals wearing an adorable little set of armor.",
+    "CodexCategory": "Hairy",
+    "Health": 100,
+    "MeleeDamage": 25,
+    "MeleeDamage2": 35
+  },
+  {
+    "LivingEntityType": "ANT_VOLATILE",
+    "Name": "Volatile Ant",
+    "Description": "This seems to be some kind of insect. It has a glowing red bulb on the back that seems to contain a volatile liquid.",
+    "CodexCategory": "Insects",
+    "Health": 1,
+    "ExplosionPower": 8,
+    "ExplosionRange": 4
+  },
+  {
+    "LivingEntityType": "ANT_EGG_VOLATILE",
+    "Name": "Volatile Ant Egg",
+    "Description": "This is some kind of insect egg filled with some kind of organic volatile substance.",
+    "CodexCategory": "Insects",
+    "Health": 1,
+    "ExplosionPower": 8,
+    "ExplosionRange": 4
+  },
+  {
+    "LivingEntityType": "GOLEM_XENITE",
+    "Name": "Xenite Golem",
+    "Description": "This creature is a bit of a mystery to me. All I can say conclusively is that it is composed of an unknown material.",
+    "CodexCategory": "Golems",
+    "Health": 150,
+    "MeleeDamage": 50,
+    "DamageReduction": 40
+  },
+  {
+    "LivingEntityType": "XENITE_REMNANT",
+    "Name": "Xenite Remnant",
+    "Description": "I don't have the foggiest idea what that thing is. It seems to be hostile, but beyond that, your guess is as good as mine.",
+    "CodexCategory": "Proto-Xenoid",
+    "Health": 50,
+    "MeleeDamage": 35,
+    "DamageReduction": 10
+  },
+  {
+    "LivingEntityType": "XENOID_CHURL",
+    "Name": "Xenoid Churl",
+    "CodexCategory": "Xenoids"
+  },
+  {
+    "LivingEntityType": "XENOID_CHURL_SCRAPPER",
+    "Name": "Xenoid Churl Scrapper",
+    "CodexCategory": "Xenoids"
+  },
+  {
+    "LivingEntityType": "XENOID_IRONBACK",
+    "Name": "Xenoid Ironback",
+    "CodexCategory": "Xenoids",
+    "Health": 30,
+    "MeleeDamage": 50,
+    "DamageReduction": 20
+  },
+  {
+    "LivingEntityType": "XENOID_PYREBACK",
+    "Name": "Xenoid Pyreback",
+    "CodexCategory": "Xenoids",
+    "Health": 30,
+    "MeleeDamage": 50,
+    "DamageReduction": 20
+  },
+  {
+    "LivingEntityType": "XENOID_SCOUT",
+    "Name": "Xenoid Scout",
+    "CodexCategory": "Xenoids",
+    "Health": 30,
+    "MeleeDamage": 20
+  },
+  {
+    "LivingEntityType": "TEST_BOT_BOMB",
+    "Name": "Bomb Bot",
+    "Description": "This is a spherical combat robot. It has a bomb attached, that looks like it will detonate if you get too close.",
+    "CodexCategory": "Combat Defense Bot",
+    "Health": 100,
+    "ExplosionPower": 7,
+    "ExplosionRange": 5
+  },
+  {
+    "LivingEntityType": "TEST_BOT_GAUSS",
+    "Name": "Gauss Bot",
+    "Description": "This is a combat robot that has an attached gauss rifle.",
+    "CodexCategory": "Combat Defense Bot",
+    "Health": 100,
+    "ExplosionPower": 7,
+    "ExplosionRange": 5
+  },
+  {
+    "LivingEntityType": "TEST_BOT_KINETIC",
+    "Name": "Kinetic Bot",
+    "Description": "This is some kind of combat robot that fires kinetic rounds.",
+    "CodexCategory": "Combat Defense Bot",
+    "Health": 100,
+    "ExplosionPower": 7,
+    "ExplosionRange": 5
+  },
+  {
+    "LivingEntityType": "TEST_BOT_TESLA",
+    "Name": "Tesla Bot",
+    "Description": "This is some kind of area denial combat robot. It zaps anything that gets too close.",
+    "CodexCategory": "Combat Defense Bot",
+    "Health": 100,
+    "ExplosionPower": 7,
+    "ExplosionRange": 5
+  },
+  {
+    "LivingEntityType": "PROTOXENOID_CRAB",
+    "Name": "Protoxenoid Crab",
+    "Description": "This is a completely unknown organism.",
+    "CodexCategory": "Protoxenoid",
+    "Health": 100,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "PROTOXENOID_HOUND",
+    "Name": "Protoxenoid Hound",
+    "Description": "This is a completely unknown organism.",
+    "CodexCategory": "Protoxenoid",
+    "Health": 100,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "PROTOXENOID_POD",
+    "Name": "Protoxenoid Pod",
+    "Description": "This is a completely unknown organism.",
+    "CodexCategory": "Protoxenoid",
+    "Health": 100,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "PROTOXENOID_ROTAMOID",
+    "Name": "Protoxenoid Rotamoid",
+    "Description": "This is a completely unknown organism.",
+    "CodexCategory": "Protoxenoid",
+    "Health": 100,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "PROTOXENOID_SLUG",
+    "Name": "Protoxenoid Slug",
+    "Description": "This is a completely unknown organism.",
+    "CodexCategory": "Protoxenoid",
+    "Health": 100,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "BILLY",
+    "Name": "Billy",
+    "Description": "Billy is a highly advanced walking trashcan.",
+    "CodexCategory": "Robotic",
+    "Health": 100
+  },
+  {
+    "LivingEntityType": "MECHINGTON_EGG",
+    "Name": "Boombox Egg",
+    "Description": "This... is a boombox... that hatched out of a big metal egg?",
+    "CodexCategory": "Robotic",
+    "Health": 100
+  },
+  {
+    "LivingEntityType": "BUFFMECHINGTON_MK2",
+    "Name": "Buff Mechington Mk2",
+    "Description": "This appears to be some kind of giant mechanical chicken that has been upgraded with armor plating. I can tell you the what, but I can't tell you the why.",
+    "CodexCategory": "Robotic",
+    "Health": 9999999,
+    "MeleeDamage": 50
+  },
+  {
+    "LivingEntityType": "MECHINGTON_BROOD",
+    "Name": "Mechington Brood",
+    "Description": "This is some kind of mechanical chicken that lays proximity mine eggs. It's eggs all the way down...",
+    "CodexCategory": "Robotic",
+    "Health": 100,
+    "MeleeDamage": 50
+  },
+  {
+    "LivingEntityType": "SPITTER_MALE",
+    "Name": "Male Spitter",
+    "Description": "This is some kind of asshole creature with poisonous spit and poison tipped claws. It seems to be very territorial.",
+    "CodexCategory": "Spitter",
+    "Health": 100,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "SCANNING_DRONE",
+    "Name": "Scanning Drone",
+    "Description": "This is some kind of scanning security drone.",
+    "CodexCategory": "Robotic",
+    "Health": 100
+  },
+  {
+    "LivingEntityType": "XENOID",
+    "Name": "Xenoid",
+    "CodexCategory": "Xenoids"
+  },
+  {
+    "LivingEntityType": "XENOID_SPECIALIST",
+    "Name": "Xenoid Specialist",
+    "CodexCategory": "Xenoids"
+  },
+  {
+    "LivingEntityType": "MONSTRALORP",
+    "Name": "Monstralorp",
+    "CodexCategory": "Feathered"
+  },
+  {
+    "LivingEntityType": "XENITE_CRAWLER",
+    "Name": "Xenite Crawler",
+    "Description": "This is a spiked crawling creature that seems to have a shell adorned with bits of the strange materials we've found on this planet.",
+    "CodexCategory": "Chitinous",
+    "Health": 30,
+    "MeleeDamage": 15,
+    "MeleeDamage2": 25,
+    "DamageReduction": 10
+  },
+  {
+    "LivingEntityType": "XENOSTONE_ARTILLERY",
+    "Name": "Xenostone Artillery",
+    "Description": "This creature seems to produce and throw some kind of explosive material.",
+    "Health": 100,
+    "DamageReduction": 10
+  },
+  {
+    "LivingEntityType": "RUINS_HOUND",
+    "Name": "Xenoid Hound",
+    "Description": "This peculiar quadruped has tough skin and a prominent horn that seems to share some of the curious properties of the strange materials we've found on this planet. The force of its charge seems to be more powerful than its frame should allow based on my understanding of animal physiology.",
+    "Health": 140,
+    "MeleeDamage": 30,
+    "DamageReduction": 5
+  },
+  {
+    "LivingEntityType": "ASTEROID_BARNACLE",
+    "Name": "Asteroid Barnacle",
+    "Description": "I have no idea what that is.",
+    "Health": 100,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "ASTEROID_MITE",
+    "Name": "Asteroid Mite",
+    "Description": "I have no idea what that is.",
+    "Health": 1,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "BABY",
+    "Name": "Baby",
+    "Description": "I have no idea what that is.",
+    "Health": 15,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "BEE_SWARM",
+    "Name": "Bee Swarm",
+    "Description": "I have no idea what that is.",
+    "Health": 30,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "CAVE_WYRM",
+    "Name": "Cave Wyrm",
+    "Description": "I have no idea what that is.",
+    "Health": 200,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "DOG",
+    "Name": "Dog",
+    "Description": "I have no idea what that is.",
+    "Health": 100
+  },
+  {
+    "LivingEntityType": "DEAD_HAHN",
+    "Name": "Feathered Body",
+    "Description": "This is a human body that seems to be wearing clothing covered in feathers. The feathers seem intentional.",
+    "Health": 10
+  },
+  {
+    "LivingEntityType": "OMINOUS_BULB",
+    "Name": "Ominous Bulb",
+    "Description": "I have no idea what that is.",
+    "Health": 50,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "PIONEER_GARAGE_UTILITY_ARM",
+    "Name": "Pioneer Garage Utility Arm",
+    "Description": "I have no idea what that is.",
+    "Health": 100,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "POD_FRUIT",
+    "Name": "Pod Fruit",
+    "Description": "I have no idea what that is.",
+    "Health": 30,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "SMALL_PARASITE",
+    "Name": "Small Parasite",
+    "Description": "I have no idea what that is.",
+    "Health": 100,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "XENOID_TOTEM",
+    "Name": "Xenoid Totem",
+    "Description": "This appears to be some kind of construct with a latent energy. I cannot tell much more, as it resists my internal scans entirely. I can tell that it is probably impervious to any of your weapons, and you may need something more exotic to move it.",
+    "Health": 100,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "XENOSTONE_COLOSSUS",
+    "Name": "Xenostone Colossus",
+    "Description": "This appears to be some sort of animated pile of Xenostone rubble. My scans cannot penetrate the stone, but I have identified the large crystal protrusions as potential weak spots.",
+    "Health": 1000,
+    "MeleeDamage": 15
+  },
+  {
+    "LivingEntityType": "XENOSTONE_COLOSSUS_ORB",
+    "Name": "Xenostone Colossus Orb",
+    "Description": "This um... well, this is some sort of orb floating in the air... surrounded by chunks of Xenostone. My deep learning algorithms are pretty much giving up on this one bud.",
+    "Health": 30,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "CRYSTAL_NUG_BABY",
+    "Name": "Crystal Nug Baby",
+    "Description": "I have no idea what that is.",
+    "Health": 100,
+    "MeleeDamage": 10
+  }
+]

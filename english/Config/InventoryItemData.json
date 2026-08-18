@@ -1,0 +1,7169 @@
+﻿[
+    {
+        "ItemID":  100,
+        "Complexity":  0
+    },
+    {
+        "ItemID":  101,
+        "Complexity":  0,
+        "Name":  "Player Backpack",
+        "Description":  "Your backpack. Right click it to put it on."
+    },
+    {
+        "ItemID":  500,
+        "Complexity":  0,
+        "Name":  "Select Utility Tool",
+        "Description":  "Left click to place the first point, Right click to place the second point. Thats it so far."
+    },
+    {
+        "ItemID":  1000,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1001,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1002,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1003,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1004,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1010,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1011,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1012,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1013,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1014,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1015,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1020,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1021,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1022,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1023,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1024,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1025,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1030,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1031,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1032,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1033,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1034,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1035,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1040,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1041,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1042,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1043,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1044,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1045,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1050,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1051,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1052,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1053,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1054,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1055,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  1060,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  1061,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  1062,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  1063,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  1064,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  1065,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  1070,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1071,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1072,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1073,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1074,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1075,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1076,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1080,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1081,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1082,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1083,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1084,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1085,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1086,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1090,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1091,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1092,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1093,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1094,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1095,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1100,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1101,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1102,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1103,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1104,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1105,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1110,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1111,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1112,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1113,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1114,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1115,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1116,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1120,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1121,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1122,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1123,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1124,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1125,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1130,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1131,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1132,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1133,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1134,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1135,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  1140,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1141,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1142,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1143,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1144,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1145,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1146,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1150,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1151,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1152,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1153,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1154,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1155,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1160,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1161,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1162,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1163,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1164,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1165,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1166,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1170,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1171,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1172,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1173,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1174,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1175,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  1180,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1181,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1182,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1183,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1184,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1185,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1186,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1190,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1191,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1192,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1193,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1194,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1195,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1196,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1200,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1201,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1202,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1203,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1204,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1205,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1210,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1211,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1212,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1213,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1214,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1215,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  1300,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1301,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1302,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1303,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  1500,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1501,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1502,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1503,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1504,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1505,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1506,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1507,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1508,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1509,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1510,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1511,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1512,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1513,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1514,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1515,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1516,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1517,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1518,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1519,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1520,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1521,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1522,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1523,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1524,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1525,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1526,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1527,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1528,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1529,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1530,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1531,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1532,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1533,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1534,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1535,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1536,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1537,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1538,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1539,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1540,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1541,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1542,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1544,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1700,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1701,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1702,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1703,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1705,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1706,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  1800,
+        "Complexity":  0
+    },
+    {
+        "ItemID":  1801,
+        "Complexity":  0
+    },
+    {
+        "ItemID":  2000,
+        "Complexity":  1,
+        "Name":  "Brown Egg",
+        "AutoOrganizeString":  "forager",
+        "Description":  "As far as I can tell, this is some kind of small jelly-like creature suspended in a hard protective shell. I haven't figured out how to communicate with the creature, but if I find out I will probably let you know. It looks like you can huck it at stuff."
+    },
+    {
+        "ItemID":  2001,
+        "Complexity":  1,
+        "Name":  "Feather",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Fluffy scales, typically found on chickens. Commonly used in the construction of arrows and native american headdresses."
+    },
+    {
+        "ItemID":  2002,
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  2003,
+        "Complexity":  1,
+        "Name":  "Stick",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A small piece of wood."
+    },
+    {
+        "ItemID":  2004,
+        "Complexity":  1,
+        "Name":  "Log",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A chunk of wood from some tree who was too stupid to get out of the way of your axe!"
+    },
+    {
+        "ItemID":  2006,
+        "Complexity":  1,
+        "Name":  "Wood Board",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Wood shaped into a board, used in construction and various carpentry related tasks."
+    },
+    {
+        "ItemID":  2007,
+        "Complexity":  1,
+        "Name":  "Plant Fiber",
+        "AutoOrganizeString":  "forager",
+        "Description":  "Strips of tough fiber from a plant."
+    },
+    {
+        "ItemID":  2008,
+        "Complexity":  1,
+        "Name":  "Bone",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Hard and dense connective tissue."
+    },
+    {
+        "ItemID":  2009,
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  2010,
+        "Complexity":  1,
+        "Name":  "Cooked Red Meat",
+        "AutoOrganizeString":  "food",
+        "Description":  "Delicious cooked red meat."
+    },
+    {
+        "ItemID":  2011,
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  2012,
+        "Complexity":  1,
+        "Name":  "Cooked Bacon",
+        "AutoOrganizeString":  "food",
+        "Description":  "Strips of pig that are delicious to some people. This strip happens to be cooked."
+    },
+    {
+        "ItemID":  2013,
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  2014,
+        "Complexity":  1,
+        "Name":  "Cooked Poultry",
+        "AutoOrganizeString":  "food",
+        "Description":  "Tastes like chicken."
+    },
+    {
+        "ItemID":  2015,
+        "Complexity":  1,
+        "Name":  "Wool",
+        "AutoOrganizeString":  "forager",
+        "Description":  "Tufts of wool from a sheep. It has been genetically modified to be extra fluffy at the expense of being quite flammable."
+    },
+    {
+        "ItemID":  2016,
+        "Complexity":  1,
+        "Name":  "Hide",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The hide of an animal with tough leathery skin."
+    },
+    {
+        "ItemID":  2017,
+        "Complexity":  1,
+        "Name":  "Sap",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A sticky ooze that came out of a tree. It smells flammable and It feels slightly warm to the touch."
+    },
+    {
+        "ItemID":  2018,
+        "Complexity":  1,
+        "Name":  "Black Powder",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Combustive agent. Used to craft things that go boom."
+    },
+    {
+        "ItemID":  2019,
+        "Complexity":  1,
+        "Name":  "Saltpeter",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A white crystalline material."
+    },
+    {
+        "ItemID":  2020,
+        "Complexity":  1,
+        "Name":  "Twine",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Plant fibers twisted together to form a thin relatively robust cord."
+    },
+    {
+        "ItemID":  2022,
+        "Complexity":  1,
+        "Name":  "Grey Rock",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A simple grey rock that can by found scattered around the surface of the planet."
+    },
+    {
+        "ItemID":  2024,
+        "Complexity":  1,
+        "Name":  "Springtail Nectar",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "This came out of a springtail when you killed it. It has a sweet smell."
+    },
+    {
+        "ItemID":  2025,
+        "Complexity":  1,
+        "Name":  "Ant Bulb",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A small sac filled with a putrid glowing substance."
+    },
+    {
+        "ItemID":  2026,
+        "Complexity":  1,
+        "Name":  "Silk Bolt",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A bolt of material made from goo that came out of a spider."
+    },
+    {
+        "ItemID":  2027,
+        "Complexity":  1,
+        "Name":  "Cotton Bolt",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A bolt of cotton cloth."
+    },
+    {
+        "ItemID":  2028,
+        "Complexity":  1,
+        "Name":  "Iron Buckle",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An iron fastener."
+    },
+    {
+        "ItemID":  2029,
+        "Complexity":  1,
+        "Name":  "Copper Buckle",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A copper fastener."
+    },
+    {
+        "ItemID":  2030,
+        "Complexity":  1,
+        "Name":  "Leather Strap",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A tough strip of leather."
+    },
+    {
+        "ItemID":  2031,
+        "Complexity":  1,
+        "Name":  "Silk",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A fine thread that came out of a spider."
+    },
+    {
+        "ItemID":  2032,
+        "Complexity":  1,
+        "Name":  "Wool Bolt",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A large sheet of wool cloth, ready to be used to make some fancy winter jacket or something."
+    },
+    {
+        "ItemID":  2033,
+        "Complexity":  1,
+        "Name":  "Sulfur",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A yellow hunk of chalky material, it smells like rotten eggs and tastes like rotten eggs."
+    },
+    {
+        "ItemID":  2034,
+        "Complexity":  1,
+        "Name":  "Amber",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "Fossilized sap, it is warm to the touch."
+    },
+    {
+        "ItemID":  2035,
+        "Complexity":  1,
+        "Name":  "Chunk of Limestone",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A small chunk of sedimentary rock. It can be used as a flux when smelting metal to increase the yield."
+    },
+    {
+        "ItemID":  2036,
+        "Complexity":  1,
+        "Name":  "Salt",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A crystalline mineral composed of sodium chloride. It wards off spells and can be used to deter various forms of occult beasts."
+    },
+    {
+        "ItemID":  2037,
+        "Complexity":  1,
+        "Name":  "Rubber",
+        "AutoOrganizeString":  "forager",
+        "Description":  "An elastic polymer that can be obtained from softwood trees and produced through chemistry."
+    },
+    {
+        "ItemID":  2038,
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A small steel fastener."
+    },
+    {
+        "ItemID":  2039,
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A small tin fastener"
+    },
+    {
+        "ItemID":  2041,
+        "Complexity":  2,
+        "Name":  "Plated Hide Strap",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An armored strap of plated hide."
+    },
+    {
+        "ItemID":  2042,
+        "Complexity":  3,
+        "Name":  "Xenohide Strap",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A white speckled strap of hide."
+    },
+    {
+        "ItemID":  2043,
+        "Complexity":  1,
+        "Name":  "Glass",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Some kind of hard clear material."
+    },
+    {
+        "ItemID":  2044,
+        "Complexity":  2,
+        "Name":  "Xenohide",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Some greyish purple bit of flesh that was jostled loose from some creature during its death throes. It isn't that it smells bad, it just smells wrong somehow."
+    },
+    {
+        "ItemID":  2046,
+        "Complexity":  2,
+        "Name":  "Plated Hide",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A bit of leathery flesh with hard chitinous plates attached."
+    },
+    {
+        "ItemID":  2047,
+        "Complexity":  2,
+        "Name":  "Chitinous Plate",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A hard chitinous chunk of material that used to be part of the skull of some poor creature. You'll probably want to turn this into some kind of hat I suppose."
+    },
+    {
+        "ItemID":  2048,
+        "Complexity":  3,
+        "Name":  "Xenoplate",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A hard piece of cartilage and fibers."
+    },
+    {
+        "ItemID":  2049,
+        "Complexity":  2,
+        "Name":  "Spitter Gland",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Some gross piece of flesh and sinew that came out of one of those godawful spitting monsters."
+    },
+    {
+        "ItemID":  2050,
+        "Complexity":  1,
+        "Name":  "Cotton",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A tuft of space cotton."
+    },
+    {
+        "ItemID":  2051,
+        "Complexity":  1,
+        "Name":  "Copper Wire",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A thin conductive wire."
+    },
+    {
+        "ItemID":  2052,
+        "Complexity":  1,
+        "Name":  "Flint",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A hard rough stone."
+    },
+    {
+        "ItemID":  2053,
+        "Complexity":  1,
+        "Name":  "Wooden Dowel",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A wooden rod."
+    },
+    {
+        "ItemID":  2054,
+        "Complexity":  1,
+        "Name":  "Wool Padding",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Some wool bunched up and secured together into a padding."
+    },
+    {
+        "ItemID":  2055,
+        "Complexity":  1,
+        "Name":  "Cotton Padding",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Fluffy cotton padding, typically used to pad things."
+    },
+    {
+        "ItemID":  2056,
+        "Complexity":  1,
+        "Name":  "Hide Strip",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A strip of leathery hide."
+    },
+    {
+        "ItemID":  2062,
+        "Complexity":  1,
+        "Name":  "Linen Bolt",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A fine cloth, crafted from plant fibers."
+    },
+    {
+        "ItemID":  2063,
+        "Complexity":  1,
+        "Name":  "Ball Bearing",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A round metal ball, used in the construction of various gadgets and gizmos."
+    },
+    {
+        "ItemID":  2064,
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  2065,
+        "Complexity":  1,
+        "Name":  "Cooked Crawler Meat",
+        "AutoOrganizeString":  "food",
+        "Description":  "I'm not going to pretend like it tastes good, but its probably not going to harm you."
+    },
+    {
+        "ItemID":  2066,
+        "Complexity":  1,
+        "Name":  "Human Skull",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The head bone of some poor soul."
+    },
+    {
+        "ItemID":  2067,
+        "Complexity":  3,
+        "Name":  "Microchip",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A marvel of modern technology, Microchips are used in all manner of gadgets and gizmos."
+    },
+    {
+        "ItemID":  2068,
+        "Complexity":  3,
+        "Name":  "Steel Machine Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Steel cogs and sprockets and whatnot. Its all very technical and you probably wouldn't understand it, but lets just say that the things are used in the construction of machines."
+    },
+    {
+        "ItemID":  2069,
+        "Complexity":  2,
+        "Name":  "Plastic",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A synthetic polymer, prized for its low weight, cheapness and convenience."
+    },
+    {
+        "ItemID":  2070,
+        "Complexity":  2,
+        "Name":  "Impure Biofuel",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A weak biological fuel."
+    },
+    {
+        "ItemID":  2071,
+        "Complexity":  3,
+        "Name":  "Biofuel",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A high quality biological fuel."
+    },
+    {
+        "ItemID":  2072,
+        "Complexity":  4,
+        "Name":  "D6 Polymer",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A high quality polymer used in the production of many high tech furniture and gadgets. Composed of plastic with anthracite used as an additive."
+    },
+    {
+        "ItemID":  2073,
+        "Complexity":  4,
+        "Name":  "LED",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A small light emitting diode."
+    },
+    {
+        "ItemID":  2074,
+        "Complexity":  2,
+        "Name":  "Brick",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A hard block of clay that has been fired in a Campfire or Draft Furnace."
+    },
+    {
+        "ItemID":  2075,
+        "Complexity":  2,
+        "Name":  "Mud Brick",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A simple brick made of dirt."
+    },
+    {
+        "ItemID":  2076,
+        "Complexity":  1,
+        "Name":  "Volatile Ant Bulb",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A small sac filled with a pulsing warm goo."
+    },
+    {
+        "ItemID":  2077,
+        "Complexity":  1,
+        "Name":  "Ant Ichor",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A globby bit of ant guts."
+    },
+    {
+        "ItemID":  2078,
+        "Complexity":  1,
+        "Name":  "Ant Chitin",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A hunk of hard ant bits."
+    },
+    {
+        "ItemID":  2079,
+        "Complexity":  1,
+        "Name":  "Ant Queen Claw Section",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A section of the ant queen's claw, maybe you can find a use for this gross thing!"
+    },
+    {
+        "ItemID":  2080,
+        "Complexity":  1,
+        "Name":  "Animal Dung",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A lump of feces from a an animal."
+    },
+    {
+        "ItemID":  2081,
+        "Complexity":  4,
+        "Name":  "Propellant",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A compressed fuel used to launch things at high velocity."
+    },
+    {
+        "ItemID":  2082,
+        "Complexity":  4,
+        "Name":  "Launcher Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A standardized set of components commonly used for building devices that launch things."
+    },
+    {
+        "ItemID":  2083,
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  2084,
+        "Complexity":  1,
+        "Name":  "Cooked Human Meat",
+        "AutoOrganizeString":  "food",
+        "Description":  "This is some cooked human flesh."
+    },
+    {
+        "ItemID":  2085,
+        "Complexity":  1,
+        "Name":  "Strange Herb",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A plant."
+    },
+    {
+        "ItemID":  2086,
+        "Complexity":  1,
+        "Name":  "Gas Bladder",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A disgusting rubbery sack used to hold gas."
+    },
+    {
+        "ItemID":  2087,
+        "Complexity":  1,
+        "Name":  "Laminous Wing",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A piece of flesh, stretched between some bones."
+    },
+    {
+        "ItemID":  2088,
+        "Complexity":  1,
+        "Name":  "Razor Leaf Blade",
+        "Description":  "A sharp organically derived blade."
+    },
+    {
+        "ItemID":  2089,
+        "Complexity":  1,
+        "Name":  "Rubbery Stick",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A small piece of rubbery wood."
+    },
+    {
+        "ItemID":  2090,
+        "Complexity":  2,
+        "Name":  "Rubbery Wood Board",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Rubbery wood shaped into a board, used in construction and various carpentry related tasks that require a more rubbery texture for some reason."
+    },
+    {
+        "ItemID":  2091,
+        "Complexity":  1,
+        "Name":  "Rubber Log",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A chunk of wood from some tree who was too stupid to get out of the way of your axe!"
+    },
+    {
+        "ItemID":  2092,
+        "Complexity":  4,
+        "Name":  "Rock Core",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Glowing chunk of rock, presumably from a weird rock creature."
+    },
+    {
+        "ItemID":  2093,
+        "Complexity":  2,
+        "Name":  "Rock Lips",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Hard rocky and luscious lips."
+    },
+    {
+        "ItemID":  2094,
+        "Complexity":  2,
+        "Name":  "Organic Joint",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A powerful joint from a creature with powerful legs. Composed primarily of bone and tendons."
+    },
+    {
+        "ItemID":  2095,
+        "Complexity":  2,
+        "Name":  "Rubbery Skin",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A purple, rubbery skin."
+    },
+    {
+        "ItemID":  2096,
+        "Complexity":  6,
+        "Name":  "Medulla",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A pulsing mass of pink matter."
+    },
+    {
+        "ItemID":  2097,
+        "Complexity":  2,
+        "Name":  "Ghost Hide",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The hide of a class 5 full roaming vapor."
+    },
+    {
+        "ItemID":  2098,
+        "Complexity":  2,
+        "Name":  "Ghost Claw",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A sharp finger or claw or something that fell off of that weird ghost looking thing when it died."
+    },
+    {
+        "ItemID":  2099,
+        "Complexity":  2,
+        "Name":  "Pumpkin Bomb",
+        "Description":  "A small pumpkin that is inexplicably volatile and prone to explosion."
+    },
+    {
+        "ItemID":  2100,
+        "Complexity":  2,
+        "Name":  "Copper Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A solid bar of refined copper."
+    },
+    {
+        "ItemID":  2101,
+        "Complexity":  3,
+        "Name":  "Iron Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A solid bar of refined iron. Can be used to craft various tools, armor and weapons."
+    },
+    {
+        "ItemID":  2102,
+        "Complexity":  4,
+        "Name":  "Bronze Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A hard copper alloy that uses tin as an additive."
+    },
+    {
+        "ItemID":  2103,
+        "Complexity":  4,
+        "Name":  "Lead Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A solid bar of lead. Commonly used any time you need something hard and heavy."
+    },
+    {
+        "ItemID":  2104,
+        "Complexity":  4,
+        "Name":  "Tin Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A solid bar of tin."
+    },
+    {
+        "ItemID":  2105,
+        "Complexity":  4,
+        "Name":  "Silver Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A solid bar of Silver."
+    },
+    {
+        "ItemID":  2106,
+        "Complexity":  5,
+        "Name":  "Gold Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A solid bar of refined gold."
+    },
+    {
+        "ItemID":  2107,
+        "Complexity":  6,
+        "Name":  "Steel Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A hard, strong, gray or bluish-gray alloy of iron with coal or anthracite used as an additive. Used extensively as a structural and fabricating material"
+    },
+    {
+        "ItemID":  2108,
+        "Complexity":  6,
+        "Name":  "Bornite Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Bornite is a shimmering, multi-colored metal that is able to harmonize with the cellular structure of the body in order to promote healing. It also protects from negativity, and removes obstacles that prevent reaching one's goals."
+    },
+    {
+        "ItemID":  2109,
+        "Complexity":  4,
+        "Name":  "Aluminum Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A soft durable and lightweight metal."
+    },
+    {
+        "ItemID":  2110,
+        "Complexity":  8,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  2111,
+        "Complexity":  8,
+        "Name":  "Platinum Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Platinum is a dense, malleable ductile metal that can be used to make advanced things."
+    },
+    {
+        "ItemID":  3000,
+        "Complexity":  1,
+        "Name":  "Leather Bag",
+        "Description":  "A simple leather bag."
+    },
+    {
+        "ItemID":  3001,
+        "Complexity":  1,
+        "Name":  "Wooden Chest",
+        "Description":  "A chest made of wooden boards."
+    },
+    {
+        "ItemID":  3002,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3003,
+        "Complexity":  2,
+        "Name":  "Large Tech Crate",
+        "Description":  "A large high quality crate."
+    },
+    {
+        "ItemID":  3004,
+        "Complexity":  2,
+        "Name":  "Small Tech Crate",
+        "Description":  "A small high quality crate."
+    },
+    {
+        "ItemID":  3005,
+        "Complexity":  2,
+        "Name":  "Small Tech Footlocker",
+        "Description":  "A small high quality footlocker."
+    },
+    {
+        "ItemID":  3006,
+        "Complexity":  2,
+        "Name":  "Tech Pouch",
+        "Description":  "A high tech pouch composed of various synthetic materials."
+    },
+    {
+        "ItemID":  3007,
+        "Complexity":  1,
+        "Name":  "Excavator Pouch",
+        "Description":  "This container helps you organize your inventory by automatically collecting gathered minerals."
+    },
+    {
+        "ItemID":  3008,
+        "Complexity":  1,
+        "Name":  "Hunter Pouch",
+        "Description":  "This container helps you organize your inventory by automatically collecting materials related to animals."
+    },
+    {
+        "ItemID":  3009,
+        "Complexity":  1,
+        "Name":  "Forager Pouch",
+        "Description":  "This container helps you organize your inventory by automatically collecting materials related to plants."
+    },
+    {
+        "ItemID":  3010,
+        "Complexity":  0,
+        "Name":  "Key Item Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3011,
+        "Complexity":  1,
+        "Name":  "Jeweler Pouch",
+        "Description":  "This container helps you organize your inventory by automatically collecting gems and jewels."
+    },
+    {
+        "ItemID":  3012,
+        "Complexity":  1,
+        "Name":  "Munition Pouch",
+        "Description":  "This container helps you organize your inventory by automatically collecting ammunition."
+    },
+    {
+        "ItemID":  3013,
+        "Complexity":  0,
+        "Name":  "Trash Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3014,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3015,
+        "Complexity":  2,
+        "Name":  "Strange Stone Chest",
+        "Description":  "Some kind of container composed of an unknown brown material with bits of an unknown purple crystal embedded in its surface. There are shapes and patterns etched into the surface for unkown reasons."
+    },
+    {
+        "ItemID":  3016,
+        "Complexity":  1,
+        "Name":  "Paper Bag",
+        "Description":  "A gross oily paper bag."
+    },
+    {
+        "ItemID":  3017,
+        "Complexity":  2,
+        "Name":  "Strange Barrel",
+        "Description":  "Some kind of barrel."
+    },
+    {
+        "ItemID":  3018,
+        "Complexity":  2,
+        "Name":  "Strange Wall Compartment",
+        "Description":  "Some kind of wall compartment of unknown purpose."
+    },
+    {
+        "ItemID":  3019,
+        "Complexity":  2,
+        "Name":  "Strange Bag",
+        "Description":  "Some kind of strange bag made of an unknown material"
+    },
+    {
+        "ItemID":  3020,
+        "Complexity":  2,
+        "Name":  "Strange Pouch",
+        "Description":  "Some kind of strange pouch made of an unknown material"
+    },
+    {
+        "ItemID":  3021,
+        "Complexity":  2,
+        "Name":  "Strange Small Container",
+        "Description":  "Some kind of small container composed of an unknown brown material."
+    },
+    {
+        "ItemID":  3022,
+        "Complexity":  8,
+        "Name":  "Strange Refinery",
+        "Description":  "This appears to be some kind of alien refiner. It's usage and purpose are unclear."
+    },
+    {
+        "ItemID":  3023,
+        "Complexity":  1,
+        "Name":  "Small Leather Pouch",
+        "Description":  "A small ornate leather pouch. It has strange markings and decorations, although their origin is unknown."
+    },
+    {
+        "ItemID":  3024,
+        "Complexity":  1,
+        "Name":  "Chess Board",
+        "Description":  "A chess board. Used for playing chess."
+    },
+    {
+        "ItemID":  3025,
+        "Complexity":  1,
+        "Name":  "Plastic Pumpkin Bucket",
+        "Description":  "A plastic bucket designed to look like a Jack O' Lantern. This will be useful when you go trick or treating at all the houses in your neighborhood. Oh wait, I forgot that you are probably the last human. Well, you can put other stuff in it too I guess."
+    },
+    {
+        "ItemID":  3026,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3027,
+        "Complexity":  1,
+        "Name":  "Makeshift Crate",
+        "Description":  "A small ornate leather pouch. It has strange markings and decorations, although their origin is unknown."
+    },
+    {
+        "ItemID":  3028,
+        "Complexity":  1,
+        "Name":  "Seismic Imager Components",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A pre-packaged set of materials used to quickly and easily construct a seismic imaging structure. Frequently found in landing pods."
+    },
+    {
+        "ItemID":  3029,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3030,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3031,
+        "Complexity":  1,
+        "Name":  "Dirty Diaper",
+        "Description":  "A standard issue diaper filled with excrement."
+    },
+    {
+        "ItemID":  3032,
+        "Complexity":  1,
+        "Name":  "Asteroid Mite Viscera",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A pile of internal organs and various bits of organic material from the inside of an asteroid mite."
+    },
+    {
+        "ItemID":  3033,
+        "Complexity":  1,
+        "Name":  "Crafting Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3034,
+        "Complexity":  1,
+        "Name":  "Block Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3037,
+        "Complexity":  1,
+        "Name":  "Explosive Charge",
+        "Description":  "A hunk of volatile explosives."
+    },
+    {
+        "ItemID":  3038,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3039,
+        "Complexity":  1,
+        "Name":  "Construction Dolly",
+        "Description":  "A dolly for moving around items."
+    },
+    {
+        "ItemID":  3040,
+        "Complexity":  1,
+        "Name":  "Tech Dumpster",
+        "Description":  "A well constructed dumpster."
+    },
+    {
+        "ItemID":  3041,
+        "Complexity":  1,
+        "Name":  "Dropped Backpack",
+        "Description":  "A backpack full of someone's things."
+    },
+    {
+        "ItemID":  3042,
+        "Complexity":  1,
+        "Name":  "Corn",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A corn cob surrounded by plant fibers. You can shuck the corn by using it."
+    },
+    {
+        "ItemID":  3043,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3044,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3045,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3046,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3047,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3048,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3049,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3050,
+        "Complexity":  1,
+        "Name":  "Leather Satchel",
+        "Description":  "A tidy leather satchel, whose primary purpose is to carry various goods."
+    },
+    {
+        "ItemID":  3051,
+        "Complexity":  1,
+        "Name":  "Blue Cooler",
+        "Description":  "This container helps you organize your inventory by automatically collecting gathered food."
+    },
+    {
+        "ItemID":  3052,
+        "Complexity":  3,
+        "Name":  "Mass Driver Payload",
+        "Description":  "A container for mass driver payload."
+    },
+    {
+        "ItemID":  3053,
+        "Complexity":  3,
+        "Name":  "Warhead",
+        "Description":  "This is a highly advanced thermonuclear warhead."
+    },
+    {
+        "ItemID":  3100,
+        "Complexity":  2,
+        "Name":  "Crude Handgun Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Basic components used for crafting a variety of handguns."
+    },
+    {
+        "ItemID":  3101,
+        "Complexity":  2,
+        "Name":  "Crude SMG Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Basic components used for crafting a variety of submachine guns."
+    },
+    {
+        "ItemID":  3102,
+        "Complexity":  2,
+        "Name":  "Crude Rifle Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Basic components used for crafting a variety of rifles."
+    },
+    {
+        "ItemID":  3103,
+        "Complexity":  2,
+        "Name":  "Crude Shotgun Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Basic components used for crafting a variety of shotguns."
+    },
+    {
+        "ItemID":  3104,
+        "Complexity":  2,
+        "Name":  "Crude Launcher Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Basic components used for crafting a variety of weapons that launch projectiles."
+    },
+    {
+        "ItemID":  3110,
+        "Complexity":  4,
+        "Name":  "Steel Handgun Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Steel components used for crafting a variety of handguns."
+    },
+    {
+        "ItemID":  3111,
+        "Complexity":  4,
+        "Name":  "Steel SMG Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Steel components used for crafting a variety of submachine guns."
+    },
+    {
+        "ItemID":  3112,
+        "Complexity":  4,
+        "Name":  "Steel Rifle Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Steel components used for crafting a variety of rifles."
+    },
+    {
+        "ItemID":  3113,
+        "Complexity":  4,
+        "Name":  "Steel Shotgun Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Steel components used for crafting a variety of shotguns."
+    },
+    {
+        "ItemID":  3114,
+        "Complexity":  4,
+        "Name":  "Steel Launcher Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Steel components used for crafting a variety of weapons that launch projectiles."
+    },
+    {
+        "ItemID":  3120,
+        "Complexity":  6,
+        "Name":  "Advanced Handgun Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Advanced components used for crafting a variety of handguns."
+    },
+    {
+        "ItemID":  3121,
+        "Complexity":  6,
+        "Name":  "Advanced SMG Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Advanced components used for crafting a variety of submachine guns."
+    },
+    {
+        "ItemID":  3122,
+        "Complexity":  6,
+        "Name":  "Advanced Rifle Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Advanced components used for crafting a variety of rifles."
+    },
+    {
+        "ItemID":  3123,
+        "Complexity":  6,
+        "Name":  "Advanced Shotgun Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Advanced components used for crafting a variety of shotguns."
+    },
+    {
+        "ItemID":  3124,
+        "Complexity":  6,
+        "Name":  "Advanced Launcher Parts",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Advanced components used for crafting a variety of weapons that launch projectiles."
+    },
+    {
+        "ItemID":  3400,
+        "Complexity":  2,
+        "Name":  "Structural Components",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A collection of standardized components for building structures."
+    },
+    {
+        "ItemID":  3500,
+        "Complexity":  2,
+        "Name":  "Gleaming Syrup",
+        "AutoOrganizeString":  "food",
+        "Description":  "A glowing portion of syrup. It smells sweet. Sickly sweet, but still sweet."
+    },
+    {
+        "ItemID":  3501,
+        "Complexity":  1,
+        "Name":  "Bana Chew",
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  3502,
+        "Complexity":  1,
+        "Name":  "Blue Chew",
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  3503,
+        "Complexity":  1,
+        "Name":  "Delicious Chew",
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  3504,
+        "Complexity":  1,
+        "Name":  "Jiggly Chew",
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  3505,
+        "Complexity":  2,
+        "Name":  "Bitter Jelly",
+        "AutoOrganizeString":  "food",
+        "Description":  "A bitter jelly."
+    },
+    {
+        "ItemID":  3506,
+        "Complexity":  1,
+        "Name":  "Juicy Chew",
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  3507,
+        "Complexity":  4,
+        "Name":  "Strange Compote",
+        "AutoOrganizeString":  "food",
+        "Description":  "A compote made of strange egg."
+    },
+    {
+        "ItemID":  3508,
+        "Complexity":  4,
+        "Name":  "Pulsing Paste",
+        "AutoOrganizeString":  "food",
+        "Description":  "A disgusting bit of paste that is pulsing in a way that makes you wonder."
+    },
+    {
+        "ItemID":  3509,
+        "Complexity":  2,
+        "Name":  "Cooked Steak",
+        "AutoOrganizeString":  "food",
+        "Description":  "A delightfully cooked steak."
+    },
+    {
+        "ItemID":  3510,
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  3511,
+        "Complexity":  1,
+        "Name":  "Cooked Haunch Meat",
+        "AutoOrganizeString":  "food",
+        "Description":  "A roasted bit of haunch meat from some animal."
+    },
+    {
+        "ItemID":  3512,
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  3513,
+        "Complexity":  1,
+        "Name":  "Spring Candy",
+        "AutoOrganizeString":  "food",
+        "Description":  "A bit of green candy."
+    },
+    {
+        "ItemID":  3514,
+        "Complexity":  1,
+        "Name":  "Sweet Chew",
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  3515,
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  3516,
+        "Complexity":  1,
+        "Name":  "Zesty Mash",
+        "AutoOrganizeString":  "food",
+        "Description":  "A delicious fruit and a disgusting poisonous mushroom mashed up into something that is better than the sum of its parts."
+    },
+    {
+        "ItemID":  4000,
+        "Complexity":  0,
+        "Name":  "Dig Laser",
+        "Description":  "This modular tool allows the user to cut through virtually any material, provided your MEG tool has a good enough lens. Can be upgraded with rubies in order to dig multiple blocks at a time.\n\nPrimary: Dig foreground blocks, plants and destroy projects\nSecondary: Dig background blocks"
+    },
+    {
+        "ItemID":  4001,
+        "Complexity":  0,
+        "Description":  "A building block. While equipped, you can use [reloadkey] to rotate the block and [flipkey] to flip it. You can place the block in the background by right clicking."
+    },
+    {
+        "ItemID":  4002,
+        "Complexity":  0,
+        "Name":  "Grab Laser",
+        "Description":  "A module for the MEG tool that allows you to suck items up like a vacuum cleaner. You can equip the module or use [grablaserkey] to suck up items at any time, even while smashing creatures with a club!"
+    },
+    {
+        "ItemID":  4003,
+        "Complexity":  2,
+        "Name":  "Magnetic Inductor",
+        "Description":  " This shake-weight lookin' thing will generate capacitor charge at the expense of raw physical exertion. If your capacitor is full, some of the excess energy will be used to charge any equipped battery."
+    },
+    {
+        "ItemID":  4004,
+        "Complexity":  0,
+        "Name":  "AGIS Emitter",
+        "Description":  "Allows remote access to the Artificial General Intelligence System of the USS Hephaestus. In the event that the user loses communication with the Hephaestus, the portable holo-emitter's backup AI routines can be used. WARNING: Backup AI routines run at reduced quality when running on local resources."
+    },
+    {
+        "ItemID":  4005,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  4006,
+        "Complexity":  1,
+        "Name":  "Boombox",
+        "Description":  "This electronic device is able to produce sound waves through electricity. Right clicking it will change the background music randomly."
+    },
+    {
+        "ItemID":  4007,
+        "Complexity":  0,
+        "Name":  "Wrist Light",
+        "Description":  "A module for the MEG tool that lights up the area around you. For all those times when you're pretty sure that there isn't a monster under your bed but you just want to make sure, ya know?  You can equip the module or use [lightkey] to use the light at any time."
+    },
+    {
+        "ItemID":  4008,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  4009,
+        "Complexity":  2,
+        "Name":  "A Bomb",
+        "Description":  "Well,"
+    },
+    {
+        "ItemID":  4010,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  4011,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  4012,
+        "Complexity":  1,
+        "Name":  "Empty Jug",
+        "Description":  "Presumably this is used for storing some kind of liquid."
+    },
+    {
+        "ItemID":  4013,
+        "Complexity":  2,
+        "Name":  "A jug of piss",
+        "Description":  "Ew, gross. Why did you pick that up? Can't you find another jug somewhere eyugh."
+    },
+    {
+        "ItemID":  4014,
+        "Complexity":  1,
+        "Name":  "Firestarter",
+        "Description":  "This starts fires, sometimes."
+    },
+    {
+        "ItemID":  4015,
+        "Complexity":  0,
+        "Name":  "Wrist Scanner",
+        "Description":  "A module for the MEG tool that allows you to scan the area around you. Scanned areas will be added to your minimap. Secondary function acts as an ore scanner, which can help find useful materials buried underground."
+    },
+    {
+        "ItemID":  4016,
+        "Complexity":  1,
+        "Name":  "Glob of Ant Food",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A nasty sac of goo, with some kind of food item suspended within."
+    },
+    {
+        "ItemID":  4017,
+        "Complexity":  2,
+        "Name":  "GPS Signal Device",
+        "Description":  "This device leaves a signal that can be seen on any maps within the network, including the map integrated into your MEG tool."
+    },
+    {
+        "ItemID":  4018,
+        "Complexity":  3,
+        "Name":  "Tech Blower",
+        "Description":  "A high tech device, composed of various inorganic components. It blows items around for some reason."
+    },
+    {
+        "ItemID":  4019,
+        "Complexity":  2,
+        "Name":  "Portable Tech Grill",
+        "Description":  "Once placed in the world and deployed, this technological marvel provides a convenient source of heat. Right click it in the world to deploy."
+    },
+    {
+        "ItemID":  4020,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  4021,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  4022,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  4023,
+        "Complexity":  3,
+        "Name":  "Strange Tablet",
+        "Description":  "A strange tablet, composed of some unfamiliar material. It has clear tool marks and engravings of unknown origin. \n\nThis weird tablet can be used on yourself by using the alternate fire or by holding the quick slot key. \n\nIt seems inactive.",
+        "Templates":  {
+                          "bound":  "A strange tablet, composed of some unfamiliar material. It has clear tool marks and engravings of unknown origin. \n\nThis weird tablet can be used on yourself by using the alternate fire or by holding the quick slot key. \n\nIt seems to be pulsing with energy."
+                      }
+    },
+    {
+        "ItemID":  4024,
+        "Complexity":  4,
+        "Name":  "Strange Gadget",
+        "Description":  "A strange gadget composed of unknown materials. It has a brown frame with some kind of spherical crystal in the center."
+    },
+    {
+        "ItemID":  4025,
+        "Complexity":  5,
+        "Name":  "Strange Thing",
+        "Description":  "A strange gadget composed of unknown materials. It has a brown frame with some kind of spherical crystal in the center."
+    },
+    {
+        "ItemID":  4026,
+        "Complexity":  2,
+        "Name":  "Snare",
+        "Description":  "A metal snare. When triggered, it slams shut and hurts like heck. Can be reset by right clicking."
+    },
+    {
+        "ItemID":  4027,
+        "Complexity":  4,
+        "Name":  "Soul Vessel",
+        "Description":  "A weird piece of ghost-based technology. Apparently, it fills up as you kill creatures with a ghost blade."
+    },
+    {
+        "ItemID":  4028,
+        "Complexity":  0,
+        "Name":  "Grapple Module",
+        "Description":  "A module for the MEG tool that allows you to use some kind of arcane science to grapple a piece of terrain and hurtle your body towards it. You can use the function anytime by pressing [grapplekey], and you can disconnect your grapple by pressing [down]."
+    },
+    {
+        "ItemID":  4029,
+        "Complexity":  0
+    },
+    {
+        "ItemID":  4030,
+        "Complexity":  0,
+        "Name":  "Satellite Relay Signal Decoder",
+        "Description":  "A highly technical widget that decodes satellite signals."
+    },
+    {
+        "ItemID":  4031,
+        "Complexity":  4,
+        "Name":  "Mature Tortoise Gland",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A strange organ from a strange large tortoise-like creature. It is a bit slimey and warm to the touch."
+    },
+    {
+        "ItemID":  4032,
+        "Complexity":  2,
+        "Name":  "Carapace",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A hard bit of chitinous material."
+    },
+    {
+        "ItemID":  4033,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  4034,
+        "Complexity":  3,
+        "Name":  "Strange Capsule",
+        "Description":  "A strange capsule shaped object with a handle, composed of an unknown material."
+    },
+    {
+        "ItemID":  4035,
+        "Complexity":  2,
+        "Name":  "Damaged Strange Alloy",
+        "Description":  "It looks like a wrecked bit of strange metal. No human technology could process this into anything useful."
+    },
+    {
+        "ItemID":  4036,
+        "Complexity":  2,
+        "Name":  "Broken Strange Dynamo",
+        "Description":  "Best guess is that this is some kind of busted up dynamo. No human technology could process this into anything useful."
+    },
+    {
+        "ItemID":  4037,
+        "Complexity":  4,
+        "Name":  "Strange Alloy",
+        "Description":  "A pristine plate of strange metal."
+    },
+    {
+        "ItemID":  4038,
+        "Complexity":  4,
+        "Name":  "Strange Dynamo",
+        "Description":  "A strange dynamo of some kind. It seems to harvest ambient energy from all nearby sources, which can be discharged at any rate. We should be able to use this to make some neat things."
+    },
+    {
+        "ItemID":  4039,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  4040,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  4041,
+        "Complexity":  1,
+        "Name":  "Squeak Toy",
+        "Description":  "A squeaky dog toy."
+    },
+    {
+        "ItemID":  4042,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  4043,
+        "Complexity":  1,
+        "Name":  "Escape Pod Heatsink",
+        "Description":  "A device for routing heat in the electrical systems of Escape Pods. Self-ejects in the case of a short to avoid damage to the escape pod. Just shove it back in and try again, it'll probably be fine."
+    },
+    {
+        "ItemID":  4044,
+        "Complexity":  1,
+        "Name":  "Brown Sugar Jar",
+        "Description":  "A jar containing brown sugar."
+    },
+    {
+        "ItemID":  4045,
+        "Complexity":  1,
+        "Name":  "Carafe",
+        "Description":  "A carafe."
+    },
+    {
+        "ItemID":  4049,
+        "Complexity":  1,
+        "Name":  "Coffee Bean Sack",
+        "Description":  "A sack of coffee beans."
+    },
+    {
+        "ItemID":  4050,
+        "Complexity":  1,
+        "Name":  "Coffee Grinder",
+        "Description":  "A device used to ground coffee for human consuption."
+    },
+    {
+        "ItemID":  4051,
+        "Complexity":  1,
+        "Name":  "Condiment Bottle",
+        "Description":  "A bottle that contains condiments of some kind."
+    },
+    {
+        "ItemID":  4052,
+        "Complexity":  1,
+        "Name":  "French Press",
+        "Description":  "A french press for making delicious coffee."
+    },
+    {
+        "ItemID":  4053,
+        "Complexity":  1,
+        "Name":  "Fruit Holder",
+        "Description":  "A set of trays for holding various fruits."
+    },
+    {
+        "ItemID":  4054,
+        "Complexity":  1,
+        "Name":  "Garbage Bag",
+        "Description":  "A bag of garbage."
+    },
+    {
+        "ItemID":  4055,
+        "Complexity":  1,
+        "Name":  "Garbage Bags",
+        "Description":  "Surprisingly enough, these are bags of garbage."
+    },
+    {
+        "ItemID":  4056,
+        "Complexity":  1,
+        "Name":  "Fruit Punch Dispenser",
+        "Description":  "A dispenser for fruit punch."
+    },
+    {
+        "ItemID":  4057,
+        "Complexity":  1,
+        "Name":  "Lemonade Dispenser",
+        "Description":  "A dispenser for lemonade."
+    },
+    {
+        "ItemID":  4058,
+        "Complexity":  1,
+        "Name":  "Orange Juice Dispenser",
+        "Description":  "A dispenser for orange juice."
+    },
+    {
+        "ItemID":  4059,
+        "Complexity":  1,
+        "Name":  "Napkin Holder",
+        "Description":  "A container that holds napkins."
+    },
+    {
+        "ItemID":  4060,
+        "Complexity":  1,
+        "Description":  "A rack for holding cups",
+        "Name":  "Pioneer Cafe Cup Rack"
+    },
+    {
+        "ItemID":  4061,
+        "Complexity":  1,
+        "Description":  "A woodens tool made for sitting."
+    },
+    {
+        "ItemID":  4062,
+        "Complexity":  1,
+        "Name":  "Pioneer Cafe Table",
+        "Description":  "A table."
+    },
+    {
+        "ItemID":  4063,
+        "Complexity":  1,
+        "Name":  "Silverware Dispenser",
+        "Description":  "A device that dispenses silverware."
+    },
+    {
+        "ItemID":  4064,
+        "Complexity":  1,
+        "Name":  "Stacked Plates",
+        "Description":  "Stacked Plates."
+    },
+    {
+        "ItemID":  4065,
+        "Complexity":  1,
+        "Name":  "Sugar Bowl",
+        "Description":  "A bowl of sugar."
+    },
+    {
+        "ItemID":  4066,
+        "Complexity":  1,
+        "Name":  "Tea Holder",
+        "Description":  "A container used for holding tea."
+    },
+    {
+        "ItemID":  4068,
+        "Complexity":  1,
+        "Name":  "Water Dispenser",
+        "Description":  "A dispenser for water."
+    },
+    {
+        "ItemID":  4069,
+        "Complexity":  1,
+        "Name":  "Chicken Squeak Toy",
+        "Description":  "A squeaky dog toy."
+    },
+    {
+        "ItemID":  4070,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  4071,
+        "Complexity":  8,
+        "Name":  "Industrial Mining Laser",
+        "Description":  "This piece of mining equipment harnesses plasma and focused light beams to quickly dig through terrain."
+    },
+    {
+        "ItemID":  4072,
+        "Complexity":  1,
+        "Name":  "Mortar And Pestle",
+        "Description":  "This can be used to grind some materials into a fine paste or powder. It can also be used to craft potions."
+    },
+    {
+        "ItemID":  4073,
+        "Complexity":  3,
+        "Name":  "Small Decorative Statue",
+        "Description":  "This is some sort of decorative statue. Based on my knowledge of Earth cultures, my best guess is that it is a fertility idol."
+    },
+    {
+        "ItemID":  4074,
+        "Complexity":  0,
+        "Name":  "Grapple Module",
+        "Description":  "A module for the MEG tool that allows you to use some kind of arcane science to grapple a piece of terrain and hurtle your body towards it. You can use the function anytime by pressing [grapplekey], and you can disconnect your grapple by pressing [down]."
+    },
+    {
+        "ItemID":  4500,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  4501,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  4505,
+        "Complexity":  2,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  4506,
+        "Complexity":  3,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  4507,
+        "Complexity":  4,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  4508,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  4509,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  4510,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  4511,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  4512,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  4513,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  4514,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  4516,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  4517,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  4518,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  5100,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  5101,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  5102,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5103,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5104,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  5105,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  5106,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  5107,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  5108,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  5109,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  5110,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  5200,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  5201,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  5202,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  5203,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  5204,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5205,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5206,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  5207,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  5208,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  5300,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  5301,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  5302,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  5303,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  5304,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5305,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  5306,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  5307,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5308,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5309,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  5310,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  5321,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  5322,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5400,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  5401,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  5402,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  5403,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  5404,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  5405,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  5406,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  5407,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  5408,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  5500,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  5501,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  5502,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  5503,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  5504,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  5505,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  5506,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  5507,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  5600,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  5601,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  6000,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  6001,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6002,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  6003,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  6004,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  6005,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6006,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6050,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  6051,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  6052,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  6053,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6054,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6055,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6056,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6057,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6058,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6059,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6060,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  6061,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6062,
+        "Complexity":  8
+    },
+    {
+        "ItemID":  6100,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6101,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6102,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6103,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6104,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6105,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6106,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6107,
+        "Complexity":  3,
+        "Description":  "A pistol made out of gross alien parts that fires gross alien goo."
+    },
+    {
+        "ItemID":  6108,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6109,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6110,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6111,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6112,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  6113,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6114,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6115,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6116,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6117,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6118,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6119,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6120,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6121,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6122,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6123,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6124,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6125,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6126,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6127,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6128,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6129,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6130,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6131,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6132,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6133,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6134,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6135,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6136,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6137,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6138,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6150,
+        "Complexity":  5,
+        "Description":  "A targeting remote for an orbital mining laser. Right-click paints a yellow sight laser. Left-click paints a green target; after a short delay a mining beam fires from the sky at that point. Draws from the space laser's stored energy, not your MEG."
+    },
+    {
+        "ItemID":  6200,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  6201,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6202,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6203,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  6300,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  6301,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  6500,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  6900,
+        "Complexity":  6,
+        "Name":  "Energy Glove",
+        "Description":  "This glove allows you to lob balls of energy when you charge the primary attack, and it shapes the energy into a blade as a secondary attack."
+    },
+    {
+        "ItemID":  6901,
+        "Complexity":  6,
+        "Name":  "Energy Glove Charge Upgrade",
+        "Description":  "An upgrade for the Energy Glove that allows the user to drop little energy bombs that exlode after an amount of time."
+    },
+    {
+        "ItemID":  6902,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  6903,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  6904,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  6905,
+        "Complexity":  6,
+        "Name":  "Energy Glove Slash Upgrade",
+        "Description":  "An upgrade for the Energy Glove that allows the user to slash at things"
+    },
+    {
+        "ItemID":  6906,
+        "Complexity":  5
+    },
+    {
+        "ItemID":  6907,
+        "Complexity":  7
+    },
+    {
+        "ItemID":  7000,
+        "Complexity":  1,
+        "Name":  "Flare",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A flare shell, it is kind of sticky, probably the sap used in crafting it. I hope."
+    },
+    {
+        "ItemID":  7001,
+        "Complexity":  1,
+        "Name":  "Special Flare Shell",
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  7002,
+        "Complexity":  1,
+        "Name":  "9mm Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A basic pistol ammunition."
+    },
+    {
+        "ItemID":  7003,
+        "Complexity":  1,
+        "Name":  "Shotgun Shell",
+        "AutoOrganizeString":  "munition",
+        "Description":  "Your go-to shotgun aummunition.  Gets the job done like a southern bumpkin."
+    },
+    {
+        "ItemID":  7004,
+        "Complexity":  1,
+        "Name":  "Acid Spray Rounds",
+        "AutoOrganizeString":  "munition",
+        "Description":  "Projectile cartridges filled with a corrosive acid."
+    },
+    {
+        "ItemID":  7005,
+        "Complexity":  1,
+        "Name":  "Blunderbuss Shell",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A comically large shotgun shell that never should have existed in the first place. Irresponsible."
+    },
+    {
+        "ItemID":  7008,
+        "Complexity":  2,
+        "Name":  "9mm High Velocity Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "High quality 9mm ammo, composed of reliable materials and aerodynamic or something which makes it faster."
+    },
+    {
+        "ItemID":  7009,
+        "Complexity":  2,
+        "Name":  "Rocket Flare Shell",
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  7010,
+        "Complexity":  2,
+        "Name":  "9mm High Ricochet Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "9mm ammo, treated with some kind of weird chemical that we found inside of a bug. Look, long story short, the bullets bounce now."
+    },
+    {
+        "ItemID":  7011,
+        "Complexity":  1,
+        "Name":  "Amber Flare",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A longer lasting flare, made from fossilized sap and some polymer."
+    },
+    {
+        "ItemID":  7012,
+        "Complexity":  1,
+        "Name":  "5.56 Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "Basic rifle ammo."
+    },
+    {
+        "ItemID":  7013,
+        "Complexity":  1,
+        "Name":  "Thermite Charges",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A magnesium and iron ore concoction that should burn stuff up real good when shot out of a thermite pistol."
+    },
+    {
+        "ItemID":  7014,
+        "Complexity":  2,
+        "Name":  ".357 Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A heavy duty (and just plain heavy) pistol ammunition."
+    },
+    {
+        "ItemID":  7015,
+        "Complexity":  2,
+        "Name":  "Rocket",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A big honkin' rocket, only useful when launched out of some kind of launcher."
+    },
+    {
+        "ItemID":  7016,
+        "Complexity":  2,
+        "Name":  "Impact Rod Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "An explosive cartridge used in an impact rod."
+    },
+    {
+        "ItemID":  7017,
+        "Complexity":  2,
+        "Name":  "Launcher Grenade",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A grenade that bounces off of stuff and explodes on contact with creatures."
+    },
+    {
+        "ItemID":  7018,
+        "Complexity":  1,
+        "Name":  "Sulfurous Ash",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A processed form of sulfur."
+    },
+    {
+        "ItemID":  7019,
+        "Complexity":  2,
+        "Name":  "Railgun Iron Slug",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A small iron slug designed to be fired out of a railgun."
+    },
+    {
+        "ItemID":  7020,
+        "Complexity":  1,
+        "Name":  "Crawler Dart",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A small gently pulsing hunk of chitin. I guess you could fire it like a bullet."
+    },
+    {
+        "ItemID":  7021,
+        "Complexity":  1,
+        "Name":  "Blow Dart",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A barbed dart designed to cause bleeding wounds."
+    },
+    {
+        "ItemID":  7022,
+        "Complexity":  2,
+        "Name":  "Heat Cell",
+        "AutoOrganizeString":  "munition",
+        "Description":  "An thermal energy cell full of a fluid formulated to create extreme amounts of heat."
+    },
+    {
+        "ItemID":  7023,
+        "Complexity":  2,
+        "Name":  "Cryo Cell",
+        "AutoOrganizeString":  "munition",
+        "Description":  "An thermal energy cell full of a fluid formulated to create extreme amounts of cold."
+    },
+    {
+        "ItemID":  7024,
+        "Complexity":  2,
+        "Name":  ".700 Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "An extremely large caliber rifle cartridge."
+    },
+    {
+        "ItemID":  7025,
+        "Complexity":  2,
+        "Name":  ".22lr Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A long rifle round used mostly for target shooting. It lacks the necessary stopping power for larger game."
+    },
+    {
+        "ItemID":  7026,
+        "Complexity":  2,
+        "Name":  ".45acp Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A rimless handgun cartridge, typically used for automatic pistols."
+    },
+    {
+        "ItemID":  7027,
+        "Complexity":  2,
+        "Name":  ".308 Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A standard hunting cartridge commonly used to hunt medium and large game."
+    },
+    {
+        "ItemID":  7028,
+        "Complexity":  2,
+        "Name":  ".357 Hollow Point Ammo",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A heavy duty (and just plain heavy) pistol ammunition."
+    },
+    {
+        "ItemID":  8000,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  8001,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  8002,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  8003,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  8004,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  8005,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  8006,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  8007,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  8008,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  8100,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  8101,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  8102,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  8103,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  8104,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  8105,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  8106,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  8107,
+        "Complexity":  6
+    },
+    {
+        "ItemID":  9000,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9001,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9002,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9003,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9004,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9005,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9006,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9007,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9008,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9009,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9010,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9011,
+        "Complexity":  3,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9012,
+        "Complexity":  3,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9100,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9101,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9102,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9103,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9104,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9105,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9106,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9107,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9108,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9109,
+        "Complexity":  3,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9110,
+        "Complexity":  3,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9200,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  9201,
+        "Complexity":  1,
+        "Name":  "Iron Caltrops",
+        "AutoOrganizeString":  "munition",
+        "Description":  "Nasty little spiked bits of metal that hurt real bad to step on."
+    },
+    {
+        "ItemID":  10000,
+        "Complexity":  2,
+        "Name":  "Round Tech Table",
+        "Description":  "A sweet techmological table."
+    },
+    {
+        "ItemID":  10001,
+        "Complexity":  2,
+        "Name":  "Tech Armoire",
+        "Description":  "A high-tech science fiction armoire. Primarily used for storing clothing."
+    },
+    {
+        "ItemID":  10002,
+        "Complexity":  2,
+        "Name":  "Tech Bar",
+        "Description":  "A high quality bar."
+    },
+    {
+        "ItemID":  10003,
+        "Complexity":  2,
+        "Description":  "A high quality cabinet, designed to hold things.",
+        "Name":  "Tech Cabinet"
+    },
+    {
+        "ItemID":  10004,
+        "Complexity":  2,
+        "Name":  "Tech Desk",
+        "Description":  "A precision manufactured plastic and steel desk."
+    },
+    {
+        "ItemID":  10005,
+        "Complexity":  2,
+        "Name":  "Tech Dresser",
+        "Description":  "A high quality dresser, typically used for storing clothing or small knick-knacks."
+    },
+    {
+        "ItemID":  10006,
+        "Complexity":  2,
+        "Name":  "Tech Keg",
+        "Description":  "This is a high tech fluid container, although the container is currently empty."
+    },
+    {
+        "ItemID":  10007,
+        "Complexity":  2,
+        "Name":  "Tech Locker",
+        "Description":  "An empty, locked locker."
+    },
+    {
+        "ItemID":  10008,
+        "Complexity":  2,
+        "Name":  "Tech Med Cabinet",
+        "Description":  "A standard medicine cabinet."
+    },
+    {
+        "ItemID":  10009,
+        "Complexity":  2,
+        "Description":  "This is just a shelf.",
+        "Name":  "Tech Shelf"
+    },
+    {
+        "ItemID":  10010,
+        "Complexity":  2,
+        "Description":  "A laboratory cabinet. Used for storing laboratory things.",
+        "Name":  "Tech Lab Cabinet"
+    },
+    {
+        "ItemID":  10011,
+        "Complexity":  2,
+        "Name":  "Tech Terminal",
+        "Description":  "A blank computer terminal."
+    },
+    {
+        "ItemID":  10012,
+        "Complexity":  2,
+        "Name":  "Small Tech Table",
+        "Description":  "A sweet (small) techmological table."
+    },
+    {
+        "ItemID":  10013,
+        "Complexity":  2,
+        "Name":  "Large Tech Table",
+        "Description":  "A sweet (large) techmological table."
+    },
+    {
+        "ItemID":  10014,
+        "Complexity":  3,
+        "Name":  "Computer",
+        "Description":  "A science fiction machine that does some kind of math or something."
+    },
+    {
+        "ItemID":  10015,
+        "Complexity":  3,
+        "Description":  "A small wall display.",
+        "Name":  "Small Wall Display"
+    },
+    {
+        "ItemID":  10016,
+        "Complexity":  3,
+        "Description":  "A useful and convenient map that gives you the basic layout of the Pioneer Station.",
+        "Name":  "Pioneer Map"
+    },
+    {
+        "ItemID":  10017,
+        "Complexity":  3,
+        "Description":  "A communications panel.",
+        "Name":  "Door Panel"
+    },
+    {
+        "ItemID":  10018,
+        "Complexity":  2,
+        "Name":  "Bed",
+        "Description":  "A padded device humans typically use for sleeping and coitus."
+    },
+    {
+        "ItemID":  10019,
+        "Complexity":  2,
+        "Name":  "Tech Toilet",
+        "Description":  "My scrolls seem to suggest that this is some sort of religious shrine."
+    },
+    {
+        "ItemID":  10020,
+        "Complexity":  2,
+        "Name":  "Tech Shower",
+        "Description":  "A water-based cleaning device."
+    },
+    {
+        "ItemID":  10021,
+        "Complexity":  2,
+        "Description":  "A water based cleaning device.",
+        "Name":  "Tech Sink"
+    },
+    {
+        "ItemID":  10022,
+        "Complexity":  2,
+        "Name":  "Armor Locker",
+        "Description":  "A steel armor locker."
+    },
+    {
+        "ItemID":  10023,
+        "Complexity":  2,
+        "Description":  "A small wall display.",
+        "Name":  "Small Wall Frame"
+    },
+    {
+        "ItemID":  10024,
+        "Complexity":  2,
+        "Name":  "Steel Weapon Rack",
+        "Description":  "A simple rack for storing weapons and tools."
+    },
+    {
+        "ItemID":  10025,
+        "Complexity":  2,
+        "Description":  "A self-contained set of shelves sized just right for various kinds of munitions.",
+        "Name":  "Steel Gun Rack"
+    },
+    {
+        "ItemID":  10050,
+        "Complexity":  2,
+        "Name":  "Xenite Alloy Pedestal",
+        "Description":  "Some kind of decorative pedestal made of an un-scannable material."
+    },
+    {
+        "ItemID":  10051,
+        "Complexity":  2,
+        "Name":  "Work Table",
+        "Description":  "A wooden work table. Items and tools placed on this table can be used when crafting nearby."
+    },
+    {
+        "ItemID":  10052,
+        "Complexity":  1,
+        "Name":  "Basic Smelter",
+        "Description":  "A simple brick smelting oven, used for smelting ores, turning sand into glass, that sort of thing. Must be placed in-world to use."
+    },
+    {
+        "ItemID":  10053,
+        "Complexity":  3,
+        "Name":  "Smelting Furnace",
+        "Description":  "A competently constructed smelting furnace, designed to smelt various ores and other materials twice as quickly as a basic smelter. It supports adding additives for certain recipes. Must be placed in-world to use."
+    },
+    {
+        "ItemID":  10054,
+        "Complexity":  3,
+        "Name":  "Coolant Tank",
+        "Description":  "A tank of coolant."
+    },
+    {
+        "ItemID":  10055,
+        "Complexity":  2,
+        "Description":  "A helmet rack or a hat rack, depending on whether you put helmets or hats in it. Do not combine hats and helmets.",
+        "Name":  "Helmet Rack"
+    },
+    {
+        "ItemID":  10056,
+        "Complexity":  2,
+        "Name":  "Tech Garbage Disposal",
+        "Description":  "A currently locked garbage disposal port."
+    },
+    {
+        "ItemID":  10057,
+        "Complexity":  2,
+        "Name":  "Tech Pedestal",
+        "Description":  "A decorative pedestal for displaying neat things."
+    },
+    {
+        "ItemID":  10058,
+        "Complexity":  2,
+        "Description":  "A door panel.",
+        "Name":  "Door Panel"
+    },
+    {
+        "ItemID":  10059,
+        "Complexity":  2,
+        "Description":  "A terminal used for upgrading standard-issue multi-passes.",
+        "Name":  "Access Card Upgrade Terminal"
+    },
+    {
+        "ItemID":  10060,
+        "Complexity":  2,
+        "Name":  "Iron Anvil",
+        "Description":  "A great big hunk of iron, with a great big flat bit on the top that you're apparently supposed to whack things on. I'll be honest, I'm not totally sure how these things work."
+    },
+    {
+        "ItemID":  10061,
+        "Complexity":  1,
+        "Name":  "Green Potted Plant",
+        "Description":  "A lovely green plant. Its fake, but doesn't it look real!"
+    },
+    {
+        "ItemID":  10062,
+        "Complexity":  1,
+        "Name":  "Purple Potted Plant",
+        "Description":  "A genuine (looking) purple plant."
+    },
+    {
+        "ItemID":  10063,
+        "Complexity":  3,
+        "Description":  "A precision manufactured plastic and steel desk.",
+        "Name":  "Material Dispenser Tray"
+    },
+    {
+        "ItemID":  10064,
+        "Complexity":  4,
+        "Description":  "This is a panel used for communicating with the A.G.I.S. help system.",
+        "Name":  "A.G.I.S. Call Panel"
+    },
+    {
+        "ItemID":  10065,
+        "Complexity":  3,
+        "Description":  "A device for calling an elevator, and displaying the elevator's movement state.",
+        "Name":  "Elevator Call Panel"
+    },
+    {
+        "ItemID":  10066,
+        "Complexity":  1,
+        "Name":  "Tree Tap",
+        "Description":  "When attached to a tree, this tap will collect up to 20 sap over time."
+    },
+    {
+        "ItemID":  10067,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  10068,
+        "Complexity":  3,
+        "Name":  "Strange Purple Sphere",
+        "Description":  "A strange purple spherical crystal composed of an unknown material."
+    },
+    {
+        "ItemID":  10069,
+        "Complexity":  3,
+        "Name":  "A strange column",
+        "Description":  "A strange column of unknown purpose."
+    },
+    {
+        "ItemID":  10070,
+        "Complexity":  3,
+        "Name":  "A strange column",
+        "Description":  "A strange column of unknown purpose."
+    },
+    {
+        "ItemID":  10071,
+        "Complexity":  3,
+        "Name":  "A strange column",
+        "Description":  "A strange column of unknown purpose."
+    },
+    {
+        "ItemID":  10072,
+        "Complexity":  3,
+        "Name":  "A strange column",
+        "Description":  "A strange column of unknown purpose."
+    },
+    {
+        "ItemID":  10073,
+        "Complexity":  3,
+        "Name":  "A strange column",
+        "Description":  "A strange column of unknown purpose."
+    },
+    {
+        "ItemID":  10074,
+        "Complexity":  1,
+        "Name":  "Makeshift Table",
+        "Description":  "A poorly constructed tiny table"
+    },
+    {
+        "ItemID":  10075,
+        "Complexity":  4,
+        "Name":  "Strange Technology Ball",
+        "Description":  "A strange purple spherical crystal composed of an unknown material."
+    },
+    {
+        "ItemID":  10076,
+        "Complexity":  5,
+        "Description":  "A shelf composed of unknown materials.",
+        "Name":  "Xenoid Wall Shelf"
+    },
+    {
+        "ItemID":  10077,
+        "Complexity":  5,
+        "Description":  "A set of shelves composed of an unknown material.",
+        "Name":  "Xenoid Carrier Shelf 2"
+    },
+    {
+        "ItemID":  10078,
+        "Complexity":  3,
+        "Name":  "Xenoid Carrier Table",
+        "Description":  "A table composed of unknown materials."
+    },
+    {
+        "ItemID":  10079,
+        "Complexity":  3,
+        "Name":  "Cable Spool",
+        "Description":  "A large coil of wire wrapped around a plastic spindle."
+    },
+    {
+        "ItemID":  10080,
+        "Complexity":  3,
+        "Name":  "Fuel Container",
+        "Description":  "A container made of synthetic materials used for carrying fuel (often synthetic)."
+    },
+    {
+        "ItemID":  10081,
+        "Complexity":  3,
+        "Name":  "Hazmat Disposal",
+        "Description":  "A high-tech container used for disposing of harmful and/or disgusting things."
+    },
+    {
+        "ItemID":  10082,
+        "Complexity":  3,
+        "Name":  "Laundry Cart",
+        "Description":  "A device used for transporting dirty laundry."
+    },
+    {
+        "ItemID":  10083,
+        "Complexity":  3,
+        "Name":  "Material Pallet",
+        "Description":  "A large pallet used for transporting goods."
+    },
+    {
+        "ItemID":  10084,
+        "Complexity":  3,
+        "Name":  "Covered Materials",
+        "Description":  "A pile of construction materials covered in a tarp."
+    },
+    {
+        "ItemID":  10085,
+        "Complexity":  3,
+        "Description":  "A high quality large shelf.",
+        "Name":  "Tech Shelf"
+    },
+    {
+        "ItemID":  10086,
+        "Complexity":  3,
+        "Name":  "Strange Crystal",
+        "Description":  "A strange purple crystal composed of an unknown material."
+    },
+    {
+        "ItemID":  10087,
+        "Complexity":  3,
+        "Description":  "A device that uses energy and ambient particles to slowly produce a nanobot-infused healing solution. Requires wireless power from a functional Fusion Generator."
+    },
+    {
+        "ItemID":  10088,
+        "Complexity":  3,
+        "Description":  "A device that stores energy as a sort of electron slurry. Requires wireless power from a functional Fusion Generator."
+    },
+    {
+        "ItemID":  10089,
+        "Complexity":  3,
+        "Name":  "Ammunition Press",
+        "Description":  "A tool used when dismantling ammo into it's constituent parts."
+    },
+    {
+        "ItemID":  10090,
+        "Complexity":  3,
+        "Name":  "Tinker Table",
+        "Description":  "A table what for to tinker with."
+    },
+    {
+        "ItemID":  10091,
+        "Complexity":  9,
+        "Name":  "Beryllium Sphere",
+        "Description":  "A sphere of beryllium that can be used in a power generator."
+    },
+    {
+        "ItemID":  10092,
+        "Complexity":  9,
+        "Name":  "Hypercapacitor",
+        "Description":  "An electrical device that can store an extremely large amount of power for a short time. Used in power generators."
+    },
+    {
+        "ItemID":  10093,
+        "Complexity":  9,
+        "Name":  "Stabilizer Plate",
+        "Description":  "A plate that is used in power generators to stabilize a beryllium sphere."
+    },
+    {
+        "ItemID":  10094,
+        "Complexity":  9,
+        "Name":  "Strange Alien Device",
+        "Description":  "A strange device of unknown origin."
+    },
+    {
+        "ItemID":  10095,
+        "Complexity":  3,
+        "Description":  "A light only used in the case of an emergency.",
+        "Name":  "Emergency Light"
+    },
+    {
+        "ItemID":  10096,
+        "Complexity":  3,
+        "Name":  "Iron Grill",
+        "Description":  "An iron grill."
+    },
+    {
+        "ItemID":  10097,
+        "Complexity":  3,
+        "Name":  "Portable Electric Grill",
+        "Description":  "This is a portable grill that runs on battery power and can cook things that require up to 2 ingredients."
+    },
+    {
+        "ItemID":  10098,
+        "Complexity":  3,
+        "Description":  "A shelf composed of xenostone.",
+        "Name":  "Xenoid Shelf"
+    },
+    {
+        "ItemID":  10099,
+        "Complexity":  3,
+        "Name":  "Strange Alien Device",
+        "Description":  "This strange alien device seems to be containing some kind of energy field."
+    },
+    {
+        "ItemID":  10100,
+        "Complexity":  1,
+        "Description":  "A simple wooden chair."
+    },
+    {
+        "ItemID":  10101,
+        "Complexity":  2,
+        "Name":  "Tech Chair",
+        "Description":  "A well constructed chair made of various natural and synthetic materials."
+    },
+    {
+        "ItemID":  10102,
+        "Complexity":  1,
+        "Name":  "Makeshift Chair",
+        "Description":  "A poorly constructed tiny chair"
+    },
+    {
+        "ItemID":  10103,
+        "Complexity":  1,
+        "Description":  "A tasteful wooden chair made for the Pioneer Station's cafe."
+    },
+    {
+        "ItemID":  10104,
+        "Complexity":  3,
+        "Name":  "Important Looking Pedestal",
+        "Description":  "Some kind of decorative pedestal that looks like it has some sort of importance to the Duglette culture."
+    },
+    {
+        "ItemID":  10105,
+        "Complexity":  3,
+        "Description":  "An ornate chair composed of xenostone with strange purple crystals embedded in it."
+    },
+    {
+        "ItemID":  10106,
+        "Complexity":  3,
+        "Name":  "Xenoid Table",
+        "Description":  "A table made primarily of xenostone with purple crystals embedded in it."
+    },
+    {
+        "ItemID":  10107,
+        "Complexity":  3,
+        "Name":  "Xenoid Bed",
+        "Description":  "Some sort of strange device that looks like it might be a bed."
+    },
+    {
+        "ItemID":  10108,
+        "Complexity":  3,
+        "Name":  "Xenite Table Ornament",
+        "Description":  "A small xenite ornament meant for tabletop display."
+    },
+    {
+        "ItemID":  10109,
+        "Complexity":  3,
+        "Name":  "Xenoid Historical Artifact",
+        "Description":  "An ancient xenoid relic of uncertain purpose."
+    },
+    {
+        "ItemID":  10110,
+        "Complexity":  3,
+        "Name":  "Xenoid Historical Artifact",
+        "Description":  "An ancient xenoid relic of uncertain purpose."
+    },
+    {
+        "ItemID":  10111,
+        "Complexity":  3,
+        "Name":  "Xenoid Historical Artifact",
+        "Description":  "An ancient xenoid relic of uncertain purpose."
+    },
+    {
+        "ItemID":  10112,
+        "Complexity":  3,
+        "Name":  "Xenoid Historical Artifact",
+        "Description":  "An ancient xenoid relic of uncertain purpose."
+    },
+    {
+        "ItemID":  10113,
+        "Complexity":  3,
+        "Name":  "Xenostone Display Stand",
+        "Description":  "A xenostone stand for displaying artifacts."
+    },
+    {
+        "ItemID":  10114,
+        "Complexity":  3,
+        "Name":  "Small Xenostone Display Stand",
+        "Description":  "A small xenostone stand for displaying artifacts."
+    },
+    {
+        "ItemID":  10115,
+        "Complexity":  3,
+        "Name":  "Xenostone Heavy Chair",
+        "Description":  "A heavy xenostone chair with purple crystal accents."
+    },
+    {
+        "ItemID":  10116,
+        "Complexity":  3,
+        "Name":  "Xenostone Low Chair",
+        "Description":  "A low xenostone chair with purple crystal accents."
+    },
+    {
+        "ItemID":  10117,
+        "Complexity":  3,
+        "Name":  "Xenostone Table Lamp",
+        "Description":  "A small xenostone lamp that casts a soft purple glow."
+    },
+    {
+        "ItemID":  10200,
+        "Complexity":  1,
+        "Description":  "Pot",
+        "Name":  "Decorative Pot"
+    },
+    {
+        "ItemID":  10201,
+        "Complexity":  1,
+        "Description":  "Pot",
+        "Name":  "Decorative Pot"
+    },
+    {
+        "ItemID":  10202,
+        "Complexity":  1,
+        "Description":  "Pot",
+        "Name":  "Decorative Pot"
+    },
+    {
+        "ItemID":  10203,
+        "Complexity":  1,
+        "Description":  "Pot",
+        "Name":  "Decorative Pot"
+    },
+    {
+        "ItemID":  10204,
+        "Complexity":  1,
+        "Description":  "Pot",
+        "Name":  "Decorative Pot"
+    },
+    {
+        "ItemID":  10205,
+        "Complexity":  1,
+        "Description":  "Pot",
+        "Name":  "Decorative Pot"
+    },
+    {
+        "ItemID":  10206,
+        "Complexity":  2,
+        "Description":  "A pot of liquid. It feels like it is bubbling.",
+        "Name":  "Decorative Pot"
+    },
+    {
+        "ItemID":  10300,
+        "Complexity":  3,
+        "Name":  "Polymer Material Bin",
+        "Description":  "A large bin designed to hold construction materials."
+    },
+    {
+        "ItemID":  10301,
+        "Complexity":  3,
+        "Name":  "Plastic Material Bin",
+        "Description":  "A large bin designed to hold construction materials."
+    },
+    {
+        "ItemID":  12000,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  12001,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  12002,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  12500,
+        "Complexity":  2,
+        "Name":  "High Explosive Grenade",
+        "AutoOrganizeString":  "munition",
+        "Description":  "OH GOD"
+    },
+    {
+        "ItemID":  12501,
+        "Complexity":  2,
+        "Name":  "Flubber Grenade",
+        "AutoOrganizeString":  "munition",
+        "Description":  "OH GOD"
+    },
+    {
+        "ItemID":  12502,
+        "Complexity":  2,
+        "Name":  "Ant Goo Grenade",
+        "AutoOrganizeString":  "munition",
+        "Description":  "This sticky and hard clump of ant guts splatters creatures with a gross goo that sticks them to the ground."
+    },
+    {
+        "ItemID":  12503,
+        "Complexity":  2,
+        "Name":  "Dynamite Stick",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A stick of dynamite that you can throw at stuff that you don't want to exist anymore"
+    },
+    {
+        "ItemID":  12504,
+        "Complexity":  2,
+        "AutoOrganizeString":  "munition",
+        "Description":  "A bundle of highly explosive explosives. Explodes 3 times in short succession. Can be placed on walls, floors, ceilings and backgrounds, and can be lit by a firestarter.",
+        "Name":  "Dynamite Bundle"
+    },
+    {
+        "ItemID":  12505,
+        "Complexity":  5,
+        "Name":  "Lifeform Suspension Sphere",
+        "Description":  "This appears to be some sort of strange alien technology that can capture and store creatures.",
+        "Templates":  {
+                          "held":  "This appears to be some sort of strange alien technology that can capture and store creatures.\nCurrently Holding: [mobname]"
+                      }
+    },
+    {
+        "ItemID":  12506,
+        "Complexity":  1,
+        "Name":  "M80",
+        "AutoOrganizeString":  "munition",
+        "Description":  "This is basically a quarter stick of dynamite. Its basically a safe toy, so have fun! You can light thrown fireworks by pressing the reload key."
+    },
+    {
+        "ItemID":  12507,
+        "Complexity":  1,
+        "Name":  "Pack of 20 Firecrackers",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A rapid fire explosive type of firework. You can light thrown fireworks by pressing the reload key."
+    },
+    {
+        "ItemID":  12508,
+        "Complexity":  2,
+        "Name":  "Pack of 100 Firecrackers",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A rapid fire explosive type of firework. You can light thrown fireworks by pressing the reload key."
+    },
+    {
+        "ItemID":  12509,
+        "Complexity":  3,
+        "Name":  "Pack of 1000 Firecrackers",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A rapid fire explosive type of firework. You can light thrown fireworks by pressing the reload key."
+    },
+    {
+        "ItemID":  12510,
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition",
+        "Description":  "A small prepared explosive that stuns creatures when hit."
+    },
+    {
+        "ItemID":  13000,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  13002,
+        "Complexity":  2,
+        "Description":  "A highly efficient LED lamp.  The cell contained within has an effective lifetime of 1000 hours.",
+        "Name":  "LED Lamp"
+    },
+    {
+        "ItemID":  13003,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  13004,
+        "Complexity":  1,
+        "Description":  "Fully functional with the wireless power systems adopted by modern society.",
+        "Name":  "Fluorescent Light"
+    },
+    {
+        "ItemID":  13005,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  13006,
+        "Complexity":  1,
+        "Description":  "A bioluminescent chunk of glowing alien ant parts. I cannot determine which parts they are.",
+        "Name":  "Glowing Ant Bulb"
+    },
+    {
+        "ItemID":  13107,
+        "Complexity":  1,
+        "Name":  "Red Roman Candle",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A handheld firework that emits brilliant colored fire. As a bit of trivia, the Roman Candle was probably invented in the city of Rome or invented by by Johnathan Roman or something."
+    },
+    {
+        "ItemID":  13108,
+        "Complexity":  1,
+        "Name":  "Bottle Rocket",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A basic pistol ammunition."
+    },
+    {
+        "ItemID":  13109,
+        "Complexity":  1,
+        "Name":  "Bangsnaps",
+        "AutoOrganizeString":  "munition",
+        "Description":  "They're like little explosives. Very little explosives. Like ridiculously tiny explosives."
+    },
+    {
+        "ItemID":  13110,
+        "Complexity":  1,
+        "Name":  "Bottle Rocket Kit",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A small, harmless rocket fired out of a glass bottle."
+    },
+    {
+        "ItemID":  13111,
+        "Complexity":  1,
+        "Name":  "Blue Roman Candle",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A handheld firework that emits brilliant colored fire. As a bit of trivia, the Roman Candle was probably invented in the city of Rome or invented by by Johnathan Roman or something."
+    },
+    {
+        "ItemID":  13112,
+        "Complexity":  1,
+        "Name":  "Green Roman Candle",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A handheld firework that emits brilliant colored fire. As a bit of trivia, the Roman Candle was probably invented in the city of Rome or invented by by Johnathan Roman or something."
+    },
+    {
+        "ItemID":  13113,
+        "Complexity":  1,
+        "Name":  "Yellow Roman Candle",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A handheld firework that emits brilliant colored fire. As a bit of trivia, the Roman Candle was probably invented in the city of Rome or invented by by Johnathan Roman or something."
+    },
+    {
+        "ItemID":  13114,
+        "Complexity":  1,
+        "Name":  "Multicolored Roman Candle",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A handheld firework that emits brilliant colored fire. As a bit of trivia, the Roman Candle was probably invented in the city of Rome or invented by by Johnathan Roman or something."
+    },
+    {
+        "ItemID":  13115,
+        "Complexity":  1,
+        "Name":  "Sparkler",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A simple firework that emits a bright shower of sparks."
+    },
+    {
+        "ItemID":  13116,
+        "Complexity":  4,
+        "Name":  "Party Pack of Fireworks",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A pack of fireworks, typically used to celebrate holidays such as Independence Day in America. I'm not sure where it came from. Right click it to open it."
+    },
+    {
+        "ItemID":  14000,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  15000,
+        "Complexity":  1,
+        "Name":  "Copper Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A relatively soft, malleable metal with a reddish orange color. It has a high thermal and electric conductivity."
+    },
+    {
+        "ItemID":  15001,
+        "Complexity":  1,
+        "Name":  "Iron Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A mineral from which metallic iron can be extracted."
+    },
+    {
+        "ItemID":  15002,
+        "Complexity":  2,
+        "Name":  "Lead Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "Ore that can be smelted into lead ingots."
+    },
+    {
+        "ItemID":  15003,
+        "Complexity":  2,
+        "Name":  "Tin Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A silvery, malleable metal that is not easily oxidized in air. It can be used as an additive when refining copper ore to create a bronze alloy."
+    },
+    {
+        "ItemID":  15004,
+        "Complexity":  2,
+        "Name":  "Silver Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "Another silvery malleable metal, but this one is actually silver. It is traditionally prized for its mystical properties."
+    },
+    {
+        "ItemID":  15005,
+        "Complexity":  2,
+        "Name":  "Anthracite",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A hard, compact variety of mineral coal that has a high luster. It can be used as an additive to refine iron ore into steel."
+    },
+    {
+        "ItemID":  15006,
+        "Complexity":  3,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  15007,
+        "Complexity":  3,
+        "Name":  "Aluminum Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A brown ore that can be smelted into aluminum. Also known as Bauxite."
+    },
+    {
+        "ItemID":  15008,
+        "Complexity":  2,
+        "Name":  "Coal",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "Fossilized carbon, contains a good amount of energy."
+    },
+    {
+        "ItemID":  15009,
+        "Complexity":  4,
+        "Name":  "Bornite Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "Also known as \nPeacock Ore\n, this multi-colored ore can be further refined into Bornite Ingots."
+    },
+    {
+        "ItemID":  15010,
+        "Complexity":  7,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  15011,
+        "Complexity":  1,
+        "Name":  "Charcoal",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "Brittle carbon, contains a good amount of energy."
+    },
+    {
+        "ItemID":  15012,
+        "Complexity":  7,
+        "Name":  "Platinum Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A collection of dirt, miscelaneous minerals and a healthy amount of unrefined platinum."
+    },
+    {
+        "ItemID":  15500,
+        "Complexity":  1,
+        "Name":  "Raw Ruby",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the intensity of your MEG tool.\r\nIncreases dig speed and allows digging 2 tiles at once."
+    },
+    {
+        "ItemID":  15501,
+        "Complexity":  2,
+        "Name":  "Rough Ruby",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the intensity of your MEG tool.\r\nIncreases dig speed and allows digging 3 tiles at once."
+    },
+    {
+        "ItemID":  15502,
+        "Complexity":  3,
+        "Name":  "Refined Ruby",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the intensity of your MEG tool.\r\nIncreases dig speed and allows digging 4 tiles at once."
+    },
+    {
+        "ItemID":  15503,
+        "Complexity":  1,
+        "Name":  "Raw Sapphire",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 2 items at once."
+    },
+    {
+        "ItemID":  15504,
+        "Complexity":  2,
+        "Name":  "Rough Sapphire",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 3 items at once."
+    },
+    {
+        "ItemID":  15505,
+        "Complexity":  3,
+        "Name":  "Refined Sapphire",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 4 items at once."
+    },
+    {
+        "ItemID":  15506,
+        "Complexity":  1,
+        "Name":  "Raw Topaz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the luminosity of your MEG tool.\r\nIncreases the range of your wrist light by 2 tiles."
+    },
+    {
+        "ItemID":  15507,
+        "Complexity":  2,
+        "Name":  "Rough Topaz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the luminosity of your MEG tool.\r\nIncreases the range of your wrist light by 4 tiles."
+    },
+    {
+        "ItemID":  15508,
+        "Complexity":  3,
+        "Name":  "Refined Topaz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the luminosity of your MEG tool.\r\nIncreases the range of your wrist light by 6 tiles."
+    },
+    {
+        "ItemID":  15509,
+        "Complexity":  1,
+        "Name":  "Raw Rose Quartz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that you could tell would be beautiful with some processing."
+    },
+    {
+        "ItemID":  15510,
+        "Complexity":  2,
+        "Name":  "Rough Rose Quartz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that is on its way to being quite beautiful."
+    },
+    {
+        "ItemID":  15511,
+        "Complexity":  3,
+        "Name":  "Refined Rose Quartz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "Just a beautiful gem."
+    },
+    {
+        "ItemID":  15512,
+        "Complexity":  1,
+        "Name":  "Raw Amethyst",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 5 tiles."
+    },
+    {
+        "ItemID":  15513,
+        "Complexity":  2,
+        "Name":  "Rough Amethyst",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 10 tiles."
+    },
+    {
+        "ItemID":  15514,
+        "Complexity":  3,
+        "Name":  "Refined Amethyst",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 15 tiles."
+    },
+    {
+        "ItemID":  15515,
+        "Complexity":  5,
+        "Name":  "Faceted Amethyst",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 20 tiles."
+    },
+    {
+        "ItemID":  15516,
+        "Complexity":  7,
+        "Name":  "Brilliant Amethyst",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 25 tiles."
+    },
+    {
+        "ItemID":  15517,
+        "Complexity":  5,
+        "Name":  "Faceted Ruby",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the intensity of your MEG tool.\r\nIncreases dig speed and allows digging 5 tiles at once."
+    },
+    {
+        "ItemID":  15518,
+        "Complexity":  7,
+        "Name":  "Brilliant Ruby",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the intensity of your MEG tool.\r\nIncreases dig speed and allows digging 6 tiles at once."
+    },
+    {
+        "ItemID":  15519,
+        "Complexity":  5,
+        "Name":  "Faceted Sapphire",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 5 items at once."
+    },
+    {
+        "ItemID":  15520,
+        "Complexity":  7,
+        "Name":  "Brilliant Sapphire",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 6 items at once."
+    },
+    {
+        "ItemID":  15521,
+        "Complexity":  5,
+        "Name":  "Faceted Rose Quartz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that is just really quite beautiful."
+    },
+    {
+        "ItemID":  15522,
+        "Complexity":  7,
+        "Name":  "Brilliant Rose Quartz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that is just really quite stunningly beautiful."
+    },
+    {
+        "ItemID":  15523,
+        "Complexity":  5,
+        "Name":  "Faceted Topaz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the luminosity of your MEG tool.\r\nIncreases the range of your wrist light by 8 tiles."
+    },
+    {
+        "ItemID":  15524,
+        "Complexity":  7,
+        "Name":  "Brilliant Topaz",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the luminosity of your MEG tool.\r\nIncreases the range of your wrist light by 10 tiles."
+    },
+    {
+        "ItemID":  15525,
+        "Complexity":  1,
+        "Name":  "Raw Emerald",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 3 tiles and reduces energy drain by 15%."
+    },
+    {
+        "ItemID":  15526,
+        "Complexity":  2,
+        "Name":  "Rough Emerald",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 6 tiles and reduces energy drain by 30%."
+    },
+    {
+        "ItemID":  15527,
+        "Complexity":  3,
+        "Name":  "Refined Emerald",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 9 tiles and reduces energy drain by 45%."
+    },
+    {
+        "ItemID":  15528,
+        "Complexity":  5,
+        "Name":  "Faceted Emerald",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 12 tiles and reduces energy drain by 60%."
+    },
+    {
+        "ItemID":  15529,
+        "Complexity":  7,
+        "Name":  "Brilliant Emerald",
+        "AutoOrganizeString":  "jeweler",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 15 tiles and reduces energy drain by 75%."
+    },
+    {
+        "ItemID":  16000,
+        "Complexity":  6,
+        "Name":  "Steel Turret",
+        "Description":  "A deployable sentry weapon system. Accepts 9mm ammo and tracks hostiles Ã¢Â€Â” and anything you attack Ã¢Â€Â” including above and below. Cannot be picked up while deployed."
+    },
+    {
+        "ItemID":  16001,
+        "Complexity":  1,
+        "Name":  "Chicken Feed",
+        "Description":  "Have you ever looked at a chicken up close?  They're basically secret dinosaurs.  Befriend chickens with this feed they can't resist."
+    },
+    {
+        "ItemID":  16002,
+        "Complexity":  2,
+        "Name":  "Flashlight",
+        "Description":  "A small portable device used to illuminate an area near the user."
+    },
+    {
+        "ItemID":  16003,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  16004,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  16005,
+        "Complexity":  6,
+        "Name":  "Steel Spider Drone",
+        "Description":  "A walking defense drone."
+    },
+    {
+        "ItemID":  16006,
+        "Complexity":  6,
+        "Name":  "Hacked Steel Turret",
+        "Description":  "This turret has been modified to fire at humans, while ignoring anything else. It has also been modified to feel pain if it accidentally harms a chicken."
+    },
+    {
+        "ItemID":  16008,
+        "Complexity":  6,
+        "Name":  "Blink Device",
+        "Description":  "A small portable device used to teleport the user to another location"
+    },
+    {
+        "ItemID":  16009,
+        "Complexity":  1,
+        "Name":  "Grass Seed Bag",
+        "Description":  "Throw these seeds on bare earth to grow some sweet, sweet grass."
+    },
+    {
+        "ItemID":  16010,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  16011,
+        "Complexity":  10,
+        "Name":  "Strange Gadget",
+        "Description":  "Some sort of strange alien device with various dials, buttons and compartments of unknown purpose."
+    },
+    {
+        "ItemID":  16012,
+        "Complexity":  4
+    },
+    {
+        "ItemID":  16013,
+        "Complexity":  2,
+        "Name":  "Material Grinder",
+        "Description":  "This device grinds up items in order to extract some of the raw materials and occasionally extracts trace metals and gems from basalt, granite, slate and marble. Higher capacity batteries enable faster grinding."
+    },
+    {
+        "ItemID":  16014,
+        "Complexity":  3,
+        "Name":  "Hologram Decoy",
+        "Description":  "Dazzle your foes with this throwable gadget that acts as a decoy to draw attention away from yourself."
+    },
+    {
+        "ItemID":  16015,
+        "Complexity":  5,
+        "Name":  "Optical Camouflage",
+        "Description":  "A shameless device that renders the user invisible as long as nobody is looking too hard."
+    },
+    {
+        "ItemID":  16016,
+        "Complexity":  1,
+        "Name":  "Lovely Herb",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A plant."
+    },
+    {
+        "ItemID":  16017,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  16018,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  16019,
+        "Complexity":  7,
+        "Name":  "Xenoid Reflector",
+        "Description":  "Some sort of strange alien device that seems to be usable as a shield to reflect alien energy projectiles."
+    },
+    {
+        "ItemID":  16020,
+        "Complexity":  3,
+        "Name":  "Acid Neutralizer Bag",
+        "Description":  "Throw this gunk on blocks that you want to protect from acid damage."
+    },
+    {
+        "ItemID":  16021,
+        "Complexity":  3,
+        "Description":  "This appears to be some sort of hand-held device, but I cannot give you any more details because my scans cannot penetrate the surface."
+    },
+    {
+        "ItemID":  16022,
+        "Complexity":  3,
+        "Name":  "Alien Device",
+        "Description":  "A strange alien device with an unknown purpose."
+    },
+    {
+        "ItemID":  16023,
+        "Complexity":  3,
+        "Name":  "Full Power Cell",
+        "Description":  "This is a power cell that has been filled with a liquid battery solution. It can be used to quickly add charge to a battery installed in your MEG tool."
+    },
+    {
+        "ItemID":  16024,
+        "Complexity":  3,
+        "Name":  "Empty Power Cell",
+        "Description":  "A fuel cell that can be used to quickly add charge to a capacitor installed in your MEG tool. Must be filled with power juice to be functional."
+    },
+    {
+        "ItemID":  17000,
+        "Complexity":  1,
+        "Name":  "Juicy Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A juice-filled fruit that has a fresh and rejuvinating smell."
+    },
+    {
+        "ItemID":  17001,
+        "Complexity":  1,
+        "Name":  "Pebbly Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A small hard fruit with a tangy finish.  Not bad!"
+    },
+    {
+        "ItemID":  17002,
+        "Complexity":  1,
+        "Name":  "Delicious Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This delicious fruit has a sweet smell."
+    },
+    {
+        "ItemID":  17003,
+        "Complexity":  1,
+        "Name":  "Blossom Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A beautiful, blossoming fruit."
+    },
+    {
+        "ItemID":  17004,
+        "Complexity":  1,
+        "Name":  "Blue Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A spicy blue fruit with a tender skin."
+    },
+    {
+        "ItemID":  17005,
+        "Complexity":  1,
+        "Name":  "Orange Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "An orange fruit with a tough rind and a strong citrus smell."
+    },
+    {
+        "ItemID":  17006,
+        "Complexity":  1,
+        "Name":  "Sweet Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "An incredibly sweet fruit that increases your maximum stamina when eaten."
+    },
+    {
+        "ItemID":  17007,
+        "Complexity":  1,
+        "Name":  "Ground Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A strange fruit typically found on the ground."
+    },
+    {
+        "ItemID":  17008,
+        "Complexity":  1,
+        "Name":  "Bana Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A curvy fruit with a creamy flesh. It really hits the spot."
+    },
+    {
+        "ItemID":  17009,
+        "Complexity":  1,
+        "Name":  "Jiggly Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A tangy smelling fruit that jiggles when wobbled."
+    },
+    {
+        "ItemID":  17010,
+        "Complexity":  1,
+        "Name":  "Pumpkin Berry",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A delicious berry with a creamy flesh that looks suspiciously like an adorable little pumpkin. While it looks like a larval pumpkin, it is actually fully grown."
+    },
+    {
+        "ItemID":  17011,
+        "Complexity":  3,
+        "Name":  "Very Large Pumpkin",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A very large, fully grown pumpkin with creamy flesh. You can eat it or throw it, either way it is fantastic."
+    },
+    {
+        "ItemID":  17012,
+        "Complexity":  2,
+        "Name":  "Large Pumpkin",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A large, fully grown pumpkin with creamy flesh. You can eat it or throw it, either way it is fantastic."
+    },
+    {
+        "ItemID":  17013,
+        "Complexity":  1,
+        "Name":  "Medium Pumpkin",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A medium, fully grown pumpkin with creamy flesh. You can eat it or throw it, either way it is fantastic."
+    },
+    {
+        "ItemID":  17014,
+        "Complexity":  1,
+        "Name":  "Medium Pumpkin",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A medium, fully grown pumpkin with creamy flesh. You can eat it or throw it, either way it is fantastic."
+    },
+    {
+        "ItemID":  17015,
+        "Complexity":  1,
+        "Name":  "Small Pumpkin",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A small, fully grown pumpkin with a creamy flesh. You can eat it or throw it, either way it is fantastic."
+    },
+    {
+        "ItemID":  17016,
+        "Complexity":  1,
+        "Name":  "Pumpkin Rind",
+        "AutoOrganizeString":  "food",
+        "Description":  "A delicious hunk of pumpkin flesh."
+    },
+    {
+        "ItemID":  17017,
+        "Complexity":  3,
+        "Name":  "Apple",
+        "Description":  "A small fruit with red skin. It contains a large amount of fructose."
+    },
+    {
+        "ItemID":  17018,
+        "Complexity":  3,
+        "Name":  "Peach",
+        "Description":  "A small, sweet fruit with a skin that has shades of red, yellow and orange."
+    },
+    {
+        "ItemID":  17019,
+        "Complexity":  3,
+        "Name":  "Strawberry",
+        "Description":  "A small, sweet fruit."
+    },
+    {
+        "ItemID":  17020,
+        "Complexity":  3,
+        "Name":  "Citrica Fruit",
+        "Description":  "A large purple fruit with a strong citrus smell."
+    },
+    {
+        "ItemID":  17105,
+        "Complexity":  1,
+        "Name":  "Grass Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "I have no idea what this is, but I can tell you that it seems to requires bare dirt (no grass) to be planted."
+    },
+    {
+        "ItemID":  17109,
+        "Complexity":  1,
+        "Name":  "Lettuce Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "An adorable little seed."
+    },
+    {
+        "ItemID":  17110,
+        "Complexity":  3,
+        "Name":  "Pumpkin Seed",
+        "Description":  "A small seed that can grow a pumpkin plant."
+    },
+    {
+        "ItemID":  17113,
+        "Complexity":  1,
+        "Name":  "Strawberry Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A small round seed that will grow into a strawberry bush if planted in the ground. Requires bare dirt (no grass) to be planted."
+    },
+    {
+        "ItemID":  17150,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  17200,
+        "Complexity":  1,
+        "Name":  "Grey Mushroom",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This mushroom smells like nothing at all."
+    },
+    {
+        "ItemID":  17201,
+        "Complexity":  1,
+        "Name":  "Short Mushroom",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This mushroom has a strong floral smell."
+    },
+    {
+        "ItemID":  17202,
+        "Complexity":  1,
+        "Name":  "Tall Mushroom",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This mushroom has a woody smell."
+    },
+    {
+        "ItemID":  17203,
+        "Complexity":  1,
+        "Name":  "Wide Mushroom",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This mushroom has a strong spicy aroma."
+    },
+    {
+        "ItemID":  17204,
+        "Complexity":  1,
+        "Name":  "Spore Pod",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This mushroom smells like nothing that my sensors have ever smelled before."
+    },
+    {
+        "ItemID":  17205,
+        "Complexity":  1,
+        "Name":  "Truffle",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This mushroom has a unique smell that is hard to describe."
+    },
+    {
+        "ItemID":  17206,
+        "Complexity":  1,
+        "Name":  "Cooked Grey Mushroom",
+        "AutoOrganizeString":  "food",
+        "Description":  "A cooked fungus that smells like nothing at all."
+    },
+    {
+        "ItemID":  17207,
+        "Complexity":  1,
+        "Name":  "Cooked Short Mushroom",
+        "AutoOrganizeString":  "food",
+        "Description":  "A cooked fungus with a floral fragrance."
+    },
+    {
+        "ItemID":  17208,
+        "Complexity":  1,
+        "Name":  "Cooked Tall Mushroom",
+        "AutoOrganizeString":  "food",
+        "Description":  "A cooked fungus with a woody smell."
+    },
+    {
+        "ItemID":  17209,
+        "Complexity":  1,
+        "Name":  "Cooked Wide Mushroom",
+        "AutoOrganizeString":  "food",
+        "Description":  "A cooked fungus with a strong spicy smell."
+    },
+    {
+        "ItemID":  17210,
+        "Complexity":  1,
+        "Name":  "Cooked Sporepod",
+        "AutoOrganizeString":  "food",
+        "Description":  "A cooked fungus with an unfamiliar smell."
+    },
+    {
+        "ItemID":  17211,
+        "Complexity":  1,
+        "Name":  "Cooked Truffle",
+        "AutoOrganizeString":  "food",
+        "Description":  "A cooked fungus with a strong, but indescribable smell."
+    },
+    {
+        "ItemID":  18001,
+        "Complexity":  3,
+        "Name":  "Medium Barrel Bomb",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A hefty bomb full of explosive stuff. Light it with a firestarter and then watch the fireworks. So just to be clear, when I say fireworks I mean a potentially deadly explosion."
+    },
+    {
+        "ItemID":  18002,
+        "Complexity":  3,
+        "Name":  "This is some kind of egg shaped explosive.",
+        "AutoOrganizeString":  "munition",
+        "Description":  "This is some kind of egg shaped explosive."
+    },
+    {
+        "ItemID":  18003,
+        "Complexity":  3,
+        "Name":  "Broodpack Egg",
+        "AutoOrganizeString":  "munition",
+        "Description":  "This is some kind of egg shaped explosive."
+    },
+    {
+        "ItemID":  19000,
+        "Complexity":  9,
+        "Name":  "Blueprint",
+        "Description":  "A blank blueprint.",
+        "Templates":  {
+                          "filled":  "A blueprint for a [itemname].",
+                          "nameFilled":  "[itemname] Blueprint",
+                          "nameEmpty":  "Blank Blueprint"
+                      }
+    },
+    {
+        "ItemID":  19001,
+        "Complexity":  9
+    },
+    {
+        "ItemID":  19002,
+        "Complexity":  2,
+        "Name":  "Datapad",
+        "Description":  "A datapad containing information.",
+        "Templates":  {
+                          "useful":  "A datapad containing \"useful\" information."
+                      }
+    },
+    {
+        "ItemID":  19003,
+        "Complexity":  9,
+        "Name":  "Multipass",
+        "Description":  "A basic access card for low level personnel. Opens level 0 doors.",
+        "Templates":  {
+                          "leveled":  "An access card that has been coded for level [level] personnel.",
+                          "nameLeveled":  "Multipass - Level [level]"
+                      }
+    },
+    {
+        "ItemID":  19004,
+        "Complexity":  9
+    },
+    {
+        "ItemID":  19005,
+        "Complexity":  3,
+        "Name":  "Standard Lens",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This lens is used to focus the lasers emitted from your MEG tool."
+    },
+    {
+        "ItemID":  19006,
+        "Complexity":  1,
+        "Name":  "Cracked Lens",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This lens is used to focus the lasers emitted from your MEG tool. This one has been cracked, so your wrist laser will only be able to dig through relatively soft materials."
+    },
+    {
+        "ItemID":  19007,
+        "Complexity":  5,
+        "Name":  "Precise Lens",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This lens is used to focus the lasers emitted from your MEG tool. This lens can focus beams more precisely than a standard lens, which allows it to dig thorugh denser materials."
+    },
+    {
+        "ItemID":  19008,
+        "Complexity":  7,
+        "Name":  "Gorgeous Lens",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This appears to be a customized lens that utilizes a refined rose quarts and bornite. The unique combination of materials allows it to closely replicate the properties of a metamaterial lens while being significantly more gorgeous."
+    },
+    {
+        "ItemID":  19009,
+        "Complexity":  6,
+        "Name":  "Jumpjet Core",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This appears to be some sort of energy core, perhaps you could use it for something useful."
+    },
+    {
+        "ItemID":  19010,
+        "Complexity":  8,
+        "Name":  "Metamaterial Lens",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This lens utilizes carbon nanotubes to guide photons dramatically better than more traditional lenses. It's unique photon wave guide allows your MEG tool's wrist laser to cut through almost any known material."
+    },
+    {
+        "ItemID":  20000,
+        "Complexity":  1,
+        "Name":  "Copper Hammer",
+        "Description":  "A simple copper hammer that is required to craft certain recipes."
+    },
+    {
+        "ItemID":  20001,
+        "Complexity":  1,
+        "Name":  "Saw",
+        "Description":  "A small hand saw used for cutting various materials."
+    },
+    {
+        "ItemID":  20002,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  20003,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  20004,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  20005,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  20006,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  20008,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  20009,
+        "Complexity":  1,
+        "Name":  "Salvage Kit",
+        "Description":  "A basic salvage kit. Use it and then target an item to attempt to take it apart."
+    },
+    {
+        "ItemID":  20010,
+        "Complexity":  2,
+        "Name":  "Superior Salvage Kit",
+        "Description":  "A superior salvage kit. Use it and then target an item to attempt to take it apart."
+    },
+    {
+        "ItemID":  20011,
+        "Complexity":  1,
+        "Name":  "Stone Grinder Blade",
+        "Description":  "A simple stone grinder blade, used in a Material Grinder to grind up items. Due to its relatively poor quality, it only has a 25% yield for ground up items."
+    },
+    {
+        "ItemID":  20012,
+        "Complexity":  3,
+        "Name":  "Iron Grinder Blade",
+        "Description":  "An iron grinder blade, used in a Material Grinder to grind up items. Due to its halfway decent quality, it has a 50% yield for ground up items."
+    },
+    {
+        "ItemID":  20013,
+        "Complexity":  5,
+        "Name":  "Steel Grinder Blade",
+        "Description":  "A steel grinder blade, used in a Material Grinder to grind up items. Due to its excellent quality, it has a 75% yield for ground up items."
+    },
+    {
+        "ItemID":  20014,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  20015,
+        "Complexity":  2
+    },
+    {
+        "ItemID":  20016,
+        "Complexity":  2,
+        "Name":  "Dye Pigments",
+        "Description":  "A collection of dye pigments that can be used in order to set the color of a Dye Basin."
+    },
+    {
+        "ItemID":  20017,
+        "Complexity":  2,
+        "Name":  "Dye Basin",
+        "Description":  "A small wooden tub full of water that can be used to dye clothing and armor. You can change the color of the water by using Dye Pigments on the basin."
+    },
+    {
+        "ItemID":  20018,
+        "Complexity":  2,
+        "Name":  "Dye Cleaning Rag",
+        "Description":  "A rag that you can use in order to clean dye off of an item that has been dyed with a dye basin."
+    },
+    {
+        "ItemID":  20019,
+        "Complexity":  3,
+        "Name":  "Iron Hammer",
+        "Description":  "A simple iron hammer that is required to craft certain recipes."
+    },
+    {
+        "ItemID":  20020,
+        "Complexity":  3,
+        "Name":  "Steel Hammer",
+        "Description":  "A simple steel hammer that is required to craft certain recipes."
+    },
+    {
+        "ItemID":  21000,
+        "Complexity":  1,
+        "Name":  "A Ration of Food",
+        "AutoOrganizeString":  "food",
+        "Description":  "Pliskin wants some more."
+    },
+    {
+        "ItemID":  21001,
+        "Complexity":  1,
+        "Name":  "MRE",
+        "AutoOrganizeString":  "food",
+        "Description":  "A meal ready to eat, it is technically nourishment. Technically."
+    },
+    {
+        "ItemID":  21002,
+        "Complexity":  1,
+        "Name":  "Can of Beans",
+        "AutoOrganizeString":  "food",
+        "Description":  "A can of beans. Toot."
+    },
+    {
+        "ItemID":  21003,
+        "Complexity":  1,
+        "Name":  "Corn Dog",
+        "AutoOrganizeString":  "food",
+        "Description":  "Its technically food!"
+    },
+    {
+        "ItemID":  21004,
+        "Complexity":  1,
+        "Name":  "Lettuce",
+        "AutoOrganizeString":  "food",
+        "Description":  "A head of lettuce."
+    },
+    {
+        "ItemID":  21005,
+        "Complexity":  4,
+        "Name":  "Strange Egg",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A strange nug-like glob. It appears to be some kind of egg."
+    },
+    {
+        "ItemID":  21006,
+        "Complexity":  1,
+        "Name":  "Turd",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A bit of mammal waste."
+    },
+    {
+        "ItemID":  21007,
+        "Complexity":  1,
+        "Name":  "Feces",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A bit of mammal waste."
+    },
+    {
+        "ItemID":  21008,
+        "Complexity":  1,
+        "Name":  "Human Brain",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A human brain. It looks like it was living... until recently."
+    },
+    {
+        "ItemID":  21500,
+        "Complexity":  2,
+        "Name":  "Empty Tonic Vessel"
+    },
+    {
+        "ItemID":  21501,
+        "Complexity":  3,
+        "Name":  "Heal Tonic"
+    },
+    {
+        "ItemID":  21502,
+        "Complexity":  3,
+        "Name":  "Blast Tonic"
+    },
+    {
+        "ItemID":  21503,
+        "Complexity":  3,
+        "Name":  "Clarity Tonic"
+    },
+    {
+        "ItemID":  22000,
+        "Complexity":  1,
+        "Name":  "Basalt Deposit"
+    },
+    {
+        "ItemID":  22001,
+        "Complexity":  1,
+        "Name":  "Sulphur Deposit"
+    },
+    {
+        "ItemID":  22002,
+        "Complexity":  1,
+        "Name":  "Granite Deposit"
+    },
+    {
+        "ItemID":  22003,
+        "Complexity":  1,
+        "Name":  "Limestone Deposit"
+    },
+    {
+        "ItemID":  22004,
+        "Complexity":  1,
+        "Name":  "Marble Deposit"
+    },
+    {
+        "ItemID":  22005,
+        "Complexity":  1,
+        "Name":  "Salt Deposit"
+    },
+    {
+        "ItemID":  22006,
+        "Complexity":  1,
+        "Name":  "Grey Stone Deposit"
+    },
+    {
+        "ItemID":  22007,
+        "Complexity":  1,
+        "Name":  "Mushroom Deposit"
+    },
+    {
+        "ItemID":  22008,
+        "Complexity":  1,
+        "Name":  "Grey Stone Deposit 2"
+    },
+    {
+        "ItemID":  22009,
+        "Complexity":  1,
+        "Name":  "Grey Stone Deposit 3"
+    },
+    {
+        "ItemID":  22010,
+        "Complexity":  1,
+        "Name":  "Grey Stone Deposit 4"
+    },
+    {
+        "ItemID":  22011,
+        "Complexity":  1,
+        "Name":  "Grey Stone Deposit 5"
+    },
+    {
+        "ItemID":  22012,
+        "Complexity":  1,
+        "Name":  "Brown Stone Deposit"
+    },
+    {
+        "ItemID":  22013,
+        "Complexity":  1,
+        "Name":  "Soldier Ant Mound"
+    },
+    {
+        "ItemID":  22014,
+        "Complexity":  1,
+        "Name":  "Small Ant Food Deposit"
+    },
+    {
+        "ItemID":  22015,
+        "Complexity":  1,
+        "Name":  "Large Ant Food Deposit"
+    },
+    {
+        "ItemID":  22016,
+        "Complexity":  1,
+        "Name":  "Ant Hive"
+    },
+    {
+        "ItemID":  22017,
+        "Complexity":  1,
+        "Name":  "Ant Hive"
+    },
+    {
+        "ItemID":  22018,
+        "Complexity":  1,
+        "Name":  "Ant Hive"
+    },
+    {
+        "ItemID":  22019,
+        "Complexity":  1,
+        "Name":  "Ant Waste"
+    },
+    {
+        "ItemID":  22020,
+        "Complexity":  1,
+        "Name":  "Saltpeter Deposit"
+    },
+    {
+        "ItemID":  22021,
+        "Complexity":  1,
+        "Name":  "Ant Waste"
+    },
+    {
+        "ItemID":  22022,
+        "Complexity":  1,
+        "Name":  "Strange Crystal Deposit"
+    },
+    {
+        "ItemID":  22023,
+        "Complexity":  1,
+        "Name":  "Asteroid Deposit"
+    },
+    {
+        "ItemID":  22024,
+        "Complexity":  1,
+        "Name":  "Asteroid Deposit"
+    },
+    {
+        "ItemID":  22025,
+        "Complexity":  1,
+        "Name":  "Crystal Cluster"
+    },
+    {
+        "ItemID":  22026,
+        "Complexity":  1,
+        "Name":  "Crystal Cluster"
+    },
+    {
+        "ItemID":  22027,
+        "Complexity":  1,
+        "Name":  "Crystal Cluster"
+    },
+    {
+        "ItemID":  22028,
+        "Complexity":  1,
+        "Name":  "Crystal Cluster"
+    },
+    {
+        "ItemID":  22029,
+        "Complexity":  1,
+        "Name":  "Crystal Cluster"
+    },
+    {
+        "ItemID":  22030,
+        "Complexity":  1,
+        "Name":  "Crystal Cluster"
+    },
+    {
+        "ItemID":  22031,
+        "Complexity":  1,
+        "Name":  "Makeshift Deposit"
+    },
+    {
+        "ItemID":  22032,
+        "Complexity":  1,
+        "Name":  "Makeshift Deposit"
+    },
+    {
+        "ItemID":  22040,
+        "Complexity":  1,
+        "Name":  "Strange Crystal Form"
+    },
+    {
+        "ItemID":  22041,
+        "Complexity":  1,
+        "Name":  "Topaz Deposit"
+    },
+    {
+        "ItemID":  22042,
+        "Complexity":  1,
+        "Name":  "Xenostone Husk",
+        "Description":  "A chunk of hard stone that seems to have been drained of it's strange essence."
+    },
+    {
+        "ItemID":  22043,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  22044,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  22045,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  22046,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  23001,
+        "Complexity":  1,
+        "Name":  "Bar of Soap",
+        "Description":  "A bar of soap, used for cleaning surfaces and skin."
+    },
+    {
+        "ItemID":  23002,
+        "Complexity":  1,
+        "Name":  "Shampoo",
+        "Description":  "A composition of various chemicals designed to make your hair shiny and clean."
+    },
+    {
+        "ItemID":  23003,
+        "Complexity":  1,
+        "Name":  "Dog Treat",
+        "AutoOrganizeString":  "food",
+        "Description":  "A milk bone. Honestly it doesn't taste that bad, here try it."
+    },
+    {
+        "ItemID":  23004,
+        "Complexity":  1,
+        "Name":  "O2 Cannister",
+        "Description":  "A cannister of supplementary oxygen."
+    },
+    {
+        "ItemID":  23005,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  23006,
+        "Complexity":  1,
+        "Name":  "Cloth Bandages",
+        "Description":  "A simple bandage used to stop bleeding."
+    },
+    {
+        "ItemID":  23007,
+        "Complexity":  1
+    },
+    {
+        "ItemID":  23008,
+        "Complexity":  1,
+        "Name":  "Primitive Bandages",
+        "Description":  "A primitive bandage used to stop bleeding."
+    },
+    {
+        "ItemID":  23009,
+        "Complexity":  2,
+        "Name":  "Cloth Poultice",
+        "Description":  "A cloth bandage with a medicinal substance applied. Stops bleeding and heals a moderate amount."
+    },
+    {
+        "ItemID":  23010,
+        "Complexity":  3
+    },
+    {
+        "ItemID":  23011,
+        "Complexity":  1,
+        "Name":  "Lotion",
+        "Description":  "A small container of lotion."
+    },
+    {
+        "ItemID":  23012,
+        "Complexity":  1,
+        "Name":  "Chap Stick",
+        "Description":  "A small stick of stuff to keep your lips from getting chapped."
+    },
+    {
+        "ItemID":  23013,
+        "Complexity":  1,
+        "Name":  "Tissue Box",
+        "Description":  "A box of tissues."
+    },
+    {
+        "ItemID":  23014,
+        "Complexity":  1,
+        "Name":  "Escape Pod Faring 0",
+        "Description":  "A faring for an escape pod."
+    },
+    {
+        "ItemID":  23015,
+        "Complexity":  1,
+        "Name":  "Escape Pod Faring 1",
+        "Description":  "A faring for an escape pod."
+    },
+    {
+        "ItemID":  23016,
+        "Complexity":  1,
+        "Name":  "Oil Container",
+        "Description":  "A container for storing oil."
+    },
+    {
+        "ItemID":  23017,
+        "Complexity":  1,
+        "Name":  "Tool Bin",
+        "Description":  "A container for storing tools."
+    },
+    {
+        "ItemID":  23018,
+        "Complexity":  1,
+        "Description":  "A rack that holds towels. Pretty self explanatory.",
+        "Name":  "Towel Rack"
+    },
+    {
+        "ItemID":  23019,
+        "Complexity":  1,
+        "Name":  "IV Holder",
+        "Description":  "A holder for intravenous fluids."
+    },
+    {
+        "ItemID":  23020,
+        "Complexity":  1,
+        "Name":  "Potted Plant",
+        "Description":  "A gorgeous potted plant."
+    },
+    {
+        "ItemID":  23021,
+        "Complexity":  1,
+        "Name":  "Med Bay Floor Console",
+        "Description":  "A computer console used in the Med Bay."
+    },
+    {
+        "ItemID":  23022,
+        "Complexity":  1,
+        "Name":  "Dog",
+        "Description":  "A good companion, currently sitting. Drag into the world to let them out."
+    },
+    {
+        "ItemID":  24000,
+        "Complexity":  4,
+        "Name":  "Purple metal scrap",
+        "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface."
+    },
+    {
+        "ItemID":  24001,
+        "Complexity":  4,
+        "Name":  "Black alien_ship_scrap_1",
+        "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface."
+    },
+    {
+        "ItemID":  24002,
+        "Complexity":  4,
+        "Name":  "Black alien_ship_scrap_2",
+        "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface."
+    },
+    {
+        "ItemID":  24003,
+        "Complexity":  4,
+        "Name":  "Black alien_ship_scrap_3",
+        "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface."
+    },
+    {
+        "ItemID":  24004,
+        "Complexity":  4,
+        "Name":  "Black alien_ship_scrap_4",
+        "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface."
+    },
+    {
+        "ItemID":  24005,
+        "Complexity":  4,
+        "Name":  "Black alien_ship_scrap_5",
+        "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface."
+    },
+    {
+        "ItemID":  24006,
+        "Complexity":  4,
+        "Name":  "Black alien_ship_scrap_6",
+        "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface."
+    },
+    {
+        "ItemID":  24010,
+        "Complexity":  3,
+        "Name":  "Steel Scrap",
+        "Description":  "A hunk of scrap steel. It can be melted down and reforged back into a steel ingot in a smelting furnace."
+    },
+    {
+        "ItemID":  24020,
+        "Complexity":  2,
+        "Name":  "Bronze Scrap",
+        "Description":  "Some bits of bronze scraps. Can be melted down into bronze ingots."
+    },
+    {
+        "ItemID":  24021,
+        "Complexity":  1,
+        "Name":  "Makeshift Scrap",
+        "Description":  "A hunk of scrap metal. It looks like it could be used to construct some crude makeshift devices or smelted to recover some of the iron used in its construction."
+    },
+    {
+        "ItemID":  24022,
+        "Complexity":  1,
+        "Name":  "Scraps of Red Cloth",
+        "Description":  "Scraps of red cloth."
+    },
+    {
+        "ItemID":  24023,
+        "Complexity":  1,
+        "Name":  "Scraps of Purple Cloth",
+        "Description":  "Scraps of purple cloth."
+    },
+    {
+        "ItemID":  24024,
+        "Complexity":  4,
+        "Name":  "Escape Pod Scrap",
+        "Description":  "A busted up chunk of your Landing Pod. Useful materials can be reclaimable by using a Material Grinder."
+    },
+    {
+        "ItemID":  24025,
+        "Complexity":  4,
+        "Name":  "Escape Pod Scrap",
+        "Description":  "A busted up chunk of your Landing Pod. Useful materials can be reclaimable by using a Material Grinder."
+    },
+    {
+        "ItemID":  24026,
+        "Complexity":  4,
+        "Name":  "Escape Pod Scrap",
+        "Description":  "A busted up chunk of your Landing Pod. Useful materials can be reclaimable by using a Material Grinder."
+    },
+    {
+        "ItemID":  24027,
+        "Complexity":  4,
+        "Name":  "Escape Pod Scrap",
+        "Description":  "A busted up chunk of your Landing Pod. Useful materials can be reclaimable by using a Material Grinder."
+    },
+    {
+        "ItemID":  24028,
+        "Complexity":  4,
+        "Name":  "Escape Pod Scrap",
+        "Description":  "A busted up chunk of your Landing Pod. Useful materials can be reclaimable by using a Material Grinder."
+    },
+    {
+        "ItemID":  24029,
+        "Complexity":  4,
+        "Name":  "Escape Pod Scrap",
+        "Description":  "A busted up chunk of your Landing Pod. Useful materials can be reclaimable by using a Material Grinder."
+    },
+    {
+        "ItemID":  24030,
+        "Complexity":  3,
+        "Name":  "Composite Scrap",
+        "Description":  "Mangled bits of gear that were destroyed when you crashed on the planet. Useful materials can be reclaimable by using a Material Grinder."
+    },
+    {
+        "ItemID":  24500,
+        "Complexity":  6,
+        "Name":  "Optical Camouflage Armor Patch",
+        "Description":  "An armor layer that can be added to a piece of armor by right clicking this item and then targetting a piece of armor in your inventory. Armor patches can be replaced but not removed. This weave works in conjunction with the Optical Camouflage gadget to render a user mostly invisible as long as nothing is looking too hard for you."
+    },
+    {
+        "ItemID":  24501,
+        "Complexity":  6,
+        "Name":  "Carbon Nanofiber Armor Patch",
+        "Description":  "An armor layer that can be added to a piece of armor by right clicking this item and then targetting a piece of armor in your inventory. This patch increases the physical resistance of a piece of armor by 1%, and increases flat damage resistance by 1."
+    },
+    {
+        "ItemID":  24502,
+        "Complexity":  5,
+        "Name":  "Ceramic Plate Armor Patch",
+        "Description":  "An armor layer that can be added to a piece of armor by right clicking this item and then targetting a piece of armor in your inventory. This patch adds a thin ceramic layer to the inside of your armor, which adds 5% protection from heat."
+    },
+    {
+        "ItemID":  25000,
+        "Complexity":  1,
+        "Description":  "A really great painting made by some old dude.",
+        "Name":  "Sweet Painting"
+    },
+    {
+        "ItemID":  25001,
+        "Complexity":  1,
+        "Description":  "A relevant and hip poster.",
+        "Name":  "Painting"
+    },
+    {
+        "ItemID":  25002,
+        "Complexity":  1,
+        "Description":  "A poster depicting medical things.",
+        "Name":  "Medical Poster"
+    },
+    {
+        "ItemID":  25003,
+        "Complexity":  1,
+        "Description":  "A poster with helpful hygiene information.",
+        "Name":  "Hygiene Poster"
+    },
+    {
+        "ItemID":  26000,
+        "Complexity":  5,
+        "Name":  "Elevator",
+        "Description":  "Its convenient!"
+    },
+    {
+        "ItemID":  26001,
+        "Complexity":  5,
+        "Description":  "Its convenient!"
+    },
+    {
+        "ItemID":  26002,
+        "Complexity":  5,
+        "Description":  "Its convenient!"
+    },
+    {
+        "ItemID":  26003,
+        "Complexity":  5,
+        "Description":  "Its convenient!"
+    },
+    {
+        "ItemID":  27000,
+        "Complexity":  1,
+        "Name":  "Tomahawk",
+        "Description":  "A primitive weapon for a primitive person."
+    },
+    {
+        "ItemID":  28000,
+        "Complexity":  1,
+        "Name":  "Parasitic Abcess",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A gross sac of squirming putrid... something."
+    },
+    {
+        "ItemID":  29000,
+        "Complexity":  1,
+        "Name":  "Cracked Copper Arrowhead",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An unusable copper arrowhead. Smelt 5 together to produce a copper ingot."
+    },
+    {
+        "ItemID":  29001,
+        "Complexity":  1,
+        "Name":  "Cracked Iron Arrowhead",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An unusable iron arrowhead. Smelt 5 together to produce a iron ingot."
+    },
+    {
+        "ItemID":  29002,
+        "Complexity":  1,
+        "Name":  "Cracked Bronze Arrowhead",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An unusable bronze arrowhead. Smelt 5 together to produce a bronze ingot."
+    },
+    {
+        "ItemID":  29003,
+        "Complexity":  1,
+        "Name":  "Cracked Silver Arrowhead",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An unusable silver arrowhead. Smelt 5 together to produce a silver ingot."
+    },
+    {
+        "ItemID":  29004,
+        "Complexity":  2,
+        "Name":  "Cracked Steel Arrowhead",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An unusable steel arrowhead. Smelt 5 together to produce a steel ingot."
+    },
+    {
+        "ItemID":  29005,
+        "Complexity":  2,
+        "Name":  "Cracked Bornite Arrowhead",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An unusable bornite arrowhead. Smelt 5 together to produce a bornite ingot."
+    },
+    {
+        "ItemID":  30000,
+        "Complexity":  1,
+        "Name":  "Copper Shuriken",
+        "AutoOrganizeString":  "munition",
+        "Description":  "A sharp gadget that makes you feel more like a ninja, but you aren't."
+    },
+    {
+        "ItemID":  30100,
+        "Complexity":  1,
+        "Description":  "A black king."
+    },
+    {
+        "ItemID":  30101,
+        "Complexity":  1,
+        "Description":  "A black queen."
+    },
+    {
+        "ItemID":  30102,
+        "Complexity":  1,
+        "Description":  "A black bishop."
+    },
+    {
+        "ItemID":  30103,
+        "Complexity":  1,
+        "Description":  "A black knight."
+    },
+    {
+        "ItemID":  30104,
+        "Complexity":  1,
+        "Description":  "A black rook."
+    },
+    {
+        "ItemID":  30105,
+        "Complexity":  1,
+        "Description":  "A black pawn."
+    },
+    {
+        "ItemID":  30106,
+        "Complexity":  1,
+        "Description":  "A white king."
+    },
+    {
+        "ItemID":  30107,
+        "Complexity":  1,
+        "Description":  "A white queen."
+    },
+    {
+        "ItemID":  30108,
+        "Complexity":  1,
+        "Description":  "A white bishop."
+    },
+    {
+        "ItemID":  30109,
+        "Complexity":  1,
+        "Description":  "A white knight."
+    },
+    {
+        "ItemID":  30110,
+        "Complexity":  1,
+        "Description":  "A white rook."
+    },
+    {
+        "ItemID":  30111,
+        "Complexity":  1,
+        "Description":  "A white pawn."
+    },
+    {
+        "ItemID":  "sol.em_rounds",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.beeswax",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.blown_hypercapacitor",
+        "Complexity":  9
+    },
+    {
+        "ItemID":  "sol.carbon_nanotubes",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.chicken_lattice",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.construction_nails",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.construction_tape",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.corroded_stabilizer_plate",
+        "Complexity":  9
+    },
+    {
+        "ItemID":  "sol.empty_glass",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.energy_capsule",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.espresso_mug",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.large_coffee_mug",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.medium_coffee_mug",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.mortar_and_pestle",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.ominous_crystal_green",
+        "Complexity":  2,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.ominous_crystal_orange",
+        "Complexity":  2,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.ominous_crystal_purple",
+        "Complexity":  2,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.ominous_crystal_white",
+        "Complexity":  2,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.ominous_wood",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.power_panel",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.ruined_beryllium_sphere",
+        "Complexity":  9
+    },
+    {
+        "ItemID":  "sol.small_coffee_mug",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.small_paint_can",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.specimen_cont_empty",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.specimen_cont_egg",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.specimen_cont_chickenEmbryo0",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.specimen_cont_chickenEmbryo1",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.specimen_cont_chickenEmbryo2",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.stepladder",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.tech_wire_spool",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.batter",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.cornmeal",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.dough",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.nutmeal",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.plant_oil",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.sweet_dough",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.wheat_flour",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.yeast",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.clay_bowl",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.clay_plate",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.herb_ipecac",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.carbon_fiber_spindle",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.loose_clay",
+        "Complexity":  1,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  "sol.meteorite_chunk",
+        "Complexity":  3,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  "sol.meteorite_fragment",
+        "Complexity":  2,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  "sol.softwood_board",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.softwood_log",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.softwood_stick",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.tallow",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.cheeseburger_wrapper",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.datapad_broken",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.glass_broken",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.packing_styrofoam",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.plastic_bottle_empty",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.plastic_wrapper",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.sheet_metal_tin",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.toilet_paper",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.toilet_paper_soiled",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.trash_bag_white",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.wooden_pallet_broken",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.wood_plank_broken",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.wood_splintered",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.course_strange_material",
+        "Complexity":  1000,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  "sol.granular_strange_material",
+        "Complexity":  100,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  "sol.raw_strange_material",
+        "Complexity":  10000,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  "sol.refined_strange_material",
+        "Complexity":  100000
+    },
+    {
+        "ItemID":  "sol.large_battery",
+        "Complexity":  6,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.medium_battery",
+        "Complexity":  4,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.power_core",
+        "Complexity":  10,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.small_battery",
+        "Complexity":  2,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.advanced_capacitor",
+        "Complexity":  8,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.energite_capacitor",
+        "Complexity":  10,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.makeshift_capacitor",
+        "Complexity":  2,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.standard_capacitor",
+        "Complexity":  4,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.good_berry",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.honeycomb",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.ipecac_medicine",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.pod_fruit",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.stimulant_medicine",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.xenite_essence",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.baklava",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.big_dumpster_delight",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.big_salad",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.big_sandwich",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.bread",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.bread_loaf",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.burned_food",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.cake",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.chunky_nut_butter",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.cornbread",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.dumpster_delight",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.dumpster_delight_pie",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.dumpster_delight_snack",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.feast",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.hot_dog",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.pancakes",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.pie",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.plated_meal",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.plated_snack",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.roasted_nuts",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.salad",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.sandwich",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.smooth_nut_butter",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.sugar",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.sweet_bread",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.sweet_roll",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.wheat",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.apple_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.bana_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.blue_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.citrica_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.delicious_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.jiggly_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.juicy_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.orange_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.peach_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.pumpkin_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.sweety_chew",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.cooked_organ_meat",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.human_bladder",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.human_heart",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.intestines",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.human_kidney",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.human_liver",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.human_lung",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.human_pancreas",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.human_spleen",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.human_stomach",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.empty_glass_vessel",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.empty_reinforced_vessel",
+        "Complexity":  5,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.empty_standard_vessel",
+        "Complexity":  3,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.chicken_embryo",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.raw_bacon",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.raw_choice_meat",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.raw_crawler_meat",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.raw_human_meat",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.raw_poultry",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.raw_red_meat",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.shucked_corn",
+        "Complexity":  1,
+        "AutoOrganizeString":  "food"
+    },
+    {
+        "ItemID":  "sol.cardboard_box0",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.cardboard_box1",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.cardboard_box2",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.cardboard_box3",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.construction_toolbag",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.tech_barrel",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.tech_basin",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.tech_trash_receptacle",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.cyber_arms_autocannon",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_behemoth",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_bolt_driver",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_forgeblade",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_heavy",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_junker",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_low_profile",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_ratchet",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_sleek",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_arms_stripped",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_eyes_synthetic",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_heart_partially_synthetic",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_heart_synthetic",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_legs_behemoth",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_legs_heavy",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_legs_jet",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_legs_junker",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_legs_low_profile",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_legs_ratchet",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_legs_sleek",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_legs_stripped",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_lungs_partially_synthetic",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_lungs_synthetic",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_stomach_bioreactor",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_stomach_metabolic",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.cyber_stomach_synthetic",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.xns_claw_piece_0",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.xns_claw_piece_1",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.xns_claw_piece_2",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.xns_sphere",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.dummy_mystery_item",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.energy_glove_pedestal",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.autocannon_arms",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.bolt_driver_arms",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.forgeblade_arms",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.abl_metabolic_stomach",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.bronze_axe",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.carbon_steel_axe",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.copper_axe",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.granite_axe",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.iron_axe",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.jewel_axe",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.piezo_axe",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.primitive_axe",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.silver_axe",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.titanium_axe",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.aluminum_bat",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.bone_club",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.bronze_club",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.carbon_steel_club",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.copper_club",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.iron_club",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.jewel_club",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.piezo_club",
+        "Complexity":  7
+    },
+    {
+        "ItemID":  "sol.primitive_club",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.silver_club",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.skull_club",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.tech_wrench",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.titanium_club",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.wooden_club",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.skinning_knife",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.energy_glove",
+        "Complexity":  10
+    },
+    {
+        "ItemID":  "sol.fists",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.bronze_pick",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.carbon_steel_pick",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.copper_pick",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.hephaestus_pick",
+        "Complexity":  4
+    },
+    {
+        "ItemID":  "sol.iron_pick",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.jewel_pick",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.piezo_pick",
+        "Complexity":  7
+    },
+    {
+        "ItemID":  "sol.silver_pick",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.titanium_pick",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.skillet",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.bronze_spear",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.carbon_steel_spear",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.copper_spear",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.iron_spear",
+        "Complexity":  4
+    },
+    {
+        "ItemID":  "sol.jewel_spear",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.piezo_spear",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.silver_spear",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.titanium_spear",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.bronze_sword",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.carbon_fiber_machete",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.carbon_steel_sword",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.copper_sword",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.iron_sword",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.jewel_sword",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.piezo_sword",
+        "Complexity":  6
+    },
+    {
+        "ItemID":  "sol.razor_leaf_sword",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.silver_sword",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.titanium_sword",
+        "Complexity":  8
+    },
+    {
+        "ItemID":  "sol.wooden_sword",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.pyre_mallet",
+        "Complexity":  10
+    },
+    {
+        "ItemID":  "sol.sledgehammer",
+        "Complexity":  4
+    },
+    {
+        "ItemID":  "sol.tortoise_hammer",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.nutchucker",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.ominous_wand_green",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.ominous_wand_orange",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.ominous_wand_purple",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.ominous_wand_white",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.slingshot",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.cement_bag",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.chicken_fetus",
+        "Complexity":  1,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.large_paint_can",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.mature_chicken_fetus",
+        "Complexity":  2,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.paint_brush",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.paint_roller",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.human_arm_pale",
+        "Complexity":  2,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.human_leg_pale",
+        "Complexity":  2,
+        "AutoOrganizeString":  "hunter"
+    },
+    {
+        "ItemID":  "sol.energite_ingot",
+        "Complexity":  5,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.energite_ore",
+        "Complexity":  5,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  "sol.titanium_ingot",
+        "Complexity":  5,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.titanium_ore",
+        "Complexity":  5,
+        "AutoOrganizeString":  "excavator"
+    },
+    {
+        "ItemID":  "sol.item_bd_breaker_box",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.item_bd_exp_pipes0",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.item_bd_input_jack",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.item_bd_loudspeaker",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.item_bd_outlet",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.item_bd_return_vent",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.item_bd_support_beam",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.item_bd_support_beam_seg",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.item_bd_support_beam_top",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.blank_blackboard",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.generator_blackboard",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.hahn_plaque",
+        "Complexity":  1
+    },
+    {
+        "ItemID":  "sol.beehive",
+        "Complexity":  2,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.clay_firepot",
+        "Complexity":  1,
+        "AutoOrganizeString":  "munition"
+    },
+    {
+        "ItemID":  "sol.large_mote_of_thanks",
+        "Complexity":  3,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.medium_mote_of_thanks",
+        "Complexity":  2,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.small_mote_of_thanks",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.bust_nut",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.buttery_nut",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.hard_nut",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.podfruit_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.spray_nut",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.apple_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.bana_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.bloo_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.citrica_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.corn_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.cotton_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.delicious_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.grass_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.jiggly_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.juicy_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.ominous_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.orange_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.peach_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.sweety_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.wheat_seed",
+        "Complexity":  1,
+        "AutoOrganizeString":  "forager"
+    },
+    {
+        "ItemID":  "sol.glassblowing_pipe",
+        "Complexity":  2
+    },
+    {
+        "ItemID":  "sol.salad_tongs",
+        "Complexity":  3
+    },
+    {
+        "ItemID":  "sol.salad_tosser",
+        "Complexity":  5
+    },
+    {
+        "ItemID":  "sol.sulfuric_acid_vial",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.organic_acid_vial",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.poison_vial",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.ammonia_vial",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.lye",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.glycerol_vial",
+        "Complexity":  1,
+        "AutoOrganizeString":  "crafting"
+    },
+    {
+        "ItemID":  "sol.steel_plate",
+        "Complexity":  2,
+        "AutoOrganizeString":  "crafting"
+    }
+]

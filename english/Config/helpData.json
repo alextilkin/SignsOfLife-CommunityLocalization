@@ -1,0 +1,156 @@
+[
+  {
+    "Key": "WRISTLIGHT",
+    "IsDefault": true,
+    "Category": "MEG Tool",
+    "Label": "Wrist Light",
+    "Text": "You can activate your wrist light by pressing [lightkey]. The wrist light can be upgraded by placing topaz gems in your MEG tool."
+  },
+  {
+    "Key": "MEGTOOL",
+    "IsDefault": true,
+    "Category": "MEG Tool",
+    "Label": "MEG Information",
+    "Text": "The MEG tool is your laser powered wrist tool with a variety of features. It can project light into the environment, dig blocks out of the world, pull items to you, scan creatures, scan the environment for useful resources, display a local map and even grapple to nearby surfaces. The MEG tool's range is limited to the area around you, but the range can be upgraded by installing sapphires. The MEG tool also allows you to communicate with the U.N. Hephaestus's central artifical intelligence core.\n\nModules for the MEG tool's various functions can be found in the Key Items pouch."
+  },
+  {
+    "Key": "DIGTOOL",
+    "IsDefault": true,
+    "Category": "MEG Tool",
+    "Label": "Dig Tool",
+    "Text": "Your MEG tool comes equipped with a dig laser that is tuned to specific frequencies of light that allow it to dig through blocks. The digging power is limited by the quality of lens you have installed in your MEG tool, and the number of blocks that you can simultaneously dig can be increased by installing rubies.\n\nYou can dig with the wrist laser by equipping it and then left clicking on blocks you can see in the world. You can right click to dig blocks out of the background.\n\nYour wrist laser dig tool is accesssible from the first slot on your hotbar, but it can also be found in the Key Items pouch."
+  },
+  {
+    "Key": "INVENTORY",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Inventory Usage",
+    "Text": "Your inventory can be accessed by pressing [menukey] or by clicking the backpack icon on the top of your HUD. In order to pick up items, you can either drag them from the world into your pack with your mouse cursor or you can use the Grab Laser tool by pressing [grablaserkey] and pointing at the item. You can also drag items from your inventory back into the world.\n\nNote: When you die, your items spew out of your pack, but they do not decay and they will be right where you left them."
+  },
+  {
+    "Key": "KEYITEMS",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Key Items",
+    "Text": "Key items are items that cannot be dropped and will stay with you when you die. Your key items will automatically be stored in the pouch on the left side of your backpack."
+  },
+  {
+    "Key": "TRASH",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Trashing Items",
+    "Text": "You can trash items by either left clicking on them and selecting the trash can icon to the side of the item's description or by draggin them to the trash pouch on the right side of your backpack. Items marked as trash will be removed the next time you exit the game."
+  },
+  {
+    "Key": "CONTAINERS",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Containers",
+    "Text": "Containers can be opened by right clicking on them, and items can be dragged in or out."
+  },
+  {
+    "Key": "EATINGFOOD",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Eating Food",
+    "Text": "In order to eat food, you must first equip it and then left click in the world. You can equip the food by either right clicking it in your inventory or selecting it from the food slot on your hotbar.\n\nAs long as you have some food in your stomach you will regenerate health slowly."
+  },
+  {
+    "Key": "HOTBAR",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Hotbar Usage",
+    "Text": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through a category by using the scroll wheel on your mouse. If you would prefer to place items in the hotbar manually, you can change the hotbar behavior from the settings menu."
+  },
+  {
+    "Key": "EQUIPPING",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Equipping Clothing and Armor",
+    "Text": "You can equip clothing and armor by either right clicking on them in your inventory or by draggin them to the appropriate slot in your equipment menu. Your equipment menu can be accessed by clicking the button at the top of your HUD."
+  },
+  {
+    "Key": "PROJECTS",
+    "IsDefault": true,
+    "Category": "Crafting",
+    "Label": "Building Projects",
+    "Text": "Some objects that you can craft are too big to fit in your inventory, and they must be built in the world. All of the projects that you have recipes for can be found by clicking the bottom left button in the Crafting Menu. As long as you have the items required to craft the project, you'll be able to choose a place in the world to build after pressing the \"Build in World\" button. You can cancel building a project in the world by right clicking before you select a location to build."
+  },
+  {
+    "Key": "GRABLASER",
+    "IsDefault": true,
+    "Category": "MEG Tool",
+    "Label": "Grab Laser",
+    "Text": "Your MEG tool comes equipped with a grab laser that can be used to retrieve items in the world. You can retract items at your mouse cursor by holding [grablaserkey]. The range of the grab laser is restricted by the quality of the Sapphire in your MEG tool."
+  },
+  {
+    "Key": "AUTOORGANIZECONTAINER",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Auto Organize Containers",
+    "Text": "You can also build special containers that automatically collect materials when they are added to your main backpack. There is a Hunter's Pouch, Forager's Pouch and Excavator's Pouch."
+  },
+  {
+    "Key": "CHANGINGAMMO",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Changing Ammo",
+    "Text": "Some weapons or gadgets may have multiple ammo types. To change the ammo type on a weapon, click on it in your inventory and select the ammo from the right side of the item details. You can also change an equipped weapon's ammo type by clicking the magnifying glass on it's scroll slot on your HUD. "
+  },
+  {
+    "Key": "MINIMAP",
+    "IsDefault": true,
+    "Category": "UI",
+    "Label": "Minimap",
+    "Text": "Your MEG tool has a built-in mapping feature, which constantly scans the area around you and adds it to your Minimap, which can be accessed by pressing [minimapkey]. Your Minimap is also able to detect navigational beacons."
+  },
+  {
+    "Key": "PLACINGBLOCKS",
+    "IsDefault": true,
+    "Category": "Building",
+    "Label": "Placing Blocks",
+    "Text": "To place blocks, you must equip a block from your inventory, and then left click in the world to place it. You can right click in order to place blocks in the background."
+  },
+  {
+    "Key": "WRISTSCANNER",
+    "IsDefault": true,
+    "Category": "MEG Tool",
+    "Label": "Wrist Scanner",
+    "Text": "Your standard issue MEG Wrist Scanner sends out pulses of mostly harmless radiation that can scan creatures so they can be added to the Codex. It has an alternate function that can scan the environment for useful minerals. Any minerals detected are added to your Mini Map temporarily, which can be accessed by pressing [minimapkey]."
+  },
+  {
+    "Key": "HOLSTER",
+    "IsDefault": true,
+    "Category": "Inventory",
+    "Label": "Holster",
+    "Text": "You can holster your weapon by pressing [holsterkey]. You can also unequip a held item by clicking it on your hotbar or by typing the slot number it is in."
+  },
+  {
+    "Key": "REDCOMET",
+    "IsDefault": true,
+    "Category": "Curiosity",
+    "Label": "Red Comet",
+    "Text": "A red comet seems to appear from time to time. It doesn't seem to have any kind of predictable patten, but it seems to be quite spooky."
+  },
+  {
+    "Key": "LADDERS",
+    "IsDefault": true,
+    "Category": "Gameplay",
+    "Label": "Ladders",
+    "Text": "Ladders can be used by approaching them and pressing up ([up]), or down ([down]). You can also jump ([jump]) off the ladder at any time, and you can drop off the ladder by pressing crouch ([crouch])."
+  },
+  {
+    "Key": "HACKING",
+    "IsDefault": false,
+    "Category": "MEG Tool",
+    "Label": "Hacking",
+    "Text": "You managed to download an encryption key from Dr. Hahn's office which allows you to hack into various devices using your wrist scanner."
+  },
+  {
+    "Key": "GRAPPLE",
+    "IsDefault": false,
+    "Category": "MEG Tool",
+    "Label": "Grapple Module",
+    "Text": "You've installed a grapple module into your MEG tool which can pull you to nearby terrain. To use it, hold the [grapplekey] to project a guide laser, and release the key to fire the grapple module."
+  }
+]

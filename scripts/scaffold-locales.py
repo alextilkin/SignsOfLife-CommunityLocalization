@@ -10,6 +10,14 @@ TABLES = (
     "TooltipLocalization.json",
     "StatusEffectLocalization.json",
     "DialogLocalization.json",
+    "helpData.json",
+    "journalEntries.json",
+    "InventoryItemData.json",
+    "MeleeWeaponData.json",
+    "RangedWeaponData.json",
+    "ProjectileRegistrationData.json",
+    "CreatureRegistrationData.json",
+    "StaticPrefabRegistrationData.json",
 )
 
 

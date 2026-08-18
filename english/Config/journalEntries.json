@@ -1,0 +1,158 @@
+[
+  {
+    "ID": 0,
+    "Message": "AGIS Assisted Journalling Subsystem Activated. For quality control purposes, your actions will be recorded in this journal. You are permitted to peruse the journal data during any alotted free activity time."
+  },
+  {
+    "ID": 1,
+    "Message": "You were randomly selected to be cycled out of Cryo-Sleep for a shift 6 week shift aboard the Hephaestus. Planned deceleration should result in a stable orbit around Osiris in 1 week, 2 days and 24 seconds."
+  },
+  {
+    "ID": 2,
+    "Message": "You received a summons from Dr. Stein. You were informed that he has an important task for you, and he requested that you meet him on the Bridge so you may discuss it more."
+  },
+  {
+    "ID": 3,
+    "Message": "You were informed by Dr. Stein that the Hephaestus sensors detected traces of phosphine gas, and you were tasked with investigating any potential signs of life. You were told that you needed to go to the Hangar and meet with Larry to requisition a landing pod."
+  },
+  {
+    "ID": 4,
+    "Message": "You started a fire by carelessly power-cycling the heat sync without checking for oily rags. Your actions have been reported to Larry for review. "
+  },
+  {
+    "ID": 5,
+    "Message": "You reached the asteroid that you were tasked with exploring."
+  },
+  {
+    "ID": 6,
+    "Message": "Your sensors detected some kind of unnatural cave formation below the surface of the asteroid."
+  },
+  {
+    "ID": 7,
+    "Message": "Evidence of intelligent, non-terrestrial life was found. Scans across all spectrum were started at maximum power."
+  },
+  {
+    "ID": 8,
+    "Message": "You decided that it was prudent to insert a crystal into a slot on some kind of unknown alien device. Shortly afterward, the asteroid started shaking violently. Your actions were been reported to the central computer."
+  },
+  {
+    "ID": 9,
+    "Message": "Local AI processing enabled. Operations may be degraded until full communications with the central computer can be re-established.\n\nConnection to central computer lost... "
+  },
+  {
+    "ID": 10,
+    "Message": "An alien spacecraft just attacked the Hephaestus, causing catastrophic damage. We seem to have flown by in our landing pod unnoticed, and a course was set for Osiris."
+  },
+  {
+    "ID": 11,
+    "Message": "The escape pod was... damaged... during \"landing\". Luckily, the respawner was relatively undamaged and it looks like it will function for like awhile probably. A transponder signal was detected from the Pioneer Station to the west, but no other communications were detected."
+  },
+  {
+    "ID": 12,
+    "Message": "You reached the Pioneer Station, but the power was out and the main door was not functioning."
+  },
+  {
+    "ID": 13,
+    "Message": "You reached the Mining Base, but the power was out and the main door was functioning."
+  },
+  {
+    "ID": 14,
+    "Message": "You found what appears to be some kind of alien bunker door beneath the Mining Base. It seems to be made of an incredibly hard unknown material, although the structural integrity seems to have degraded over time."
+  },
+  {
+    "ID": 15,
+    "Message": "You reached the Pioneer Station Power Generator, and it looked like it was damaged by some kind of alien creature.  I was able to determine that despite the mostly superficial damage, power could be restored if the damaged components were replaced."
+  },
+  {
+    "ID": 16,
+    "Message": "You came across a body in the communications room of the Pioneer Station. Based on the shattered teeth and the catastrophic exit wound on the back of the head, it was presumed that this person died."
+  },
+  {
+    "ID": 17,
+    "Message": "You found a decomposing body clutching a squeak toy of a chicken. Facial analysis indicated that it was Dr. Hahn, and cranial analysis indicated that his brain had been removed. Advanced necrosis of virtually every vital organ and the missing brain imply that he is probably beyond saving."
+  },
+  {
+    "ID": 18,
+    "Message": "You were fitted with a MEG wrist tool that incorporates a digging laser, a light source, a scanner, and a reverse-photon based tractor beam that can retrieve items at a distance."
+  },
+  {
+    "ID": 19,
+    "Message": "Your corporeal form was destroyed, but the nanomachines in your blood captured the state of your brain which was wirelessly transferred to a nearby bio-printer. Very little permanent cognitive drift was detected."
+  },
+  {
+    "ID": 20,
+    "Message": "You attempted to use the Satellite Uplink function of the Communications Junction, but it was missing a Signal Decoder. A color changing GPS signal was added to your map with the approximate location of the decoder."
+  },
+  {
+    "ID": 21,
+    "Message": "You were struck by a tranquilizer dart from a peacekeeping drone. Your actions were been reported to the central computer."
+  },
+  {
+    "ID": 22,
+    "Message": "You found the Pioneer Station Communications Junction, although it was missing it's power core."
+  },
+  {
+    "ID": 23,
+    "Message": "You came across a glass window that appears to have been destroyed with some kind of concussive force."
+  },
+  {
+    "ID": 24,
+    "Message": "You came across a large, bulletproof glass window."
+  },
+  {
+    "ID": 25,
+    "Message": "You met Larry in the Hangar of the Hephaestus. He seemed nice."
+  },
+  {
+    "ID": 26,
+    "Message": "You met Billy the trash can. He seemed nice."
+  },
+  {
+    "ID": 27,
+    "Message": "You came across some sort of experiment that Dr. Hahn was working on that combines elements of alien and human technology. The purpose is unclear."
+  },
+  {
+    "ID": 28,
+    "Message": "You downloaded an encryption key to your Wrist Scanner that should allow you to gain control over devices with a communications antenna attached."
+  },
+  {
+    "ID": 29,
+    "Message": "You found a retina scanner that is not granting you access. You would need to have different eyes to use this device."
+  },
+  {
+    "ID": 30,
+    "Message": "You found a large, inactive, technological looking door. It is presumably activated by something nearby."
+  },
+  {
+    "ID": 31,
+    "Message": "You decided that it was prudent to insert a weird alien material into some kind of weird alien device, and shortly afterward a meteor crashed into the surface of the planet. Your actions were not reported to the central computer, but you better bet I would have reported it if the central computer wasn't annihilated by aliens."
+  },
+  {
+    "ID": 32,
+    "Message": "You decided that it was prudent to go through an alien portal, and ended up in some kind of alien ship located in the atmosphere around Osiris."
+  },
+  {
+    "ID": 33,
+    "Message": "You found a complicated looking alien device with a surface that items can be placed on on as well as a prominent lever. You decided to pull the lever just to see what would happen. "
+  },
+  {
+    "ID": 34,
+    "Message": "You disabled the power in the alien ship. "
+  },
+  {
+    "ID": 35,
+    "Message": "You found and retrieved a strange alien device that was prominently displayed in an alien shelter of some kind."
+  },
+  {
+    "ID": 36,
+    "Message": "Your corporeal form was catastrophically damaged, but just before you expired you were transported to what appears to be some kind of alien altar. A pedestal at the altar receded as you appeared, and it appeared to become inactive."
+  },
+  {
+    "ID": 37,
+    "Message": "You installed a Grapple Module into your MEG tool. This is truly a red letter day."
+  },
+  {
+    "ID": 38,
+    "Message": "You managed to get the generator in the Pioneer Station activated, and wireless electricity has been returned to the vicinity."
+  }
+]

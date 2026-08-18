@@ -7,7 +7,15 @@
     "Config/UILocalization.json",
     "Config/TooltipLocalization.json",
     "Config/StatusEffectLocalization.json",
-    "Config/DialogLocalization.json"
+    "Config/DialogLocalization.json",
+    "Config/helpData.json",
+    "Config/journalEntries.json",
+    "Config/InventoryItemData.json",
+    "Config/MeleeWeaponData.json",
+    "Config/RangedWeaponData.json",
+    "Config/ProjectileRegistrationData.json",
+    "Config/CreatureRegistrationData.json",
+    "Config/StaticPrefabRegistrationData.json"
   ],
-  "notes": "Packs load only these four files from Config/. Other English stores (items, help, journal, datapads, creatures, prefabs) are not overlayable yet and are not snapshotted here."
+  "notes": "Packs overlay prose fields only. Leave ItemID, SaveName, LivingEntityType, StaticPrefabType, SaveAliases, AutoOrganizeString, Complexity, IsDefault, and combat stats in English. XML datapads/armor/container gumps are not overlayable yet."
 }

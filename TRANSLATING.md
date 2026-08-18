@@ -4,31 +4,39 @@ Voice, glossary, and markup. English snapshots live in `english/Config/`.
 Put translations in `locales/<code>/Config/`. Do not add machine-generated
 player-facing text. If a line is not ready, omit it so the game keeps English.
 
-This repository can overlay four tables today:
+This repository can overlay these compiled JSON tables:
 
 - `UILocalization.json` — HUD and menu chrome
 - `TooltipLocalization.json` — HUD hover tooltips
 - `StatusEffectLocalization.json` — status-effect labels
 - `DialogLocalization.json` — spoken lines, AGIS, player options
+- `helpData.json` — MEG help topics (`Key`; translate `Label` / `Category` / `Text`)
+- `journalEntries.json` — AGIS journal (`ID`; translate `Message`)
+- `InventoryItemData.json` — compiled item names (`ItemID`; translate `Name` / `Description` / existing `Templates` keys; leave `AutoOrganizeString`)
+- `MeleeWeaponData.json` / `RangedWeaponData.json` — weapon names (`ItemID`; translate `Name` / `Description`)
+- `ProjectileRegistrationData.json` — projectile display names (leave `SaveName`; translate `Name`)
+- `CreatureRegistrationData.json` — creature names / codex (leave `LivingEntityType`; translate `Name` / `Description` / `CodexCategory`)
+- `StaticPrefabRegistrationData.json` — prefab catalog (leave `SaveName` / `SaveAliases`; translate `Name` / `DisplayName` / `Description` / tooltip fields)
 
 Missing overlay IDs keep English. Empty overlay fields keep English. Unknown
-IDs are skipped. Item names, help topics, journal entries, datapads, creatures,
-and prefabs are **not** overlayable yet; they stay English in-game even if you
-translate them elsewhere.
+keys are skipped. Datapads, armor XML, and container gump titles are **not**
+overlayable yet.
 
 Keep Font Glyphs on **Runtime** unless your language is marked `baked` in
 `languages.json`. See [`FONTS.md`](FONTS.md).
 
 The sections below still mention game-repo paths (`Content/Config/...`). For
-the four overlay tables, use `english/Config/` in this snapshot instead.
+the overlay tables, use `english/Config/` in this snapshot instead.
 
 # Translation guide
 
 The shipping game is English-only unless a locale overlay pack is loaded.
-Spoken lines, help topics, journal entries, datapads, and HUD tables already
-live in data files. A great deal of item, creature, and prefab text is still
-not overlayable from a pack. Treat every player-facing English sentence as
-in-scope unless this guide says to leave it alone.
+Spoken lines, help, journal, HUD chrome, compiled items, melee/ranged names,
+projectiles, creatures, and static-prefab catalog English live in JSON tables
+that a pack can overlay from `Config/`. Datapads, armor XML, container gump
+titles, glyph quotes, and leftover C# HUD crumbs are not overlayable yet.
+Treat every player-facing English sentence as in-scope unless this guide says
+to leave it alone.
 
 ## What the game is
 
@@ -377,26 +385,29 @@ literally. That is intended.
 ## Where the English lives
 
 One concern, one store. Do not add a parallel translation file that nothing
-loads. Locale overlays, when they exist, reuse the same IDs
-(`UILocalization.de.json` or equivalent) and fall back to English.
+loads. Locale overlay packs reuse the same compiled JSON filenames under
+`Config/` and fall back to English for missing/empty fields. Unknown keys are
+skipped. Combat stats, `SaveName`, `ItemID`, `LivingEntityType`,
+`StaticPrefabType`, and `AutoOrganizeString` stay English even if the overlay
+copies them.
 
 | Kind of text | Store | Notes |
 | --- | --- | --- |
-| Spoken lines, AGIS, player options | `Content/Config/DialogLocalization.json` | Trees in `DialogueData.xml` reference IDs only. Live AGIS `SayQuiet` / tutorial lines use the same numeric IDs. Leave `[left]` / `[menukey]` tokens in the English; they expand at lookup. |
-| Stein ↔ AGIS bridge pairs | `Content/Config/steinAgisDialogPairs.json` | IDs into the spoken table, no prose. |
-| MEG help topics | `Content/Config/helpData.json` | `Label` + `Text`. Newlines are real. |
-| Journal | `Content/Config/journalEntries.json` | AGIS log. |
-| HUD / menu chrome | `Content/Config/UILocalization.json` | String keys. Menus, settings, load tips, and keybind action labels are here. |
-| HUD hover tooltips | `Content/Config/TooltipLocalization.json` | `tooltip.*` IDs. Live numbers and key names are `{0}` placeholders. |
-| Status-effect labels | `Content/Config/StatusEffectLocalization.json` | `status.{StatusEffectType}` IDs. Types with no authored label stay off the table. |
-| Datapads | `Content/XML/DatapadTextData.xml` | `title`, `category`, body. |
-| Compiled item names / descriptions | `Content/Config/InventoryItemData.json` | Optional `Name` / `Description` plus `Templates` for instance states (`[itemname]`, `[level]`, `[mobname]`). Furniture and placeable display names live here. Shared status lines in `UILocalization.json`. Melee torches keep `MeleeWeaponData.json`. |
-| Compiled projectiles | `Content/Config/ProjectileRegistrationData.json` | Leave `SaveName` in English. Translate `Name`. Inventory ammo names stay in `InventoryItemData.json`. |
-| Container gump layouts | `Content/XML/ContainerGumpData.xml` | Leave `<id>` in English slug form. Translate `<name>` (gump title fallback). Item names stay in `InventoryItemData.json`. |
-| Armor names/descriptions | `Content/XML/ArmorSetData.xml` | Display `<name>` is cosmetic. |
-| Melee / ranged names | `MeleeWeaponData.json`, `RangedWeaponData.json` | Leave `ItemID`. Translate `Name` / `Description`. |
-| Creature names / codex | `Content/Config/CreatureRegistrationData.json` | |
-| Compiled static-prefab catalog | `Content/Config/StaticPrefabRegistrationData.json` | Leave `SaveName` / `SaveAliases` in English. Translate `Name` / `DisplayName` / `Description` / `CodexCategory` / `TooltipNameOverride` / `DescriptionsByState` / `SpecificTooltips`. |
+| Spoken lines, AGIS, player options | `Content/Config/DialogLocalization.json` | Trees in `DialogueData.xml` reference IDs only. Live AGIS `SayQuiet` / tutorial lines use the same numeric IDs. Leave `[left]` / `[menukey]` tokens in the English; they expand at lookup. Pack overlay: `Config/DialogLocalization.json`. |
+| Stein ↔ AGIS bridge pairs | `Content/Config/steinAgisDialogPairs.json` | IDs into the spoken table, no prose. Not overlayable. |
+| MEG help topics | `Content/Config/helpData.json` | `Label` + `Text`. Newlines are real. Pack overlay: `Config/helpData.json`. |
+| Journal | `Content/Config/journalEntries.json` | AGIS log. Pack overlay: `Config/journalEntries.json`. |
+| HUD / menu chrome | `Content/Config/UILocalization.json` | String keys. Menus, settings, load tips, and keybind action labels are here. Pack overlay: `Config/UILocalization.json`. |
+| HUD hover tooltips | `Content/Config/TooltipLocalization.json` | `tooltip.*` IDs. Live numbers and key names are `{0}` placeholders. Pack overlay: `Config/TooltipLocalization.json`. |
+| Status-effect labels | `Content/Config/StatusEffectLocalization.json` | `status.{StatusEffectType}` IDs. Types with no authored label stay off the table. Pack overlay: `Config/StatusEffectLocalization.json`. |
+| Datapads | `Content/XML/DatapadTextData.xml` | `title`, `category`, body. Not overlayable yet. |
+| Compiled item names / descriptions | `Content/Config/InventoryItemData.json` | Optional `Name` / `Description` plus `Templates` for instance states (`[itemname]`, `[level]`, `[mobname]`). Furniture and placeable display names live here. Shared status lines in `UILocalization.json`. Melee torches keep `MeleeWeaponData.json`. Pack overlay: `Config/InventoryItemData.json` (do not overlay `AutoOrganizeString`). |
+| Compiled projectiles | `Content/Config/ProjectileRegistrationData.json` | Leave `SaveName` in English. Translate `Name`. Inventory ammo names stay in `InventoryItemData.json`. Pack overlay: `Config/ProjectileRegistrationData.json`. |
+| Container gump layouts | `Content/XML/ContainerGumpData.xml` | Leave `<id>` in English slug form. Translate `<name>` (gump title fallback). Item names stay in `InventoryItemData.json`. Not overlayable yet. |
+| Armor names/descriptions | `Content/XML/ArmorSetData.xml` | Display `<name>` is cosmetic. Not overlayable yet. |
+| Melee / ranged names | `MeleeWeaponData.json`, `RangedWeaponData.json` | Leave `ItemID`. Translate `Name` / `Description`. Pack overlays: `Config/MeleeWeaponData.json`, `Config/RangedWeaponData.json`. |
+| Creature names / codex | `Content/Config/CreatureRegistrationData.json` | Leave `LivingEntityType`. Translate `Name` / `Description` / `CodexCategory`. Pack overlay: `Config/CreatureRegistrationData.json`. |
+| Compiled static-prefab catalog | `Content/Config/StaticPrefabRegistrationData.json` | Leave `SaveName` / `SaveAliases` in English. Translate `Name` / `DisplayName` / `Description` / `CodexCategory` / `TooltipNameOverride` / `DescriptionsByState` / `SpecificTooltips`. Pack overlay: `Config/StaticPrefabRegistrationData.json`. |
 | Pack items / flora / structures | `Content/LoadedContent/**/item_*.json` etc. | `Name`, `Description`, `AlienNameMask`, `AlienString`. |
 | Glyph wall quotes | `Generators/ProceduralGlyphData.cs` (duplicated in a couple of dungeon generators) | Xenoid proverb voice. |
 | Scanner complaints | `Entities/Creatures/XenoidWristScannerReaction.cs` | Three pools by language skill. |

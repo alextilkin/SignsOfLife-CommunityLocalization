@@ -24,15 +24,25 @@ Glyphs → Runtime (the default).
 
 ## What the game actually overlays
 
-Only these pack files replace English:
+These pack files replace English prose. Combat stats and frozen lookup keys
+are ignored even if present:
 
 - `Config/UILocalization.json`
 - `Config/TooltipLocalization.json`
 - `Config/StatusEffectLocalization.json`
 - `Config/DialogLocalization.json`
+- `Config/helpData.json`
+- `Config/journalEntries.json`
+- `Config/InventoryItemData.json`
+- `Config/MeleeWeaponData.json`
+- `Config/RangedWeaponData.json`
+- `Config/ProjectileRegistrationData.json`
+- `Config/CreatureRegistrationData.json`
+- `Config/StaticPrefabRegistrationData.json`
 
 Empty arrays mean “nothing translated yet.” Leave untranslated rows out rather
-than copying English.
+than copying English. XML datapads, armor names, and container gump titles are
+not overlayable yet.
 
 ## Coverage
 
@@ -46,7 +56,7 @@ request. The last generated snapshot is [`coverage.md`](coverage.md).
 
 ## Updating English
 
-When the game’s overlay tables change, copy the four JSON files from
-`Signs of Life/Content/Config/` into `english/Config/` and update
-`english/SOURCE.json` with the game commit. Then drop overlay rows whose IDs
-no longer exist.
+When the game’s overlay tables change, copy the JSON files listed in
+`english/SOURCE.json` from `Signs of Life/Content/Config/` into
+`english/Config/` and update `english/SOURCE.json` with the game commit. Then
+drop overlay rows whose IDs no longer exist.

@@ -1,0 +1,228 @@
+[
+  {
+    "SaveName": "5.56 Round",
+    "Name": "5.56 Round",
+    "MinDamage": 22,
+    "MaxDamage": 22,
+    "ArmorPiercingFlat": 15
+  },
+  {
+    "SaveName": "7.62 Round",
+    "Name": "7.62 Round"
+  },
+  {
+    "SaveName": "9mm HV Round",
+    "Name": "9mm HV Round",
+    "MinDamage": 18,
+    "MaxDamage": 18,
+    "ArmorPiercingFlat": 20
+  },
+  {
+    "SaveName": "9mm Ricochet Round",
+    "Name": "9mm Ricochet Round",
+    "MinDamage": 14,
+    "MaxDamage": 14,
+    "ArmorPiercingFlat": 10
+  },
+  {
+    "SaveName": "9mm Round",
+    "Name": "9mm Round",
+    "MinDamage": 15,
+    "MaxDamage": 15,
+    "ArmorPiercingFlat": 10
+  },
+  {
+    "SaveName": "Blunderbuss Pellet",
+    "Name": "Blunderbuss Pellet"
+  },
+  {
+    "SaveName": "Crawler Dart",
+    "Name": "Crawler Dart",
+    "MinDamage": 20,
+    "MaxDamage": 20
+  },
+  {
+    "SaveName": "Electric Flare",
+    "Name": "Electric Flare"
+  },
+  {
+    "SaveName": "Incendiary Shotgun Pellet",
+    "Name": "Incendiary Shotgun Pellet"
+  },
+  {
+    "SaveName": "Launcher Grenade",
+    "Name": "Launcher Grenade",
+    "MinDamage": 0,
+    "MaxDamage": 0,
+    "ExplosionPower": 10,
+    "ExplosionRange": 4
+  },
+  {
+    "SaveName": "Launcher Rocket",
+    "Name": "Launcher Rocket",
+    "MinDamage": 0,
+    "MaxDamage": 0,
+    "ExplosionPower": 10,
+    "ExplosionRange": 4
+  },
+  {
+    "SaveName": "Magnum Round",
+    "Name": "Magnum Round",
+    "MinDamage": 35,
+    "MaxDamage": 35,
+    "ArmorPiercingFlat": 15
+  },
+  {
+    "SaveName": "Riot Shotgun Pellet",
+    "Name": "Riot Shotgun Pellet"
+  },
+  {
+    "SaveName": "Rocket Flare",
+    "Name": "Rocket Flare"
+  },
+  {
+    "SaveName": "Shotgun Pellet",
+    "Name": "Shotgun Pellet",
+    "MinDamage": 5,
+    "MaxDamage": 10,
+    "ArmorPiercingFlat": 5
+  },
+  {
+    "SaveName": "Shotgun Slug",
+    "Name": "Shotgun Slug"
+  },
+  {
+    "SaveName": "Bottle Rocket",
+    "Name": "Bottle Rocket",
+    "MinDamage": 5,
+    "MaxDamage": 5
+  },
+  {
+    "SaveName": "Amber Flare",
+    "Name": "Amber Flare"
+  },
+  {
+    "SaveName": "Roman Candle Ball",
+    "Name": "Roman Candle Ball",
+    "MinDamage": 0,
+    "MaxDamage": 0
+  },
+  {
+    "SaveName": "Bangsnap",
+    "Name": "Bangsnap",
+    "MinDamage": 1,
+    "MaxDamage": 1
+  },
+  {
+    "SaveName": "Popper Pellet",
+    "Name": "Popper Pellet",
+    "MinDamage": 5,
+    "MaxDamage": 8
+  },
+  {
+    "SaveName": "Leaper Stone",
+    "Name": "Leaper Stone",
+    "MinDamage": 40,
+    "MaxDamage": 40
+  },
+  {
+    "SaveName": "Sulfur Cloud",
+    "Name": "Sulfur Cloud",
+    "MinDamage": 1,
+    "MaxDamage": 5
+  },
+  {
+    "SaveName": "9mm Hollow Point",
+    "Name": "9mm Hollow Point",
+    "MinDamage": 30,
+    "MaxDamage": 30,
+    "ArmorPiercingFlat": 0
+  },
+  {
+    "SaveName": ".357 Round",
+    "Name": ".357 Round",
+    "MinDamage": 35,
+    "MaxDamage": 35,
+    "ArmorPiercingFlat": 20
+  },
+  {
+    "SaveName": ".357 Hollow Point",
+    "Name": ".357 Hollow Point",
+    "MinDamage": 45,
+    "MaxDamage": 45,
+    "ArmorPiercingFlat": 0
+  },
+  {
+    "SaveName": "Blow Dart",
+    "Name": "Blow Dart",
+    "MinDamage": 1,
+    "MaxDamage": 1,
+    "ArmorPiercingFlat": 1
+  },
+  {
+    "SaveName": "Dirt Clod",
+    "Name": "Dirt Clod",
+    "MinDamage": 20,
+    "MaxDamage": 20
+  },
+  {
+    "SaveName": "Grass Clod",
+    "Name": "Grass Clod",
+    "MinDamage": 20,
+    "MaxDamage": 20
+  },
+  {
+    "SaveName": "Stone Clod",
+    "Name": "Stone Clod",
+    "MinDamage": 30,
+    "MaxDamage": 30
+  },
+  {
+    "SaveName": "Xenite Clod",
+    "Name": "Xenite Clod",
+    "MinDamage": 40,
+    "MaxDamage": 40
+  },
+  {
+    "SaveName": ".700 Round",
+    "Name": ".700 Round",
+    "MinDamage": 100,
+    "MaxDamage": 100,
+    "ArmorPiercingFlat": 50
+  },
+  {
+    "SaveName": ".45acp Round",
+    "Name": ".45acp Round",
+    "MinDamage": 20,
+    "MaxDamage": 20,
+    "ArmorPiercingFlat": 12
+  },
+  {
+    "SaveName": ".22lr Round",
+    "Name": ".22lr Round",
+    "MinDamage": 12,
+    "MaxDamage": 12,
+    "ArmorPiercingFlat": 5
+  },
+  {
+    "SaveName": ".308 Round",
+    "Name": ".308 Round",
+    "MinDamage": 55,
+    "MaxDamage": 55,
+    "ArmorPiercingFlat": 30
+  },
+  {
+    "SaveName": "Laser Pistol Projectile",
+    "Name": "Laser Pistol Projectile"
+  },
+  {
+    "SaveName": "Laser Rifle Projectile",
+    "Name": "Laser Rifle Projectile"
+  },
+  {
+    "SaveName": "Explosive Xenostone Boulder",
+    "Name": "Explosive Xenostone Boulder",
+    "ExplosionPower": 10,
+    "ExplosionRange": 4
+  }
+]

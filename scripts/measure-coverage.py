@@ -13,13 +13,40 @@ UI_TABLES = (
     "StatusEffectLocalization.json",
 )
 DIALOG_TABLE = "DialogLocalization.json"
-OVERLAY_TABLES = UI_TABLES + (DIALOG_TABLE,)
+
+# (filename, row key, scalar prose fields, nested string-map fields)
+PROSE_TABLES = (
+    ("helpData.json", "Key", ("Label", "Category", "Text"), ()),
+    ("journalEntries.json", "ID", ("Message",), ()),
+    ("InventoryItemData.json", "ItemID", ("Name", "Description"), ("Templates",)),
+    ("MeleeWeaponData.json", "ItemID", ("Name", "Description"), ()),
+    ("RangedWeaponData.json", "ItemID", ("Name", "Description"), ()),
+    ("ProjectileRegistrationData.json", "SaveName", ("Name",), ()),
+    (
+        "CreatureRegistrationData.json",
+        "LivingEntityType",
+        ("Name", "Description", "CodexCategory"),
+        (),
+    ),
+    (
+        "StaticPrefabRegistrationData.json",
+        "StaticPrefabType",
+        (
+            "Name",
+            "DisplayName",
+            "Description",
+            "CodexCategory",
+            "TooltipNameOverride",
+        ),
+        ("DescriptionsByState", "SpecificTooltips"),
+    ),
+)
 
 
 def load_json(path: Path):
     if not path.is_file():
         return None
-    return json.loads(path.read_text(encoding="utf-8"))
+    return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
 def ui_index(rows):
@@ -42,6 +69,42 @@ def dialog_index(rows):
             "Normal": (row.get("Normal") or "").strip(),
             "Robot": (row.get("Robot") or "").strip(),
         }
+    return index
+
+
+def row_key(row, key_name):
+    value = row.get(key_name)
+    if value is None or value == "":
+        return None
+    return str(value)
+
+
+def prose_fields(row, scalars, maps):
+    fields = {}
+    for name in scalars:
+        value = (row.get(name) or "").strip() if isinstance(row.get(name), str) else ""
+        if value:
+            fields[name] = value
+    for map_name in maps:
+        nested = row.get(map_name) or {}
+        if not isinstance(nested, dict):
+            continue
+        for nested_key, nested_value in nested.items():
+            if not nested_key:
+                continue
+            text = (nested_value or "").strip() if isinstance(nested_value, str) else ""
+            if text:
+                fields[map_name + "." + str(nested_key)] = text
+    return fields
+
+
+def prose_index(rows, key_name, scalars, maps):
+    index = {}
+    for row in rows or []:
+        ident = row_key(row, key_name)
+        if ident is None:
+            continue
+        index[ident] = prose_fields(row, scalars, maps)
     return index
 
 
@@ -99,6 +162,30 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
             if status == "translated":
                 translated += 1
     tables[DIALOG_TABLE] = {"total": dialog_total, **counts}
+
+    for name, key_name, scalars, maps in PROSE_TABLES:
+        english_rows = prose_index(
+            load_json(english_root / "Config" / name) or [], key_name, scalars, maps
+        )
+        overlay_rows = prose_index(
+            load_json(locale_root / "Config" / name) or [], key_name, scalars, maps
+        )
+        unknown = sorted(set(overlay_rows) - set(english_rows))
+        if unknown:
+            errors.append("%s unknown keys: %s" % (name, ", ".join(unknown[:20])))
+
+        counts = {"translated": 0, "missing": 0, "same-as-english": 0}
+        table_total = 0
+        for ident, english_fields in english_rows.items():
+            overlay_fields = overlay_rows.get(ident, {})
+            for field, english_value in english_fields.items():
+                table_total += 1
+                total += 1
+                status = classify(overlay_fields.get(field, ""), english_value)
+                counts[status] += 1
+                if status == "translated":
+                    translated += 1
+        tables[name] = {"total": table_total, **counts}
 
     percent = (100.0 * translated / total) if total else 0.0
     return {
