@@ -200,6 +200,8 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
 
 README_TABLE_START = "<!-- coverage-table:start -->"
 README_TABLE_END = "<!-- coverage-table:end -->"
+UNSUPPORTED_TABLE_START = "<!-- unsupported-table:start -->"
+UNSUPPORTED_TABLE_END = "<!-- unsupported-table:end -->"
 
 
 def load_languages_file(repo: Path) -> dict:
@@ -235,7 +237,7 @@ def render_markdown(results: list, source: dict) -> str:
     return "\n".join(lines)
 
 
-def render_readme_table(results: list, source: dict, unsupported: list) -> str:
+def render_readme_table(results: list, source: dict) -> str:
     ordered = sorted(
         results,
         key=lambda row: (-row["percent"], row["locale"].lower()),
@@ -248,46 +250,46 @@ def render_readme_table(results: list, source: dict, unsupported: list) -> str:
         "Counted against English snapshot `%s` (%s overlay fields). A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game."
         % (snapshot, total),
         "",
-        "| Language | Pack | In-game | Translated |",
-        "| --- | --- | --- | ---: |",
+        "| Language | Pack | Translated |",
+        "| --- | --- | ---: |",
     ]
     for row in ordered:
         code = row["locale"]
         name = row.get("endonym") or code
         lines.append(
-            "| %s | [`%s`](locales/%s/) | Yes | %s%% |"
+            "| %s | [`%s`](locales/%s/) | %s%% |"
             % (name, code, code, row["percent"])
-        )
-
-    lines.extend(
-        [
-            "",
-            "`Yes` means the current fonts can draw the language.",
-            "",
-            "These scripts have **no pack** yet: the shipped fonts cannot draw them, so in-game text would be blank.",
-            "",
-            "| Language | Code | In-game |",
-            "| --- | --- | --- |",
-        ]
-    )
-    for item in unsupported or []:
-        lines.append(
-            "| %s | `%s` | No — %s glyphs missing |"
-            % (item.get("name", ""), item.get("code", ""), item.get("script", "required"))
         )
     lines.extend(["", README_TABLE_END])
     return "\n".join(lines)
 
 
-def replace_readme_table(readme: str, table: str) -> str:
-    start = readme.find(README_TABLE_START)
-    end = readme.find(README_TABLE_END)
+def render_unsupported_table(unsupported: list) -> str:
+    lines = [
+        UNSUPPORTED_TABLE_START,
+        "",
+        "The shipped fonts cannot draw these scripts yet, so there is no pack folder.",
+        "",
+        "| Language | Code | Script |",
+        "| --- | --- | --- |",
+    ]
+    for item in unsupported or []:
+        lines.append(
+            "| %s | `%s` | %s |"
+            % (item.get("name", ""), item.get("code", ""), item.get("script", ""))
+        )
+    lines.extend(["", UNSUPPORTED_TABLE_END])
+    return "\n".join(lines)
+
+
+def replace_marked_section(readme: str, start_marker: str, end_marker: str, table: str) -> str:
+    start = readme.find(start_marker)
+    end = readme.find(end_marker)
     if start < 0 or end < 0 or end < start:
         raise SystemExit(
-            "README.md is missing %s / %s markers."
-            % (README_TABLE_START, README_TABLE_END)
+            "README.md is missing %s / %s markers." % (start_marker, end_marker)
         )
-    end += len(README_TABLE_END)
+    end += len(end_marker)
     return readme[:start] + table + readme[end:]
 
 
@@ -348,9 +350,18 @@ def main(argv: list[str] | None = None) -> int:
         )
     if args.readme:
         readme_path = args.readme
-        updated = replace_readme_table(
-            readme_path.read_text(encoding="utf-8"),
-            render_readme_table(results, source, unsupported),
+        updated = readme_path.read_text(encoding="utf-8")
+        updated = replace_marked_section(
+            updated,
+            README_TABLE_START,
+            README_TABLE_END,
+            render_readme_table(results, source),
+        )
+        updated = replace_marked_section(
+            updated,
+            UNSUPPORTED_TABLE_START,
+            UNSUPPORTED_TABLE_END,
+            render_unsupported_table(unsupported),
         )
         if not updated.endswith("\n"):
             updated += "\n"

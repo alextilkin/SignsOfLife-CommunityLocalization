@@ -5,68 +5,72 @@ locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
 restart. Enable only one locale pack at a time; the last loaded overlay wins.
 
-Do not add machine-generated player-facing text. License terms are in
+Do not submit AI generated text. License terms are in
 [`LICENSE.md`](LICENSE.md). By opening a pull request you agree to them
 ([`CONTRIBUTING.md`](CONTRIBUTING.md)).
 
-## Languages
+## Languages Currently Supported
 
 <!-- coverage-table:start -->
 
 Counted against English snapshot `90165c63` (4728 overlay fields). A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game.
 
-| Language | Pack | In-game | Translated |
-| --- | --- | --- | ---: |
-| Afrikaans | [`af`](locales/af/) | Yes | 0.0% |
-| Català | [`ca`](locales/ca/) | Yes | 0.0% |
-| Čeština | [`cs`](locales/cs/) | Yes | 0.0% |
-| Dansk | [`da`](locales/da/) | Yes | 0.0% |
-| Deutsch | [`de`](locales/de/) | Yes | 0.0% |
-| Español | [`es`](locales/es/) | Yes | 0.0% |
-| Eesti | [`et`](locales/et/) | Yes | 0.0% |
-| Euskara | [`eu`](locales/eu/) | Yes | 0.0% |
-| Suomi | [`fi`](locales/fi/) | Yes | 0.0% |
-| Français | [`fr`](locales/fr/) | Yes | 0.0% |
-| Galego | [`gl`](locales/gl/) | Yes | 0.0% |
-| Hrvatski | [`hr`](locales/hr/) | Yes | 0.0% |
-| Magyar | [`hu`](locales/hu/) | Yes | 0.0% |
-| Bahasa Indonesia | [`id`](locales/id/) | Yes | 0.0% |
-| Íslenska | [`is`](locales/is/) | Yes | 0.0% |
-| Italiano | [`it`](locales/it/) | Yes | 0.0% |
-| Lietuvių | [`lt`](locales/lt/) | Yes | 0.0% |
-| Latviešu | [`lv`](locales/lv/) | Yes | 0.0% |
-| Norsk bokmål | [`nb`](locales/nb/) | Yes | 0.0% |
-| Nederlands | [`nl`](locales/nl/) | Yes | 0.0% |
-| Polski | [`pl`](locales/pl/) | Yes | 0.0% |
-| Português | [`pt`](locales/pt/) | Yes | 0.0% |
-| Português (Brasil) | [`pt-BR`](locales/pt-BR/) | Yes | 0.0% |
-| Română | [`ro`](locales/ro/) | Yes | 0.0% |
-| Slovenčina | [`sk`](locales/sk/) | Yes | 0.0% |
-| Slovenščina | [`sl`](locales/sl/) | Yes | 0.0% |
-| Srpski (latinica) | [`sr-Latn`](locales/sr-Latn/) | Yes | 0.0% |
-| Svenska | [`sv`](locales/sv/) | Yes | 0.0% |
-| Türkçe | [`tr`](locales/tr/) | Yes | 0.0% |
-
-`Yes` means the current fonts can draw the language.
-
-These scripts have **no pack** yet: the shipped fonts cannot draw them, so in-game text would be blank.
-
-| Language | Code | In-game |
-| --- | --- | --- |
-| Русский | `ru` | No — Cyrillic glyphs missing |
-| Українська | `uk` | No — Cyrillic glyphs missing |
-| Български | `bg` | No — Cyrillic glyphs missing |
-| Ελληνικά | `el` | No — Greek glyphs missing |
-| 日本語 | `ja` | No — CJK glyphs missing |
-| 简体中文 | `zh-Hans` | No — CJK glyphs missing |
-| 繁體中文 | `zh-Hant` | No — CJK glyphs missing |
-| 한국어 | `ko` | No — Hangul glyphs missing |
-| العربية | `ar` | No — Arabic glyphs missing |
-| עברית | `he` | No — Hebrew glyphs missing |
-| ไทย | `th` | No — Thai glyphs missing |
-| Tiếng Việt | `vi` | No — Vietnamese (horned vowels) glyphs missing |
+| Language | Pack | Translated |
+| --- | --- | ---: |
+| Afrikaans | [`af`](locales/af/) | 0.0% |
+| Català | [`ca`](locales/ca/) | 0.0% |
+| Čeština | [`cs`](locales/cs/) | 0.0% |
+| Dansk | [`da`](locales/da/) | 0.0% |
+| Deutsch | [`de`](locales/de/) | 0.0% |
+| Español | [`es`](locales/es/) | 0.0% |
+| Eesti | [`et`](locales/et/) | 0.0% |
+| Euskara | [`eu`](locales/eu/) | 0.0% |
+| Suomi | [`fi`](locales/fi/) | 0.0% |
+| Français | [`fr`](locales/fr/) | 0.0% |
+| Galego | [`gl`](locales/gl/) | 0.0% |
+| Hrvatski | [`hr`](locales/hr/) | 0.0% |
+| Magyar | [`hu`](locales/hu/) | 0.0% |
+| Bahasa Indonesia | [`id`](locales/id/) | 0.0% |
+| Íslenska | [`is`](locales/is/) | 0.0% |
+| Italiano | [`it`](locales/it/) | 0.0% |
+| Lietuvių | [`lt`](locales/lt/) | 0.0% |
+| Latviešu | [`lv`](locales/lv/) | 0.0% |
+| Norsk bokmål | [`nb`](locales/nb/) | 0.0% |
+| Nederlands | [`nl`](locales/nl/) | 0.0% |
+| Polski | [`pl`](locales/pl/) | 0.0% |
+| Português | [`pt`](locales/pt/) | 0.0% |
+| Português (Brasil) | [`pt-BR`](locales/pt-BR/) | 0.0% |
+| Română | [`ro`](locales/ro/) | 0.0% |
+| Slovenčina | [`sk`](locales/sk/) | 0.0% |
+| Slovenščina | [`sl`](locales/sl/) | 0.0% |
+| Srpski (latinica) | [`sr-Latn`](locales/sr-Latn/) | 0.0% |
+| Svenska | [`sv`](locales/sv/) | 0.0% |
+| Türkçe | [`tr`](locales/tr/) | 0.0% |
 
 <!-- coverage-table:end -->
+
+## Unsupported Languages
+
+<!-- unsupported-table:start -->
+
+The shipped fonts cannot draw these scripts yet, so there is no pack folder.
+
+| Language | Code | Script |
+| --- | --- | --- |
+| Русский | `ru` | Cyrillic |
+| Українська | `uk` | Cyrillic |
+| Български | `bg` | Cyrillic |
+| Ελληνικά | `el` | Greek |
+| 日本語 | `ja` | CJK |
+| 简体中文 | `zh-Hans` | CJK |
+| 繁體中文 | `zh-Hant` | CJK |
+| 한국어 | `ko` | Hangul |
+| العربية | `ar` | Arabic |
+| עברית | `he` | Hebrew |
+| ไทย | `th` | Thai |
+| Tiếng Việt | `vi` | Vietnamese (horned vowels) |
+
+<!-- unsupported-table:end -->
 
 ## Layout
 
