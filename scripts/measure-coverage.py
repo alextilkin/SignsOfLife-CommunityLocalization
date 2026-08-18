@@ -198,9 +198,22 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
     }
 
 
+README_TABLE_START = "<!-- coverage-table:start -->"
+README_TABLE_END = "<!-- coverage-table:end -->"
+
+
+def load_languages_file(repo: Path) -> dict:
+    return json.loads((repo / "languages.json").read_text(encoding="utf-8"))
+
+
 def load_languages(repo: Path) -> list:
-    data = json.loads((repo / "languages.json").read_text(encoding="utf-8"))
-    return data["languages"]
+    return load_languages_file(repo)["languages"]
+
+
+def in_game_label(font: str) -> str:
+    if font == "runtime":
+        return "Yes ([Runtime font](FONTS.md))"
+    return "Yes"
 
 
 def render_markdown(results: list, source: dict) -> str:
@@ -229,18 +242,81 @@ def render_markdown(results: list, source: dict) -> str:
     return "\n".join(lines)
 
 
+def render_readme_table(results: list, source: dict, unsupported: list) -> str:
+    ordered = sorted(
+        results,
+        key=lambda row: (-row["percent"], row["locale"].lower()),
+    )
+    snapshot = source.get("snapshotCommit", "?")[:8]
+    total = ordered[0]["total"] if ordered else 0
+    lines = [
+        README_TABLE_START,
+        "",
+        "Counted against English snapshot `%s` (%s overlay fields). A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game."
+        % (snapshot, total),
+        "",
+        "| Language | Pack | In-game | Translated |",
+        "| --- | --- | --- | ---: |",
+    ]
+    for row in ordered:
+        code = row["locale"]
+        name = row.get("endonym") or code
+        lines.append(
+            "| %s | [`%s`](locales/%s/) | %s | %s%% |"
+            % (name, code, code, in_game_label(row.get("font", "")), row["percent"])
+        )
+
+    lines.extend(
+        [
+            "",
+            "`Yes` means the current Kimberley fonts can draw the language. Packs marked Runtime need Settings → Font Glyphs → **Runtime** (the default). See [`FONTS.md`](FONTS.md).",
+            "",
+            "These scripts have **no pack** yet: the shipped fonts cannot draw them, so in-game text would be blank.",
+            "",
+            "| Language | Code | In-game |",
+            "| --- | --- | --- |",
+        ]
+    )
+    for item in unsupported or []:
+        lines.append(
+            "| %s | `%s` | No — %s glyphs missing |"
+            % (item.get("name", ""), item.get("code", ""), item.get("script", "required"))
+        )
+    lines.extend(["", README_TABLE_END])
+    return "\n".join(lines)
+
+
+def replace_readme_table(readme: str, table: str) -> str:
+    start = readme.find(README_TABLE_START)
+    end = readme.find(README_TABLE_END)
+    if start < 0 or end < 0 or end < start:
+        raise SystemExit(
+            "README.md is missing %s / %s markers."
+            % (README_TABLE_START, README_TABLE_END)
+        )
+    end += len(README_TABLE_END)
+    return readme[:start] + table + readme[end:]
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--write", type=Path, help="Write coverage.md")
     parser.add_argument("--json-out", type=Path, help="Write coverage.json")
+    parser.add_argument(
+        "--readme",
+        type=Path,
+        help="Replace the coverage table between HTML markers in README.md",
+    )
     args = parser.parse_args(argv)
 
     repo = args.repo
     english_root = repo / "english"
     locales_root = repo / "locales"
     source = json.loads((english_root / "SOURCE.json").read_text(encoding="utf-8"))
-    languages = load_languages(repo)
+    languages_file = load_languages_file(repo)
+    languages = languages_file["languages"]
+    unsupported = languages_file.get("unsupported") or []
 
     results = []
     failed = False
@@ -278,6 +354,15 @@ def main(argv: list[str] | None = None) -> int:
             encoding="utf-8",
             newline="\n",
         )
+    if args.readme:
+        readme_path = args.readme
+        updated = replace_readme_table(
+            readme_path.read_text(encoding="utf-8"),
+            render_readme_table(results, source, unsupported),
+        )
+        if not updated.endswith("\n"):
+            updated += "\n"
+        readme_path.write_text(updated, encoding="utf-8", newline="\n")
     sys.stdout.write(markdown)
     return 1 if failed else 0
 

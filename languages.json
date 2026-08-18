@@ -33,5 +33,19 @@
     { "code": "sr-Latn", "endonym": "Srpski (latinica)", "font": "runtime" },
     { "code": "sv", "endonym": "Svenska", "font": "baked" },
     { "code": "tr", "endonym": "Türkçe", "font": "runtime" }
+  ],
+  "unsupported": [
+    { "name": "Русский", "code": "ru", "script": "Cyrillic" },
+    { "name": "Українська", "code": "uk", "script": "Cyrillic" },
+    { "name": "Български", "code": "bg", "script": "Cyrillic" },
+    { "name": "Ελληνικά", "code": "el", "script": "Greek" },
+    { "name": "日本語", "code": "ja", "script": "CJK" },
+    { "name": "简体中文", "code": "zh-Hans", "script": "CJK" },
+    { "name": "繁體中文", "code": "zh-Hant", "script": "CJK" },
+    { "name": "한국어", "code": "ko", "script": "Hangul" },
+    { "name": "العربية", "code": "ar", "script": "Arabic" },
+    { "name": "עברית", "code": "he", "script": "Hebrew" },
+    { "name": "ไทย", "code": "th", "script": "Thai" },
+    { "name": "Tiếng Việt", "code": "vi", "script": "Vietnamese (horned vowels)" }
   ]
 }
