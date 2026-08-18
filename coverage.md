@@ -28,7 +28,7 @@ Empty overlay fields keep English in-game and count as missing.
 | `nl` | baked | 0 | 1509 | 0.0% |
 | `pl` | runtime | 0 | 1509 | 0.0% |
 | `pt` | baked | 0 | 1509 | 0.0% |
-| `pt-BR` | baked | 1286 | 1509 | 85.2% |
+| `pt-BR` | baked | 0 | 1509 | 0.0% |
 | `ro` | runtime | 0 | 1509 | 0.0% |
 | `sk` | runtime | 0 | 1509 | 0.0% |
 | `sl` | runtime | 0 | 1509 | 0.0% |

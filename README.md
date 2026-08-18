@@ -34,9 +34,6 @@ Only these pack files replace English:
 Empty arrays mean “nothing translated yet.” Leave untranslated rows out rather
 than copying English.
 
-`locales/pt-BR/` is the existing Brazilian Portuguese overlay (HUD + spoken
-lines). Tooltip and status-effect files there are still empty.
-
 ## Coverage
 
 ```text
