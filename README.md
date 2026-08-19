@@ -13,7 +13,7 @@ Do not submit AI generated text. License terms are in
 
 <!-- coverage-table:start -->
 
-A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game. 5448 fields.
+A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game. 6130 fields.
 
 | Language | Pack | Translated |
 | --- | --- | ---: |
@@ -93,7 +93,7 @@ are ignored even if present:
 - `Config/DialogLocalization.json`
 - `Config/helpData.json`
 - `Config/journalEntries.json`
-- `Config/InventoryItemData.json`
+- `Config/InventoryItemData.json` — compiled items and vanilla pack `sol.*` cards
 - `Config/MeleeWeaponData.json`
 - `Config/RangedWeaponData.json`
 - `Config/ProjectileRegistrationData.json`

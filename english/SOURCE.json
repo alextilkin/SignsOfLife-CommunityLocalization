@@ -1,7 +1,7 @@
 {
   "game": "Signs of Life",
-  "snapshotCommit": "b9d0ad00f737d3bfd5a70c0eae5282f2cc74f500",
-  "snapshotSubject": "Generate mechanical equipment-effect bonus text.",
+  "snapshotCommit": "9e6f1a84fa08476d571e3e000b7bfd59428dfad4",
+  "snapshotSubject": "Let locale packs overlay vanilla pack item names.",
   "snapshotDate": "2026-08-18",
   "overlayableFiles": [
     "Config/UILocalization.json",
@@ -19,5 +19,5 @@
     "Config/DatapadTextData.json",
     "Config/ArmorSetData.json"
   ],
-  "notes": "Packs overlay prose fields only. Leave ItemID, SaveName, LivingEntityType, StaticPrefabType, SaveAliases, AutoOrganizeString, Complexity, IsDefault, datapad ID, armor ItemType / set Name / piece Set, and combat stats in English. Container gump titles are not overlayable yet. Datapad English is XML in the game; this JSON is the overlay snapshot. Armor English is Config/ArmorSetData.json in the game; the overlay uses the same shape."
+  "notes": "Packs overlay prose fields only. Leave ItemID, SaveName, LivingEntityType, StaticPrefabType, SaveAliases, AutoOrganizeString, Complexity, IsDefault, datapad ID, armor ItemType / set Name / piece Set, and combat stats in English. Container gump titles are not overlayable yet. Datapad English is XML in the game; this JSON is the overlay snapshot. Armor English is Config/ArmorSetData.json in the game; the overlay uses the same shape. Vanilla pack-item Name/Description stays in LoadedContent item_*.json; export-pack-item-prose.py fills the sol.* overlay fields in this InventoryItemData snapshot. Unique EquipmentEffects Description is still pack-only."
 }

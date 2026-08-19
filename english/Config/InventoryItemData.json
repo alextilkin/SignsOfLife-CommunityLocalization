@@ -5800,807 +5800,1159 @@
     },
     {
         "ItemID":  "sol.em_rounds",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "EM Rounds",
+        "Description":  "These rounds contain no propellant, but are composed of materials that can be accelerated by electromagnetic weapons."
     },
     {
         "ItemID":  "sol.beeswax",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Beeswax",
+        "Description":  "The waxy substrate that was once home to some delicious honey."
     },
     {
         "ItemID":  "sol.blown_hypercapacitor",
-        "Complexity":  9
+        "Complexity":  9,
+        "Name":  "Blown Hypercapacitor",
+        "Description":  "This hypercapacitor seems to have sustained catastrophic acid damage and is now useless."
     },
     {
         "ItemID":  "sol.carbon_nanotubes",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Carbon Nanotubes",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Nanometer scale tubes made of carbon. Carbon nanotubes are incredibly strong for their weight, and are the foundation of many advanced technologies."
     },
     {
         "ItemID":  "sol.chicken_lattice",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Chicken Infused Data Lattice",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This is some kind of holographic lattice that has somehow been infused with chicken data."
     },
     {
         "ItemID":  "sol.construction_nails",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Construction Nails",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A set of nails used for construction."
     },
     {
         "ItemID":  "sol.construction_tape",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Construction Tape",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "Special construction tape that is typicall used for marking construction areas."
     },
     {
         "ItemID":  "sol.corroded_stabilizer_plate",
-        "Complexity":  9
+        "Complexity":  9,
+        "Name":  "Corroded Stabilizer Plate",
+        "Description":  "This stabilizer plate seems to have been catastrophically corroded by acid damage."
     },
     {
         "ItemID":  "sol.empty_glass",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Empty Glass",
+        "Description":  "An empty glass."
     },
     {
         "ItemID":  "sol.energy_capsule",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "High Wavelength Energy Capsule",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This appears to be a device used to focus energy into intense pulses."
     },
     {
         "ItemID":  "sol.espresso_mug",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Espresso Mug",
+        "Description":  "An small mug that is typically used to hold espresso."
     },
     {
         "ItemID":  "sol.large_coffee_mug",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Large Coffee Mug",
+        "Description":  "A large coffee mug."
     },
     {
         "ItemID":  "sol.medium_coffee_mug",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Medium Coffee Mug",
+        "Description":  "A medium coffee mug"
     },
     {
         "ItemID":  "sol.mortar_and_pestle",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Mortar and Pestle",
+        "Description":  "A basic device for mashing things up."
     },
     {
         "ItemID":  "sol.ominous_crystal_green",
         "Complexity":  2,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Ominous Crystal",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A green crystal with an ominous energy."
     },
     {
         "ItemID":  "sol.ominous_crystal_orange",
         "Complexity":  2,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Ominous Crystal",
+        "AutoOrganizeString":  "forager",
+        "Description":  "An orange crystal with an ominous energy."
     },
     {
         "ItemID":  "sol.ominous_crystal_purple",
         "Complexity":  2,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Ominous Crystal",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A purple crystal with an ominous energy."
     },
     {
         "ItemID":  "sol.ominous_crystal_white",
         "Complexity":  2,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Ominous Crystal",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A white crystal with an ominous energy."
     },
     {
         "ItemID":  "sol.ominous_wood",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Ominous Wood",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This is a dry, brittle wood that seems to radiate an ominous energy."
     },
     {
         "ItemID":  "sol.power_panel",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Power Compartment Panel",
+        "Description":  "A panel that can be used to protect a power compartment. It can be removed with a screwdriver."
     },
     {
         "ItemID":  "sol.ruined_beryllium_sphere",
-        "Complexity":  9
+        "Complexity":  9,
+        "Name":  "Ruined Beryllium Sphere",
+        "Description":  "This beryllum sphere has sustained catastrophic acid damage and is now no more useful than a paperweight."
     },
     {
         "ItemID":  "sol.small_coffee_mug",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Small Coffee Mug",
+        "Description":  "A small coffee mug."
     },
     {
         "ItemID":  "sol.small_paint_can",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Small Paint Can",
+        "Description":  "A small aluminum container that is intended to hold paint."
     },
     {
         "ItemID":  "sol.specimen_cont_empty",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Small Specimen Container",
+        "Description":  "A small, empty specimen container."
     },
     {
         "ItemID":  "sol.specimen_cont_egg",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Small Specimen Container With Egg",
+        "Description":  "A small specimen container with an egg in it."
     },
     {
         "ItemID":  "sol.specimen_cont_chickenEmbryo0",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Small Specimen Container With Small Embryo",
+        "Description":  "A small specimen container with an early stage chicken embryo in it."
     },
     {
         "ItemID":  "sol.specimen_cont_chickenEmbryo1",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Small Specimen Container With Medium Embryo",
+        "Description":  "A small specimen container with a medium stage chicken embryo in it."
     },
     {
         "ItemID":  "sol.specimen_cont_chickenEmbryo2",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Small Specimen Container With Large Embryo",
+        "Description":  "A small specimen container with a late stage chicken embryo in it."
     },
     {
         "ItemID":  "sol.stepladder",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Stepladder",
+        "Description":  "A small stepladder."
     },
     {
         "ItemID":  "sol.tech_wire_spool",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Tech Wire Spool",
+        "Description":  "A large spool of wire."
     },
     {
         "ItemID":  "sol.batter",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Batter",
+        "AutoOrganizeString":  "food",
+        "Description":  "This is a thick liquid composed of flour, eggs and fat."
     },
     {
         "ItemID":  "sol.cornmeal",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Cornmeal",
+        "AutoOrganizeString":  "food",
+        "Description":  "Corn that has been ground up into a coarse powder."
     },
     {
         "ItemID":  "sol.dough",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Dough",
+        "AutoOrganizeString":  "food",
+        "Description":  "A pliant and thick mixture of flour, yeast and shortening."
     },
     {
         "ItemID":  "sol.nutmeal",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Nutmeal",
+        "AutoOrganizeString":  "food",
+        "Description":  "A coarse powder made of ground up nuts."
     },
     {
         "ItemID":  "sol.plant_oil",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Plant Oil",
+        "AutoOrganizeString":  "food",
+        "Description":  "A liquid fat produced by squeezing the oils out of various plants."
     },
     {
         "ItemID":  "sol.sweet_dough",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Sweet Dough",
+        "AutoOrganizeString":  "food",
+        "Description":  "A pliant and thick mixture of flour, yeast, shortening and sugar."
     },
     {
         "ItemID":  "sol.wheat_flour",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Wheat Flour",
+        "AutoOrganizeString":  "food",
+        "Description":  "Wheat that has been ground into a fine powder. Used for baking."
     },
     {
         "ItemID":  "sol.yeast",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Yeast",
+        "AutoOrganizeString":  "food",
+        "Description":  "This is a single-celled microorganism classified as a member of the fungus kingdom. It can be used as a leavening agent when baking."
     },
     {
         "ItemID":  "sol.clay_bowl",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Clay Bowl",
+        "Description":  "A wonderful little clay bowl. You could make a salad with it!"
     },
     {
         "ItemID":  "sol.clay_plate",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Clay Plate",
+        "Description":  "An adorable little clay plate. You could put all sorts of things on it!"
     },
     {
         "ItemID":  "sol.herb_ipecac",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Ipecac Herb",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This plant can be processed into Ipecac Medicine which will make you blow chunks when ingested."
     },
     {
         "ItemID":  "sol.carbon_fiber_spindle",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Carbon Fiber Spindle",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This is carbon fibers wrapped around a spindle. The carbon fibers can be woven into various forms."
     },
     {
         "ItemID":  "sol.loose_clay",
         "Complexity":  1,
-        "AutoOrganizeString":  "excavator"
+        "Name":  "Loose Clay",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "This is clay that has presumably been dug out of the ground. It can be fired in a Campfire or a Draft Furnace to create a brick."
     },
     {
         "ItemID":  "sol.meteorite_chunk",
         "Complexity":  3,
-        "AutoOrganizeString":  "excavator"
+        "Name":  "Meteorite Chunk",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "This is a large chunk that broke off of a meteorite. It contains trace amounts of various materials that can be extracted by using a material grinder."
     },
     {
         "ItemID":  "sol.meteorite_fragment",
         "Complexity":  2,
-        "AutoOrganizeString":  "excavator"
+        "Name":  "Meteorite Fragment",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "This is a small fragment that broke off of a meteorite. It contains trace amounts of various materials that can be extracted by using a material grinder."
     },
     {
         "ItemID":  "sol.softwood_board",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Softwood Board",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This is a board from a familiar but unidentifiable type of plant with a soft wood."
     },
     {
         "ItemID":  "sol.softwood_log",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Softwood Log",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This is a log from a familiar but unidentifiable type of plant with a soft wood."
     },
     {
         "ItemID":  "sol.softwood_stick",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Softwood Stick",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This is a stick from a familiar but unidentifiable type of plant with a soft wood."
     },
     {
         "ItemID":  "sol.tallow",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Tallow",
+        "AutoOrganizeString":  "food",
+        "Description":  "Fat that has been rendered out of a meat that has a high proportion of triglycerides."
     },
     {
         "ItemID":  "sol.cheeseburger_wrapper",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Cheeseburger Wrapper",
+        "Description":  "A paper wrapper from a cheeseburger."
     },
     {
         "ItemID":  "sol.datapad_broken",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Broken Datapad",
+        "Description":  "A datapad that has been damaged to the point that it is no longer functional."
     },
     {
         "ItemID":  "sol.glass_broken",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Broken Glass",
+        "Description":  "This is a piece of broken glass."
     },
     {
         "ItemID":  "sol.packing_styrofoam",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Styrofoam Packaging",
+        "Description":  "A hunk of styrofoam packaging material."
     },
     {
         "ItemID":  "sol.plastic_bottle_empty",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Empty Plastic Bottle",
+        "Description":  "This is a small plastic bottle that was used to hold some kind of fluid."
     },
     {
         "ItemID":  "sol.plastic_wrapper",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Plastic Wrapper",
+        "Description":  "This is a small plastic wrapper that was used for keeping something safe during transit."
     },
     {
         "ItemID":  "sol.sheet_metal_tin",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Tin Sheet Metal",
+        "Description":  "A chunk of tin sheet metal."
     },
     {
         "ItemID":  "sol.toilet_paper",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Toilet Paper",
+        "Description":  "This is a long length of thin, cotton based paper wrapped tightly around a cardboard cylinder core."
     },
     {
         "ItemID":  "sol.toilet_paper_soiled",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Soiled Toilet Paper",
+        "Description":  "This is a long length of thin, cotton based paper wrapped tightly around a cardboard cylinder core. It is covered in shit and piss."
     },
     {
         "ItemID":  "sol.trash_bag_white",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "White Trash Bag",
+        "Description":  "A bag of miscelaneous trash. Run it through a Material Grinder and see if there is anything useful inside."
     },
     {
         "ItemID":  "sol.wooden_pallet_broken",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Broken Wooden Pallet",
+        "Description":  "Damaged scraps of wood. Useless on it's own, but it may provide useful materials if broken down with a Material Grinder."
     },
     {
         "ItemID":  "sol.wood_plank_broken",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Broken Wooden Plank",
+        "Description":  "Damaged scraps of wood. Useless on it's own, but it may provide useful materials if broken down with a Material Grinder."
     },
     {
         "ItemID":  "sol.wood_splintered",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Splintered Wood",
+        "Description":  "This is a piece of splintered wood."
     },
     {
         "ItemID":  "sol.course_strange_material",
         "Complexity":  1000,
-        "AutoOrganizeString":  "excavator"
+        "Name":  "Coarse Sourcemetal",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A medium-sized, rough chunk of a strange, unknown material."
     },
     {
         "ItemID":  "sol.granular_strange_material",
         "Complexity":  100,
-        "AutoOrganizeString":  "excavator"
+        "Name":  "Granular Sourcemetal",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A small nugget of a strange, unknown material."
     },
     {
         "ItemID":  "sol.raw_strange_material",
         "Complexity":  10000,
-        "AutoOrganizeString":  "excavator"
+        "Name":  "Raw Sourcemetal",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "A medium-sized chunk of a strange, unknown material."
     },
     {
         "ItemID":  "sol.refined_strange_material",
-        "Complexity":  100000
+        "Complexity":  100000,
+        "Name":  "Refined Sourcemetal",
+        "Description":  "A small heavy, purple, unknown material."
     },
     {
         "ItemID":  "sol.large_battery",
         "Complexity":  6,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Large Lead-Acid Battery",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A really quite heavy battery that stores a bunch of energy."
     },
     {
         "ItemID":  "sol.medium_battery",
         "Complexity":  4,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Medium Lead-Acid Battery",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A relatively heavy battery that stores a decent amount of energy."
     },
     {
         "ItemID":  "sol.power_core",
         "Complexity":  10,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Power Core",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A high tech battery that utilizes various high tech technologies to store a frankly disturbing amount of energy. Power cores are commonly used in high tech weapons."
     },
     {
         "ItemID":  "sol.small_battery",
         "Complexity":  2,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Small Lead-Acid Battery",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A small battery that stores some energy."
     },
     {
         "ItemID":  "sol.advanced_capacitor",
         "Complexity":  8,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Advanced Capacitor",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A high-tech advanced capacitor. If equipped in your MEG tool, it will increase your maximum capacitor charge by 175."
     },
     {
         "ItemID":  "sol.energite_capacitor",
         "Complexity":  10,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Energite Capacitor",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "An exotic capacitor built using Energite and Platinum. If equipped in your MEG tool, it will increase your maximum capacitor charge by 250."
     },
     {
         "ItemID":  "sol.makeshift_capacitor",
         "Complexity":  2,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Makeshift Capacitor",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A simple capacitor constructed primarily of copper and wax. If equipped in your MEG tool, it will increase your maximum capacitor charge by 25."
     },
     {
         "ItemID":  "sol.standard_capacitor",
         "Complexity":  4,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Standard Capacitor",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A standard capacitor constructed primarily of plastic and aluminum. If equipped in your MEG tool, it will increase your maximum capacitor charge by 75."
     },
     {
         "ItemID":  "sol.good_berry",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Good Berry",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A tiny berry with the curious quality of keeping you full for a ridiculously long time. Just... don't eat two of them."
     },
     {
         "ItemID":  "sol.honeycomb",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Honeycomb",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A delicious, sweet nectar housed within a hexagonal waxy substrate. The honey within the comb has antibacterial properties that speed wound healing."
     },
     {
         "ItemID":  "sol.ipecac_medicine",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Ipecac Medicine",
+        "Description":  "A medicinal syrup that will cause you to eject matter from your guts out through your mouth."
     },
     {
         "ItemID":  "sol.pod_fruit",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Pod Fruit",
+        "AutoOrganizeString":  "forager",
+        "Description":  "Some kind of pulsing pod-like fruit? It smells horrible."
     },
     {
         "ItemID":  "sol.stimulant_medicine",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Stimulant Medicine",
+        "Description":  "A medicinal powder that greatly increases your run speed and metabolism for a short time."
     },
     {
         "ItemID":  "sol.xenite_essence",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Strange Essence",
+        "Description":  "A small glob of strange matter. It seems to be consumable."
     },
     {
         "ItemID":  "sol.baklava",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Baklava",
+        "AutoOrganizeString":  "food",
+        "Description":  "A rich dessert composed of sweet and savory ingredients."
     },
     {
         "ItemID":  "sol.big_dumpster_delight",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Big Dumpster Delight",
+        "AutoOrganizeString":  "food",
+        "Description":  "A terrible combination of food. Just awful. Really shameful."
     },
     {
         "ItemID":  "sol.big_salad",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Big Salad",
+        "AutoOrganizeString":  "food",
+        "Description":  "A big bowl of crunched up lettuce with the bad parts removed."
     },
     {
         "ItemID":  "sol.big_sandwich",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Big Sandwich",
+        "AutoOrganizeString":  "food",
+        "Description":  "It is bigger than a regular sandwich."
     },
     {
         "ItemID":  "sol.bread",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Bread",
+        "AutoOrganizeString":  "food",
+        "Description":  "A small unit of mostly carbohydrates."
     },
     {
         "ItemID":  "sol.bread_loaf",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Bread Loaf",
+        "AutoOrganizeString":  "food",
+        "Description":  "A small loaf of carbohydrates."
     },
     {
         "ItemID":  "sol.burned_food",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Burned Food",
+        "AutoOrganizeString":  "food",
+        "Description":  "A carbon-rich lump of burned matter. You should be ashamed."
     },
     {
         "ItemID":  "sol.cake",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Cake",
+        "AutoOrganizeString":  "food",
+        "Description":  "This is a calorie dense collection of primarily carbohydrates and lipids."
     },
     {
         "ItemID":  "sol.chunky_nut_butter",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Chunky Nut Butter",
+        "AutoOrganizeString":  "food",
+        "Description":  "A wad of mushed up nuts that have been ground finely enough that the fats and the solids are mostly incorporated."
     },
     {
         "ItemID":  "sol.cornbread",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Cornbread",
+        "AutoOrganizeString":  "food",
+        "Description":  "A corn-based bread."
     },
     {
         "ItemID":  "sol.dumpster_delight",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Dumpster Delight",
+        "AutoOrganizeString":  "food",
+        "Description":  "A terrible combination of food. Just awful."
     },
     {
         "ItemID":  "sol.dumpster_delight_pie",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Dumpster Delight Pie",
+        "AutoOrganizeString":  "food",
+        "Description":  "A flakey crust encases animal waste. Why have you done this?"
     },
     {
         "ItemID":  "sol.dumpster_delight_snack",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Dumpster Delight Snack",
+        "AutoOrganizeString":  "food",
+        "Description":  "A terrible food."
     },
     {
         "ItemID":  "sol.feast",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Feast",
+        "AutoOrganizeString":  "food",
+        "Description":  "A large meal composed of 3 primary ingredients."
     },
     {
         "ItemID":  "sol.hot_dog",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Hot Dog",
+        "AutoOrganizeString":  "food",
+        "Description":  "This is bread wrapped around some kind of meat that was cooked inside of some intestines."
     },
     {
         "ItemID":  "sol.pancakes",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Pancakes",
+        "AutoOrganizeString":  "food",
+        "Description":  "A stack of fluffy, delicious disks of cooked batter."
     },
     {
         "ItemID":  "sol.pie",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Pie",
+        "AutoOrganizeString":  "food",
+        "Description":  "A flakey crust encases a variety of ingredients."
     },
     {
         "ItemID":  "sol.plated_meal",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Plated Meal",
+        "AutoOrganizeString":  "food",
+        "Description":  "A medium sized meal composed of 2 primary ingredients."
     },
     {
         "ItemID":  "sol.plated_snack",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Plated Snack",
+        "AutoOrganizeString":  "food",
+        "Description":  "You put an ingredient on a plate, good for you."
     },
     {
         "ItemID":  "sol.roasted_nuts",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Roasted Nuts",
+        "AutoOrganizeString":  "food",
+        "Description":  "Nuts that have been roasted to enhance their flavor."
     },
     {
         "ItemID":  "sol.salad",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Salad",
+        "AutoOrganizeString":  "food",
+        "Description":  "A bowl of crunched up lettuce with the bad parts removed."
     },
     {
         "ItemID":  "sol.sandwich",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Sandwich",
+        "AutoOrganizeString":  "food",
+        "Description":  "It's complicated."
     },
     {
         "ItemID":  "sol.smooth_nut_butter",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Smooth Nut Butter",
+        "AutoOrganizeString":  "food",
+        "Description":  "A wad of mushed up nuts that have been ground finely enough that the fats and the solids are completely incorporated."
     },
     {
         "ItemID":  "sol.sugar",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Sugar",
+        "AutoOrganizeString":  "food",
+        "Description":  "These are crystals of a sweet tasting carbohydrate."
     },
     {
         "ItemID":  "sol.sweet_bread",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Sweet Bread",
+        "AutoOrganizeString":  "food",
+        "Description":  "A small unit of mostly carbohydrates, but sweeter."
     },
     {
         "ItemID":  "sol.sweet_roll",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Sweet Roll",
+        "AutoOrganizeString":  "food",
+        "Description":  "A delightful little sweet tasting roll."
     },
     {
         "ItemID":  "sol.wheat",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Wheat",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A delicious wheat."
     },
     {
         "ItemID":  "sol.apple_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Apple Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A chewy snack that lasts for a long time. It has a delicious sweet scent."
     },
     {
         "ItemID":  "sol.bana_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Bana Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A chewy, creamy snack that lasts for a long time."
     },
     {
         "ItemID":  "sol.blue_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Blue Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A chewy snack that lasts for a long time. It has a delicious spicy scent."
     },
     {
         "ItemID":  "sol.citrica_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Citrica Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A chewy snack that lasts for a long time. It has a delicious citrus scent."
     },
     {
         "ItemID":  "sol.delicious_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Delicious Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "An absolutely delicious chewy snack that lasts for a long time. It has a sweet aroma."
     },
     {
         "ItemID":  "sol.jiggly_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Jiggly Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A jiggly, chewy snack with a tangy aroma that lasts for a long time."
     },
     {
         "ItemID":  "sol.juicy_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Juicy Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A chewy snack that lasts for a long time. It has a rejuvinating aroma."
     },
     {
         "ItemID":  "sol.orange_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Orange Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A chewy snack that lasts for a long time. It has a delicious citrus scent that reminds you of cartons in a grocery store."
     },
     {
         "ItemID":  "sol.peach_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Peach Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A chewy snack that lasts for a long time. It has a delicious sweet scent."
     },
     {
         "ItemID":  "sol.pumpkin_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Pumpkin Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "A chewy snack that lasts for a long time. It has a delicious sweet scent."
     },
     {
         "ItemID":  "sol.sweety_chew",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Sweety Fruit Chew",
+        "AutoOrganizeString":  "food",
+        "Description":  "An almost uncomfortably sweet smelling chewy snack that lasts for a long time."
     },
     {
         "ItemID":  "sol.cooked_organ_meat",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Cooked Organ Meat",
+        "AutoOrganizeString":  "food",
+        "Description":  "A lump of cooked organ meat."
     },
     {
         "ItemID":  "sol.human_bladder",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Human Bladder",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A hollow muscular organ that stores urine from the kidneys."
     },
     {
         "ItemID":  "sol.human_heart",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Human Heart",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The heart is the primary organ in the circulatory system that pumps blood througout the body."
     },
     {
         "ItemID":  "sol.intestines",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Intestines",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The intestines are a natural sausage casing that can also be used to digest food."
     },
     {
         "ItemID":  "sol.human_kidney",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Human Kidney",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The kidney is a bean shaped organ."
     },
     {
         "ItemID":  "sol.human_liver",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Human Liver",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The liver detoxifies various metabolites within the blood stream."
     },
     {
         "ItemID":  "sol.human_lung",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Human Lung",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The lung is the primary respiratory organ that extracts oxygen from the air and transfers it to the bloodstream."
     },
     {
         "ItemID":  "sol.human_pancreas",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Human Pancreas",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The pancreas is a digestive organ that is part of the endocrine system. Among other things, it regulates blood sugar."
     },
     {
         "ItemID":  "sol.human_spleen",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Human Spleen",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The spleen is an organ that primarily functions as a blood filter."
     },
     {
         "ItemID":  "sol.human_stomach",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Human Stomach",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "The stomach is an organic device that temporarily stores swallowed matter before it is passed on to the intestines."
     },
     {
         "ItemID":  "sol.empty_glass_vessel",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Empty Glass Bottle",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A primitive glass vessel that can hold a small amount of various fluids."
     },
     {
         "ItemID":  "sol.empty_reinforced_vessel",
         "Complexity":  5,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Empty Reinforced Bottle",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A reinforced vessel that can be filled with various fluids. Holds a large amount of fluid."
     },
     {
         "ItemID":  "sol.empty_standard_vessel",
         "Complexity":  3,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Empty Standard Bottle",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A standard-issue empty vessel that can be filled with various fluids. Holds a standard amount of fluid."
     },
     {
         "ItemID":  "sol.chicken_embryo",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Chicken Embryo",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A bizarrely large chicken embryo. It's still small enough to be snack sized, but if the embryo is this big I can't imagine what it would look like fully grown. The mind boggles!"
     },
     {
         "ItemID":  "sol.raw_bacon",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Raw Bacon",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Raw bits of bacon. Potentially unsafe to consume unless cooked on a campfire or other cooking device."
     },
     {
         "ItemID":  "sol.raw_choice_meat",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Raw Choice Meat",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A high quality piece of meat. Potentially unsafe to consume unless cooked on a campfire or other cooking device."
     },
     {
         "ItemID":  "sol.raw_crawler_meat",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Raw Crawler Meat",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A glob of muscle sinew and organ meat from one of those spiky bastards. Potentially unsafe to consume unless cooked on a campfire or other cooking device."
     },
     {
         "ItemID":  "sol.raw_human_meat",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Raw Human Meat",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Raw red meat. You should probably cook it on a heat source. Or.. maybe just leave it where you found it..."
     },
     {
         "ItemID":  "sol.raw_poultry",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Raw Poultry",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Raw meat from some kind of fowl creature. Potentially unsafe to consume unless cooked on a campfire or other cooking device."
     },
     {
         "ItemID":  "sol.raw_red_meat",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Raw Red Meat",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "Raw red meat. Potentially unsafe to consume unless cooked on a campfire or other cooking device."
     },
     {
         "ItemID":  "sol.shucked_corn",
         "Complexity":  1,
-        "AutoOrganizeString":  "food"
+        "Name":  "Shucked Corn",
+        "AutoOrganizeString":  "food",
+        "Description":  "A cob of corn that has been shucked to remove it's inedible plant fibers."
     },
     {
         "ItemID":  "sol.cardboard_box0",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Carboard Box",
+        "Description":  "A cardboard box container."
     },
     {
         "ItemID":  "sol.cardboard_box1",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Carboard Box",
+        "Description":  "A cardboard box container."
     },
     {
         "ItemID":  "sol.cardboard_box2",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Carboard Box",
+        "Description":  "A cardboard box container."
     },
     {
         "ItemID":  "sol.cardboard_box3",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Carboard Box",
+        "Description":  "A cardboard box container."
     },
     {
         "ItemID":  "sol.construction_toolbag",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Construction Toolbag",
+        "Description":  "A bag that is typically used for holding construction tools, but you can just put whatever in it if you want I guess."
     },
     {
         "ItemID":  "sol.tech_barrel",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Tech Barrel",
+        "Description":  "A well crafted barrel made of plastic and metallic components."
     },
     {
         "ItemID":  "sol.tech_basin",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Tech Basin",
+        "Description":  "A highly technical basin."
     },
     {
         "ItemID":  "sol.tech_trash_receptacle",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Tech Trash Receptacle",
+        "Description":  "A trash can."
     },
     {
         "ItemID":  "sol.cyber_arms_autocannon",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Autocannon)",
+        "Description":  "These cybernetics arms have been designed to deploy rapid-fire autocannons that use electricity to fire EM Rounds."
     },
     {
         "ItemID":  "sol.cyber_arms_behemoth",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Behemoth)",
+        "Description":  "These cybernetic arms are protected with an irresponsible amount of armor."
     },
     {
         "ItemID":  "sol.cyber_arms_bolt_driver",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Bolt Driver)",
+        "Description":  "These cybernetic arms use complex electromagnets placed along the arm's length that accelerate a single projectile at a time to incredibly high speeds."
     },
     {
         "ItemID":  "sol.cyber_arms_forgeblade",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Forgeblade)",
+        "Description":  "These cybernetics have been designed to deploy an electrically heated blade with the ability to ignite targets on contact."
     },
     {
         "ItemID":  "sol.cyber_arms_heavy",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Heavy)",
+        "Description":  "These heavy cybernetic arms have been designed to be extremely durable at the expense of greater encumbrance."
     },
     {
         "ItemID":  "sol.cyber_arms_junker",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Junker)",
+        "Description":  "These cybernetic arms were designed primarily for industrial purposes. They are bulky and encumber the user somewhat, but it is more than made up for by increased defense and power."
     },
     {
         "ItemID":  "sol.cyber_arms_low_profile",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Low Profile)",
+        "Description":  "These cybernetics arms are like regular arms, but significantly less weak and organic."
     },
     {
         "ItemID":  "sol.cyber_arms_ratchet",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Ratchet)",
+        "Description":  "These cybernetic arms were designed primarily for light industrial purposes. They are bulky, but provide some protection without encumbering the user too much."
     },
     {
         "ItemID":  "sol.cyber_arms_sleek",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Sleek)",
+        "Description":  "These are high tech cybernetic arms."
     },
     {
         "ItemID":  "sol.cyber_arms_stripped",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Arms (Stripped)",
+        "Description":  "These cybernetics arms have been stripped of any excess weight."
     },
     {
         "ItemID":  "sol.cyber_eyes_synthetic",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Eyes (Synthetic)",
+        "Description":  "These cybernetic eyes provide the user an in-world creature health display and an integrated trajectory processor."
     },
     {
         "ItemID":  "sol.cyber_heart_partially_synthetic",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Heart (Partially Synthetic)",
+        "Description":  "This cybernetic heart is composed of a blend of synthetic and organic materials which can harness electricity to improve the user's health."
     },
     {
         "ItemID":  "sol.cyber_heart_synthetic",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Heart (Synthetic)",
+        "Description":  "This cybernetic heart is composed of synthetic materials which can harness electricity to improve the user's health."
     },
     {
         "ItemID":  "sol.cyber_legs_behemoth",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Legs (Behemoth)",
+        "Description":  "These cybernetic legs are extremely armored but...  I'm going to be honest, they're irresponsibly bulky."
     },
     {
         "ItemID":  "sol.cyber_legs_heavy",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Legs (Heavy)",
+        "Description":  "These heavy cybernetic legs have been optimized for their power and defense, although they are quite bulky."
     },
     {
         "ItemID":  "sol.cyber_legs_jet",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Legs (Jet)",
+        "Description":  "These sleek cybernetic legs greatly enhance the user's mobility. Installation results in a moderate reduction in blood volume, but it is more than made up for in added defense."
     },
     {
         "ItemID":  "sol.cyber_legs_junker",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Legs (Junker)",
+        "Description":  "These cybernetic legs were designed primarily for industrial purposes. They are bulky and encumber the user somewhat, but it is more than made up for by increased defense and power."
     },
     {
         "ItemID":  "sol.cyber_legs_low_profile",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Legs (Low Profile)",
+        "Description":  "These cybernetic legs are basically regular legs, but the weak organic matter has been replaced with strong and beautiful technology."
     },
     {
         "ItemID":  "sol.cyber_legs_ratchet",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Legs (Ratchet)",
+        "Description":  "These cybernetic legs were designed primarily for light industrial purposes. They are bulky, but provide some protection without encumbering the user too much."
     },
     {
         "ItemID":  "sol.cyber_legs_sleek",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Legs (Sleek)",
+        "Description":  "These sleek cybernetic legs greatly enhance the user's mobility. Installation results in a moderate reduction in blood volume, but it is more than made up for in added defense."
     },
     {
         "ItemID":  "sol.cyber_legs_stripped",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Legs (Stripped)",
+        "Description":  "These cybernetic legs have been stripped of as much weight as possible in order to reduce encumbrance and stamina cost."
     },
     {
         "ItemID":  "sol.cyber_lungs_partially_synthetic",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Lungs (Partially Synthetic)",
+        "Description":  "This cybernetic pair of lungs is composed of a blend of synthetic and organic materials which can harness electricity to improve the user's stamina."
     },
     {
         "ItemID":  "sol.cyber_lungs_synthetic",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Lungs (Synthetic)",
+        "Description":  "This cybernetic pair of lungs is composed of synthetic materials which can harness electricity to improve the user's stamina."
     },
     {
         "ItemID":  "sol.cyber_stomach_bioreactor",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Stomach (Bio-Reactor)",
+        "Description":  "This cybernetic stomach uses some of your undigested food in order to generate additional energy regeneration."
     },
     {
         "ItemID":  "sol.cyber_stomach_metabolic",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Metabolic Accelerator Stomach",
+        "Description":  "This cybernetic stomach grants the ability to convert stomach contents into health regeneration."
     },
     {
         "ItemID":  "sol.cyber_stomach_synthetic",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Stomach (Synthetic)",
+        "Description":  "This synthetic stomach processes beneficial components of food more efficiently."
     },
     {
         "ItemID":  "sol.xns_claw_piece_0",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Claw Statue Piece",
+        "Description":  "A chunk of a statue. My scans cannot penetrate the surface of the material, so I cannot tell you anything about the composition."
     },
     {
         "ItemID":  "sol.xns_claw_piece_1",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Claw Statue Piece",
+        "Description":  "A chunk of a statue. My scans cannot penetrate the surface of the material, so I cannot tell you anything about the composition."
     },
     {
         "ItemID":  "sol.xns_claw_piece_2",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Claw Statue Piece",
+        "Description":  "A chunk of a statue. My scans cannot penetrate the surface of the material, so I cannot tell you anything about the composition."
     },
     {
         "ItemID":  "sol.xns_sphere",
@@ -6608,562 +6960,1020 @@
     },
     {
         "ItemID":  "sol.dummy_mystery_item",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Mystery Item",
+        "Description":  "You haven't come across this item yet."
     },
     {
         "ItemID":  "sol.energy_glove_pedestal",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Energy Glove Pedestal",
+        "Description":  "This is pedestal composed of various high tech materials."
     },
     {
         "ItemID":  "sol.autocannon_arms",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Autocannon Arms",
+        "Description":  "These cybernetics arms have been designed to deploy rapid-fire autocannons that use electricity to fire EM Rounds."
     },
     {
         "ItemID":  "sol.bolt_driver_arms",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Bolt Driver Arms",
+        "Description":  "These cybernetic arms use complex electromagnets placed along the arm's length that accelerate a single projectile at a time to incredibly high speeds."
     },
     {
         "ItemID":  "sol.forgeblade_arms",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Cybernetic Forgeblade Arms",
+        "Description":  "These cybernetics have been designed to deploy an electrically heated blade with the ability to ignite targets on contact."
     },
     {
         "ItemID":  "sol.abl_metabolic_stomach",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Metabolic Accelerator Stomach",
+        "Description":  "This cybernetic stomach grants the ability to convert stomach contents into health regeneration. When activated, stomach contents will drain at 10x the normal rate, and generate 3 health per second for 10 seconds."
     },
     {
         "ItemID":  "sol.bronze_axe",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Bronze Axe",
+        "Description":  "A well constructed axe with a head made of a tough copper and tin alloy. It can be used to chop down trees and remove stumps."
     },
     {
         "ItemID":  "sol.carbon_steel_axe",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Carbon Steel Axe",
+        "Description":  "A circular axe made of stainless steel allowing you to attack rather quickly."
     },
     {
         "ItemID":  "sol.copper_axe",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Copper Axe",
+        "Description":  "A poor axe made of a soft metal. It's better than a rock tied to a stick though. It can be used to chop down trees and remove stumps."
     },
     {
         "ItemID":  "sol.granite_axe",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Granite Axe",
+        "Description":  "An axe made of granite. That is all."
     },
     {
         "ItemID":  "sol.iron_axe",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Iron Axe",
+        "Description":  "A simple, well constructed axe with an iron head. It can be used to chop down trees and remove stumps."
     },
     {
         "ItemID":  "sol.jewel_axe",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Jewel Axe",
+        "Description":  "A flamboyant axe for a fabulous person to sunder the skulls of your enemies."
     },
     {
         "ItemID":  "sol.piezo_axe",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Piezoelectric Axe",
+        "Description":  "This high-tech axe utilizes advanced electronics in order to integrate a static capacitor."
     },
     {
         "ItemID":  "sol.primitive_axe",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Primitive Axe",
+        "Description":  "A rock hastily tied to a stick with some plant fibers. It can be used to chop down trees and remove stumps."
     },
     {
         "ItemID":  "sol.silver_axe",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Silver Axe",
+        "Description":  "Split demon skulls with this hook-shaped axe."
     },
     {
         "ItemID":  "sol.titanium_axe",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Titanium Axe",
+        "Description":  "A high tech, light axe composed primarily of titanium."
     },
     {
         "ItemID":  "sol.aluminum_bat",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Aluminum Bat",
+        "Description":  "Strictly for use in baseball or just when you want to hit stuff with it."
     },
     {
         "ItemID":  "sol.bone_club",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Bone Club",
+        "Description":  "This will win you a duel in front of the monolith."
     },
     {
         "ItemID":  "sol.bronze_club",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Bronze Club",
+        "Description":  "This is a heavy metal club that you can whack stuff with."
     },
     {
         "ItemID":  "sol.carbon_steel_club",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Steel Club",
+        "Description":  "This is a heavy metal club that you can whack stuff with."
     },
     {
         "ItemID":  "sol.copper_club",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Copper Club",
+        "Description":  "This is a heavy metal club that you can whack stuff with."
     },
     {
         "ItemID":  "sol.iron_club",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Iron Club",
+        "Description":  "This is a heavy metal club that you can whack stuff with."
     },
     {
         "ItemID":  "sol.jewel_club",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Jewel Club",
+        "Description":  "This is a heavy metal club that you can whack stuff with."
     },
     {
         "ItemID":  "sol.piezo_club",
-        "Complexity":  7
+        "Complexity":  7,
+        "Name":  "Piezoelectric Club",
+        "Description":  "This high-tech club utilizes advanced electronics in order to integrate a static capacitor."
     },
     {
         "ItemID":  "sol.primitive_club",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Primitive Club",
+        "Description":  "An club"
     },
     {
         "ItemID":  "sol.silver_club",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Silver Club",
+        "Description":  "This is a heavy metal club that you can whack stuff with."
     },
     {
         "ItemID":  "sol.skull_club",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Skull Club",
+        "Description":  "Your wooden club works nearly as well as this, but you could deface a human skull by sticking it on the end if you want. A shameful weapon."
     },
     {
         "ItemID":  "sol.tech_wrench",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Tech Wrench",
+        "Description":  "Whack things with this, go ahead, its fine."
     },
     {
         "ItemID":  "sol.titanium_club",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Titanium Club",
+        "Description":  "A high tech club composed primarily of titanium."
     },
     {
         "ItemID":  "sol.wooden_club",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Wooden Club",
+        "Description":  "These went extinct when arctic seals did more than a century ago."
     },
     {
         "ItemID":  "sol.skinning_knife",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Curved Dagger",
+        "Description":  "An exceedingly sharp tool that can cleave skin from muscle."
     },
     {
         "ItemID":  "sol.energy_glove",
-        "Complexity":  10
+        "Complexity":  10,
+        "Name":  "Energy Glove",
+        "Description":  "This glove allows you to lob balls of energy when you charge the primary attack, and it shapes the energy into a blade as a secondary attack."
     },
     {
         "ItemID":  "sol.fists",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Fists",
+        "Description":  "Your fists.  Try not to do anything too heinous with them."
     },
     {
         "ItemID":  "sol.bronze_pick",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Bronze Pick",
+        "Description":  "A pickaxe enabling you to dig through more resilient materials."
     },
     {
         "ItemID":  "sol.carbon_steel_pick",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Carbon Steel Pick",
+        "Description":  "Usher yourself into the next generation of digging tools with this fast pick."
     },
     {
         "ItemID":  "sol.copper_pick",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Copper Pick",
+        "Description":  "The most basic of picks, with a very slow dig time.  Not much good for anything other than digging through dirt and basalt."
     },
     {
         "ItemID":  "sol.hephaestus_pick",
-        "Complexity":  4
+        "Complexity":  4,
+        "Name":  "Hephaestus Pick",
+        "Description":  "A precisely machined pick composed of various metal alloys."
     },
     {
         "ItemID":  "sol.iron_pick",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Iron Pick",
+        "Description":  "A mining pick made of Iron."
     },
     {
         "ItemID":  "sol.jewel_pick",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Jewel Pick",
+        "Description":  "Dig fabulous things with this super pick."
     },
     {
         "ItemID":  "sol.piezo_pick",
-        "Complexity":  7
+        "Complexity":  7,
+        "Name":  "Piezoelectric Pick",
+        "Description":  "This high-tech pick utilizes advanced electronics in order to integrate a static capacitor for some reason."
     },
     {
         "ItemID":  "sol.silver_pick",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Silver Pick",
+        "Description":  "Effective against vampire blocks and werewolf tiles."
     },
     {
         "ItemID":  "sol.titanium_pick",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Titanium Pick",
+        "Description":  "A high tech, light pick composed primarily of titanium."
     },
     {
         "ItemID":  "sol.skillet",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Skillet",
+        "Description":  "A strong, heavy cast-iron skillet."
     },
     {
         "ItemID":  "sol.bronze_spear",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Bronze Spear",
+        "Description":  "A unique spear with a heavy head.  Not much use in close-quarters."
     },
     {
         "ItemID":  "sol.carbon_steel_spear",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Carbon Steel Spear",
+        "Description":  "A speedy spear made of the finest steel, allowing you to combat your enemies from long range."
     },
     {
         "ItemID":  "sol.copper_spear",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Copper Spear",
+        "Description":  "A copper spear that smells like pennies."
     },
     {
         "ItemID":  "sol.iron_spear",
-        "Complexity":  4
+        "Complexity":  4,
+        "Name":  "Iron Spear",
+        "Description":  "Offers a distinct advantage at medium range over other melee weapons, but is rendered almost useless in close quarters."
     },
     {
         "ItemID":  "sol.jewel_spear",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Jewel Spear",
+        "Description":  "Insert love and happiness into your enemies with the tip of this heart-shaped spear."
     },
     {
         "ItemID":  "sol.piezo_spear",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Piezoelectric Spear",
+        "Description":  "This high-tech spear utilizes advanced electronics in order to integrate a static capacitor."
     },
     {
         "ItemID":  "sol.silver_spear",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Silver Spear",
+        "Description":  "Thrust this into the hearts of vampires and werewolves so that they die."
     },
     {
         "ItemID":  "sol.titanium_spear",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Titanium Spear",
+        "Description":  "A high tech, light spear composed primarily of titanium."
     },
     {
         "ItemID":  "sol.bronze_sword",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Bronze Sword",
+        "Description":  "A well crafted and hefty blade. You like it."
     },
     {
         "ItemID":  "sol.carbon_fiber_machete",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Carbon Fiber Machete",
+        "Description":  "A strong and light blade made of carbon fiber."
     },
     {
         "ItemID":  "sol.carbon_steel_sword",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Carbon Steel Sword",
+        "Description":  "A high quality tempered steel blade. I can certainly believe that it could cut through just about anything."
     },
     {
         "ItemID":  "sol.copper_sword",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Copper Sword",
+        "Description":  "A basic metal blade."
     },
     {
         "ItemID":  "sol.iron_sword",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Iron Sword",
+        "Description":  "An elegant weapon for a more civilized age."
     },
     {
         "ItemID":  "sol.jewel_sword",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Jewel Sword",
+        "Description":  "A magnificent blade forged of the highest quality gems."
     },
     {
         "ItemID":  "sol.piezo_sword",
-        "Complexity":  6
+        "Complexity":  6,
+        "Name":  "Piezoelectric Sword",
+        "Description":  "This high-tech sword utilizes advanced electronics in order to integrate a static capacitor."
     },
     {
         "ItemID":  "sol.razor_leaf_sword",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Razor Leaf Sword",
+        "Description":  "A sharp blade based on the stabby bits of a particularly tough plant.\n\nFully charged heavy attacks will cause the target to bleed for 15 damage over 10 seconds."
     },
     {
         "ItemID":  "sol.silver_sword",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Silver Sword",
+        "Description":  "Particularly effective against the undead and those who participate in occult practices."
     },
     {
         "ItemID":  "sol.titanium_sword",
-        "Complexity":  8
+        "Complexity":  8,
+        "Name":  "Titanium Sword",
+        "Description":  "A high tech, light sword composed primarily of titanium."
     },
     {
         "ItemID":  "sol.wooden_sword",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Wooden Sword",
+        "Description":  "It's dangerous to go alone, but you're not much better off with this."
     },
     {
         "ItemID":  "sol.pyre_mallet",
-        "Complexity":  10
+        "Complexity":  10,
+        "Name":  "Pyre Mallet",
+        "Description":  "A large, heavy bludgeoning weapon that emanates a strange warm energy."
     },
     {
         "ItemID":  "sol.sledgehammer",
-        "Complexity":  4
+        "Complexity":  4,
+        "Name":  "Sledgehammer",
+        "Description":  "A large, heavy bludgeoning weapon."
     },
     {
         "ItemID":  "sol.tortoise_hammer",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Tortoise Hammer",
+        "Description":  "A big tough hammer for smashing. The composition suggests that it would interact with those poison spore pods if they are struck."
     },
     {
         "ItemID":  "sol.nutchucker",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Nut Chucker",
+        "Description":  "A marvel of engineering that chucks nuts and seeds. Hold the fire button to start winding it and watch the nuts (and seeds) fly."
     },
     {
         "ItemID":  "sol.ominous_wand_green",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Ominous Wand",
+        "Description":  "A strange, ominous wand. It seems to be able to absorb energy from the surroundings, especially when that red comet is visible in the sky."
     },
     {
         "ItemID":  "sol.ominous_wand_orange",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Ominous Wand",
+        "Description":  "A strange, ominous wand. It seems to be able to absorb energy from the surroundings, especially when that red comet is visible in the sky."
     },
     {
         "ItemID":  "sol.ominous_wand_purple",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Ominous Wand",
+        "Description":  "A strange, ominous wand. It seems to be able to absorb energy from the surroundings, especially when that red comet is visible in the sky."
     },
     {
         "ItemID":  "sol.ominous_wand_white",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Ominous Wand",
+        "Description":  "A strange, ominous wand. It seems to be able to absorb energy from the surroundings, especially when that red comet is visible in the sky."
     },
     {
         "ItemID":  "sol.slingshot",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Slingshot",
+        "Description":  "An elastic band tied around two prongs that can be used to accelerate a missile to dramatic speeds."
     },
     {
         "ItemID":  "sol.cement_bag",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Cement Bag",
+        "Description":  "A big ol' bag of cement. Not all that useful to be honest, but you can hit people with it!"
     },
     {
         "ItemID":  "sol.chicken_fetus",
         "Complexity":  1,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Chicken Fetus",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "This seems to be an abnormally large chicken fetus. Despite it's large size, it does not look like it is close to maturity."
     },
     {
         "ItemID":  "sol.large_paint_can",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Large Paint Can",
+        "Description":  "A large aluminum container that is intended to hold paint."
     },
     {
         "ItemID":  "sol.mature_chicken_fetus",
         "Complexity":  2,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Mature Chicken Fetus",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "This seems to be an abnormally large chicken fetus. It seems to be close to maturity."
     },
     {
         "ItemID":  "sol.paint_brush",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Paint Brush",
+        "Description":  "This is usually used to paint things, but you can hit things with it if you want."
     },
     {
         "ItemID":  "sol.paint_roller",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Paint Roller",
+        "Description":  "A large paint roller. Typically used for painting things that are far away, but it is also a useful as a melee weapon in a pinch."
     },
     {
         "ItemID":  "sol.human_arm_pale",
         "Complexity":  2,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Severed Human Arm",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A severed human arm containing a variety of atoms."
     },
     {
         "ItemID":  "sol.human_leg_pale",
         "Complexity":  2,
-        "AutoOrganizeString":  "hunter"
+        "Name":  "Severed Human Leg",
+        "AutoOrganizeString":  "hunter",
+        "Description":  "A severed human leg containing a variety of atoms."
     },
     {
         "ItemID":  "sol.energite_ingot",
         "Complexity":  5,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Energite Rod",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This is a rod of pure Energite. It feels cold to the touch, and it seems to make no sound when struck. My best guess is that this material is able to absorb energy somehow."
     },
     {
         "ItemID":  "sol.energite_ore",
         "Complexity":  5,
-        "AutoOrganizeString":  "excavator"
+        "Name":  "Energite Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "This is an odd metallic ore. It feels cold to the touch."
     },
     {
         "ItemID":  "sol.titanium_ingot",
         "Complexity":  5,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Titanium Ingot",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "This is an ingot of Titanium. It is an extremely strong and light metal."
     },
     {
         "ItemID":  "sol.titanium_ore",
         "Complexity":  5,
-        "AutoOrganizeString":  "excavator"
+        "Name":  "Titanium Ore",
+        "AutoOrganizeString":  "excavator",
+        "Description":  "This ore is composed mostly of Titanium. It can be processed in an advanced smelter."
     },
     {
         "ItemID":  "sol.item_bd_breaker_box",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Breaker Box",
+        "Description":  "A Breaker Box."
     },
     {
         "ItemID":  "sol.item_bd_exp_pipes0",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Exposed Pipes 0",
+        "Description":  "Some exposed pipes."
     },
     {
         "ItemID":  "sol.item_bd_input_jack",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Input Jack",
+        "Description":  "An input jack."
     },
     {
         "ItemID":  "sol.item_bd_loudspeaker",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Loudspeaker",
+        "Description":  "A loudspeaker."
     },
     {
         "ItemID":  "sol.item_bd_outlet",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Outlet",
+        "Description":  "An outlet."
     },
     {
         "ItemID":  "sol.item_bd_return_vent",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Return Vent",
+        "Description":  "A return vent."
     },
     {
         "ItemID":  "sol.item_bd_support_beam",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Tech Support Beam",
+        "Description":  "A tech support beam."
     },
     {
         "ItemID":  "sol.item_bd_support_beam_seg",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Tech Support Beam Segment",
+        "Description":  "A tech support beam segment."
     },
     {
         "ItemID":  "sol.item_bd_support_beam_top",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Tech Support Beam Top",
+        "Description":  "A tech support beam top."
     },
     {
         "ItemID":  "sol.blank_blackboard",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Blank Blackboard",
+        "Description":  "A blank blackboard."
     },
     {
         "ItemID":  "sol.generator_blackboard",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Generator Blackboard",
+        "Description":  "A blackboard that has been filled with diagrams related to the correct operation of the Pioneer Station generator."
     },
     {
         "ItemID":  "sol.hahn_plaque",
-        "Complexity":  1
+        "Complexity":  1,
+        "Name":  "Inspirational Plaque",
+        "Description":  "A plaque with in inspirational quote."
     },
     {
         "ItemID":  "sol.beehive",
         "Complexity":  2,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Beehive",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A beehive full of bees."
     },
     {
         "ItemID":  "sol.clay_firepot",
         "Complexity":  1,
-        "AutoOrganizeString":  "munition"
+        "Name":  "Clay Firepot",
+        "AutoOrganizeString":  "munition",
+        "Description":  "This is a fragile clay pot filled with a volatile, explosive substance."
     },
     {
         "ItemID":  "sol.large_mote_of_thanks",
         "Complexity":  3,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Large Mote of Thanks",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This strange mote imparts on you a sense of thankfulness when held. Try throwing it in a Giving Cauldron and see if anything happens!"
     },
     {
         "ItemID":  "sol.medium_mote_of_thanks",
         "Complexity":  2,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Medium Mote of Thanks",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This strange mote imparts on you a sense of thankfulness when held. Try throwing it in a Giving Cauldron and see if anything happens!"
     },
     {
         "ItemID":  "sol.small_mote_of_thanks",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Small Mote of Thanks",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This strange mote imparts on you a sense of thankfulness when held. Try throwing it in a Giving Cauldron and see if anything happens!"
     },
     {
         "ItemID":  "sol.bust_nut",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Bust Nut",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A volatile nut that explodes if jostled too much. If it is planted in bare dirt then it will grow into a beautiful plant, just... do it carefully."
     },
     {
         "ItemID":  "sol.buttery_nut",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Buttery Nut",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A volatile nut with a buttery aroma. It can be planted if dropped on bare dirt."
     },
     {
         "ItemID":  "sol.hard_nut",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Hard Nut",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A hard nut. It can be planted if dropped on bare dirt."
     },
     {
         "ItemID":  "sol.podfruit_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Podfruit Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This is... a seed with an incredibly sharp point on the end. It can be planted if dropped on bare dirt."
     },
     {
         "ItemID":  "sol.spray_nut",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Spray Nut",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A volatile nut that sprays shards of nut material when disturbed. It seems to dislike moving quickly. It can be planted if dropped on bare dirt."
     },
     {
         "ItemID":  "sol.apple_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Apple Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for an apple tree. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.bana_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Bana Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a bana bush. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.bloo_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Bloo Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a Bloo tree. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.citrica_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Citrica Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a stalk of Citrica. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.corn_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Corn Kernel",
+        "AutoOrganizeString":  "forager",
+        "Description":  "If planted on bare dirt, this simple kernel can grow into a large stalk that can grow a couple cobs of corn."
     },
     {
         "ItemID":  "sol.cotton_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Cotton Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a stalk of cotton. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.delicious_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Delicious Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a tree that grows delicious fruit. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.grass_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Grass Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed that will grow grass when planted on bare dirt."
     },
     {
         "ItemID":  "sol.jiggly_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Jiggly Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a somewhat familiar looking tree that grows some kind of strange jiggly fruit. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.juicy_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Juicy Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a familiar looking tree that grows a strange juicy fruit. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.ominous_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Ominous Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "This appears to be some kind of ominous looking seed. If planted on bare dirt, it will probably grow into... something."
     },
     {
         "ItemID":  "sol.orange_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Orange Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a familiar looking tree that grows a strange orange fruit. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.peach_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Peach Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a peach tree. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.sweety_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Sweety Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "A seed for a familiar looking tree that grows a strange sweet fruit. If planted on bare dirt, it can grow into a mighty tree."
     },
     {
         "ItemID":  "sol.wheat_seed",
         "Complexity":  1,
-        "AutoOrganizeString":  "forager"
+        "Name":  "Wheat Seed",
+        "AutoOrganizeString":  "forager",
+        "Description":  "If planted on bare dirt, this simple seed can grow into a large stalk of wheat."
     },
     {
         "ItemID":  "sol.glassblowing_pipe",
-        "Complexity":  2
+        "Complexity":  2,
+        "Name":  "Glassblowing Pipe",
+        "Description":  "A copper pipe that can be used to blow molten glass into bottles."
     },
     {
         "ItemID":  "sol.salad_tongs",
-        "Complexity":  3
+        "Complexity":  3,
+        "Name":  "Salad Tongs",
+        "Description":  "A set of salad tongs that you can use to make delicious salads."
     },
     {
         "ItemID":  "sol.salad_tosser",
-        "Complexity":  5
+        "Complexity":  5,
+        "Name":  "Salad Tosser",
+        "Description":  "A high-tech salad tosser composed of space-age materials. It can make bigger salads."
     },
     {
         "ItemID":  "sol.sulfuric_acid_vial",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Sulfuric Acid Vial",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A corrosive, bubbling fluid."
     },
     {
         "ItemID":  "sol.organic_acid_vial",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Organic Acid Vial",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A corrosive, bubbling fluid that has been concentrated from an organic source."
     },
     {
         "ItemID":  "sol.poison_vial",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Poison Vial",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A bottle of green liquid. It doesn't smell like anything at all."
     },
     {
         "ItemID":  "sol.ammonia_vial",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Ammonia Vial",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A colorless fluid with a noxious odor."
     },
     {
         "ItemID":  "sol.lye",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Lye",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A caustic, basic material."
     },
     {
         "ItemID":  "sol.glycerol_vial",
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Glycerol Vial",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A colorless, viscous fluid that doesn't smell like anything at all."
     },
     {
         "ItemID":  "sol.steel_plate",
         "Complexity":  2,
-        "AutoOrganizeString":  "crafting"
+        "Name":  "Steel Plate",
+        "AutoOrganizeString":  "crafting",
+        "Description":  "A steel ingot that has been pounded into a flat plate."
+    },
+    {
+        "ItemID":  "sol.antiparasitic_medicine",
+        "Complexity":  3,
+        "Name":  "Antiparasitic Medicine",
+        "Description":  "A medicinal powder that causes your body to be inhospitable to parasites and prevents them from implanting themselves in your organs."
+    },
+    {
+        "ItemID":  "sol.combat_knife",
+        "Complexity":  3,
+        "Name":  "Combat Knife",
+        "Description":  "A sharp steel blade."
+    },
+    {
+        "ItemID":  "sol.cooked_pod_fruit",
+        "Complexity":  3,
+        "Name":  "Cooked Pod Fruit",
+        "Description":  "Some kind of pod-like fruit that was pulsing before it was cooked? It smells horrible."
+    },
+    {
+        "ItemID":  "sol.cymbals",
+        "Complexity":  3,
+        "Name":  "Cymbals",
+        "Description":  "A loud device used for making noise."
+    },
+    {
+        "ItemID":  "sol.drum",
+        "Complexity":  3,
+        "Name":  "Drum",
+        "Description":  "A percussive instrument composed primarily of wood and hide."
+    },
+    {
+        "ItemID":  "sol.iron_greatsword",
+        "Complexity":  3,
+        "Name":  "Iron Greatsword",
+        "Description":  "A large, heavy sword composed primarily of iron."
+    },
+    {
+        "ItemID":  "sol.makeshift_shiv",
+        "Complexity":  3,
+        "Name":  "Makeshift Shiv",
+        "Description":  "A basic sharp blade that is barely held together."
+    },
+    {
+        "ItemID":  "sol.piezo_dagger",
+        "Complexity":  3,
+        "Name":  "Piezoelectric Dagger",
+        "Description":  "A sharp dagger with a built-in static capacitor."
+    },
+    {
+        "ItemID":  "sol.piezo_greatsword",
+        "Complexity":  3,
+        "Name":  "Piezoelectric Greatsword",
+        "Description":  "A large, heavy sword with a built-in static capacitor."
+    },
+    {
+        "ItemID":  "sol.scalpel",
+        "Complexity":  3,
+        "Name":  "Scalpel",
+        "Description":  "A small medical-grade steel blade."
+    },
+    {
+        "ItemID":  "sol.steel_axe",
+        "Complexity":  3,
+        "Name":  "Steel Axe",
+        "Description":  "A circular axe made of stainless steel allowing you to attack rather quickly."
+    },
+    {
+        "ItemID":  "sol.steel_club",
+        "Complexity":  3,
+        "Name":  "Steel Club",
+        "Description":  "This is a heavy metal club that you can whack stuff with."
+    },
+    {
+        "ItemID":  "sol.steel_greatsword",
+        "Complexity":  3,
+        "Name":  "Steel Greatsword",
+        "Description":  "A large, heavy sword composed primarily of steel."
+    },
+    {
+        "ItemID":  "sol.steel_pick",
+        "Complexity":  3,
+        "Name":  "Steel Pick",
+        "Description":  "Usher yourself into the next generation of digging tools with this fast pick."
+    },
+    {
+        "ItemID":  "sol.steel_spear",
+        "Complexity":  3,
+        "Name":  "Steel Spear",
+        "Description":  "A speedy spear made of the finest steel, allowing you to combat your enemies from long range."
+    },
+    {
+        "ItemID":  "sol.steel_sword",
+        "Complexity":  3,
+        "Name":  "Steel Sword",
+        "Description":  "A high quality tempered steel blade. I can certainly believe that it could cut through just about anything."
+    },
+    {
+        "ItemID":  "sol.stone_dagger",
+        "Complexity":  3,
+        "Name":  "Stone Dagger",
+        "Description":  "A crude stone dagger."
+    },
+    {
+        "ItemID":  "sol.tambourine",
+        "Complexity":  3,
+        "Name":  "Tambourine",
+        "Description":  "A truly refined instrument."
+    },
+    {
+        "ItemID":  "sol.topped_salad",
+        "Complexity":  3,
+        "Name":  "Topped Salad",
+        "Description":  "A bowl of crunched up lettuce with the bad parts removed, and some additional topping."
+    },
+    {
+        "ItemID":  "sol.wireless_battery",
+        "Complexity":  3,
+        "Name":  "Wireless Battery",
+        "Description":  "A highly advanced power core that utilizes wireless power transmission to keep itself topped off. Requires a local Fusion generator to function."
+    },
+    {
+        "ItemID":  "sol.xenostone_arms",
+        "Complexity":  3,
+        "Name":  "Xenostone Arms",
+        "Description":  "Xenostone arm guards. Slow to swing in, but they shrug off impacts."
+    },
+    {
+        "ItemID":  "sol.xenostone_boots",
+        "Complexity":  3,
+        "Name":  "Xenostone Boots",
+        "Description":  "Heavy xenostone boots. Quiet on stone, punishing on anything softer."
+    },
+    {
+        "ItemID":  "sol.xenostone_dagger",
+        "Complexity":  3,
+        "Name":  "Xenostone Dagger",
+        "Description":  "A dagger composed of unknown materials."
+    },
+    {
+        "ItemID":  "sol.xenostone_gloves",
+        "Complexity":  3,
+        "Name":  "Xenostone Gloves",
+        "Description":  "Gauntlets of xenostone covering the forearms and hands."
+    },
+    {
+        "ItemID":  "sol.xenostone_helmet",
+        "Complexity":  3,
+        "Name":  "Xenostone Helmet",
+        "Description":  "A helmet carved from alien xenostone. Dense, glassy, and almost impossible to scratch."
+    },
+    {
+        "ItemID":  "sol.xenostone_legs",
+        "Complexity":  3,
+        "Name":  "Xenostone Legs",
+        "Description":  "Xenostone greaves for the hips and thighs. Solid enough to stop a drill."
+    },
+    {
+        "ItemID":  "sol.xenostone_torso",
+        "Complexity":  3,
+        "Name":  "Xenostone Torso",
+        "Description":  "Chest plating grown or carved from xenostone. Heavy, but nearly unyielding."
+    },
+    {
+        "ItemID":  "sol.xenotech_arms",
+        "Complexity":  3,
+        "Name":  "Xenotech Arms",
+        "Description":  "Xenotech arm plating with embedded power conduits."
+    },
+    {
+        "ItemID":  "sol.xenotech_boots",
+        "Complexity":  3,
+        "Name":  "Xenotech Boots",
+        "Description":  "Stabilized xenotech boots with a soft magnetic grip."
+    },
+    {
+        "ItemID":  "sol.xenotech_gloves",
+        "Complexity":  3,
+        "Name":  "Xenotech Gloves",
+        "Description":  "Fine-jointed xenotech gloves. Dexterous despite the alien design."
+    },
+    {
+        "ItemID":  "sol.xenotech_helmet",
+        "Complexity":  3,
+        "Name":  "Xenotech Helmet",
+        "Description":  "A sealed xenotech helm laced with alien circuitry. Humming softly when worn."
+    },
+    {
+        "ItemID":  "sol.xenotech_legs",
+        "Complexity":  3,
+        "Name":  "Xenotech Legs",
+        "Description":  "Xenotech leg plating that distributes impact through a lattice of conduits."
+    },
+    {
+        "ItemID":  "sol.xenotech_torso",
+        "Complexity":  3,
+        "Name":  "Xenotech Torso",
+        "Description":  "Articulated xenotech chest plating. Lighter than stone, alive with residual power."
     }
 ]
