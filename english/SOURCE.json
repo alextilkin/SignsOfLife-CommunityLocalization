@@ -1,7 +1,7 @@
 {
   "game": "Signs of Life",
-  "snapshotCommit": "29724152b549bedac2bb7293c74d461f4b452cef",
-  "snapshotSubject": "Let locale packs overlay compiled datapad lore.",
+  "snapshotCommit": "5be63e5a1c2f64fe5b78b99fdae8eaebdda876c7",
+  "snapshotSubject": "Move compiled armor to JSON and generate mechanical bonus text.",
   "snapshotDate": "2026-08-18",
   "overlayableFiles": [
     "Config/UILocalization.json",
@@ -16,7 +16,8 @@
     "Config/ProjectileRegistrationData.json",
     "Config/CreatureRegistrationData.json",
     "Config/StaticPrefabRegistrationData.json",
-    "Config/DatapadTextData.json"
+    "Config/DatapadTextData.json",
+    "Config/ArmorSetData.json"
   ],
-  "notes": "Packs overlay prose fields only. Leave ItemID, SaveName, LivingEntityType, StaticPrefabType, SaveAliases, AutoOrganizeString, Complexity, IsDefault, datapad ID, and combat stats in English. Armor XML and container gump titles are not overlayable yet. Datapad English is XML in the game; this JSON is the overlay snapshot."
+  "notes": "Packs overlay prose fields only. Leave ItemID, SaveName, LivingEntityType, StaticPrefabType, SaveAliases, AutoOrganizeString, Complexity, IsDefault, datapad ID, armor ItemType / set Name / piece Set, and combat stats in English. Container gump titles are not overlayable yet. Datapad English is XML in the game; this JSON is the overlay snapshot. Armor English is Config/ArmorSetData.json in the game; the overlay uses the same shape."
 }

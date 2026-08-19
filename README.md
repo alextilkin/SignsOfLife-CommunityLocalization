@@ -13,7 +13,7 @@ Do not submit AI generated text. License terms are in
 
 <!-- coverage-table:start -->
 
-A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game. 4965 fields.
+A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game. 5448 fields.
 
 | Language | Pack | Translated |
 | --- | --- | ---: |
@@ -100,7 +100,8 @@ are ignored even if present:
 - `Config/CreatureRegistrationData.json`
 - `Config/StaticPrefabRegistrationData.json`
 - `Config/DatapadTextData.json`
+- `Config/ArmorSetData.json`
 
-Empty arrays mean “nothing translated yet.” Leave untranslated rows out rather
-than copying English. Armor names and container gump titles are not overlayable
-yet.
+Empty arrays (and empty armor `Sets` / `Pieces`) mean “nothing translated yet.”
+Leave untranslated rows out rather than copying English. Container gump titles
+are not overlayable yet.

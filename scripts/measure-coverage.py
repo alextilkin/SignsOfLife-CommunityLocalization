@@ -43,8 +43,51 @@ PROSE_TABLES = (
     ("DatapadTextData.json", "ID", ("Title", "Category", "Text"), ()),
 )
 
+ARMOR_TABLE = "ArmorSetData.json"
+
+
+def armor_index(data):
+    """Index overlayable armor prose. Mechanical bonus lines are generated
+    in-game; only unique authored Bonuses[].Description overrides count."""
+    index = {}
+    if not isinstance(data, dict):
+        return index
+    for row in data.get("Pieces") or []:
+        ident = row.get("ItemType")
+        if ident is None or ident == "":
+            continue
+        fields = {}
+        for name in ("Name", "Description"):
+            value = (row.get(name) or "").strip() if isinstance(row.get(name), str) else ""
+            if value:
+                fields[name] = value
+        for i, bonus in enumerate(row.get("Bonuses") or []):
+            if not isinstance(bonus, dict):
+                continue
+            desc = (bonus.get("Description") or "").strip() if isinstance(bonus.get("Description"), str) else ""
+            if desc:
+                fields["Bonuses.%s.Description" % i] = desc
+        index["piece:" + str(ident)] = fields
+    for row in data.get("Sets") or []:
+        ident = row.get("Name")
+        if ident is None or ident == "":
+            continue
+        fields = {}
+        for i, bonus in enumerate(row.get("Bonuses") or []):
+            if not isinstance(bonus, dict):
+                continue
+            desc = (bonus.get("Description") or "").strip() if isinstance(bonus.get("Description"), str) else ""
+            if desc:
+                fields["Bonuses.%s.Description" % i] = desc
+        if fields:
+            index["set:" + ident] = fields
+    return index
+
 
 def load_json(path: Path):
+    if not path.is_file():
+        return None
+    return json.loads(path.read_text(encoding="utf-8-sig"))
     if not path.is_file():
         return None
     return json.loads(path.read_text(encoding="utf-8-sig"))
@@ -187,6 +230,25 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
                 if status == "translated":
                     translated += 1
         tables[name] = {"total": table_total, **counts}
+
+    english_armor = armor_index(load_json(english_root / "Config" / ARMOR_TABLE) or {})
+    overlay_armor = armor_index(load_json(locale_root / "Config" / ARMOR_TABLE) or {})
+    unknown_armor = sorted(set(overlay_armor) - set(english_armor))
+    if unknown_armor:
+        errors.append("%s unknown keys: %s" % (ARMOR_TABLE, ", ".join(unknown_armor[:20])))
+
+    counts = {"translated": 0, "missing": 0, "same-as-english": 0}
+    armor_total = 0
+    for ident, english_fields in english_armor.items():
+        overlay_fields = overlay_armor.get(ident, {})
+        for field, english_value in english_fields.items():
+            armor_total += 1
+            total += 1
+            status = classify(overlay_fields.get(field, ""), english_value)
+            counts[status] += 1
+            if status == "translated":
+                translated += 1
+    tables[ARMOR_TABLE] = {"total": armor_total, **counts}
 
     percent = (100.0 * translated / total) if total else 0.0
     return {

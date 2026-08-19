@@ -19,6 +19,7 @@ TABLES = (
     "CreatureRegistrationData.json",
     "StaticPrefabRegistrationData.json",
     "DatapadTextData.json",
+    "ArmorSetData.json",
 )
 
 
@@ -26,12 +27,17 @@ def unique_mod_name(code: str) -> str:
     return "locale_" + code.lower().replace("-", "_")
 
 
+def empty_table(name: str) -> str:
+    if name == "ArmorSetData.json":
+        return '{\n  "Sets": [],\n  "Pieces": []\n}\n'
+    return "[]\n"
+
+
 def main() -> None:
     repo = Path(__file__).resolve().parents[1]
     languages = json.loads((repo / "languages.json").read_text(encoding="utf-8"))["languages"]
     locales = repo / "locales"
     locales.mkdir(exist_ok=True)
-    empty = "[]\n"
 
     for lang in languages:
         code = lang["code"]
@@ -53,7 +59,7 @@ def main() -> None:
         for name in TABLES:
             path = config / name
             if not path.is_file():
-                path.write_text(empty, encoding="utf-8", newline="\n")
+                path.write_text(empty_table(name), encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":

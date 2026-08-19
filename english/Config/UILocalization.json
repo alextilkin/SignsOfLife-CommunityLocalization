@@ -16,6 +16,102 @@
     "Text": "Set Bonuses: "
   },
   {
+    "ID": "armor.bonus.flat",
+    "Text": "{0:+0.##;-0.##} {1}"
+  },
+  {
+    "ID": "armor.bonus.percent",
+    "Text": "{0:+0.##;-0.##}% {1}"
+  },
+  {
+    "ID": "armor.stat.THORNS",
+    "Text": "Damage Reflect"
+  },
+  {
+    "ID": "armor.stat.HEAL_OVER_TIME",
+    "Text": "Health Regen"
+  },
+  {
+    "ID": "armor.stat.MAX_HEALTH",
+    "Text": "Max Health"
+  },
+  {
+    "ID": "armor.stat.ENERGY_SHIELD",
+    "Text": "Energy Shield"
+  },
+  {
+    "ID": "armor.stat.SOUL_EFFECT",
+    "Text": "Soul Damage"
+  },
+  {
+    "ID": "armor.stat.SOUL_DRAIN",
+    "Text": "Soul Drain"
+  },
+  {
+    "ID": "armor.stat.RESIST_XENITE_PERCENT",
+    "Text": "Strange Energy Resist"
+  },
+  {
+    "ID": "armor.stat.JUMP_HEIGHT",
+    "Text": "Jump Height"
+  },
+  {
+    "ID": "armor.stat.MOVE_SPEED",
+    "Text": "Run Speed"
+  },
+  {
+    "ID": "armor.stat.ENERGY_OVER_TIME",
+    "Text": "Energy Regen"
+  },
+  {
+    "ID": "armor.stat.ARMORED",
+    "Text": "Damage Reduction"
+  },
+  {
+    "ID": "armor.stat.CONSTITUTION",
+    "Text": "Constitution"
+  },
+  {
+    "ID": "armor.stat.MELEE_SPEED",
+    "Text": "Melee Speed"
+  },
+  {
+    "ID": "armor.stat.RESIST_FIRE_PERCENT",
+    "Text": "Resist Fire"
+  },
+  {
+    "ID": "armor.stat.RESIST_CORROSIVE_PERCENT",
+    "Text": "Resist Corrosion"
+  },
+  {
+    "ID": "armor.stat.REDUCE_FALL_DAMAGE",
+    "Text": "Fall Damage Reduction"
+  },
+  {
+    "ID": "armor.stat.CHARGE_ON_STEP",
+    "Text": "Charge On Step"
+  },
+  {
+    "ID": "armor.stat.MAX_ENERGY",
+    "Text": "Max Energy"
+  },
+  {
+    "ID": "armor.stat.MELEE_DAMAGE_PERCENT",
+    "Text": "Modified Melee Damage"
+  },
+  {
+    "ID": "armor.stat.MELEE_STAMINA_COST",
+    "Text": "Melee Stamina Cost"
+  },
+  {
+    "ID": "armor.stat.MOVEMENT_STAMINA_COST",
+    "Text": "Adjusted Movement Stamina Cost"
+  },
+  {
+    "ID": "armor.stat.THROW_POWER",
+    "Text": "Throw Power"
+  },
+  {
     "ID": "prompt.copyText",
     "Text": "copy text"
   },
