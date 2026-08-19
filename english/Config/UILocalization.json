@@ -112,6 +112,22 @@
     "Text": "Throw Power"
   },
   {
+    "ID": "armor.stat.RANGED_ACCURACY",
+    "Text": "Ranged Accuracy"
+  },
+  {
+    "ID": "armor.stat.MAX_STAMINA",
+    "Text": "Max Stamina"
+  },
+  {
+    "ID": "equipment.drainPerSecond",
+    "Text": "Drains {0:#.##} Capacitor Charge per Second"
+  },
+  {
+    "ID": "equipment.doubleJump",
+    "Text": "Enables Double Jump"
+  },
+  {
     "ID": "prompt.copyText",
     "Text": "copy text"
   },

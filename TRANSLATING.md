@@ -7,7 +7,7 @@ A pull request accepts [`LICENSE.md`](LICENSE.md).
 
 This repository can overlay these compiled JSON tables:
 
-- `UILocalization.json` — HUD and menu chrome, including `armor.stat.*` / `armor.bonus.*` mechanical armor bonus templates
+- `UILocalization.json` — HUD and menu chrome, including `armor.stat.*` / `armor.bonus.*` mechanical bonus templates and `equipment.drainPerSecond` / `equipment.doubleJump`
 - `TooltipLocalization.json` — HUD hover tooltips
 - `StatusEffectLocalization.json` — status-effect labels
 - `DialogLocalization.json` — spoken lines, AGIS, player options
@@ -398,7 +398,7 @@ if the overlay copies them.
 | Stein ↔ AGIS bridge pairs | `Content/Config/steinAgisDialogPairs.json` | IDs into the spoken table, no prose. Not overlayable. |
 | MEG help topics | `Content/Config/helpData.json` | `Label` + `Text`. Newlines are real. Pack overlay: `Config/helpData.json`. |
 | Journal | `Content/Config/journalEntries.json` | AGIS log. Pack overlay: `Config/journalEntries.json`. |
-| HUD / menu chrome | `Content/Config/UILocalization.json` | String keys. Menus, settings, load tips, and keybind action labels are here. Armor bonus `+N Stat` templates are `armor.bonus.flat` / `armor.bonus.percent` plus `armor.stat.{StatusEffectType}`. Pack overlay: `Config/UILocalization.json`. |
+| HUD / menu chrome | `Content/Config/UILocalization.json` | String keys. Menus, settings, load tips, and keybind action labels are here. Armor and equipment `+N Stat` templates are `armor.bonus.flat` / `armor.bonus.percent` plus `armor.stat.{StatusEffectType}`. Always-on capacitor drain and double jump are `equipment.drainPerSecond` / `equipment.doubleJump`. Pack overlay: `Config/UILocalization.json`. LoadedContent `item_*.json` `EquipmentEffects` are not locale-overlayed. |
 | HUD hover tooltips | `Content/Config/TooltipLocalization.json` | `tooltip.*` IDs. Live numbers and key names are `{0}` placeholders. Pack overlay: `Config/TooltipLocalization.json`. |
 | Status-effect labels | `Content/Config/StatusEffectLocalization.json` | `status.{StatusEffectType}` IDs. Types with no authored label stay off the table. Pack overlay: `Config/StatusEffectLocalization.json`. |
 | Datapads | `Content/XML/DatapadTextData.xml` | Leave `id`. Translate `title`, `category`, body. Pack overlay: `Config/DatapadTextData.json` (`ID`, `Title`, `Category`, `Text`). |

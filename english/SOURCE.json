@@ -1,7 +1,7 @@
 {
   "game": "Signs of Life",
-  "snapshotCommit": "5be63e5a1c2f64fe5b78b99fdae8eaebdda876c7",
-  "snapshotSubject": "Move compiled armor to JSON and generate mechanical bonus text.",
+  "snapshotCommit": "b9d0ad00f737d3bfd5a70c0eae5282f2cc74f500",
+  "snapshotSubject": "Generate mechanical equipment-effect bonus text.",
   "snapshotDate": "2026-08-18",
   "overlayableFiles": [
     "Config/UILocalization.json",
