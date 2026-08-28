@@ -1,6 +1,6 @@
 # Signs of Life Translation Contributor Terms
 
-Version 1.0 — Effective [DATE]
+Version 1.0 — Effective August 28, 2026
 
 These Terms apply to translations, corrections, localization notes, and related
 material that you intentionally submit to the Signs of Life community
