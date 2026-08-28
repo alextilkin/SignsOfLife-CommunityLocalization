@@ -7,6 +7,7 @@ Empty overlay fields keep English in-game and count as missing.
 | Locale | Translated | Total | Percent |
 | --- | ---: | ---: | ---: |
 | `af` | 0 | 6130 | 0.0% |
+| `bg` | 0 | 6130 | 0.0% |
 | `ca` | 0 | 6130 | 0.0% |
 | `cs` | 0 | 6130 | 0.0% |
 | `da` | 0 | 6130 | 0.0% |
@@ -30,8 +31,10 @@ Empty overlay fields keep English in-game and count as missing.
 | `pt` | 0 | 6130 | 0.0% |
 | `pt-BR` | 0 | 6130 | 0.0% |
 | `ro` | 0 | 6130 | 0.0% |
+| `ru` | 0 | 6130 | 0.0% |
 | `sk` | 0 | 6130 | 0.0% |
 | `sl` | 0 | 6130 | 0.0% |
 | `sr-Latn` | 0 | 6130 | 0.0% |
 | `sv` | 0 | 6130 | 0.0% |
 | `tr` | 0 | 6130 | 0.0% |
+| `uk` | 0 | 6130 | 0.0% |
