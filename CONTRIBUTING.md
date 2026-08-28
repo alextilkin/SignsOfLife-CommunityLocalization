@@ -11,8 +11,8 @@ before you open a pull request. You must be at least 18 years old.
 
 ## Agreement
 
-A pull request template checkbox is conspicuous notice. GitHub does not actually
-require it to be checked.
+Pull request template checkboxes are conspicuous notice. GitHub does not actually
+require them to be checked.
 
 [CLA Assistant](https://cla-assistant.io) is the authoritative record. It
 authenticates you through GitHub and records agreement to the Terms. Every
@@ -29,8 +29,8 @@ sign.
 2. Edit files under `locales/<code>/Config/`. Leave untranslated rows out so
    the game keeps English.
 3. Do not copy `english/` into a locale folder.
-4. Open a pull request using the template. Answer the machine-translation /
-   generative-AI and third-party-source questions.
+4. Open a pull request using the template. Confirm you did not use machine
+   translation or generative AI, and answer the third-party-source question.
 
 ## What to submit
 
@@ -38,17 +38,19 @@ sign.
   entire game dump mixed with notes).
 - Overlay JSON that follows this repository’s English templates. Leave IDs,
   keys, and markup tokens in English as the translation guide describes.
-- Original work. Do not paste unofficial translation patches, other games,
-  published translations, websites, subtitle files, or similar third-party
-  material.
+- Original, human-authored work. Do not paste unofficial translation patches,
+  other games, published translations, websites, subtitle files, or similar
+  third-party material.
+- No machine translation and no generative AI. Do not use DeepL, Google
+  Translate, ChatGPT, or similar tools to draft, translate, post-edit, or
+  rewrite the Contribution. Ordinary spelling and grammar checkers that do
+  not translate or generate the wording are allowed.
 
-## Disclosures
+## Third-party sources
 
-The pull request template asks two questions. Answer them. Undisclosed machine
-translation, generative AI, or third-party sources are rejected.
-
-Disclosing a tool does not mean the Studio will accept the text. Review may
-still reject machine-translated or AI-assisted material.
+The pull request template asks whether you used a third-party source. Answer
+it. Undisclosed copies are rejected. Machine-translated or AI-generated text
+is rejected even if disclosed.
 
 ## What this is not
 
