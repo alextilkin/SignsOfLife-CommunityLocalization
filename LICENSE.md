@@ -1,53 +1,30 @@
-# License
+# Repository rights
 
-This repository is **not** MIT, Creative Commons, or any other open-source
-license. It has two copyrights. Using a file from this repo does not put
-Signs of Life text in the public domain.
+Signs of Life, its English source text, and other Studio-provided materials are
+proprietary and are © Sweet Dog Studios LLC. Publishing this repository does
+not place those materials in the public domain or grant permission to use them
+outside the functionality provided by GitHub.
 
-## 1. English game text (`english/`)
+Translation Contributions are governed by the
+[Signs of Life Translation Contributor Terms](https://github.com/alextilkin/SignsOfLife-CommunityLocalization/blob/terms-v1.0/legal/TRANSLATION_TERMS_v1.0.md)
+and any separately identified license. Those Terms grant Sweet Dog Studios LLC a
+nonexclusive license in accepted Contributions; they do not place Contributions
+under MIT, Creative Commons, or any other public reuse license.
+
+Do not treat a GitHub fork, clone, or download as permission to ship, remix, or
+redistribute Signs of Life content outside GitHub’s ordinary hosting of this
+repository.
+
+## English game text (`english/`)
 
 Copyright © Sweet Dog Studios LLC. All rights reserved.
 
-You may:
+You may view these files in the repository and copy them to your computer as a
+reference while preparing a Signs of Life locale pack. That is not a license to
+redistribute, republish, or sell the English text, or to use it in another game,
+book, dataset, or product.
 
-- View these files in the repository
-- Copy them to your computer as a reference while making a Signs of Life
-  locale pack
+## Scripts, docs, and other Studio files
 
-You may not:
-
-- Redistribute, republish, or sell the English text
-- Use it in another game, book, dataset, or product
-- Treat this snapshot as permission to reuse the writing generally
-
-Putting the snapshot here is so translators can match IDs and tone. It is
-not a license to take the game's text.
-
-## 2. Community translations (`locales/`)
-
-Each contributor keeps copyright in their own translation.
-
-By contributing (a pull request, a commit, or any other submission to this
-repository) you grant **Sweet Dog Studios LLC** a perpetual, worldwide,
-irrevocable, royalty-free license to use, reproduce, modify, adapt,
-sublicense, and distribute that contribution in *Signs of Life* and official
-related materials, including Steam, patches, trailers, and store pages.
-
-You also grant other players permission to copy and use the pack as a
-Signs of Life locale (install into Mods and play).
-
-You do **not** grant permission to reuse the translation in another game or
-as a standalone text dump. The translation is a derivative of the English
-game text, which remains Sweet Dog Studios LLC copyright.
-
-You represent that:
-
-- The contribution is your original work, or you otherwise have the right to
-  grant this license
-- It is not copied from another game's localization
-- It was not AI generated
-
-## 3. Scripts, docs, and other files
-
-Copyright © Sweet Dog Studios LLC unless a file says otherwise. You may use
-the scripts in this repository to work on Signs of Life locale packs.
+Copyright © Sweet Dog Studios LLC unless a file says otherwise. You may use the
+scripts in this repository to work on Signs of Life locale packs.

@@ -1,9 +1,11 @@
 # Translating Signs of Life
 
 Voice, glossary, and markup. English snapshots live in `english/Config/`.
-Put translations in `locales/<code>/Config/`. Do not submit AI generated
-text. If a line is not ready, omit it so the game keeps English.
-A pull request accepts [`LICENSE.md`](LICENSE.md).
+Put translations in `locales/<code>/Config/`. If a line is not ready, omit it
+so the game keeps English. Disclose machine translation or generative AI in
+the pull request; undisclosed use is rejected. Agreement is the
+[Translation Contributor Terms](legal/TRANSLATION_TERMS_v1.0.md), recorded by
+CLA Assistant — not merely opening a pull request.
 
 This repository can overlay these compiled JSON tables:
 
@@ -482,5 +484,6 @@ For a human or agent starting a language pass:
 
 ## Related
 
-- License: [`LICENSE.md`](LICENSE.md)
+- Terms: [`legal/TRANSLATION_TERMS_v1.0.md`](legal/TRANSLATION_TERMS_v1.0.md)
+- Repository rights: [`LICENSE.md`](LICENSE.md)
 - How to submit: [`CONTRIBUTING.md`](CONTRIBUTING.md)

@@ -5,9 +5,36 @@ locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
 restart. Enable only one locale pack at a time; the last loaded overlay wins.
 
-Do not submit AI generated text. License terms are in
-[`LICENSE.md`](LICENSE.md). By opening a pull request you agree to them
-([`CONTRIBUTING.md`](CONTRIBUTING.md)).
+## Contributing translations
+
+We welcome optional community translations, corrections, and localization
+suggestions for Signs of Life.
+
+Accepted Contributions may be edited, combined with other work, and commercially
+distributed as part of Signs of Life. Contributors must be at least 18 years old
+and must agree to the
+[Translation Contributor Terms](https://github.com/alextilkin/SignsOfLife-CommunityLocalization/blob/terms-v1.0/legal/TRANSLATION_TERMS_v1.0.md)
+before a pull request can be accepted.
+
+Please do not submit text copied from unofficial translation patches, other
+games, published translations, websites, subtitle files, or other third-party
+material. If you use machine translation or generative AI, identify the tool and
+the affected material in your pull request.
+
+Contributions are not paid work, and submission does not guarantee inclusion or
+credit. There are no schedules, quotas, or continuing obligations.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a pull request.
+
+## Repository rights
+
+Signs of Life, its English source text, and other Studio-provided materials are
+proprietary and are © Sweet Dog Studios LLC. Publishing this repository does
+not place those materials in the public domain or grant permission to use them
+outside the functionality provided by GitHub.
+
+Translation Contributions are governed by the Translation Contributor Terms and
+any separately identified license. See [`LICENSE.md`](LICENSE.md).
 
 ## Languages Currently Supported
 
@@ -79,8 +106,9 @@ The shipped fonts cannot draw these scripts yet, so there is no pack folder.
 | [`english/Config/`](english/Config/) | English tables to translate against |
 | [`locales/<code>/`](locales/) | One loadable pack per language |
 | [`TRANSLATING.md`](TRANSLATING.md) | Voice, glossary, markup tokens |
-| [`LICENSE.md`](LICENSE.md) | English stays studio-owned; translators keep their wording, studio may ship it |
-| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to submit, and that a PR accepts the license |
+| [`legal/TRANSLATION_TERMS_v1.0.md`](legal/TRANSLATION_TERMS_v1.0.md) | Frozen contributor terms (CLA Assistant is the merge record) |
+| [`LICENSE.md`](LICENSE.md) | English stays studio-owned; contributions are not MIT/CC |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to submit; checkbox is notice, not the merge gate |
 
 ## What the game actually overlays
 
