@@ -18,8 +18,9 @@ before a pull request can be accepted.
 
 Please do not submit text copied from unofficial translation patches, other
 games, published translations, websites, subtitle files, or other third-party
-material. If you use machine translation or generative AI, identify the tool and
-the affected material in your pull request.
+material. Do not submit machine-translated or generative-AI text, including
+DeepL, Google Translate, ChatGPT, or similar tools. Ordinary spelling and
+grammar checkers are fine.
 
 Contributions are not paid work, and submission does not guarantee inclusion or
 credit. There are no schedules, quotas, or continuing obligations.

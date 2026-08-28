@@ -2,8 +2,9 @@
 
 Voice, glossary, and markup. English snapshots live in `english/Config/`.
 Put translations in `locales/<code>/Config/`. If a line is not ready, omit it
-so the game keeps English. Disclose machine translation or generative AI in
-the pull request; undisclosed use is rejected. Agreement is the
+so the game keeps English. Do not use machine translation or generative AI
+(DeepL, Google Translate, ChatGPT, and similar). Ordinary spelling and grammar
+checkers are allowed. Agreement is the
 [Translation Contributor Terms](legal/TRANSLATION_TERMS_v1.0.md), recorded by
 CLA Assistant — not merely opening a pull request.
 

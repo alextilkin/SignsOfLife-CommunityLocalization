@@ -46,9 +46,10 @@ You represent that:
   source unless you clearly disclose it and have permission to use it.
 - Your Contribution is not restricted by an employer, client, contract, or other
   obligation.
-- You have disclosed in the pull request any machine translation or
-  generative-AI tool materially used to produce the Contribution, including the
-  tool used and the affected material.
+- The Contribution is your own human-authored translation, correction, or
+  localization note. You did not use machine translation or a generative-AI
+  tool to draft, translate, post-edit, or rewrite it. Ordinary spelling and
+  grammar checkers that do not translate or generate the wording are allowed.
 - To your knowledge, the Contribution does not infringe another person’s
   copyright, privacy, publicity, trademark, or other rights.
 
