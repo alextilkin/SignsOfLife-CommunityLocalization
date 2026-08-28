@@ -1,0 +1,1694 @@
+[
+  {
+    "ID": "item.ammo",
+    "Text": "Ammo"
+  },
+  {
+    "ID": "item.none",
+    "Text": "None"
+  },
+  {
+    "ID": "item.energy",
+    "Text": "Energy"
+  },
+  {
+    "ID": "item.setBonuses",
+    "Text": "Set Bonuses: "
+  },
+  {
+    "ID": "armor.bonus.flat",
+    "Text": "{0:+0.##;-0.##} {1}"
+  },
+  {
+    "ID": "armor.bonus.percent",
+    "Text": "{0:+0.##;-0.##}% {1}"
+  },
+  {
+    "ID": "armor.stat.THORNS",
+    "Text": "Damage Reflect"
+  },
+  {
+    "ID": "armor.stat.HEAL_OVER_TIME",
+    "Text": "Health Regen"
+  },
+  {
+    "ID": "armor.stat.MAX_HEALTH",
+    "Text": "Max Health"
+  },
+  {
+    "ID": "armor.stat.ENERGY_SHIELD",
+    "Text": "Energy Shield"
+  },
+  {
+    "ID": "armor.stat.SOUL_EFFECT",
+    "Text": "Soul Damage"
+  },
+  {
+    "ID": "armor.stat.SOUL_DRAIN",
+    "Text": "Soul Drain"
+  },
+  {
+    "ID": "armor.stat.RESIST_XENITE_PERCENT",
+    "Text": "Strange Energy Resist"
+  },
+  {
+    "ID": "armor.stat.JUMP_HEIGHT",
+    "Text": "Jump Height"
+  },
+  {
+    "ID": "armor.stat.MOVE_SPEED",
+    "Text": "Run Speed"
+  },
+  {
+    "ID": "armor.stat.ENERGY_OVER_TIME",
+    "Text": "Energy Regen"
+  },
+  {
+    "ID": "armor.stat.ARMORED",
+    "Text": "Damage Reduction"
+  },
+  {
+    "ID": "armor.stat.CONSTITUTION",
+    "Text": "Constitution"
+  },
+  {
+    "ID": "armor.stat.MELEE_SPEED",
+    "Text": "Melee Speed"
+  },
+  {
+    "ID": "armor.stat.RESIST_FIRE_PERCENT",
+    "Text": "Resist Fire"
+  },
+  {
+    "ID": "armor.stat.RESIST_CORROSIVE_PERCENT",
+    "Text": "Resist Corrosion"
+  },
+  {
+    "ID": "armor.stat.REDUCE_FALL_DAMAGE",
+    "Text": "Fall Damage Reduction"
+  },
+  {
+    "ID": "armor.stat.CHARGE_ON_STEP",
+    "Text": "Charge On Step"
+  },
+  {
+    "ID": "armor.stat.MAX_ENERGY",
+    "Text": "Max Energy"
+  },
+  {
+    "ID": "armor.stat.MELEE_DAMAGE_PERCENT",
+    "Text": "Modified Melee Damage"
+  },
+  {
+    "ID": "armor.stat.MELEE_STAMINA_COST",
+    "Text": "Melee Stamina Cost"
+  },
+  {
+    "ID": "armor.stat.MOVEMENT_STAMINA_COST",
+    "Text": "Adjusted Movement Stamina Cost"
+  },
+  {
+    "ID": "armor.stat.THROW_POWER",
+    "Text": "Throw Power"
+  },
+  {
+    "ID": "armor.stat.RANGED_ACCURACY",
+    "Text": "Ranged Accuracy"
+  },
+  {
+    "ID": "armor.stat.MAX_STAMINA",
+    "Text": "Max Stamina"
+  },
+  {
+    "ID": "equipment.drainPerSecond",
+    "Text": "Drains {0:#.##} Capacitor Charge per Second"
+  },
+  {
+    "ID": "equipment.doubleJump",
+    "Text": "Enables Double Jump"
+  },
+  {
+    "ID": "prompt.copyText",
+    "Text": "copy text"
+  },
+  {
+    "ID": "ui.search",
+    "Text": "Search"
+  },
+  {
+    "ID": "ui.name",
+    "Text": "Name"
+  },
+  {
+    "ID": "ui.materials",
+    "Text": "Materials"
+  },
+  {
+    "ID": "ui.crafting",
+    "Text": "Crafting"
+  },
+  {
+    "ID": "menu.newCharacter",
+    "Text": "New Character"
+  },
+  {
+    "ID": "menu.continue",
+    "Text": "Continue"
+  },
+  {
+    "ID": "menu.multiplayer",
+    "Text": "Multiplayer"
+  },
+  {
+    "ID": "menu.mods",
+    "Text": "Mods"
+  },
+  {
+    "ID": "menu.newSandboxMap",
+    "Text": "New Sandbox Map"
+  },
+  {
+    "ID": "menu.loadMap",
+    "Text": "Load Map"
+  },
+  {
+    "ID": "menu.settings",
+    "Text": "Settings"
+  },
+  {
+    "ID": "menu.keyBinds",
+    "Text": "Key Binds"
+  },
+  {
+    "ID": "menu.recentUpdates",
+    "Text": "Recent Updates"
+  },
+  {
+    "ID": "menu.credits",
+    "Text": "Credits"
+  },
+  {
+    "ID": "menu.exit",
+    "Text": "Exit"
+  },
+  {
+    "ID": "menu.version",
+    "Text": "Version {0}"
+  },
+  {
+    "ID": "menu.hardwareCursorDisabled",
+    "Text": "- Hardware Cursor Disabled -"
+  },
+  {
+    "ID": "menu.outOfDate",
+    "Text": "Warning: Your game is out of date.\nYour version: {0}\nLatest version: {1}\n"
+  },
+  {
+    "ID": "opt.off",
+    "Text": "Off"
+  },
+  {
+    "ID": "opt.on",
+    "Text": "On"
+  },
+  {
+    "ID": "opt.yes",
+    "Text": "Yes"
+  },
+  {
+    "ID": "opt.no",
+    "Text": "No"
+  },
+  {
+    "ID": "opt.small",
+    "Text": "Small"
+  },
+  {
+    "ID": "opt.medium",
+    "Text": "Medium"
+  },
+  {
+    "ID": "opt.large",
+    "Text": "Large"
+  },
+  {
+    "ID": "opt.none",
+    "Text": "None"
+  },
+  {
+    "ID": "opt.skip",
+    "Text": "Skip"
+  },
+  {
+    "ID": "opt.disabled",
+    "Text": "Disabled"
+  },
+  {
+    "ID": "opt.enabled",
+    "Text": "Enabled"
+  },
+  {
+    "ID": "opt.required",
+    "Text": "Required"
+  },
+  {
+    "ID": "opt.notRequired",
+    "Text": "Not Required"
+  },
+  {
+    "ID": "opt.manual",
+    "Text": "Manual"
+  },
+  {
+    "ID": "opt.automatic",
+    "Text": "Automatic"
+  },
+  {
+    "ID": "opt.normal",
+    "Text": "Normal"
+  },
+  {
+    "ID": "opt.simple",
+    "Text": "Simple"
+  },
+  {
+    "ID": "opt.low",
+    "Text": "Low"
+  },
+  {
+    "ID": "opt.high",
+    "Text": "High"
+  },
+  {
+    "ID": "opt.windowed",
+    "Text": "Windowed"
+  },
+  {
+    "ID": "opt.exclusive",
+    "Text": "Exclusive"
+  },
+  {
+    "ID": "opt.borderless",
+    "Text": "Borderless"
+  },
+  {
+    "ID": "opt.sharp",
+    "Text": "Sharp"
+  },
+  {
+    "ID": "opt.smooth",
+    "Text": "Smooth"
+  },
+  {
+    "ID": "opt.baked",
+    "Text": "Baked"
+  },
+  {
+    "ID": "opt.runtime",
+    "Text": "Runtime"
+  },
+  {
+    "ID": "opt.doubleTap",
+    "Text": "Double-Tap"
+  },
+  {
+    "ID": "opt.runDt",
+    "Text": "Run + DT"
+  },
+  {
+    "ID": "opt.bindOnly",
+    "Text": "Bind Only"
+  },
+  {
+    "ID": "opt.projected",
+    "Text": "Projected"
+  },
+  {
+    "ID": "opt.uiElement",
+    "Text": "UI Element"
+  },
+  {
+    "ID": "opt.grid",
+    "Text": "Grid"
+  },
+  {
+    "ID": "opt.gridless",
+    "Text": "Gridless"
+  },
+  {
+    "ID": "opt.dropItems",
+    "Text": "Drop Items"
+  },
+  {
+    "ID": "opt.light",
+    "Text": "Light"
+  },
+  {
+    "ID": "opt.head1",
+    "Text": "Head 1"
+  },
+  {
+    "ID": "pause.backToGame",
+    "Text": "Back To Game"
+  },
+  {
+    "ID": "pause.multiplayerSettings",
+    "Text": "Multiplayer Settings"
+  },
+  {
+    "ID": "pause.help",
+    "Text": "Help"
+  },
+  {
+    "ID": "pause.saveQuitMainMenu",
+    "Text": "Save & Quit (Main Menu)"
+  },
+  {
+    "ID": "pause.saveQuitDesktop",
+    "Text": "Save & Quit (Desktop)"
+  },
+  {
+    "ID": "pause.dieRespawn",
+    "Text": "Die & Respawn"
+  },
+  {
+    "ID": "pause.dieRespawnConfirm",
+    "Text": "If you choose to respawn, you will drop your items and return to the closest respawner. Are you sure you want to do that?"
+  },
+  {
+    "ID": "pause.difficultySettings",
+    "Text": "Difficulty Settings"
+  },
+  {
+    "ID": "menu.friendTimeout",
+    "Text": "Connection to your friend timed out. You may want to restart the game and try again."
+  },
+  {
+    "ID": "menu.connectingFriend",
+    "Text": "Trying to connect to your friend's game"
+  },
+  {
+    "ID": "menu.preparingWorkshopUpload",
+    "Text": "Preparing to Upload Data to Steam Workshop"
+  },
+  {
+    "ID": "menu.uploadingWorkshop",
+    "Text": "Uploading data to Steam Workshop ({0})"
+  },
+  {
+    "ID": "menu.deletingWorkshopItem",
+    "Text": "Deleting Steam Workshop Item"
+  },
+  {
+    "ID": "settings.cat.display",
+    "Text": "DISPLAY"
+  },
+  {
+    "ID": "settings.cat.audio",
+    "Text": "AUDIO"
+  },
+  {
+    "ID": "settings.cat.gameplay",
+    "Text": "GAMEPLAY"
+  },
+  {
+    "ID": "settings.cat.interface",
+    "Text": "INTERFACE"
+  },
+  {
+    "ID": "settings.title.display",
+    "Text": "Display Settings"
+  },
+  {
+    "ID": "settings.title.audio",
+    "Text": "Audio Settings"
+  },
+  {
+    "ID": "settings.title.gameplay",
+    "Text": "Gameplay Settings"
+  },
+  {
+    "ID": "settings.title.interface",
+    "Text": "Interface Settings"
+  },
+  {
+    "ID": "settings.apply",
+    "Text": "Apply"
+  },
+  {
+    "ID": "settings.nativeSuffix",
+    "Text": " (Native)"
+  },
+  {
+    "ID": "settings.desktopSuffix",
+    "Text": " (Desktop)"
+  },
+  {
+    "ID": "settings.resolution",
+    "Text": "Resolution"
+  },
+  {
+    "ID": "settings.desktopResolution",
+    "Text": "Desktop Resolution"
+  },
+  {
+    "ID": "settings.screenMode",
+    "Text": "Screen Mode"
+  },
+  {
+    "ID": "settings.gameScale",
+    "Text": "Game Scale"
+  },
+  {
+    "ID": "settings.scaleFiltering",
+    "Text": "Scale Filtering"
+  },
+  {
+    "ID": "settings.shadowQual",
+    "Text": "Shadow Qual."
+  },
+  {
+    "ID": "settings.shadowQuality",
+    "Text": "Shadow Quality"
+  },
+  {
+    "ID": "settings.background",
+    "Text": "Background"
+  },
+  {
+    "ID": "settings.backgroundQuality",
+    "Text": "Background Quality"
+  },
+  {
+    "ID": "settings.verticalSync",
+    "Text": "Vertical Sync"
+  },
+  {
+    "ID": "settings.music",
+    "Text": "Music"
+  },
+  {
+    "ID": "settings.soundFx",
+    "Text": "Sound FX"
+  },
+  {
+    "ID": "settings.dialogue",
+    "Text": "Dialogue"
+  },
+  {
+    "ID": "settings.musicVolume",
+    "Text": "Music Volume"
+  },
+  {
+    "ID": "settings.soundFxVolume",
+    "Text": "Sound FX Volume"
+  },
+  {
+    "ID": "settings.dialogueVolume",
+    "Text": "Dialogue Volume"
+  },
+  {
+    "ID": "settings.tooltips",
+    "Text": "Tooltips"
+  },
+  {
+    "ID": "settings.fontSize",
+    "Text": "Font Size"
+  },
+  {
+    "ID": "settings.fontGlyphs",
+    "Text": "Font Glyphs"
+  },
+  {
+    "ID": "settings.autoRun",
+    "Text": "Auto Run"
+  },
+  {
+    "ID": "settings.edgePeek",
+    "Text": "Edge Peek"
+  },
+  {
+    "ID": "settings.autoPickup",
+    "Text": "Auto Pickup"
+  },
+  {
+    "ID": "settings.dodgeType",
+    "Text": "Dodge Type"
+  },
+  {
+    "ID": "settings.dodgeInput",
+    "Text": "Dodge Input"
+  },
+  {
+    "ID": "settings.minimapType",
+    "Text": "Minimap Type"
+  },
+  {
+    "ID": "settings.hotbarType",
+    "Text": "Hotbar Type"
+  },
+  {
+    "ID": "settings.hotbarLayout",
+    "Text": "Hotbar Layout"
+  },
+  {
+    "ID": "settings.inventoryType",
+    "Text": "Inventory Type"
+  },
+  {
+    "ID": "settings.inventoryLayout",
+    "Text": "Inventory Layout"
+  },
+  {
+    "ID": "settings.energyWeaponsBreakBlocks",
+    "Text": "Energy Weapons Break Blocks"
+  },
+  {
+    "ID": "settings.energyWeaponsVsBlocks",
+    "Text": "Energy Weapons vs Blocks"
+  },
+  {
+    "ID": "settings.holsterToPickup",
+    "Text": "Holster to Pick up Items"
+  },
+  {
+    "ID": "settings.pickupRequiresHolster",
+    "Text": "Pickup Requires Holster"
+  },
+  {
+    "ID": "settings.openInventoryToPickup",
+    "Text": "Open Inventory to Pick up Items"
+  },
+  {
+    "ID": "settings.pickupRequiresInventory",
+    "Text": "Pickup Requires Inventory"
+  },
+  {
+    "ID": "settings.newRecipeNotifications",
+    "Text": "New Recipe Notifications"
+  },
+  {
+    "ID": "settings.recipeNotifications",
+    "Text": "Recipe Notifications"
+  },
+  {
+    "ID": "settings.instantBlockPlacement",
+    "Text": "Instant Block Placement"
+  },
+  {
+    "ID": "settings.walkingSlope",
+    "Text": "Single Blocks as Slopes While Walking"
+  },
+  {
+    "ID": "settings.walkOverSingleBlocks",
+    "Text": "Walk Over Single Blocks"
+  },
+  {
+    "ID": "settings.keepDisplay",
+    "Text": "Keep these display settings?"
+  },
+  {
+    "ID": "settings.reverting",
+    "Text": "Reverting in {0} seconds."
+  },
+  {
+    "ID": "settings.displayApplyFailed",
+    "Text": "The display settings could not be applied. Your previous settings were restored.\n\n{0}"
+  },
+  {
+    "ID": "load.starting",
+    "Text": "Starting Signs of Life"
+  },
+  {
+    "ID": "load.loadingWorld",
+    "Text": "Loading World"
+  },
+  {
+    "ID": "load.generatingWorld",
+    "Text": "Generating World"
+  },
+  {
+    "ID": "load.loadingNamed",
+    "Text": "Loading {0}"
+  },
+  {
+    "ID": "load.generatingNamed",
+    "Text": "Generating {0}"
+  },
+  {
+    "ID": "load.loadingMap",
+    "Text": "Loading Map"
+  },
+  {
+    "ID": "load.generatingMap",
+    "Text": "Generating Map"
+  },
+  {
+    "ID": "load.ready",
+    "Text": "Ready"
+  },
+  {
+    "ID": "load.preparing",
+    "Text": "Preparing..."
+  },
+  {
+    "ID": "load.elapsed",
+    "Text": "Elapsed {0}"
+  },
+  {
+    "ID": "load.elapsedRemaining",
+    "Text": "Elapsed {0}   |   Approx. {1} remaining"
+  },
+  {
+    "ID": "load.durationSeconds",
+    "Text": "{0}s"
+  },
+  {
+    "ID": "load.durationMinutes",
+    "Text": "{0}m {1}s"
+  },
+  {
+    "ID": "load.codexEntry",
+    "Text": "Codex Entry: {0}"
+  },
+  {
+    "ID": "load.phase.settings",
+    "Text": "Reading Settings"
+  },
+  {
+    "ID": "load.phase.systems",
+    "Text": "Initializing Systems"
+  },
+  {
+    "ID": "load.phase.baseContent",
+    "Text": "Loading Base Content"
+  },
+  {
+    "ID": "load.phase.runtimeContent",
+    "Text": "Loading Runtime Content"
+  },
+  {
+    "ID": "load.phase.mods",
+    "Text": "Loading Mod Content"
+  },
+  {
+    "ID": "load.phase.recipes",
+    "Text": "Preparing Recipes"
+  },
+  {
+    "ID": "load.phase.audio",
+    "Text": "Finishing Audio"
+  },
+  {
+    "ID": "load.phase.finalize",
+    "Text": "Finishing Startup"
+  },
+  {
+    "ID": "load.phase.generatingTerrain",
+    "Text": "Generating Terrain"
+  },
+  {
+    "ID": "load.phase.generatingOverlays",
+    "Text": "Generating Overlays"
+  },
+  {
+    "ID": "load.phase.processingForeground",
+    "Text": "Processing Foreground"
+  },
+  {
+    "ID": "load.phase.processingBackground",
+    "Text": "Processing Background"
+  },
+  {
+    "ID": "load.phase.processingSlopes",
+    "Text": "Processing Slopes"
+  },
+  {
+    "ID": "load.phase.processingChunks",
+    "Text": "Building Chunks"
+  },
+  {
+    "ID": "load.phase.growingplants",
+    "Text": "Growing Plants"
+  },
+  {
+    "ID": "load.phase.placingStructures",
+    "Text": "Placing Structures"
+  },
+  {
+    "ID": "load.phase.placingPrefabs",
+    "Text": "Placing Prefabs"
+  },
+  {
+    "ID": "load.phase.spawningCreatures",
+    "Text": "Spawning Creatures"
+  },
+  {
+    "ID": "load.phase.additionalProcessing",
+    "Text": "Populating World"
+  },
+  {
+    "ID": "load.phase.finalizingWorld",
+    "Text": "Finalizing World"
+  },
+  {
+    "ID": "load.phase.initializingChunks",
+    "Text": "Initializing Chunks"
+  },
+  {
+    "ID": "load.phase.parallax",
+    "Text": "Preparing Background"
+  },
+  {
+    "ID": "load.phase.savingWorld",
+    "Text": "Saving World"
+  },
+  {
+    "ID": "load.phase.generatingWorld",
+    "Text": "Generating World"
+  },
+  {
+    "ID": "load.phase.openingSave",
+    "Text": "Opening Save"
+  },
+  {
+    "ID": "load.phase.bufferingChunks",
+    "Text": "Reading Chunks"
+  },
+  {
+    "ID": "load.phase.restoringObjects",
+    "Text": "Restoring World Objects"
+  },
+  {
+    "ID": "load.phase.decodingTerrain",
+    "Text": "Decoding Terrain"
+  },
+  {
+    "ID": "load.phase.finalizingPrefabs",
+    "Text": "Finalizing Prefabs"
+  },
+  {
+    "ID": "load.phase.worldGeometry",
+    "Text": "Rebuilding World Geometry"
+  },
+  {
+    "ID": "load.phase.initializingMap",
+    "Text": "Initializing Map"
+  },
+  {
+    "ID": "load.tip.toggleInventory",
+    "Text": "Tip: You can toggle the inventory by pressing {0}."
+  },
+  {
+    "ID": "load.tip.spaceUnprotected",
+    "Text": "Useful Fact: The human body cannot survive unprotected in space."
+  },
+  {
+    "ID": "load.tip.hudSlots",
+    "Text": "Tip: You can scroll through the numbered slots on your HUD to switch to different equippable items from your inventory."
+  },
+  {
+    "ID": "load.tip.itemsSpew",
+    "Text": "Tip: Your items spew out of your body when you die, but they do not decay over time."
+  },
+  {
+    "ID": "load.tip.itsFine",
+    "Text": "Useful Fact: Its fine, everything is fine."
+  },
+  {
+    "ID": "load.tip.megGems",
+    "Text": "Tip: You can upgrade your MEG wrist laser with gems you find. This works because of a complex series of reasons."
+  },
+  {
+    "ID": "load.tip.megLenses",
+    "Text": "Tip: Better lenses will allow your MEG wrist laser to break through denser materials."
+  },
+  {
+    "ID": "load.tip.grabLaser",
+    "Text": "Tip: You can use the grab laser button ({0}) to move items to selected containers."
+  },
+  {
+    "ID": "load.tip.hotbarMode",
+    "Text": "Tip: You can switch from \"Automatic\" hotbar mode to \"Manual\" by pressing {0}."
+  },
+  {
+    "ID": "load.tip.molecules",
+    "Text": "Useful Fact: The human body contains both molecules and atoms."
+  },
+  {
+    "ID": "load.tip.futuristic",
+    "Text": "Scientists are saying the future is going to be far more futuristic than they originally predicted."
+  },
+  {
+    "ID": "load.tip.helpButton",
+    "Text": "Tip: If you get stuck, don't forget that you can check the help menu by pressing the ? button at the top of the screen."
+  },
+  {
+    "ID": "load.tip.holster",
+    "Text": "You can holster your current held item by pressing {0}."
+  },
+  {
+    "ID": "load.tip.quickSlots",
+    "Text": "Tip: Quick slots ({0} / {1}) hold gadgets and throwables you drag onto those HUD slots."
+  },
+  {
+    "ID": "load.tip.map",
+    "Text": "Tip: Press {0} to check your map and keep track of places you have discovered."
+  },
+  {
+    "ID": "load.tip.reloadRadial",
+    "Text": "Tip: Holding the reload button opens the ammo radial menu when your weapon has more than one ammo type."
+  },
+  {
+    "ID": "load.tip.scanCodex",
+    "Text": "Tip: Scanning a creature adds it to the MEG tool's codex so you can review it later."
+  },
+  {
+    "ID": "load.tip.organize",
+    "Text": "Tip: If you are carrying too much, use containers and the grab laser to organize items without opening every inventory."
+  },
+  {
+    "ID": "load.tip.holdReload",
+    "Text": "Tip: You can hold {0} to open the ammo radial menu."
+  },
+  {
+    "ID": "load.tip.droppedNoDecay",
+    "Text": "Tip: Items that you drop on the ground do not decay over time. You can trash them from your inventory."
+  },
+  {
+    "ID": "load.tip.holdHotbar",
+    "Text": "Tip: You can hold Hotbar buttons to open a radial item selection menu."
+  },
+  {
+    "ID": "load.tip.futuristicTip",
+    "Text": "Tip: Scientists are saying the future is going to be far more futuristic than they originally predicted."
+  },
+  {
+    "ID": "load.tip.helpPauseMeg",
+    "Text": "Tip: If you need help, you can access the help menu from the pause menu or the MEG tool."
+  },
+  {
+    "ID": "load.tip.holsterTip",
+    "Text": "Tip: You can holster your current held item by pressing {0}."
+  },
+  {
+    "ID": "load.tip.scanCodexReview",
+    "Text": "Tip: Scanning a creature adds it to the MEG tool's codex so you can review its description later."
+  },
+  {
+    "ID": "load.tip.groundCache",
+    "Text": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring."
+  },
+  {
+    "ID": "char.customization",
+    "Text": "Customization"
+  },
+  {
+    "ID": "char.gender",
+    "Text": "Gender"
+  },
+  {
+    "ID": "char.skin",
+    "Text": "Skin"
+  },
+  {
+    "ID": "char.skinColor",
+    "Text": "Skin Color"
+  },
+  {
+    "ID": "char.hair",
+    "Text": "Hair"
+  },
+  {
+    "ID": "char.hairColor",
+    "Text": "Hair Color"
+  },
+  {
+    "ID": "char.hairStyle",
+    "Text": "Hair Style"
+  },
+  {
+    "ID": "char.facial",
+    "Text": "Facial"
+  },
+  {
+    "ID": "char.facialHair",
+    "Text": "Facial Hair"
+  },
+  {
+    "ID": "char.head",
+    "Text": "Head"
+  },
+  {
+    "ID": "char.face",
+    "Text": "Face"
+  },
+  {
+    "ID": "char.pants",
+    "Text": "Pants"
+  },
+  {
+    "ID": "char.shirts",
+    "Text": "Shirts"
+  },
+  {
+    "ID": "char.shirt",
+    "Text": "Shirt"
+  },
+  {
+    "ID": "char.shoes",
+    "Text": "Shoes"
+  },
+  {
+    "ID": "char.deathPenalty",
+    "Text": "Death Penalty"
+  },
+  {
+    "ID": "char.introTutorial",
+    "Text": "Intro/Tutorial"
+  },
+  {
+    "ID": "char.worldSize",
+    "Text": "World Size"
+  },
+  {
+    "ID": "char.ratTail",
+    "Text": "Rat Tail"
+  },
+  {
+    "ID": "char.selectCharacter",
+    "Text": "Select Character"
+  },
+  {
+    "ID": "char.deleteConfirm",
+    "Text": "Are you sure you want to delete the player named \"{0}\"?"
+  },
+  {
+    "ID": "char.hair.short",
+    "Text": "Short"
+  },
+  {
+    "ID": "char.hair.huey",
+    "Text": "Huey"
+  },
+  {
+    "ID": "char.hair.rod",
+    "Text": "Rod"
+  },
+  {
+    "ID": "char.hair.bowl",
+    "Text": "Bowl"
+  },
+  {
+    "ID": "char.hair.cornrows",
+    "Text": "Cornrows"
+  },
+  {
+    "ID": "char.hair.curly",
+    "Text": "Curly"
+  },
+  {
+    "ID": "char.hair.flatTop",
+    "Text": "Flat Top"
+  },
+  {
+    "ID": "char.hair.puffy",
+    "Text": "Puffy"
+  },
+  {
+    "ID": "char.hair.ratTail",
+    "Text": "Rat Tail"
+  },
+  {
+    "ID": "char.hair.receding",
+    "Text": "Receding"
+  },
+  {
+    "ID": "char.hair.skirtedEgg",
+    "Text": "Skirted Egg"
+  },
+  {
+    "ID": "char.hair.topknot",
+    "Text": "Topknot"
+  },
+  {
+    "ID": "char.hair.veryShort",
+    "Text": "Very Short"
+  },
+  {
+    "ID": "char.hair.guko",
+    "Text": "Guko"
+  },
+  {
+    "ID": "char.hair.tonsure",
+    "Text": "Tonsure"
+  },
+  {
+    "ID": "char.hair.wavy",
+    "Text": "Wavy"
+  },
+  {
+    "ID": "char.hair.mushroom",
+    "Text": "Mushroom"
+  },
+  {
+    "ID": "char.hair.bigern",
+    "Text": "Bigern"
+  },
+  {
+    "ID": "char.hair.cool",
+    "Text": "Cool"
+  },
+  {
+    "ID": "char.hair.messedUp",
+    "Text": "Messed Up"
+  },
+  {
+    "ID": "char.hair.tubes",
+    "Text": "Tubes"
+  },
+  {
+    "ID": "char.hair.sprout",
+    "Text": "Sprout"
+  },
+  {
+    "ID": "char.hair.frontCurtains",
+    "Text": "Front Curtains"
+  },
+  {
+    "ID": "char.hair.sharkfin",
+    "Text": "Sharkfin"
+  },
+  {
+    "ID": "char.hair.megafro",
+    "Text": "Megafro"
+  },
+  {
+    "ID": "char.hair.loaf",
+    "Text": "Loaf"
+  },
+  {
+    "ID": "char.hair.bald",
+    "Text": "Bald"
+  },
+  {
+    "ID": "char.hair.ponytail",
+    "Text": "Ponytail"
+  },
+  {
+    "ID": "char.hair.highPonytail",
+    "Text": "High Ponytail"
+  },
+  {
+    "ID": "char.hair.bangled",
+    "Text": "Bangled"
+  },
+  {
+    "ID": "char.hair.beehive",
+    "Text": "Beehive"
+  },
+  {
+    "ID": "char.hair.blowout",
+    "Text": "Blowout"
+  },
+  {
+    "ID": "char.hair.bunched",
+    "Text": "Bunched"
+  },
+  {
+    "ID": "char.face.borland",
+    "Text": "Borland"
+  },
+  {
+    "ID": "char.face.lagrange",
+    "Text": "LaGrange"
+  },
+  {
+    "ID": "char.face.soulpatch",
+    "Text": "Soulpatch"
+  },
+  {
+    "ID": "sandbox.generate",
+    "Text": "Generate"
+  },
+  {
+    "ID": "sandbox.type",
+    "Text": "Type"
+  },
+  {
+    "ID": "sandbox.size",
+    "Text": "Size"
+  },
+  {
+    "ID": "sandbox.hostility",
+    "Text": "Hostility"
+  },
+  {
+    "ID": "sandbox.worldOptions",
+    "Text": "World Options"
+  },
+  {
+    "ID": "sandbox.existingWorlds",
+    "Text": "Existing Worlds"
+  },
+  {
+    "ID": "sandbox.osirisPostGame",
+    "Text": "Osiris Post Game"
+  },
+  {
+    "ID": "sandbox.asteroid",
+    "Text": "Asteroid"
+  },
+  {
+    "ID": "sandbox.debugMap",
+    "Text": "Debug Map"
+  },
+  {
+    "ID": "sandbox.noWorlds",
+    "Text": "No saved worlds yet.\n\nUse Sandbox on the main menu to generate a new world."
+  },
+  {
+    "ID": "sandbox.missingPack",
+    "Text": "Cannot load this world: content pack for profile \"{0}\" is not enabled."
+  },
+  {
+    "ID": "mp.noFriends",
+    "Text": "None of your friends are currently on multiplayer games."
+  },
+  {
+    "ID": "mp.steamRequired",
+    "Text": "Steamworks is required for multiplayer. Please launch the game from Steam if you would like to play online. If you are launching from Steam please contact us at playsignsoflife@gmail.com"
+  },
+  {
+    "ID": "mp.joinFriend",
+    "Text": "Join a friend's game"
+  },
+  {
+    "ID": "mp.autoJoin",
+    "Text": "Auto Join"
+  },
+  {
+    "ID": "mp.preventFriendlyFire",
+    "Text": "Prevent Friendly Fire"
+  },
+  {
+    "ID": "mp.allowCheats",
+    "Text": "Allow Cheats"
+  },
+  {
+    "ID": "bind.rebind",
+    "Text": "Rebind"
+  },
+  {
+    "ID": "bind.resetDefaults",
+    "Text": "Reset Defaults"
+  },
+  {
+    "ID": "bind.header.menus",
+    "Text": "Menus"
+  },
+  {
+    "ID": "bind.header.movement",
+    "Text": "Movement"
+  },
+  {
+    "ID": "bind.header.combat",
+    "Text": "Combat & Items"
+  },
+  {
+    "ID": "bind.header.wrist",
+    "Text": "Wrist Modules"
+  },
+  {
+    "ID": "bind.header.hotbar",
+    "Text": "Hotbar"
+  },
+  {
+    "ID": "bind.header.other",
+    "Text": "Other"
+  },
+  {
+    "ID": "bind.resetDone",
+    "Text": "Keys reset to the default configuration."
+  },
+  {
+    "ID": "bind.confirmKey",
+    "Text": "Would you like to bind {0} to {1}?"
+  },
+  {
+    "ID": "bind.confirmMiddleMouse",
+    "Text": "Would you like to bind {0} to the Middle Mouse button?"
+  },
+  {
+    "ID": "bind.confirmScrollUp",
+    "Text": "Would you like to bind {0} to Mousewheel Scroll Up?"
+  },
+  {
+    "ID": "bind.confirmScrollDown",
+    "Text": "Would you like to bind {0} to Mousewheel Scroll Down?"
+  },
+  {
+    "ID": "bind.confirmMouse3",
+    "Text": "Would you like to bind {0} to the Mouse Button 3?"
+  },
+  {
+    "ID": "bind.confirmMouse4",
+    "Text": "Would you like to bind {0} to the Mouse Button 4?"
+  },
+  {
+    "ID": "bind.left",
+    "Text": "Left"
+  },
+  {
+    "ID": "bind.right",
+    "Text": "Right"
+  },
+  {
+    "ID": "bind.jump",
+    "Text": "Jump"
+  },
+  {
+    "ID": "bind.crouch",
+    "Text": "Crouch"
+  },
+  {
+    "ID": "bind.run",
+    "Text": "Run"
+  },
+  {
+    "ID": "bind.reload",
+    "Text": "Reload / Rotate Block"
+  },
+  {
+    "ID": "bind.collectTransfer",
+    "Text": "Collect / Transfer Items"
+  },
+  {
+    "ID": "bind.wristLight",
+    "Text": "Wrist Light"
+  },
+  {
+    "ID": "bind.kick",
+    "Text": "Kick"
+  },
+  {
+    "ID": "bind.toggleInventory",
+    "Text": "Toggle Inventory"
+  },
+  {
+    "ID": "bind.map",
+    "Text": "Map"
+  },
+  {
+    "ID": "bind.oreScanner",
+    "Text": "Ore Scanner"
+  },
+  {
+    "ID": "bind.openChat",
+    "Text": "Open Chat"
+  },
+  {
+    "ID": "bind.holster",
+    "Text": "Holster"
+  },
+  {
+    "ID": "bind.up",
+    "Text": "Up"
+  },
+  {
+    "ID": "bind.down",
+    "Text": "Down"
+  },
+  {
+    "ID": "bind.scrollSlot",
+    "Text": "Scroll Slot {0}"
+  },
+  {
+    "ID": "bind.quickSlot",
+    "Text": "Quick Slot {0}"
+  },
+  {
+    "ID": "bind.scrollUp",
+    "Text": "Scroll Up"
+  },
+  {
+    "ID": "bind.scrollDown",
+    "Text": "Scroll Down"
+  },
+  {
+    "ID": "bind.flipBlock",
+    "Text": "Flip Equipped Block"
+  },
+  {
+    "ID": "bind.rotateBlock",
+    "Text": "Rotate Equipped Block"
+  },
+  {
+    "ID": "bind.shieldBlock",
+    "Text": "Shield Block"
+  },
+  {
+    "ID": "bind.equipment",
+    "Text": "Equipment"
+  },
+  {
+    "ID": "bind.alienArtifact",
+    "Text": "Alien Artifact"
+  },
+  {
+    "ID": "bind.megTool",
+    "Text": "MEG Tool"
+  },
+  {
+    "ID": "bind.craftingMenu",
+    "Text": "Crafting Menu"
+  },
+  {
+    "ID": "bind.projectsMenu",
+    "Text": "Projects Menu"
+  },
+  {
+    "ID": "bind.dodge",
+    "Text": "Dodge"
+  },
+  {
+    "ID": "bind.dodgeLeft",
+    "Text": "Dodge Left"
+  },
+  {
+    "ID": "bind.dodgeRight",
+    "Text": "Dodge Right"
+  },
+  {
+    "ID": "bind.grapple",
+    "Text": "Grapple Module"
+  },
+  {
+    "ID": "bind.agisInvestigate",
+    "Text": "AGIS Investigate"
+  },
+  {
+    "ID": "bind.switchHotbar",
+    "Text": "Switch Hotbar Type"
+  },
+  {
+    "ID": "bind.zoomIn",
+    "Text": "Zoom In World"
+  },
+  {
+    "ID": "bind.zoomOut",
+    "Text": "Zoom Out World"
+  },
+  {
+    "ID": "bind.devMode",
+    "Text": "Dev Mode"
+  },
+  {
+    "ID": "bind.changeAmmo",
+    "Text": "Change Ammo Type"
+  },
+  {
+    "ID": "bind.none",
+    "Text": "NONE"
+  },
+  {
+    "ID": "mods.installed",
+    "Text": "Installed Mods"
+  },
+  {
+    "ID": "mods.staged",
+    "Text": "Staged Mods"
+  },
+  {
+    "ID": "mods.published",
+    "Text": "Published Mods"
+  },
+  {
+    "ID": "mods.moddingGuide",
+    "Text": "Modding Guide"
+  },
+  {
+    "ID": "mods.publishingGuide",
+    "Text": "Publishing Guide"
+  },
+  {
+    "ID": "mods.findMods",
+    "Text": "Find Mods"
+  },
+  {
+    "ID": "mods.createEdit",
+    "Text": "Create / Edit Mods"
+  },
+  {
+    "ID": "mods.openModsFolder",
+    "Text": "Open Mods Folder"
+  },
+  {
+    "ID": "mods.openStagingFolder",
+    "Text": "Open Staging Folder"
+  },
+  {
+    "ID": "mods.workshopTos",
+    "Text": "Workshop TOS"
+  },
+  {
+    "ID": "mods.uploadNew",
+    "Text": "Upload New Mod"
+  },
+  {
+    "ID": "mods.updateExisting",
+    "Text": "Update Existing Mod"
+  },
+  {
+    "ID": "mods.updateThisOne",
+    "Text": "Update This One"
+  },
+  {
+    "ID": "mods.viewOnline",
+    "Text": "View Online"
+  },
+  {
+    "ID": "mods.deleteMod",
+    "Text": "Delete Mod"
+  },
+  {
+    "ID": "mods.enable",
+    "Text": "Enable"
+  },
+  {
+    "ID": "mods.disable",
+    "Text": "Disable"
+  },
+  {
+    "ID": "mods.loadNow",
+    "Text": "Load Now"
+  },
+  {
+    "ID": "mods.titlePrefix",
+    "Text": "Title: {0}"
+  },
+  {
+    "ID": "mods.workshopFileId",
+    "Text": "Workshop File ID: {0}"
+  },
+  {
+    "ID": "mods.installedTitle",
+    "Text": "Mods (Loaded / Pending)"
+  },
+  {
+    "ID": "mods.publishedTitle",
+    "Text": "Your Published Mods"
+  },
+  {
+    "ID": "mods.pickPublishedTitle",
+    "Text": "Pick Which Published Mod to Update"
+  },
+  {
+    "ID": "mods.detectedCandidates",
+    "Text": "Detected Workshop Mod Candidates"
+  },
+  {
+    "ID": "mods.stagedReady",
+    "Text": "Staged Mods Ready to Upload"
+  },
+  {
+    "ID": "mods.stagedBlurb",
+    "Text": "These packages are ready to publish. Pick one and the game will check the mods published by your Steam account.\n\nA new package creates a private or public Workshop page according to workshop.json. A package already linked to one of your Workshop items updates that item in place."
+  },
+  {
+    "ID": "mods.publishedBlurbUpdate",
+    "Text": "You already picked a staged package. Now choose which live Workshop mod it should replace.\n\nOnly click Update This One on the mod you mean to change. That swaps the files for everyone who subscribed — so double-check the title."
+  },
+  {
+    "ID": "mods.publishedBlurb",
+    "Text": "These are mods YOU already put on the Steam Workshop. Other players can find and subscribe to them.\n\nView Online opens the Steam page. Delete removes it forever for everyone — not just from your PC.\n\nWant to change a mod's files? Go to Staged Mods and publish its staged package; the game will identify the existing item."
+  },
+  {
+    "ID": "mods.emptyInstalled",
+    "Text": "No mods loaded this session.\n\nUse Find Mods to subscribe in Steam. New packs load automatically when ready; Pending packs can use Load Now."
+  },
+  {
+    "ID": "mods.refreshing",
+    "Text": "Refreshing Steam Workshop subscriptions…"
+  },
+  {
+    "ID": "mods.emptyPublishedUpdate",
+    "Text": "You do not have any published Workshop mods yet.\n\nGo back to Staged Mods and publish the package first."
+  },
+  {
+    "ID": "mods.emptyPublished",
+    "Text": "No published Steam Workshop mods found for your account yet.\n\nWhen you are ready to put a mod online, open Staged Mods and publish its package."
+  },
+  {
+    "ID": "mods.emptyEditCandidates",
+    "Text": "No valid mod candidates were found in your WorkshopUpload directory. \nThe path to the directory is:\n\n{0}\n\nFor more information, visit the official Signs of Life wiki by clicking the button below."
+  },
+  {
+    "ID": "mods.selectReplaceData",
+    "Text": "Select the Mod Data that you would like to upload to replace the data for the Steam Workshop item: {0}."
+  },
+  {
+    "ID": "mods.emptyStaged",
+    "Text": "Nothing is staged yet — so there is nothing to upload.\n\nUse Mod Prep (or put a finished package in your WorkshopUpload folder) first. Staged means \"ready to send to Steam,\" not \"already online.\"\n\nFolder:\n{0}\n\nNeed help? Open Publishing Guide below."
+  },
+  {
+    "ID": "mods.checkingAccount",
+    "Text": "Checking the mods published by your Steam account…\n\nNothing will be uploaded until the game determines whether this package should create a new Workshop item or update an existing one."
+  },
+  {
+    "ID": "mods.tosAgree",
+    "Text": "By submitting this item, you agree to the Steam Workshop terms of service"
+  },
+  {
+    "ID": "mods.createNewItem",
+    "Text": "create a new Steam Workshop item"
+  },
+  {
+    "ID": "mods.updateItem",
+    "Text": "update Workshop item {0}"
+  },
+  {
+    "ID": "mods.confirmSummary",
+    "Text": "Steam account check complete: this will {0}.\n\nTitle: {1}\nVisibility: {2}\nTags: {3}\nPackage: {4}\nPreview: {5}\n\nDescription: {6}"
+  },
+  {
+    "ID": "mods.noneTags",
+    "Text": "(none)"
+  },
+  {
+    "ID": "mods.subscribeOverlay",
+    "Text": "Subscribe to mods in the Steam Workshop overlay.\n\nNew subscriptions load automatically in single-player after Steam downloads them. If a pack stays Pending, use Load Now or restart the game."
+  },
+  {
+    "ID": "mods.uploading",
+    "Text": "Uploading data to Steam Workshop"
+  },
+  {
+    "ID": "mods.deletingItem",
+    "Text": "Deleting Steam Workshop Item"
+  },
+  {
+    "ID": "mods.uploadSuccessful",
+    "Text": "Upload Successful"
+  },
+  {
+    "ID": "mods.uploadLegal",
+    "Text": "Upload successful, but Steam requires you to accept the Workshop legal agreement before the item can be published."
+  },
+  {
+    "ID": "mods.workshopDeleted",
+    "Text": "Workshop item deleted."
+  },
+  {
+    "ID": "mods.deleteFailedIo",
+    "Text": "Delete failed: Steam I/O error. The Workshop item was not removed."
+  },
+  {
+    "ID": "mods.deleteFailedResult",
+    "Text": "Delete failed: {0}"
+  },
+  {
+    "ID": "mods.steamNotInit",
+    "Text": "Steam is not initialized, so the game cannot check whether this mod already exists."
+  },
+  {
+    "ID": "mods.couldNotCheckPublished",
+    "Text": "Steam could not check the mods published by this account. Nothing was uploaded; try again."
+  },
+  {
+    "ID": "mods.uploadFailed",
+    "Text": "Steam Workshop upload failed.\n\nResult: {0}"
+  },
+  {
+    "ID": "mods.zipMissing",
+    "Text": "Could not find the zip file at the path provided in the JSON file."
+  },
+  {
+    "ID": "mods.createFailed",
+    "Text": "Steam could not create the Workshop item.\n\nResult: {0}"
+  },
+  {
+    "ID": "mods.noStagedSelected",
+    "Text": "No staged Workshop package was selected."
+  },
+  {
+    "ID": "mods.noWorkshopTitle",
+    "Text": "The staged package has no Workshop title. Open it in Mod Prep and stage it again."
+  },
+  {
+    "ID": "mods.stagedFolderMissing",
+    "Text": "The staged content folder is missing:\n{0}"
+  },
+  {
+    "ID": "mods.stagedZipMissing",
+    "Text": "The staged content folder contains no mod zip:\n{0}"
+  },
+  {
+    "ID": "mods.previewMissing",
+    "Text": "The staged Workshop preview is missing:\n{0}"
+  },
+  {
+    "ID": "mods.didNotFinishCheck",
+    "Text": "Steam did not finish checking this account's published mods. Nothing was uploaded; try again."
+  },
+  {
+    "ID": "mods.modPrepMissing",
+    "Text": "Mod Prep is not installed in this build. In a Steam installation, find it under Tools\\Mod Prep.bat next to the game files."
+  },
+  {
+    "ID": "mods.couldNotOpenThe",
+    "Text": "Could not open the {0}:\n{1}"
+  },
+  {
+    "ID": "mods.couldNotOpen",
+    "Text": "Could not open {0}:\n{1}"
+  },
+  {
+    "ID": "mods.folderMods",
+    "Text": "Mods folder"
+  },
+  {
+    "ID": "mods.folderStaging",
+    "Text": "Workshop staging folder"
+  },
+  {
+    "ID": "mods.modPrep",
+    "Text": "Mod Prep"
+  },
+  {
+    "ID": "item.noDescription",
+    "Text": "No description available."
+  },
+  {
+    "ID": "item.missingModName",
+    "Text": "Missing mod item"
+  },
+  {
+    "ID": "item.missingModDescription",
+    "Text": "This item's mod is not installed. Keep it to restore the item after reinstalling the mod."
+  },
+  {
+    "ID": "item.batteryCharge",
+    "Text": "Battery Charge: [charge]/[capacity] ([percent]%)"
+  }
+]

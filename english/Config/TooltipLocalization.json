@@ -1,0 +1,410 @@
+[
+  {
+    "ID": "tooltip.HEALTH",
+    "Text": "Health ({0}/{1}) and Stamina ({2}/{3})"
+  },
+  {
+    "ID": "tooltip.ENERGY.charged",
+    "Text": "Energy Capacitor ({0}/{1}) and Battery Charge ({2}/{3})"
+  },
+  {
+    "ID": "tooltip.ENERGY.emptyBattery",
+    "Text": "Energy Capacitor ({0}/{1}) - The battery equipped in your MEG tool is empty, so you can only charge your capacitor with harvested energy."
+  },
+  {
+    "ID": "tooltip.ENERGY.noBattery",
+    "Text": "Energy Capacitor ({0}/{1}) - You do not have a battery equipped, so you can only charge your capacitor with harvested energy."
+  },
+  {
+    "ID": "tooltip.MEG_BUTTON",
+    "Text": "The user-serviceable components of the MEG tool. Items equipped in the MEG tool do not drop on death. + ({0})"
+  },
+  {
+    "ID": "tooltip.INVENTORY_BUTTON",
+    "Text": "Your Backpack - Your base container, where you store all of your bits and bobs. ({0})"
+  },
+  {
+    "ID": "tooltip.CYBERNETICS_BUTTON",
+    "Text": "Cybernetic enhancements for your body. ({0})"
+  },
+  {
+    "ID": "tooltip.EQUIPMENT_BUTTON",
+    "Text": "Equipment - Your currently equipped armor and accessories. ({0})"
+  },
+  {
+    "ID": "tooltip.CRAFTING_BUTTON",
+    "Text": "Crafting - See the recipes you have figured out how to make. ({0})"
+  },
+  {
+    "ID": "tooltip.PROJECTS_BUTTON",
+    "Text": "Projects - Sort of like crafting, but for larger things. Projects must be placed on the block grid."
+  },
+  {
+    "ID": "tooltip.CREATIVE_BUTTON",
+    "Text": "Creative Container - A container full of items. Replenishes on each run of the game."
+  },
+  {
+    "ID": "tooltip.SCROLL_SLOTS",
+    "Text": "Scroll Slots - Automatically filled by items in your inventory. You can scroll through the items in a category with your mousewheel."
+  },
+  {
+    "ID": "tooltip.QUICK_SLOTS",
+    "Text": "Quick Slots ({0} / {1}) - Drag gadgets, throwables, and other quick-slot items here. Tap or hold the hotkey to use them."
+  },
+  {
+    "ID": "tooltip.AMMO_DISPLAY",
+    "Text": "Ammo - How much ammo you have available as well as how much ammo you have in your current clip."
+  },
+  {
+    "ID": "tooltip.BUFF_DISPLAY",
+    "Text": "Buffs - Helpful icons displaying your current status effects."
+  },
+  {
+    "ID": "tooltip.FULLNESS_DISPLAY.starving",
+    "Text": "You are currently starving, so you will not regenerate health over time and your maximum stamina is reduced."
+  },
+  {
+    "ID": "tooltip.FULLNESS_DISPLAY.fed",
+    "Text": "You are currently well fed, so you will regenerate health over time and your maximum stamina is increased."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_MELEE",
+    "Text": "Show the melee weapons you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_RANGED",
+    "Text": "Show the ranged weapons you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_EQUIPMENT",
+    "Text": "Show the equipment you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_GADGETS",
+    "Text": "Show the gadgets you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_TOOLS",
+    "Text": "Show the tools you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_MATERIALS",
+    "Text": "Show the materials you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_CLOTHING",
+    "Text": "Show the clothing you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_CONSUMABLES",
+    "Text": "Show the consumables you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_FURNITURE",
+    "Text": "Show the furniture you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_TILES",
+    "Text": "Show the tiles you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SORT_ALL",
+    "Text": "Show all of the things you can currently craft."
+  },
+  {
+    "ID": "tooltip.CRAFTING_ANALYZE",
+    "Text": "Allows you to target an item in order to find its recipe, if available. You can also right click any item in your Crafting Window to do the same."
+  },
+  {
+    "ID": "tooltip.CRAFTING_ALPHASORT",
+    "Text": "Toggles between automatic and alphabetical sorting."
+  },
+  {
+    "ID": "tooltip.CRAFTING_SEARCH",
+    "Text": "Search through recipes and the ingredients for recipes."
+  },
+  {
+    "ID": "tooltip.ENCUMBRANCE_DISPLAY",
+    "Text": "Displays how much your armor is affecting your movement. If you wear armor that is too bulky, your run speed, dodge-roll distance and backjump distance will be affected."
+  },
+  {
+    "ID": "tooltip.DEFENSE_DISPLAY",
+    "Text": "Displays how much your armor is reducing the damage you take."
+  },
+  {
+    "ID": "tooltip.AGIS_BUTTON",
+    "Text": "Calls AGIS, your \"friendly\" artificially \"intelligent\" friend!"
+  },
+  {
+    "ID": "tooltip.LIGHT_BUTTON",
+    "Text": "Toggles your MEG tool's wrist light. ({0})"
+  },
+  {
+    "ID": "tooltip.SCAN_BUTTON",
+    "Text": "Toggles the mini-map display. ({0})"
+  },
+  {
+    "ID": "tooltip.ALIEN_ENERGY",
+    "Text": "Your guess is as good as mine on this one buddy."
+  },
+  {
+    "ID": "tooltip.ARTIFACT_BUTTON",
+    "Text": "Some sort of strange alien artifact."
+  },
+  {
+    "ID": "tooltip.EXPAND_ALL",
+    "Text": "Expand all of the crafting categories."
+  },
+  {
+    "ID": "tooltip.MARK_AS_READ",
+    "Text": "Mark all recipes as having been read."
+  },
+  {
+    "ID": "tooltip.COLLAPSE_ALL",
+    "Text": "Collapse all of the crafting categories."
+  },
+  {
+    "ID": "tooltip.ITEM_DETAIL_SPLIT",
+    "Text": "Splits the chosen amount of items off of this stack of items."
+  },
+  {
+    "ID": "tooltip.ITEM_DETAIL_AMMO",
+    "Text": "Select an ammo type."
+  },
+  {
+    "ID": "tooltip.ITEM_DETAIL_TRASH",
+    "Text": "Remove this item."
+  },
+  {
+    "ID": "tooltip.ITEM_DETAIL_FLIP",
+    "Text": "Flip this item."
+  },
+  {
+    "ID": "tooltip.ITEM_DETAIL_ROTATE",
+    "Text": "Rotate this item."
+  },
+  {
+    "ID": "tooltip.ITEM_DETAIL_USE",
+    "Text": "Use this item."
+  },
+  {
+    "ID": "tooltip.ITEM_DETAIL_RENAME",
+    "Text": "Add a label to this item."
+  },
+  {
+    "ID": "tooltip.ITEM_DETAIL_HIDE",
+    "Text": "Hide this item from the Automatic Item Slots"
+  },
+  {
+    "ID": "tooltip.CONTAINER_CLOSE",
+    "Text": "Close this container."
+  },
+  {
+    "ID": "tooltip.CONTAINER_ORGANIZE",
+    "Text": "Organize this container."
+  },
+  {
+    "ID": "tooltip.MENU_CLOSE",
+    "Text": "Close this menu"
+  },
+  {
+    "ID": "tooltip.DECORATIVE",
+    "Text": "This is just a decorative doodad"
+  },
+  {
+    "ID": "tooltip.KEY_ITEMS_CONTAINER",
+    "Text": "This container automatically collects any key items you find."
+  },
+  {
+    "ID": "tooltip.TRASH_CONTAINER",
+    "Text": "This container holds items you have chosen to delete, and will be emptied when you leave the game."
+  },
+  {
+    "ID": "tooltip.CRAFTING_CONTAINER",
+    "Text": "This container automatically collects crafting materials picked up by your grab laser."
+  },
+  {
+    "ID": "tooltip.BLOCK_CONTAINER",
+    "Text": "This container automatically collects blocks picked up by your grab laser."
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_EXTRACT",
+    "Text": "This slot holds Rubies, which upgrade your wrist laser."
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_ANALYZE",
+    "Text": "This slot holds Amethysts, which upgrade your wrist scanner."
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_MANIPULATE",
+    "Text": "This slot holds Sapphires, which upgrade your grab laser."
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_ILLUMINATE",
+    "Text": "This slot holds Topazes, which upgrade your wrist light."
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_GRAPPLE",
+    "Text": "This slot holds Emeralds, which upgrade your grapple module."
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_GRAPPLE.notInstalled",
+    "Text": "This slot holds Emeralds, which upgrade your grapple module. (Not installed)"
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_LENS",
+    "Text": "This slot holds Lenses, which allow you to dig through tougher materials."
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_BATTERY",
+    "Text": "This slot holds Batteries, which upgrade your total energy capacity."
+  },
+  {
+    "ID": "tooltip.GUMP_MEG_CAPACITOR",
+    "Text": "This slot holds Capacitors, which upgrade your short term usable energy capacity."
+  },
+  {
+    "ID": "tooltip.CONTAINER_LOOT_ALL",
+    "Text": "Takes all the items from a container into your inventory."
+  },
+  {
+    "ID": "tooltip.SWAP_BUTTON",
+    "Text": "Swap between Automatic and Manual item slots."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_BLOCKS",
+    "Text": "Blocks that you can build with will be in this slot."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_CONSUMABLE",
+    "Text": "Consumables other than normal food."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_FOOD",
+    "Text": "Food, for eating."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_DIG",
+    "Text": "Digging tools will be in this slot."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_GADGET",
+    "Text": "Gadgets will be in this slot."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_MELEE",
+    "Text": "Melee weapons will be in this slot."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_RANGED",
+    "Text": "Ranged weapons will be in this slot."
+  },
+  {
+    "ID": "tooltip.HUD_ICON_THROWABLE",
+    "Text": "Throwable things will be in this slot."
+  },
+  {
+    "ID": "tooltip.GRID_BUTTON",
+    "Text": "Swap between the Grid inventory and the Gridless inventory."
+  },
+  {
+    "ID": "tooltip.INPUT_ITEMS",
+    "Text": "This slot is for items you would like to process or cook."
+  },
+  {
+    "ID": "tooltip.INPUT_ADDITIVE",
+    "Text": "This slot is for items you would like to process or cook."
+  },
+  {
+    "ID": "tooltip.INPUT_FUEL",
+    "Text": "This slot is where you should put fuel such as logs, sticks or plant fibers."
+  },
+  {
+    "ID": "tooltip.INPUT_BATTERY",
+    "Text": "This slot is for a charged battery."
+  },
+  {
+    "ID": "tooltip.INPUT_FIRESTARTER",
+    "Text": "This slot is where you should put a firestarter."
+  },
+  {
+    "ID": "tooltip.OUTPUT_ITEMS",
+    "Text": "You can take processed items from here."
+  },
+  {
+    "ID": "tooltip.MEG_DESCRIPTION",
+    "Text": "The MEG tool is your wrist mounted multi-purpose utility device. It can be upgraded with gems to enhance the various functions.\nNote: Nothing equipped in your MEG tool will drop when you die."
+  },
+  {
+    "ID": "tooltip.CODEX_BUTTON",
+    "Text": "This button opens your Codex, which tracks various bits of information that you have collected."
+  },
+  {
+    "ID": "tooltip.TOGGLE_CYBERNETIC",
+    "Text": "You can use this to toggle a cybernetic off or on."
+  },
+  {
+    "ID": "tooltip.HELP_BUTTON",
+    "Text": "Help with various topics."
+  },
+  {
+    "ID": "tooltip.MAP_BUTTON",
+    "Text": "Open the full-size map."
+  },
+  {
+    "ID": "tooltip.SKILLS_BUTTON",
+    "Text": "Work in progress."
+  },
+  {
+    "ID": "tooltip.PAYLOAD_FIRE_BUTTON",
+    "Text": "Fire the selected payload."
+  },
+  {
+    "ID": "tooltip.JOURNAL_BUTTON",
+    "Text": "Your personal journal."
+  },
+  {
+    "ID": "tooltip.CODEX_CREATURES",
+    "Text": "View the details of creatures that you have scanned with your wrist scanner."
+  },
+  {
+    "ID": "tooltip.CODEX_STRUCTURES",
+    "Text": "View the details of structures that you have scanned with your wrist scanner."
+  },
+  {
+    "ID": "tooltip.CODEX_DATAPADS",
+    "Text": "View the datapads that you've found in the world."
+  },
+  {
+    "ID": "tooltip.INPUT_POTION",
+    "Text": "This slot can hold a potion vessel for potion crafting."
+  },
+  {
+    "ID": "tooltip.REFINE_TAKE_ALL",
+    "Text": "Take the results, or hold to take all contents."
+  },
+  {
+    "ID": "tooltip.EQUIPWINDOW_ENERGYGAIN",
+    "Text": "The rate that you are generating capacitor charge, including baseline harvested energy ({0}), installed batteries ({1}) or other devices."
+  },
+  {
+    "ID": "tooltip.EQUIPWINDOW_ENERGYGAIN.noBatteryCharge",
+    "Text": "The rate that you are generating capacitor charge, including baseline harvested energy ({0}), installed batteries (0) or other devices."
+  },
+  {
+    "ID": "tooltip.EQUIPWINDOW_ENERGYDRAIN",
+    "Text": "The rate that your capacitor's charge is being drained by active devices."
+  },
+  {
+    "ID": "tooltip.EQUIPWINDOW_DT",
+    "Text": "Damage Threshhold - A flat reduction in physical damage received."
+  },
+  {
+    "ID": "tooltip.EQUIPWINDOW_DR",
+    "Text": "Damage Resistance - A percentage reduction in physical damage received."
+  },
+  {
+    "ID": "tooltip.FAVORITES_BUTTON",
+    "Text": "Toggle between displaying your hotbar as scrollable slots or manual slots that you can drag items to. Hotkey: {0}."
+  }
+]

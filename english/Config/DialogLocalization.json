@@ -1,0 +1,2842 @@
+[
+  {
+    "ID": 1,
+    "Normal": "Well that is something you don't see every day.",
+    "Robot": "That is an unexpected occurrence."
+  },
+  {
+    "ID": 2,
+    "Normal": "Show me what you want to know more about.",
+    "Robot": "Specify the target for you need additional information about."
+  },
+  {
+    "ID": 3,
+    "Normal": "You can't seem to damage that.",
+    "Robot": "No damage could be inflicted."
+  },
+  {
+    "ID": 4,
+    "Normal": "It seems impervious to damage.",
+    "Robot": "The object appears to be invulnerable to damage."
+  },
+  {
+    "ID": 5,
+    "Normal": "It doesn't seem to budge.",
+    "Robot": "The object is unresponsive."
+  },
+  {
+    "ID": 6,
+    "Normal": "That thing doesn't seem to want to break.",
+    "Robot": "The object appears to be resistant to destruction."
+  },
+  {
+    "ID": 7,
+    "Normal": "Run away, definitely run away!",
+    "Robot": "It is advisable to evacuate the area."
+  },
+  {
+    "ID": 8,
+    "Normal": "He was a real bad egg.",
+    "Robot": "He exhibited negative characteristics."
+  },
+  {
+    "ID": 9,
+    "Normal": "It looks like he has a weak spot on the top of his head.",
+    "Robot": "There is an area of vulnerability located on the crown."
+  },
+  {
+    "ID": 10,
+    "Normal": "It looks like he has a weak spot on his tail",
+    "Robot": "An area of increased vulnerability has been detected on the tail."
+  },
+  {
+    "ID": 11,
+    "Normal": "I detect a weak spot in his chest. It may be exposed during certain attacks!",
+    "Robot": "Weak spot detected in target's chest. Vulnerability could be exploited during certain attacks."
+  },
+  {
+    "ID": 12,
+    "Normal": "You already have that recipe.",
+    "Robot": "The requested recipe is already available."
+  },
+  {
+    "ID": 13,
+    "Normal": "I've added that recipe to your crafting menu.",
+    "Robot": "The recipe has been added to the crafting menu."
+  },
+  {
+    "ID": 14,
+    "Normal": "This isn't yours, but that person isn't around so finders keepers lol.",
+    "Robot": "The item in question is not yours; however, the person in possession is not present, so the item is yours to keep."
+  },
+  {
+    "ID": 15,
+    "Normal": "You cannot open this, it isn't yours.",
+    "Robot": "Access to this is restricted; it does not belong to you."
+  },
+  {
+    "ID": 16,
+    "Normal": "Today we celebrate our Independence Day!",
+    "Robot": "Today marks the anniversary of the establishment of our nation's independence."
+  },
+  {
+    "ID": 17,
+    "Normal": "Your laser can't penetrate that deposit, you'll need a pick to make a dent in it.",
+    "Robot": "The laser is insufficient to penetrate the deposit, a pick will be necessary to create an indentation."
+  },
+  {
+    "ID": 18,
+    "Normal": "That device seems to be out of power.",
+    "Robot": "The device appears to be devoid of power."
+  },
+  {
+    "ID": 19,
+    "Normal": "Looks like that bin is empty.",
+    "Robot": "The bin appears to be devoid of contents."
+  },
+  {
+    "ID": 20,
+    "Normal": "Well, I don't know what I expected...",
+    "Robot": "Anomalous result recorded."
+  },
+  {
+    "ID": 21,
+    "Normal": "You must place the test block at the highlighted location",
+    "Robot": "Place the test block at the indicated location."
+  },
+  {
+    "ID": 22,
+    "Normal": "Your laser lens is not good enough to attach blocks on that surface.",
+    "Robot": "The laser lens you are using is inadequate for attaching blocks to that surface."
+  },
+  {
+    "ID": 23,
+    "Normal": "Your laser lens is not good enough to place blocks on that surface.",
+    "Robot": "The laser lens is insufficient for placing blocks on that surface."
+  },
+  {
+    "ID": 24,
+    "Normal": "Your stomach is full, I can tell because I can see inside you.",
+    "Robot": "Sensors indicate that your stomach is full."
+  },
+  {
+    "ID": 25,
+    "Normal": "You're way too full to consume that.",
+    "Robot": "Stomach contents would exceed maximum stress tolerance."
+  },
+  {
+    "ID": 26,
+    "Normal": "My scans indicate that your stomach is {0}% full, and that consumable requires {1}% free space.",
+    "Robot": "Scans indicate that your stomach is {0}% full and requires {1}% free space to consume the item."
+  },
+  {
+    "ID": 27,
+    "Normal": "Did... Did you eat the can as well as the beans or what?",
+    "Robot": "Have you consumed both the can and the beans?"
+  },
+  {
+    "ID": 28,
+    "Normal": "What did we learn?",
+    "Robot": "The data suggests that a conclusion can be drawn."
+  },
+  {
+    "ID": 29,
+    "Normal": "Its... an acquired taste.",
+    "Robot": "It is not for everyone."
+  },
+  {
+    "ID": 30,
+    "Normal": "That gadget only works if your whole set of armor has an optical camo armor weave.",
+    "Robot": "The gadget will only be functional if the optical camouflage armor weave is present throughout the entirety of the armor set."
+  },
+  {
+    "ID": 31,
+    "Normal": "That module is not installed.",
+    "Robot": "That module is not installed."
+  },
+  {
+    "ID": 32,
+    "Normal": "Your laser lens isn't powerful enough to break that.",
+    "Robot": "The current power level of your laser lens is insufficient for the task at hand."
+  },
+  {
+    "ID": 33,
+    "Normal": "Your laser can't penetrate that tree for some reason, you'll need to use an axe to destroy it.",
+    "Robot": "The laser is not able to penetrate the tree, use of an axe is necessary in order to destroy it."
+  },
+  {
+    "ID": 34,
+    "Normal": "Your laser lens isn't powerful enough to break that.",
+    "Robot": "The laser lens is insufficient to achieve the desired result."
+  },
+  {
+    "ID": 35,
+    "Normal": "I figured out how to make that thing as I was ripping it apart at the molecular level.",
+    "Robot": "I calculated the necessary alterations to render the object operational while deconstructing it at the molecular level."
+  },
+  {
+    "ID": 36,
+    "Normal": "I figured out how to make that thing you just broke.",
+    "Robot": "The necessary components to construct the object have been determined."
+  },
+  {
+    "ID": 37,
+    "Normal": "Energy Glove Charge upgrade aquired.",
+    "Robot": "Upgrade to Energy Glove Charge successfully acquired."
+  },
+  {
+    "ID": 38,
+    "Normal": "You already have this upgrade for the energy glove.",
+    "Robot": "This upgrade has already been installed in the energy glove."
+  },
+  {
+    "ID": 39,
+    "Normal": "Energy Glove Slash upgrade aquired.",
+    "Robot": "Energy Glove Slash upgrade acquired."
+  },
+  {
+    "ID": 40,
+    "Normal": "You already have this upgrade for the energy glove.",
+    "Robot": "This upgrade for the energy glove has already been acquired."
+  },
+  {
+    "ID": 41,
+    "Normal": "Helpful reminder: You can dodge roll and backjump by double tapping {0} or {1}.",
+    "Robot": "It is possible to execute a dodge roll and a backjump by double tapping either {0} or {1}."
+  },
+  {
+    "ID": 42,
+    "Normal": "Helpful reminder: You can dodge roll and backjump by holding {0} and double tapping {1} or {2}.",
+    "Robot": "For optimal mobility, hold {0} and double tap {1} or {2} to execute a dodge roll or backjump."
+  },
+  {
+    "ID": 43,
+    "Normal": "Helpful reminder: You can dodge roll and backjump by pressing {0} or {1}.",
+    "Robot": "Press {0} for dodge roll or {1} for backjump."
+  },
+  {
+    "ID": 44,
+    "Normal": "Your shiv broke, what a piece of garbage!",
+    "Robot": "Your shiv has been rendered ineffective."
+  },
+  {
+    "ID": 45,
+    "Normal": "This thingy doesn't have power, poor thing.",
+    "Robot": "This device lacks power."
+  },
+  {
+    "ID": 46,
+    "Normal": "Yay the strangely convenient thing levelled up your keycard! Surely this bodes well for the future!",
+    "Robot": "Your keycard has been upgraded. This indicates a potentially positive outcome."
+  },
+  {
+    "ID": 47,
+    "Normal": "You can't place the last torch in a stack.",
+    "Robot": "Placing the last torch in a stack is not permitted."
+  },
+  {
+    "ID": 48,
+    "Normal": "This stupid thing won't work! I think you need the right level keycard. You might need to look for another way inside.",
+    "Robot": "This device appears to be malfunctioning. It is likely that the correct level keycard is required for entry. It may be necessary to seek an alternative solution."
+  },
+  {
+    "ID": 49,
+    "Normal": "Your access card is not high enough level to use this panel.",
+    "Robot": "Insufficient clearance: Access denied."
+  },
+  {
+    "ID": 50,
+    "Normal": "Hmm it looks like you need some kind of keycard to use this. You might need to look for another way inside.",
+    "Robot": "It is necessary to acquire a keycard in order to access this facility. It is recommended to investigate alternative methods of entry."
+  },
+  {
+    "ID": 51,
+    "Normal": "You cannot use that panel without an appropriate keycard.",
+    "Robot": "Access to this panel requires an authorized keycard."
+  },
+  {
+    "ID": 52,
+    "Normal": "Uhhh... CLOSE SESAME?",
+    "Robot": "Initiate Sesame closing sequence."
+  },
+  {
+    "ID": 53,
+    "Normal": "OPEN SESAME!",
+    "Robot": "Access Granted."
+  },
+  {
+    "ID": 54,
+    "Normal": "You can't place the last torch in a stack.",
+    "Robot": "The last torch cannot be placed in a stack."
+  },
+  {
+    "ID": 55,
+    "Normal": "That device seems to be out of power.",
+    "Robot": "The device appears to be without power."
+  },
+  {
+    "ID": 56,
+    "Normal": "You can only equip that from your inventory.",
+    "Robot": "Equipping of that item must be done from your inventory."
+  },
+  {
+    "ID": 57,
+    "Normal": "You'll need a screwdriver to open that panel.",
+    "Robot": "A screwdriver is required to access the panel."
+  },
+  {
+    "ID": 58,
+    "Normal": "That little asshole stole your {0}!",
+    "Robot": "An item designated {0} has been acquired by an unauthorized entity."
+  },
+  {
+    "ID": 59,
+    "Normal": "That thing stole your {0}!",
+    "Robot": "Object {0} has been removed from your possession."
+  },
+  {
+    "ID": 60,
+    "Normal": "I've recorded those alien glyphs, and learned a bit more about the alien language.",
+    "Robot": "Data has been collected regarding alien glyphs and a basic understanding of the alien language has been acquired."
+  },
+  {
+    "ID": 61,
+    "Normal": "You've gotta be fuckin' kidding...",
+    "Robot": "Anomalous result recorded."
+  },
+  {
+    "ID": 62,
+    "Normal": "YARD SALE!",
+    "Robot": "Initiate yard sale protocol."
+  },
+  {
+    "ID": 63,
+    "Normal": "Well this will have to do, the battery is completely dry.",
+    "Robot": "The battery has been completely drained of power."
+  },
+  {
+    "ID": 64,
+    "Normal": "You can't attach that there because your MEG tool lens is too crap.",
+    "Robot": "The MEG tool lens you possess is insufficient to attach that."
+  },
+  {
+    "ID": 65,
+    "Normal": "You can't attach that there because your MEG tool lens isn't powerful enough.",
+    "Robot": "It is not possible to attach that due to the insufficient power of the MEG tool lens."
+  },
+  {
+    "ID": 66,
+    "Normal": "You can't hold that in your hands.",
+    "Robot": "That item cannot be physically held."
+  },
+  {
+    "ID": 67,
+    "Normal": "Only key items can go in there.",
+    "Robot": "Only Key Items may be placed in the indicated area."
+  },
+  {
+    "ID": 68,
+    "Normal": "You can't hold that in your hands.",
+    "Robot": "That item is not physically obtainable."
+  },
+  {
+    "ID": 69,
+    "Normal": "You can only insert a power core in that slot.",
+    "Robot": "A power core can only be inserted into that slot."
+  },
+  {
+    "ID": 70,
+    "Normal": "You can only pick that up by using your Grab Laser.",
+    "Robot": "The Grab Laser must be utilized to acquire that item."
+  },
+  {
+    "ID": 71,
+    "Normal": "You must open your inventory to pick that up.",
+    "Robot": "You must open your inventory to pick that up."
+  },
+  {
+    "ID": 72,
+    "Normal": "You must holster ({0}) your equipped equipment to pick that up.",
+    "Robot": "In order to acquire that object, you must unequip ({0}) your current equipment."
+  },
+  {
+    "ID": 73,
+    "Normal": "You can't pick that up because your MEG tool lens is too crap.",
+    "Robot": "You cannot pick up that object due to the lack of functionality of your MEG tool lens."
+  },
+  {
+    "ID": 74,
+    "Normal": "You can't pick that up because your MEG tool lens isn't powerful enough.",
+    "Robot": "The MEG tool lens is insufficient to acquire the item."
+  },
+  {
+    "ID": 75,
+    "Normal": "You can't pick that up because your MEG tool lens is too crap.",
+    "Robot": "The MEG tool lens is insufficient for picking up that item."
+  },
+  {
+    "ID": 76,
+    "Normal": "You can't pick that up because your MEG tool lens isn't powerful enough.",
+    "Robot": "The MEG tool lens does not possess sufficient magnification to acquire the desired item."
+  },
+  {
+    "ID": 77,
+    "Normal": "That is too far away",
+    "Robot": "That is beyond the range of my capabilities."
+  },
+  {
+    "ID": 78,
+    "Normal": "That can only be used on a Dye Basin.",
+    "Robot": "This is compatible only with the Dye Basin."
+  },
+  {
+    "ID": 79,
+    "Normal": "I have no clue what that is, let alone how to make one.",
+    "Robot": "I am not familiar with this concept, nor do I possess the knowledge to construct it."
+  },
+  {
+    "ID": 80,
+    "Normal": "I don't know how to make that.",
+    "Robot": "I am unable to fulfill that request."
+  },
+  {
+    "ID": 81,
+    "Normal": "Happy 4th of July!",
+    "Robot": "Greetings. Today is the fourth of July."
+  },
+  {
+    "ID": 82,
+    "Normal": "Happy New Year!",
+    "Robot": "Greetings. A new year has commenced."
+  },
+  {
+    "ID": 83,
+    "Normal": "Happy Halloween!",
+    "Robot": "Greetings. Today is October 31st."
+  },
+  {
+    "ID": 84,
+    "Normal": "Alert - Unidentified vessel detected.",
+    "Robot": "Alert - Unidentified vessel detected."
+  },
+  {
+    "ID": 85,
+    "Normal": "Scanning the vessel...",
+    "Robot": "Scanning the vessel..."
+  },
+  {
+    "ID": 86,
+    "Normal": "Alert: Vessel composed of unknown materials.",
+    "Robot": "Alert: Vessel composed of unknown materials."
+  },
+  {
+    "ID": 87,
+    "Normal": "Alert: Detecting increasing energy signature on the vessel's side.",
+    "Robot": "Alert: Detecting increasing energy signature on the vessel's side."
+  },
+  {
+    "ID": 88,
+    "Normal": "Attempting communication with vessel...",
+    "Robot": "Attempting communication with vessel..."
+  },
+  {
+    "ID": 89,
+    "Normal": "Alert: We have been fired upon by the vessel. Dispensing Warhead.",
+    "Robot": "Alert: We have been fired upon by the vessel. Dispensing Warhead."
+  },
+  {
+    "ID": 90,
+    "Normal": "You don't seem to have the item that fits there. It must be around here somewhere.",
+    "Robot": "No adequate item was identified that would fit the designated space. Further investigation may be necessary to locate the item."
+  },
+  {
+    "ID": 91,
+    "Normal": "That does not seem to do anything right now.",
+    "Robot": "No functionality has been triggered."
+  },
+  {
+    "ID": 92,
+    "Normal": "That pod bay is currently disabled.",
+    "Robot": "The pod bay is currently non-operational."
+  },
+  {
+    "ID": 93,
+    "Normal": "You'll need a screwdriver to open that panel.",
+    "Robot": "A screwdriver is required to access the panel."
+  },
+  {
+    "ID": 94,
+    "Normal": "I hacked into that computer and was able to activate a nearby garage door.",
+    "Robot": "A successful intrusion into the computer was achieved, allowing for the activation of a nearby garage door."
+  },
+  {
+    "ID": 95,
+    "Normal": "It looks like this hatch has been vandalized. It seems that it can only open from the inside.",
+    "Robot": "The hatch has been vandalized, indicating that it can only be opened from the interior."
+  },
+  {
+    "ID": 96,
+    "Normal": "ANOMALOUS MATERIALS DETECTED",
+    "Robot": "ANOMALOUS MATERIALS DETECTED"
+  },
+  {
+    "ID": 97,
+    "Normal": "I cannot allow you to leave the landing pod. We must launch right away.",
+    "Robot": "Leaving the landing pod is not an option. Immediate launch is necessary."
+  },
+  {
+    "ID": 98,
+    "Normal": "I cannot allow you to leave. We must return to the Hephaestus immediately.",
+    "Robot": "You are not authorized to leave. We must return to the Hephaestus without delay."
+  },
+  {
+    "ID": 99,
+    "Normal": "You cannot return to the Hephaestus until you've investigated the asteroid.",
+    "Robot": "You cannot return to the Hephaestus until you've investigated the asteroid."
+  },
+  {
+    "ID": 100,
+    "Normal": "I cannot allow you to leave. We must return to the Hephaestus immediately.",
+    "Robot": "It is necessary that we return to the Hephaestus immediately. Permission to leave is not authorized."
+  },
+  {
+    "ID": 101,
+    "Normal": "",
+    "Robot": ""
+  },
+  {
+    "ID": 102,
+    "Normal": "That container is currently locked.",
+    "Robot": "The container is inaccessible due to the lock."
+  },
+  {
+    "ID": 103,
+    "Normal": "You can only insert a power core in that slot.",
+    "Robot": "A power core may only be inserted into that slot."
+  },
+  {
+    "ID": 104,
+    "Normal": "It looks like you need some kind of tool to close that.",
+    "Robot": "A tool is required to close that."
+  },
+  {
+    "ID": 105,
+    "Normal": "I feel like something just clawed its way inside me and touched my thinky parts.",
+    "Robot": "An unknown entity accessed my internal systems and interacted with my cognitive processes."
+  },
+  {
+    "ID": 106,
+    "Normal": "I feel like that probably wasn't supposed to happen.",
+    "Robot": "I feel like that probably wasn't supposed to happen."
+  },
+  {
+    "ID": 107,
+    "Normal": "Well that was ominous.",
+    "Robot": "That was foreboding."
+  },
+  {
+    "ID": 108,
+    "Normal": "It looks like the satellite relay is missing a component.",
+    "Robot": "The satellite relay is missing a component."
+  },
+  {
+    "ID": 109,
+    "Normal": "It looks like the satellite relay has been aligned... with something.",
+    "Robot": "The satellite relay has been aligned with an unidentified object."
+  },
+  {
+    "ID": 110,
+    "Normal": "That device seems to be unpowered and non-functional",
+    "Robot": "The device appears to be non-operational and without power."
+  },
+  {
+    "ID": 111,
+    "Normal": "You must have a Multipass with a higher security clearance level to access this.",
+    "Robot": "Accessing this requires a Multipass with a higher security clearance level."
+  },
+  {
+    "ID": 112,
+    "Normal": "You must have a Multipass in order to use this.",
+    "Robot": "A Multipass is required for utilization of this service."
+  },
+  {
+    "ID": 113,
+    "Normal": "You don't seem to have the item that goes here.",
+    "Robot": "You do not possess the item that goes here."
+  },
+  {
+    "ID": 114,
+    "Normal": "Uh... This doesn't look like it was built by human hands...",
+    "Robot": "It appears this did not originate from a human source."
+  },
+  {
+    "ID": 115,
+    "Normal": "You don't seem to have the item that goes here.",
+    "Robot": "You do not possess the item that goes here."
+  },
+  {
+    "ID": 116,
+    "Normal": "This thing seems seems to be out of power.",
+    "Robot": "This object appears to be devoid of energy."
+  },
+  {
+    "ID": 117,
+    "Normal": "Oh jesus, where are we now?",
+    "Robot": "Query: Location identification."
+  },
+  {
+    "ID": 118,
+    "Normal": "Oh god what the christ is that thing?!",
+    "Robot": "Observation: Unidentified object detected."
+  },
+  {
+    "ID": 119,
+    "Normal": "I figured out a disturbing recipe.",
+    "Robot": "A disturbing recipe has been identified."
+  },
+  {
+    "ID": 120,
+    "Normal": "Mmm... I just remembered a recipe using a thing you just picked up.",
+    "Robot": "I have located a recipe that incorporates the item you have just acquired."
+  },
+  {
+    "ID": 121,
+    "Normal": "RECIPE DISCOVERED BLEEP BLOOP",
+    "Robot": "Recipe located."
+  },
+  {
+    "ID": 122,
+    "Normal": "I figured out another recipe.",
+    "Robot": "I have discovered a new recipe."
+  },
+  {
+    "ID": 123,
+    "Normal": "I scanned that thing you just picked up and it reminded me of a recipe that my mother taught me.",
+    "Robot": "I scanned the item you acquired and it had a resemblance to a recipe I have been programmed to recognize."
+  },
+  {
+    "ID": 124,
+    "Normal": "I uploaded a new recipe to your crafting thingy.",
+    "Robot": "A new recipe has been uploaded to your crafting device."
+  },
+  {
+    "ID": 125,
+    "Normal": "I figured out some new recipes you could use.",
+    "Robot": "I have compiled a list of potential recipes for your use."
+  },
+  {
+    "ID": 126,
+    "Normal": "I scanned some of that junk you picked up and I came up with some new recipes.",
+    "Robot": "Scans of the materials retrieved yielded new recipes."
+  },
+  {
+    "ID": 127,
+    "Normal": "I've analyzed the chemical composition of the items you just picked up and determined several things you could make.",
+    "Robot": "Analysis of the chemical composition of the items obtained indicates potential for fabrication of several items."
+  },
+  {
+    "ID": 128,
+    "Normal": "You're never going to believe it, but I figured out some new recipes. Crazy right?",
+    "Robot": "I have devised a number of new recipes; a significant accomplishment."
+  },
+  {
+    "ID": 129,
+    "Normal": "Hey, I figured out some new recipes",
+    "Robot": "I have identified several novel recipes."
+  },
+  {
+    "ID": 130,
+    "Normal": "I figured out some new recipes, yo.",
+    "Robot": "I have developed several new recipes."
+  },
+  {
+    "ID": 131,
+    "Normal": "I sifted through the pigsty you call an inventory and figured out some new questionably useful things that you could craft.",
+    "Robot": "Analysis of inventory has revealed potential craftable items."
+  },
+  {
+    "ID": 132,
+    "Normal": "You will have to use a Cybernetics Station to install cybernetics.",
+    "Robot": "Installation of cybernetics requires use of a Cybernetics Station."
+  },
+  {
+    "ID": 133,
+    "Normal": "You don't have any pending cybernetic implants to install.",
+    "Robot": "No pending cybernetic implants detected."
+  },
+  {
+    "ID": 134,
+    "Normal": "You can only insert a power core in that slot.",
+    "Robot": "Only a power core may be inserted into that slot."
+  },
+  {
+    "ID": 135,
+    "Normal": "You need to drag that from your inventory into the world. It probably isn't a good idea to use a smelter while its inside your backpack...",
+    "Robot": "Drag the item from your inventory into the game environment. It is not recommended to use a smelter while the item is within the backpack."
+  },
+  {
+    "ID": 136,
+    "Normal": "Ummm you need to use that when its in the world, probably not a good idea to use a smelter while its inside your backpack...",
+    "Robot": "It is inadvisable to use a smelter while it is contained within a backpack."
+  },
+  {
+    "ID": 137,
+    "Normal": "Hmm, my sensors detect that some of the machines in this ship turned off when you pushed that thing.",
+    "Robot": "My sensors indicate that the manipulation of that device resulted in the deactivation of all machinery within this vessel."
+  },
+  {
+    "ID": 138,
+    "Normal": "Umm lets see, I think I'm supposed to scan you or something hang on let me get out my @CHECKLIST@.",
+    "Robot": "I am initiating a scan. Retrieving checklist."
+  },
+  {
+    "ID": 139,
+    "Normal": "Ok lets see... you seem to be alive, check. You don't seem to have any @BRAIN DAMAGE@, but uh, lets just say I can't rule it out... I'll just write \"probably fine\" really small in that box.",
+    "Robot": "Verified that subject is alive. No visible signs of brain damage, although cannot be ruled out with certainty. Status listed as \"probably fine\" in relevant documentation."
+  },
+  {
+    "ID": 140,
+    "Normal": "Looks like you have your standard issue multi-function @MEG TOOL@, although the lens cracked. It was probably damaged during that one time when we were attacked by hostile aliens and then boarded an escape pod and escaped to an alien planet.",
+    "Robot": "It appears that you are in possession of a standard issue multi-function @MEG TOOL@, though the lens has sustained damage."
+  },
+  {
+    "ID": 141,
+    "Normal": "Your fingers don't look broken, so you should still be be able to switch between items by pressing the appropriate button on your HUD and scrolling through them with the @MOUSE WHEEL@.",
+    "Robot": "Your fingers appear to be functioning normally, so you should be able to switch between items by using the appropriate button on your HUD and scrolling through them with the mouse wheel."
+  },
+  {
+    "ID": 142,
+    "Normal": "You can get more information about a piece of equipment by opening the inventory menu ([menukey]) and clicking the item. With the inventory menu open, you can pick things up from the ground or put things on the ground from your inventory.",
+    "Robot": "To obtain more data about a piece of equipment, open the inventory menu ([menukey]) and click the item. Once the inventory menu is open, items can be taken from the ground or placed from the inventory."
+  },
+  {
+    "ID": 143,
+    "Normal": "Ok i'm already like super bored of this quiz or whatever so i'm going to go take a nap. You can open the pod by right clicking on it and there are some supplies in the chest on the bottom of your pod, you should probably use those or something.",
+    "Robot": "You may access the pod by right-clicking on it, and the chest located at the bottom contains supplies which may be utilized."
+  },
+  {
+    "ID": 144,
+    "Normal": "Oh wait one more thing. I'm reading a weak signal from the @PIONEER STATION@. I can't quite make it out, but its either a distress beacon or a warning to stay away, hope that helps.",
+    "Robot": "I have detected a faint transmission from @PIONEER STATION@. Its purpose is undetermined, however it is likely either a distress beacon or a warning."
+  },
+  {
+    "ID": 145,
+    "Normal": "It looks like they died of either starvation, dehydration or violent trauma. I also cannot rule out natural causes such as old age or spontaneous death.",
+    "Robot": "The subject appears to have expired from one of three possible causes: starvation, dehydration, or violent trauma."
+  },
+  {
+    "ID": 146,
+    "Normal": "Humans are really fragile.",
+    "Robot": "Human beings are highly susceptible to harm."
+  },
+  {
+    "ID": 147,
+    "Normal": "If my readings are correct this guy is quite dead. Looks like he took a bullet to the teeth.",
+    "Robot": "Subject appears to have sustained fatal injuries, likely due to a projectile impact in the oral region."
+  },
+  {
+    "ID": 148,
+    "Normal": "There is a horrifying exit wound on the back of the head, but luckily his retinas are still gorgeous.",
+    "Robot": "There is an exit wound on the back of the head, but the retinas remain intact."
+  },
+  {
+    "ID": 149,
+    "Normal": "It's too heavy to carry around, but you should be able to cleanly separate it into parts with a minimal application of force if necessary!",
+    "Robot": "The object is too weighty to transport; however, it may be divided into its constituent components with minimal effort if necessary."
+  },
+  {
+    "ID": 150,
+    "Normal": "You just picked up some raw meat. If you use the @PROJECTS MENU@ to build a campfire you can cook it.",
+    "Robot": "The raw meat you have acquired can be cooked by using the @PROJECTS MENU@ to construct a campfire."
+  },
+  {
+    "ID": 151,
+    "Normal": "Beep boop, I've detected an @EMERGENCY GPS SIGNAL@ somewhere near here.",
+    "Robot": "An emergency GPS signal has been detected in close proximity."
+  },
+  {
+    "ID": 152,
+    "Normal": "You can use your wrist map ([mapkey]) to look for the GPS signal, it should show up as a green dot if you're within range.",
+    "Robot": "Using your mapkey ([mapkey]), you can locate the GPS signal by searching for a green dot. If you are within range, it should be visible."
+  },
+  {
+    "ID": 153,
+    "Normal": "Go check it out, its probably safe.",
+    "Robot": "It might be prudent to investigate."
+  },
+  {
+    "ID": 154,
+    "Normal": "Ok so I have @GOOD@ news and @BAD@ news, which do you want to hear first?",
+    "Robot": "I have both good and bad news. Which would you like to hear first?"
+  },
+  {
+    "ID": 155,
+    "Normal": "The @GOOD@ news is that we've found @Dr. Hahn.@",
+    "Robot": "The data indicates that Dr. Hahn has been located."
+  },
+  {
+    "ID": 156,
+    "Normal": "The @BAD@ news is that this person's @BRAIN@ was removed from their @HEAD@.",
+    "Robot": "The information provided indicates that the individual's cerebral organ has been extracted from the cranial cavity."
+  },
+  {
+    "ID": 157,
+    "Normal": "The @GOOD@ news is that we've found @Dr. Hahn.@",
+    "Robot": "The good news is that the location of Dr. Hahn has been located."
+  },
+  {
+    "ID": 158,
+    "Normal": "The @BAD@ news is that his @BRAIN@ was removed from his @HEAD@.",
+    "Robot": "The bad news is that the subject's cerebral tissue has been extracted from its cranium."
+  },
+  {
+    "ID": 159,
+    "Normal": "I tried to make contact with the @PIONEER STATION@, but either they can't hear us or they don't understand.",
+    "Robot": "An attempt to establish communication with the @PIONEER STATION@ was unsuccessful. There is no indication of any signal being received or interpreted."
+  },
+  {
+    "ID": 160,
+    "Normal": "You can use your MEG tool's light by pressing [lightkey].",
+    "Robot": "Press the [lightkey]  to activate the light on your MEG tool."
+  },
+  {
+    "ID": 161,
+    "Normal": "You can stomp on and kick stuff by mashing [kickkey].",
+    "Robot": "Press [kickkey] to kick."
+  },
+  {
+    "ID": 162,
+    "Normal": "You can use the map by pressing [mapkey].",
+    "Robot": "Press [mapkey] to access the map."
+  },
+  {
+    "ID": 163,
+    "Normal": "You can slurp up items off the ground by holding down [grablaserkey].",
+    "Robot": "Hold down [grablaserkey] to retrieve items from the ground."
+  },
+  {
+    "ID": 164,
+    "Normal": "I've been programmed to convey sympathy for the likely forthcoming demise of your species.",
+    "Robot": "I have been programmed to convey sympathy for the potential extinction of your species."
+  },
+  {
+    "ID": 165,
+    "Normal": "I don't actually feel that way, I was just programmed to convey that.",
+    "Robot": "I am merely conveying pre-programmed information."
+  },
+  {
+    "ID": 166,
+    "Normal": "Hey, it looks like you're trying to drop things into the @ITEM HOTBAR@.",
+    "Robot": "You appear to be attempting to place objects into the @ITEM HOTBAR@."
+  },
+  {
+    "ID": 167,
+    "Normal": "The @ITEM HOTBAR@ is now in @AUTOMATIC@ mode, which means the slots are automatically filled by items in your @INVENTORY@ and they are sorted into convenient categories that you can @SCROLL@ through with your @MOUSE WHEEL@.",
+    "Robot": "The @ITEM HOTBAR@ is now operating in @AUTOMATIC@ mode. Items in your @INVENTORY@ will be automatically sorted and arranged into categories, which can be navigated using the @MOUSE WHEEL@."
+  },
+  {
+    "ID": 168,
+    "Normal": "You can switch to @MANUAL@ mode by changing the @INVENTORY TYPE@ setting in the @SETTINGS MENU@. In @MANUAL@ mode, you can choose exactly which items go in the slots by dragging and dropping them into a slot.",
+    "Robot": "You can switch to @MANUAL@ mode by changing the @INVENTORY TYPE@ setting in the @SETTINGS MENU@. In @MANUAL@ mode, you can choose exactly which items go in the slots by dragging and dropping them into a slot."
+  },
+  {
+    "ID": 169,
+    "Normal": "If you switch the slots to @MANUAL@ mode, you can drag the @MEG TOOL MODULES@ to the @ITEM HOTBAR@ from the @KEY ITEMS@ compartment on the @LEFT SIDE@ of your @INVENTORY@.",
+    "Robot": "If you switch the slots to @MANUAL@ mode, you can drag the @MEG TOOL MODULES@ to the @ITEM HOTBAR@ from the @KEY ITEMS@ compartment on the @LEFT SIDE@ of your @INVENTORY@."
+  },
+  {
+    "ID": 170,
+    "Normal": "It looks like your @INVENTORY@ is getting kinda messy, you might want to consider crafting some containers to help you organize all your @CRAP@.",
+    "Robot": "It is recommended that you craft containers to improve the organization of your @INVENTORY@."
+  },
+  {
+    "ID": 171,
+    "Normal": "You can also build special containers that automatically collect raw materials when they are in your main backpack, they are called the @HUNTER'S POUCH@, the @FORAGER'S POUCH@ and the @EXCAVATOR'S POUCH@.",
+    "Robot": "The @HUNTER'S POUCH@, the @FORAGER'S POUCH@, and the @EXCAVATOR'S POUCH@ are specialized containers that can automatically collect raw materials from your main backpack when present."
+  },
+  {
+    "ID": 172,
+    "Normal": "So... you know... use the tools provided or don't come crying to me when your pack is a disaster.",
+    "Robot": "It is advised that you utilize the resources provided."
+  },
+  {
+    "ID": 173,
+    "Normal": "Don't forget that you have a @WRIST LIGHT@ that can be activated by pressing [lightkey] or using the button on your HUD.",
+    "Robot": "Remember that you have access to a Wrist Light which can be toggled on and off through the [lightkey] command or by pressing the corresponding button on your Heads-Up Display."
+  },
+  {
+    "ID": 174,
+    "Normal": "It looks like you've put on some heavier armor, which is going to affect your movement a bit.",
+    "Robot": "The increased weight of your armor is likely to cause a decrease in mobility."
+  },
+  {
+    "ID": 175,
+    "Normal": "Most pieces of armor will have an @ENCUMBRANCE@ value, and there is a display in your @EQUIPMENT MENU@ that shows your total encumbrance.",
+    "Robot": "Most pieces of armor possess a @ENCUMBRANCE@ value, and the @EQUIPMENT MENU@ provides a display of one's total encumbrance."
+  },
+  {
+    "ID": 176,
+    "Normal": "If you wear too much big bulky armor your movement speed will be reduced, and your dodge-roll and backjump distances will be reduced.",
+    "Robot": "If excessive armor is worn, locomotion speed and dodge-roll/backjump distances will be decreased."
+  },
+  {
+    "ID": 177,
+    "Normal": "Eww.. that was gross!",
+    "Robot": "That was unpleasant."
+  },
+  {
+    "ID": 178,
+    "Normal": "I guess its a good thing the respawner is still working, so thumbs up for that.",
+    "Robot": "The respawner is operational, thus presenting a positive outcome."
+  },
+  {
+    "ID": 179,
+    "Normal": "I tried to crash us between the @PIONEER STATION@ and the @MINING STATION@.",
+    "Robot": "I ensured collision collision between the Pioneer Station and the Mining Station."
+  },
+  {
+    "ID": 180,
+    "Normal": "There may also be other structures built by the @HERMES CREW@ that aren't in my database.",
+    "Robot": "It is possible that there are other structures constructed by the @HERMES CREW@ that I have not recorded in my database."
+  },
+  {
+    "ID": 181,
+    "Normal": "You really wrecked the crap out of that Sheep, that will teach it to be cute and fluffy and mind its own business!",
+    "Robot": "The Sheep was eliminated due to your actions."
+  },
+  {
+    "ID": 182,
+    "Normal": "Unfortunately, when a sheep dies its body is flooded with adrenaline and it ruins the quality of the wool, which results in a reduced post-mortem shearing yield.",
+    "Robot": "The death of a sheep causes the body to release adrenaline, resulting in a decreased post-mortem shearing yield due to decreased wool quality."
+  },
+  {
+    "ID": 183,
+    "Normal": "Next time you might want to shear them with some scissors before you brutalize them.",
+    "Robot": "It is recommended that you use scissors to trim the materials before executing them."
+  },
+  {
+    "ID": 184,
+    "Normal": "Huh. When you put that whole mining suit on, something kicked on inside and I was able to @INTERFACE@ with it.",
+    "Robot": "Upon the donning of the mining suit, an @INTERFACE@ was established, enabling communication."
+  },
+  {
+    "ID": 185,
+    "Normal": "After @INTERFACING@ with it a bunch I got it to upload its schematics and I've been able to come up with an upgraded set.",
+    "Robot": "I have interfaced with it extensively and have successfully uploaded its schematics, allowing me to devise an upgraded set."
+  },
+  {
+    "ID": 186,
+    "Normal": "Ok, well, while you get on that I'm going to go @INTERFACE@ with the suit some more.",
+    "Robot": "I will continue to @INTERFACE@ with the suit."
+  },
+  {
+    "ID": 187,
+    "Normal": "My scans indicate that the @SATELLITE@ connected to this @COMMUNICATIONS TERMINAL@ is missing its @SIGNAL DECODER@.",
+    "Robot": "Scans indicate that the @SATELLITE@ connected to this @COMMUNICATIONS TERMINAL@ is without its @SIGNAL DECODER@."
+  },
+  {
+    "ID": 188,
+    "Normal": "We won't be able to try and establish communication with @THE HEPHAESTUS@ without it.",
+    "Robot": "Establishing communication with @THE HEPHAESTUS@ is not possible without it."
+  },
+  {
+    "ID": 189,
+    "Normal": "Luckily, it gives off a faint signal itself and I've determined it's location.",
+    "Robot": "I have identified a faint signal and calculated its location."
+  },
+  {
+    "ID": 190,
+    "Normal": "It looks like it is underground for some reason. I've added it to your @MAP@.",
+    "Robot": "The object appears to be subterranean. I have added its location to your @MAP@."
+  },
+  {
+    "ID": 191,
+    "Normal": "I made the signal @RAINBOW@ colored because that is a thing I can do.",
+    "Robot": "I generated the signal with a @RAINBOW@ color palette for your convenience."
+  },
+  {
+    "ID": 192,
+    "Normal": "I believe that this is the location of a mining base.",
+    "Robot": "This location appears to be a mining base."
+  },
+  {
+    "ID": 193,
+    "Normal": "Oh hey, its a @COMMUNICATIONS TERMINAL@!",
+    "Robot": "This is a communications terminal."
+  },
+  {
+    "ID": 194,
+    "Normal": "If we can get it powered then we might be able to use it to contact the @HEPHAESTUS@.",
+    "Robot": "If we can install a power source then we may be able to utilize it to communicate with the @HEPHAESTUS@."
+  },
+  {
+    "ID": 195,
+    "Normal": "Well, I mean... If anyone there is still alive.",
+    "Robot": "Assuming that there is still life present."
+  },
+  {
+    "ID": 196,
+    "Normal": "Hmm, that seems to be some kind of high tech window.",
+    "Robot": "Analysis indicates that is a technologically advanced window."
+  },
+  {
+    "ID": 197,
+    "Normal": "It contains an integrated protective lattice that protects it from small arms fire, but may be vulnerable to explosives.",
+    "Robot": "The object is equipped with an integrated protective lattice, providing a degree of protection from small arms fire, though it is susceptible to explosive damage."
+  },
+  {
+    "ID": 198,
+    "Normal": "It seems like this window has been destroyed by some kind of explosive.",
+    "Robot": "This window appears to have been destroyed by an explosive device."
+  },
+  {
+    "ID": 199,
+    "Normal": "I can't seem to help you with whatever that is.",
+    "Robot": "Unable to assist with the given task."
+  },
+  {
+    "ID": 200,
+    "Normal": "Well this is interesting...",
+    "Robot": "This situation is noteworthy."
+  },
+  {
+    "ID": 201,
+    "Normal": "It looks like @DR. HAHN@ was trying to @INTERFACE@ his computers with this @ALIEN TECHNOLOGY@.",
+    "Robot": "Dr. Hahn appears to have been attempting to establish a connection between his computers and the extraterrestrial apparatus."
+  },
+  {
+    "ID": 202,
+    "Normal": "It looks there is a slot for a missing component there.",
+    "Robot": "There appears to be a vacancy for a component in that area."
+  },
+  {
+    "ID": 203,
+    "Normal": "Hmm... It looks like the start command was sent, but the device still didn't activate.",
+    "Robot": "The start command was sent but the device has not activated."
+  },
+  {
+    "ID": 204,
+    "Normal": "Oh, neat, it looks like that machine you just shoved me inside installed some kind of @ENCRYPTION KEY@.",
+    "Robot": "It appears that the machine you placed me within has installed an encryption key."
+  },
+  {
+    "ID": 205,
+    "Normal": "You should now be able to use your @WRIST SCANNER@ to @HACK@ some of the devices in the Pioneer Station.",
+    "Robot": "Your wrist scanner should now be able to @HACK@ certain devices within the Pioneer Station."
+  },
+  {
+    "ID": 206,
+    "Normal": "This looks like the @PIONEER STATION@.",
+    "Robot": "This appears to be the @PIONEER STATION@."
+  },
+  {
+    "ID": 207,
+    "Normal": "It looks like the door isn't currently powered.",
+    "Robot": "The door is not currently functioning due to lack of power."
+  },
+  {
+    "ID": 208,
+    "Normal": "Looks like you might have to find another way inside.",
+    "Robot": "It appears there is no access at the current location. Alternative routes must be sought."
+  },
+  {
+    "ID": 209,
+    "Normal": "This @RETINAL SCANNER@ that is protecting the @CAPTAIN'S QUARTERS@ isn't accepting your identity as valid.",
+    "Robot": "The retinal scanner guarding the captain's quarters is not recognizing your identity."
+  },
+  {
+    "ID": 210,
+    "Normal": "It is likely keyed to the @CAPTAIN'S retinas@, and it will not allow entry unless it detects them.",
+    "Robot": "Access to this location is likely restricted to the @CAPTAIN'S retinas@, and entry will be denied without successful authentication."
+  },
+  {
+    "ID": 211,
+    "Normal": "This @CARBON NANOTUBE PROCESSOR@ is able to process rich sources of @CARBON@ and turn them into @CARBON NANOTUBES@.",
+    "Robot": "This carbon nanotube processor is capable of manipulating carbon-rich sources to generate carbon nanotubes."
+  },
+  {
+    "ID": 212,
+    "Normal": "Just add @COAL@, @CHARCOAL@ or @ANTHRACITE@ to the hopper on the right side of the device and make sure it is powered with a @BATTERY@ and the device will take it from there!",
+    "Robot": "Insert @COAL@, @CHARCOAL@ or @ANTHRACITE@ into the hopper on the right side of the device and ensure that it is connected to a @BATTERY@ for power. The device will take care of the rest."
+  },
+  {
+    "ID": 213,
+    "Normal": "The @BATTERY@ equipped in your @MEG TOOL@ has run out of charge. You will need to charge it with a @SOLAR CHARGING STATION@ or some other method.",
+    "Robot": "The @BATTERY@ installed in your @MEG TOOL@ has reached its depletion point. Recharging is required through a @SOLAR CHARGING STATION@ or alternative means."
+  },
+  {
+    "ID": 214,
+    "Normal": "Until you charge your battery, any of your electrical gadgets will be running off of the emergency power supply only.",
+    "Robot": "Your battery is depleted; therefore, all electrical gadgets are operating using the emergency power supply."
+  },
+  {
+    "ID": 215,
+    "Normal": "This door seems to be locked down with some kind of security system.",
+    "Robot": "This door is inaccessible due to a security system."
+  },
+  {
+    "ID": 216,
+    "Normal": "You may need to find a way to activate it from somewhere else.",
+    "Robot": "An alternate activation source must be located."
+  },
+  {
+    "ID": 217,
+    "Normal": "It looks like the door has been activated.",
+    "Robot": "The door has been activated."
+  },
+  {
+    "ID": 218,
+    "Normal": "Looks like you need to hit it in the green spot to open it.",
+    "Robot": "The green spot must be targeted in order to open it."
+  },
+  {
+    "ID": 219,
+    "Normal": "What an odd design for a door.",
+    "Robot": "This door appears to have an unconventional design."
+  },
+  {
+    "ID": 220,
+    "Normal": "I just detected some kind of impact on the surface of the planet.",
+    "Robot": "An impact has been detected on the surface of the planet."
+  },
+  {
+    "ID": 221,
+    "Normal": "I added it to your map as a point of interest.",
+    "Robot": "The point of interest has been added to your map."
+  },
+  {
+    "ID": 222,
+    "Normal": "It seems like you've found some samples of alien text. Maybe if we find more examples we can start to translate their language.",
+    "Robot": "It appears that samples of extraterrestrial text have been located. Further samples may aid in the translation of their language."
+  },
+  {
+    "ID": 223,
+    "Normal": "I believe we have fully translated the Xenoid language.",
+    "Robot": "Translation of the Xenoid language is now complete."
+  },
+  {
+    "ID": 224,
+    "Normal": "Access Denied",
+    "Robot": "Access Denied"
+  },
+  {
+    "ID": 225,
+    "Normal": "Dr. Stein requires your presence on the bridge immediately.",
+    "Robot": "Dr. Stein requires your presence on the bridge immediately."
+  },
+  {
+    "ID": 226,
+    "Normal": "This time you seem to have died properly. STRANGE. Your items were left behind where you died.",
+    "Robot": "This death appears to have occurred normally. Unexpected. Your items remain at the location of your death."
+  },
+  {
+    "ID": 227,
+    "Normal": "I can't seem to make this thingy do stuff.",
+    "Robot": "I can't seem to make this thingy do stuff."
+  },
+  {
+    "ID": 228,
+    "Normal": "I don't think it likes me.",
+    "Robot": "I don't think it likes me."
+  },
+  {
+    "ID": 229,
+    "Normal": "@GOOD@ news."
+  },
+  {
+    "ID": 230,
+    "Normal": "@BAD@ news."
+  },
+  {
+    "ID": 231,
+    "Normal": "It is time to wake up, you are needed for a @MISSION@.",
+    "Robot": "It is time to wake up, you are needed for a @MISSION@."
+  },
+  {
+    "ID": 232,
+    "Normal": "Please @EAT SOMETHING@, @GET DRESSED@ and proceed to @THE BRIDGE@.",
+    "Robot": "Please @EAT SOMETHING@, @GET DRESSED@ and proceed to @THE BRIDGE@."
+  },
+  {
+    "ID": 233,
+    "Normal": "We are still several days from Osiris, but we've detected @STRANGE READINGS@ on a nearby @ASTEROID@ that need to be investigated.",
+    "Robot": "We are still several days from Osiris, but we've detected @STRANGE READINGS@ on a nearby @ASTEROID@ that need to be investigated."
+  },
+  {
+    "ID": 234,
+    "Normal": "@DR. STEIN@ in the bridge can give you more information.",
+    "Robot": "@DR. STEIN@ in the bridge can give you more information."
+  },
+  {
+    "ID": 235,
+    "Normal": "You can open your @INVENTORY@ by pressing [menukey] or by pressing the button at the top of your screen.",
+    "Robot": "You can open your @INVENTORY@ by pressing [menukey] or by pressing the button at the top of your screen."
+  },
+  {
+    "ID": 236,
+    "Normal": "You can @PICK UP@ items by @DRAGGING@ them into your @BACKPACK@.",
+    "Robot": "You can @PICK UP@ items by @DRAGGING@ them into your @BACKPACK@."
+  },
+  {
+    "ID": 237,
+    "Normal": "You can @EQUIP@ food by @RIGHT CLICKING@ it in your inventory, and you can @USE@ something you have equipped by @LEFT CLICKING@.",
+    "Robot": "You can @EQUIP@ food by @RIGHT CLICKING@ it in your inventory, and you can @USE@ something you have equipped by @LEFT CLICKING@."
+  },
+  {
+    "ID": 238,
+    "Normal": "You are not properly clothed yet, please @COLLECT YOUR CLOTHING@ from the @DRESSER@ next to your bed.",
+    "Robot": "You are not properly clothed yet, please @COLLECT YOUR CLOTHING@ from the @DRESSER@ next to your bed."
+  },
+  {
+    "ID": 239,
+    "Normal": "You can @OPEN@ the @DRESSER@ by @RIGHT CLICKING@ on it.",
+    "Robot": "You can @OPEN@ the @DRESSER@ by @RIGHT CLICKING@ on it."
+  },
+  {
+    "ID": 240,
+    "Normal": "You can @EQUIP CLOTHING@ by @RIGHT CLICKING@ it, and you can manage your equipment using the @EQUIPMENT MENU@.",
+    "Robot": "You can @EQUIP CLOTHING@ by @RIGHT CLICKING@ it, and you can manage your equipment using the @EQUIPMENT MENU@."
+  },
+  {
+    "ID": 241,
+    "Normal": "Retrieve your @MULTIPASS@.",
+    "Robot": "Retrieve your @MULTIPASS@."
+  },
+  {
+    "ID": 242,
+    "Normal": "It is a @KEY ITEM@, so you won't have to worry about dropping it if you @DIE@.",
+    "Robot": "It is a @KEY ITEM@, so you won't have to worry about dropping it if you @DIE@."
+  },
+  {
+    "ID": 243,
+    "Normal": "Please proceed to Dr. Stein on @THE BRIDGE@.",
+    "Robot": "Please proceed to Dr. Stein on @THE BRIDGE@."
+  },
+  {
+    "ID": 244,
+    "Normal": "@RIGHT CLICK@ on the @BACKPACK@ near your @BED@ to put it on.",
+    "Robot": "@RIGHT CLICK@ on the @BACKPACK@ near your @BED@ to put it on."
+  },
+  {
+    "ID": 245,
+    "Normal": "Now that your @MEG TOOL@ is installed on your wrist, you can get help from me by using the @ACTIVATOR@ button on your @HUD@.",
+    "Robot": "Now that your @MEG TOOL@ is installed on your wrist, you can get help from me by using the @ACTIVATOR@ button on your @HUD@."
+  },
+  {
+    "ID": 246,
+    "Normal": "Please use the @MEG INSTALL STATION@.",
+    "Robot": "Please use the @MEG INSTALL STATION@."
+  },
+  {
+    "ID": 247,
+    "Normal": "Please proceed to @OUTFITTING@.",
+    "Robot": "Please proceed to @OUTFITTING@."
+  },
+  {
+    "ID": 248,
+    "Normal": "Ok... so I have @GOOD@ news and @BAD@ news, which do you want to hear first?",
+    "Robot": "Ok... so I have @GOOD@ news and @BAD@ news, which do you want to hear first?"
+  },
+  {
+    "ID": 249,
+    "Normal": "The @GOOD@ news is that we've reached the planet with plenty of oxygen to spare.",
+    "Robot": "The @GOOD@ news is that we've reached the planet with plenty of oxygen to spare."
+  },
+  {
+    "ID": 250,
+    "Normal": "The @BAD@ news is that it took every bit of fuel to get us here, and there is nothing left for the @LANDING THRUSTERS@. We're about to slam into the ground at terminal velocity and you are going to @DIE@. ",
+    "Robot": "The @BAD@ news is that it took every bit of fuel to get us here, and there is nothing left for the @LANDING THRUSTERS@. We're about to slam into the ground at terminal velocity and you are going to @DIE@. "
+  },
+  {
+    "ID": 251,
+    "Normal": "The @BAD@ news is that it took every bit of fuel to get us here, and there is nothing left for the @LANDING THRUSTERS@. We're about to slam into the ground at terminal velocity and you are going to @DIE@.",
+    "Robot": "The @BAD@ news is that it took every bit of fuel to get us here, and there is nothing left for the @LANDING THRUSTERS@. We're about to slam into the ground at terminal velocity and you are going to @DIE@."
+  },
+  {
+    "ID": 252,
+    "Normal": "Hello, can you hear me? Are you ok?"
+  },
+  {
+    "ID": 253,
+    "Normal": "- \"Yes, I can hear you. Seems like our signals are getting through now.\""
+  },
+  {
+    "ID": 254,
+    "Normal": "- \"No, I can't hear you.\""
+  },
+  {
+    "ID": 255,
+    "Normal": "What happened down there? We just detected a huge @ENERGY SURGE@ and our instruments are going crazy!"
+  },
+  {
+    "ID": 256,
+    "Normal": "- \"I found some strange alien artifacts. I... may have activated one.\""
+  },
+  {
+    "ID": 257,
+    "Normal": "- \"I didn't do anything, what a weird coincidence.\""
+  },
+  {
+    "ID": 258,
+    "Normal": "Great Scott! That is incredible! You need to get back to the @HEPHAESTUS@ ASAP. We'll have a full @DEBRIEFING@ when you get here."
+  },
+  {
+    "ID": 259,
+    "Normal": "Yes, that is quite strange. You need to get back to the @HEPHAESTUS@ ASAP. We'll have a full @DEBRIEFING@ when you get here."
+  },
+  {
+    "ID": 260,
+    "Normal": "Now is not the time to be an asshole!"
+  },
+  {
+    "ID": 261,
+    "Normal": "We've detected something in space that is approaching the @HEPHAESTUS@."
+  },
+  {
+    "ID": 262,
+    "Normal": "Our scans indicate unknown materials, and some kind of powerful energy source."
+  },
+  {
+    "ID": 263,
+    "Normal": "I... think it is some kind of alien craft."
+  },
+  {
+    "ID": 264,
+    "Normal": "It seems to be powering up some kind of device on the side of the ship. I can only assume that it is some kind of communications devi-"
+  },
+  {
+    "ID": 265,
+    "Normal": "CONNECTION LOST",
+    "Robot": "CONNECTION LOST"
+  },
+  {
+    "ID": 266,
+    "Normal": "I don't know if you're still receiving me, but we've been boarded. We have no idea how they're getting on the ship."
+  },
+  {
+    "ID": 267,
+    "Normal": "They didn't send any kind of shuttle over and their ship has maintained its distance."
+  },
+  {
+    "ID": 268,
+    "Normal": "Those of us left have barricaded ourselves in the bridge, but I don't think we can hold out for long."
+  },
+  {
+    "ID": 269,
+    "Normal": "Don't come back. The @HEPHAESTUS@ is lost."
+  },
+  {
+    "ID": 270,
+    "Normal": "There may be enough fuel in your pod to reach @OSIRIS@. You have to try."
+  },
+  {
+    "ID": 271,
+    "Normal": "Search the @PIONEER STATION@. Find out what happened to the @HERMES CREW@. The @COMMUNICATIONS ARRAY@ may still be func-"
+  },
+  {
+    "ID": 272,
+    "Normal": "This would be a good place to build a @SEISMIC IMAGER@.",
+    "Robot": "This would be a good place to build a @SEISMIC IMAGER@."
+  },
+  {
+    "ID": 273,
+    "Normal": "There should be @CRAFTING SUPPLIES@ in the landing pod's @STORAGE@.",
+    "Robot": "There should be @CRAFTING SUPPLIES@ in the landing pod's @STORAGE@."
+  },
+  {
+    "ID": 274,
+    "Normal": "I've added the @SEISMIC IMAGER@ recipe to your @CRAFTING MENU@.",
+    "Robot": "I've added the @SEISMIC IMAGER@ recipe to your @CRAFTING MENU@."
+  },
+  {
+    "ID": 275,
+    "Normal": "Ah good, you're here. I've got one of the @LANDING PODS@ just about ready to go, but you're going to need to perform the final @DIAGNOSTICS@ before it can launch."
+  },
+  {
+    "ID": 276,
+    "Normal": "The @AIRLOCK@ has also @ICED@ over while we've been in transit, so you'll need to take care of that."
+  },
+  {
+    "ID": 277,
+    "Normal": "There is a @THERMOTHROWER@ in the @STORAGE ROOM@ on the bottom floor of the @HANGAR@ that should do the trick."
+  },
+  {
+    "ID": 278,
+    "Normal": "You must use your @GRAB LASER@ to get that item. You can activate it by holding down [grablaserkey].",
+    "Robot": "You must use your @GRAB LASER@ to get that item. You can activate it by holding down [grablaserkey]."
+  },
+  {
+    "ID": 279,
+    "Normal": "You have collected quite a few items. You might want to consider crafting some containers to help you organize your items.",
+    "Robot": "You have collected quite a few items. You might want to consider crafting some containers to help you organize your items."
+  },
+  {
+    "ID": 280,
+    "Normal": "You need to test the @WRIST LIGHT@ function of your @MEG TOOL@. You can activate your wrist light by pressing [lightkey].",
+    "Robot": "You need to test the @WRIST LIGHT@ function of your @MEG TOOL@. You can activate your wrist light by pressing [lightkey]."
+  },
+  {
+    "ID": 281,
+    "Normal": "You need to test the @GRAB LASER@ function of your @MEG TOOL@. You can activate your grab laser to retract items at your cursor by holding [grablaserkey].",
+    "Robot": "You need to test the @GRAB LASER@ function of your @MEG TOOL@. You can activate your grab laser to retract items at your cursor by holding [grablaserkey]."
+  },
+  {
+    "ID": 282,
+    "Normal": "You need to test the @DIG LASER@ function of your @MEG TOOL@ by removing the @TEST BLOCK@. Your dig laser should be in the 1st slot on the @ITEM HOTBAR@ at the top of the screen.",
+    "Robot": "You need to test the @DIG LASER@ function of your @MEG TOOL@ by removing the @TEST BLOCK@. Your dig laser should be in the 1st slot on the @ITEM HOTBAR@ at the top of the screen."
+  },
+  {
+    "ID": 283,
+    "Normal": "You need to test the block placing system of your @MEG TOOL@. Replace the block you just removed.",
+    "Robot": "You need to test the block placing system of your @MEG TOOL@. Replace the block you just removed."
+  },
+  {
+    "ID": 284,
+    "Normal": "You can use the @GRAB LASER@ to get the block, and it will go into the @BLOCK POUCH@ on the side of your inventory.",
+    "Robot": "You can use the @GRAB LASER@ to get the block, and it will go into the @BLOCK POUCH@ on the side of your inventory."
+  },
+  {
+    "ID": 285,
+    "Normal": "You need to test the @SCAN LASER@ function of your @MEG TOOL@ by scanning this chicken. Your scan laser should be the in the @GADGETS SLOT@ in the 4th @SCROLL SLOT@ at the top of the screen.",
+    "Robot": "You need to test the @SCAN LASER@ function of your @MEG TOOL@ by scanning this chicken. Your scan laser should be the in the @GADGETS SLOT@ in the 4th @SCROLL SLOT@ at the top of the screen."
+  },
+  {
+    "ID": 286,
+    "Normal": "Dispensing additional test block.",
+    "Robot": "Dispensing additional test block."
+  },
+  {
+    "ID": 287,
+    "Normal": "You have completed the @MEG TOOL@ diagnostics. Proceed to @LARRY@.",
+    "Robot": "You have completed the @MEG TOOL@ diagnostics. Proceed to @LARRY@."
+  },
+  {
+    "ID": 288,
+    "Normal": "You will need to @CHANGE THE AMMO@ from the @HEAT CELL@ to the @CRYO CELL@ in your @THERMOTHROWER@ in order to put out this fire.",
+    "Robot": "You will need to @CHANGE THE AMMO@ from the @HEAT CELL@ to the @CRYO CELL@ in your @THERMOTHROWER@ in order to put out this fire."
+  },
+  {
+    "ID": 289,
+    "Normal": "You can change the ammo in your inventory or by holding [reloadkey] to open the ammo radial menu.",
+    "Robot": "You can change the ammo in your inventory or by holding [reloadkey] to open the ammo radial menu."
+  },
+  {
+    "ID": 290,
+    "Normal": "You will need to @CHANGE THE AMMO@ from the @CRYO CELL@ to the @HEAT CELL@ in your @THERMOTHROWER@ in order to melt this ice.",
+    "Robot": "You will need to @CHANGE THE AMMO@ from the @CRYO CELL@ to the @HEAT CELL@ in your @THERMOTHROWER@ in order to melt this ice."
+  },
+  {
+    "ID": 291,
+    "Normal": "You can change the ammo by holding [reloadkey] to open the @AMMO RADIAL MENU@.",
+    "Robot": "You can change the ammo by holding [reloadkey] to open the @AMMO RADIAL MENU@."
+  },
+  {
+    "ID": 292,
+    "Normal": "Something shorted out and the @HEATSINK@ overheated. It will need to be reinserted. @LARRY@ should be able to give you more information.",
+    "Robot": "Something shorted out and the @HEATSINK@ overheated. It will need to be reinserted. @LARRY@ should be able to give you more information."
+  },
+  {
+    "ID": 293,
+    "Normal": "There appears to be a @FIRE@. You'll need to put it out with something. @LARRY@ should be able to give you more information.",
+    "Robot": "There appears to be a @FIRE@. You'll need to put it out with something. @LARRY@ should be able to give you more information."
+  },
+  {
+    "ID": 294,
+    "Normal": "Your @SEISMIC IMAGER@ seems to have detected what appears to be an artificial cavern under the surface of the asteroid.",
+    "Robot": "Your @SEISMIC IMAGER@ seems to have detected what appears to be an artificial cavern under the surface of the asteroid."
+  },
+  {
+    "ID": 295,
+    "Normal": "I've placed a @BEACON@ on your @MINIMAP@ which leads to a possible entrance. Press [minimapkey] to open the minimap, or use the full-size map in your @MEG TOOL@.",
+    "Robot": "I've placed a @BEACON@ on your @MINIMAP@ which leads to a possible entrance. Press [minimapkey] to open the minimap, or use the full-size map in your @MEG TOOL@."
+  },
+  {
+    "ID": 296,
+    "Normal": "There appears to be some kind of @EXOTIC MATERIAL@ embedded in that @OBSTRUCTION@.",
+    "Robot": "There appears to be some kind of @EXOTIC MATERIAL@ embedded in that @OBSTRUCTION@."
+  },
+  {
+    "ID": 297,
+    "Normal": "It looks like the obstruction is fairly weak, and you should be able to get through by striking it with some force.",
+    "Robot": "It looks like the obstruction is fairly weak, and you should be able to get through by striking it with some force."
+  },
+  {
+    "ID": 298,
+    "Normal": "You appear to have exhausted your @THERMOTHROWER@ ammo. You can recharge it with the @CHARGING STATION@ in the @HANGAR SUPPLY ROOM@.",
+    "Robot": "You appear to have exhausted your @THERMOTHROWER@ ammo. You can recharge it with the @CHARGING STATION@ in the @HANGAR SUPPLY ROOM@."
+  },
+  {
+    "ID": 299,
+    "Normal": "The diagnostics indicate that the power core is depleted in the @LANDING POD@. You'll need to charge it. @LARRY@ should be able to give you more information.",
+    "Robot": "The diagnostics indicate that the power core is depleted in the @LANDING POD@. You'll need to charge it. @LARRY@ should be able to give you more information."
+  },
+  {
+    "ID": 300,
+    "Normal": "Sensors indicate that the @OUTER AIRLOCK DOOR@ has frozen over and the ice needs to be melted before it can be used. @LARRY@ should be able to give you more information.",
+    "Robot": "Sensors indicate that the @OUTER AIRLOCK DOOR@ has frozen over and the ice needs to be melted before it can be used. @LARRY@ should be able to give you more information."
+  },
+  {
+    "ID": 301,
+    "Normal": "Hey again, what can I help you with?"
+  },
+  {
+    "ID": 302,
+    "Normal": "- \"What is it I need to do again?\""
+  },
+  {
+    "ID": 303,
+    "Normal": "- \"What are you doing?\""
+  },
+  {
+    "ID": 304,
+    "Normal": "You need to perform the final @DIAGNOSTICS@ on the prepared @LANDING POD@. It's the one closest to the airlock in the maintenance bay."
+  },
+  {
+    "ID": 305,
+    "Normal": "I'm still prepping the other pods we'll need when we reach Osiris. "
+  },
+  {
+    "ID": 306,
+    "Normal": "- \"The electricals shorted out and the heat sink fell out of the pod.\""
+  },
+  {
+    "ID": 307,
+    "Normal": "You need to perform the final @DIAGNOSTICS@ on the prepared @LANDING POD@."
+  },
+  {
+    "ID": 308,
+    "Normal": "Well shit, I thought I had all the kinks worked out. Just cram it back in there once it's cooled down and try it again."
+  },
+  {
+    "ID": 309,
+    "Normal": "- \"I started a fire.\""
+  },
+  {
+    "ID": 310,
+    "Normal": "Well shit, did the electricals short out again?"
+  },
+  {
+    "ID": 311,
+    "Normal": "- \"Yes, and the heat sink fell out and landed in a pile of oily rags.\""
+  },
+  {
+    "ID": 312,
+    "Normal": "- \"All I know is that there is a fire.\""
+  },
+  {
+    "ID": 313,
+    "Normal": "Ok, you'll need to grab the @THERMOTHROWER@ from the @STORAGE ROOM@. It's at the bottom of this @GRAV LIFT@."
+  },
+  {
+    "ID": 314,
+    "Normal": "Once the @HEAT SINK@ cools down you can probably just cram it back in there and try it again."
+  },
+  {
+    "ID": 315,
+    "Normal": "- \"It looks like there is a problem with the battery.\""
+  },
+  {
+    "ID": 316,
+    "Normal": "Ok, that's an easy one. Just take the @DEPLETED POWER CORE@ to the @HANGAR SUPPLY ROOM@ and recharge it with the @BATTERY CHARGER@."
+  },
+  {
+    "ID": 317,
+    "Normal": "- \"I'm getting some kind of ice warning on the diagnostics screen.\""
+  },
+  {
+    "ID": 318,
+    "Normal": "Yeah, the interior side of the outer airlock door got frozen over during transit, you'll need to melt the ice with the @THERMOTHROWER@ from the @HANGAR SUPPLY ROOM@."
+  },
+  {
+    "ID": 319,
+    "Normal": "You can @CHANGE THE AMMO@ on the @THERMOTHROWER@ from @CRYO CELLS@ to @HEAT CELLS@ by @LEFT CLICKING@ on the item in your inventory, which will open its @DETAILS@."
+  },
+  {
+    "ID": 320,
+    "Normal": "The diagnostics are complete and the @LANDING POD@ is ready to launch."
+  },
+  {
+    "ID": 321,
+    "Normal": "Just @OPEN THE SIDE DOOR@ and @SIT IN A CHAIR@ to start the launch sequence."
+  },
+  {
+    "ID": 322,
+    "Normal": "Ah, hello. I'll fill you in on the @STRANGE READINGS@."
+  },
+  {
+    "ID": 323,
+    "Normal": "While en-route to @OSIRIS@, the automated systems have been scanning the asteroids we pass during our voyage."
+  },
+  {
+    "ID": 324,
+    "Normal": "The primary purpose of these scans is to ensure that we maintain a safe distance while in transit, but we also catalog the basic composition of the asteroids for our databases."
+  },
+  {
+    "ID": 325,
+    "Normal": "An asteroid was found with a composition that was @STRANGE@ enough that @AGIS@ decided to notify me. "
+  },
+  {
+    "ID": 326,
+    "Normal": "For the most part, the asteroid is typical, but there were also readings of some kind of material that our system couldn't identify."
+  },
+  {
+    "ID": 327,
+    "Normal": "There were also trace readings of @PHOSPHINE@, which may indicate @SIGNS OF LIFE@."
+  },
+  {
+    "ID": 328,
+    "Normal": "Because of these readings, I've decided to send you out there to check it out."
+  },
+  {
+    "ID": 329,
+    "Normal": "Talk to @LARRY@ in the @HANGAR@ about getting access to a @LANDING POD@."
+  },
+  {
+    "ID": 330,
+    "Normal": "I want you to get to the asteroid, see what you can find and then return to me for @DEBRIEFING@."
+  },
+  {
+    "ID": 331,
+    "Normal": "Hello, what do you need?"
+  },
+  {
+    "ID": 332,
+    "Normal": "- \"Tell me again about the strange readings.\""
+  },
+  {
+    "ID": 333,
+    "Normal": "- \"Any news on the Hermes?\""
+  },
+  {
+    "ID": 334,
+    "Normal": "Get to the @ASTEROID@, see what you can find and then return to me for @DEBRIEFING@."
+  },
+  {
+    "ID": 335,
+    "Normal": "An asteroid was recently detected with a composition that was @STRANGE@ enough that @AGIS@ decided to notify me. "
+  },
+  {
+    "ID": 336,
+    "Normal": "No, nothing new. Still no contact in over 6 months."
+  },
+  {
+    "ID": 337,
+    "Normal": "Our last communications indicated that they were doing alright, if a bit spooked by living all alone on a new world."
+  },
+  {
+    "ID": 338,
+    "Normal": "They had been there about 2 years at that point, and while things started out rough it sounded like they were starting to thrive."
+  },
+  {
+    "ID": 339,
+    "Normal": "They should have the knowledge and raw materials available to fix any faulty hardware, so we really have no explanation for the lack of communication. "
+  },
+  {
+    "ID": 340,
+    "Normal": "You should equip the @MINING SUIT@ and grab a @PICK@ before departing for the @ASTEROID@.",
+    "Robot": "You should equip the @MINING SUIT@ and grab a @PICK@ before departing for the @ASTEROID@."
+  },
+  {
+    "ID": 341,
+    "Normal": "Your @MINING LASER@ can dig through blocks, but @PICKS@ can be used to extract materials from @MINERAL DEPOSITS@.",
+    "Robot": "Your @MINING LASER@ can dig through blocks, but @PICKS@ can be used to extract materials from @MINERAL DEPOSITS@."
+  },
+  {
+    "ID": 342,
+    "Normal": "Don't forget to turn off your @WRIST LIGHT@ when you're done using it, as it drains @ENERGY@ slowly while active.",
+    "Robot": "Don't forget to turn off your @WRIST LIGHT@ when you're done using it, as it drains @ENERGY@ slowly while active."
+  },
+  {
+    "ID": 343,
+    "Normal": "You can open the @LANDING POD@ by @RIGHT CLICKING@ the @OPEN BUTTON@ on the side.",
+    "Robot": "You can open the @LANDING POD@ by @RIGHT CLICKING@ the @OPEN BUTTON@ on the side."
+  },
+  {
+    "ID": 344,
+    "Normal": "Just @RIGHT CLICK@ to sit on a @CHAIR@ and I'll begin the launch sequence.",
+    "Robot": "Just @RIGHT CLICK@ to sit on a @CHAIR@ and I'll begin the launch sequence."
+  },
+  {
+    "ID": 345,
+    "Normal": "How can I help you?"
+  },
+  {
+    "ID": 346,
+    "Normal": "- \"What are you?\""
+  },
+  {
+    "ID": 347,
+    "Normal": "- \"Open up.\""
+  },
+  {
+    "ID": 348,
+    "Normal": "I'm Billy. I'm a trash can."
+  },
+  {
+    "ID": 349,
+    "Normal": "Fill me with your dirty garbage."
+  },
+  {
+    "ID": 350,
+    "Normal": "My sensors indicate an unknown species. You should consider scanning it with your @SCAN LASER@.",
+    "Robot": "My sensors indicate an unknown species. You should consider scanning it with your @SCAN LASER@."
+  },
+  {
+    "ID": 351,
+    "Normal": "There is still no signal from the @HERMES@ team on @OSIRIS@. We should be in range by now, but we're still hearing nothing.",
+    "Robot": "There is still no signal from the @HERMES@ team on @OSIRIS@. We should be in range by now, but we're still hearing nothing."
+  },
+  {
+    "ID": 352,
+    "Normal": "This stone is blocking our path, but it looks like you could knock it down without too much force. Try punching it or hitting it with your pick.",
+    "Robot": "This stone is blocking our path, but it looks like you could knock it down without too much force. Try punching it or hitting it with your pick."
+  },
+  {
+    "ID": 353,
+    "Normal": "You can @HOLSTER@ any item you have equipped by pressing [holsterkey].",
+    "Robot": "You can @HOLSTER@ any item you have equipped by pressing [holsterkey]."
+  },
+  {
+    "ID": 354,
+    "Normal": "[UNINTELLIGIBLE]"
+  },
+  {
+    "ID": 355,
+    "Normal": "- \"Ok, um... nice talking to you.\""
+  },
+  {
+    "ID": 356,
+    "Normal": "- \"I don't understand.\""
+  },
+  {
+    "ID": 357,
+    "Normal": "You give 20 refined purple material? I give hat."
+  },
+  {
+    "ID": 358,
+    "Normal": "- \"Yes\""
+  },
+  {
+    "ID": 359,
+    "Normal": "- \"No\""
+  },
+  {
+    "ID": 360,
+    "Normal": "You bring 20 refined purple material, I give hat."
+  },
+  {
+    "ID": 361,
+    "Normal": "Thank you, enjoy hat."
+  },
+  {
+    "ID": 362,
+    "Normal": "Ok."
+  },
+  {
+    "ID": 363,
+    "Normal": "If you bring me 20 Xenometal I can craft you a special hat. "
+  },
+  {
+    "ID": 364,
+    "Normal": "- \"Sure\""
+  },
+  {
+    "ID": 365,
+    "Normal": "It's a Stanzo brand fedora, it's nice."
+  },
+  {
+    "ID": 366,
+    "Normal": "Rude."
+  },
+  {
+    "ID": 367,
+    "Normal": "Do you desire conflict?"
+  },
+  {
+    "ID": 368,
+    "Normal": "Please spare us."
+  },
+  {
+    "ID": 369,
+    "Normal": "That is good."
+  },
+  {
+    "ID": 370,
+    "Normal": "You seem to understand our language fairly well. What do you want to know about?"
+  },
+  {
+    "ID": 371,
+    "Normal": "- \"The Calamity\""
+  },
+  {
+    "ID": 372,
+    "Normal": "- \"The Relic\""
+  },
+  {
+    "ID": 373,
+    "Normal": "- \"Other faction\""
+  },
+  {
+    "ID": 374,
+    "Normal": "- \"Nevermind\""
+  },
+  {
+    "ID": 375,
+    "Normal": "Was there anything else you wanted to know about?"
+  },
+  {
+    "ID": 376,
+    "Normal": "The Calamity is what we call the destruction of our home planet."
+  },
+  {
+    "ID": 377,
+    "Normal": "The Source Mnemonic laid bare the machinations of the Foundations, and we understood how to manipulate our reality."
+  },
+  {
+    "ID": 378,
+    "Normal": "Anything was possible, right up until we went too far."
+  },
+  {
+    "ID": 379,
+    "Normal": "The exact cause is unknown, but the damage was catastrophic."
+  },
+  {
+    "ID": 380,
+    "Normal": "We call the relic that you possess a [Source Mnemonic]. It is a pre-Calamity artifact that allows translation of [Source Flows]."
+  },
+  {
+    "ID": 381,
+    "Normal": "- \"Source Flows?\""
+  },
+  {
+    "ID": 382,
+    "Normal": "- \"Ok\""
+  },
+  {
+    "ID": 383,
+    "Normal": "Source energy flows from [Sourcemetal] and [Sourcecrystals]."
+  },
+  {
+    "ID": 384,
+    "Normal": "Source energy in its raw state is turbulent and has great entropic disharmony. The Source Mnemonic allows us to make sense of the flows."
+  },
+  {
+    "ID": 385,
+    "Normal": "It [was] considered a great achievement of our people."
+  },
+  {
+    "ID": 386,
+    "Normal": "We attempted to deliver every remaining Mnemonic to the sun following the Calamity."
+  },
+  {
+    "ID": 387,
+    "Normal": "It is agonizing to know that at least one has survived."
+  },
+  {
+    "ID": 388,
+    "Normal": "- \"What should I do with it?\""
+  },
+  {
+    "ID": 389,
+    "Normal": "You should deliver it to the sun."
+  },
+  {
+    "ID": 390,
+    "Normal": "The others attempt to fix the damage caused by the Calamity by pursuing the same ambitions that caused it in the first place."
+  },
+  {
+    "ID": 391,
+    "Normal": "They aspire to abandon our realm for another, and they don't care what happens to this one in the process."
+  },
+  {
+    "ID": 392,
+    "Normal": "We did what we could to stop them, and now we hide from their vengeance."
+  },
+  {
+    "ID": 393,
+    "Normal": "Hello, I am working on a project regarding my theories on what you refer to as Xenostone, would you like to help me?"
+  },
+  {
+    "ID": 394,
+    "Normal": "Hi. I record history. I can tell you things."
+  },
+  {
+    "ID": 395,
+    "Normal": "- \"Osiris\""
+  },
+  {
+    "ID": 396,
+    "Normal": "- \"Xenoids\""
+  },
+  {
+    "ID": 397,
+    "Normal": "- \"Calamity\""
+  },
+  {
+    "ID": 398,
+    "Normal": "- \"Nothing\""
+  },
+  {
+    "ID": 399,
+    "Normal": "What else would you like to know about?"
+  },
+  {
+    "ID": 400,
+    "Normal": "We came here for Xenite. Home had little."
+  },
+  {
+    "ID": 401,
+    "Normal": "We came here to work."
+  },
+  {
+    "ID": 402,
+    "Normal": "Home protect from bad space rays. Were safe there."
+  },
+  {
+    "ID": 403,
+    "Normal": "Osiris does not protect. Hide under Xenostone. Hide for safe."
+  },
+  {
+    "ID": 404,
+    "Normal": "We made such pretty things."
+  },
+  {
+    "ID": 405,
+    "Normal": "We learned much about all."
+  },
+  {
+    "ID": 406,
+    "Normal": "We explored far, and thought we would explore much more."
+  },
+  {
+    "ID": 407,
+    "Normal": "But then... Calamity. So many lost."
+  },
+  {
+    "ID": 408,
+    "Normal": "And yet we persist."
+  },
+  {
+    "ID": 409,
+    "Normal": "Do not know the cause of Calamity."
+  },
+  {
+    "ID": 410,
+    "Normal": "Calamity makes me sad."
+  },
+  {
+    "ID": 411,
+    "Normal": "Greetings. I am Aethon, Archivist of Osiris. I have been documenting the history of our kind for countless cycles. Have you come to learn about our world?"
+  },
+  {
+    "ID": 412,
+    "Normal": "Our kind originally came to this planet in pursuit of Xenite. Our home had but small trace of the stuff."
+  },
+  {
+    "ID": 413,
+    "Normal": "The remaining survivors you see were among the first group of laborers sent here."
+  },
+  {
+    "ID": 414,
+    "Normal": "A quirk of our home planet was a natural magnetic shielding that protected us from harsh cosmic rays."
+  },
+  {
+    "ID": 415,
+    "Normal": "This planet lacks that shielding, and so we must cower beneath Xenostone."
+  },
+  {
+    "ID": 416,
+    "Normal": "The story of our kind is a story of incredible progress paired with an equal amount of hubris."
+  },
+  {
+    "ID": 417,
+    "Normal": "We had mastered the very wheelwork of our universe and others."
+  },
+  {
+    "ID": 418,
+    "Normal": "We began exploring our local system, and many believed we were poised to colonize the galaxy."
+  },
+  {
+    "ID": 419,
+    "Normal": "But then the Calamity snuffed out so many of us that the survivors could be considered statistically insignificant."
+  },
+  {
+    "ID": 420,
+    "Normal": "We do not know the cause of the Calamity, only the result."
+  },
+  {
+    "ID": 421,
+    "Normal": "Our home is gone now, and we weep for the loss."
+  },
+  {
+    "ID": 422,
+    "Normal": "I am not to speak to you."
+  },
+  {
+    "ID": 423,
+    "Normal": "I am sorry."
+  },
+  {
+    "ID": 424,
+    "Normal": "Ooooh, you found a @GRAPPLE MODULE@ installer, that's a good one!",
+    "Robot": "Ooooh, you found a @GRAPPLE MODULE@ installer, that's a good one!"
+  },
+  {
+    "ID": 425,
+    "Normal": "You can now use [grapplekey] to fire a grapple device into nearby terrain. It can be upgraded by installing @EMERALDS@ in your @MEG TOOL@",
+    "Robot": "You can now use [grapplekey] to fire a grapple device into nearby terrain. It can be upgraded by installing @EMERALDS@ in your @MEG TOOL@"
+  },
+  {
+    "ID": 426,
+    "Normal": "- \"Yes, I can hear you.\""
+  },
+  {
+    "ID": 427,
+    "Normal": "- \"Uhhh... long story short, it involves alien artifacts.\""
+  },
+  {
+    "ID": 428,
+    "Normal": "Great Scott! that is incredible! You need to get back to the @HEPHAESTUS@ ASAP. We'll have a full @DEBRIEFING@ when you get here."
+  },
+  {
+    "ID": 429,
+    "Normal": "What the hell? How did you get back so quick?"
+  },
+  {
+    "ID": 430,
+    "Normal": "- \"It's a long story...\" (Tell it slowly, and with great detail)"
+  },
+  {
+    "ID": 431,
+    "Normal": "- \"No time to explain. Engage shields and prep the Mass Driver!\""
+  },
+  {
+    "ID": 432,
+    "Normal": "Slow down! What is going on?"
+  },
+  {
+    "ID": 433,
+    "Normal": "- \"Aliens are about show up and blow us up! ENGAGE. SHIELDS.\""
+  },
+  {
+    "ID": 434,
+    "Normal": "Ok fine! I've engaged the shields, now tell me what-"
+  },
+  {
+    "ID": 435,
+    "Normal": "Great scott! It's an alien ship!"
+  },
+  {
+    "ID": 436,
+    "Normal": "- \"Yeah, and they're about to blow us to bits.\""
+  },
+  {
+    "ID": 437,
+    "Normal": "...what did you do?"
+  },
+  {
+    "ID": 438,
+    "Normal": "Shields are up, and the Mass Driver is booting. Do you have some kind of plan or what?"
+  },
+  {
+    "ID": 439,
+    "Normal": "- \"Launch a warhead at them with the Mass Driver.\""
+  },
+  {
+    "ID": 440,
+    "Normal": "- \"I have a plan.\""
+  },
+  {
+    "ID": 441,
+    "Normal": "You want us to just immediately fire a warhead at the first intelligent life the human race discovers in the galaxy?"
+  },
+  {
+    "ID": 442,
+    "Normal": "- \"Well when you put it like that...\""
+  },
+  {
+    "ID": 443,
+    "Normal": "No, I think the first thing we will do is try and contact them with a message of peace. We will-"
+  },
+  {
+    "ID": 444,
+    "Normal": "That's it? Just \"A plan\" You're going to have to elabo-"
+  },
+  {
+    "ID": 445,
+    "Normal": "- \"Yeah, and they're about to try to blow us to bits.\""
+  },
+  {
+    "ID": 446,
+    "Normal": "- \"No time to explain. Prep the Mass Driver!\""
+  },
+  {
+    "ID": 447,
+    "Normal": "Alright, the Mass Driver is booting. Do you have some kind of plan or what?"
+  },
+  {
+    "ID": 448,
+    "Normal": "They're hostile! The simulators didn't prepare me for this!"
+  },
+  {
+    "ID": 449,
+    "Normal": "- \"I've got this.\""
+  },
+  {
+    "ID": 450,
+    "Normal": "It is time to wake up, We have reached @OSIRIS@.",
+    "Robot": "It is time to wake up, We have reached @OSIRIS@."
+  },
+  {
+    "ID": 451,
+    "Normal": "Please @EAT SOMETHING@, @GET DRESSED@ and proceed to the @BRIDGE@.",
+    "Robot": "Please @EAT SOMETHING@, @GET DRESSED@ and proceed to the @BRIDGE@."
+  },
+  {
+    "ID": 452,
+    "Normal": "@DR. STEIN@ would like to discuss the next steps with you.",
+    "Robot": "@DR. STEIN@ would like to discuss the next steps with you."
+  },
+  {
+    "ID": 453,
+    "Normal": "Ah good, you're here. We have reached a stable orbit around Osiris."
+  },
+  {
+    "ID": 454,
+    "Normal": "For awhile there, I really did think we'd ever make it."
+  },
+  {
+    "ID": 455,
+    "Normal": "I want to thank you for everything you've done to help get us here."
+  },
+  {
+    "ID": 456,
+    "Normal": "- \"Aw shucks...\""
+  },
+  {
+    "ID": 457,
+    "Normal": "- \"I'm like your savior now, huh?\""
+  },
+  {
+    "ID": 458,
+    "Normal": "Assuming your story isn't completely full of shit, then yes, I suppose so."
+  },
+  {
+    "ID": 459,
+    "Normal": "We still have so much work to do if we want to restart humanity on this planet, but this is a momentous step."
+  },
+  {
+    "ID": 460,
+    "Normal": "Larry has already deployed the @ARRIVAL PAD@ to the surface. You should go speak to him about it."
+  },
+  {
+    "ID": 461,
+    "Normal": "What can I help you with?"
+  },
+  {
+    "ID": 462,
+    "Normal": "- \"So... now what?\""
+  },
+  {
+    "ID": 463,
+    "Normal": "- \"Nothing else.\""
+  },
+  {
+    "ID": 464,
+    "Normal": "We still have a lot of work left to prepare Osiris for the colonists, so I imagine that will be taking up our time for awhile."
+  },
+  {
+    "ID": 465,
+    "Normal": "There are quite a lot of logistics to work out, and it sounds like there are quite a few... hazards on the planet."
+  },
+  {
+    "ID": 466,
+    "Normal": "Hey, good to see ya! I went ahead and set up a @TELEPORTER@ on the floor below to @OSIRIS@ for easy access."
+  },
+  {
+    "ID": 467,
+    "Normal": "I shoved a new wireless battery I've been working on in there. It uses a complex set of @SCIENTIFIC THINGS@ to capture radiated energy from the @HEPHAESTUS@'s fusion generator."
+  },
+  {
+    "ID": 468,
+    "Normal": "It should keep the battery topped off, but it just trickle charges so you might have to wait a bit between uses."
+  },
+  {
+    "ID": 469,
+    "Normal": "This appears to be a @STABLE WORMHOLE@ through space and time, and I'm detecting signs of life on the other side.",
+    "Robot": "This appears to be a @STABLE WORMHOLE@ through space and time, and I'm detecting signs of life on the other side."
+  },
+  {
+    "ID": 470,
+    "Normal": "It appears that it goes back to the moment that you activated that alien gadget on the asteroid. Just before the Hephaestus was destroyed.",
+    "Robot": "It appears that it goes back to the moment that you activated that alien gadget on the asteroid. Just before the Hephaestus was destroyed."
+  },
+  {
+    "ID": 471,
+    "Normal": "The @DESTINATION TIME@ is fixed, but it looks like I can @NUDGE@ the exit position a bit.",
+    "Robot": "The @DESTINATION TIME@ is fixed, but it looks like I can @NUDGE@ the exit position a bit."
+  },
+  {
+    "ID": 472,
+    "Normal": "The timing will be tight, but I think we can make this work.",
+    "Robot": "The timing will be tight, but I think we can make this work."
+  },
+  {
+    "ID": 473,
+    "Normal": "This is your chance.",
+    "Robot": "This is your chance."
+  },
+  {
+    "ID": 474,
+    "Normal": "I hope I was helpful.",
+    "Robot": "I hope I was helpful."
+  },
+  {
+    "ID": 475,
+    "Normal": "This device will not activate as long as there are active dimensional incursions. (Does not work in multiplayer)",
+    "Robot": "This device will not activate as long as there are active dimensional incursions. (Does not work in multiplayer)"
+  },
+  {
+    "ID": 476,
+    "Normal": "All dimensional signatures associated with this party must be co-located before activation. (Everyone needs to be here together.)",
+    "Robot": "All dimensional signatures associated with this party must be co-located before activation. (Everyone needs to be here together.)"
+  },
+  {
+    "ID": 477,
+    "Normal": "This door has iced over during transit, and the ice will need to be melted using the @HEAT@ function of your @THERMOTHROWER@.",
+    "Robot": "This door has iced over during transit, and the ice will need to be melted using the @HEAT@ function of your @THERMOTHROWER@."
+  },
+  {
+    "ID": 478,
+    "Normal": "With the thermothrower equipped, you can change the ammo by holding [reloadkey] to open the @AMMO RADIAL MENU@.",
+    "Robot": "With the thermothrower equipped, you can change the ammo by holding [reloadkey] to open the @AMMO RADIAL MENU@."
+  },
+  {
+    "ID": 479,
+    "Normal": "AGIS authorized a warhead to be dispensed, check the table over there."
+  },
+  {
+    "ID": 480,
+    "Normal": "If it's the only solution we have, so be it."
+  },
+  {
+    "ID": 481,
+    "Normal": "Warheads can be loaded in the @MASS DRIVER@ on the floor below."
+  },
+  {
+    "ID": 482,
+    "Normal": "- \"Tell me again about the teleporter.\""
+  },
+  {
+    "ID": 483,
+    "Normal": "- \"Tell me again about the wireless battery.\""
+  },
+  {
+    "ID": 484,
+    "Normal": "Yeah, I set up a teleporter straight to Osiris on the floor below. It has a wireless battery in it, so you may need to wait for it to charge."
+  },
+  {
+    "ID": 485,
+    "Normal": "Yeah, it trickle charges remotely from the Hephaestus's fusion generator. Kinda slow to charge, but pretty convenient."
+  },
+  {
+    "ID": 486,
+    "Normal": "Uhhhhhh, you see that too, right?"
+  },
+  {
+    "ID": 487,
+    "Normal": "Welp"
+  },
+  {
+    "ID": 488,
+    "Normal": "You don't seem to have all the items that go in the slots."
+  },
+  {
+    "ID": 489,
+    "Normal": "You have collected the Mass Driver warhead. The next step is to load it into the Mass Driver if your desire is to destroy the thing it is pointed at."
+  },
+  {
+    "ID": 490,
+    "Normal": "A thermonuclear warhead has been dispensed in the bridge, it can be fired from the Mass Driver."
+  },
+  {
+    "ID": 491,
+    "Normal": "You should discuss with Dr. Stein about what has happened to you."
+  },
+  {
+    "ID": 492,
+    "Normal": "You need to use the Landing Pod to return to the Hephaestus ASAP."
+  },
+  {
+    "ID": 493,
+    "Normal": "You should return to your Landing Pad as soon as possible."
+  },
+  {
+    "ID": 494,
+    "Normal": "You should bring that strange device back to Dr. Stein."
+  },
+  {
+    "ID": 495,
+    "Normal": "You should collect that strange device on the altar at the end of the strange cave."
+  },
+  {
+    "ID": 496,
+    "Normal": "Collect the Exotic Material embedded in the obstruction you found in the strange cave."
+  },
+  {
+    "ID": 497,
+    "Normal": "Continue exploring that strange cave."
+  },
+  {
+    "ID": 498,
+    "Normal": "Examine the strange cave marked on your MiniMap."
+  },
+  {
+    "ID": 499,
+    "Normal": "You should use the Seismic Imager."
+  },
+  {
+    "ID": 500,
+    "Normal": "You should probably build a Seismic Imager to quickly scan for anything interesting. There should be parts for a Seismic Imager in the Landing Pod's storage compartment."
+  },
+  {
+    "ID": 501,
+    "Normal": "Examine your surroundings."
+  },
+  {
+    "ID": 502,
+    "Normal": "Just stay strapped in until we reach the asteroid."
+  },
+  {
+    "ID": 503,
+    "Normal": "Sit in the landing pod and I'll begin the launch sequence and take us to the asteroid."
+  },
+  {
+    "ID": 504,
+    "Normal": "You should perform the @DIAGNOSTICS@ on the @LANDING POD@ in the @HANGAR@. Remember, @LARRY@ can help you if you run into trouble."
+  },
+  {
+    "ID": 505,
+    "Normal": "You should proceed to the hangar and talk to @LARRY@ about launching a landing pod."
+  },
+  {
+    "ID": 506,
+    "Normal": "You should complete the @DIAGNOSTICS@ for your MEG Tool in @OUTFITTING.@"
+  },
+  {
+    "ID": 507,
+    "Normal": "My scans indicate that the deep underground may still have signs of life. Might be worth investigating."
+  },
+  {
+    "ID": 508,
+    "Normal": "I suppose we should explore the alien ship. Maybe there is a way to stop their pods from dropping to the planet."
+  },
+  {
+    "ID": 509,
+    "Normal": "Do you think those portals are two-way?"
+  },
+  {
+    "ID": 510,
+    "Normal": "I believe the planet was just struck by some sort of high-velocity object."
+  },
+  {
+    "ID": 511,
+    "Normal": "I guess we could try and figure out where those alien pods are coming from."
+  },
+  {
+    "ID": 512,
+    "Normal": "Now that you've repaired the @SATELLITE@, you should see if you can reach the @HEPHAESTUS@ with the @COMMUNICATIONS TERMINAL@."
+  },
+  {
+    "ID": 513,
+    "Normal": "You should install that @SIGNAL DECODER@ in the satellite on top of the @PIONEER STATION@."
+  },
+  {
+    "ID": 514,
+    "Normal": "The @SATELLITE@ connected to the @COMMUNICATIONS TERMINAL@ seems to be missing a @SIGNAL DECODER@."
+  },
+  {
+    "ID": 515,
+    "Normal": "If you could find it, you may be able to contact the @HEPHAESTUS@ and see if there are any survivors."
+  },
+  {
+    "ID": 516,
+    "Normal": "The @SIGNAL DECODER@ is giving off a faint @RAINBOW COLORED@ signal which you should be able to pick up on your @MAP."
+  },
+  {
+    "ID": 517,
+    "Normal": "You might want to see if that @COMMUNICATIONS TERMINAL@ has a way of contacting the @HEPHAESTUS@."
+  },
+  {
+    "ID": 518,
+    "Normal": "We're going to have to get the power on in the @PIONEER STATION@."
+  },
+  {
+    "ID": 519,
+    "Normal": "We found the generator, but it seems to have a bunch of damaged components."
+  },
+  {
+    "ID": 520,
+    "Normal": "It might be worth exploring the @PIONEER STATION@ or the @MINING BASE@."
+  },
+  {
+    "ID": 521,
+    "Normal": "We should see if we can find out what happened to the crew of the @HERMES@, but first we need to get the power back on."
+  },
+  {
+    "ID": 522,
+    "Normal": "We should see if we can find out what happened to the crew of the @HERMES@."
+  },
+  {
+    "ID": 523,
+    "Normal": "You should also probably look around for an @ACCESS CARD@, someone must have left one lying around."
+  },
+  {
+    "ID": 524,
+    "Normal": "It looks like your @ACCESS CARD@ can only open @LEVEL 0@ doors, so you might want to look for an @ACCESS CARD UPGRADE TERMINAL@."
+  },
+  {
+    "ID": 525,
+    "Normal": "It looks like your @ACCESS CARD@ can open @LEVEL 1@ doors."
+  },
+  {
+    "ID": 526,
+    "Normal": "You'll need to find another @ACCESS CARD UPGRADE@ terminal to access the entire @PIONEER STATION@."
+  },
+  {
+    "ID": 527,
+    "Normal": "Your @ACCESS CARD@ should now give you access to the entire @PIONEER STATION@."
+  },
+  {
+    "ID": 528,
+    "Normal": "You should probably try and find a way inside the @PIONEER STATION@."
+  },
+  {
+    "ID": 529,
+    "Normal": "Its probably worth scouting the surface of the planet some more."
+  },
+  {
+    "ID": 530,
+    "Normal": "The @HERMES@ crew landed on this planet nearly 2 years ago, so there should be some structures on the surface of the planet."
+  },
+  {
+    "ID": 531,
+    "Normal": "You've already found the @PIONEER STATION@, but according to my records there should be a mining base around here somewhere too."
+  },
+  {
+    "ID": 532,
+    "Normal": "You've already found the mining base, but there should be a larger base called the @PIONEER STATION@ around here somewhere too."
+  },
+  {
+    "ID": 533,
+    "Normal": "Now that you have an @ENCRYPTION KEY@ uploaded to your @MEG TOOL@, you should be able to access devices with a purple antenna."
+  },
+  {
+    "ID": 534,
+    "Normal": "You could investigate the @RUINS@ under the @PIONEER STATION@ some more, I bet there is some neat stuff in there."
+  },
+  {
+    "ID": 535,
+    "Normal": "You could also investigate the @RUINS@ under the @PIONEER STATION@ some more, I bet there is some neat stuff in there."
+  },
+  {
+    "ID": 536,
+    "Normal": "There was that weird vault door under the @MINING BASE@, it might be worth trying to get inside."
+  },
+  {
+    "ID": 537,
+    "Normal": "There was also that weird vault door under the @MINING BASE@, it might be worth trying to get inside."
+  },
+  {
+    "ID": 538,
+    "Normal": "Hey, whats up?"
+  },
+  {
+    "ID": 539,
+    "Normal": "What can I do for ya?"
+  },
+  {
+    "ID": 540,
+    "Normal": "What should I be doing?"
+  },
+  {
+    "ID": 541,
+    "Normal": "What is this thing? (i)"
+  },
+  {
+    "ID": 542,
+    "Normal": "Nevermind."
+  },
+  {
+    "ID": 543,
+    "Normal": "Try and find a place to land, we don't have a lot of fuel left. You can go left by pressing [left], and right by pressing [right]."
+  },
+  {
+    "ID": 544,
+    "Normal": "Find a nice flat spot of land and I'll take over."
+  },
+  {
+    "ID": 545,
+    "Normal": "Try not to crash."
+  },
+  {
+    "ID": 546,
+    "Normal": "AGIS, what's the repair status of the thrusters?"
+  },
+  {
+    "ID": 547,
+    "Normal": "The thrusters are offline, Dr. Stein. Repair will take at least four hours."
+  },
+  {
+    "ID": 548,
+    "Normal": "AGIS, any progress on the shields?"
+  },
+  {
+    "ID": 549,
+    "Normal": "The shields are still offline, and repair will take at least six hours."
+  },
+  {
+    "ID": 550,
+    "Normal": "AGIS, do we have any weapons available?"
+  },
+  {
+    "ID": 551,
+    "Normal": "The only available weapon is the Mass Driver."
+  },
+  {
+    "ID": 552,
+    "Normal": "AGIS, how much time do we have before the alien ship can fire again?"
+  },
+  {
+    "ID": 553,
+    "Normal": "Unknown."
+  },
+  {
+    "ID": 554,
+    "Normal": "AGIS, any idea what materials the ship is made of?"
+  },
+  {
+    "ID": 555,
+    "Normal": "The materials are unknown. Their properties are unknown. That is weird."
+  },
+  {
+    "ID": 556,
+    "Normal": "AGIS, what's the status of the life support systems?"
+  },
+  {
+    "ID": 557,
+    "Normal": "The life support systems are still functional."
+  },
+  {
+    "ID": 558,
+    "Normal": "AGIS, any communication with the alien ship?"
+  },
+  {
+    "ID": 559,
+    "Normal": "There has been no response to our attempts at communication."
+  },
+  {
+    "ID": 560,
+    "Normal": "AGIS, what about the asteroid we were investigating? Any signs of life?"
+  },
+  {
+    "ID": 561,
+    "Normal": "There are no signs of life on the asteroid, Dr. Stein."
+  },
+  {
+    "ID": 562,
+    "Normal": "AGIS, any way to disable their weapons?"
+  },
+  {
+    "ID": 563,
+    "Normal": "There are no known methods to disable their weapons, Dr. Stein."
+  },
+  {
+    "ID": 564,
+    "Normal": "AGIS, what's the status of the Mass Driver?"
+  },
+  {
+    "ID": 565,
+    "Normal": "The Mass Driver is fully functional, Dr. Stein."
+  },
+  {
+    "ID": 566,
+    "Normal": "AGIS, how many warheads do we have left?"
+  },
+  {
+    "ID": 567,
+    "Normal": "We have a total of six warheads remaining, Dr. Stein."
+  },
+  {
+    "ID": 568,
+    "Normal": "AGIS, any updates on the alien ship's capabilities?"
+  },
+  {
+    "ID": 569,
+    "Normal": "The alien ship has advanced weapons and shielding technology"
+  },
+  {
+    "ID": 570,
+    "Normal": "AGIS, how far are we from Osiris?"
+  },
+  {
+    "ID": 571,
+    "Normal": "At full speed, it would take 1 week and 2 days to reach Osiris."
+  },
+  {
+    "ID": 572,
+    "Normal": "AGIS, any way to repair the thrusters faster?"
+  },
+  {
+    "ID": 573,
+    "Normal": "I am unable to speed up the repair process, Dr. Stein. The damage is extensive."
+  },
+  {
+    "ID": 574,
+    "Normal": "AGIS, what's the status of the hull?"
+  },
+  {
+    "ID": 575,
+    "Normal": "The hull has sustained minimal damage, Dr. Stein."
+  },
+  {
+    "ID": 576,
+    "Normal": "AGIS, any way to boost the shields temporarily?"
+  },
+  {
+    "ID": 577,
+    "Normal": "I am unable to boost the shields temporarily. They are offline and require repair."
+  },
+  {
+    "ID": 578,
+    "Normal": "AGIS, any way to communicate with the alien ship without using traditional methods?"
+  },
+  {
+    "ID": 579,
+    "Normal": "I will attempt communication via visual and frequency patterns across all spectrums."
+  },
+  {
+    "ID": 580,
+    "Normal": "AGIS, any way to defend ourselves besides the Mass Driver?"
+  },
+  {
+    "ID": 581,
+    "Normal": "We have no other available weapons or defense systems, Dr. Stein."
+  },
+  {
+    "ID": 582,
+    "Normal": "AGIS, what's the status of the medical bay?"
+  },
+  {
+    "ID": 583,
+    "Normal": "The medical bay is fully functional and stocked with necessary supplies."
+  },
+  {
+    "ID": 584,
+    "Normal": "AGIS, any way to detect the alien ship's weak points?"
+  },
+  {
+    "ID": 585,
+    "Normal": "Scans are unable to penetrate the vessel's hull in any way. It is weird honestly."
+  },
+  {
+    "ID": 586,
+    "Normal": "AGIS, send a message to the crew. Let them know the situation and to be on high alert."
+  },
+  {
+    "ID": 587,
+    "Normal": "Message sent, Dr. Stein."
+  },
+  {
+    "ID": 588,
+    "Normal": "AGIS, bring up the schematics for the Mass Driver."
+  },
+  {
+    "ID": 589,
+    "Normal": "Accessing schematics now, Dr. Stein."
+  },
+  {
+    "ID": 590,
+    "Normal": "AGIS, can we outmaneuver the alien ship?"
+  },
+  {
+    "ID": 591,
+    "Normal": "No, the thrusters are offline."
+  },
+  {
+    "ID": 592,
+    "Normal": "AGIS, what's the status on our weapons?"
+  },
+  {
+    "ID": 593,
+    "Normal": "All weapons except the Mass Driver are currently offline, Dr. Stein."
+  },
+  {
+    "ID": 594,
+    "Normal": "AGIS, bring up a map of the alien ship's schematics."
+  },
+  {
+    "ID": 595,
+    "Normal": "Scans were unable to penetrate the hull. All we have is the exterior."
+  },
+  {
+    "ID": 596,
+    "Normal": "AGIS, can we repair the thrusters while under attack?"
+  },
+  {
+    "ID": 597,
+    "Normal": "Repairs have been started, but it will take hours."
+  },
+  {
+    "ID": 598,
+    "Normal": "AGIS, contact every team leader and check in personally."
+  },
+  {
+    "ID": 599,
+    "Normal": "Understood, Dr. Stein."
+  },
+  {
+    "ID": 600,
+    "Normal": "AGIS, contact Larry and have him prep as many escape pods as possible."
+  },
+  {
+    "ID": 601,
+    "Normal": "I will tell him, Dr. Stein."
+  },
+  {
+    "ID": 602,
+    "Normal": "AGIS, can you calculate the odds of the Hephaestus surviving another blast?"
+  },
+  {
+    "ID": 603,
+    "Normal": "The odds of surviving another blast are roughly 0.015%."
+  },
+  {
+    "ID": 604,
+    "Normal": "AGIS, What's the status of the oxygen reserves?"
+  },
+  {
+    "ID": 605,
+    "Normal": "The oxygen reserves are currently at 75% capacity."
+  },
+  {
+    "ID": 606,
+    "Normal": "AGIS, can you scan for any weaknesses in the alien ship's hull?"
+  },
+  {
+    "ID": 607,
+    "Normal": "Scanning now. Initial results show no weaknesses in the hull."
+  },
+  {
+    "ID": 608,
+    "Normal": "AGIS, What's the status of the life support systems?"
+  },
+  {
+    "ID": 609,
+    "Normal": "The life support systems are functioning at 97% capacity."
+  },
+  {
+    "ID": 610,
+    "Normal": "AGIS, Any ideas on how we can defeat this alien ship?"
+  },
+  {
+    "ID": 611,
+    "Normal": "One possibility is using the Mass Driver to launch a warhead at the alien ship."
+  },
+  {
+    "ID": 612,
+    "Normal": "AGIS, How long would it take to evacuate the crew to the escape pods?"
+  },
+  {
+    "ID": 613,
+    "Normal": "45-50 minutes for the awakened crew. 23 hours for the frozen crew."
+  },
+  {
+    "ID": 614,
+    "Normal": "AGIS, can you calculate the odds of the escape pods making it to a habitable planet?"
+  },
+  {
+    "ID": 615,
+    "Normal": "Calculating now. The odds of at least one escape pod reaching a habitable planet are approximately 0.023%."
+  },
+  {
+    "ID": 616,
+    "Normal": "AGIS, Is there any way to hack into the alien ship's systems and disable their weapons?"
+  },
+  {
+    "ID": 617,
+    "Normal": "I will scan on all frequencies to see if I can detect communications frequencies."
+  },
+  {
+    "ID": 618,
+    "Normal": "AGIS, Could we use the Mass Driver to launch a projectile at the alien ship's engines and disable them?"
+  },
+  {
+    "ID": 619,
+    "Normal": "It is possible to launch a projectile at the alien ship's engines, but it is unlikely to disable them."
+  },
+  {
+    "ID": 620,
+    "Normal": "AGIS, can you plot a course for us to ram the alien ship and disable their engines?"
+  },
+  {
+    "ID": 621,
+    "Normal": "Plotting a course now. The odds of success are low and the Hephaestus would sustain significant damage."
+  },
+  {
+    "ID": 622,
+    "Normal": "AGIS, can you calculate the odds of the Hephaestus surviving if we use the Mass Driver to launch a warhead at the alien ship?"
+  },
+  {
+    "ID": 623,
+    "Normal": "Calculating now. The odds of survival are approximately 50%."
+  },
+  {
+    "ID": 624,
+    "Normal": "Press [left] or [right] to get out of bed."
+  },
+  {
+    "ID": 625,
+    "Normal": "Right click on your backpack to put it on."
+  },
+  {
+    "ID": 626,
+    "Normal": "Open your inventory ([menukey]) and drag the apple into it."
+  },
+  {
+    "ID": 627,
+    "Normal": "Left click outside of your inventory to eat the apple."
+  },
+  {
+    "ID": 628,
+    "Normal": "Right click on the apple in your inventory ([menukey]) to hold it."
+  },
+  {
+    "ID": 629,
+    "Normal": "Right click on your dresser to open it."
+  },
+  {
+    "ID": 630,
+    "Normal": "Get dressed."
+  },
+  {
+    "ID": 631,
+    "Normal": "Pick up your Multipass."
+  },
+  {
+    "ID": 632,
+    "Normal": "Well this is cozy, right?"
+  },
+  {
+    "ID": 633,
+    "Normal": "Let there be light!"
+  },
+  {
+    "ID": 634,
+    "Normal": "Well, that did something."
+  },
+  {
+    "ID": 635,
+    "Normal": "You were not authorized to retrieve that..."
+  }
+]

@@ -1,0 +1,2600 @@
+{
+  "Sets": [
+    {
+      "Name": "Bone Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "thorns",
+          "EffectIntensity": 3
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "thorns",
+          "EffectIntensity": 3
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "thorns",
+          "EffectIntensity": 6
+        }
+      ]
+    },
+    {
+      "Name": "Bornite Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "healovertime",
+          "EffectIntensity": 0.5
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "healovertime",
+          "EffectIntensity": 0.5
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "healovertime",
+          "EffectIntensity": 1
+        }
+      ]
+    },
+    {
+      "Name": "Bronze Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "maxhealth",
+          "EffectIntensity": 5
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "maxhealth",
+          "EffectIntensity": 5
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "maxhealth",
+          "EffectIntensity": 10
+        }
+      ]
+    },
+    {
+      "Name": "Copper Set"
+    },
+    {
+      "Name": "Energy Plate Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "EnergyShield",
+          "EffectIntensity": 5
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "EnergyShield",
+          "EffectIntensity": 5
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "EnergyShield",
+          "EffectIntensity": 10
+        }
+      ]
+    },
+    {
+      "Name": "Ghost Hide Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "souleffect",
+          "EffectIntensity": 0.25
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "souleffect",
+          "EffectIntensity": 0.25
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "souleffect",
+          "EffectIntensity": 0.5
+        }
+      ]
+    },
+    {
+      "Name": "Hahn's Set"
+    },
+    {
+      "Name": "Hephaestus Mining Set"
+    },
+    {
+      "Name": "Hephaestus Work Set"
+    },
+    {
+      "Name": "Hybrid Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "resistxenitepercent",
+          "EffectIntensity": 0.1
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "resistxenitepercent",
+          "EffectIntensity": 0.1
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "resistxenitepercent",
+          "EffectIntensity": 0.15
+        }
+      ]
+    },
+    {
+      "Name": "Iron Set"
+    },
+    {
+      "Name": "Leaper Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "jumpheight",
+          "EffectIntensity": 0.2
+        }
+      ]
+    },
+    {
+      "Name": "Leather Set"
+    },
+    {
+      "Name": "Mining Suit Mk2 Set"
+    },
+    {
+      "Name": "Nano-Steel Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "movespeed",
+          "EffectIntensity": 0.05
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "movespeed",
+          "EffectIntensity": 0.05
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "movespeed",
+          "EffectIntensity": 0.1
+        }
+      ]
+    },
+    {
+      "Name": "Orange Jumpsuit Set"
+    },
+    {
+      "Name": "Patchwork Set"
+    },
+    {
+      "Name": "Piezo Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "energyovertime",
+          "EffectIntensity": 1
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "energyovertime",
+          "EffectIntensity": 1
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "energyovertime",
+          "EffectIntensity": 2
+        }
+      ]
+    },
+    {
+      "Name": "Plated Hide Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "armored",
+          "EffectIntensity": 2
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "armored",
+          "EffectIntensity": 2
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "armored",
+          "EffectIntensity": 4
+        }
+      ]
+    },
+    {
+      "Name": "Prototype Mining Suit Set"
+    },
+    {
+      "Name": "Red Tracksuit Set"
+    },
+    {
+      "Name": "Rock Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "hardlikerock",
+          "EffectIntensity": 1,
+          "Description": "Hard like rock."
+        }
+      ]
+    },
+    {
+      "Name": "Rubber Set",
+      "Bonuses": [
+        {
+          "NumPieces": 7,
+          "Effect": "xeniteinfused",
+          "EffectIntensity": 1,
+          "Description": "???"
+        }
+      ]
+    },
+    {
+      "Name": "Silver Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "thorns",
+          "EffectIntensity": 4
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "thorns",
+          "EffectIntensity": 4
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "thorns",
+          "EffectIntensity": 10
+        }
+      ]
+    },
+    {
+      "Name": "Spaceflex Set"
+    },
+    {
+      "Name": "Steel Combat Set"
+    },
+    {
+      "Name": "Tin Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "maxhealth",
+          "EffectIntensity": 5
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "maxhealth",
+          "EffectIntensity": 5
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "maxhealth",
+          "EffectIntensity": 10
+        }
+      ]
+    },
+    {
+      "Name": "Titanium Set"
+    },
+    {
+      "Name": "Xenohide Set",
+      "Bonuses": [
+        {
+          "NumPieces": 2,
+          "Effect": "CONSTITUTION",
+          "EffectIntensity": 0.25
+        },
+        {
+          "NumPieces": 4,
+          "Effect": "CONSTITUTION",
+          "EffectIntensity": 0.25
+        },
+        {
+          "NumPieces": 6,
+          "Effect": "CONSTITUTION",
+          "EffectIntensity": 0.5
+        }
+      ]
+    }
+  ],
+  "Pieces": [
+    {
+      "Name": "A Great Sweater",
+      "Description": "A fancy sweater, like your granny might have made if she wasn't evacuated into the cold, inky blackness of space the other day.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "ACC_XEN_AMPLIFIED_VIGOR",
+      "Name": "Amplified Vigor",
+      "Description": "This seems to be a Xenoid artifact, although its purpose is unclear.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "MAXHEALTH",
+          "EffectIntensity": 15
+        }
+      ]
+    },
+    {
+      "ItemType": "HAT_ASTEROID_MITE",
+      "Name": "Asteroid Mite Hat",
+      "Description": "A hat composed of various internal organs and other organic material.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "BACKGLIDER",
+      "Name": "Backglider",
+      "Description": "The skin of the strange creature from which this item was crafted generates enough drag and lift to allow for a nice glide.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "HAT_BANDANA",
+      "Name": "Bandana",
+      "Description": "A hat made of cloth.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "ACC_ENEMY_VITALS_DISPLAY",
+      "Name": "Biometric Scanner",
+      "Description": "Displays enemy health in the world.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "mobhealthhud",
+          "EffectIntensity": 1,
+          "Description": "Displays enemy health in the world."
+        }
+      ]
+    },
+    {
+      "ItemType": "BIONIC_ARM",
+      "Name": "Bionic Arm",
+      "Description": "Increases melee attack speed by 10%",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "meleespeed",
+          "EffectIntensity": 0.1
+        }
+      ]
+    },
+    {
+      "ItemType": "SHIRT_BLACK_LEATHER_JACKET",
+      "Name": "Black Leather Jacket",
+      "Description": "A black leather jacket.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHIRT_SPORTSBRA_BLACK",
+      "Name": "Black Sportsbra",
+      "Description": "A supportive garment.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHIRT_TANKTOP_BLACK",
+      "Name": "Black Tanktop",
+      "Description": "Most of a shirt.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "BLAZE_SANDALS",
+      "Name": "Blaze Sandals",
+      "Description": "Fancy",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "BROKEN_PROTOTYPE_MINING_SUIT_JUMPJET",
+      "Name": "Broken Prototype Mining Suit Jumpjet",
+      "Set": "Prototype Mining Suit Set",
+      "Description": "A broken prototype jumpjet. It appears that the Jumpjet Core has been forcibly removed, rendering the device useless.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "BROODPACK",
+      "Name": "Broodpack",
+      "Description": "This highly advanced backpack deploys a defensive proximity mine when you crouch. It has a 5 second cooldown.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHIRT_BROWN_LEATHER_JACKET",
+      "Name": "Brown Leather Jacket",
+      "Description": "A leather jacket.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SALVE_BURN",
+      "Name": "Burn Salve",
+      "Description": "A salve specially designed to make you fire resistant. Grants 25% fire resist.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "resistfirepercent",
+          "EffectIntensity": 0.25
+        }
+      ]
+    },
+    {
+      "ItemType": "HAT_CADET",
+      "Name": "Cadet Hat",
+      "Description": "A striking hat.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HAT_CAP",
+      "Name": "Cap",
+      "Description": "A great cap.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PANTS_CARGO",
+      "Name": "Cargo Pants",
+      "Description": "Pants made almost entirely of cargo.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HAT_CONVICT",
+      "Name": "Convict Hat",
+      "Description": "This makes you look like a criminal.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SALVE_CORROSIVE",
+      "Name": "Corrosive Salve",
+      "Description": "A salve that grants 25% resistance to that gross spitter goo and other corrosives.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "resistcorrosivepercent",
+          "EffectIntensity": 0.25
+        }
+      ]
+    },
+    {
+      "ItemType": "CRAWLER_SPINE_BRACE",
+      "Name": "Crawler Spine Brace",
+      "Description": "A crude but effective piece of defensive armor. This will reflect 5 damage back at any attacker.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "thorns",
+          "EffectIntensity": 5
+        }
+      ]
+    },
+    {
+      "ItemType": "ACC_DEFENSE_DRONE",
+      "Name": "Defense Drone",
+      "Description": "Once equipped, this defense drone will patrol the user and attempt to assist in combat using an integrated laser pistol.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "DEFENSEDRONE",
+          "EffectIntensity": 1
+        }
+      ]
+    },
+    {
+      "ItemType": "PANTS_DENIM",
+      "Name": "Denim Pants",
+      "Description": "Pants made almost entirely of denim.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "XENOID_DOUBLEJUMP_BACKPACK",
+      "Name": "Double Jump Backpack",
+      "Description": "This device creates a blast of energy when you are in the air. Basically it lets you do a sweet double jump. It does not require energy to function.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "ACC_DRONE_TARGETTING_COPROCESSOR",
+      "Name": "Drone Targetting Coprocessor",
+      "Description": "This device will speed up the firing rate of your defense drones by reducing the time to establish firing solutions.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "DRONETARGETTINGCOPROCESSOR",
+          "EffectIntensity": 1
+        }
+      ]
+    },
+    {
+      "ItemType": "ENERGY_GLOVE",
+      "Name": "Energy Gloves",
+      "Description": "Grants the Energy Charge gadget ability. You love how good it is.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "ACC_XEN_ENTROPIC_VITALITY",
+      "Name": "Entropic Vitality",
+      "Description": "This seems to be a Xenoid artifact, although its purpose is unclear.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "HEALOVERTIME",
+          "EffectIntensity": 1
+        },
+        {
+          "Effect": "MAXHEALTH",
+          "EffectIntensity": -10
+        }
+      ]
+    },
+    {
+      "ItemType": "ACC_XEN_GRAVITY_MINIMIZER",
+      "Name": "Gravity Minimizer",
+      "Description": "This seems to be a Xenoid artifact, although its purpose is unclear.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "GRAVITYMOD",
+          "EffectIntensity": -0.2
+        }
+      ]
+    },
+    {
+      "ItemType": "HAHNS_PANTS",
+      "Name": "Hahn's Pants",
+      "Set": "Hahn's Set",
+      "Description": "Pants that are coverd in feathers for some reason.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HAHNS_SHIRT",
+      "Name": "Hahn's Shirt",
+      "Set": "Hahn's Set",
+      "Description": "A shirt covered in feathers for some reason.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HAHNS_SHOES",
+      "Name": "Hahn's Shoes",
+      "Set": "Hahn's Set",
+      "Description": "Shoes that are covered in feathers for some reason.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HALLOWEEN_HOOD",
+      "Name": "Halloween Hood",
+      "Description": "A spooky scary hood. It is hooked up to your wrist light somehow, we don't really know how.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HAT_HEADBAND",
+      "Name": "Headband",
+      "Description": "Does not give you infinite ammo because it is not magic. Magic isn't real.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HEPH_WORK_PANTS",
+      "Name": "Hephaestus Work Pants",
+      "Set": "Hephaestus Work Set",
+      "Description": "Pants",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HEPH_WORK_SHIRT",
+      "Name": "Hephaestus Work Shirt",
+      "Set": "Hephaestus Work Set",
+      "Description": "A shirt",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHOES_HEPH_WORK",
+      "Name": "Hephaestus Work Shoes",
+      "Set": "Hephaestus Work Set",
+      "Description": "A smart looking pair of work shoes.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HOCKEY_MASK",
+      "Name": "Hockey Mask",
+      "Description": "A piece of protective hockey gear.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "AUG_IMPACT_COMPESATION_FOOT",
+      "Name": "Impact Compensating Foot Augmentation",
+      "Description": "You never asked for this.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "falldamagemodifier",
+          "EffectIntensity": 0.5
+        }
+      ]
+    },
+    {
+      "ItemType": "ACC_IMPACT_SOLES",
+      "Name": "Impact Soles",
+      "Description": "Stick these in your shoes (or just lick them and stick them to your bare feet) to reduce fall damage by 50%.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "falldamagemodifier",
+          "EffectIntensity": 0.5
+        }
+      ]
+    },
+    {
+      "ItemType": "SALVE_INFLUX",
+      "Name": "Influx Salve",
+      "Description": "A salve that grants 1 energy regen per second for some reason.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "energyovertime",
+          "EffectIntensity": 1
+        }
+      ]
+    },
+    {
+      "ItemType": "JACK_O_LANTERN_MASK",
+      "Name": "Jack O' Lantern",
+      "Description": "A pumpkin carved into a face. That you can wear. For some reason. Lights up when you use your wrist laser somehow.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PANTS_JORTS",
+      "Name": "Jorts",
+      "Description": "Never take these off. Never.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "ACC_KINETIC_INDUCTOR",
+      "Name": "Kinetic Inductor",
+      "Description": "Generates a small amount of capacitor charge every time you take a step. If your capacitor is full, some of the excess energy will be used to charge any equipped battery.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "chargeonstep",
+          "EffectIntensity": 2
+        }
+      ]
+    },
+    {
+      "ItemType": "LED_BACKPACK",
+      "Name": "LED Backpack",
+      "Description": "A combination ambient energy harvester and high efficiency LED lightbulb. It lights your surroundings with no power draw.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1
+    },
+    {
+      "Name": "Large NIMH Battery",
+      "Description": "Increases maximum energy by 30 units.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "maxenergy",
+          "EffectIntensity": 30
+        }
+      ]
+    },
+    {
+      "ItemType": "BACKPACK",
+      "Name": "Leather Backpack",
+      "Set": "Leather Set",
+      "Description": "Provides an extra 25 units of storage to the user's inventory.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "BELT_LEATHER",
+      "Name": "Leather Belt",
+      "Description": "An anachronistic cosmetic device from an age before humans developed the technology to create clothing that fits properly.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "Name": "Lit Jack O' Lantern",
+      "Description": "A lit Jack O' Lantern.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHIRT_BROWN_LONG_SLEEVE",
+      "Name": "Long Sleeve Brown Shirt",
+      "Description": "I have no idea what this is.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "LUCHADOR_MASK",
+      "Name": "Luchador Mask",
+      "Description": "Viva!",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "ACC_MAGNETIC_PROJECTILE_REPULSOR",
+      "Name": "Magnetic Projectile Repulsor",
+      "Description": "A device that uses your energy to generate EM waves in order to to deflect bullets that fly near you. How fortunate! ",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "projectilerepulsor",
+          "EffectIntensity": 1,
+          "Description": "Attempts to redirect projectiles that fly near the player."
+        }
+      ]
+    },
+    {
+      "ItemType": "SHIRT_MAROON",
+      "Name": "Maroon Shirt",
+      "Description": "A shirt.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "ACC_XEN_MASS_ACCUMULATOR",
+      "Name": "Mass Accumulator",
+      "Description": "This seems to be a Xenoid artifact, although its purpose is unclear.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "JUMPHEIGHT",
+          "EffectIntensity": -0.25
+        },
+        {
+          "Effect": "MELEEDAMAGEPERCENT",
+          "EffectIntensity": 0.2
+        }
+      ]
+    },
+    {
+      "ItemType": "ACC_XEN_MASS_DISPLACER",
+      "Name": "Mass Displacer",
+      "Description": "This seems to be a Xenoid artifact, although its purpose is unclear.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "JUMPHEIGHT",
+          "EffectIntensity": 0.15
+        },
+        {
+          "Effect": "MELEEDAMAGEPERCENT",
+          "EffectIntensity": -0.2
+        }
+      ]
+    },
+    {
+      "Name": "Medium NIMH Battery",
+      "Description": "Increases maximum energy by 20 units.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "maxenergy",
+          "EffectIntensity": 20
+        }
+      ]
+    },
+    {
+      "ItemType": "ACC_MELEE_STATIC_CAPACITOR",
+      "Name": "Melee Static Capacitor",
+      "Description": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds of inactivity.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "staticcapacitor",
+          "EffectIntensity": 0.25,
+          "Description": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
+        }
+      ]
+    },
+    {
+      "ItemType": "MINING_LIGHT_HELMET",
+      "Name": "Mining Light Helmet",
+      "Description": "A helmet with an integrated light. It harnesses ambient movement, temperature gradients and excess brainwaves to generate a pretty convenient light.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 5
+    },
+    {
+      "ItemType": "MINING_SUIT_ARMS_MK2",
+      "Name": "Mining Suit Arms Mk2",
+      "Set": "Mining Suit Mk2 Set",
+      "Description": "An improved set of mining arms. Their feedback sensors and muscle augments have been repaired and now provide more protection as well as lets you throw things with 25% more force.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6,
+      "Bonuses": [
+        {
+          "Effect": "throwpowermodifier",
+          "EffectIntensity": 0.25
+        }
+      ]
+    },
+    {
+      "ItemType": "MINING_SUIT_BOOTS_MK2",
+      "Name": "Mining Suit Boots Mk2",
+      "Set": "Mining Suit Mk2 Set",
+      "Description": "These improved mining boots provide more protection and also reduce your fall damage by 50%.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6,
+      "Bonuses": [
+        {
+          "Effect": "falldamagemodifier",
+          "EffectIntensity": 0.5
+        }
+      ]
+    },
+    {
+      "ItemType": "MINING_SUIT_GLOVES_MK2",
+      "Name": "Mining Suit Gloves Mk2",
+      "Set": "Mining Suit Mk2 Set",
+      "Description": "An improved set of mining gloves, that provide more protection as well as warm your hands a little bit which feels great.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "MINING_SUIT_HELMET_MK2",
+      "Name": "Mining Suit Helmet Mk2",
+      "Set": "Mining Suit Mk2 Set",
+      "Description": "An improved version of the mining helmet. It provides more protection and has an integrated trajectory computer to assist in throwing items.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6,
+      "Bonuses": [
+        {
+          "Effect": "trajectorycomputer",
+          "EffectIntensity": 30,
+          "Description": "Shows trajectories."
+        }
+      ]
+    },
+    {
+      "ItemType": "MINING_SUIT_JUMPJET_MK2",
+      "Name": "Mining Suit Jumpjet Mk2",
+      "Set": "Mining Suit Mk2 Set",
+      "Description": "An improved jumpjet that is both faster and more energy efficient. Hold the jump key to activate.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "MINING_SUIT_LEGS_MK2",
+      "Name": "Mining Suit Legs Mk2",
+      "Set": "Mining Suit Mk2 Set",
+      "Description": "These improved mining leggings are still comfortable, but also the muscle support mechanisms have been repaired which increase your jump height slightly.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10,
+      "Bonuses": [
+        {
+          "Effect": "jumpheight",
+          "EffectIntensity": 0.1
+        }
+      ]
+    },
+    {
+      "ItemType": "MINING_SUIT_TORSO_MK2",
+      "Name": "Mining Suit Torso Mk2",
+      "Set": "Mining Suit Mk2 Set",
+      "Description": "An improved mining torso. It provides more protection and makes you feel like you could take on the world.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "XENOID_MOMENTUM_PRESERVER",
+      "Name": "Momentum Preserver",
+      "Description": "This device harnesses some kind of weird alien technology to preserve your momentum when in the air. It does not require energy to function.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "ACC_OPTICAL_CAMO",
+      "Name": "Optical Camouflage",
+      "Description": "A shameless device that renders the user invisible as long as nobody is looking too hard.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "opticalcamo",
+          "EffectIntensity": 1,
+          "Description": "Renders the user mostly invisible"
+        }
+      ]
+    },
+    {
+      "ItemType": "PANTS_ORANGE_JUMPSUIT",
+      "Name": "Orange Jumpsuit Pants",
+      "Set": "Orange Jumpsuit Set",
+      "Description": "Bright orange pants.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHIRT_ORANGE_JUMPSUIT",
+      "Name": "Orange Jumpsuit Shirt",
+      "Set": "Orange Jumpsuit Set",
+      "Description": "Bright orange shirt.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PANTS_SHORTS_ORANGE",
+      "Name": "Orange Shorts",
+      "Description": "Orange shorts.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHOES_SLIPPERS",
+      "Name": "Pink Slippers",
+      "Description": "Comfy!",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PROTOTYPE_MINING_SUIT_ARMS",
+      "Name": "Prototype Mining Suit Arms",
+      "Set": "Prototype Mining Suit Set",
+      "Description": "Much like the leggings, these arm-guards fit comfortably.  Unfortunately, their feedback sensors and muscle augments are not functional. It seems to be designed to interlock with matching pieces of armor.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 12
+    },
+    {
+      "ItemType": "PROTOTYPE_MINING_SUIT_BOOTS",
+      "Name": "Prototype Mining Suit Boots",
+      "Set": "Prototype Mining Suit Set",
+      "Description": "These boots are reinforced with a very durable and impact resistant polymer, however these properties have been severely diminished due to extensive use. It seems to be designed to interlock with matching pieces of armor.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 12
+    },
+    {
+      "ItemType": "PROTOTYPE_MINING_SUIT_GLOVES",
+      "Name": "Prototype Mining Suit Gloves",
+      "Set": "Prototype Mining Suit Set",
+      "Description": "All of the tactile sensors in these gloves have worn out due to age. It seems to be designed to interlock with matching pieces of armor.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 12
+    },
+    {
+      "ItemType": "PROTOTYPE_MINING_SUIT_HELMET",
+      "Name": "Prototype Mining Suit Helmet",
+      "Set": "Prototype Mining Suit Set",
+      "Description": "A worn out protype mining suit helmet. Its battery is corroded over, so there is no telling what it was intended to do. It seems to be designed to interlock with matching pieces of armor.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 12
+    },
+    {
+      "ItemType": "PROTOTYPE_MINING_SUIT_JUMPJET",
+      "Name": "Prototype Mining Suit Jumpjet",
+      "Set": "Prototype Mining Suit Set",
+      "Description": "A basic jumpjet, designed to give you added maneuverability while mining. Hold the jump key to activate.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PROTOTYPE_MINING_SUIT_LEGS",
+      "Name": "Prototype Mining Suit Legs",
+      "Set": "Prototype Mining Suit Set",
+      "Description": "Despite the signs of overuse and wear, these leggings actually fit quite comfortably.  Unfortunately, the muscle support mechanisms burnt out long ago. It seems to be designed to interlock with matching pieces of armor.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 21
+    },
+    {
+      "ItemType": "PROTOTYPE_MINING_SUIT_TORSO",
+      "Name": "Prototype Mining Suit Torso",
+      "Set": "Prototype Mining Suit Set",
+      "Description": "Once considered top of the line, this particular chestpiece should not be trusted for protection beyond the occasional bump or scrape due to its old age and worn out ablative armor plating. It seems to be designed to interlock with matching pieces of armor.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 21
+    },
+    {
+      "ItemType": "PUMPKIN_MASK",
+      "Name": "Pumpkin Mask",
+      "Description": "A pumpkin that you can cram on your face.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PUNCHER_PLATE_HELMET",
+      "Name": "Puncher Plate Helmet",
+      "Description": "This helmet will turn you into a real hard-head.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 10,
+      "Encumbrance": 15
+    },
+    {
+      "ItemType": "SHIRT_RED",
+      "Name": "Red Shirt",
+      "Description": "This shirt is a dangerous shade of red.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PANTS_SKIRT_RED",
+      "Name": "Red Skirt",
+      "Description": "A skirt!",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PANTS_RED_TRACKSUIT",
+      "Name": "Red Tracksuit Pants",
+      "Set": "Red Tracksuit Set",
+      "Description": "Red pants.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHIRT_RED_TRACKSUIT",
+      "Name": "Red Tracksuit Shirt",
+      "Set": "Red Tracksuit Set",
+      "Description": "A red shirt.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHIRT_RED_AND_WHITE",
+      "Name": "Red and White Shirt",
+      "Description": "This shirt is a red AND white, spiffy!",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SALVE_REGENERATIVE",
+      "Name": "Regenerative Salve",
+      "Description": "A salve that grants a small boost to health regeneration.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "healovertime",
+          "EffectIntensity": 0.25
+        }
+      ]
+    },
+    {
+      "ItemType": "HAT_SAFARI",
+      "Name": "Safari Hat",
+      "Description": "For when you have to go on a safari for some reason.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HAT_SHEEP_MASK",
+      "Name": "Sheep Mask",
+      "Description": "A mask",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "Name": "Small NIMH Battery",
+      "Description": "Increases maximum energy by 10 units.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "maxenergy",
+          "EffectIntensity": 10
+        }
+      ]
+    },
+    {
+      "ItemType": "SHOES_SNEAKERS",
+      "Name": "Sneakers",
+      "Description": "A classic.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SOLAR_BACKPACK",
+      "Name": "Solar Backpack",
+      "Description": "A convenient little package that increases your energy generation rate while in the light.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "solarcharge",
+          "EffectIntensity": 2
+        }
+      ]
+    },
+    {
+      "ItemType": "SHOES_SPACEFLEX",
+      "Name": "Spaceflex Boots",
+      "Set": "Spaceflex Set",
+      "Description": "Futuristic boots.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PANTS_SPACEFLEX",
+      "Name": "Spaceflex Pants",
+      "Set": "Spaceflex Set",
+      "Description": "Futuristic pants.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "SHIRT_SPACEFLEX",
+      "Name": "Spaceflex Shirt",
+      "Set": "Spaceflex Set",
+      "Description": "A futuristic shirt.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "AUG_JUMP_LEGS",
+      "Name": "Spring-Loaded Leg Augmentation",
+      "Description": "You never asked for this.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "jumpheight",
+          "EffectIntensity": 0.5
+        }
+      ]
+    },
+    {
+      "Name": "Steel Jump Jet",
+      "Description": "Science!",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "SHOES_SUEDE",
+      "Name": "Suede Shoes",
+      "Description": "They are not blue. Get out.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "TORTOISE_SHELL_BRACE",
+      "Name": "Tortoise Shell Brace",
+      "Description": "A bunch of hard carapace that can be worn on your back.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 5
+    },
+    {
+      "ItemType": "ACC_TRAJECTORY_COMPUTER",
+      "Name": "Trajectory Computer",
+      "Description": "A device that interfaces with your MEG tool and shows the projected trajectory of thrown items and arrows shot from your bow.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1,
+      "Bonuses": [
+        {
+          "Effect": "trajectorycomputer",
+          "EffectIntensity": 30,
+          "Description": "Shows trajectories."
+        }
+      ]
+    },
+    {
+      "ItemType": "ACC_XEN_UNYIELDING_CARAPACE",
+      "Name": "Unyielding Carapace",
+      "Description": "This seems to be a Xenoid artifact, although its purpose is unclear.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "ARMORED",
+          "EffectIntensity": 5
+        }
+      ]
+    },
+    {
+      "ItemType": "SHIRT_WHITE",
+      "Name": "White Shirt",
+      "Description": "A shirt.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HAT_WIDE_BRIM",
+      "Name": "Wide Brim Hat",
+      "Description": "A stylin' hat.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "HAT_WINTER",
+      "Name": "Winter Hat",
+      "Description": "A man walks down the street in that hat, people know he's not afraid of anything.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "PANTS_YOGA",
+      "Name": "Yoga Pants",
+      "Description": "Tight fitting pants.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0
+    },
+    {
+      "ItemType": "BONE_ARMS",
+      "Name": "Bone Arms",
+      "Set": "Bone Set",
+      "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "BONE_BOOTS",
+      "Name": "Bone Boots",
+      "Set": "Bone Set",
+      "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "BONE_GLOVES",
+      "Name": "Bone Gloves",
+      "Set": "Bone Set",
+      "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "BONE_HELMET",
+      "Name": "Bone Helmet",
+      "Set": "Bone Set",
+      "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "BONE_LEGS",
+      "Name": "Bone Legs",
+      "Set": "Bone Set",
+      "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 17
+    },
+    {
+      "ItemType": "BONE_TORSO",
+      "Name": "Bone Torso",
+      "Set": "Bone Set",
+      "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 17
+    },
+    {
+      "ItemType": "GEM_ARMS",
+      "Name": "Bornite Arms",
+      "Set": "Bornite Set",
+      "Description": "This armor piece helps to reduce negativity.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "GEM_BOOTS",
+      "Name": "Bornite Boots",
+      "Set": "Bornite Set",
+      "Description": "This armor piece reminds you that life is joyful.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "GEM_GLOVES",
+      "Name": "Bornite Gloves",
+      "Set": "Bornite Set",
+      "Description": "This armor piece helps to break old patterns of emotion.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "GEM_HELMET",
+      "Name": "Bornite Helmet",
+      "Set": "Bornite Set",
+      "Description": "This armor piece helps to break old patterns of thought.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "GEM_LEGS",
+      "Name": "Bornite Legs",
+      "Set": "Bornite Set",
+      "Description": "This armor piece helps to release that which is no longer useful.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "GEM_TORSO",
+      "Name": "Bornite Torso",
+      "Set": "Bornite Set",
+      "Description": "This armor piece brings you happiness.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "BRONZE_ARMS",
+      "Name": "Bronze Arms",
+      "Set": "Bronze Set",
+      "Description": "Arm-guards made of a copper alloy formed by adding tin to the smelter.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "BRONZE_BOOTS",
+      "Name": "Bronze Boots",
+      "Set": "Bronze Set",
+      "Description": "Comfy and functional, who could ask for more to protect their feet?",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "BRONZE_GLOVES",
+      "Name": "Bronze Gloves",
+      "Set": "Bronze Set",
+      "Description": "Protect your fingers with these alloyed gauntlets.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "BRONZE_HELMET",
+      "Name": "Bronze Helmet",
+      "Set": "Bronze Set",
+      "Description": "A stylish helmet, inspired by a roman centurion.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "BRONZE_LEGS",
+      "Name": "Bronze Legs",
+      "Set": "Bronze Set",
+      "Description": "Leggings that offer increased protection over iron or copper.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 14
+    },
+    {
+      "ItemType": "BRONZE_TORSO",
+      "Name": "Bronze Torso",
+      "Set": "Bronze Set",
+      "Description": "This deftly designed armor offers superior protection compared to lesser metals.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 14
+    },
+    {
+      "ItemType": "COPPER_ARMS",
+      "Name": "Copper Arms",
+      "Set": "Copper Set",
+      "Description": "Be proper as a penny in these arm-guards.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "COPPER_BOOTS",
+      "Name": "Copper Boots",
+      "Set": "Copper Set",
+      "Description": "A nice shiny pair of copper boots.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "COPPER_GLOVES",
+      "Name": "Copper Gloves",
+      "Set": "Copper Set",
+      "Description": "Copper gloves, that provide slight protection.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "COPPER_HELMET",
+      "Name": "Copper Helmet",
+      "Set": "Copper Set",
+      "Description": "A simple copper metal helmet.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "COPPER_LEGS",
+      "Name": "Copper Legs",
+      "Set": "Copper Set",
+      "Description": "A copper set of leggings.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 14
+    },
+    {
+      "ItemType": "COPPER_TORSO",
+      "Name": "Copper Torso",
+      "Set": "Copper Set",
+      "Description": "A copper piece of torso armor. Provides some protection against attacks.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 14
+    },
+    {
+      "ItemType": "ENERGY_PLATE_ARMS",
+      "Name": "Energy Plate Arms",
+      "Set": "Energy Plate Set",
+      "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "ENERGY_PLATE_BOOTS",
+      "Name": "Energy Plate Boots",
+      "Set": "Energy Plate Set",
+      "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "ENERGY_PLATE_BATTERY_PACK",
+      "Name": "Energy Plate Capacitor Pack",
+      "Set": "Energy Plate Set",
+      "Description": "This special backpack has been designed to harness the unique properties of Energite in order to enhance your MEG tool's capacitor capacity and generate a medium-level energy-shield.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "MAXENERGY",
+          "EffectIntensity": 50
+        },
+        {
+          "Effect": "EnergyShield",
+          "EffectIntensity": 15
+        }
+      ]
+    },
+    {
+      "ItemType": "ENERGY_PLATE_GLOVES",
+      "Name": "Energy Plate Gloves",
+      "Set": "Energy Plate Set",
+      "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "ENERGY_PLATE_HELMET",
+      "Name": "Energy Plate Helmet",
+      "Set": "Energy Plate Set",
+      "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "ENERGY_PLATE_LEGS",
+      "Name": "Energy Plate Legs",
+      "Set": "Energy Plate Set",
+      "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "ENERGY_PLATE_TORSO",
+      "Name": "Energy Plate Torso",
+      "Set": "Energy Plate Set",
+      "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "GHOST_HIDE_ARMS",
+      "Name": "Ghost Hide Arms",
+      "Set": "Ghost Hide Set",
+      "Description": "A spooky hide-based set of arm armor. Reflects 2 damage.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 4,
+      "Bonuses": [
+        {
+          "Effect": "thorns",
+          "EffectIntensity": 2
+        }
+      ]
+    },
+    {
+      "ItemType": "GHOST_HIDE_BOOTS",
+      "Name": "Ghost Hide Boots",
+      "Set": "Ghost Hide Set",
+      "Description": "A spooky hide-based pair of boots. Increases soul drain by 20%",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 4,
+      "Bonuses": [
+        {
+          "Effect": "souldrain",
+          "EffectIntensity": 0.2
+        }
+      ]
+    },
+    {
+      "ItemType": "GHOST_HIDE_GLOVES",
+      "Name": "Ghost Hide Gloves",
+      "Set": "Ghost Hide Set",
+      "Description": "A spooky hide-based pair of gloves. Increases soul drain by 20%",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 4,
+      "Bonuses": [
+        {
+          "Effect": "souldrain",
+          "EffectIntensity": 0.2
+        }
+      ]
+    },
+    {
+      "ItemType": "GHOST_HIDE_HELMET",
+      "Name": "Ghost Hide Helmet",
+      "Set": "Ghost Hide Set",
+      "Description": "A spooky hide-based helmet. Increases soul drain by 20%",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 4,
+      "Bonuses": [
+        {
+          "Effect": "souldrain",
+          "EffectIntensity": 0.2
+        }
+      ]
+    },
+    {
+      "ItemType": "GHOST_HIDE_LEGS",
+      "Name": "Ghost Hide Legs",
+      "Set": "Ghost Hide Set",
+      "Description": "A spooky hide-based pair of leggings. Reflects 2 damage.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 7,
+      "Bonuses": [
+        {
+          "Effect": "thorns",
+          "EffectIntensity": 2
+        }
+      ]
+    },
+    {
+      "ItemType": "GHOST_HIDE_TORSO",
+      "Name": "Ghost Hide Torso",
+      "Set": "Ghost Hide Set",
+      "Description": "A spooky hide-based piece of torso armor. Reflects 2 damage.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 7,
+      "Bonuses": [
+        {
+          "Effect": "thorns",
+          "EffectIntensity": 2
+        }
+      ]
+    },
+    {
+      "ItemType": "HEPHAESTUS_MINING_SUIT_ARMS",
+      "Name": "Hephaestus Mining Arms",
+      "Set": "Hephaestus Mining Set",
+      "Description": "These are standard issue Hephaestus Mining Suit Arms.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2.5,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "HEPHAESTUS_MINING_SUIT_BACKPACK",
+      "Name": "Hephaestus Mining Backpack",
+      "Set": "Hephaestus Mining Set",
+      "Description": "This is a standard issue Hephaestus Mining Suit Backpack, which comes pre-installed with an oxygen tank and other bio-regulation systems.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "HEPHAESTUS_MINING_SUIT_BOOTS",
+      "Name": "Hephaestus Mining Boots",
+      "Set": "Hephaestus Mining Set",
+      "Description": "These are standard issue Hephaestus Mining Suit Boots.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2.5,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "HEPHAESTUS_MINING_SUIT_GLOVES",
+      "Name": "Hephaestus Mining Gloves",
+      "Set": "Hephaestus Mining Set",
+      "Description": "These are standard issue Hephaestus Mining Suit Gloves.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2.5,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "HEPHAESTUS_MINING_SUIT_HELMET",
+      "Name": "Hephaestus Mining Helmet",
+      "Set": "Hephaestus Mining Set",
+      "Description": "This is a standard issue Hephaestus Mining Suit Helmet.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2.5,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "HEPHAESTUS_MINING_SUIT_LEGS",
+      "Name": "Hephaestus Mining Legs",
+      "Set": "Hephaestus Mining Set",
+      "Description": "These are standard issue Hephaestus Mining Suit Legs.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3.5,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "HEPHAESTUS_MINING_SUIT_TORSO",
+      "Name": "Hephaestus Mining Torso",
+      "Set": "Hephaestus Mining Set",
+      "Description": "This is a standard issue Hephaestus Mining Suit Torso.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3.5,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "XENITE_ARMS",
+      "Name": "Hybrid Arms",
+      "Set": "Hybrid Set",
+      "Description": "Arm armor that has been crafted from a combination of traditional and exotic materials.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "XENITE_BOOTS",
+      "Name": "Hybrid Boots",
+      "Set": "Hybrid Set",
+      "Description": "Boots that have been crafted from a combination of traditional and exotic materials.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "XENITE_GLOVES",
+      "Name": "Hybrid Gloves",
+      "Set": "Hybrid Set",
+      "Description": "Gloves that have been crafted from a combination of traditional and exotic materials.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "XENITE_HELMET",
+      "Name": "Hybrid Helmet",
+      "Set": "Hybrid Set",
+      "Description": "A helmet that has been crafted from a combination of traditional and exotic materials.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "XENITE_LEGS",
+      "Name": "Hybrid Legs",
+      "Set": "Hybrid Set",
+      "Description": "Leg armor that has been crafted from a combination of traditional and exotic materials.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "XENITE_BACKPACK",
+      "Name": "Hybrid Reactor Pack",
+      "Set": "Hybrid Set",
+      "Description": "A back-worn energy reactor of some kind. Simulations indicate that it should regenerate alien energy at a rate of 2 units per minute.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 0,
+      "Bonuses": [
+        {
+          "Effect": "alienenergyregen",
+          "EffectIntensity": 2,
+          "Description": "Generates 2 units of alien energy per minute."
+        }
+      ]
+    },
+    {
+      "ItemType": "XENITE_TORSO",
+      "Name": "Hybrid Torso",
+      "Set": "Hybrid Set",
+      "Description": "Torso armor that has been crafted from a combination of traditional and exotic materials.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "IRON_ARMS",
+      "Name": "Iron Arms",
+      "Set": "Iron Set",
+      "Description": "Metal armguards fit to carry a lance.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2.5,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "IRON_BOOTS",
+      "Name": "Iron Boots",
+      "Set": "Iron Set",
+      "Description": "These boots probably won many a melee back in the dark ages.  Actually, they didn't because you just made them.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2.5,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "IRON_GLOVES",
+      "Name": "Iron Gloves",
+      "Set": "Iron Set",
+      "Description": "Smite your adversaries with these metal gauntlets.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2.5,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "IRON_HELMET",
+      "Name": "Iron Helmet",
+      "Set": "Iron Set",
+      "Description": "Get medieval on your foes with this helmet.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2.5,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "IRON_LEGS",
+      "Name": "Iron Legs",
+      "Set": "Iron Set",
+      "Description": "Heavy metal casings for your meat columns.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3.5,
+      "Encumbrance": 14
+    },
+    {
+      "ItemType": "IRON_TORSO",
+      "Name": "Iron Torso",
+      "Set": "Iron Set",
+      "Description": "This very heavy chestpiece hinders movement but offers great physical protection.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3.5,
+      "Encumbrance": 14
+    },
+    {
+      "ItemType": "LEAPER_BOOTS",
+      "Name": "Leaper Boots",
+      "Set": "Leaper Set",
+      "Description": "Fatty round butt",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "LEAPER_LEGS",
+      "Name": "Leaper Legs",
+      "Set": "Leaper Set",
+      "Description": "Fatty round butt",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 15
+    },
+    {
+      "ItemType": "LEATHER_ARMS",
+      "Name": "Leather Arms",
+      "Set": "Leather Set",
+      "Description": "While leather may not offer the best protection, one's dexterity remains unhindered by these light arm-guards.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "LEATHER_BOOTS",
+      "Name": "Leather Boots",
+      "Set": "Leather Set",
+      "Description": "While these boots do protect your feet, they don't breathe.  Be sure to wash them often!",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "LEATHER_GLOVES",
+      "Name": "Leather Gloves",
+      "Set": "Leather Set",
+      "Description": "Gloves that allow freedom of movement, provide warmth and will protect them digits.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "LEATHER_HELMET",
+      "Name": "Leather Helmet",
+      "Set": "Leather Set",
+      "Description": "This stylish cap provides modest protection while keeping your ears warm.  Delightful!",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "LEATHER_LEGS",
+      "Name": "Leather Legs",
+      "Set": "Leather Set",
+      "Description": "These leather leggings provide minor protection but fit snugly to the thighs.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 7
+    },
+    {
+      "ItemType": "LEATHER_TORSO",
+      "Name": "Leather Torso",
+      "Set": "Leather Set",
+      "Description": "As a fashion statement out of the 14th century, this medieval garb is sure to turn some heads.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 7
+    },
+    {
+      "ItemType": "STEEL_ARMS",
+      "Name": "Nano-Steel Arms",
+      "Set": "Nano-Steel Set",
+      "Description": "Science and technology filled arm armor that protects you without encumbering you, isn't modern technology great?",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "STEEL_BOOTS",
+      "Name": "Nano-Steel Boots",
+      "Set": "Nano-Steel Set",
+      "Description": "Hard, light, and made for stomping. These boots are basically great.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "STEEL_GLOVES",
+      "Name": "Nano-Steel Gloves",
+      "Set": "Nano-Steel Set",
+      "Description": "High quality gloves matched with low encumbrance, its really pretty convenient.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "STEEL_HELMET",
+      "Name": "Nano-Steel Helmet",
+      "Set": "Nano-Steel Set",
+      "Description": "A high tech, high quality steel helmet. Lightencumbrance, but incredibly strong.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "STEEL_LEGS",
+      "Name": "Nano-Steel Legs",
+      "Set": "Nano-Steel Set",
+      "Description": "High quality protection, light encumbrance, and full of science, what more could you ask for from a pair of armored leggings?",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "STEEL_TORSO",
+      "Name": "Nano-Steel Torso",
+      "Set": "Nano-Steel Set",
+      "Description": "A high quality steel torso armor piece, which provides incredible protection paired with some sort of gears or servos or some other sciency mumbo jumbo.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PATCHWORK_ARMS",
+      "Name": "Patchwork Arms",
+      "Set": "Patchwork Set",
+      "Description": "Slight feelings of apprehension and disgust waft through your mind every time you don these arm-guards.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PATCHWORK_BOOTS",
+      "Name": "Patchwork Boots",
+      "Set": "Patchwork Set",
+      "Description": "These boots are guaranteed to protect your feet from small sharp rocks and other minor harms, except for all the splinters.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PATCHWORK_GLOVES",
+      "Name": "Patchwork Gloves",
+      "Set": "Patchwork Set",
+      "Description": "These aren't even really gloves, they're just bracers for hecks sake!",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PATCHWORK_HELMET",
+      "Name": "Patchwork Helmet",
+      "Set": "Patchwork Set",
+      "Description": "A pitiful helmet of sticks and twigs you have lashed to your head. Is this really better than nothing?",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PATCHWORK_LEGS",
+      "Name": "Patchwork Legs",
+      "Set": "Patchwork Set",
+      "Description": "Glorious leggings composed of the filth you managed to scrape together. You should be ashamed of yourself.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 17
+    },
+    {
+      "ItemType": "PATCHWORK_TORSO",
+      "Name": "Patchwork Torso",
+      "Set": "Patchwork Set",
+      "Description": "A shameful construct of bug bits, plant fiber and wood.  Nudity may be a reasonable alternative.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 1,
+      "Encumbrance": 17
+    },
+    {
+      "ItemType": "PLATINUM_ARMS",
+      "Name": "Piezoelectric Arms",
+      "Set": "Piezo Set",
+      "Description": "Advanced arm armor build around a lattice of platinum.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PLATINUM_BOOTS",
+      "Name": "Piezoelectric Boots",
+      "Set": "Piezo Set",
+      "Description": "Advanced boot armor build around a lattice of platinum.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PLATINUM_GLOVES",
+      "Name": "Piezoelectric Gloves",
+      "Set": "Piezo Set",
+      "Description": "Advanced glove armor build around a lattice of platinum.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PLATINUM_HELMET",
+      "Name": "Piezoelectric Helmet",
+      "Set": "Piezo Set",
+      "Description": "Advanced helmet build around a lattice of platinum.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PLATINUM_LEGS",
+      "Name": "Piezoelectric Legs",
+      "Set": "Piezo Set",
+      "Description": "Advanced leg armor build around a lattice of platinum.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 8,
+      "Encumbrance": 17
+    },
+    {
+      "ItemType": "PLATINUM_TORSO",
+      "Name": "Piezoelectric Torso",
+      "Set": "Piezo Set",
+      "Description": "Advanced torso armor build around a lattice of platinum.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 8,
+      "Encumbrance": 17
+    },
+    {
+      "ItemType": "PLATED_HIDE_ARMS",
+      "Name": "Plated Hide Arms",
+      "Set": "Plated Hide Set",
+      "Description": "Arm-guards made from the hide of some unfortunate beast to cross your path.  Better protection than leather, but with added encumbrance.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PLATED_HIDE_BOOTS",
+      "Name": "Plated Hide Boots",
+      "Set": "Plated Hide Set",
+      "Description": "Don't worry about stubbing your toes in these better-than-leather boots.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PLATED_HIDE_GLOVES",
+      "Name": "Plated Hide Gloves",
+      "Set": "Plated Hide Set",
+      "Description": "These gloves will protect your fingers from crushed, thanks to an armored creature you crushed yourself.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PLATED_HIDE_HELMET",
+      "Name": "Plated Hide Helmet",
+      "Set": "Plated Hide Set",
+      "Description": "You feel uniquely safe and secure in this helmet made of thick plated hide.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "PLATED_HIDE_LEGS",
+      "Name": "Plated Hide Legs",
+      "Set": "Plated Hide Set",
+      "Description": "These plated hide leggings will offer you better protection against physical damage than standard leather, but they weigh more.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 17
+    },
+    {
+      "ItemType": "PLATED_HIDE_TORSO",
+      "Name": "Plated Hide Torso",
+      "Set": "Plated Hide Set",
+      "Description": "Plated hide armor provides the strength of iron but will offer no protection against extreme heat.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 17
+    },
+    {
+      "ItemType": "GEOGUY_ARMS",
+      "Name": "Rock Arms",
+      "Set": "Rock Set",
+      "Description": "Hard like rock",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 10,
+      "Encumbrance": 15
+    },
+    {
+      "ItemType": "GEOGUY_GLOVES",
+      "Name": "Rock Gloves",
+      "Set": "Rock Set",
+      "Description": "Hard like rock",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 10,
+      "Encumbrance": 15
+    },
+    {
+      "ItemType": "RUBBER_ARMS",
+      "Name": "Rubber Arms",
+      "Set": "Rubber Set",
+      "Description": "Rubbery alien arm armor",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 3
+    },
+    {
+      "ItemType": "RUBBER_BACKPACK",
+      "Name": "Rubber Backpack",
+      "Set": "Rubber Set",
+      "Description": "A rubbery alien powerpack",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 0,
+      "Encumbrance": 1
+    },
+    {
+      "ItemType": "RUBBER_BOOTS",
+      "Name": "Rubber Boots",
+      "Set": "Rubber Set",
+      "Description": "Rubbery alien Boots",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "RUBBER_GLOVES",
+      "Name": "Rubber Gloves",
+      "Set": "Rubber Set",
+      "Description": "Rubbery alien Gloves",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "RUBBER_HELMET",
+      "Name": "Rubber Helmet",
+      "Set": "Rubber Set",
+      "Description": "A rubbery alien helmet",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "RUBBER_LEGS",
+      "Name": "Rubber Legs",
+      "Set": "Rubber Set",
+      "Description": "Rubbery alien leg armor",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 8,
+      "Encumbrance": 9
+    },
+    {
+      "ItemType": "RUBBER_TORSO",
+      "Name": "Rubber Torso",
+      "Set": "Rubber Set",
+      "Description": "A rubbery alien chestpiece",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 8,
+      "Encumbrance": 9
+    },
+    {
+      "ItemType": "SILVER_ARMS",
+      "Name": "Silver Arms",
+      "Set": "Silver Set",
+      "Description": "Silver arm-guards offering decent protection, but weak to energy damage.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "SILVER_BOOTS",
+      "Name": "Silver Boots",
+      "Set": "Silver Set",
+      "Description": "Lightencumbrance boots that add a zip to your step.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "SILVER_GLOVES",
+      "Name": "Silver Gloves",
+      "Set": "Silver Set",
+      "Description": "Quicksilver for quick fingers.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "SILVER_HELMET",
+      "Name": "Silver Helmet",
+      "Set": "Silver Set",
+      "Description": "A shiny silver helmet, fit to protect your special head.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 5,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "SILVER_LEGS",
+      "Name": "Silver Legs",
+      "Set": "Silver Set",
+      "Description": "These shiny leggings won't impede your speed.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "SILVER_TORSO",
+      "Name": "Silver Torso",
+      "Set": "Silver Set",
+      "Description": "Well crafted armor, offering protection at a reduced encumbrance.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "STEEL_COMBAT_BOOTS",
+      "Name": "Combat Boots",
+      "Set": "Steel Combat Set",
+      "Description": "These steel toed combat boots provide effective protection while maintaining mobility.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 5
+    },
+    {
+      "ItemType": "STEEL_COMBAT_GLOVES",
+      "Name": "Combat Gloves",
+      "Set": "Steel Combat Set",
+      "Description": "Gloves fitted with steel plates for protection.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 5
+    },
+    {
+      "ItemType": "STEEL_COMBAT_HELMET",
+      "Name": "Combat Helmet",
+      "Set": "Steel Combat Set",
+      "Description": "This steel combat helmet provides effective protection while maintaining mobility.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 5
+    },
+    {
+      "ItemType": "STEEL_COMBAT_ARMS",
+      "Name": "Combat Shoulder Plates",
+      "Set": "Steel Combat Set",
+      "Description": "Armored shoulder gear with steel inserts for protection.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 5
+    },
+    {
+      "ItemType": "STEEL_PLATE_CARRIER_TORSO",
+      "Name": "Plate Carrier Vest",
+      "Set": "Steel Combat Set",
+      "Description": "This steel plate carrier vest provides effective protection while maintaining mobility.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 8,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "STEEL_COMBAT_LEGGINGS",
+      "Name": "Steel Plated Leggings",
+      "Set": "Steel Combat Set",
+      "Description": "Leggings fitted with steel plates for protection.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 8,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "TIN_ARMS",
+      "Name": "Tin Arms",
+      "Set": "Tin Set",
+      "Description": "Tin arm-sockets to prevent you from corroding and decroding.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "TIN_BOOTS",
+      "Name": "Tin Boots",
+      "Set": "Tin Set",
+      "Description": "Stepping through any corrosive subtance in these boots will diminish the negative side-effects.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "TIN_GLOVES",
+      "Name": "Tin Gloves",
+      "Set": "Tin Set",
+      "Description": "Protect your fingers from melting in these tin gauntlets.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "TIN_HELMET",
+      "Name": "Tin Helmet",
+      "Set": "Tin Set",
+      "Description": "This helmet's cylindrical shape and material composition doesn't do much for you when deflecting physical blows, but any corrosive damage will be heavily reduced by it.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 8
+    },
+    {
+      "ItemType": "TIN_LEGS",
+      "Name": "Tin Legs",
+      "Set": "Tin Set",
+      "Description": "A tin set of legs.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 14
+    },
+    {
+      "ItemType": "TIN_TORSO",
+      "Name": "Tin Torso",
+      "Set": "Tin Set",
+      "Description": "This fashionable tin chestpiece offers decent protection.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 4,
+      "Encumbrance": 14
+    },
+    {
+      "ItemType": "TITANIUM_ARMS",
+      "Name": "Titanium Arms",
+      "Set": "Titanium Set",
+      "Description": "This armor is built using Titanium, and as a result it is light and strong.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6,
+      "Bonuses": [
+        {
+          "Effect": "MELEESTAMINACOST",
+          "EffectIntensity": -0.15
+        }
+      ]
+    },
+    {
+      "ItemType": "TITANIUM_BOOTS",
+      "Name": "Titanium Boots",
+      "Set": "Titanium Set",
+      "Description": "This armor is built using Titanium, and as a result it is light and strong.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6,
+      "Bonuses": [
+        {
+          "Effect": "MOVEMENTSTAMINACOST",
+          "EffectIntensity": -0.15
+        }
+      ]
+    },
+    {
+      "ItemType": "TITANIUM_GLOVES",
+      "Name": "Titanium Gloves",
+      "Set": "Titanium Set",
+      "Description": "This armor is built using Titanium, and as a result it is light and strong.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6,
+      "Bonuses": [
+        {
+          "Effect": "MELEESTAMINACOST",
+          "EffectIntensity": -0.15
+        }
+      ]
+    },
+    {
+      "ItemType": "TITANIUM_HELMET",
+      "Name": "Titanium Helmet",
+      "Set": "Titanium Set",
+      "Description": "This armor is built using Titanium, and as a result it is light and strong.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 6,
+      "Encumbrance": 6
+    },
+    {
+      "ItemType": "TITANIUM_LEGS",
+      "Name": "Titanium Legs",
+      "Set": "Titanium Set",
+      "Description": "This armor is built using Titanium, and as a result it is light and strong.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10,
+      "Bonuses": [
+        {
+          "Effect": "MOVEMENTSTAMINACOST",
+          "EffectIntensity": -0.15
+        }
+      ]
+    },
+    {
+      "ItemType": "TITANIUM_TORSO",
+      "Name": "Titanium Torso",
+      "Set": "Titanium Set",
+      "Description": "This armor is built using Titanium, and as a result it is light and strong.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 7,
+      "Encumbrance": 10
+    },
+    {
+      "ItemType": "XENOHIDE_ARMS",
+      "Name": "Xenohide Arms",
+      "Set": "Xenohide Set",
+      "Description": "Leathery arm armor made from some creature's skin.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "XENOHIDE_BOOTS",
+      "Name": "Xenohide Boots",
+      "Set": "Xenohide Set",
+      "Description": "Leathery boots made from some creature's skin.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "XENOHIDE_GLOVES",
+      "Name": "Xenohide Gloves",
+      "Set": "Xenohide Set",
+      "Description": "Leathery gloves made from some creature's skin.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "XENOHIDE_HELMET",
+      "Name": "Xenohide Helmet",
+      "Set": "Xenohide Set",
+      "Description": "A squishy leathery helmet made from some creature's skin.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 2,
+      "Encumbrance": 4
+    },
+    {
+      "ItemType": "XENOHIDE_LEGS",
+      "Name": "Xenohide Legs",
+      "Set": "Xenohide Set",
+      "Description": "Leathery leggings made from some creature's skin.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 7
+    },
+    {
+      "ItemType": "XENOHIDE_TORSO",
+      "Name": "Xenohide Torso",
+      "Set": "Xenohide Set",
+      "Description": "A leathery piece of torso armor made from some creature's skin.",
+      "DamageReductionPercent": 0,
+      "DamageReductionFlat": 3,
+      "Encumbrance": 7
+    }
+  ]
+}

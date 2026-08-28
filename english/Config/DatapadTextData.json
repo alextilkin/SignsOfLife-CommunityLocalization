@@ -1,0 +1,476 @@
+[
+  {
+    "ID": 1,
+    "Title": "Blasting into the Ruins",
+    "Category": "Mining Records",
+    "Text": "Ok, we're ready to at least try and blast our way into the ruins as soon as Captain [CAPTAIN] gives us the go-ahead. We ran out of C4 2 weeks ago, but luckily we were able to craft some crude black powder bombs with some of the resources we could scavenge. I sincerely hope the Hephaestus gets here soon, I'm getting really sick of crawling through that disgusting guano to get saltpeter. "
+  },
+  {
+    "ID": 2,
+    "Title": "I give up",
+    "Category": "Pioneer Station Records",
+    "Text": "I give up. \nRetreat and fortify is my final option.\nHe's really gone mad, I didn't want to believe it but there is no question now. I don't know if it was space madness during the trip or the exposure to the... artifacts, but he's changed. He's become something I... can't even \nunderstand. Why would a man do that to himself? How could a man do that to himself? No really... how?\nNow I sit here, holed up in my quarters hoping the supplies I managed to gather last until the screams and the clucking stops.\n"
+  },
+  {
+    "ID": 3,
+    "Title": "What a horrible night",
+    "Category": "Pioneer Station Records",
+    "Text": "I don't know how much longer I have. \nI thought I was safe in my quarters, he's far too big to get up the platforms...\nHe just keeps blasting away, chipping through little by little.\nIf anyone finds this, tell my family I love them.\nWhat a horrible night.\n"
+  },
+  {
+    "ID": 4,
+    "Title": "SAFETY FOLKS",
+    "Category": "Pioneer Station Records",
+    "Text": "Security Memo: For the love of god, turn the robot off when you guys leave the armory! I've had too many close calls and if you guys aren't careful someone is going to take a bullet to the teeth!"
+  },
+  {
+    "ID": 5,
+    "Title": "Get out",
+    "Category": "Pioneer Station Records",
+    "Text": "Get out."
+  },
+  {
+    "ID": 6,
+    "Title": "Lucky One",
+    "Category": "Mining Records",
+    "Text": "Dear Diary,\nI kept telling myself I was the lucky one,\nThat I was the smart one...\nNow I almost wish it had been over quickly.\nI had been here for 12 hours when I heard the gunfire and screams.\nIts been weeks now.\nI'm so hungry, so lonely, so bored.\nRan out of burgers days ago, wanted to take more but 3d printer was broken.\nMy only hope is the creatures will leave soon.\nI still hear them up there now and then, screeching commands at each other. \nI think they are looking for something.\nI hope it isn't me.\n-[XENOBIOLOGIST]"
+  },
+  {
+    "ID": 7,
+    "Title": "Tainted Biosphere",
+    "Category": "Pioneer Station Records",
+    "Text": "I'm just putting this in writing now, so that nobody can say I didn't warn them. Its a mistake to let the earth-native animals out into the open, even if they are in a giant pen. Hahn assures us all that his wall will keep the earth animals out of the rest of the biosphere, but I am dubious, life will find a way. We were given explicit orders, and when I brought this up with Hahn directly, he just called me a chicken and started clucking while flapping his arms.\nHe kept clucking until I left the room.\nHe stared at me right in the eyes the whole time.\nHe didn't blink, not even once.\nWe're doomed.\n-Head Xenobiologist [XENOBIOLOGIST]"
+  },
+  {
+    "ID": 8,
+    "Title": "Stranded, Issue 1",
+    "Category": "Helpful",
+    "Text": "So You've Been Stranded...\nIssue 1 - \"The first 24 hours\"\n\nSo you've been stranded... scared and alone on a potentially hostile alien planet. What do you do?\n\nIf your first instinct is to dig a hole and hide in it to avoid the local fauna (and sometimes flora), then go with your gut, it is probably a good idea to build some kind of shelter. Feel free to hide, cowering in the corner for as long as you'd like, but eventually you're going to get hungry, thirsty or bored, and you're going to have to go scavenging. Any planet with a healthy biosphere will likely have most of the basic materials you'd need to survive, but make sure to avoid getting stranded on any planets that do not have those materials.\n\nYour standard issue MEG tool has many useful functions for survival. The most valuable function of the MEG tool is the built in AGIS personal assistant/companion. AGIS will assist you by providing recipes and useful information that will greatly increase your chances of survival.* The MEG tool also has an Extraction Laser to dig through various materials such as dirt and wood. The Manipulation Laser allows you to pull items towards you through a very scientific and technical process. In addition, Your MEG tool is also equipped with a convenient light, that you can use to look at things that would normally be too dark to see. There is also a little minimap that can show you any signals in the vicinity. \n\n*Once you leave communication range with your home ship, the AGIS system in your MEG tool will revert to its emergency backup mode. In this backup mode, AGIS's AI routines are run locally, rather than in the ship-wide cloud computing network. As a result, you may notice a minor degradation in overall performance, but don't worry, it's fine, AGIS will still probably be a net benefit on a long enough timeline.\n\nFinally, the most important thing to keep in mind on any potentially hostile planet is that some planets have tiny little bugs that burrow through your skin and lay eggs inside of you, so do not get stranded on a planet with those creatures.\n"
+  },
+  {
+    "ID": 9,
+    "Title": "Stranded, Issue 2",
+    "Category": "Helpful",
+    "Text": "So You've Been Stranded...\nIssue 2 - \"It's fine. Everything is fine.\"\n\nIf you're reading this then you've probably survived at least the first day on a hostile planet. \n"
+  },
+  {
+    "ID": 10,
+    "Title": "Contraband Report",
+    "Category": "Pioneer Station Records",
+    "Text": "Contraband Report:\nDr. Hahn was caught outside the Pioneer Station burning the glow ants with a lens. He was cackling maniacally and when I questioned him he told me he was \"Scouring the unclean beasts, so that the fowl may inherit Osiris.\" I'd give him a demerit or something if it would mean anything, but he doesn't care about them... \n\nI hope the Hephaestus gets here soon, or we're all going to lose our damn minds.\n-Captain [CAPTAIN] \n"
+  },
+  {
+    "ID": 11,
+    "Title": "Chicken List",
+    "Category": "Pioneer Station Records",
+    "Text": "If I could be any animal, I'd be a chicken. I'd be a big yellow chicken. Here are some reasons why chickens are pretty cool:\n1: They are friendly\n2: They are aerodynamic\n3: They have feathers\n4: They're cute\n5: They make food from their bodies\n-Dr Hahn\n"
+  },
+  {
+    "ID": 12,
+    "Title": "Tiny Home",
+    "Category": "Pioneer Station Records",
+    "Text": "egg"
+  },
+  {
+    "ID": 13,
+    "Title": "Hahn is a Problem",
+    "Category": "Pioneer Station Records",
+    "Text": "Keep Dr. Hahn away from anything dangerous. He may be a brilliant engineer, but he's a crazy person, and I am sick of his crap.\n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 14,
+    "Title": "Actually Hahn is Great",
+    "Category": "Pioneer Station Records",
+    "Text": "Dr. Hahn should get a promotion and should be given all the tools he needs to complete his goals. I personally vouch for his skill and he is great. \n-Anonymous"
+  },
+  {
+    "ID": 15,
+    "Title": "Stinkturd Captain",
+    "Category": "Pioneer Station Records",
+    "Text": "That stinkturd Captain [CAPTAIN] took my lens away for basically no reason and said he put it \"somewhere safe\" and that if I needed one for any science reasons to requisition a lens from him. Balls to that though, so I'm designing my very own EVEN BETTER lens."
+  },
+  {
+    "ID": 16,
+    "Title": "Jewel Axe Details",
+    "Category": "Engineering Details",
+    "Text": "When we set out to craft the perfect axe, our impossible goal was to engineer a weapon that married the heft of a brutal smashing weapon, with the elegance of a finely tuned instrument. I think we succeeded."
+  },
+  {
+    "ID": 17,
+    "Title": "Jewel Sword Details",
+    "Category": "Engineering Details",
+    "Text": "The goal with this blade was to take the art of weaponry into the next generation, both aesthetically and functionally. From the beautiful bornite finish, to the refined rose-quartz blade and accents, no expense was spared."
+  },
+  {
+    "ID": 18,
+    "Title": "Jewel Bow Details",
+    "Category": "Engineering Details",
+    "Text": "When one sets out to design the perfect bow, you have to know that you are going after an elusive goal. The form must be flawless, and the function must be breathtaking. We took up the challenge, and I think the product speaks for itself."
+  },
+  {
+    "ID": 19,
+    "Title": "Jewel Crossbow Details",
+    "Category": "Engineering Details",
+    "Text": "The beauty of our crossbow, is that it combines the responsiveness of a precisely machined device, with the power of a piece of military grade hardware."
+  },
+  {
+    "ID": 20,
+    "Title": "Jewel Armor Details",
+    "Category": "Engineering Details",
+    "Text": "When we set out to design a suit of armor powered by gems, our primary goal was to truly let form follow function. "
+  },
+  {
+    "ID": 21,
+    "Title": "Notes on Local Fauna",
+    "Category": "Pioneer Station Records",
+    "Text": "The life on this planet is fascinating. Some of the brighter creatures even show a glimmer of intelligence when presented with simple puzzles. Many of the species have unique and useful adaptations and the more I study them the more I see the potential for advances in biological weapons design. I've come up with a design for a pistol based on (and composed of) the vital organs of one of the species.\n-Head Xenobiologist [XENOBIOLOGIST]"
+  },
+  {
+    "ID": 22,
+    "Title": "They can TELEPORT!",
+    "Category": "Pioneer Station Records",
+    "Text": "Oh christ, I actually saw one of them today! I also made an amazing discovery... they can TELEPORT! Thats why they've been so hard to catch!\nIts all coming together...\n[XENOBIOLOGIST] was right, all the signs point to intelligent life, and they're hostile!\nIts been days since [XENOBIOLOGIST] disappeared, and at this point I'm positive he's been abducted. I tried to tell the captain but he just said that its probably space madness and that I should take a relaxation pill. \nI'm also positive the aliens abducted my friggin' cheeseburgers, and the 3d printer is still broken so I can't even make more.\nI have to do something or the alien menace will get us. When the crap hits the fan, I want to be protected.\nOnce I fix my drones so they stop shooting at allies they'll blast the heck out of those alien jerks! Earth #1!\n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 23,
+    "Title": "Signs of Life",
+    "Category": "Pioneer Station Records",
+    "Text": "I don't know what to think anymore. I'd assumed that the relics we found were from a long dead civilization, and that [XENOBIOLOGIST]'s disappearance would have a mundane explanation, but [ENGINEER] came to me today with a first hand account of actually seeing some kind of intelligent creature. He claims it teleported through the air somehow. I want to believe that his stressed out mind was playing tricks on him, but he described the creature in such vivid detail...\nLets just say I'm open minded at this point.\n-Captain [CAPTAIN]"
+  },
+  {
+    "ID": 24,
+    "Title": "Uh oh",
+    "Category": "Pioneer Station Records",
+    "Text": "Its true, oh god its true. I saw them... then I heard gunshots and screaming. I won't go down like that, I'm settled in for the long haul folks. I want to send a message out, a warning to the Hephaestus, but the satellite is damaged and I can't get an intergallactic signal out. I'm going to record a message and leave it on repeat on the system-wide band and, hopefully anyone coming to this planet hears it before its too late and picks a new destination. This planet is taken, and they don't like visitors.\n\nIf anyone is foolish or stupid or idiotic enough to come to this place anyway, I've left various supplies and important documents in a secure location nearby.\n-Captain [CAPTAIN]\n"
+  },
+  {
+    "ID": 25,
+    "Title": "Hahn Sucks",
+    "Category": "Pioneer Station Records",
+    "Text": "I caught Dr. Hahn going through containers in my room today. When I caught him he said that he was \"checking the structural integrity\" of my room. He put his ear up to the wall, knocked on it, and said \"Yep, everything checks out\" and then he literally whistled and started to walk out of the room with exaggerated arm movements. Needless to say, he's been stripped of his level 2 security status and I've moved the level 2 multipass upgrade terminal into my private quarters.\n\nI really hate that man."
+  },
+  {
+    "ID": 26,
+    "Title": "Parasites",
+    "Category": "Pioneer Station Records",
+    "Text": "I don't want alien eggs inside me.\nP.S. I've left various supplies and important documents in a secure location nearby. I hope they don't understand our language already..."
+  },
+  {
+    "ID": 27,
+    "Title": "Intelligent life...",
+    "Category": "Pioneer Station Records",
+    "Text": "If there was any question about intelligent life in the universe, we answered it here, on this planet. While mining, [ENGINEER] found some kind of underground structure. The structure was empty, but it was clearly built by intelligent hands. There was a thick layer of dust on all the surfaces, so whoever built the structure seems to be long gone."
+  },
+  {
+    "ID": 28,
+    "Title": "Strange Purple Metal",
+    "Category": "Mining Records",
+    "Text": "We discovered this chunk of purple metal while mining, and despite my best efforts I have not been able to identify it. [XENOBIOLOGIST] swears that the lump is proof of intelligent creatures on the planet, but to me it just looks like a lump of naturally formed metal. That said though, I will admit that the properties of the material are curious... More study is definitely required.\n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 29,
+    "Title": "Space Madness",
+    "Category": "Pioneer Station Records",
+    "Text": "I'm almost certain that Dr. Hahn is suffering from a case of space madness. He has become dangerously attached to his damned chickens at the expense of the mission. I am placating him as best I can at this point, as we won't have any replacement crew until the Hephaestus gets here, but I do worry that he may become more of an issue before long. \n\nI also caught Hahn experimenting with some kind of horrible ricochet bullet that he crafted, and it seems like it is actually designed to harm the user! This isn't the first time I've caught him using our limited resources to develop dangerous or pointless trinkets. I confiscated them as well as some other previously banned contraband."
+  },
+  {
+    "ID": 30,
+    "Title": "DON'T GIVE IT TO HIM",
+    "Category": "Pioneer Station Records",
+    "Text": "HAHN CAN NOT HAVE THIS. DON'T BELIEVE HIM IF HE TRIES TO CONVINCE YOU THAT HE NEEDS IT. HE LIES. \n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 31,
+    "Title": "Being Watched",
+    "Category": "Pioneer Station Records",
+    "Text": "Dear Diary,\nI can't stay here anymore. We're being watched, and all my training regarding species interaction tells me that I should find somewhere to hide. I'm going to gather some resources and hide out for a few days. If I'm wrong, everything will blow over. I hope I'm wrong...\n-Head Xenobiologist [XENOBIOLOGIST]"
+  },
+  {
+    "ID": 32,
+    "Title": "From the Ashes",
+    "Category": "Project Phoenix Records",
+    "Text": "They say that Man's reach exceeds his grasp... but I say Man's reach won't even compare to my span. I will be reborn, like a phoenix from the ashes. Time to die.\n-Dr. Hahn"
+  },
+  {
+    "ID": 33,
+    "Title": "Makeshift Bridges",
+    "Category": "Pioneer Station Records",
+    "Text": "I've been going out DAILY making sure to cover all the holes between the mining base and the Pioneer Station, but sure enough every time I go and check there are patches missing. Either some of the local fauna is busting up my platforms or Dr. Hahn is removing them just to be a jerk, I'd give even odds at this point."
+  },
+  {
+    "ID": 34,
+    "Title": "Pink Gemstone",
+    "Category": "Pioneer Station Records",
+    "Text": "[XENOBIOLOGIST] brought me some samples of this strange pink gemstone with amazing properties and I believe I have designed a quite potent lens that can be retrofitted into our MEG tools. I don't yet have enough samples of the gem to make a working prototype, so I am going to start heading deeper to try and find some. If Dr. Hahn is reading this, get out.\n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 35,
+    "Title": "Hahn is Garbage",
+    "Category": "Pioneer Station Records",
+    "Text": "Dr. Hahn's space madness is getting worse by the day so I've devised an ingenious defense against that lumpy mess finding my jewel pick design. If my blueprints somehow fell into his hands there would be no stopping him from getting into our rooms and rifling through our stuff and being a big huge creep. If the spiderbots don't stop him there is absolutely no way he is going to be able to drag his slovenly out of shape carcass down those annoying hallways.\n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 36,
+    "Title": "I'll be fine.",
+    "Category": "Pioneer Station Records",
+    "Text": "\nDear Diary,\n\nI've been making treks further and further underground recently, and I came across some strange orange specimens. They seem to be some kind of organic jelly filled sacs, but the curious thing is that they seem to have items of food stuck in the center. As far as I can tell, it seems to be some kind of food storage mechanism of some native creature. I'm guessing that these food orbs are somehow related to the strange orange blocks I was starting to find. \n\nXenobiologist [XENOBIOLOGIST] keeps telling me that I should be careful, and that it seems like I've stumbled upon some sort of hive of alien ants, but he doesn't know me, or what I can do. I told him to step off, and that I would do what I want. No ants are going to stop me, I'll squish them with my boot! Besides, worst case I'll just get printed back out at a respawner. I have decided to start carrying a GPS tracker with me though so I can find my stuff quicker next time I get disemboweled by something.\n\n-Lead Janitor [JANITOR]"
+  },
+  {
+    "ID": 37,
+    "Title": "Who Broke my Jumpjet?!",
+    "Category": "Pioneer Station Records",
+    "Text": "\nI'm baffled by what happened to the Prototype Mining Suit's Jumpjet. I came in this morning and it was a mess! It looks like someone ripped the thing apart, but I asked around and nobody had any clue. It seems like there are... forces... working against us on this planet, and THEY don't want us to have a sweet jumpjet. The peculiar thing is that the Jumpjet Core is missing. Not destroyed, mind you, missing. There are no pieces of it, so wherever it is, it is likely whole. Aside from the missing Jumpjet Core, the damage is mostly superficial, so if we could track that thing down we'd be able to repair it fairly easily.\n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 38,
+    "Title": "Heal Tonic",
+    "Category": "Pioneer Station Records",
+    "Text": "\nExperiment Log: Heal Tonic\n\nWhile we currently have quite competent health care facilities in the Pioneer Station, it has become apparent that we need some kind of portable health regeneration option. The med bay and our respawning facilities are, of course, a convenient safety net, but insufficient as far as I'm concerned. After spraining both ankles on a recent expedition and being forced to expedite the respawning process with a heavy rock, I've begun to develop a sense of existential fear related to the \"respawning\" process. After experimenting with components of various flora and fauna on this planet, I've managed to develop a tonic that seems to drastically speed the body's natural healing. The critical component is a strange herb that seems to grow randomly on the grass of this planet, and without that plant my tonics are nothing but fruit juice. \n\nNote: Unfortunately, I have been unable to determine a way to cultivate the herb, as it does not produce any obvious seeds."
+  },
+  {
+    "ID": 39,
+    "Title": "Waste Not",
+    "Category": "Pioneer Station Records",
+    "Text": "\nSomeone keeps leaving... waste... in the shared bathroom toilet. This is completely unacceptable, and something must be done! I propose developing a DNA testing machine, so that we can catch the culprit. -Anonymous."
+  },
+  {
+    "ID": 40,
+    "Title": "Strange Crystal",
+    "Category": "Pioneer Station Records",
+    "Text": "\nI still get chills when I look deeply into this thing. Its warm purple light pulses purpose, but to what purpose I still have not discerned. The purple crystal is clearly the centerpiece of the artifact, and I suspect that the device is designed to be opened but I cannot find any kind of release mechanism. A sphere made of an unknown but fragile looking material surrounds the crystal, although again, its purpose eludes me. I have spent hours examining the intricate patterns adorning the artifact, and at this point I am fairly certain that many of them are part of some kind of language but it is far beyond my ability to translate. So basically... I don't know squat about this thing.\n-Head Xenobiologist [XENOBIOLOGIST]"
+  },
+  {
+    "ID": 41,
+    "Title": "Teleporter Work",
+    "Category": "Pioneer Station Records",
+    "Text": "\nOk everyone, I finally got all the teleporter channels un-tangled. Channel 2 is now reserved for travel between the Pioneer Station and the mining base, and I set the artifact room teleporter to 5.\n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 42,
+    "Title": "He's up to something",
+    "Category": "Pioneer Station Records",
+    "Text": "\nI know Hahn is up to something. He barricaded his bedroom and hasn't been seen in days. I'm going to get into his bedroom one way or another...\n-Chief Engineer [ENGINEER]"
+  },
+  {
+    "ID": 43,
+    "Title": "Mission Briefing",
+    "Category": "Hephaestus Records",
+    "Text": "\nMISSION BRIEFING\n----------------\n\nBACKGROUND: \n-We are still weeks away from completing our journey to Osiris, but we've detected extremely unusual readings from a nearby asteroid and have decided that it needs to be investigated. Scans of the asteroid indicate the presense of some kind of exotic minerals below the surface as well as traces of organic molecules which could indicate the possibility of life on the asteroid.\n\nTASKS REQUIRED: \n-Get a MEG wrist tool installed and calibrated in Outfitting.\n-Retrieve a Mining Suit and Pick from Outfitting.\n-Speak to Larry in the Hangar about getting a landing pod ready to take you to the asteroid.\n-Travel to the asteroid and look for any signs of life.\n-Return to Dr. Stein for a debriefing.\n"
+  },
+  {
+    "ID": 44,
+    "Title": "Mass Driver Manual",
+    "Category": "Hephaestus Records",
+    "Text": "\nMass Driver User Manual\n\nThe UN-MD34 Chekhov Class Mass Driver is designed to accelerate payloads to extremely high speeds, and to propel them a great distance through space. The primary purpose of this device is to launch probes to distant celestial bodies, but anything can be launched out of it as long as it can fit in a launch capsule.\n\nStep 1: Load the payload into a Launch Capsule.\nStep 2: Load the Launch Capsule into the Mass Driver.\nStep 3: Fire the Mass Driver.\n\nNote: Use of the UN-MD34 Mass Driver is restricted to officers only. \n"
+  },
+  {
+    "ID": 45,
+    "Title": "Fresh Air",
+    "Category": "Hephaestus Records",
+    "Text": "\nA breath of fresh air. That is what I look forward to the most. \n\nThe air we breath on this ship is perfectly fine, but that is the problem - it is perfect. Sterile.\n\nI miss the smells of a real world, even the nasty bits.\n\n-Dr. Stein\n"
+  },
+  {
+    "ID": 46,
+    "Title": "Diaper Thief",
+    "Category": "Hephaestus Records",
+    "Text": "\nWhoever is stealing diapers from the Med Bay needs to stop. It is nothing to be ashamed about, just requisition them through the standard channels.\n\n-Chief Medic\n"
+  },
+  {
+    "ID": 47,
+    "Title": "The Hermes Situation",
+    "Category": "Hephaestus Records",
+    "Text": "\nThe Hermes Situation\n\nWe still don't know what happened to the Hermes crew. We've been out of contact for months now, and we have no idea why. Right up until we lost communications with them everything seemed to be going well. They had converted most of the Hermes ship into a base for habitation which they called the Pioneer Station. They had been having minor issues with the local flora and fauna, but we were under the impression that they had everything under control. We know that they should have the raw materials to do whatever repairs could possibly be necessary... as long as they are still alive. \n\n-Dr. Stein\n"
+  },
+  {
+    "ID": 48,
+    "Title": "Osiris Flora and Fauna",
+    "Category": "Hephaestus Records",
+    "Text": "\nOsiris Flora and Fauna Report\n\nBefore we lost contact with the Hermes crew on Osiris, they uploaded quite a bit of data about the planet's plant and wildlife. \n\nAccording to their notes, the plant life is mostly safe and much of the local fruits and vegetables are actually completely edible. While most of the plant life seems benign, there are reports of plants with violent defense mechanisms. \n\nThe wildlife on the other hand is quite a bit more of a challenge. There are spiked creatures crawling all over everything at night, small primate-like creatures that steal anything they can find that is shiny and the head Xenobiologist on the Hermes crew swore that he saw a ghost one day. Most of what the crew had to deal with ultimately amounted to nothing more than a nuisance, which makes their lack of communication now so disturbing. \n\n-Dr. Stein\n"
+  },
+  {
+    "ID": 49,
+    "Title": "Alien Ruins",
+    "Category": "Hephaestus Records",
+    "Text": "\nAlien ruins on Osiris.\n\nNot long after landing on Osiris, the Hermes crew started finding evidence of some kind of ancient alien civilization that had apparently inhabited the planet at some point in the past. The last we heard before losing contact was that the crew had found multiple large stone-like slabs composed of an unknown material that were inlaid with various symbols. They were quite clearly of intelligent origin. One slab was found on the surface of the planet, and another was found while excavating an area underground. Despite the clear evidence that intelligent life once existed on Osiris, the Hermes crew found no signs that any such sapient life still remains on the planet.\n\n-Dr. Stein\n"
+  },
+  {
+    "ID": 50,
+    "Title": "Heatsink Troubles",
+    "Category": "Hephaestus Records",
+    "Text": "\nHeatsink Troubles\n\nI've been having a hell of a time with the heatsinks in the landing pods. They seem to function fine while the landing pods are in use, but under high enough load they short out, overheat and get ejected. I've updated the crafts' firmware to ensure that they stay within safe limits, but it seems like I've got about a 50/50 shot of the heat sinks making it through the pre-launch diagnostics check.\n\nOn the plus side, the heat sinks do not appear to get damaged when overheating. As long as you wait for them to cool down, they can still be used by re-seating them in their housing. \n\n-Larry\n"
+  },
+  {
+    "ID": 51,
+    "Title": "Ya'll gross",
+    "Category": "Hephaestus Records",
+    "Text": "\nFolks, please THOROUGHLY clean the medbay after use! I found most of someone's discarded nose while INSIDE the med bay when I was getting my finger reattached. \n"
+  },
+  {
+    "ID": 52,
+    "Title": "Earth-Native Flora on Osiris",
+    "Category": "Hephaestus Records",
+    "Text": "\nGrowing earth-native flora on Osiris\n\nAll indications are that we should be able to grow many of our earth-native plants on Osiris. The soil nutrients are similar, and the humidity and temperature seem to be favorable. We've brought along seed banks of many different plants that we believe should be able to thrive on Osiris. \n"
+  },
+  {
+    "ID": 53,
+    "Title": "Algae for Food",
+    "Category": "Hephaestus Records",
+    "Text": "\nAlgae as a Protein and Nutrient Supplement\n\nA specific strain of algae is grown on the Hephaestus as a way to supplement the protein and nutrient content of the prepared food on board the ship. Once grown, the algae is processed into a nearly tasteless powder that is added to many meals. Most of the protein consumed by the crew starts out as algae in these tanks.\n\nWithout this algae, the mission may not have been possible at all. Even with the vast majority of our people cryogenically frozen, the food requirements of just the rotating skeleton crew would be unsustainable without this supplementation. \n"
+  },
+  {
+    "ID": 54,
+    "Title": "Osiris Soil",
+    "Category": "Hephaestus Records",
+    "Text": "\nOsiris Soil Tests\n\nBased on data sent to us by the Hermes crew, we were able to closely replicate the chemical composition of the Osiris soil. We've been testing the seeds from our seed bank while en-route so that we can get the greenhouses set up ASAP once we get to Osiris.\n"
+  },
+  {
+    "ID": 55,
+    "Title": "Interfacing",
+    "Category": "Project Phoenix Records",
+    "Text": "\nDamn it all! I've spent weeks trying to interface with this device, and I can't get it to do anything useful! I have managed to send it what I think are startup commands, but nothing happens.\n\nI give up, I've spent too much time on it already and I refuse to divert anymore time away from Project Phoenix.\n"
+  },
+  {
+    "ID": 56,
+    "Title": "We Need to Talk about Billy",
+    "Category": "Pioneer Station Records",
+    "Text": "\nBilly's breath is so bad I look forward to his farts.\n"
+  },
+  {
+    "ID": 57,
+    "Title": "Chicken Turds",
+    "Category": "Pioneer Station Records",
+    "Text": "\nJanitor's Log\nI am sick to death of cleaning up all the chicken turds around here.\n"
+  },
+  {
+    "ID": 58,
+    "Title": "Flora Research Notes",
+    "Category": "Pioneer Station Records",
+    "Text": "\nResearch notes on flora native to the planet Osiris.\nIt would appear that all plants here exhibit an extremely rapid growth rate compared to similar terrestrial environments.  It's almost as if some substance is saturating\nall matter on this planet.  That can't be true though, as we've thoroughly tested the soils here and don't see traces of anything out of the ordinary.  \nThere are rumors of the team of at the mining outpost uncovering a new strange material.  Maybe this unprecedented growth has something to do with it.  I will have to request a sample\nif these rumors prove to be true.\n"
+  },
+  {
+    "ID": 59,
+    "Title": "New Growth",
+    "Category": "Pioneer Station Records",
+    "Text": "\nWe never expected to have a full size bristlecone pine so soon in the station.  We knew this place was going to be our home so we wanted to plant something that would last many generations.\nIt only took a day for the seed to sprout.  It took a week for this tree to do what similar trees do on Earth in two years.  After a month it was well into what we would classify as old age on Earth.  \nThe growth rate here is absolutely astounding.\n\nI'm not even sure how it's physically possible.\n"
+  },
+  {
+    "ID": 60,
+    "Title": "Osiris Fauna",
+    "Category": "Pioneer Station Records",
+    "Text": "\nNotes on Osiris native fauna.\nWe've taken field samples from some rather large subterranean creatures found on the planet.  These creatures, which we have taken to calling \"Spitters\" secrete a highly corrosive saliva used to digest biological matter.\nThe lab analysis shows that these creatures bodies concentrate the acids found in a native fruit.  There is an interesting symbiosis between the acidic fruit and these spitter creatures.  As the creatures consume the fruit, \nthey excrete the highly basic rind, creating a thick covering which eventually forms the surface of their den.  Through this process, the fruit disperses its seeds and builds an acid-proof dwelling for the Spitters.\nPerhaps we could use the rind of this fruit to create a material that is highly resistant to corrosion.  More tests will be needed.\n"
+  },
+  {
+    "ID": 61,
+    "Title": "Notes on Hahn",
+    "Category": "Pioneer Station Records",
+    "Text": "\nNotes on lead engineer Dr. Hahn, by an anonymous subordinate.\nI was speaking with Dr. Hahn the other day.  Actually, let me rephrase.  I was trying to speak with Dr. Hahn the other day.  I asked him how he would like to handle the implementation of certain structural elements here at the station.\nHe was chosen for his structural engineering prowess back on Earth and his peers lauded him as one of the great minds of the century, but I'm skeptical based on the behavior I see him display.  Anyway, I was asking him about HIS JOB here at the station, and all I could seem to get out of him were some strange clucking noises and some rambling about his side projects.  \nI think I heard him mutter something about a phoenix under his breath.  To make things all the more strange, as he was walking away I caught a glimpse of what he was working on in the garage.  What I saw baffled me, and quite frankly disturbed me on a very basic level. I swear I saw some sort of avian, possibly a chicken, hooked up to some growth hormone machines.  \n\nHow does something like that have any relevance to what we're trying to accomplish here?  How did this man get through his dissertation?\n"
+  },
+  {
+    "ID": 62,
+    "Title": "Security Drone",
+    "Category": "Pioneer Station Records",
+    "Text": "\nSecurity Drone Testing\nThe security network is operating perfectly.  These automated drones help immensely in dispatching the spiny creatures that make their way into the station from time to time.\nThe station's automated manufacturing systems even recycle and replace the drones if they ever become damaged or dysfunctional.  However, there are some inter-system security measures that should be addressed.\nWhoever designed the targeting systems probably should have done a better job.  It wouldn't be too difficult to change the targeting algorithm to something much less desirable.\nI will look into this.\n"
+  },
+  {
+    "ID": 63,
+    "Title": "TODO List",
+    "Category": "Project Phoenix Records",
+    "Text": "\nTODO:\n-Feed all the chicken fetuses.\n-Continue debugging Project Phoenix firmware.\n-Create some kind of encryption code so that people can't just use a hand-held wrist scanner to hack into my devices.\n-Collect eggs\n"
+  },
+  {
+    "ID": 64,
+    "Title": "Generator Repair Notes",
+    "Category": "Pioneer Station Records",
+    "Text": "\nGenerator Repair Notes\n\nWell hell, we've got a bit of a spitter infestation. It looks like one of them managed to burrow a tiny hole in the east wall of the generator room and he went to town on the generator with his acid spit. I managed to beat it to death with my wrench, but not before it managed to completely wreck the Beryllium Sphere, the Hypercapacitor and the front Stabilizer Plate. Luckily, the ambient hydrogen capture system was unaffected. I pulled one of the Beryllium Spheres out of storage, and I know there are some stabilizer plates over at the mining base. The spare hypercapacitor is missing from the storage area again, but luckily this time I tagged it with a GPS tracker, so it should be a simple matter to track it down.\n-Chief Engineer [ENGINEER]\n"
+  },
+  {
+    "ID": 65,
+    "Title": "Hatch Handle (sorry)",
+    "Category": "Pioneer Station Records",
+    "Text": "Hey folks, I had to take the handle off of this emergency hatch because some asshole stole the one in the pioneer station that goes to the reactor's cardinal grammeter. I left the other handle on the hatch so folks can get out of the mining area if the power goes out though, so it shouldn't trigger AGIS's OSHA violation routines.\n\nOnce I get the 3d printer operational again, I'll replace the handle. Sorry for the inconvenience.\n\n-Chief Engineer [ENGINEER]\n"
+  },
+  {
+    "ID": 66,
+    "Title": "Purple Crystals",
+    "Category": "Pioneer Station Records",
+    "Text": "Our excavations continue to occasionally reveal some kind of strange purple crystals. AGIS's scanners are unable to penetrate the surface of them, and nothing we do seems to have any effect. Can't break them, can't even scratch them... It's really bizarre. \n\n-Chief Engineer [ENGINEER]\n"
+  },
+  {
+    "ID": 67,
+    "Title": "Stuck in The Cave",
+    "Category": "Pioneer Station Records",
+    "Text": "Hey, if anyone sees this, I'm stuck in this cave! I was able to shimmy my way in, but no matter how I contort my body I can't seem to get back out. The walls are all made of this Xenostone material, and my industrial mining laser can't even dent it. AGIS said it would get assistance, but after a few hours the lights went out in the mining shaft and AGIS hasn't responded since. \n\n-Mining Trainee Theodore\n"
+  },
+  {
+    "ID": 68,
+    "Title": "The Orb",
+    "Category": "Pioneer Station Records",
+    "Text": "I keep staring at the orb, thinking that I might understand it if I ponder it just a little longer. It seems to pulse, almost like a heart beat, but no matter how much I whisper into its crevices, it never seems to react.\n\n-Mining Trainee Theodore\n"
+  },
+  {
+    "ID": 69,
+    "Title": "Xenostone Caves",
+    "Category": "Pioneer Station Records",
+    "Text": "I believe I've found something worth investigating in the xenostone caves to the west. There is a small passage in the upper portion of the cave that I want to check out. It has a small opening, but I can hear some kind of rhythmic pulsing noise on the other side. I think if I slide in at just the right angle I can make it in.\n\n-Mining Trainee Theodore\n"
+  },
+  {
+    "ID": 70,
+    "Title": "Mineral Ingestion Study",
+    "Category": "Project Phoenix Records",
+    "Text": "I have a hypothesis that many of the more exotic forms of life on this planet consume and metabolize the strange purple material that we keep running into. I suspect that many of the curious properties of those creatures come from the material's interaction with their physiology. I've scanned the material for any traces of toxicity and the results have all been inconclusive. I've decided that I will begin consuming small samples of the material and I will log my findings here.\n\nDay 0: I licked a piece of the strange purple mineral in the morning, and when I didn't feel anything after a couple hours I swallowed a few flecks.\nDay 1: No changes, I have yet to manifest any new abilities since yesterday. I have decided to eat a small fleck of the material every 4 to 6 hours.\nDay 4: Still no changes, although I have noticed that the chickens have been looking at me funny, like they recognize me.\nDay 12: I've noticed a distinct increase in aggression from the other members of the Pioneer Station staff. Perhaps they are jealous of my purple stones? I have increased the size of doses to roughly the size of a penny.\nDay 35: I forgot about this for awhile. I'm still eating the purple stones, but it's just habit at this point. I didn't manifest any new abilities at all, it's honestly pissing me off a little.\nDay 135: This will probably be my last entry. Progress on Project Phoenix is now taking up most of my time, and I've realized that augmenting my physical self is the only way to make true progress. I've starting to feel thin, sort of stretched, like when you overcook sunny side up eggs and made too much toast. Perhaps eat more purple rocks?\n\n-Dr. Hahn"
+  },
+  {
+    "ID": 71,
+    "Title": "Home",
+    "Category": "Pioneer Station Records",
+    "Text": "I've taken to leaving my window open at night. Every now and then I have a Flyer try to flap its way inside, but it is worth it to fall asleep and wake the next morning breathing truly fresh air. My first coherent thought after opening my eyes and taking a nice deep breath is to reflect on how absolutely lucky we are to be here. Air we can breathe, a temperate climate, a healthy biosphere... I mean just look around, it's a paradise!\n\nThe cynic in me does sometimes question whether humanity deserves this second chance after what we did to the Earth. Our short sighted selfishness destroyed the climate, and our geoengineers only made things worse. At least they tried. \n\nWhether we deserve it or not, we do have another chance here. We know more now, and we won't make the same mistakes. \n\nWe'll make different mistakes.\n\n-Captain [CAPTAIN] "
+  },
+  {
+    "ID": 72,
+    "Title": "Generator Overview",
+    "Category": "Hephaestus Records",
+    "Text": "The CB-12W Fusion Generator is almost completely fully automated and requires minimal maintenance. On-board AI algorithms monitor and adjust the magnetic confinement of the plasma, and constantly perform complex heuristic self diagnostics. It even has tiny little robots that roam around inside looking for and repairing minor stress and friction related defects. In the event of catastrophic physical damage that cannot be self-repaired the engineering team will be notified via AGIS.\n\nFuel lines connect the generator to the hydrogen fuel scoops mounted on the Hephaestus solar shield, and the scoops utilize vast magnetic fields to capture ambient hydrogen while in transit. For the bulk of the voyage, the Hephaestus will be moving significantly faster than necessary for the hydrogen supply.\n\nAs long as the generator is even reasonably protected from physical damage and is supplied with sufficient hydrogen, it should run almost eternally with no human interaction.\n"
+  },
+  {
+    "ID": 73,
+    "Title": "Someone oughta do something",
+    "Category": "Hephaestus Records",
+    "Text": "Here is teh thing that nobody can explain to me: Why do humans get to claim the planet? \nNo, really. Why do we just ASSUME that the chickens shouldn't run things?\nChickens never built nuclear weapons, they never destroyed an entire biosphere, and chickens never took away my friggin' level 2 security clearance!\nChickens just strut around, pecking at the ground and laying eggs.\nIt's a simple life. A better life.\nThey don't need \"society\" or \"technology\" or \"pants\".\nThey manage to make it work and they have little peanut brains.\n-Dr. Hahn"
+  },
+  {
+    "ID": 74,
+    "Title": "What we've lost",
+    "Category": "Hephaestus Records",
+    "Text": "I had an interaction with Dr. Hahn today that once again got me thinking about those we left behind on Earth. Every now and then when I breathe the clean air and feel the warm sun on this planet, I feel a powerful guilt about the ones that weren't chosen to come with us. In the past I've always been able to take solace in the knowledge that the AGIS system selected ideal candidates to ensure the survival of humanity. We needed the best scientists, doctors and engineers that the world had left. I believed that the AGIS system would see connections that we couldn't, and make better decisions than we ever could... and yet one of the first people it selected to set foot on this planet is Hahn? That fetid garbage bag of a person is crucial to humanity's survival? Really?! Billy is a better crew member and he's a goddamn trashcan!\n\nWhat else was it wrong about? How many good people did we leave behind because a cold calculating machine decided that they weren't worth saving? At this point, even if we save the human race, I fear that we may have lost our humanity in the process.\n-Captain [CAPTAIN]"
+  },
+  {
+    "ID": 75,
+    "Title": "Xenostone?",
+    "Category": "Hephaestus Records",
+    "Text": "Well, AGIS came up with a name for this strange stone: Xenostone. It continues to confound any attempts to break through it, take samples, or even scratch the stuff for that matter. We can't analyze it with scans, it has no smell and it when licked it tastes like nothing at all. The surface of the stone is uneven and bumpy, but it feels smooth and glassy to the touch. We've detected tunnels composed of the stuff, although it is not yet clear if those tunnels are naturally formed or were put there by the... previous inhabitants. \n\nWe're certainly not digging our mining shaft any deeper here, so we're going to have to either go around or find a way through the tunnels."
+  },
+  {
+    "ID": 76,
+    "Title": "Grapple Module",
+    "Category": "Pioneer Station Records",
+    "Text": "I've gotten the grapple module functional and set up an installer for anyone that wants one. The design utilizes an inverse reactive current to propel a telescoping metal cable that can attach to any surface and pull you towards it. The telescoping cable is composed of a shape memory alloy that can harden as necessary to provide support or cushion depending on the required circumstances."
+  },
+  {
+    "ID": 77,
+    "Title": "Alien Device",
+    "Category": "Hephaestus Records",
+    "Text": "This artifact was collected from the nearby asteroid after our encounter with the Xenoid carrier.\n\n[hostname] has claimed that the device has many incredible and powerful properties, so it has been secured until we can determine a safe way to interface with it."
+  },
+  {
+    "ID": 78,
+    "Title": "Our Next Steps",
+    "Category": "Hephaestus Records",
+    "Text": "Well, it was touch and go there for a bit, but we made it. The next steps are unclear, but at least we secured a reality where we have a fighting chance.\n\nWe've got a viable human population worth of meat popsicles on the Hephaestus counting on us. We're still their lifeline, but for now, we just need to take stock of our situation and maybe rest a bit. My calculations indicate that their skin and organs won't start breaking down for decades, provided the reactor holds.\n\nTime to stop and smell the flowers.\n\nedit: Why are there bees here? Did we really need to bring bees from Earth?\nedit 2: Ok, forget the bees, they are a trivial concern. Whatever you do, don't eat raw crawler meat, it's FUCKED.\n- Dr. Stein"
+  },
+  {
+    "ID": 79,
+    "Title": "Mining Suit Disposition",
+    "Category": "Pioneer Station Records",
+    "Text": "I took the only remaining mining suit and hid the parts. In case I forget, I wrote them all down:\n\n(Locations are filled in when this world is generated.)"
+  }
+]
