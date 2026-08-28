@@ -1,5 +1,8 @@
 # Signs of Life community localization
 
+> **[How to translate (wiki)](https://www.playsignsoflife.com/wiki/modding/localization.html)** —
+> work in the browser, no Git required.
+
 English overlay tables and locale packs for *Signs of Life*. The game loads a
 locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
