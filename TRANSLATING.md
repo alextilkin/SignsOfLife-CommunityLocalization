@@ -70,6 +70,11 @@ meanings; otherwise pick the reading that still works as a product name:
 
 Do not rename the game in-body. `Signs of Life` is the product name.
 
+Cyrillic HUD text is supported. Kimberley still draws Latin; Courier covers
+Cyrillic at runtime. Leave `AGIS`, `MEG`, and other Latin-capital product
+tokens in Latin as the glossary says. Greek, CJK, Hangul, Arabic, Hebrew,
+Thai, and Vietnamese glyphs are still missing.
+
 ## Tone
 
 The writing is American English, informal, and often slightly broken on

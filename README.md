@@ -46,6 +46,7 @@ A field counts as translated when it is non-empty and not a copy of English. Emp
 | Language | Pack | Translated |
 | --- | --- | ---: |
 | Afrikaans | [`af`](locales/af/) | 0.0% |
+| Български | [`bg`](locales/bg/) | 0.0% |
 | Català | [`ca`](locales/ca/) | 0.0% |
 | Čeština | [`cs`](locales/cs/) | 0.0% |
 | Dansk | [`da`](locales/da/) | 0.0% |
@@ -69,11 +70,13 @@ A field counts as translated when it is non-empty and not a copy of English. Emp
 | Português | [`pt`](locales/pt/) | 0.0% |
 | Português (Brasil) | [`pt-BR`](locales/pt-BR/) | 0.0% |
 | Română | [`ro`](locales/ro/) | 0.0% |
+| Русский | [`ru`](locales/ru/) | 0.0% |
 | Slovenčina | [`sk`](locales/sk/) | 0.0% |
 | Slovenščina | [`sl`](locales/sl/) | 0.0% |
 | Srpski (latinica) | [`sr-Latn`](locales/sr-Latn/) | 0.0% |
 | Svenska | [`sv`](locales/sv/) | 0.0% |
 | Türkçe | [`tr`](locales/tr/) | 0.0% |
+| Українська | [`uk`](locales/uk/) | 0.0% |
 
 <!-- coverage-table:end -->
 
@@ -85,9 +88,6 @@ The shipped fonts cannot draw these scripts yet, so there is no pack folder.
 
 | Language | Code | Script |
 | --- | --- | --- |
-| Русский | `ru` | Cyrillic |
-| Українська | `uk` | Cyrillic |
-| Български | `bg` | Cyrillic |
 | Ελληνικά | `el` | Greek |
 | 日本語 | `ja` | CJK |
 | 简体中文 | `zh-Hans` | CJK |

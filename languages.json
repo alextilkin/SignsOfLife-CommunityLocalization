@@ -1,6 +1,7 @@
 {
   "languages": [
     { "code": "af", "endonym": "Afrikaans" },
+    { "code": "bg", "endonym": "Български" },
     { "code": "ca", "endonym": "Català" },
     { "code": "cs", "endonym": "Čeština" },
     { "code": "da", "endonym": "Dansk" },
@@ -24,16 +25,15 @@
     { "code": "pt", "endonym": "Português" },
     { "code": "pt-BR", "endonym": "Português (Brasil)" },
     { "code": "ro", "endonym": "Română" },
+    { "code": "ru", "endonym": "Русский" },
     { "code": "sk", "endonym": "Slovenčina" },
     { "code": "sl", "endonym": "Slovenščina" },
     { "code": "sr-Latn", "endonym": "Srpski (latinica)" },
     { "code": "sv", "endonym": "Svenska" },
-    { "code": "tr", "endonym": "Türkçe" }
+    { "code": "tr", "endonym": "Türkçe" },
+    { "code": "uk", "endonym": "Українська" }
   ],
   "unsupported": [
-    { "name": "Русский", "code": "ru", "script": "Cyrillic" },
-    { "name": "Українська", "code": "uk", "script": "Cyrillic" },
-    { "name": "Български", "code": "bg", "script": "Cyrillic" },
     { "name": "Ελληνικά", "code": "el", "script": "Greek" },
     { "name": "日本語", "code": "ja", "script": "CJK" },
     { "name": "简体中文", "code": "zh-Hans", "script": "CJK" },
