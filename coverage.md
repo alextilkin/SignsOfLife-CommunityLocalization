@@ -1,6 +1,6 @@
 # Coverage
 
-Counted against `english/` snapshot `9e6f1a84`.
+Counted against `english/` snapshot `de084362`.
 A field counts as translated when the overlay is non-empty and not identical to English.
 Empty overlay fields keep English in-game and count as missing.
 
