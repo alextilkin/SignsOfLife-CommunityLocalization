@@ -3,8 +3,7 @@
 
 English pack-item prose stays in LoadedContent item_*.json. The game
 InventoryItemData.json sol.* rows are overlay hooks only (Complexity /
-AutoOrganizeString). This snapshot merge is the translator-facing copy, same
-idea as export-datapads.py.
+AutoOrganizeString). This snapshot merge is the translator-facing copy.
 
 Does not invent InventoryItemData rows. Warns when a vanilla item_*.json has
 no hook, or a sol.* hook has no matching pack item.

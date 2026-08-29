@@ -396,11 +396,10 @@ literally. That is intended.
 
 One concern, one store. Do not add a parallel translation file that nothing
 loads. Locale overlay packs reuse the same compiled JSON filenames under
-`Config/` (datapads overlay `Config/DatapadTextData.json` even though
-English is XML) and fall back to English for missing/empty fields. Unknown
+`Config/` and fall back to English for missing/empty fields. Unknown
 keys are skipped. Combat stats, `SaveName`, `ItemID`, `LivingEntityType`,
-`StaticPrefabType`, datapad `ID`, and `AutoOrganizeString` stay English even
-if the overlay copies them.
+`StaticPrefabType`, datapad `ID`, armor `ItemType` / set `Name` / piece `Set`,
+and `AutoOrganizeString` stay English even if the overlay copies them.
 
 | Kind of text | Store | Notes |
 | --- | --- | --- |
@@ -411,7 +410,7 @@ if the overlay copies them.
 | HUD / menu chrome | `Content/Config/UILocalization.json` | String keys. Menus, settings, load tips, and keybind action labels are here. Armor and equipment `+N Stat` templates are `armor.bonus.flat` / `armor.bonus.percent` plus `armor.stat.{StatusEffectType}`. Always-on capacitor drain and double jump are `equipment.drainPerSecond` / `equipment.doubleJump`. Pack overlay: `Config/UILocalization.json`. LoadedContent `item_*.json` `EquipmentEffects` are not locale-overlayed. |
 | HUD hover tooltips | `Content/Config/TooltipLocalization.json` | `tooltip.*` IDs. Live numbers and key names are `{0}` placeholders. Pack overlay: `Config/TooltipLocalization.json`. |
 | Status-effect labels | `Content/Config/StatusEffectLocalization.json` | `status.{StatusEffectType}` IDs. Types with no authored label stay off the table. Pack overlay: `Config/StatusEffectLocalization.json`. |
-| Datapads | `Content/XML/DatapadTextData.xml` | Leave `id`. Translate `title`, `category`, body. Pack overlay: `Config/DatapadTextData.json` (`ID`, `Title`, `Category`, `Text`). |
+| Datapads | `Content/Config/DatapadTextData.json` | Leave `ID`. Translate `Title`, `Category`, `Text`. Pack overlay: `Config/DatapadTextData.json` (same id; missing/empty fields keep English). |
 | Compiled item names / descriptions | `Content/Config/InventoryItemData.json` | Optional `Name` / `Description` plus `Templates` for instance states (`[itemname]`, `[level]`, `[mobname]`). Furniture and placeable display names live here. Shared status lines in `UILocalization.json`. Melee torches keep `MeleeWeaponData.json`. Vanilla pack items overlay `Name` / `Description` on the same table’s `sol.*` UUID rows; English for those stays in LoadedContent. Pack overlay: `Config/InventoryItemData.json` (do not overlay `AutoOrganizeString`). |
 | Compiled projectiles | `Content/Config/ProjectileRegistrationData.json` | Leave `SaveName` in English. Translate `Name`. Inventory ammo names stay in `InventoryItemData.json`. Pack overlay: `Config/ProjectileRegistrationData.json`. |
 | Container gump layouts | `Content/XML/ContainerGumpData.xml` | Leave `<id>` in English slug form. Translate `<name>` (gump title fallback). Item names stay in `InventoryItemData.json`. Not overlayable yet. |
