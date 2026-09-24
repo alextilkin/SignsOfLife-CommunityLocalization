@@ -68,6 +68,14 @@
     "Text": "You are currently well fed, so you will regenerate health over time and your maximum stamina is increased."
   },
   {
+    "ID": "tooltip.OXYGEN_DISPLAY.breathing",
+    "Text": "Oxygen remaining. You will take damage if this empties while underwater."
+  },
+  {
+    "ID": "tooltip.OXYGEN_DISPLAY.suffocating",
+    "Text": "You are out of oxygen and taking damage."
+  },
+  {
     "ID": "tooltip.CRAFTING_SORT_MELEE",
     "Text": "Show the melee weapons you can currently craft."
   },

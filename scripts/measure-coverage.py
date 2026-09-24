@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -44,6 +46,114 @@ PROSE_TABLES = (
 )
 
 ARMOR_TABLE = "ArmorSetData.json"
+STRUCTURED_TABLES = (
+    "RecipeLocalization.json",
+    "TileLocalization.json",
+    "GlyphLocalization.json",
+    "RuntimeContentLocalization.json",
+)
+FORMAT_TOKEN = re.compile(r"\{\d+(?:,[+-]?\d+)?(?::[^{}]*)?\}")
+BRACKET_TOKEN = re.compile(r"\[[A-Za-z0-9_]+\]")
+AT_TOKEN = re.compile(r"@[A-Za-z0-9_]+@")
+
+
+def assert_unique(rows, keys, label):
+    seen = set()
+    for row in rows:
+        if not isinstance(row, dict):
+            raise ValueError("%s contains a non-object row" % label)
+        identity = tuple(None if row.get(key) is None else str(row[key]) for key in keys)
+        if any(value is None or value == "" for value in identity):
+            raise ValueError("%s has a row without %s" % (label, ", ".join(keys)))
+        if identity in seen:
+            raise ValueError("%s has duplicate %s: %s" % (label, "/".join(keys), identity))
+        seen.add(identity)
+
+
+def validate_unique_rows(path, data):
+    name = path.name
+    if name == ARMOR_TABLE:
+        if not isinstance(data, dict):
+            raise ValueError("%s must be an object" % name)
+        assert_unique(data.get("Sets") or [], ("Name",), name + ".Sets")
+        # The English armor source also contains non-addressable pieces without
+        # ItemType; the game cannot match overlay rows for those pieces.
+        assert_unique([row for row in data.get("Pieces") or [] if row.get("ItemType")],
+                      ("ItemType",), name + ".Pieces")
+    elif name == "RecipeLocalization.json":
+        if not isinstance(data, dict):
+            raise ValueError("%s must be an object" % name)
+        for section, key in (("Recipes", "Name"), ("Categories", "Key"),
+                             ("Slots", "Key"), ("AdjustedResults", "Key")):
+            assert_unique(data.get(section) or [], (key,), name + "." + section)
+    elif name == "RuntimeContentLocalization.json":
+        assert_unique(data, ("Kind", "ID"), name)
+    elif name in UI_TABLES + (DIALOG_TABLE, "TileLocalization.json", "GlyphLocalization.json"):
+        assert_unique(data, ("ID",), name)
+    else:
+        for table, key, _, _ in PROSE_TABLES:
+            if name == table:
+                assert_unique(data, (key,), name)
+                break
+
+
+def valid_format_syntax(value):
+    index = 0
+    while index < len(value):
+        if value[index] == "{":
+            if value[index:index + 2] == "{{":
+                index += 2
+                continue
+            token = FORMAT_TOKEN.match(value, index)
+            if token is None:
+                return False
+            index = token.end()
+        elif value[index] == "}":
+            if value[index:index + 2] != "}}":
+                return False
+            index += 2
+        else:
+            index += 1
+    return True
+
+
+def tokens_match(english, translated):
+    if not valid_format_syntax(translated):
+        return False
+    if Counter(FORMAT_TOKEN.findall(english)) != Counter(FORMAT_TOKEN.findall(translated)):
+        return False
+    for pattern in (BRACKET_TOKEN, AT_TOKEN):
+        required = Counter(pattern.findall(english))
+        supplied = Counter(pattern.findall(translated))
+        if any(supplied[token] < count for token, count in required.items()):
+            return False
+    return True
+
+
+def check_tokens(errors, label, english, translated):
+    if translated and not tokens_match(english, translated):
+        errors.append("%s has missing or malformed format/keybind/lore tokens" % label)
+
+
+def structured_index(name, data):
+    rows = {}
+    if name == "RecipeLocalization.json":
+        for section, key in (("Recipes", "Name"), ("Categories", "Key"),
+                             ("Slots", "Key"), ("AdjustedResults", "Key")):
+            for row in data.get(section) or []:
+                ident = section + ":" + str(row[key])
+                rows[ident] = {"DisplayName": row["DisplayName"]} if isinstance(row.get("DisplayName"), str) and row["DisplayName"].strip() else {}
+    elif name == "RuntimeContentLocalization.json":
+        for row in data:
+            ident = str(row["Kind"]) + ":" + str(row["ID"])
+            rows[ident] = {key: value for key, value in row.items()
+                           if key not in ("Kind", "ID") and isinstance(value, str) and value.strip()}
+    else:
+        field = "Text" if name == "GlyphLocalization.json" else "DisplayName"
+        for row in data:
+            value = row.get(field)
+            rows[str(row["ID"])] = {field: value} if isinstance(value, str) and value.strip() else {}
+    return rows
 
 
 def armor_index(data):
@@ -87,10 +197,9 @@ def armor_index(data):
 def load_json(path: Path):
     if not path.is_file():
         return None
-    return json.loads(path.read_text(encoding="utf-8-sig"))
-    if not path.is_file():
-        return None
-    return json.loads(path.read_text(encoding="utf-8-sig"))
+    data = json.loads(path.read_text(encoding="utf-8-sig"))
+    validate_unique_rows(path, data)
+    return data
 
 
 def ui_index(rows):
@@ -176,7 +285,9 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
         counts = {"translated": 0, "missing": 0, "same-as-english": 0}
         for ident, english_value in english_rows.items():
             total += 1
-            status = classify(overlay_rows.get(ident, ""), english_value)
+            overlay_value = overlay_rows.get(ident, "")
+            check_tokens(errors, "%s %s" % (name, ident), english_value, overlay_value)
+            status = classify(overlay_value, english_value)
             counts[status] += 1
             if status == "translated":
                 translated += 1
@@ -201,7 +312,10 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
         for field in fields:
             dialog_total += 1
             total += 1
-            status = classify(overlay_row.get(field, ""), english_row[field])
+            overlay_value = overlay_row.get(field, "")
+            check_tokens(errors, "%s %s.%s" % (DIALOG_TABLE, ident, field),
+                         english_row[field], overlay_value)
+            status = classify(overlay_value, english_row[field])
             counts[status] += 1
             if status == "translated":
                 translated += 1
@@ -222,10 +336,20 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
         table_total = 0
         for ident, english_fields in english_rows.items():
             overlay_fields = overlay_rows.get(ident, {})
+            unknown_fields = sorted(set(overlay_fields) - set(english_fields))
+            if name == "StaticPrefabRegistrationData.json":
+                # A matching English DisplayName inherits Name but a pack may
+                # still explicitly override the displayed prefab name.
+                unknown_fields = [field for field in unknown_fields if field != "DisplayName"]
+            for field in unknown_fields:
+                errors.append("%s %s has unknown field %s" % (name, ident, field))
             for field, english_value in english_fields.items():
                 table_total += 1
                 total += 1
-                status = classify(overlay_fields.get(field, ""), english_value)
+                overlay_value = overlay_fields.get(field, "")
+                check_tokens(errors, "%s %s.%s" % (name, ident, field),
+                             english_value, overlay_value)
+                status = classify(overlay_value, english_value)
                 counts[status] += 1
                 if status == "translated":
                     translated += 1
@@ -244,11 +368,42 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
         for field, english_value in english_fields.items():
             armor_total += 1
             total += 1
-            status = classify(overlay_fields.get(field, ""), english_value)
+            overlay_value = overlay_fields.get(field, "")
+            check_tokens(errors, "%s %s.%s" % (ARMOR_TABLE, ident, field),
+                         english_value, overlay_value)
+            status = classify(overlay_value, english_value)
             counts[status] += 1
             if status == "translated":
                 translated += 1
     tables[ARMOR_TABLE] = {"total": armor_total, **counts}
+
+    for name in STRUCTURED_TABLES:
+        english_rows = structured_index(name, load_json(english_root / "Config" / name) or ({} if name == "RecipeLocalization.json" else []))
+        overlay_rows = structured_index(name, load_json(locale_root / "Config" / name) or ({} if name == "RecipeLocalization.json" else []))
+        unknown = sorted(set(overlay_rows) - set(english_rows))
+        if unknown:
+            errors.append("%s unknown keys: %s" % (name, ", ".join(unknown[:20])))
+        counts = {"translated": 0, "missing": 0, "same-as-english": 0}
+        table_total = 0
+        for ident, english_fields in english_rows.items():
+            overlay_fields = overlay_rows.get(ident, {})
+            unknown_fields = sorted(set(overlay_fields) - set(english_fields))
+            # An inherited recipe may supply an optional explicit DisplayName.
+            if name == "RecipeLocalization.json" and ident.startswith("Recipes:"):
+                unknown_fields = [field for field in unknown_fields if field != "DisplayName"]
+            for field in unknown_fields:
+                errors.append("%s %s has unknown field %s" % (name, ident, field))
+            for field, english_value in english_fields.items():
+                table_total += 1
+                total += 1
+                overlay_value = overlay_fields.get(field, "")
+                check_tokens(errors, "%s %s.%s" % (name, ident, field),
+                             english_value, overlay_value)
+                status = classify(overlay_value, english_value)
+                counts[status] += 1
+                if status == "translated":
+                    translated += 1
+        tables[name] = {"total": table_total, **counts}
 
     percent = (100.0 * translated / total) if total else 0.0
     return {
@@ -371,6 +526,16 @@ def main(argv: list[str] | None = None) -> int:
     english_root = repo / "english"
     locales_root = repo / "locales"
     source = json.loads((english_root / "SOURCE.json").read_text(encoding="utf-8"))
+    measured = set(UI_TABLES + (DIALOG_TABLE, ARMOR_TABLE) +
+                   tuple(table[0] for table in PROSE_TABLES) + STRUCTURED_TABLES)
+    declared = {Path(path).name for path in source["overlayableFiles"]}
+    if declared != measured:
+        raise SystemExit("SOURCE.json tables differ from coverage tables: %s" %
+                         ", ".join(sorted(declared.symmetric_difference(measured))))
+    missing_english = sorted(name for name in measured
+                             if not (english_root / "Config" / name).is_file())
+    if missing_english:
+        raise SystemExit("Missing English source tables: " + ", ".join(missing_english))
     languages_file = load_languages_file(repo)
     languages = languages_file["languages"]
     unsupported = languages_file.get("unsupported") or []
@@ -393,7 +558,12 @@ def main(argv: list[str] | None = None) -> int:
         locale_root = locales_root / lang["code"]
         if not locale_root.is_dir():
             continue
-        result = measure_locale(english_root, locale_root)
+        try:
+            result = measure_locale(english_root, locale_root)
+        except (ValueError, json.JSONDecodeError) as exc:
+            print("%s: %s" % (lang["code"], exc), file=sys.stderr)
+            failed = True
+            continue
         result["endonym"] = lang.get("endonym", "")
         results.append(result)
         if result["errors"]:

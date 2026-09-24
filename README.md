@@ -67,7 +67,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 6130 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 7712 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |
@@ -159,7 +159,15 @@ content tables. Combat stats and frozen lookup keys are ignored even if present:
 - `Config/StaticPrefabRegistrationData.json`
 - `Config/DatapadTextData.json`
 - `Config/ArmorSetData.json`
+- `Config/RecipeLocalization.json` — explicit names, categories, adjusted results
+- `Config/TileLocalization.json` — block item names
+- `Config/GlyphLocalization.json` — xenoid inscription display text
+- `Config/RuntimeContentLocalization.json` — vanilla pack prose and unique effects
 
 Empty arrays (and empty armor `Sets` / `Pieces`) mean “nothing translated yet.”
-Leave untranslated rows out rather than copying English. This snapshot does
-not yet provide separate container gump title rows.
+Leave untranslated rows out rather than copying English. Recipe files use empty
+`Recipes` / `Categories` / `Slots` / `AdjustedResults` arrays. Inherited recipe
+and prefab names do not create a second required translation. See
+[`TRANSLATING.md`](TRANSLATING.md) for stable keys, fallback, and the three art
+labels deferred until after the community localization launch. The English
+snapshot is a candidate until the on-screen review is complete.

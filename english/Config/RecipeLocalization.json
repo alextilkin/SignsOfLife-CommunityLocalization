@@ -1,0 +1,5404 @@
+{
+  "Recipes": [
+    {
+      "Name": ".22LR Rounds",
+      "DisplayName": ".22LR Rounds"
+    },
+    {
+      "Name": ".308 Rounds",
+      "DisplayName": ".308 Rounds"
+    },
+    {
+      "Name": ".357 Rounds",
+      "DisplayName": ".357 Rounds"
+    },
+    {
+      "Name": ".45ACP Rounds",
+      "DisplayName": ".45ACP Rounds"
+    },
+    {
+      "Name": ".700 Rounds",
+      "DisplayName": ".700 Rounds"
+    },
+    {
+      "Name": "100 Firecrackers",
+      "DisplayName": "100 Firecrackers"
+    },
+    {
+      "Name": "1000 Firecrackers",
+      "DisplayName": "1000 Firecrackers"
+    },
+    {
+      "Name": "20 Firecrackers",
+      "DisplayName": "20 Firecrackers"
+    },
+    {
+      "Name": "5.56 Rounds",
+      "DisplayName": "5.56 Rounds"
+    },
+    {
+      "Name": "9mm High Velocity",
+      "DisplayName": "9mm High Velocity"
+    },
+    {
+      "Name": "9mm Pistol",
+      "DisplaySource": "Item:6100"
+    },
+    {
+      "Name": "9mm Ricochet",
+      "DisplayName": "9mm Ricochet"
+    },
+    {
+      "Name": "9mm Rounds",
+      "DisplayName": "9mm Rounds"
+    },
+    {
+      "Name": "Acid Neutralizer",
+      "DisplayName": "Acid Neutralizer"
+    },
+    {
+      "Name": "Acid Spray Pistol",
+      "DisplayName": "Acid Spray Pistol"
+    },
+    {
+      "Name": "Acid Spray Rounds",
+      "DisplayName": "Acid Spray Rounds"
+    },
+    {
+      "Name": "Acute Beam Pistol",
+      "DisplaySource": "Item:6137"
+    },
+    {
+      "Name": "Acute Beam Repeater",
+      "DisplaySource": "Item:6138"
+    },
+    {
+      "Name": "Advanced Capacitor",
+      "DisplaySource": "Item:sol.advanced_capacitor"
+    },
+    {
+      "Name": "Advanced Handgun Parts",
+      "DisplaySource": "Item:3120"
+    },
+    {
+      "Name": "Advanced Launcher Parts",
+      "DisplaySource": "Item:3124"
+    },
+    {
+      "Name": "Advanced Rifle Parts",
+      "DisplaySource": "Item:3122"
+    },
+    {
+      "Name": "Advanced SMG Parts",
+      "DisplayName": "Advanced SMG Parts"
+    },
+    {
+      "Name": "Advanced Shotgun Parts",
+      "DisplaySource": "Item:3123"
+    },
+    {
+      "Name": "Alien Wreckage"
+    },
+    {
+      "Name": "Aluminum Bat",
+      "DisplaySource": "Item:sol.aluminum_bat"
+    },
+    {
+      "Name": "Aluminum Ingot",
+      "DisplayName": "Aluminum Ingot"
+    },
+    {
+      "Name": "Aluminum Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Ammonia",
+      "DisplayName": "Ammonia"
+    },
+    {
+      "Name": "Ammunition Press",
+      "DisplaySource": "Item:10089"
+    },
+    {
+      "Name": "Ant Food Ceiling"
+    },
+    {
+      "Name": "Ant Goo Arrow",
+      "DisplayName": "Ant Goo Arrow"
+    },
+    {
+      "Name": "Ant Goo Grenade",
+      "DisplaySource": "Item:12502"
+    },
+    {
+      "Name": "Ant Jelly Ceiling"
+    },
+    {
+      "Name": "Ant Queen Scythe",
+      "DisplaySource": "Item:16010"
+    },
+    {
+      "Name": "Antiparasitic Medicine",
+      "DisplaySource": "Item:sol.antiparasitic_medicine"
+    },
+    {
+      "Name": "Artisanal Pie",
+      "DisplayName": "Artisanal Pie"
+    },
+    {
+      "Name": "Assault Rifle",
+      "DisplaySource": "Item:6001"
+    },
+    {
+      "Name": "Asteroid Ceiling Hazard"
+    },
+    {
+      "Name": "Asteroid Ceiling Story Stone"
+    },
+    {
+      "Name": "Asteroid Ceiling Story Stone2"
+    },
+    {
+      "Name": "Asteroid Decor 0"
+    },
+    {
+      "Name": "Asteroid Decor 1"
+    },
+    {
+      "Name": "Asteroid Decor 2"
+    },
+    {
+      "Name": "Asteroid Decor 6"
+    },
+    {
+      "Name": "Asteroid Decor 7"
+    },
+    {
+      "Name": "Asteroid Decor 8"
+    },
+    {
+      "Name": "Asteroid Decor 9"
+    },
+    {
+      "Name": "Asteroid Decor Surface 0"
+    },
+    {
+      "Name": "Asteroid Decor Surface 1"
+    },
+    {
+      "Name": "Asteroid Decor Surface 2"
+    },
+    {
+      "Name": "Asteroid Decor Surface 3"
+    },
+    {
+      "Name": "Asteroid Decor Surface 4"
+    },
+    {
+      "Name": "Asteroid Decor Xenite 0"
+    },
+    {
+      "Name": "Asteroid Decor Xenite 1"
+    },
+    {
+      "Name": "Asteroid Decor Xenite 2"
+    },
+    {
+      "Name": "Asteroid Mite Hat",
+      "DisplayName": "Asteroid Mite Hat"
+    },
+    {
+      "Name": "Asteroid Story Weakened Wall"
+    },
+    {
+      "Name": "Asteroid Wall Decor 0"
+    },
+    {
+      "Name": "Asteroid Wall Decor 1"
+    },
+    {
+      "Name": "Asteroid Wall Decor 2"
+    },
+    {
+      "Name": "Asteroid Xenite Growth 0"
+    },
+    {
+      "Name": "Asteroid Xenite Growth 1"
+    },
+    {
+      "Name": "Asteroid Xenite Growth 2"
+    },
+    {
+      "Name": "Asteroid Xenite Growth 3"
+    },
+    {
+      "Name": "Asteroid Xenite Growth 4"
+    },
+    {
+      "Name": "Asteroid Xenite Growth 5"
+    },
+    {
+      "Name": "Backglider",
+      "DisplayName": "Backglider"
+    },
+    {
+      "Name": "Baklava",
+      "DisplayName": "Baklava"
+    },
+    {
+      "Name": "Bandana",
+      "DisplayName": "Bandana"
+    },
+    {
+      "Name": "Bangsnaps",
+      "DisplaySource": "Item:13109"
+    },
+    {
+      "Name": "Barrel Bomb",
+      "DisplayName": "Barrel Bomb"
+    },
+    {
+      "Name": "Basalt Block",
+      "DisplayName": "Basalt Block"
+    },
+    {
+      "Name": "Basalt Ceiling",
+      "DisplayName": "Basalt Ceiling"
+    },
+    {
+      "Name": "Basalt Floor",
+      "DisplayName": "Basalt Floor"
+    },
+    {
+      "Name": "Basalt Platform",
+      "DisplayName": "Basalt Platform"
+    },
+    {
+      "Name": "Basalt Roof",
+      "DisplayName": "Basalt Roof"
+    },
+    {
+      "Name": "Basalt Slope",
+      "DisplayName": "Basalt Slope"
+    },
+    {
+      "Name": "Basalt Stairs",
+      "DisplayName": "Basalt Stairs"
+    },
+    {
+      "Name": "Basalt Wall",
+      "DisplayName": "Basalt Wall"
+    },
+    {
+      "Name": "Basic Work Table",
+      "DisplayName": "Basic Work Table"
+    },
+    {
+      "Name": "Batter",
+      "DisplaySource": "Item:sol.batter"
+    },
+    {
+      "Name": "Battery Charger"
+    },
+    {
+      "Name": "Beam Stabilizer"
+    },
+    {
+      "Name": "Big Dumpster Delight"
+    },
+    {
+      "Name": "Big Dumpster Delight Pie"
+    },
+    {
+      "Name": "Big Salad",
+      "DisplayName": "Big Salad"
+    },
+    {
+      "Name": "Big Sandwich",
+      "DisplayName": "Big Sandwich"
+    },
+    {
+      "Name": "Biofuel",
+      "DisplayName": "Biofuel"
+    },
+    {
+      "Name": "Biometric Scanner",
+      "DisplayName": "Biometric Scanner"
+    },
+    {
+      "Name": "Bitter Jelly",
+      "DisplaySource": "Item:3505"
+    },
+    {
+      "Name": "Black Leather Jacket",
+      "DisplayName": "Black Leather Jacket"
+    },
+    {
+      "Name": "Black Powder",
+      "DisplayName": "Black Powder"
+    },
+    {
+      "Name": "Black Sports Bra",
+      "DisplayName": "Black Sports Bra"
+    },
+    {
+      "Name": "Black Tank Top",
+      "DisplayName": "Black Tank Top"
+    },
+    {
+      "Name": "Blank Blackboard",
+      "DisplaySource": "Item:sol.blank_blackboard"
+    },
+    {
+      "Name": "Blast Furnace",
+      "DisplaySource": "Prefab:8"
+    },
+    {
+      "Name": "Blast Potion",
+      "DisplayName": "Blast Potion"
+    },
+    {
+      "Name": "Blast Potion - Greater",
+      "DisplayName": "Blast Potion - Greater"
+    },
+    {
+      "Name": "Bloody Surgery Table"
+    },
+    {
+      "Name": "Blow Pipe Dart",
+      "DisplayName": "Blow Pipe Dart"
+    },
+    {
+      "Name": "Blue Roman Candle",
+      "DisplaySource": "Item:13111"
+    },
+    {
+      "Name": "Blunderbuss",
+      "DisplaySource": "Item:6104"
+    },
+    {
+      "Name": "Blunderbuss Shells",
+      "DisplayName": "Blunderbuss Shells"
+    },
+    {
+      "Name": "Bone Arms",
+      "DisplayName": "Bone Arms"
+    },
+    {
+      "Name": "Bone Arrow",
+      "DisplaySource": "Item:9010"
+    },
+    {
+      "Name": "Bone Boots",
+      "DisplayName": "Bone Boots"
+    },
+    {
+      "Name": "Bone Club",
+      "DisplaySource": "Item:sol.bone_club"
+    },
+    {
+      "Name": "Bone Gloves",
+      "DisplayName": "Bone Gloves"
+    },
+    {
+      "Name": "Bone Helmet",
+      "DisplayName": "Bone Helmet"
+    },
+    {
+      "Name": "Bone Leggings",
+      "DisplayName": "Bone Leggings"
+    },
+    {
+      "Name": "Bone Torso",
+      "DisplayName": "Bone Torso"
+    },
+    {
+      "Name": "Boombox",
+      "DisplayName": "Boombox"
+    },
+    {
+      "Name": "Bornite Arms",
+      "DisplayName": "Bornite Arms"
+    },
+    {
+      "Name": "Bornite Arrow",
+      "DisplaySource": "Item:9007"
+    },
+    {
+      "Name": "Bornite Boots",
+      "DisplayName": "Bornite Boots"
+    },
+    {
+      "Name": "Bornite Gloves",
+      "DisplayName": "Bornite Gloves"
+    },
+    {
+      "Name": "Bornite Helmet",
+      "DisplayName": "Bornite Helmet"
+    },
+    {
+      "Name": "Bornite Ingot",
+      "DisplaySource": "Item:2108"
+    },
+    {
+      "Name": "Bornite Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Bornite Leggings",
+      "DisplayName": "Bornite Leggings"
+    },
+    {
+      "Name": "Bornite Torso",
+      "DisplayName": "Bornite Torso"
+    },
+    {
+      "Name": "Bottle Rocket",
+      "DisplaySource": "Item:13108"
+    },
+    {
+      "Name": "Bottle Rocket Kit",
+      "DisplaySource": "Item:13110"
+    },
+    {
+      "Name": "Bread",
+      "DisplayName": "Bread"
+    },
+    {
+      "Name": "Bread Loaf",
+      "DisplayName": "Bread Loaf"
+    },
+    {
+      "Name": "Break Barrel Shotgun",
+      "DisplaySource": "Item:6122"
+    },
+    {
+      "Name": "Breaker Box",
+      "DisplaySource": "Item:sol.item_bd_breaker_box"
+    },
+    {
+      "Name": "Brick",
+      "DisplayName": "Brick"
+    },
+    {
+      "Name": "Brick Block",
+      "DisplaySource": "Tile:376"
+    },
+    {
+      "Name": "Brick Ceiling",
+      "DisplaySource": "Tile:373"
+    },
+    {
+      "Name": "Brick Floor",
+      "DisplaySource": "Tile:372"
+    },
+    {
+      "Name": "Brick Oven",
+      "DisplaySource": "Prefab:314"
+    },
+    {
+      "Name": "Brick Platform",
+      "DisplaySource": "Tile:786"
+    },
+    {
+      "Name": "Brick Roof",
+      "DisplaySource": "Tile:374"
+    },
+    {
+      "Name": "Brick Slope",
+      "DisplaySource": "Tile:375"
+    },
+    {
+      "Name": "Brick Stairs",
+      "DisplaySource": "Tile:787"
+    },
+    {
+      "Name": "Brick Wall",
+      "DisplaySource": "Tile:330"
+    },
+    {
+      "Name": "Brilliant Gem",
+      "DisplayName": "Brilliant Gem"
+    },
+    {
+      "Name": "Bronze Arms",
+      "DisplayName": "Bronze Arms"
+    },
+    {
+      "Name": "Bronze Arrow",
+      "DisplaySource": "Item:9004"
+    },
+    {
+      "Name": "Bronze Axe",
+      "DisplayName": "Bronze Axe"
+    },
+    {
+      "Name": "Bronze Bolt",
+      "DisplaySource": "Item:9104"
+    },
+    {
+      "Name": "Bronze Boots",
+      "DisplayName": "Bronze Boots"
+    },
+    {
+      "Name": "Bronze Bow",
+      "DisplaySource": "Item:8003"
+    },
+    {
+      "Name": "Bronze Club",
+      "DisplayName": "Bronze Club"
+    },
+    {
+      "Name": "Bronze Crossbow",
+      "DisplaySource": "Item:8102"
+    },
+    {
+      "Name": "Bronze Gloves",
+      "DisplayName": "Bronze Gloves"
+    },
+    {
+      "Name": "Bronze Helmet",
+      "DisplayName": "Bronze Helmet"
+    },
+    {
+      "Name": "Bronze Ingot",
+      "DisplayName": "Bronze Ingot"
+    },
+    {
+      "Name": "Bronze Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Bronze Leggings",
+      "DisplayName": "Bronze Leggings"
+    },
+    {
+      "Name": "Bronze Pick",
+      "DisplayName": "Bronze Pick"
+    },
+    {
+      "Name": "Bronze Shield",
+      "DisplaySource": "Item:6054"
+    },
+    {
+      "Name": "Bronze Spear",
+      "DisplayName": "Bronze Spear"
+    },
+    {
+      "Name": "Bronze Sword",
+      "DisplayName": "Bronze Sword"
+    },
+    {
+      "Name": "Bronze Torso",
+      "DisplayName": "Bronze Torso"
+    },
+    {
+      "Name": "Broodpack",
+      "DisplayName": "Broodpack"
+    },
+    {
+      "Name": "Brown Leather Jacket",
+      "DisplayName": "Brown Leather Jacket"
+    },
+    {
+      "Name": "Brown Long Sleeve Shirt",
+      "DisplayName": "Brown Long Sleeve Shirt"
+    },
+    {
+      "Name": "Brown Sugar Jar",
+      "DisplaySource": "Item:4044"
+    },
+    {
+      "Name": "Burn Salve",
+      "DisplayName": "Burn Salve"
+    },
+    {
+      "Name": "Burned Food"
+    },
+    {
+      "Name": "Burst Rifle",
+      "DisplaySource": "Item:6006"
+    },
+    {
+      "Name": "C96 Pistol",
+      "DisplayName": "C96 Pistol"
+    },
+    {
+      "Name": "Cadet Hat",
+      "DisplayName": "Cadet Hat"
+    },
+    {
+      "Name": "Cafe Chair",
+      "DisplaySource": "Item:10103"
+    },
+    {
+      "Name": "Cafe Coffee Station",
+      "DisplaySource": "Prefab:266"
+    },
+    {
+      "Name": "Cafe Cup Rack",
+      "DisplaySource": "Item:4060"
+    },
+    {
+      "Name": "Cafe Stool",
+      "DisplaySource": "Item:4061"
+    },
+    {
+      "Name": "Cafe Table",
+      "DisplaySource": "Item:4062"
+    },
+    {
+      "Name": "Cake",
+      "DisplayName": "Cake"
+    },
+    {
+      "Name": "Campfire",
+      "DisplaySource": "Prefab:6"
+    },
+    {
+      "Name": "Cap",
+      "DisplayName": "Cap"
+    },
+    {
+      "Name": "Carafe",
+      "DisplaySource": "Item:4045"
+    },
+    {
+      "Name": "Carbon Fiber Spindle",
+      "DisplayName": "Carbon Fiber Spindle"
+    },
+    {
+      "Name": "Carbon Nanofiber Mesh",
+      "DisplayName": "Carbon Nanofiber Mesh"
+    },
+    {
+      "Name": "Carbon Nanotube Processor",
+      "DisplaySource": "Prefab:303"
+    },
+    {
+      "Name": "Cargo Pants",
+      "DisplayName": "Cargo Pants"
+    },
+    {
+      "Name": "Carrier Barrel Hazard"
+    },
+    {
+      "Name": "Carrier Ceiling Bin 0"
+    },
+    {
+      "Name": "Carrier Ceiling Bin 1"
+    },
+    {
+      "Name": "Carrier Ceiling Decor 1"
+    },
+    {
+      "Name": "Carrier Ceiling Decor 2"
+    },
+    {
+      "Name": "Carrier Corner Decor 0"
+    },
+    {
+      "Name": "Carrier Corner Decor 1"
+    },
+    {
+      "Name": "Carrier Corner Lamp"
+    },
+    {
+      "Name": "Carrier Decor Large 0"
+    },
+    {
+      "Name": "Carrier Decor Large 1"
+    },
+    {
+      "Name": "Carrier Flow Control"
+    },
+    {
+      "Name": "Carrier Pillar Large"
+    },
+    {
+      "Name": "Carrier Pillar Medium"
+    },
+    {
+      "Name": "Carrier Pillar Small"
+    },
+    {
+      "Name": "Carrier Refreshment Powder"
+    },
+    {
+      "Name": "Carrier Refreshment Powder Xenostone"
+    },
+    {
+      "Name": "Carrier Walkway"
+    },
+    {
+      "Name": "Carrier Xenolith"
+    },
+    {
+      "Name": "Cement Bag",
+      "DisplaySource": "Item:sol.cement_bag"
+    },
+    {
+      "Name": "Ceramic Plate",
+      "DisplayName": "Ceramic Plate"
+    },
+    {
+      "Name": "Charcoal",
+      "DisplayName": "Charcoal"
+    },
+    {
+      "Name": "Charcoal (Cooking)"
+    },
+    {
+      "Name": "Chemistry Bench",
+      "DisplaySource": "Prefab:317"
+    },
+    {
+      "Name": "Chemistry Lab",
+      "DisplaySource": "Prefab:318"
+    },
+    {
+      "Name": "Chicken Fetus Specimen Container",
+      "DisplaySource": "Structure:sol.specimen_container_chicken_fetus"
+    },
+    {
+      "Name": "Chitinous Dart Gun",
+      "DisplayName": "Chitinous Dart Gun"
+    },
+    {
+      "Name": "Chitinous Shield",
+      "DisplaySource": "Item:6058"
+    },
+    {
+      "Name": "Chunky Nut Butter",
+      "DisplaySource": "Item:sol.chunky_nut_butter"
+    },
+    {
+      "Name": "Clay Block",
+      "DisplaySource": "Tile:788"
+    },
+    {
+      "Name": "Clay Bowl",
+      "DisplaySource": "Item:sol.clay_bowl"
+    },
+    {
+      "Name": "Clay Firepot",
+      "DisplaySource": "Item:sol.clay_firepot"
+    },
+    {
+      "Name": "Clay Plate",
+      "DisplaySource": "Item:sol.clay_plate"
+    },
+    {
+      "Name": "Clobb",
+      "DisplaySource": "Item:6200"
+    },
+    {
+      "Name": "Cloth Bandage",
+      "DisplayName": "Cloth Bandage"
+    },
+    {
+      "Name": "Coffee Bean Sack",
+      "DisplaySource": "Item:4049"
+    },
+    {
+      "Name": "Coffee Grinder",
+      "DisplaySource": "Item:4050"
+    },
+    {
+      "Name": "Collection - Cooler",
+      "DisplayName": "Collection - Cooler"
+    },
+    {
+      "Name": "Collection - Excavator",
+      "DisplayName": "Collection - Excavator"
+    },
+    {
+      "Name": "Collection - Forager",
+      "DisplayName": "Collection - Forager"
+    },
+    {
+      "Name": "Collection - Hunter",
+      "DisplayName": "Collection - Hunter"
+    },
+    {
+      "Name": "Collection - Jeweler",
+      "DisplayName": "Collection - Jeweler"
+    },
+    {
+      "Name": "Collection - Munitions",
+      "DisplayName": "Collection - Munitions"
+    },
+    {
+      "Name": "Combat Boots",
+      "DisplaySource": "Item:STEEL_COMBAT_BOOTS"
+    },
+    {
+      "Name": "Combat Gloves",
+      "DisplaySource": "Item:STEEL_COMBAT_GLOVES"
+    },
+    {
+      "Name": "Combat Knife",
+      "DisplaySource": "Item:sol.combat_knife"
+    },
+    {
+      "Name": "Combat Leggings",
+      "DisplayName": "Combat Leggings"
+    },
+    {
+      "Name": "Combat SMG",
+      "DisplaySource": "Item:6202"
+    },
+    {
+      "Name": "Combat Shotgun",
+      "DisplaySource": "Item:6117"
+    },
+    {
+      "Name": "Combat Shoulder Plates",
+      "DisplaySource": "Item:STEEL_COMBAT_ARMS"
+    },
+    {
+      "Name": "Comm Beacon",
+      "DisplaySource": "Prefab:13"
+    },
+    {
+      "Name": "Condiment Bottle",
+      "DisplaySource": "Item:4051"
+    },
+    {
+      "Name": "Construction Barricade",
+      "DisplaySource": "Structure:sol.construction_barricade"
+    },
+    {
+      "Name": "Construction Materials",
+      "DisplaySource": "Structure:sol.construction_materials"
+    },
+    {
+      "Name": "Construction Panels",
+      "DisplaySource": "Structure:sol.construction_panels"
+    },
+    {
+      "Name": "Construction Posts",
+      "DisplaySource": "Structure:sol.construction_posts"
+    },
+    {
+      "Name": "Construction Scaffold",
+      "DisplaySource": "Structure:sol.construction_scaffold"
+    },
+    {
+      "Name": "Convict Cap",
+      "DisplayName": "Convict Cap"
+    },
+    {
+      "Name": "Cooked Fungi",
+      "DisplayName": "Cooked Fungi"
+    },
+    {
+      "Name": "Cooked Meat",
+      "DisplayName": "Cooked Meat"
+    },
+    {
+      "Name": "Cooked Pod Fruit"
+    },
+    {
+      "Name": "Copper Arms",
+      "DisplayName": "Copper Arms"
+    },
+    {
+      "Name": "Copper Arrow",
+      "DisplaySource": "Item:9002"
+    },
+    {
+      "Name": "Copper Axe",
+      "DisplayName": "Copper Axe"
+    },
+    {
+      "Name": "Copper Bolt",
+      "DisplaySource": "Item:9102"
+    },
+    {
+      "Name": "Copper Boots",
+      "DisplayName": "Copper Boots"
+    },
+    {
+      "Name": "Copper Bow",
+      "DisplaySource": "Item:8001"
+    },
+    {
+      "Name": "Copper Buckle",
+      "DisplaySource": "Item:2029"
+    },
+    {
+      "Name": "Copper Club",
+      "DisplayName": "Copper Club"
+    },
+    {
+      "Name": "Copper Crossbow",
+      "DisplaySource": "Item:8100"
+    },
+    {
+      "Name": "Copper Gloves",
+      "DisplayName": "Copper Gloves"
+    },
+    {
+      "Name": "Copper Hammer",
+      "DisplayName": "Copper Hammer"
+    },
+    {
+      "Name": "Copper Helmet",
+      "DisplayName": "Copper Helmet"
+    },
+    {
+      "Name": "Copper Ingot",
+      "DisplaySource": "Item:2100"
+    },
+    {
+      "Name": "Copper Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Copper Leggings",
+      "DisplayName": "Copper Leggings"
+    },
+    {
+      "Name": "Copper Pick",
+      "DisplayName": "Copper Pick"
+    },
+    {
+      "Name": "Copper Shield",
+      "DisplaySource": "Item:6051"
+    },
+    {
+      "Name": "Copper Spear",
+      "DisplayName": "Copper Spear"
+    },
+    {
+      "Name": "Copper Sword",
+      "DisplayName": "Copper Sword"
+    },
+    {
+      "Name": "Copper Torso",
+      "DisplayName": "Copper Torso"
+    },
+    {
+      "Name": "Copper Wire",
+      "DisplayName": "Copper Wire"
+    },
+    {
+      "Name": "Corn Dog",
+      "DisplayName": "Corn Dog"
+    },
+    {
+      "Name": "Cornbread",
+      "DisplayName": "Cornbread"
+    },
+    {
+      "Name": "Cornmeal",
+      "DisplaySource": "Item:sol.cornmeal"
+    },
+    {
+      "Name": "Corridor Support 0"
+    },
+    {
+      "Name": "Corridor Support 1"
+    },
+    {
+      "Name": "Corridor Support 2"
+    },
+    {
+      "Name": "Corroded Coolant Tank",
+      "DisplaySource": "Structure:sol.corroded_coolant_tank"
+    },
+    {
+      "Name": "Corroded Wooden Crate",
+      "DisplaySource": "Structure:sol.corroded_wooden_crate"
+    },
+    {
+      "Name": "Corrosion Salve",
+      "DisplayName": "Corrosion Salve"
+    },
+    {
+      "Name": "Cotton Bolt",
+      "DisplaySource": "Item:2027"
+    },
+    {
+      "Name": "Cotton Padding",
+      "DisplaySource": "Item:2055"
+    },
+    {
+      "Name": "Crawler Spine Brace",
+      "DisplayName": "Crawler Spine Brace"
+    },
+    {
+      "Name": "Crude Handgun Parts",
+      "DisplayName": "Crude Handgun Parts"
+    },
+    {
+      "Name": "Crude Launcher Parts",
+      "DisplayName": "Crude Launcher Parts"
+    },
+    {
+      "Name": "Crude Rifle Parts",
+      "DisplaySource": "Item:3102"
+    },
+    {
+      "Name": "Crude SMG Parts",
+      "DisplaySource": "Item:3101"
+    },
+    {
+      "Name": "Crude Shotgun Parts",
+      "DisplaySource": "Item:3103"
+    },
+    {
+      "Name": "Cryo Storage Unit"
+    },
+    {
+      "Name": "Cultured Yeast",
+      "DisplayName": "Cultured Yeast"
+    },
+    {
+      "Name": "Cure Potion",
+      "DisplayName": "Cure Potion"
+    },
+    {
+      "Name": "Curved Dagger",
+      "DisplaySource": "Item:sol.skinning_knife"
+    },
+    {
+      "Name": "Cybernetic Arms (Autocannon)",
+      "DisplayName": "Cybernetic Arms (Autocannon)"
+    },
+    {
+      "Name": "Cybernetic Arms (Behemoth)",
+      "DisplayName": "Cybernetic Arms (Behemoth)"
+    },
+    {
+      "Name": "Cybernetic Arms (Bolt Driver)",
+      "DisplayName": "Cybernetic Arms (Bolt Driver)"
+    },
+    {
+      "Name": "Cybernetic Arms (Forgeblade)",
+      "DisplayName": "Cybernetic Arms (Forgeblade)"
+    },
+    {
+      "Name": "Cybernetic Arms (Heavy)",
+      "DisplayName": "Cybernetic Arms (Heavy)"
+    },
+    {
+      "Name": "Cybernetic Arms (Junker)",
+      "DisplayName": "Cybernetic Arms (Junker)"
+    },
+    {
+      "Name": "Cybernetic Arms (Low Profile)",
+      "DisplayName": "Cybernetic Arms (Low Profile)"
+    },
+    {
+      "Name": "Cybernetic Arms (Ratchet)",
+      "DisplayName": "Cybernetic Arms (Ratchet)"
+    },
+    {
+      "Name": "Cybernetic Arms (Sleek)",
+      "DisplayName": "Cybernetic Arms (Sleek)"
+    },
+    {
+      "Name": "Cybernetic Arms (Stripped)",
+      "DisplayName": "Cybernetic Arms (Stripped)"
+    },
+    {
+      "Name": "Cybernetic Eyes (Laser)",
+      "DisplaySource": "Item:sol.cyber_eyes_laser"
+    },
+    {
+      "Name": "Cybernetic Eyes (Synthetic)",
+      "DisplayName": "Cybernetic Eyes (Synthetic)"
+    },
+    {
+      "Name": "Cybernetic Heart (Partially Synthetic)",
+      "DisplayName": "Cybernetic Heart (Partially Synthetic)"
+    },
+    {
+      "Name": "Cybernetic Heart (Synthetic)",
+      "DisplaySource": "Item:sol.cyber_heart_synthetic"
+    },
+    {
+      "Name": "Cybernetic Legs (Behemoth)",
+      "DisplayName": "Cybernetic Legs (Behemoth)"
+    },
+    {
+      "Name": "Cybernetic Legs (Heavy)",
+      "DisplayName": "Cybernetic Legs (Heavy)"
+    },
+    {
+      "Name": "Cybernetic Legs (Jet)",
+      "DisplayName": "Cybernetic Legs (Jet)"
+    },
+    {
+      "Name": "Cybernetic Legs (Junker)",
+      "DisplayName": "Cybernetic Legs (Junker)"
+    },
+    {
+      "Name": "Cybernetic Legs (Low Profile)",
+      "DisplayName": "Cybernetic Legs (Low Profile)"
+    },
+    {
+      "Name": "Cybernetic Legs (Ratchet)",
+      "DisplayName": "Cybernetic Legs (Ratchet)"
+    },
+    {
+      "Name": "Cybernetic Legs (Sleek)",
+      "DisplayName": "Cybernetic Legs (Sleek)"
+    },
+    {
+      "Name": "Cybernetic Legs (Stripped)",
+      "DisplayName": "Cybernetic Legs (Stripped)"
+    },
+    {
+      "Name": "Cybernetic Lungs (Partially Synthetic)",
+      "DisplayName": "Cybernetic Lungs (Partially Synthetic)"
+    },
+    {
+      "Name": "Cybernetic Lungs (Synthetic)",
+      "DisplaySource": "Item:sol.cyber_lungs_synthetic"
+    },
+    {
+      "Name": "Cybernetic Stomach (Bio-Reactor)",
+      "DisplaySource": "Item:sol.cyber_stomach_bioreactor"
+    },
+    {
+      "Name": "Cybernetic Stomach (Metabolic)",
+      "DisplayName": "Cybernetic Stomach (Metabolic)"
+    },
+    {
+      "Name": "Cybernetic Stomach (Regurgitator)",
+      "DisplaySource": "Item:sol.cyber_stomach_regurgitator"
+    },
+    {
+      "Name": "Cybernetic Stomach (Synthetic)",
+      "DisplayName": "Cybernetic Stomach (Synthetic)"
+    },
+    {
+      "Name": "Cybernetics Station",
+      "DisplaySource": "Prefab:302"
+    },
+    {
+      "Name": "Cymbals",
+      "DisplaySource": "Item:sol.cymbals"
+    },
+    {
+      "Name": "D6 Polymer",
+      "DisplayName": "D6 Polymer"
+    },
+    {
+      "Name": "Dark Duglette Mound"
+    },
+    {
+      "Name": "Data Storage Unit",
+      "DisplaySource": "Structure:sol.tech_data_storage"
+    },
+    {
+      "Name": "Deactivated Elevator"
+    },
+    {
+      "Name": "Dead Colossus"
+    },
+    {
+      "Name": "Dead Xenoid"
+    },
+    {
+      "Name": "Decorative Shelf"
+    },
+    {
+      "Name": "Decoy Hologram",
+      "DisplayName": "Decoy Hologram"
+    },
+    {
+      "Name": "Defense Drone",
+      "DisplaySource": "Item:ACC_DEFENSE_DRONE"
+    },
+    {
+      "Name": "Denim Cutoffs",
+      "DisplayName": "Denim Cutoffs"
+    },
+    {
+      "Name": "Denim Pants",
+      "DisplayName": "Denim Pants"
+    },
+    {
+      "Name": "Destroyed Xenoid Architecture"
+    },
+    {
+      "Name": "Dismantle .22LR Ammo",
+      "DisplayName": "Dismantle .22LR Ammo"
+    },
+    {
+      "Name": "Dismantle .308 Ammo",
+      "DisplayName": "Dismantle .308 Ammo"
+    },
+    {
+      "Name": "Dismantle .357 Ammo",
+      "DisplayName": "Dismantle .357 Ammo"
+    },
+    {
+      "Name": "Dismantle .45ACP Ammo",
+      "DisplayName": "Dismantle .45ACP Ammo"
+    },
+    {
+      "Name": "Dismantle .700 Ammo",
+      "DisplayName": "Dismantle .700 Ammo"
+    },
+    {
+      "Name": "Dismantle 5.56 Ammo",
+      "DisplayName": "Dismantle 5.56 Ammo"
+    },
+    {
+      "Name": "Dismantle 9mm Ammo",
+      "DisplayName": "Dismantle 9mm Ammo"
+    },
+    {
+      "Name": "Dismantle Blunderbuss Shells",
+      "DisplayName": "Dismantle Blunderbuss Shells"
+    },
+    {
+      "Name": "Dismantle Shotgun Shells",
+      "DisplayName": "Dismantle Shotgun Shells"
+    },
+    {
+      "Name": "Door Panel",
+      "DisplaySource": "Item:10058"
+    },
+    {
+      "Name": "Double Jump Backpack",
+      "DisplayName": "Double Jump Backpack"
+    },
+    {
+      "Name": "Dough",
+      "DisplaySource": "Item:sol.dough"
+    },
+    {
+      "Name": "Dr. Hahn's Desk"
+    },
+    {
+      "Name": "Dr. Stein"
+    },
+    {
+      "Name": "Draft Furnace",
+      "DisplaySource": "Prefab:313"
+    },
+    {
+      "Name": "Drop Hammer",
+      "DisplaySource": "Prefab:319"
+    },
+    {
+      "Name": "Drum",
+      "DisplaySource": "Item:sol.drum"
+    },
+    {
+      "Name": "Duglette Barricade"
+    },
+    {
+      "Name": "Duglette Grass 0"
+    },
+    {
+      "Name": "Duglette Mound"
+    },
+    {
+      "Name": "Duglette Totem"
+    },
+    {
+      "Name": "Duglette Trap Log 0"
+    },
+    {
+      "Name": "Duglette Trap Log 1"
+    },
+    {
+      "Name": "Duglette Trap Stone 0"
+    },
+    {
+      "Name": "Duglette Trap Stone 1"
+    },
+    {
+      "Name": "Duglette Twig 0"
+    },
+    {
+      "Name": "Duglette Twig 1"
+    },
+    {
+      "Name": "Duglette Twig 2"
+    },
+    {
+      "Name": "Duglette Twig 3"
+    },
+    {
+      "Name": "Duglette Wall Shelf 0"
+    },
+    {
+      "Name": "Duglette Wall Shelf 1"
+    },
+    {
+      "Name": "Duglette Wood Bundle"
+    },
+    {
+      "Name": "Dumpster Delight"
+    },
+    {
+      "Name": "Dumpster Delight Pie"
+    },
+    {
+      "Name": "Dumpster Delight Snack"
+    },
+    {
+      "Name": "Dye Basin",
+      "DisplayName": "Dye Basin"
+    },
+    {
+      "Name": "Dye Cleaning Rag",
+      "DisplayName": "Dye Cleaning Rag"
+    },
+    {
+      "Name": "Dye Pigments",
+      "DisplayName": "Dye Pigments"
+    },
+    {
+      "Name": "Dynamite Bundle",
+      "DisplaySource": "Item:12504"
+    },
+    {
+      "Name": "Dynamite Stick",
+      "DisplaySource": "Item:12503"
+    },
+    {
+      "Name": "EM Rounds",
+      "DisplaySource": "Item:sol.em_rounds"
+    },
+    {
+      "Name": "Elevator"
+    },
+    {
+      "Name": "Elevator Platform",
+      "DisplaySource": "Tile:156"
+    },
+    {
+      "Name": "Elevator Shaft",
+      "DisplaySource": "Tile:1300"
+    },
+    {
+      "Name": "Elevator Shaft Floor",
+      "DisplaySource": "Tile:1301"
+    },
+    {
+      "Name": "Empty Glass",
+      "DisplaySource": "Item:sol.empty_glass"
+    },
+    {
+      "Name": "Empty Glass Bottle",
+      "DisplaySource": "Item:sol.empty_glass_vessel"
+    },
+    {
+      "Name": "Empty Power Cell",
+      "DisplayName": "Empty Power Cell"
+    },
+    {
+      "Name": "Empty Reinforced Bottle",
+      "DisplaySource": "Item:sol.empty_reinforced_vessel"
+    },
+    {
+      "Name": "Empty Standard Bottle",
+      "DisplaySource": "Item:sol.empty_standard_vessel"
+    },
+    {
+      "Name": "Energite Capacitor",
+      "DisplaySource": "Item:sol.energite_capacitor"
+    },
+    {
+      "Name": "Energite Rod",
+      "DisplayName": "Energite Rod"
+    },
+    {
+      "Name": "Energite Rod Enhanced Yield"
+    },
+    {
+      "Name": "Energy Beam Cannon",
+      "DisplaySource": "Item:6904"
+    },
+    {
+      "Name": "Energy Beam Shotgun",
+      "DisplaySource": "Item:6500"
+    },
+    {
+      "Name": "Energy Capsule",
+      "DisplayName": "Energy Capsule"
+    },
+    {
+      "Name": "Energy Pistol",
+      "DisplaySource": "Item:6124"
+    },
+    {
+      "Name": "Energy Plate Arms",
+      "DisplayName": "Energy Plate Arms"
+    },
+    {
+      "Name": "Energy Plate Boots",
+      "DisplayName": "Energy Plate Boots"
+    },
+    {
+      "Name": "Energy Plate Capacitor Pack",
+      "DisplayName": "Energy Plate Capacitor Pack"
+    },
+    {
+      "Name": "Energy Plate Gloves",
+      "DisplayName": "Energy Plate Gloves"
+    },
+    {
+      "Name": "Energy Plate Helmet",
+      "DisplayName": "Energy Plate Helmet"
+    },
+    {
+      "Name": "Energy Plate Leggings",
+      "DisplayName": "Energy Plate Leggings"
+    },
+    {
+      "Name": "Energy Plate Torso",
+      "DisplayName": "Energy Plate Torso"
+    },
+    {
+      "Name": "Energy Repeater",
+      "DisplaySource": "Item:6134"
+    },
+    {
+      "Name": "Energy Rifle",
+      "DisplaySource": "Item:6135"
+    },
+    {
+      "Name": "Energy Slicer",
+      "DisplaySource": "Item:6906"
+    },
+    {
+      "Name": "Escape Pod"
+    },
+    {
+      "Name": "Escape Pod New"
+    },
+    {
+      "Name": "Espresso Mug",
+      "DisplaySource": "Item:sol.espresso_mug"
+    },
+    {
+      "Name": "Explosive Arrow",
+      "DisplaySource": "Item:9008"
+    },
+    {
+      "Name": "Explosive Flare",
+      "DisplayName": "Explosive Flare"
+    },
+    {
+      "Name": "Explosive Grenade",
+      "DisplayName": "Explosive Grenade"
+    },
+    {
+      "Name": "Exposed Pipes 0",
+      "DisplaySource": "Item:sol.item_bd_exp_pipes0"
+    },
+    {
+      "Name": "Extendable Glove",
+      "DisplayName": "Extendable Glove"
+    },
+    {
+      "Name": "Extension Ladder",
+      "DisplaySource": "Structure:sol.tech_extension_ladder"
+    },
+    {
+      "Name": "Faceted Gem",
+      "DisplayName": "Faceted Gem"
+    },
+    {
+      "Name": "Feast",
+      "DisplayName": "Feast"
+    },
+    {
+      "Name": "Firestarter",
+      "DisplaySource": "Item:4014"
+    },
+    {
+      "Name": "Flare",
+      "DisplaySource": "Item:7000"
+    },
+    {
+      "Name": "Flare Arrow",
+      "DisplaySource": "Item:9009"
+    },
+    {
+      "Name": "Flare Gun",
+      "DisplaySource": "Item:6000"
+    },
+    {
+      "Name": "Flashlight",
+      "DisplaySource": "Item:16002"
+    },
+    {
+      "Name": "Flyer Dart",
+      "DisplaySource": "Item:9200"
+    },
+    {
+      "Name": "Flyer Harpoon",
+      "DisplaySource": "Item:5601"
+    },
+    {
+      "Name": "Freight Elevator",
+      "DisplayName": "Freight Elevator"
+    },
+    {
+      "Name": "French Press",
+      "DisplaySource": "Item:4052"
+    },
+    {
+      "Name": "Fruit Chew",
+      "DisplayName": "Fruit Chew"
+    },
+    {
+      "Name": "Fruit Holder",
+      "DisplaySource": "Item:4053"
+    },
+    {
+      "Name": "Fruit Punch Dispenser",
+      "DisplaySource": "Item:4056"
+    },
+    {
+      "Name": "Full Power Cell",
+      "DisplayName": "Full Power Cell"
+    },
+    {
+      "Name": "Generator Blackboard",
+      "DisplaySource": "Item:sol.generator_blackboard"
+    },
+    {
+      "Name": "Generator Coolant Tanks",
+      "DisplaySource": "Structure:sol.pioneer_generator_coolant"
+    },
+    {
+      "Name": "Ghost Blade",
+      "DisplaySource": "Item:5308"
+    },
+    {
+      "Name": "Ghost Hide Arms",
+      "DisplayName": "Ghost Hide Arms"
+    },
+    {
+      "Name": "Ghost Hide Boots",
+      "DisplayName": "Ghost Hide Boots"
+    },
+    {
+      "Name": "Ghost Hide Gloves",
+      "DisplayName": "Ghost Hide Gloves"
+    },
+    {
+      "Name": "Ghost Hide Helmet",
+      "DisplayName": "Ghost Hide Helmet"
+    },
+    {
+      "Name": "Ghost Hide Leggings",
+      "DisplayName": "Ghost Hide Leggings"
+    },
+    {
+      "Name": "Ghost Hide Torso",
+      "DisplayName": "Ghost Hide Torso"
+    },
+    {
+      "Name": "Giving Cauldron",
+      "DisplaySource": "Prefab:300"
+    },
+    {
+      "Name": "Glass Ingot",
+      "DisplayName": "Glass Ingot"
+    },
+    {
+      "Name": "Glass Wall",
+      "DisplaySource": "Prefab:2"
+    },
+    {
+      "Name": "Glassblowing Pipe",
+      "DisplaySource": "Item:sol.glassblowing_pipe"
+    },
+    {
+      "Name": "Gleaming Syrup",
+      "DisplayName": "Gleaming Syrup"
+    },
+    {
+      "Name": "Glow Stick",
+      "DisplayName": "Glow Stick"
+    },
+    {
+      "Name": "Glycerol",
+      "DisplayName": "Glycerol"
+    },
+    {
+      "Name": "Granite Block",
+      "DisplaySource": "Tile:362"
+    },
+    {
+      "Name": "Granite Ceiling",
+      "DisplaySource": "Tile:359"
+    },
+    {
+      "Name": "Granite Door",
+      "DisplayName": "Granite Door"
+    },
+    {
+      "Name": "Granite Floor",
+      "DisplaySource": "Tile:358"
+    },
+    {
+      "Name": "Granite Platform",
+      "DisplaySource": "Tile:743"
+    },
+    {
+      "Name": "Granite Roof",
+      "DisplaySource": "Tile:360"
+    },
+    {
+      "Name": "Granite Slope",
+      "DisplaySource": "Tile:361"
+    },
+    {
+      "Name": "Granite Stairs",
+      "DisplaySource": "Tile:744"
+    },
+    {
+      "Name": "Granite Wall",
+      "DisplaySource": "Tile:340"
+    },
+    {
+      "Name": "Grass Duglette Mound"
+    },
+    {
+      "Name": "Grass Seed Bag",
+      "DisplaySource": "Item:16009"
+    },
+    {
+      "Name": "Grav Lift"
+    },
+    {
+      "Name": "Green Ominous Wand",
+      "DisplayName": "Green Ominous Wand"
+    },
+    {
+      "Name": "Green Potted Plant",
+      "DisplaySource": "Item:10061"
+    },
+    {
+      "Name": "Green Roman Candle",
+      "DisplaySource": "Item:13112"
+    },
+    {
+      "Name": "Grenade Launcher",
+      "DisplaySource": "Item:6004"
+    },
+    {
+      "Name": "Grey Rock",
+      "DisplayName": "Grey Rock"
+    },
+    {
+      "Name": "Grinder Blade - Iron",
+      "DisplayName": "Grinder Blade - Iron"
+    },
+    {
+      "Name": "Grinder Blade - Steel",
+      "DisplayName": "Grinder Blade - Steel"
+    },
+    {
+      "Name": "Grinder Blade - Stone",
+      "DisplayName": "Grinder Blade - Stone"
+    },
+    {
+      "Name": "Guard Rail"
+    },
+    {
+      "Name": "Halloween Hood",
+      "DisplayName": "Halloween Hood"
+    },
+    {
+      "Name": "Hangar Access Hatch"
+    },
+    {
+      "Name": "Hangar Access Hatch Valve"
+    },
+    {
+      "Name": "Hangar Airlock Ceiling Vent"
+    },
+    {
+      "Name": "Hangar Airlock Door"
+    },
+    {
+      "Name": "Hangar Airlock Vent"
+    },
+    {
+      "Name": "Hangar Cargo Door"
+    },
+    {
+      "Name": "Hangar Pod Bay"
+    },
+    {
+      "Name": "Hangar Security Checkpoint"
+    },
+    {
+      "Name": "Hangar Security Gate"
+    },
+    {
+      "Name": "Headband",
+      "DisplayName": "Headband"
+    },
+    {
+      "Name": "Heal Potion",
+      "DisplayName": "Heal Potion"
+    },
+    {
+      "Name": "Heal Potion - Greater",
+      "DisplayName": "Heal Potion - Greater"
+    },
+    {
+      "Name": "Hephaestus Signage"
+    },
+    {
+      "Name": "Hephaestus Work Pants",
+      "DisplayName": "Hephaestus Work Pants"
+    },
+    {
+      "Name": "Hephaestus Work Shirt",
+      "DisplayName": "Hephaestus Work Shirt"
+    },
+    {
+      "Name": "Hephaestus Work Shoes",
+      "DisplayName": "Hephaestus Work Shoes"
+    },
+    {
+      "Name": "Hockey Mask",
+      "DisplayName": "Hockey Mask"
+    },
+    {
+      "Name": "Hoe",
+      "DisplaySource": "Item:20003"
+    },
+    {
+      "Name": "Honey Glazed Meat",
+      "DisplayName": "Honey Glazed Meat"
+    },
+    {
+      "Name": "Horizontal Reinforced Door",
+      "DisplayName": "Horizontal Reinforced Door"
+    },
+    {
+      "Name": "Horizontal Reinforced Door (Level 1)"
+    },
+    {
+      "Name": "Horizontal Reinforced Door (Level 2)"
+    },
+    {
+      "Name": "Hot Dog",
+      "DisplayName": "Hot Dog"
+    },
+    {
+      "Name": "Hub Display"
+    },
+    {
+      "Name": "Hunting Rifle",
+      "DisplaySource": "Item:6119"
+    },
+    {
+      "Name": "Hybrid Arms",
+      "DisplayName": "Hybrid Arms"
+    },
+    {
+      "Name": "Hybrid Boots",
+      "DisplayName": "Hybrid Boots"
+    },
+    {
+      "Name": "Hybrid Gloves",
+      "DisplayName": "Hybrid Gloves"
+    },
+    {
+      "Name": "Hybrid Helmet",
+      "DisplayName": "Hybrid Helmet"
+    },
+    {
+      "Name": "Hybrid Leggings",
+      "DisplayName": "Hybrid Leggings"
+    },
+    {
+      "Name": "Hybrid Lobber",
+      "DisplaySource": "Item:6112"
+    },
+    {
+      "Name": "Hybrid Reactor Pack",
+      "DisplayName": "Hybrid Reactor Pack"
+    },
+    {
+      "Name": "Hybrid Torso",
+      "DisplayName": "Hybrid Torso"
+    },
+    {
+      "Name": "Hydroponics Algae Tank"
+    },
+    {
+      "Name": "Hydroponics Empty Planter Tray"
+    },
+    {
+      "Name": "Hydroponics Growth Cube 0"
+    },
+    {
+      "Name": "Hydroponics Growth Cube 1"
+    },
+    {
+      "Name": "Hydroponics Growth Empty Cube"
+    },
+    {
+      "Name": "Hydroponics Nutrient Tank"
+    },
+    {
+      "Name": "Hydroponics Planter Tray"
+    },
+    {
+      "Name": "Hydroponics UV Lamp"
+    },
+    {
+      "Name": "Hydroponics Water Treatment Terminal"
+    },
+    {
+      "Name": "Hygiene Poster",
+      "DisplaySource": "Item:25003"
+    },
+    {
+      "Name": "Impact Rod",
+      "DisplaySource": "Item:16012"
+    },
+    {
+      "Name": "Impact Rod Ammo",
+      "DisplaySource": "Item:7016"
+    },
+    {
+      "Name": "Impact Sole",
+      "DisplayName": "Impact Sole"
+    },
+    {
+      "Name": "Induction Furnace",
+      "DisplaySource": "Prefab:312"
+    },
+    {
+      "Name": "Industrial Mining Laser",
+      "DisplayName": "Industrial Mining Laser"
+    },
+    {
+      "Name": "Influx Salve",
+      "DisplayName": "Influx Salve"
+    },
+    {
+      "Name": "Input Jack",
+      "DisplaySource": "Item:sol.item_bd_input_jack"
+    },
+    {
+      "Name": "Inspirational Plaque",
+      "DisplaySource": "Item:sol.hahn_plaque"
+    },
+    {
+      "Name": "Ipecac Medicine",
+      "DisplaySource": "Item:sol.ipecac_medicine"
+    },
+    {
+      "Name": "Iris Port Spawner"
+    },
+    {
+      "Name": "Iron Anvil",
+      "DisplaySource": "Prefab:321"
+    },
+    {
+      "Name": "Iron Arms",
+      "DisplayName": "Iron Arms"
+    },
+    {
+      "Name": "Iron Arrow",
+      "DisplaySource": "Item:9003"
+    },
+    {
+      "Name": "Iron Axe",
+      "DisplaySource": "Item:sol.iron_axe"
+    },
+    {
+      "Name": "Iron Ball Bearing",
+      "DisplayName": "Iron Ball Bearing"
+    },
+    {
+      "Name": "Iron Block",
+      "DisplaySource": "Tile:732"
+    },
+    {
+      "Name": "Iron Bolt",
+      "DisplaySource": "Item:9103"
+    },
+    {
+      "Name": "Iron Boots",
+      "DisplayName": "Iron Boots"
+    },
+    {
+      "Name": "Iron Bow",
+      "DisplaySource": "Item:8002"
+    },
+    {
+      "Name": "Iron Buckle",
+      "DisplaySource": "Item:2028"
+    },
+    {
+      "Name": "Iron Caltrops",
+      "DisplaySource": "Item:9201"
+    },
+    {
+      "Name": "Iron Ceiling",
+      "DisplaySource": "Tile:355"
+    },
+    {
+      "Name": "Iron Club",
+      "DisplaySource": "Item:sol.iron_club"
+    },
+    {
+      "Name": "Iron Crossbow",
+      "DisplaySource": "Item:8101"
+    },
+    {
+      "Name": "Iron Door",
+      "DisplayName": "Iron Door"
+    },
+    {
+      "Name": "Iron Floor",
+      "DisplaySource": "Tile:354"
+    },
+    {
+      "Name": "Iron Gloves",
+      "DisplayName": "Iron Gloves"
+    },
+    {
+      "Name": "Iron Greatsword",
+      "DisplaySource": "Item:sol.iron_greatsword"
+    },
+    {
+      "Name": "Iron Hammer",
+      "DisplayName": "Iron Hammer"
+    },
+    {
+      "Name": "Iron Helmet",
+      "DisplayName": "Iron Helmet"
+    },
+    {
+      "Name": "Iron Ingot",
+      "DisplayName": "Iron Ingot"
+    },
+    {
+      "Name": "Iron Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Iron Ladder",
+      "DisplaySource": "Tile:201"
+    },
+    {
+      "Name": "Iron Leggings",
+      "DisplayName": "Iron Leggings"
+    },
+    {
+      "Name": "Iron Pick",
+      "DisplaySource": "Item:sol.iron_pick"
+    },
+    {
+      "Name": "Iron Platform",
+      "DisplaySource": "Tile:734"
+    },
+    {
+      "Name": "Iron Platform Stairs",
+      "DisplayName": "Iron Platform Stairs"
+    },
+    {
+      "Name": "Iron Railgun Slugs",
+      "DisplayName": "Iron Railgun Slugs"
+    },
+    {
+      "Name": "Iron Roof",
+      "DisplaySource": "Tile:356"
+    },
+    {
+      "Name": "Iron Shield",
+      "DisplaySource": "Item:6052"
+    },
+    {
+      "Name": "Iron Slope",
+      "DisplaySource": "Tile:357"
+    },
+    {
+      "Name": "Iron Spear",
+      "DisplaySource": "Item:sol.iron_spear"
+    },
+    {
+      "Name": "Iron Stairs",
+      "DisplaySource": "Tile:735"
+    },
+    {
+      "Name": "Iron Stove",
+      "DisplaySource": "Prefab:315"
+    },
+    {
+      "Name": "Iron Sword",
+      "DisplaySource": "Item:sol.iron_sword"
+    },
+    {
+      "Name": "Iron Torso",
+      "DisplayName": "Iron Torso"
+    },
+    {
+      "Name": "Iron Wall",
+      "DisplaySource": "Tile:341"
+    },
+    {
+      "Name": "Jack O' Lantern Mask",
+      "DisplayName": "Jack O' Lantern Mask"
+    },
+    {
+      "Name": "Jewel Axe",
+      "DisplayName": "Jewel Axe"
+    },
+    {
+      "Name": "Jewel Bolt",
+      "DisplayName": "Jewel Bolt"
+    },
+    {
+      "Name": "Jewel Bow",
+      "DisplaySource": "Item:8006"
+    },
+    {
+      "Name": "Jewel Club",
+      "DisplayName": "Jewel Club"
+    },
+    {
+      "Name": "Jewel Crossbow",
+      "DisplaySource": "Item:8105"
+    },
+    {
+      "Name": "Jewel Pick",
+      "DisplayName": "Jewel Pick"
+    },
+    {
+      "Name": "Jewel Shield",
+      "DisplaySource": "Item:6057"
+    },
+    {
+      "Name": "Jewel Spear",
+      "DisplayName": "Jewel Spear"
+    },
+    {
+      "Name": "Jewel Sword",
+      "DisplayName": "Jewel Sword"
+    },
+    {
+      "Name": "Kinetic Inductor",
+      "DisplayName": "Kinetic Inductor"
+    },
+    {
+      "Name": "Kitchenette",
+      "DisplaySource": "Prefab:316"
+    },
+    {
+      "Name": "LED",
+      "DisplaySource": "Item:2073"
+    },
+    {
+      "Name": "LED Lamp",
+      "DisplaySource": "Item:13002"
+    },
+    {
+      "Name": "Lanchester",
+      "DisplaySource": "Item:6125"
+    },
+    {
+      "Name": "Large Angled Shelf"
+    },
+    {
+      "Name": "Large Battery",
+      "DisplayName": "Large Battery"
+    },
+    {
+      "Name": "Large Coffee Mug",
+      "DisplaySource": "Item:sol.large_coffee_mug"
+    },
+    {
+      "Name": "Large Construction Tarp",
+      "DisplaySource": "Structure:sol.construction_wall_tarp_large"
+    },
+    {
+      "Name": "Large Garbage Chute"
+    },
+    {
+      "Name": "Large Makeshift Tree"
+    },
+    {
+      "Name": "Large Paintcan",
+      "DisplayName": "Large Paintcan"
+    },
+    {
+      "Name": "Large Pipeline"
+    },
+    {
+      "Name": "Large Reinforced Ceiling Lamp",
+      "DisplaySource": "Prefab:262"
+    },
+    {
+      "Name": "Large Reinforced Viewport"
+    },
+    {
+      "Name": "Large Specimen Container",
+      "DisplaySource": "Structure:sol.large_specimen_container"
+    },
+    {
+      "Name": "Large Tech Shelf",
+      "DisplayName": "Large Tech Shelf"
+    },
+    {
+      "Name": "Large Tech Table",
+      "DisplaySource": "Item:10013"
+    },
+    {
+      "Name": "Large Wall Vent"
+    },
+    {
+      "Name": "Large Wooden Ceiling Lamp"
+    },
+    {
+      "Name": "Large Wooden Window",
+      "DisplaySource": "Prefab:268"
+    },
+    {
+      "Name": "Laser Pistol",
+      "DisplaySource": "Item:6101"
+    },
+    {
+      "Name": "Laser Pistol Mk II",
+      "DisplayName": "Laser Pistol Mk II"
+    },
+    {
+      "Name": "Launcher Grenades",
+      "DisplayName": "Launcher Grenades"
+    },
+    {
+      "Name": "Lead Ingot",
+      "DisplayName": "Lead Ingot"
+    },
+    {
+      "Name": "Lead Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Leather Arms",
+      "DisplayName": "Leather Arms"
+    },
+    {
+      "Name": "Leather Bag",
+      "DisplaySource": "Item:3000"
+    },
+    {
+      "Name": "Leather Belt",
+      "DisplaySource": "Item:BELT_LEATHER"
+    },
+    {
+      "Name": "Leather Boots",
+      "DisplayName": "Leather Boots"
+    },
+    {
+      "Name": "Leather Gloves",
+      "DisplayName": "Leather Gloves"
+    },
+    {
+      "Name": "Leather Helmet",
+      "DisplayName": "Leather Helmet"
+    },
+    {
+      "Name": "Leather Leggings",
+      "DisplayName": "Leather Leggings"
+    },
+    {
+      "Name": "Leather Satchel",
+      "DisplaySource": "Item:3002"
+    },
+    {
+      "Name": "Leather Strap",
+      "DisplayName": "Leather Strap"
+    },
+    {
+      "Name": "Leather Torso",
+      "DisplayName": "Leather Torso"
+    },
+    {
+      "Name": "Leather Whip",
+      "DisplaySource": "Item:5600"
+    },
+    {
+      "Name": "Lemonade Dispenser",
+      "DisplaySource": "Item:4057"
+    },
+    {
+      "Name": "Lens - Gorgeous",
+      "DisplayName": "Lens - Gorgeous"
+    },
+    {
+      "Name": "Lens - Metamaterial",
+      "DisplayName": "Lens - Metamaterial"
+    },
+    {
+      "Name": "Lens - Precise",
+      "DisplayName": "Lens - Precise"
+    },
+    {
+      "Name": "Lens - Standard",
+      "DisplayName": "Lens - Standard"
+    },
+    {
+      "Name": "Lever Action Rifle",
+      "DisplaySource": "Item:6120"
+    },
+    {
+      "Name": "Linen Bolt",
+      "DisplaySource": "Item:2062"
+    },
+    {
+      "Name": "Long Fluid Pipe"
+    },
+    {
+      "Name": "Loose Clay",
+      "DisplaySource": "Item:sol.loose_clay"
+    },
+    {
+      "Name": "Loose Rocks"
+    },
+    {
+      "Name": "Loudspeaker",
+      "DisplaySource": "Item:sol.item_bd_loudspeaker"
+    },
+    {
+      "Name": "Luchador Mask",
+      "DisplayName": "Luchador Mask"
+    },
+    {
+      "Name": "Lye",
+      "DisplaySource": "Item:sol.lye"
+    },
+    {
+      "Name": "M1911 Pistol",
+      "DisplayName": "M1911 Pistol"
+    },
+    {
+      "Name": "M80",
+      "DisplaySource": "Item:12506"
+    },
+    {
+      "Name": "MEG Grapple Installer"
+    },
+    {
+      "Name": "MEG Station"
+    },
+    {
+      "Name": "MEG Station Encryption Key Installer"
+    },
+    {
+      "Name": "MK3 Pistol",
+      "DisplayName": "MK3 Pistol"
+    },
+    {
+      "Name": "Machine Pistol",
+      "DisplaySource": "Item:6136"
+    },
+    {
+      "Name": "Magnetic Inductor",
+      "DisplaySource": "Item:4003"
+    },
+    {
+      "Name": "Magnum",
+      "DisplaySource": "Item:6108"
+    },
+    {
+      "Name": "Makeshift Blow Pipe",
+      "DisplayName": "Makeshift Blow Pipe"
+    },
+    {
+      "Name": "Makeshift Capacitor",
+      "DisplaySource": "Item:sol.makeshift_capacitor"
+    },
+    {
+      "Name": "Makeshift Shiv",
+      "DisplaySource": "Item:sol.makeshift_shiv"
+    },
+    {
+      "Name": "Makeshift Spear",
+      "DisplaySource": "Item:5406"
+    },
+    {
+      "Name": "Makeshift Tribal Shield",
+      "DisplayName": "Makeshift Tribal Shield"
+    },
+    {
+      "Name": "Map"
+    },
+    {
+      "Name": "Marble Block",
+      "DisplaySource": "Tile:752"
+    },
+    {
+      "Name": "Marble Ceiling",
+      "DisplaySource": "Tile:369"
+    },
+    {
+      "Name": "Marble Column",
+      "DisplaySource": "Tile:756"
+    },
+    {
+      "Name": "Marble Door",
+      "DisplayName": "Marble Door"
+    },
+    {
+      "Name": "Marble Floor",
+      "DisplaySource": "Tile:368"
+    },
+    {
+      "Name": "Marble Platform",
+      "DisplaySource": "Tile:750"
+    },
+    {
+      "Name": "Marble Roof",
+      "DisplaySource": "Tile:370"
+    },
+    {
+      "Name": "Marble Slope",
+      "DisplaySource": "Tile:371"
+    },
+    {
+      "Name": "Marble Stairs",
+      "DisplaySource": "Tile:751"
+    },
+    {
+      "Name": "Marble Wall",
+      "DisplaySource": "Tile:342"
+    },
+    {
+      "Name": "Marksman Pistol",
+      "DisplaySource": "Item:6127"
+    },
+    {
+      "Name": "Marksman Rifle",
+      "DisplaySource": "Item:6123"
+    },
+    {
+      "Name": "Maroon Shirt",
+      "DisplayName": "Maroon Shirt"
+    },
+    {
+      "Name": "Mass Driver"
+    },
+    {
+      "Name": "Mass Driver Barrel"
+    },
+    {
+      "Name": "Mass Driver Extension"
+    },
+    {
+      "Name": "Material Dispenser"
+    },
+    {
+      "Name": "Material Grinder",
+      "DisplaySource": "Item:16013"
+    },
+    {
+      "Name": "Material Printer",
+      "DisplaySource": "Prefab:25"
+    },
+    {
+      "Name": "Mature Chicken Fetus Specimen Container",
+      "DisplaySource": "Structure:sol.specimen_container_mature_chicken_fetus"
+    },
+    {
+      "Name": "Meat with Fruit Glaze",
+      "DisplayName": "Meat with Fruit Glaze"
+    },
+    {
+      "Name": "Meat with Mushroom Sauce",
+      "DisplayName": "Meat with Mushroom Sauce"
+    },
+    {
+      "Name": "Medbay Shutters"
+    },
+    {
+      "Name": "Medical Poster",
+      "DisplaySource": "Item:25002"
+    },
+    {
+      "Name": "Medium Battery",
+      "DisplayName": "Medium Battery"
+    },
+    {
+      "Name": "Medium Coffee Mug",
+      "DisplaySource": "Item:sol.medium_coffee_mug"
+    },
+    {
+      "Name": "Melee Static Capacitor",
+      "DisplayName": "Melee Static Capacitor"
+    },
+    {
+      "Name": "Meteorite Ceiling",
+      "DisplaySource": "Tile:422"
+    },
+    {
+      "Name": "Meteorite Floor",
+      "DisplaySource": "Tile:421"
+    },
+    {
+      "Name": "Meteorite Platform",
+      "DisplaySource": "Tile:425"
+    },
+    {
+      "Name": "Meteorite Roof",
+      "DisplaySource": "Tile:423"
+    },
+    {
+      "Name": "Meteorite Slope",
+      "DisplaySource": "Tile:424"
+    },
+    {
+      "Name": "Meteorite Wall",
+      "DisplaySource": "Tile:420"
+    },
+    {
+      "Name": "Micro SMG",
+      "DisplaySource": "Item:6201"
+    },
+    {
+      "Name": "Microchip",
+      "DisplayName": "Microchip"
+    },
+    {
+      "Name": "Mining Light Helmet",
+      "DisplaySource": "Item:MINING_LIGHT_HELMET"
+    },
+    {
+      "Name": "Mining Suit Arms Mk2",
+      "DisplayName": "Mining Suit Arms Mk2"
+    },
+    {
+      "Name": "Mining Suit Boots Mk2",
+      "DisplayName": "Mining Suit Boots Mk2"
+    },
+    {
+      "Name": "Mining Suit Gloves Mk2",
+      "DisplayName": "Mining Suit Gloves Mk2"
+    },
+    {
+      "Name": "Mining Suit Helmet Mk2",
+      "DisplayName": "Mining Suit Helmet Mk2"
+    },
+    {
+      "Name": "Mining Suit Jumpjet Mk2",
+      "DisplayName": "Mining Suit Jumpjet Mk2"
+    },
+    {
+      "Name": "Mining Suit Leggings Mk2",
+      "DisplayName": "Mining Suit Leggings Mk2"
+    },
+    {
+      "Name": "Mining Suit Torso Mk2",
+      "DisplayName": "Mining Suit Torso Mk2"
+    },
+    {
+      "Name": "Momentum Preserver",
+      "DisplayName": "Momentum Preserver"
+    },
+    {
+      "Name": "Mortar and Pestle",
+      "DisplayName": "Mortar and Pestle"
+    },
+    {
+      "Name": "Mud Brick",
+      "DisplayName": "Mud Brick"
+    },
+    {
+      "Name": "Mud Brick Block",
+      "DisplaySource": "Tile:772"
+    },
+    {
+      "Name": "Mud Brick Ceiling",
+      "DisplaySource": "Tile:396"
+    },
+    {
+      "Name": "Mud Brick Floor",
+      "DisplaySource": "Tile:395"
+    },
+    {
+      "Name": "Mud Brick Platform",
+      "DisplaySource": "Tile:778"
+    },
+    {
+      "Name": "Mud Brick Roof",
+      "DisplaySource": "Tile:397"
+    },
+    {
+      "Name": "Mud Brick Slope",
+      "DisplaySource": "Tile:398"
+    },
+    {
+      "Name": "Mud Brick Stairs",
+      "DisplaySource": "Tile:777"
+    },
+    {
+      "Name": "Mud Brick Wall",
+      "DisplaySource": "Tile:394"
+    },
+    {
+      "Name": "Multicolored Roman Candle",
+      "DisplaySource": "Item:13114"
+    },
+    {
+      "Name": "Mushrooms with Fruit Glaze",
+      "DisplayName": "Mushrooms with Fruit Glaze"
+    },
+    {
+      "Name": "Nano-Steel Arms",
+      "DisplayName": "Nano-Steel Arms"
+    },
+    {
+      "Name": "Nano-Steel Boots",
+      "DisplayName": "Nano-Steel Boots"
+    },
+    {
+      "Name": "Nano-Steel Gloves",
+      "DisplayName": "Nano-Steel Gloves"
+    },
+    {
+      "Name": "Nano-Steel Helmet",
+      "DisplaySource": "Item:STEEL_HELMET"
+    },
+    {
+      "Name": "Nano-Steel Leggings",
+      "DisplayName": "Nano-Steel Leggings"
+    },
+    {
+      "Name": "Nano-Steel Shield",
+      "DisplaySource": "Item:6056"
+    },
+    {
+      "Name": "Nano-Steel Torso",
+      "DisplayName": "Nano-Steel Torso"
+    },
+    {
+      "Name": "Napkin Holder",
+      "DisplaySource": "Item:4059"
+    },
+    {
+      "Name": "Natural Clay Tile",
+      "DisplayName": "Natural Clay Tile"
+    },
+    {
+      "Name": "Nug Compote",
+      "DisplayName": "Nug Compote"
+    },
+    {
+      "Name": "Nut Chucker",
+      "DisplayName": "Nut Chucker"
+    },
+    {
+      "Name": "Nutmeal",
+      "DisplaySource": "Item:sol.nutmeal"
+    },
+    {
+      "Name": "Optical Camo Activator",
+      "DisplayName": "Optical Camo Activator"
+    },
+    {
+      "Name": "Optical Camouflage",
+      "DisplayName": "Optical Camouflage"
+    },
+    {
+      "Name": "Orange Juice Dispenser",
+      "DisplaySource": "Item:4058"
+    },
+    {
+      "Name": "Orange Jumpsuit Pants",
+      "DisplayName": "Orange Jumpsuit Pants"
+    },
+    {
+      "Name": "Orange Jumpsuit Shirt",
+      "DisplayName": "Orange Jumpsuit Shirt"
+    },
+    {
+      "Name": "Orange Ominous Wand",
+      "DisplayName": "Orange Ominous Wand"
+    },
+    {
+      "Name": "Orange Sandals",
+      "DisplayName": "Orange Sandals"
+    },
+    {
+      "Name": "Orange Shorts",
+      "DisplayName": "Orange Shorts"
+    },
+    {
+      "Name": "Organic Acid",
+      "DisplayName": "Organic Acid"
+    },
+    {
+      "Name": "Organic Black Powder",
+      "DisplayName": "Organic Black Powder"
+    },
+    {
+      "Name": "Outlet",
+      "DisplaySource": "Item:sol.item_bd_outlet"
+    },
+    {
+      "Name": "Overgrowth 0"
+    },
+    {
+      "Name": "Overgrowth 1"
+    },
+    {
+      "Name": "Overgrowth 2"
+    },
+    {
+      "Name": "Overgrowth 3"
+    },
+    {
+      "Name": "Overgrowth 4"
+    },
+    {
+      "Name": "Overgrowth 5"
+    },
+    {
+      "Name": "Overgrowth 6"
+    },
+    {
+      "Name": "Overgrowth Ledge 0"
+    },
+    {
+      "Name": "Overgrowth Ledge 1"
+    },
+    {
+      "Name": "Overgrowth Ledge 2"
+    },
+    {
+      "Name": "Overgrowth Ledge 3"
+    },
+    {
+      "Name": "Overgrowth Ledge 4"
+    },
+    {
+      "Name": "Overgrowth Ledge 5"
+    },
+    {
+      "Name": "P90",
+      "DisplaySource": "Item:6203"
+    },
+    {
+      "Name": "Paint Roller",
+      "DisplaySource": "Item:sol.paint_roller"
+    },
+    {
+      "Name": "Paintbrush",
+      "DisplayName": "Paintbrush"
+    },
+    {
+      "Name": "Painting",
+      "DisplaySource": "Item:25001"
+    },
+    {
+      "Name": "Pancakes",
+      "DisplayName": "Pancakes"
+    },
+    {
+      "Name": "Paper Bag",
+      "DisplayName": "Paper Bag"
+    },
+    {
+      "Name": "Parabellum",
+      "DisplaySource": "Item:6128"
+    },
+    {
+      "Name": "Patchwork Arms",
+      "DisplayName": "Patchwork Arms"
+    },
+    {
+      "Name": "Patchwork Boots",
+      "DisplayName": "Patchwork Boots"
+    },
+    {
+      "Name": "Patchwork Helmet",
+      "DisplayName": "Patchwork Helmet"
+    },
+    {
+      "Name": "Patchwork Legs",
+      "DisplayName": "Patchwork Legs"
+    },
+    {
+      "Name": "Patchwork Torso",
+      "DisplayName": "Patchwork Torso"
+    },
+    {
+      "Name": "Personal Medbay",
+      "DisplayName": "Personal Medbay"
+    },
+    {
+      "Name": "Personnel Elevator",
+      "DisplayName": "Personnel Elevator"
+    },
+    {
+      "Name": "Pie",
+      "DisplayName": "Pie"
+    },
+    {
+      "Name": "Piezo Dagger",
+      "DisplayName": "Piezo Dagger"
+    },
+    {
+      "Name": "Piezoelectric Arms",
+      "DisplayName": "Piezoelectric Arms"
+    },
+    {
+      "Name": "Piezoelectric Axe",
+      "DisplayName": "Piezoelectric Axe"
+    },
+    {
+      "Name": "Piezoelectric Boots",
+      "DisplayName": "Piezoelectric Boots"
+    },
+    {
+      "Name": "Piezoelectric Club",
+      "DisplayName": "Piezoelectric Club"
+    },
+    {
+      "Name": "Piezoelectric Gloves",
+      "DisplayName": "Piezoelectric Gloves"
+    },
+    {
+      "Name": "Piezoelectric Greatsword",
+      "DisplayName": "Piezoelectric Greatsword"
+    },
+    {
+      "Name": "Piezoelectric Helmet",
+      "DisplayName": "Piezoelectric Helmet"
+    },
+    {
+      "Name": "Piezoelectric Leggings",
+      "DisplayName": "Piezoelectric Leggings"
+    },
+    {
+      "Name": "Piezoelectric Pick",
+      "DisplayName": "Piezoelectric Pick"
+    },
+    {
+      "Name": "Piezoelectric Shield",
+      "DisplaySource": "Item:6060"
+    },
+    {
+      "Name": "Piezoelectric Spear",
+      "DisplayName": "Piezoelectric Spear"
+    },
+    {
+      "Name": "Piezoelectric Sword",
+      "DisplayName": "Piezoelectric Sword"
+    },
+    {
+      "Name": "Piezoelectric Torso",
+      "DisplayName": "Piezoelectric Torso"
+    },
+    {
+      "Name": "Pioneer Bristlecone"
+    },
+    {
+      "Name": "Pioneer Bristlecone Fountain Segment"
+    },
+    {
+      "Name": "Pioneer Bristlecone Fountain Top"
+    },
+    {
+      "Name": "Pioneer Cafe Floor",
+      "DisplayName": "Pioneer Cafe Floor"
+    },
+    {
+      "Name": "Pioneer Cafe Sign"
+    },
+    {
+      "Name": "Pioneer Cafe Wall",
+      "DisplayName": "Pioneer Cafe Wall"
+    },
+    {
+      "Name": "Pioneer Comm Junction",
+      "DisplaySource": "Prefab:12"
+    },
+    {
+      "Name": "Pioneer Elevator Ceiling Decor"
+    },
+    {
+      "Name": "Pioneer Exterior Edge"
+    },
+    {
+      "Name": "Pioneer Garage Door"
+    },
+    {
+      "Name": "Pioneer Garage Floor",
+      "DisplayName": "Pioneer Garage Floor"
+    },
+    {
+      "Name": "Pioneer Garage Wall",
+      "DisplayName": "Pioneer Garage Wall"
+    },
+    {
+      "Name": "Pioneer Generator"
+    },
+    {
+      "Name": "Pioneer Generator Corroded Ceiling 0"
+    },
+    {
+      "Name": "Pioneer Generator Corroded Ceiling 1"
+    },
+    {
+      "Name": "Pioneer Generator Corroded Ceiling 2"
+    },
+    {
+      "Name": "Pioneer Generator Piston"
+    },
+    {
+      "Name": "Pioneer Hub Display Canopy"
+    },
+    {
+      "Name": "Pioneer Ruined Section 0"
+    },
+    {
+      "Name": "Pioneer Ruined Section 1"
+    },
+    {
+      "Name": "Pioneer Ruined Section 2"
+    },
+    {
+      "Name": "Pioneer Ruined Section 3"
+    },
+    {
+      "Name": "Pioneer Station Elevator Hatch"
+    },
+    {
+      "Name": "Pioneer Station Main Door"
+    },
+    {
+      "Name": "Pit Trap",
+      "DisplaySource": "Prefab:108"
+    },
+    {
+      "Name": "Plant Oil",
+      "DisplaySource": "Item:sol.plant_oil"
+    },
+    {
+      "Name": "Plastic",
+      "DisplayName": "Plastic"
+    },
+    {
+      "Name": "Plastic Pumpkin Bucket",
+      "DisplaySource": "Item:3025"
+    },
+    {
+      "Name": "Plate Carrier Vest",
+      "DisplaySource": "Item:STEEL_PLATE_CARRIER_TORSO"
+    },
+    {
+      "Name": "Plated Hide Arms",
+      "DisplayName": "Plated Hide Arms"
+    },
+    {
+      "Name": "Plated Hide Boots",
+      "DisplayName": "Plated Hide Boots"
+    },
+    {
+      "Name": "Plated Hide Gloves",
+      "DisplayName": "Plated Hide Gloves"
+    },
+    {
+      "Name": "Plated Hide Helmet",
+      "DisplayName": "Plated Hide Helmet"
+    },
+    {
+      "Name": "Plated Hide Leggings",
+      "DisplayName": "Plated Hide Leggings"
+    },
+    {
+      "Name": "Plated Hide Strap",
+      "DisplayName": "Plated Hide Strap"
+    },
+    {
+      "Name": "Plated Hide Torso",
+      "DisplayName": "Plated Hide Torso"
+    },
+    {
+      "Name": "Plated Meal",
+      "DisplayName": "Plated Meal"
+    },
+    {
+      "Name": "Plated Snack",
+      "DisplayName": "Plated Snack"
+    },
+    {
+      "Name": "Platinum Arrow",
+      "DisplaySource": "Item:9011"
+    },
+    {
+      "Name": "Platinum Bolt",
+      "DisplaySource": "Item:9109"
+    },
+    {
+      "Name": "Platinum Bow",
+      "DisplayName": "Platinum Bow"
+    },
+    {
+      "Name": "Platinum Crossbow",
+      "DisplayName": "Platinum Crossbow"
+    },
+    {
+      "Name": "Platinum Ingot",
+      "DisplayName": "Platinum Ingot"
+    },
+    {
+      "Name": "Platinum Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Pneumail Storage"
+    },
+    {
+      "Name": "Poison",
+      "DisplayName": "Poison"
+    },
+    {
+      "Name": "Poison Trap",
+      "DisplaySource": "Prefab:109"
+    },
+    {
+      "Name": "Portable Electric Grill",
+      "DisplayName": "Portable Electric Grill"
+    },
+    {
+      "Name": "Portable Iron Grill",
+      "DisplayName": "Portable Iron Grill"
+    },
+    {
+      "Name": "Potted Plant",
+      "DisplaySource": "Item:23020"
+    },
+    {
+      "Name": "Poultice Bandage",
+      "DisplayName": "Poultice Bandage"
+    },
+    {
+      "Name": "Power Compartment Panel",
+      "DisplaySource": "Item:sol.power_panel"
+    },
+    {
+      "Name": "Power Core",
+      "DisplaySource": "Item:sol.power_core"
+    },
+    {
+      "Name": "Power Coupling"
+    },
+    {
+      "Name": "Powered Charging Station",
+      "DisplaySource": "Prefab:296"
+    },
+    {
+      "Name": "Primitive Axe",
+      "DisplayName": "Primitive Axe"
+    },
+    {
+      "Name": "Primitive Bandage",
+      "DisplayName": "Primitive Bandage"
+    },
+    {
+      "Name": "Propellant",
+      "DisplaySource": "Item:2081"
+    },
+    {
+      "Name": "Prototype Mining Suit Jumpjet",
+      "DisplayName": "Prototype Mining Suit Jumpjet"
+    },
+    {
+      "Name": "Pulsing Paste",
+      "DisplaySource": "Item:3508"
+    },
+    {
+      "Name": "Pump Action Shotgun",
+      "DisplaySource": "Item:6103"
+    },
+    {
+      "Name": "Pumpkin Mask",
+      "DisplayName": "Pumpkin Mask"
+    },
+    {
+      "Name": "Pumpkin Rind",
+      "DisplaySource": "Item:17016"
+    },
+    {
+      "Name": "Puncher Plate Helmet",
+      "DisplayName": "Puncher Plate Helmet"
+    },
+    {
+      "Name": "Purple Ominous Wand",
+      "DisplayName": "Purple Ominous Wand"
+    },
+    {
+      "Name": "Purple Potted Plant",
+      "DisplaySource": "Item:10062"
+    },
+    {
+      "Name": "Python",
+      "DisplaySource": "Item:6111"
+    },
+    {
+      "Name": "Rag Pile"
+    },
+    {
+      "Name": "Railgun",
+      "DisplaySource": "Item:6907"
+    },
+    {
+      "Name": "Ramshackle Door",
+      "DisplayName": "Ramshackle Door"
+    },
+    {
+      "Name": "Razor Leaf Sword",
+      "DisplaySource": "Item:sol.razor_leaf_sword"
+    },
+    {
+      "Name": "Recycle Red Tracksuit Shirt",
+      "DisplayName": "Recycle Red Tracksuit Shirt"
+    },
+    {
+      "Name": "Red Roman Candle",
+      "DisplaySource": "Item:13107"
+    },
+    {
+      "Name": "Red Shirt",
+      "DisplayName": "Red Shirt"
+    },
+    {
+      "Name": "Red Skirt",
+      "DisplayName": "Red Skirt"
+    },
+    {
+      "Name": "Red and White Shirt",
+      "DisplayName": "Red and White Shirt"
+    },
+    {
+      "Name": "Refined Gem",
+      "DisplayName": "Refined Gem"
+    },
+    {
+      "Name": "Regenerative Salve",
+      "DisplayName": "Regenerative Salve"
+    },
+    {
+      "Name": "Rehab Screen"
+    },
+    {
+      "Name": "Reinforced Armored Wall",
+      "DisplayName": "Reinforced Armored Wall"
+    },
+    {
+      "Name": "Reinforced Background Viewport",
+      "DisplaySource": "Prefab:253"
+    },
+    {
+      "Name": "Reinforced Block",
+      "DisplayName": "Reinforced Block"
+    },
+    {
+      "Name": "Reinforced Decon Floor",
+      "DisplayName": "Reinforced Decon Floor"
+    },
+    {
+      "Name": "Reinforced Door",
+      "DisplayName": "Reinforced Door"
+    },
+    {
+      "Name": "Reinforced Door (Level 1)"
+    },
+    {
+      "Name": "Reinforced Door (Level 2)"
+    },
+    {
+      "Name": "Reinforced Duglette Mound"
+    },
+    {
+      "Name": "Reinforced Hallway Floor",
+      "DisplayName": "Reinforced Hallway Floor"
+    },
+    {
+      "Name": "Reinforced Lab Ceiling",
+      "DisplayName": "Reinforced Lab Ceiling"
+    },
+    {
+      "Name": "Reinforced Lab Floor",
+      "DisplayName": "Reinforced Lab Floor"
+    },
+    {
+      "Name": "Reinforced Slope",
+      "DisplayName": "Reinforced Slope"
+    },
+    {
+      "Name": "Reinforced Stairs",
+      "DisplayName": "Reinforced Stairs"
+    },
+    {
+      "Name": "Reinforced Wall",
+      "DisplayName": "Reinforced Wall"
+    },
+    {
+      "Name": "Remove Seeds",
+      "DisplayName": "Remove Seeds"
+    },
+    {
+      "Name": "Reserve Generator"
+    },
+    {
+      "Name": "Respawner",
+      "DisplaySource": "Prefab:5"
+    },
+    {
+      "Name": "Return Vent",
+      "DisplaySource": "Item:sol.item_bd_return_vent"
+    },
+    {
+      "Name": "Rex 700",
+      "DisplaySource": "Item:6118"
+    },
+    {
+      "Name": "Rigged Alien Pod"
+    },
+    {
+      "Name": "Riot Shield",
+      "DisplayName": "Riot Shield"
+    },
+    {
+      "Name": "Rivet Gun",
+      "DisplaySource": "Item:6116"
+    },
+    {
+      "Name": "Roasted Nuts",
+      "DisplayName": "Roasted Nuts"
+    },
+    {
+      "Name": "Rocket Launcher",
+      "DisplaySource": "Item:6002"
+    },
+    {
+      "Name": "Rockets",
+      "DisplayName": "Rockets"
+    },
+    {
+      "Name": "Rocky Arms",
+      "DisplayName": "Rocky Arms"
+    },
+    {
+      "Name": "Rocky Gloves",
+      "DisplayName": "Rocky Gloves"
+    },
+    {
+      "Name": "Rough Gem",
+      "DisplayName": "Rough Gem"
+    },
+    {
+      "Name": "Round Reinforced Window",
+      "DisplaySource": "Prefab:271"
+    },
+    {
+      "Name": "Round Tech Table",
+      "DisplaySource": "Item:10000"
+    },
+    {
+      "Name": "Rubber",
+      "DisplayName": "Rubber"
+    },
+    {
+      "Name": "Rubbery Boots",
+      "DisplayName": "Rubbery Boots"
+    },
+    {
+      "Name": "Rubbery Legs",
+      "DisplayName": "Rubbery Legs"
+    },
+    {
+      "Name": "Ruined Bunker Door"
+    },
+    {
+      "Name": "Ruined Seal Door"
+    },
+    {
+      "Name": "Ruined Strange Door"
+    },
+    {
+      "Name": "Ruined Strange Statue"
+    },
+    {
+      "Name": "Ruined Xenostone Bunker Door"
+    },
+    {
+      "Name": "Safari Hat",
+      "DisplayName": "Safari Hat"
+    },
+    {
+      "Name": "Salad Tongs",
+      "DisplaySource": "Item:sol.salad_tongs"
+    },
+    {
+      "Name": "Salad Tosser",
+      "DisplaySource": "Item:sol.salad_tosser"
+    },
+    {
+      "Name": "Saltpeter",
+      "DisplayName": "Saltpeter"
+    },
+    {
+      "Name": "Salvage Arrowheads",
+      "DisplayName": "Salvage Arrowheads"
+    },
+    {
+      "Name": "Salvage Scrap",
+      "DisplayName": "Salvage Scrap"
+    },
+    {
+      "Name": "Sandwich",
+      "DisplayName": "Sandwich"
+    },
+    {
+      "Name": "Satellite Relay",
+      "DisplaySource": "Prefab:107"
+    },
+    {
+      "Name": "Saw",
+      "DisplayName": "Saw"
+    },
+    {
+      "Name": "Scalpel",
+      "DisplaySource": "Item:sol.scalpel"
+    },
+    {
+      "Name": "Scanner Drone Dock"
+    },
+    {
+      "Name": "Scissors",
+      "DisplaySource": "Item:20004"
+    },
+    {
+      "Name": "Screwdriver",
+      "DisplaySource": "Item:20002"
+    },
+    {
+      "Name": "Security Lockdown Terminal"
+    },
+    {
+      "Name": "Seismic Imager",
+      "DisplaySource": "Prefab:211"
+    },
+    {
+      "Name": "Seismic Imager Parts",
+      "DisplayName": "Seismic Imager Parts"
+    },
+    {
+      "Name": "Server Stack",
+      "DisplaySource": "Structure:sol.tech_server_stack"
+    },
+    {
+      "Name": "Sheep Mask",
+      "DisplayName": "Sheep Mask"
+    },
+    {
+      "Name": "Short Fluid Pipe"
+    },
+    {
+      "Name": "Shotgun Shells",
+      "DisplayName": "Shotgun Shells"
+    },
+    {
+      "Name": "Silver Arms",
+      "DisplayName": "Silver Arms"
+    },
+    {
+      "Name": "Silver Arrow",
+      "DisplaySource": "Item:9005"
+    },
+    {
+      "Name": "Silver Axe",
+      "DisplaySource": "Item:sol.silver_axe"
+    },
+    {
+      "Name": "Silver Bolt",
+      "DisplaySource": "Item:9105"
+    },
+    {
+      "Name": "Silver Boots",
+      "DisplayName": "Silver Boots"
+    },
+    {
+      "Name": "Silver Bow",
+      "DisplaySource": "Item:8004"
+    },
+    {
+      "Name": "Silver Club",
+      "DisplaySource": "Item:sol.silver_club"
+    },
+    {
+      "Name": "Silver Crossbow",
+      "DisplaySource": "Item:8103"
+    },
+    {
+      "Name": "Silver Gloves",
+      "DisplayName": "Silver Gloves"
+    },
+    {
+      "Name": "Silver Helmet",
+      "DisplayName": "Silver Helmet"
+    },
+    {
+      "Name": "Silver Ingot",
+      "DisplaySource": "Item:2105"
+    },
+    {
+      "Name": "Silver Ingot Enhanced Yield Enhanced Yield"
+    },
+    {
+      "Name": "Silver Leggings",
+      "DisplayName": "Silver Leggings"
+    },
+    {
+      "Name": "Silver Pick",
+      "DisplaySource": "Item:sol.silver_pick"
+    },
+    {
+      "Name": "Silver Shield",
+      "DisplaySource": "Item:6055"
+    },
+    {
+      "Name": "Silver Spear",
+      "DisplaySource": "Item:sol.silver_spear"
+    },
+    {
+      "Name": "Silver Sword",
+      "DisplaySource": "Item:sol.silver_sword"
+    },
+    {
+      "Name": "Silver Torso",
+      "DisplayName": "Silver Torso"
+    },
+    {
+      "Name": "Silverware Dispenser",
+      "DisplaySource": "Item:4063"
+    },
+    {
+      "Name": "Simple Salad",
+      "DisplayName": "Simple Salad"
+    },
+    {
+      "Name": "Skillet",
+      "DisplaySource": "Item:sol.skillet"
+    },
+    {
+      "Name": "Skull Club",
+      "DisplaySource": "Item:sol.skull_club"
+    },
+    {
+      "Name": "Slate Block",
+      "DisplaySource": "Tile:367"
+    },
+    {
+      "Name": "Slate Ceiling",
+      "DisplaySource": "Tile:364"
+    },
+    {
+      "Name": "Slate Floor",
+      "DisplaySource": "Tile:363"
+    },
+    {
+      "Name": "Slate Platform",
+      "DisplaySource": "Tile:790"
+    },
+    {
+      "Name": "Slate Roof",
+      "DisplaySource": "Tile:365"
+    },
+    {
+      "Name": "Slate Slope",
+      "DisplaySource": "Tile:366"
+    },
+    {
+      "Name": "Slate Stairs",
+      "DisplaySource": "Tile:791"
+    },
+    {
+      "Name": "Slate Wall",
+      "DisplaySource": "Tile:343"
+    },
+    {
+      "Name": "Sledgehammer",
+      "DisplaySource": "Item:sol.sledgehammer"
+    },
+    {
+      "Name": "Slippers",
+      "DisplayName": "Slippers"
+    },
+    {
+      "Name": "Small Angled Shelf"
+    },
+    {
+      "Name": "Small Battery",
+      "DisplayName": "Small Battery"
+    },
+    {
+      "Name": "Small Coffee Mug",
+      "DisplaySource": "Item:sol.small_coffee_mug"
+    },
+    {
+      "Name": "Small Construction Tarp",
+      "DisplaySource": "Structure:sol.construction_wall_tarp_small"
+    },
+    {
+      "Name": "Small Game Rifle",
+      "DisplaySource": "Item:6133"
+    },
+    {
+      "Name": "Small Garbage Chute"
+    },
+    {
+      "Name": "Small Makeshift Tree"
+    },
+    {
+      "Name": "Small Specimen Container",
+      "DisplaySource": "Item:sol.specimen_cont_empty"
+    },
+    {
+      "Name": "Small Tech Table",
+      "DisplaySource": "Item:10012"
+    },
+    {
+      "Name": "Small Wooden Window",
+      "DisplaySource": "Prefab:269"
+    },
+    {
+      "Name": "Small Xenostone Display Stand"
+    },
+    {
+      "Name": "Smooth Nut Butter",
+      "DisplaySource": "Item:sol.smooth_nut_butter"
+    },
+    {
+      "Name": "Snare",
+      "DisplaySource": "Item:4026"
+    },
+    {
+      "Name": "Snare Trap",
+      "DisplaySource": "Prefab:72"
+    },
+    {
+      "Name": "Sneakers",
+      "DisplayName": "Sneakers"
+    },
+    {
+      "Name": "Softwood Block",
+      "DisplaySource": "Tile:404"
+    },
+    {
+      "Name": "Softwood Ceiling",
+      "DisplaySource": "Tile:401"
+    },
+    {
+      "Name": "Softwood Floor",
+      "DisplaySource": "Tile:400"
+    },
+    {
+      "Name": "Softwood Platform",
+      "DisplaySource": "Tile:405"
+    },
+    {
+      "Name": "Softwood Roof",
+      "DisplaySource": "Tile:402"
+    },
+    {
+      "Name": "Softwood Slope",
+      "DisplaySource": "Tile:403"
+    },
+    {
+      "Name": "Softwood Stairs",
+      "DisplaySource": "Tile:406"
+    },
+    {
+      "Name": "Softwood Wall",
+      "DisplaySource": "Tile:399"
+    },
+    {
+      "Name": "Solar Charging Station",
+      "DisplaySource": "Prefab:295"
+    },
+    {
+      "Name": "Spaceflex Pants",
+      "DisplayName": "Spaceflex Pants"
+    },
+    {
+      "Name": "Spaceflex Shirt",
+      "DisplayName": "Spaceflex Shirt"
+    },
+    {
+      "Name": "Spaceflex Shoes",
+      "DisplayName": "Spaceflex Shoes"
+    },
+    {
+      "Name": "Sparkler",
+      "DisplaySource": "Item:13115"
+    },
+    {
+      "Name": "Sphere Capacitor"
+    },
+    {
+      "Name": "Spike Trap",
+      "DisplaySource": "Prefab:73"
+    },
+    {
+      "Name": "Spitter Lair"
+    },
+    {
+      "Name": "Spore Pod"
+    },
+    {
+      "Name": "Spring Candy",
+      "DisplaySource": "Item:3513"
+    },
+    {
+      "Name": "Square Reinforced Window",
+      "DisplaySource": "Prefab:272"
+    },
+    {
+      "Name": "Square Reinforced Window 2",
+      "DisplaySource": "Prefab:273"
+    },
+    {
+      "Name": "Square Reinforced Window 3",
+      "DisplaySource": "Prefab:274"
+    },
+    {
+      "Name": "Stacked Construction Panels",
+      "DisplaySource": "Structure:sol.tech_stacked_panels"
+    },
+    {
+      "Name": "Stacked Plates",
+      "DisplaySource": "Item:4064"
+    },
+    {
+      "Name": "Standard Capacitor",
+      "DisplaySource": "Item:sol.standard_capacitor"
+    },
+    {
+      "Name": "Steel Anvil",
+      "DisplaySource": "Prefab:320"
+    },
+    {
+      "Name": "Steel Arrow",
+      "DisplaySource": "Item:9006"
+    },
+    {
+      "Name": "Steel Axe",
+      "DisplaySource": "Item:sol.steel_axe"
+    },
+    {
+      "Name": "Steel Block",
+      "DisplaySource": "Tile:762"
+    },
+    {
+      "Name": "Steel Bolt",
+      "DisplaySource": "Item:9106"
+    },
+    {
+      "Name": "Steel Bow",
+      "DisplaySource": "Item:8005"
+    },
+    {
+      "Name": "Steel Ceiling",
+      "DisplaySource": "Tile:760"
+    },
+    {
+      "Name": "Steel Club",
+      "DisplaySource": "Item:sol.steel_club"
+    },
+    {
+      "Name": "Steel Combat Helmet",
+      "DisplayName": "Steel Combat Helmet"
+    },
+    {
+      "Name": "Steel Crossbow",
+      "DisplaySource": "Item:8104"
+    },
+    {
+      "Name": "Steel Door",
+      "DisplayName": "Steel Door"
+    },
+    {
+      "Name": "Steel Floor",
+      "DisplaySource": "Tile:763"
+    },
+    {
+      "Name": "Steel Greatsword",
+      "DisplaySource": "Item:sol.steel_greatsword"
+    },
+    {
+      "Name": "Steel Hammer",
+      "DisplayName": "Steel Hammer"
+    },
+    {
+      "Name": "Steel Handgun Parts",
+      "DisplaySource": "Item:3110"
+    },
+    {
+      "Name": "Steel Ingot",
+      "DisplayName": "Steel Ingot"
+    },
+    {
+      "Name": "Steel Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Steel Insulation",
+      "DisplaySource": "Tile:766"
+    },
+    {
+      "Name": "Steel Launcher Parts",
+      "DisplaySource": "Item:3114"
+    },
+    {
+      "Name": "Steel Machine Parts",
+      "DisplayName": "Steel Machine Parts"
+    },
+    {
+      "Name": "Steel Panel",
+      "DisplaySource": "Tile:769"
+    },
+    {
+      "Name": "Steel Pick",
+      "DisplaySource": "Item:sol.steel_pick"
+    },
+    {
+      "Name": "Steel Pipeline",
+      "DisplaySource": "Tile:765"
+    },
+    {
+      "Name": "Steel Plate",
+      "DisplaySource": "Item:sol.steel_plate"
+    },
+    {
+      "Name": "Steel Platform",
+      "DisplaySource": "Tile:764"
+    },
+    {
+      "Name": "Steel Rifle Parts",
+      "DisplaySource": "Item:3112"
+    },
+    {
+      "Name": "Steel Rivets",
+      "DisplayName": "Steel Rivets"
+    },
+    {
+      "Name": "Steel Roof",
+      "DisplaySource": "Tile:768"
+    },
+    {
+      "Name": "Steel SMG Parts",
+      "DisplaySource": "Item:3111"
+    },
+    {
+      "Name": "Steel Shotgun Parts",
+      "DisplaySource": "Item:3113"
+    },
+    {
+      "Name": "Steel Spear",
+      "DisplaySource": "Item:sol.steel_spear"
+    },
+    {
+      "Name": "Steel Stairs",
+      "DisplaySource": "Tile:767"
+    },
+    {
+      "Name": "Steel Sword",
+      "DisplaySource": "Item:sol.steel_sword"
+    },
+    {
+      "Name": "Steel Turret",
+      "DisplaySource": "Item:16000"
+    },
+    {
+      "Name": "Steel Wall",
+      "DisplaySource": "Tile:761"
+    },
+    {
+      "Name": "Sticks",
+      "DisplayName": "Sticks"
+    },
+    {
+      "Name": "Stimulant Medicine",
+      "DisplayName": "Stimulant Medicine"
+    },
+    {
+      "Name": "Stone Dagger",
+      "DisplayName": "Stone Dagger"
+    },
+    {
+      "Name": "Stone Door",
+      "DisplayName": "Stone Door"
+    },
+    {
+      "Name": "Strange Alien Installation"
+    },
+    {
+      "Name": "Strange Humming Crystal"
+    },
+    {
+      "Name": "Strange Moving Deposit"
+    },
+    {
+      "Name": "Strange Round Statue "
+    },
+    {
+      "Name": "Strange Stalk 0"
+    },
+    {
+      "Name": "Subsonic Rifle",
+      "DisplaySource": "Item:6121"
+    },
+    {
+      "Name": "Suede Shoes",
+      "DisplayName": "Suede Shoes"
+    },
+    {
+      "Name": "Sugar Bowl",
+      "DisplaySource": "Item:4065"
+    },
+    {
+      "Name": "Sugar from Fruit",
+      "DisplayName": "Sugar from Fruit"
+    },
+    {
+      "Name": "Sulfur Gas Gun",
+      "DisplayName": "Sulfur Gas Gun"
+    },
+    {
+      "Name": "Sulfuric Acid",
+      "DisplayName": "Sulfuric Acid"
+    },
+    {
+      "Name": "Sulfurous Ash",
+      "DisplaySource": "Item:7018"
+    },
+    {
+      "Name": "Supply Room Derelict Reflector Mount"
+    },
+    {
+      "Name": "Supply Room Display"
+    },
+    {
+      "Name": "Supply Room Obstruction"
+    },
+    {
+      "Name": "Supply Table"
+    },
+    {
+      "Name": "Surgery Table"
+    },
+    {
+      "Name": "Sweet Bread",
+      "DisplayName": "Sweet Bread"
+    },
+    {
+      "Name": "Sweet Dough",
+      "DisplaySource": "Item:sol.sweet_dough"
+    },
+    {
+      "Name": "Sweet Painting",
+      "DisplaySource": "Item:25000"
+    },
+    {
+      "Name": "Sweet Roll",
+      "DisplayName": "Sweet Roll"
+    },
+    {
+      "Name": "Tambourine",
+      "DisplaySource": "Item:sol.tambourine"
+    },
+    {
+      "Name": "Tea Holder",
+      "DisplaySource": "Item:4066"
+    },
+    {
+      "Name": "Tech Armoire",
+      "DisplaySource": "Item:10001"
+    },
+    {
+      "Name": "Tech Armor Locker",
+      "DisplayName": "Tech Armor Locker"
+    },
+    {
+      "Name": "Tech Bed",
+      "DisplayName": "Tech Bed"
+    },
+    {
+      "Name": "Tech Blower",
+      "DisplaySource": "Item:4018"
+    },
+    {
+      "Name": "Tech Cabinet",
+      "DisplaySource": "Item:10003"
+    },
+    {
+      "Name": "Tech Camera"
+    },
+    {
+      "Name": "Tech Chair",
+      "DisplaySource": "Item:10101"
+    },
+    {
+      "Name": "Tech Crate Large",
+      "DisplayName": "Tech Crate Large"
+    },
+    {
+      "Name": "Tech Crate Small",
+      "DisplayName": "Tech Crate Small"
+    },
+    {
+      "Name": "Tech Desk",
+      "DisplaySource": "Item:10004"
+    },
+    {
+      "Name": "Tech Door",
+      "DisplayName": "Tech Door"
+    },
+    {
+      "Name": "Tech Door With Panel Large",
+      "DisplaySource": "Prefab:210"
+    },
+    {
+      "Name": "Tech Door With Panel Medium",
+      "DisplaySource": "Prefab:209"
+    },
+    {
+      "Name": "Tech Door With Panel Small",
+      "DisplaySource": "Prefab:208"
+    },
+    {
+      "Name": "Tech Dresser",
+      "DisplaySource": "Item:10005"
+    },
+    {
+      "Name": "Tech Dumpster"
+    },
+    {
+      "Name": "Tech Energy Dispenser",
+      "DisplayName": "Tech Energy Dispenser"
+    },
+    {
+      "Name": "Tech Gaspipe"
+    },
+    {
+      "Name": "Tech Gate"
+    },
+    {
+      "Name": "Tech Gun Rack",
+      "DisplayName": "Tech Gun Rack"
+    },
+    {
+      "Name": "Tech Gun Turret"
+    },
+    {
+      "Name": "Tech Health Dispenser",
+      "DisplayName": "Tech Health Dispenser"
+    },
+    {
+      "Name": "Tech Helmet Rack",
+      "DisplayName": "Tech Helmet Rack"
+    },
+    {
+      "Name": "Tech Item Terminal"
+    },
+    {
+      "Name": "Tech Lab Cabinet",
+      "DisplaySource": "Item:10010"
+    },
+    {
+      "Name": "Tech Pouch",
+      "DisplayName": "Tech Pouch"
+    },
+    {
+      "Name": "Tech Retina Scanner"
+    },
+    {
+      "Name": "Tech Shelf",
+      "DisplaySource": "Item:10009"
+    },
+    {
+      "Name": "Tech Shower",
+      "DisplaySource": "Item:10020"
+    },
+    {
+      "Name": "Tech Sink",
+      "DisplaySource": "Item:10021"
+    },
+    {
+      "Name": "Tech Sliding Door",
+      "DisplaySource": "Prefab:7"
+    },
+    {
+      "Name": "Tech Small Footlocker",
+      "DisplayName": "Tech Small Footlocker"
+    },
+    {
+      "Name": "Tech Support Beam",
+      "DisplaySource": "Item:sol.item_bd_support_beam"
+    },
+    {
+      "Name": "Tech Support Beam Segment",
+      "DisplaySource": "Item:sol.item_bd_support_beam_seg"
+    },
+    {
+      "Name": "Tech Support Beam Top",
+      "DisplaySource": "Item:sol.item_bd_support_beam_top"
+    },
+    {
+      "Name": "Tech Terminal",
+      "DisplaySource": "Item:10011"
+    },
+    {
+      "Name": "Tech Toilet",
+      "DisplaySource": "Item:10019"
+    },
+    {
+      "Name": "Tech Weapon Rack",
+      "DisplayName": "Tech Weapon Rack"
+    },
+    {
+      "Name": "Tech Window Round 1",
+      "DisplaySource": "Structure:sol.tech_window_round1"
+    },
+    {
+      "Name": "Tech Window Square 3",
+      "DisplaySource": "Structure:sol.tech_window_square3"
+    },
+    {
+      "Name": "Tech Window Square 4",
+      "DisplaySource": "Structure:sol.tech_window_square4"
+    },
+    {
+      "Name": "Tech Wrench",
+      "DisplaySource": "Item:sol.tech_wrench"
+    },
+    {
+      "Name": "Technician Larry"
+    },
+    {
+      "Name": "Teleporter",
+      "DisplaySource": "Prefab:52"
+    },
+    {
+      "Name": "Tesla Rifle",
+      "DisplayName": "Tesla Rifle"
+    },
+    {
+      "Name": "Thatch Ceiling",
+      "DisplaySource": "Tile:414"
+    },
+    {
+      "Name": "Thatch Floor",
+      "DisplaySource": "Tile:413"
+    },
+    {
+      "Name": "Thatch Ladder",
+      "DisplaySource": "Tile:203"
+    },
+    {
+      "Name": "Thatch Platform",
+      "DisplaySource": "Tile:417"
+    },
+    {
+      "Name": "Thatch Roof",
+      "DisplaySource": "Tile:415"
+    },
+    {
+      "Name": "Thatch Slope",
+      "DisplaySource": "Tile:416"
+    },
+    {
+      "Name": "Thatch Wall",
+      "DisplaySource": "Tile:412"
+    },
+    {
+      "Name": "Thermite Charges",
+      "DisplaySource": "Item:7013"
+    },
+    {
+      "Name": "Thermite Pistol",
+      "DisplaySource": "Item:6102"
+    },
+    {
+      "Name": "Thermothrower",
+      "DisplaySource": "Item:6115"
+    },
+    {
+      "Name": "Thermothrower Charging Station",
+      "DisplaySource": "Prefab:216"
+    },
+    {
+      "Name": "Tin Arms",
+      "DisplayName": "Tin Arms"
+    },
+    {
+      "Name": "Tin Boots",
+      "DisplayName": "Tin Boots"
+    },
+    {
+      "Name": "Tin Gloves",
+      "DisplayName": "Tin Gloves"
+    },
+    {
+      "Name": "Tin Helmet",
+      "DisplayName": "Tin Helmet"
+    },
+    {
+      "Name": "Tin Ingot",
+      "DisplaySource": "Item:2104"
+    },
+    {
+      "Name": "Tin Ingot Enhanced Yield"
+    },
+    {
+      "Name": "Tin Leggings",
+      "DisplayName": "Tin Leggings"
+    },
+    {
+      "Name": "Tin Rivets",
+      "DisplayName": "Tin Rivets"
+    },
+    {
+      "Name": "Tin Shield",
+      "DisplaySource": "Item:6053"
+    },
+    {
+      "Name": "Tin Torso",
+      "DisplayName": "Tin Torso"
+    },
+    {
+      "Name": "Titanium Arms",
+      "DisplayName": "Titanium Arms"
+    },
+    {
+      "Name": "Titanium Arrow",
+      "DisplayName": "Titanium Arrow"
+    },
+    {
+      "Name": "Titanium Axe",
+      "DisplaySource": "Item:sol.titanium_axe"
+    },
+    {
+      "Name": "Titanium Bolt",
+      "DisplayName": "Titanium Bolt"
+    },
+    {
+      "Name": "Titanium Boots",
+      "DisplayName": "Titanium Boots"
+    },
+    {
+      "Name": "Titanium Bow",
+      "DisplaySource": "Item:8008"
+    },
+    {
+      "Name": "Titanium Club",
+      "DisplaySource": "Item:sol.titanium_club"
+    },
+    {
+      "Name": "Titanium Crossbow",
+      "DisplaySource": "Item:8107"
+    },
+    {
+      "Name": "Titanium Gloves",
+      "DisplayName": "Titanium Gloves"
+    },
+    {
+      "Name": "Titanium Helmet",
+      "DisplayName": "Titanium Helmet"
+    },
+    {
+      "Name": "Titanium Ingot",
+      "DisplayName": "Titanium Ingot"
+    },
+    {
+      "Name": "Titanium Leggings",
+      "DisplayName": "Titanium Leggings"
+    },
+    {
+      "Name": "Titanium Ore Extraction",
+      "DisplayName": "Titanium Ore Extraction"
+    },
+    {
+      "Name": "Titanium Pick",
+      "DisplaySource": "Item:sol.titanium_pick"
+    },
+    {
+      "Name": "Titanium Shield",
+      "DisplayName": "Titanium Shield"
+    },
+    {
+      "Name": "Titanium Spear",
+      "DisplaySource": "Item:sol.titanium_spear"
+    },
+    {
+      "Name": "Titanium Sword",
+      "DisplaySource": "Item:sol.titanium_sword"
+    },
+    {
+      "Name": "Titanium Torso",
+      "DisplayName": "Titanium Torso"
+    },
+    {
+      "Name": "Tomahawk",
+      "DisplaySource": "Item:27000"
+    },
+    {
+      "Name": "Topped Salad",
+      "DisplayName": "Topped Salad"
+    },
+    {
+      "Name": "Torch",
+      "DisplayName": "Torch"
+    },
+    {
+      "Name": "Tortoise Ceiling Decor 0"
+    },
+    {
+      "Name": "Tortoise Ceiling Decor 1"
+    },
+    {
+      "Name": "Tortoise Ceiling Decor 2"
+    },
+    {
+      "Name": "Tortoise Ceiling Decor 3"
+    },
+    {
+      "Name": "Tortoise Egg Clutch"
+    },
+    {
+      "Name": "Tortoise Hammer",
+      "DisplayName": "Tortoise Hammer"
+    },
+    {
+      "Name": "Tortoise Overhang Decor 0"
+    },
+    {
+      "Name": "Tortoise Overhang Decor 1"
+    },
+    {
+      "Name": "Tortoise Overhang Decor 2"
+    },
+    {
+      "Name": "Tortoise Shell Brace",
+      "DisplayName": "Tortoise Shell Brace"
+    },
+    {
+      "Name": "Tortoise Underhang Decor 0"
+    },
+    {
+      "Name": "Tortoise Wall Spikes"
+    },
+    {
+      "Name": "Towel Rack",
+      "DisplaySource": "Item:23018"
+    },
+    {
+      "Name": "Trajectory Computer",
+      "DisplayName": "Trajectory Computer"
+    },
+    {
+      "Name": "Tree Tap",
+      "DisplaySource": "Item:10066"
+    },
+    {
+      "Name": "Twine",
+      "DisplaySource": "Item:2020"
+    },
+    {
+      "Name": "Utility Arm"
+    },
+    {
+      "Name": "Vandalized Hangar Access Hatch"
+    },
+    {
+      "Name": "Walkway Edge"
+    },
+    {
+      "Name": "Walkway Section"
+    },
+    {
+      "Name": "Wasp",
+      "DisplaySource": "Item:6126"
+    },
+    {
+      "Name": "Water Dispenser",
+      "DisplaySource": "Item:4068"
+    },
+    {
+      "Name": "Wheat Flour",
+      "DisplaySource": "Item:sol.wheat_flour"
+    },
+    {
+      "Name": "White Ominous Wand",
+      "DisplayName": "White Ominous Wand"
+    },
+    {
+      "Name": "White Shirt",
+      "DisplayName": "White Shirt"
+    },
+    {
+      "Name": "Wide Brim Hat",
+      "DisplayName": "Wide Brim Hat"
+    },
+    {
+      "Name": "Wide Grav Lift"
+    },
+    {
+      "Name": "Winter Hat",
+      "DisplayName": "Winter Hat"
+    },
+    {
+      "Name": "Wireless Power Core",
+      "DisplayName": "Wireless Power Core"
+    },
+    {
+      "Name": "Wood Block",
+      "DisplayName": "Wood Block"
+    },
+    {
+      "Name": "Wood Ceiling",
+      "DisplaySource": "Tile:347"
+    },
+    {
+      "Name": "Wood Door",
+      "DisplayName": "Wood Door"
+    },
+    {
+      "Name": "Wood Floor",
+      "DisplaySource": "Tile:346"
+    },
+    {
+      "Name": "Wood Platform",
+      "DisplayName": "Wood Platform"
+    },
+    {
+      "Name": "Wood Roof",
+      "DisplaySource": "Tile:348"
+    },
+    {
+      "Name": "Wood Slingshot",
+      "DisplayName": "Wood Slingshot"
+    },
+    {
+      "Name": "Wood Slope",
+      "DisplaySource": "Tile:349"
+    },
+    {
+      "Name": "Wood Stairs",
+      "DisplayName": "Wood Stairs"
+    },
+    {
+      "Name": "Wood Wall",
+      "DisplaySource": "Tile:329"
+    },
+    {
+      "Name": "Wooden Arrow",
+      "DisplayName": "Wooden Arrow"
+    },
+    {
+      "Name": "Wooden Bar"
+    },
+    {
+      "Name": "Wooden Board",
+      "DisplayName": "Wooden Board"
+    },
+    {
+      "Name": "Wooden Bolt",
+      "DisplayName": "Wooden Bolt"
+    },
+    {
+      "Name": "Wooden Bow",
+      "DisplaySource": "Item:8000"
+    },
+    {
+      "Name": "Wooden Chair",
+      "DisplaySource": "Item:10100"
+    },
+    {
+      "Name": "Wooden Chest",
+      "DisplayName": "Wooden Chest"
+    },
+    {
+      "Name": "Wooden Club",
+      "DisplaySource": "Item:sol.wooden_club"
+    },
+    {
+      "Name": "Wooden Dowel",
+      "DisplaySource": "Item:2053"
+    },
+    {
+      "Name": "Wooden Ladder",
+      "DisplaySource": "Tile:202"
+    },
+    {
+      "Name": "Wooden Shield",
+      "DisplaySource": "Item:6050"
+    },
+    {
+      "Name": "Wooden Sword",
+      "DisplaySource": "Item:sol.wooden_sword"
+    },
+    {
+      "Name": "Wool Bolt",
+      "DisplaySource": "Item:2032"
+    },
+    {
+      "Name": "Wool Padding",
+      "DisplaySource": "Item:2054"
+    },
+    {
+      "Name": "Xenite Table Ornament"
+    },
+    {
+      "Name": "Xenohide Arms",
+      "DisplayName": "Xenohide Arms"
+    },
+    {
+      "Name": "Xenohide Boots",
+      "DisplayName": "Xenohide Boots"
+    },
+    {
+      "Name": "Xenohide Gloves",
+      "DisplayName": "Xenohide Gloves"
+    },
+    {
+      "Name": "Xenohide Helmet",
+      "DisplayName": "Xenohide Helmet"
+    },
+    {
+      "Name": "Xenohide Leggings",
+      "DisplayName": "Xenohide Leggings"
+    },
+    {
+      "Name": "Xenohide Strap",
+      "DisplayName": "Xenohide Strap"
+    },
+    {
+      "Name": "Xenohide Torso",
+      "DisplayName": "Xenohide Torso"
+    },
+    {
+      "Name": "Xenoid Activation Altar"
+    },
+    {
+      "Name": "Xenoid Archive 0"
+    },
+    {
+      "Name": "Xenoid Archive 1"
+    },
+    {
+      "Name": "Xenoid Archive 2"
+    },
+    {
+      "Name": "Xenoid Armored Defense Turret"
+    },
+    {
+      "Name": "Xenoid Artifact Statue"
+    },
+    {
+      "Name": "Xenoid Bin"
+    },
+    {
+      "Name": "Xenoid Bin Broken"
+    },
+    {
+      "Name": "Xenoid Bin Broken Flipped Vert"
+    },
+    {
+      "Name": "Xenoid Bin Flipped Vert"
+    },
+    {
+      "Name": "Xenoid Carrier Ceiling Lamp"
+    },
+    {
+      "Name": "Xenoid Carrier Door"
+    },
+    {
+      "Name": "Xenoid Carrier Drop Walkway"
+    },
+    {
+      "Name": "Xenoid Carrier Local Waypoint"
+    },
+    {
+      "Name": "Xenoid Carrier Pod Port"
+    },
+    {
+      "Name": "Xenoid Carrier Pod Support"
+    },
+    {
+      "Name": "Xenoid Carrier Scaffolding"
+    },
+    {
+      "Name": "Xenoid Carrier Vent"
+    },
+    {
+      "Name": "Xenoid Carrier Wall Conduit"
+    },
+    {
+      "Name": "Xenoid Carrier Wall Lamp"
+    },
+    {
+      "Name": "Xenoid Carrier Warpgate"
+    },
+    {
+      "Name": "Xenoid Carrier Warpgate Turret Mount"
+    },
+    {
+      "Name": "Xenoid Chandelier"
+    },
+    {
+      "Name": "Xenoid Claw Door"
+    },
+    {
+      "Name": "Xenoid Claw Statue"
+    },
+    {
+      "Name": "Xenoid Corner Decor 0"
+    },
+    {
+      "Name": "Xenoid Deployment Pod"
+    },
+    {
+      "Name": "Xenoid Doorway Decor 0"
+    },
+    {
+      "Name": "Xenoid Historical Artifact 0"
+    },
+    {
+      "Name": "Xenoid Historical Artifact 1"
+    },
+    {
+      "Name": "Xenoid Historical Artifact 2"
+    },
+    {
+      "Name": "Xenoid Historical Artifact 3"
+    },
+    {
+      "Name": "Xenoid Local Teleporter"
+    },
+    {
+      "Name": "Xenoid Manufacturer Core"
+    },
+    {
+      "Name": "Xenoid Manufacturer NE"
+    },
+    {
+      "Name": "Xenoid Manufacturer NW"
+    },
+    {
+      "Name": "Xenoid Manufacturer SE"
+    },
+    {
+      "Name": "Xenoid Manufacturer SW"
+    },
+    {
+      "Name": "Xenoid Source Expansion"
+    },
+    {
+      "Name": "Xenoid Statue Front Facing Medium"
+    },
+    {
+      "Name": "Xenoid Statue Large"
+    },
+    {
+      "Name": "Xenoid Statue Profile Large"
+    },
+    {
+      "Name": "Xenoid Tablet Altar"
+    },
+    {
+      "Name": "Xenoid Tablet Altar Pedestal"
+    },
+    {
+      "Name": "Xenoid Travel Node"
+    },
+    {
+      "Name": "Xenoid Wall Console"
+    },
+    {
+      "Name": "Xenoid Wall Torch"
+    },
+    {
+      "Name": "Xenoid Waypoint Room Head Decor Entry"
+    },
+    {
+      "Name": "Xenoid Waypoint Room Head Decor Exit"
+    },
+    {
+      "Name": "Xenoid Waypoint Room Pedestal Entry"
+    },
+    {
+      "Name": "Xenoid Waypoint Room Pedestal Exit"
+    },
+    {
+      "Name": "Xenolith"
+    },
+    {
+      "Name": "Xenolith Room Door"
+    },
+    {
+      "Name": "Xenostone Barnacle"
+    },
+    {
+      "Name": "Xenostone Boulder"
+    },
+    {
+      "Name": "Xenostone Brazier"
+    },
+    {
+      "Name": "Xenostone Cavern"
+    },
+    {
+      "Name": "Xenostone Claw Decor",
+      "DisplayName": "Xenostone Claw Decor"
+    },
+    {
+      "Name": "Xenostone Crawler Spawner 0"
+    },
+    {
+      "Name": "Xenostone Crawler Spawner 1"
+    },
+    {
+      "Name": "Xenostone Crawler Spawner 2"
+    },
+    {
+      "Name": "Xenostone Display Stand"
+    },
+    {
+      "Name": "Xenostone Dripper"
+    },
+    {
+      "Name": "Xenostone Dripper Facing Right"
+    },
+    {
+      "Name": "Xenostone Glyph Display"
+    },
+    {
+      "Name": "Xenostone Heavy Chair"
+    },
+    {
+      "Name": "Xenostone Ironback Pedestal"
+    },
+    {
+      "Name": "Xenostone Low Chair"
+    },
+    {
+      "Name": "Xenostone Offering Basin"
+    },
+    {
+      "Name": "Xenostone Ornate Pot"
+    },
+    {
+      "Name": "Xenostone Pillar"
+    },
+    {
+      "Name": "Xenostone Pillar Full"
+    },
+    {
+      "Name": "Xenostone Pillar Ruined Ceiling"
+    },
+    {
+      "Name": "Xenostone Platform Block"
+    },
+    {
+      "Name": "Xenostone Pressure Plate"
+    },
+    {
+      "Name": "Xenostone Recess 0"
+    },
+    {
+      "Name": "Xenostone Recess 3"
+    },
+    {
+      "Name": "Xenostone Recess 4"
+    },
+    {
+      "Name": "Xenostone Ringstone Empty",
+      "DisplayName": "Xenostone Ringstone Empty"
+    },
+    {
+      "Name": "Xenostone Ringstone Filled",
+      "DisplayName": "Xenostone Ringstone Filled"
+    },
+    {
+      "Name": "Xenostone Rubble"
+    },
+    {
+      "Name": "Xenostone Runestone",
+      "DisplayName": "Xenostone Runestone"
+    },
+    {
+      "Name": "Xenostone Sconce",
+      "DisplayName": "Xenostone Sconce"
+    },
+    {
+      "Name": "Xenostone Sconce Empty",
+      "DisplayName": "Xenostone Sconce Empty"
+    },
+    {
+      "Name": "Xenostone Statue Pedestal"
+    },
+    {
+      "Name": "Xenostone Stone Stack 1",
+      "DisplayName": "Xenostone Stone Stack 1"
+    },
+    {
+      "Name": "Xenostone Stone Stack 2",
+      "DisplayName": "Xenostone Stone Stack 2"
+    },
+    {
+      "Name": "Xenostone Table Lamp"
+    },
+    {
+      "Name": "Xenostone Table Large"
+    },
+    {
+      "Name": "Yeast",
+      "DisplaySource": "Item:sol.yeast"
+    },
+    {
+      "Name": "Yellow Roman Candle",
+      "DisplaySource": "Item:13113"
+    },
+    {
+      "Name": "Yoga Pants",
+      "DisplayName": "Yoga Pants"
+    },
+    {
+      "Name": "Zesty Mash",
+      "DisplaySource": "Item:3516"
+    }
+  ],
+  "Categories": [
+    {
+      "Key": "Accessories",
+      "DisplayName": "Accessories"
+    },
+    {
+      "Key": "Ammunition",
+      "DisplayName": "Ammunition"
+    },
+    {
+      "Key": "Ammunition Dismantling",
+      "DisplayName": "Ammunition Dismantling"
+    },
+    {
+      "Key": "Ant Related",
+      "DisplayName": "Ant Related"
+    },
+    {
+      "Key": "Armor - Bone",
+      "DisplayName": "Armor - Bone"
+    },
+    {
+      "Key": "Armor - Bronze",
+      "DisplayName": "Armor - Bronze"
+    },
+    {
+      "Key": "Armor - Carbon Steel",
+      "DisplayName": "Armor - Carbon Steel"
+    },
+    {
+      "Key": "Armor - Combat",
+      "DisplayName": "Armor - Combat"
+    },
+    {
+      "Key": "Armor - Copper",
+      "DisplayName": "Armor - Copper"
+    },
+    {
+      "Key": "Armor - Energy Plate",
+      "DisplayName": "Armor - Energy Plate"
+    },
+    {
+      "Key": "Armor - Ghost Hide",
+      "DisplayName": "Armor - Ghost Hide"
+    },
+    {
+      "Key": "Armor - Hybrid Xenoid",
+      "DisplayName": "Armor - Hybrid Xenoid"
+    },
+    {
+      "Key": "Armor - Iron",
+      "DisplayName": "Armor - Iron"
+    },
+    {
+      "Key": "Armor - Jewel",
+      "DisplayName": "Armor - Jewel"
+    },
+    {
+      "Key": "Armor - Leather",
+      "DisplayName": "Armor - Leather"
+    },
+    {
+      "Key": "Armor - Mining Suit Mk2",
+      "DisplayName": "Armor - Mining Suit Mk2"
+    },
+    {
+      "Key": "Armor - Misc",
+      "DisplayName": "Armor - Misc"
+    },
+    {
+      "Key": "Armor - Patchwork",
+      "DisplayName": "Armor - Patchwork"
+    },
+    {
+      "Key": "Armor - Piezoelectric",
+      "DisplayName": "Armor - Piezoelectric"
+    },
+    {
+      "Key": "Armor - Plated Hide",
+      "DisplayName": "Armor - Plated Hide"
+    },
+    {
+      "Key": "Armor - Silver",
+      "DisplayName": "Armor - Silver"
+    },
+    {
+      "Key": "Armor - Tin",
+      "DisplayName": "Armor - Tin"
+    },
+    {
+      "Key": "Armor - Titanium",
+      "DisplayName": "Armor - Titanium"
+    },
+    {
+      "Key": "Armor - Xenohide",
+      "DisplayName": "Armor - Xenohide"
+    },
+    {
+      "Key": "Armor Patches",
+      "DisplayName": "Armor Patches"
+    },
+    {
+      "Key": "Arrows",
+      "DisplayName": "Arrows"
+    },
+    {
+      "Key": "Asteroid",
+      "DisplayName": "Asteroid"
+    },
+    {
+      "Key": "Axes",
+      "DisplayName": "Axes"
+    },
+    {
+      "Key": "Back Equipment",
+      "DisplayName": "Back Equipment"
+    },
+    {
+      "Key": "Bandages",
+      "DisplayName": "Bandages"
+    },
+    {
+      "Key": "Basalt Tiles",
+      "DisplayName": "Basalt Tiles"
+    },
+    {
+      "Key": "Bows",
+      "DisplayName": "Bows"
+    },
+    {
+      "Key": "Brick Tiles",
+      "DisplayName": "Brick Tiles"
+    },
+    {
+      "Key": "Capacitors",
+      "DisplayName": "Capacitors"
+    },
+    {
+      "Key": "Chairs",
+      "DisplayName": "Chairs"
+    },
+    {
+      "Key": "Chemistry - Advanced",
+      "DisplayName": "Chemistry - Advanced"
+    },
+    {
+      "Key": "Chemistry - Basic",
+      "DisplayName": "Chemistry - Basic"
+    },
+    {
+      "Key": "Chemistry - Intermediate",
+      "DisplayName": "Chemistry - Intermediate"
+    },
+    {
+      "Key": "Chemistry Structures",
+      "DisplayName": "Chemistry Structures"
+    },
+    {
+      "Key": "Clay Tiles",
+      "DisplayName": "Clay Tiles"
+    },
+    {
+      "Key": "Clothing",
+      "DisplayName": "Clothing"
+    },
+    {
+      "Key": "Clubs",
+      "DisplayName": "Clubs"
+    },
+    {
+      "Key": "Construction Decorations",
+      "DisplayName": "Construction Decorations"
+    },
+    {
+      "Key": "Consumables",
+      "DisplayName": "Consumables"
+    },
+    {
+      "Key": "Containers",
+      "DisplayName": "Containers"
+    },
+    {
+      "Key": "Cooking - Advanced",
+      "DisplayName": "Cooking - Advanced"
+    },
+    {
+      "Key": "Cooking - Basic",
+      "DisplayName": "Cooking - Basic"
+    },
+    {
+      "Key": "Cooking - Intermediate",
+      "DisplayName": "Cooking - Intermediate"
+    },
+    {
+      "Key": "Cooking - Primitive",
+      "DisplayName": "Cooking - Primitive"
+    },
+    {
+      "Key": "Cooking Structures",
+      "DisplayName": "Cooking Structures"
+    },
+    {
+      "Key": "Cooking Tools",
+      "DisplayName": "Cooking Tools"
+    },
+    {
+      "Key": "Crafting Tools",
+      "DisplayName": "Crafting Tools"
+    },
+    {
+      "Key": "Crossbow Bolts",
+      "DisplayName": "Crossbow Bolts"
+    },
+    {
+      "Key": "Crossbows",
+      "DisplayName": "Crossbows"
+    },
+    {
+      "Key": "Cybernetic Arms",
+      "DisplayName": "Cybernetic Arms"
+    },
+    {
+      "Key": "Cybernetic Eyes",
+      "DisplayName": "Cybernetic Eyes"
+    },
+    {
+      "Key": "Cybernetic Hearts",
+      "DisplayName": "Cybernetic Hearts"
+    },
+    {
+      "Key": "Cybernetic Legs",
+      "DisplayName": "Cybernetic Legs"
+    },
+    {
+      "Key": "Cybernetic Lungs",
+      "DisplayName": "Cybernetic Lungs"
+    },
+    {
+      "Key": "Cybernetic Stomachs",
+      "DisplayName": "Cybernetic Stomachs"
+    },
+    {
+      "Key": "Daggers",
+      "DisplayName": "Daggers"
+    },
+    {
+      "Key": "Decor - Cafe",
+      "DisplayName": "Decor - Cafe"
+    },
+    {
+      "Key": "Decor - Pioneer",
+      "DisplayName": "Decor - Pioneer"
+    },
+    {
+      "Key": "Decor - Windows",
+      "DisplayName": "Decor - Windows"
+    },
+    {
+      "Key": "Doors - Basic",
+      "DisplayName": "Doors - Basic"
+    },
+    {
+      "Key": "Doors - Electronic",
+      "DisplayName": "Doors - Electronic"
+    },
+    {
+      "Key": "Duglette",
+      "DisplayName": "Duglette"
+    },
+    {
+      "Key": "Dyeing",
+      "DisplayName": "Dyeing"
+    },
+    {
+      "Key": "Electronic Components",
+      "DisplayName": "Electronic Components"
+    },
+    {
+      "Key": "Electronic Gadgets",
+      "DisplayName": "Electronic Gadgets"
+    },
+    {
+      "Key": "Elevators",
+      "DisplayName": "Elevators"
+    },
+    {
+      "Key": "Energy Weapons",
+      "DisplayName": "Energy Weapons"
+    },
+    {
+      "Key": "Equipment",
+      "DisplayName": "Equipment"
+    },
+    {
+      "Key": "Excavation",
+      "DisplayName": "Excavation"
+    },
+    {
+      "Key": "Explosive",
+      "DisplayName": "Explosive"
+    },
+    {
+      "Key": "Fireworks",
+      "DisplayName": "Fireworks"
+    },
+    {
+      "Key": "Food Preparation",
+      "DisplayName": "Food Preparation"
+    },
+    {
+      "Key": "Furniture",
+      "DisplayName": "Furniture"
+    },
+    {
+      "Key": "Gadgets",
+      "DisplayName": "Gadgets"
+    },
+    {
+      "Key": "Gardening Tools",
+      "DisplayName": "Gardening Tools"
+    },
+    {
+      "Key": "Gemology",
+      "DisplayName": "Gemology"
+    },
+    {
+      "Key": "Glassworking",
+      "DisplayName": "Glassworking"
+    },
+    {
+      "Key": "Granite Tiles",
+      "DisplayName": "Granite Tiles"
+    },
+    {
+      "Key": "Greatswords",
+      "DisplayName": "Greatswords"
+    },
+    {
+      "Key": "Grinder",
+      "DisplayName": "Grinder"
+    },
+    {
+      "Key": "Gun Parts - Advanced",
+      "DisplayName": "Gun Parts - Advanced"
+    },
+    {
+      "Key": "Gun Parts - Crude",
+      "DisplayName": "Gun Parts - Crude"
+    },
+    {
+      "Key": "Gun Parts - Steel",
+      "DisplayName": "Gun Parts - Steel"
+    },
+    {
+      "Key": "Handguns",
+      "DisplayName": "Handguns"
+    },
+    {
+      "Key": "Hats",
+      "DisplayName": "Hats"
+    },
+    {
+      "Key": "Heavy Weapons",
+      "DisplayName": "Heavy Weapons"
+    },
+    {
+      "Key": "Hephaestus",
+      "DisplayName": "Hephaestus"
+    },
+    {
+      "Key": "Instruments",
+      "DisplayName": "Instruments"
+    },
+    {
+      "Key": "Iron Tiles",
+      "DisplayName": "Iron Tiles"
+    },
+    {
+      "Key": "Lenses",
+      "DisplayName": "Lenses"
+    },
+    {
+      "Key": "Lights",
+      "DisplayName": "Lights"
+    },
+    {
+      "Key": "Machine",
+      "DisplayName": "Machine"
+    },
+    {
+      "Key": "Manufacturing",
+      "DisplayName": "Manufacturing"
+    },
+    {
+      "Key": "Marble Tiles",
+      "DisplayName": "Marble Tiles"
+    },
+    {
+      "Key": "Masks",
+      "DisplayName": "Masks"
+    },
+    {
+      "Key": "Masonry",
+      "DisplayName": "Masonry"
+    },
+    {
+      "Key": "Materials",
+      "DisplayName": "Materials"
+    },
+    {
+      "Key": "Medicine",
+      "DisplayName": "Medicine"
+    },
+    {
+      "Key": "Melee",
+      "DisplayName": "Melee"
+    },
+    {
+      "Key": "Metal Ingots - Advanced",
+      "DisplayName": "Metal Ingots - Advanced"
+    },
+    {
+      "Key": "Metal Ingots - Basic",
+      "DisplayName": "Metal Ingots - Basic"
+    },
+    {
+      "Key": "Metal Ingots - Intermediate",
+      "DisplayName": "Metal Ingots - Intermediate"
+    },
+    {
+      "Key": "Metal Refining Structures",
+      "DisplayName": "Metal Refining Structures"
+    },
+    {
+      "Key": "Metallic Components",
+      "DisplayName": "Metallic Components"
+    },
+    {
+      "Key": "Meteorite Tiles",
+      "DisplayName": "Meteorite Tiles"
+    },
+    {
+      "Key": "Misc Furniture",
+      "DisplayName": "Misc Furniture"
+    },
+    {
+      "Key": "Misc Melee",
+      "DisplayName": "Misc Melee"
+    },
+    {
+      "Key": "Misc Projects",
+      "DisplayName": "Misc Projects"
+    },
+    {
+      "Key": "Misc Ranged",
+      "DisplayName": "Misc Ranged"
+    },
+    {
+      "Key": "Mud Brick Tiles",
+      "DisplayName": "Mud Brick Tiles"
+    },
+    {
+      "Key": "Nonsense",
+      "DisplayName": "Nonsense"
+    },
+    {
+      "Key": "Ominous",
+      "DisplayName": "Ominous"
+    },
+    {
+      "Key": "Pants",
+      "DisplayName": "Pants"
+    },
+    {
+      "Key": "Picks",
+      "DisplayName": "Picks"
+    },
+    {
+      "Key": "Pioneer Cafe Tiles",
+      "DisplayName": "Pioneer Cafe Tiles"
+    },
+    {
+      "Key": "Pioneer Garage Tiles",
+      "DisplayName": "Pioneer Garage Tiles"
+    },
+    {
+      "Key": "Potions",
+      "DisplayName": "Potions"
+    },
+    {
+      "Key": "Power",
+      "DisplayName": "Power"
+    },
+    {
+      "Key": "Primitive",
+      "DisplayName": "Primitive"
+    },
+    {
+      "Key": "Projects",
+      "DisplayName": "Projects"
+    },
+    {
+      "Key": "Ranged",
+      "DisplayName": "Ranged"
+    },
+    {
+      "Key": "Reinforced Tiles",
+      "DisplayName": "Reinforced Tiles"
+    },
+    {
+      "Key": "Rifles",
+      "DisplayName": "Rifles"
+    },
+    {
+      "Key": "SMGs",
+      "DisplayName": "SMGs"
+    },
+    {
+      "Key": "SMGs - Energy",
+      "DisplayName": "SMGs - Energy"
+    },
+    {
+      "Key": "Salvage",
+      "DisplayName": "Salvage"
+    },
+    {
+      "Key": "Shields",
+      "DisplayName": "Shields"
+    },
+    {
+      "Key": "Shirts",
+      "DisplayName": "Shirts"
+    },
+    {
+      "Key": "Shoes",
+      "DisplayName": "Shoes"
+    },
+    {
+      "Key": "Shotguns",
+      "DisplayName": "Shotguns"
+    },
+    {
+      "Key": "Slate Tiles",
+      "DisplayName": "Slate Tiles"
+    },
+    {
+      "Key": "Softwood Tiles",
+      "DisplayName": "Softwood Tiles"
+    },
+    {
+      "Key": "Spawners",
+      "DisplayName": "Spawners"
+    },
+    {
+      "Key": "Spears",
+      "DisplayName": "Spears"
+    },
+    {
+      "Key": "Steel Tiles",
+      "DisplayName": "Steel Tiles"
+    },
+    {
+      "Key": "Storage",
+      "DisplayName": "Storage"
+    },
+    {
+      "Key": "Swords",
+      "DisplayName": "Swords"
+    },
+    {
+      "Key": "Tables",
+      "DisplayName": "Tables"
+    },
+    {
+      "Key": "Textiles",
+      "DisplayName": "Textiles"
+    },
+    {
+      "Key": "Thatch Tiles",
+      "DisplayName": "Thatch Tiles"
+    },
+    {
+      "Key": "Throwables",
+      "DisplayName": "Throwables"
+    },
+    {
+      "Key": "Tiles",
+      "DisplayName": "Tiles"
+    },
+    {
+      "Key": "Tools",
+      "DisplayName": "Tools"
+    },
+    {
+      "Key": "Tortoise",
+      "DisplayName": "Tortoise"
+    },
+    {
+      "Key": "Traps",
+      "DisplayName": "Traps"
+    },
+    {
+      "Key": "Utility",
+      "DisplayName": "Utility"
+    },
+    {
+      "Key": "Utility Equipment",
+      "DisplayName": "Utility Equipment"
+    },
+    {
+      "Key": "Waist",
+      "DisplayName": "Waist"
+    },
+    {
+      "Key": "Warhammers",
+      "DisplayName": "Warhammers"
+    },
+    {
+      "Key": "Whips",
+      "DisplayName": "Whips"
+    },
+    {
+      "Key": "Wood",
+      "DisplayName": "Wood"
+    },
+    {
+      "Key": "Wood Tiles",
+      "DisplayName": "Wood Tiles"
+    },
+    {
+      "Key": "Xenoid",
+      "DisplayName": "Xenoid"
+    },
+    {
+      "Key": "Xenoid Carrier",
+      "DisplayName": "Xenoid Carrier"
+    },
+    {
+      "Key": "Xenoid Decorations",
+      "DisplayName": "Xenoid Decorations"
+    }
+  ],
+  "Slots": [],
+  "AdjustedResults": [
+    {
+      "Key": "Bacon with Fruit Glaze",
+      "DisplayName": "Bacon with Fruit Glaze"
+    },
+    {
+      "Key": "Bacon with Mushroom Sauce",
+      "DisplayName": "Bacon with Mushroom Sauce"
+    },
+    {
+      "Key": "Crawler Meat with Fruit Glaze",
+      "DisplayName": "Crawler Meat with Fruit Glaze"
+    },
+    {
+      "Key": "Crawler Meat with Mushroom Sauce",
+      "DisplayName": "Crawler Meat with Mushroom Sauce"
+    },
+    {
+      "Key": "Honey Glazed Bacon",
+      "DisplayName": "Honey Glazed Bacon"
+    },
+    {
+      "Key": "Honey Glazed Crawler Meat",
+      "DisplayName": "Honey Glazed Crawler Meat"
+    },
+    {
+      "Key": "Honey Glazed Human Meat",
+      "DisplayName": "Honey Glazed Human Meat"
+    },
+    {
+      "Key": "Honey Glazed Poultry",
+      "DisplayName": "Honey Glazed Poultry"
+    },
+    {
+      "Key": "Honey Glazed Red Meat",
+      "DisplayName": "Honey Glazed Red Meat"
+    },
+    {
+      "Key": "Honey Glazed Steak",
+      "DisplayName": "Honey Glazed Steak"
+    },
+    {
+      "Key": "Human Meat with Fruit Glaze",
+      "DisplayName": "Human Meat with Fruit Glaze"
+    },
+    {
+      "Key": "Human Meat with Mushroom Sauce",
+      "DisplayName": "Human Meat with Mushroom Sauce"
+    },
+    {
+      "Key": "Mushrooms with Fruit Glaze",
+      "DisplayName": "Mushrooms with Fruit Glaze"
+    },
+    {
+      "Key": "Poultry with Fruit Glaze",
+      "DisplayName": "Poultry with Fruit Glaze"
+    },
+    {
+      "Key": "Poultry with Mushroom Sauce",
+      "DisplayName": "Poultry with Mushroom Sauce"
+    },
+    {
+      "Key": "Red Meat with Fruit Glaze",
+      "DisplayName": "Red Meat with Fruit Glaze"
+    },
+    {
+      "Key": "Red Meat with Mushroom Sauce",
+      "DisplayName": "Red Meat with Mushroom Sauce"
+    },
+    {
+      "Key": "Steak with Fruit Glaze",
+      "DisplayName": "Steak with Fruit Glaze"
+    },
+    {
+      "Key": "Steak with Mushroom Sauce",
+      "DisplayName": "Steak with Mushroom Sauce"
+    }
+  ]
+}

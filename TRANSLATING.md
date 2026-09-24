@@ -23,11 +23,45 @@ This repository can overlay these compiled JSON tables:
 - `StaticPrefabRegistrationData.json` — prefab catalog (leave `SaveName` / `SaveAliases`; translate `Name` / `DisplayName` / `Description` / tooltip fields)
 - `DatapadTextData.json` — datapad lore (leave `ID`; translate `Title` / `Category` / `Text`)
 - `ArmorSetData.json` — compiled armor (`ItemType`; translate piece `Name` / `Description` and unique bonus `Description` overrides; leave set `Name` and piece `Set`)
+- `RecipeLocalization.json` — explicit recipe `DisplayName`, category and adjusted-result labels; keep `Name`, `Key`, and `DisplaySource` unchanged
+- `TileLocalization.json` — block and matching recipe display names keyed by numeric tile `ID`
+- `GlyphLocalization.json` — xenoid inscriptions; translate `Text`, keeping `ID` and exact legacy `English`
+- `RuntimeContentLocalization.json` — vanilla fluid, flora, structure, status, projectile, and unique equipment-effect prose keyed by `Kind` and full `sol.*` `ID`
 
 Missing overlay IDs keep English. Empty overlay fields keep English. Unknown
-keys are skipped. This repository's dated snapshot does not yet include every
-overlay table in the current game build; check `english/SOURCE.json` for its
-source commit before assuming that a missing row is not localizable.
+keys are skipped. Container gump titles use `UILocalization.json` `container.*` rows.
+
+`english/SOURCE.json` records the current **candidate** source revision. The
+on-screen partial-locale review is still pending, so English wording may change
+before the announcement freeze. The `PREVIEW`, `INPUT`, and `PROMPT` words baked
+into the HUD atlas are explicitly deferred until after the community
+localization launch; translators cannot replace those three pixels yet.
+Russian, Ukrainian, and Bulgarian packs are scaffolded because the current
+runtime HUD font has Cyrillic fallback; text fit still needs in-game review.
+
+## Required strings and inherited names
+
+Translate a recipe `DisplayName` only when the English recipe row has one.
+Rows with `DisplaySource` inherit the localized name of their verified single
+result item, tile, prefab, or structure; you may add an explicit recipe
+`DisplayName` to override it. Rows with neither field are debug-only English
+fallback and have no current translation task. Translate categories and
+adjusted-result labels as whole phrases. Recipe `Name`, category `Key`, and
+result identifiers are stable identities, never translated. Recipe search uses
+only the name shown to the player, so test a translated recipe by its displayed
+name rather than its English key.
+
+Translate `TileLocalization.json` `DisplayName` once for the block item and its
+matching inherited recipe. A prefab whose English `Name` and `DisplayName`
+match needs only `Name`; an explicit locale `DisplayName` can override that
+inheritance. Repeated English elsewhere may have different context and remain
+separate rows; reuse a reviewed translation rather than deleting keys.
+
+For glyphs, keep the exact `English` inscription because old saves and scan
+rewards use it. Translate `Text` alone. For runtime content, keep `Kind` and
+full `sol.*` `ID`; translate only supplied text fields, including stable
+`effect.*` keys. Missing fields fall back to English. Preserve `{0}` style
+format tokens, `[key]` tokens, and lore placeholders such as `@CHECKLIST@`.
 
 To contribute, use `english/Config/` as the reference and
 `locales/<code>/Config/` for your translation. The game-repository paths in
@@ -38,13 +72,15 @@ repository.
 # Translation guide
 
 The shipping game is English-only unless a locale overlay pack is loaded.
-The `english/Config/` snapshot supplies the text currently available for
-contributions here. Its source commit is recorded in `english/SOURCE.json`.
-The current game has additional localization paths awaiting the next reviewed
-snapshot, including recipes, tiles, glyphs, and runtime content. Translate
-only rows present in the snapshot rather than inventing IDs or editing game
-source files. Treat every player-facing English sentence in those rows as
-in-scope unless this guide says to leave it alone.
+Spoken lines, help, journal, HUD chrome, items, recipes, tiles, glyphs,
+vanilla pack prose, equipment effects, creatures, static-prefab catalog,
+datapads, and compiled armor names live in tables that a pack can overlay
+from `Config/`.
+Container gump titles, glyph quotes, unique pack `EquipmentEffects`
+descriptions, and vanilla flora/structure prose are covered by the tables
+above. The three deferred atlas labels remain English pixels for launch.
+Treat every player-facing English sentence as in-scope unless this guide says
+to leave it alone.
 
 ## What the game is
 
@@ -412,19 +448,20 @@ and `AutoOrganizeString` stay English even if the overlay copies them.
 | Stein ↔ AGIS bridge pairs | `Content/Config/steinAgisDialogPairs.json` | IDs into the spoken table, no prose. Not overlayable. |
 | MEG help topics | `Content/Config/helpData.json` | `Label` + `Text`. Newlines are real. Pack overlay: `Config/helpData.json`. |
 | Journal | `Content/Config/journalEntries.json` | AGIS log. Pack overlay: `Config/journalEntries.json`. |
-| HUD / menu chrome | `Content/Config/UILocalization.json` | String keys. Menus, settings, load tips, and keybind action labels are here. Armor and equipment `+N Stat` templates are `armor.bonus.flat` / `armor.bonus.percent` plus `armor.stat.{StatusEffectType}`. Always-on capacitor drain and double jump are `equipment.drainPerSecond` / `equipment.doubleJump`. Pack overlay: `Config/UILocalization.json`. LoadedContent `item_*.json` `EquipmentEffects` are not locale-overlayed. |
+| HUD / menu chrome | `Content/Config/UILocalization.json` | String keys. Menus, settings, load tips, container titles, and keybind action labels are here. Armor and equipment `+N Stat` templates are `armor.bonus.flat` / `armor.bonus.percent` plus `armor.stat.{StatusEffectType}`. Always-on capacitor drain and double jump are `equipment.drainPerSecond` / `equipment.doubleJump`. Pack overlay: `Config/UILocalization.json`. Unique LoadedContent equipment-effect sentences use `RuntimeContentLocalization.json`. |
 | HUD hover tooltips | `Content/Config/TooltipLocalization.json` | `tooltip.*` IDs. Live numbers and key names are `{0}` placeholders. Pack overlay: `Config/TooltipLocalization.json`. |
 | Status-effect labels | `Content/Config/StatusEffectLocalization.json` | `status.{StatusEffectType}` IDs. Types with no authored label stay off the table. Pack overlay: `Config/StatusEffectLocalization.json`. |
 | Datapads | `Content/Config/DatapadTextData.json` | Leave `ID`. Translate `Title`, `Category`, `Text`. Pack overlay: `Config/DatapadTextData.json` (same id; missing/empty fields keep English). |
 | Compiled item names / descriptions | `Content/Config/InventoryItemData.json` | Optional `Name` / `Description` plus `Templates` for instance states (`[itemname]`, `[level]`, `[mobname]`). Furniture and placeable display names live here. Shared status lines in `UILocalization.json`. Melee torches keep `MeleeWeaponData.json`. Vanilla pack items overlay `Name` / `Description` on the same table’s `sol.*` UUID rows; English for those stays in LoadedContent. Pack overlay: `Config/InventoryItemData.json` (do not overlay `AutoOrganizeString`). |
 | Compiled projectiles | `Content/Config/ProjectileRegistrationData.json` | Leave `SaveName` in English. Translate `Name`. Inventory ammo names stay in `InventoryItemData.json`. Pack overlay: `Config/ProjectileRegistrationData.json`. |
-| Container gump layouts | `Content/XML/ContainerGumpData.xml` | Leave `<id>` in English slug form. This older snapshot has no separate gump title rows; use only the overlay rows present in `english/Config/`. |
+| Container gump layouts | `Content/XML/ContainerGumpData.xml` | Leave `<id>` and `<name>` unchanged; they are the layout identity and legacy English fallback. Translate the matching `container.<id>` row in `UILocalization.json`. |
 | Armor names/descriptions | `Content/Config/ArmorSetData.json` | Leave `ItemType` and set `Name` / piece `Set`. Translate piece `Name` / `Description` and unique bonus `Description` overrides. Mechanical `+N Stat` lines come from `UILocalization.json` (`armor.stat.*` / `armor.bonus.*`). Pack overlay: `Config/ArmorSetData.json`. |
 | Melee / ranged names | `MeleeWeaponData.json`, `RangedWeaponData.json` | Leave `ItemID`. Translate `Name` / `Description`. Pack overlays: `Config/MeleeWeaponData.json`, `Config/RangedWeaponData.json`. |
 | Creature names / codex | `Content/Config/CreatureRegistrationData.json` | Leave `LivingEntityType`. Translate `Name` / `Description` / `CodexCategory`. Pack overlay: `Config/CreatureRegistrationData.json`. |
-| Compiled static-prefab catalog | `Content/Config/StaticPrefabRegistrationData.json` | Leave `SaveName` / `SaveAliases` in English. Translate `Name` / `DisplayName` / `Description` / `CodexCategory` / `TooltipNameOverride` / `DescriptionsByState` / `SpecificTooltips`. Pack overlay: `Config/StaticPrefabRegistrationData.json`. |
-| Vanilla pack item names / descriptions | `Content/LoadedContent/VanillaContent/**/item_*.json` | English `Name` / `Description` stay in pack JSON. Overlay via `Config/InventoryItemData.json` `sol.*` UUID rows (empty keeps English). Unique equipment effects, flora, and structures await the next English snapshot; third-party Workshop mods manage their own text. |
-| Glyph wall quotes | `Generators/ProceduralGlyphData.cs` (duplicated in a couple of dungeon generators) | Xenoid proverb voice. |
+| Compiled static-prefab catalog | `Content/Config/StaticPrefabRegistrationData.json` | Leave `SaveName` / `SaveAliases` in English. Translate `Name` once when English `DisplayName` matches; an explicit locale `DisplayName` overrides inheritance. Translate distinct `DisplayName`, `Description`, `CodexCategory`, `TooltipNameOverride`, `DescriptionsByState`, and `SpecificTooltips` as needed. |
+| Vanilla pack item names / descriptions | `Content/LoadedContent/VanillaContent/**/item_*.json` | English `Name` / `Description` stay in pack JSON. Overlay via `Config/InventoryItemData.json` `sol.*` UUID rows (empty keeps English). Unique effect prose, vanilla flora, and structures use `RuntimeContentLocalization.json`; Workshop mods own their text. |
+| Recipe display, tile names, glyph quotes | `Content/Config/RecipeLocalization.json`, `TileLocalization.json`, `GlyphLocalization.json` | Translate explicit recipe/category/adjusted-result labels, numeric tile display names, and glyph `Text`. Keep stable identities, `DisplaySource`, and glyph `English` unchanged. |
+| Runtime vanilla pack prose | `Content/Config/RuntimeContentLocalization.json` | Translate text fields keyed by `Kind` and full `sol.*` `ID`, including stable `effect.*` equipment prose. |
 | Scanner complaints | `Entities/Creatures/XenoidWristScannerReaction.cs` | Three pools by language skill. |
 | Crafting chrome, prefab interaction / state strings | Prefab table / `DialogLocalization.json` | Specific tooltips, hover name overrides, and state-dependent analyze text live in `StaticPrefabRegistrationData.json`. Numeric AGIS `SayQuiet` IDs stay here. |
 | Press / Steam / website | `website/press/signs-of-life-fact-sheet.txt`, `website/game/` | Marketing, same glossary. |
