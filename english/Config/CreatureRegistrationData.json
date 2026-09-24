@@ -31,7 +31,7 @@
   {
     "LivingEntityType": "DUGLETTE_ARBOREAL",
     "Name": "Arboreal Duglette",
-    "Description": "This little guy seems to like hanging out in trees, but will use an adorable little blowpipe to attack interlopers with a bleeding poison.",
+    "Description": "This little guy seems to like hanging out in trees, but will use an adorable little blowpipe to attack interlopers with darts that cause bleeding.",
     "CodexCategory": "Hairy",
     "Health": 50
   },
@@ -54,6 +54,7 @@
   {
     "LivingEntityType": "CLEANING_BOT",
     "Name": "Cleaning Bot",
+    "Description": "A small automated cleaning robot. It does not have feelings.",
     "CodexCategory": "Robotic",
     "Health": 15
   },
@@ -118,14 +119,14 @@
   {
     "LivingEntityType": "DUGLETTE_DARK",
     "Name": "Dark Duglette",
-    "Description": "This guy is a crafty lil jerk. He can throw flash bangs, caltrops and he'll even try to steal from you if given a chance.",
+    "Description": "This guy is a crafty lil jerk. He can throw flashbangs and caltrops, and he'll even try to steal from you if given a chance.",
     "CodexCategory": "Hairy",
     "Health": 50
   },
   {
     "LivingEntityType": "DART_CRAWLER",
     "Name": "Dart Crawler",
-    "Description": "That is a spiked crawling creature that periodically shoots darts out of cavities in it's back.",
+    "Description": "That is a spiked crawling creature that periodically shoots darts out of cavities in its back.",
     "CodexCategory": "Chitinous",
     "Health": 25,
     "DamageReduction": 7
@@ -142,6 +143,7 @@
   {
     "LivingEntityType": "DRIPPER",
     "Name": "Dripper",
+    "Description": "A dripping creature that drops from ceilings to attack.",
     "Health": 30,
     "MeleeDamage": 35
   },
@@ -163,7 +165,7 @@
   {
     "LivingEntityType": "EXPLOSIVE_CHICKEN",
     "Name": "Explosive Chicken",
-    "Description": "This is a chicken with a proximity explosive attached. That is uh.. weird.",
+    "Description": "This is a chicken with a proximity explosive attached. That is, uh... weird.",
     "CodexCategory": "Earth-Native",
     "Health": 25
   },
@@ -185,7 +187,7 @@
   {
     "LivingEntityType": "FLYER",
     "Name": "Flyer",
-    "Description": "This bizarre flying creature seems to be filled with a lighter than air gas.",
+    "Description": "This bizarre flying creature seems to be filled with a lighter-than-air gas.",
     "CodexCategory": "Leathery",
     "Health": 30,
     "MeleeDamage": 25
@@ -202,7 +204,7 @@
   {
     "LivingEntityType": "GHOST",
     "Name": "Ghost",
-    "Description": "This ghostly apparition is a mystery to me. The creature seems bound to the red orb in it's center, although it's purpose eludes me.",
+    "Description": "This ghostly apparition is a mystery to me. The creature seems bound to the red orb in its center, although its purpose eludes me.",
     "CodexCategory": "Weird Stuff",
     "Health": 150,
     "MeleeDamage": 25
@@ -236,7 +238,7 @@
   {
     "LivingEntityType": "GRONDAY",
     "Name": "Gronday",
-    "Description": "This bizarre creature couldn't possibly have evolved on earth, but it does have familiar looking udders. Convergent evolution I suppose!",
+    "Description": "This bizarre creature couldn't possibly have evolved on Earth, but it does have familiar-looking udders. Convergent evolution, I suppose!",
     "CodexCategory": "Hairy",
     "Health": 100,
     "MeleeDamage": 50
@@ -253,6 +255,7 @@
   {
     "LivingEntityType": "IGNEOUS_BOULDER",
     "Name": "Igneous Boulder",
+    "Description": "A rock-like exterior houses a fleshy, warm interior. It is unclear whether it is a living creature.",
     "CodexCategory": "Mineral Based",
     "Health": 25,
     "DamageReduction": 20
@@ -260,7 +263,7 @@
   {
     "LivingEntityType": "IMPALER",
     "Name": "Impaler",
-    "Description": "This creature ejects spikes when it detects movement below. It is unclear how it retrieves it's prey, but I suspect that it shares a symbiotic relationship with some of the other native life.",
+    "Description": "This creature ejects spikes when it detects movement below. It is unclear how it retrieves its prey, but I suspect that it shares a symbiotic relationship with some of the other native life.",
     "CodexCategory": "Weird Stuff",
     "Health": 50
   },
@@ -288,7 +291,7 @@
   {
     "LivingEntityType": "LEAPER",
     "Name": "Leaper",
-    "Description": "This creature seems to have evolved a shapely rear that it uses, along with it's extending tongue, to hunt prey.",
+    "Description": "This creature seems to have evolved a shapely rear that it uses, along with its extending tongue, to hunt prey.",
     "CodexCategory": "Leathery",
     "Health": 200,
     "MeleeDamage": 60,
@@ -297,7 +300,7 @@
   {
     "LivingEntityType": "MEDUSA_SPIKE",
     "Name": "Medusa Spike",
-    "Description": "This seems to be some kind of hostile tenticle. My scans indicate that this is only an appendage of a larger organism.",
+    "Description": "This seems to be some kind of hostile tentacle. My scans indicate that this is only an appendage of a larger organism.",
     "CodexCategory": "Chitinous",
     "Health": 999,
     "MeleeDamage": 30,
@@ -330,7 +333,7 @@
   {
     "LivingEntityType": "POPPER",
     "Name": "Popper",
-    "Description": "This strange chitinous creature ejects flaming projectiles. The creature presumably creates a flammable substance in it's innards.",
+    "Description": "This strange chitinous creature ejects flaming projectiles. The creature presumably creates a flammable substance in its innards.",
     "CodexCategory": "Chitinous",
     "Health": 50,
     "DamageReduction": 15
@@ -345,7 +348,7 @@
   {
     "LivingEntityType": "PUNCHER",
     "Name": "Puncher",
-    "Description": "This creature seems to have a thick tongue that it uses to attack it's prey. It is heavily armored, but the tongue may be a weak point.",
+    "Description": "This creature seems to have a thick tongue that it uses to attack its prey. It is heavily armored, but the tongue may be a weak point.",
     "CodexCategory": "Chitinous",
     "Health": 120,
     "MeleeDamage": 50,
@@ -454,16 +457,21 @@
   {
     "LivingEntityType": "XENOID_CHURL",
     "Name": "Xenoid Churl",
-    "CodexCategory": "Xenoids"
+    "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",
+    "CodexCategory": "Xenoids",
+    "Health": 100,
+    "MeleeDamage": 10
   },
   {
     "LivingEntityType": "XENOID_CHURL_SCRAPPER",
     "Name": "Xenoid Churl Scrapper",
+    "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",
     "CodexCategory": "Xenoids"
   },
   {
     "LivingEntityType": "XENOID_IRONBACK",
     "Name": "Xenoid Ironback",
+    "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",
     "CodexCategory": "Xenoids",
     "Health": 30,
     "MeleeDamage": 50,
@@ -472,6 +480,7 @@
   {
     "LivingEntityType": "XENOID_PYREBACK",
     "Name": "Xenoid Pyreback",
+    "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",
     "CodexCategory": "Xenoids",
     "Health": 30,
     "MeleeDamage": 50,
@@ -480,6 +489,7 @@
   {
     "LivingEntityType": "XENOID_SCOUT",
     "Name": "Xenoid Scout",
+    "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",
     "CodexCategory": "Xenoids",
     "Health": 30,
     "MeleeDamage": 20
@@ -487,7 +497,7 @@
   {
     "LivingEntityType": "TEST_BOT_BOMB",
     "Name": "Bomb Bot",
-    "Description": "This is a spherical combat robot. It has a bomb attached, that looks like it will detonate if you get too close.",
+    "Description": "This is a spherical combat robot with a bomb attached that looks like it will detonate if you get too close.",
     "CodexCategory": "Combat Defense Bot",
     "Health": 100,
     "ExplosionPower": 7,
@@ -577,7 +587,7 @@
   {
     "LivingEntityType": "BUFFMECHINGTON_MK2",
     "Name": "Buff Mechington Mk2",
-    "Description": "This appears to be some kind of giant mechanical chicken that has been upgraded with armor plating. I can tell you the what, but I can't tell you the why.",
+    "Description": "This appears to be an upgraded giant robotic chicken. The armor appears to be nearly impregnable, although my scans indicate that there are some glowing green weak points that you may be able to target.",
     "CodexCategory": "Robotic",
     "Health": 9999999,
     "MeleeDamage": 50
@@ -593,7 +603,7 @@
   {
     "LivingEntityType": "SPITTER_MALE",
     "Name": "Male Spitter",
-    "Description": "This is some kind of asshole creature with poisonous spit and poison tipped claws. It seems to be very territorial.",
+    "Description": "This is some kind of asshole creature with poisonous spit and poison-tipped claws. It seems to be very territorial.",
     "CodexCategory": "Spitter",
     "Health": 100,
     "MeleeDamage": 10
@@ -608,16 +618,25 @@
   {
     "LivingEntityType": "XENOID",
     "Name": "Xenoid",
+    "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",
     "CodexCategory": "Xenoids"
   },
   {
     "LivingEntityType": "XENOID_SPECIALIST",
     "Name": "Xenoid Specialist",
+    "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",
+    "CodexCategory": "Xenoids"
+  },
+  {
+    "LivingEntityType": "XENOID_SPECIALIST_ARMORED",
+    "Name": "Armored Xenoid Specialist",
+    "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",
     "CodexCategory": "Xenoids"
   },
   {
     "LivingEntityType": "MONSTRALORP",
     "Name": "Monstralorp",
+    "Description": "This is some kind of monstrous chicken. It cannot be natural, and seems to be the result of some kind of genetic modification.",
     "CodexCategory": "Feathered"
   },
   {
@@ -747,5 +766,17 @@
     "Description": "I have no idea what that is.",
     "Health": 100,
     "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "NPC_HUMAN",
+    "Name": "Human",
+    "Description": "This is a human being.",
+    "Health": 100,
+    "MeleeDamage": 10
+  },
+  {
+    "LivingEntityType": "PIONEER_MAINTENANCE_WORKER",
+    "Name": "Dead Human",
+    "Description": "This seems to be a rotting bag of flesh and meat. It is quite putrid."
   }
 ]

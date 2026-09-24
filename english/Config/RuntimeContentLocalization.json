@@ -1,0 +1,575 @@
+[
+  {
+    "Kind": "Flora",
+    "ID": "sol.apple_tree",
+    "Name": "Apple Tree",
+    "Description": "An earth native tree that grows apples over time."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.bana_bush",
+    "Name": "Bana Bush",
+    "Description": "A bush that grows a bana-like fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.bloo_bush",
+    "Name": "Bloo Bush",
+    "Description": "A bush that grows a bloo fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.bustnut_bush",
+    "Name": "Bustnut Bush",
+    "Description": "A strange bush that grows a volatile nut."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.buttnut_tree",
+    "Name": "Buttery Nut Tree",
+    "Description": "A somewhat familiar looking tree that grows a strange, juicy fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.citrica_stalk_large",
+    "Name": "Citrica Plant",
+    "Description": "An alien plant that coincidentally produces citrica fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.citrica_stalk_med",
+    "Name": "Citrica Plant",
+    "Description": "An alien plant that coincidentally produces citrica fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.citrica_stalk",
+    "Name": "Citrica Plant",
+    "Description": "An alien plant that coincidentally produces citrica fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.corn_fruiting",
+    "Name": "Corn Stalk",
+    "Description": "A stalk that grows cobs of corn when fully grown."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.cotton_fruiting",
+    "Name": "Cotton",
+    "Description": "A stalk of cotton."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.delicious_bush",
+    "Name": "Delicious Bush",
+    "Description": "A bush that grows a delicious fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.hard_nut_tree",
+    "Name": "Hardnut Tree",
+    "Description": "A familiar yet strange looking tree that grows some kind of hard nut over time."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.jiggly_tree",
+    "Name": "Jilggy Tree",
+    "Description": "A familiar yet strange looking tree that grows some kind of jiggly fruit over time."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.juicy_tree",
+    "Name": "Peach Tree",
+    "Description": "A somewhat familiar looking tree that grows a strange, juicy fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.ominous_tree_green",
+    "Name": "Ominous Tree",
+    "Description": "A strange ominous looking tree."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.ominous_tree_orange",
+    "Name": "Ominous Tree",
+    "Description": "A strange ominous looking tree."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.ominous_tree_purple",
+    "Name": "Ominous Tree",
+    "Description": "A strange ominous looking tree."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.ominous_tree_white",
+    "Name": "Ominous Tree",
+    "Description": "A strange ominous looking tree."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.orange_tree",
+    "Name": "Orange Tree",
+    "Description": "An earth native tree that grows oranges over time."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.peach_tree",
+    "Name": "Peach Tree",
+    "Description": "An earth native tree that grows peaches over time."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.podfruit_tree",
+    "Name": "Podfruit Tree",
+    "Description": "A tree that grows a podded fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.spray_nut_fruiting",
+    "Name": "Spraynut Stalk",
+    "Description": "A stalk that grows a large seed."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.sweety_tree",
+    "Name": "Sweety Tree",
+    "Description": "A somewhat familiar looking tree that grows a strange, sweet fruit."
+  },
+  {
+    "Kind": "Flora",
+    "ID": "sol.wheat_fruiting",
+    "Name": "Wheat Stalk",
+    "Description": "A stalk of wheat."
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_blast",
+    "Name": "Blast Potion",
+    "Description": "This vessel contains a thick, volatile mixture of biofuel and some kind of strange herb. It would be a bad idea to drink it.",
+    "OverrideAmmoDescriptionString": "Blast Potion"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_cure",
+    "Name": "Cure Potion",
+    "Description": "A basic potion formulated to quickly regenerate your health.",
+    "OverrideAmmoDescriptionString": "Cure Potion"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_energy",
+    "Name": "Energy Potion",
+    "Description": "A basic potion formulated to quickly regenerate your energy.",
+    "OverrideAmmoDescriptionString": "Energy Potion"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_greater_blast",
+    "Name": "Greater Blast Potion",
+    "Description": "This vessel contains a thick, volatile mixture of biofuel and some kind of strange herb. It would be a bad idea to drink it.",
+    "OverrideAmmoDescriptionString": "Greater Blast Potion"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_greater_heal",
+    "Name": "Greater Heal Potion",
+    "Description": "An advanced potion formulated to quickly regenerate a large portion of your health.",
+    "OverrideAmmoDescriptionString": "Greater Heal Potion"
+  },
+  {
+    "Kind": "Fluid",
+    "ID": "sol.fluid_heal",
+    "Name": "Heal Potion",
+    "Description": "A basic potion formulated to quickly regenerate your health.",
+    "OverrideAmmoDescriptionString": "Heal Potion"
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_arms_autocannon",
+    "effect.01": "Drains 5 Capacitor Charge per Shot"
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_arms_bolt_driver",
+    "effect.01": "Drains 15 Capacitor Charge per Shot"
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_arms_forgeblade",
+    "effect.01": "Drains 1 Capacitor Charge per Second while in use."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_eyes_laser",
+    "effect.01": "Grants the Laser Eyes ability.",
+    "effect.02": "Drains 12 Capacitor Charge per Second while firing."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_eyes_synthetic",
+    "effect.01": "Displays creature health in-world.",
+    "effect.02": "Displays projected paths for thrown objects and projectiles."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_stomach_bioreactor",
+    "effect.01": "Generates 2 Capacitor Charge per Second as long as you have food in your stomach.",
+    "effect.02": "Doubles food consumption rate.",
+    "effect.03": "Prevents parasites from attaching themselves to the lining of your stomach and eventually bursting out of your stomach."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_stomach_metabolic",
+    "effect.01": "Grants the Accelerated Metabolism Ability, which causes food to drain at 10x the normal rate, and generates 3 health per second for 10 seconds.",
+    "effect.02": "Prevents parasites from attaching themselves to the lining of your stomach."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_stomach_regurgitator",
+    "effect.01": "Grants the Regurgitator ability, which vomits spitter acid as it drains your stomach meter.",
+    "effect.02": "Prevents parasites from attaching themselves to the lining of your stomach."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.cyber_stomach_synthetic",
+    "effect.01": "Doubles the Health Regeneration associated with the \"Well Fed\" buff.",
+    "effect.02": "Prevents parasites from attaching themselves to the lining of your stomach."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_axe",
+    "effect.01": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_club",
+    "effect.01": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_dagger",
+    "effect.01": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_greatsword",
+    "effect.01": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_pick",
+    "effect.01": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_spear",
+    "effect.01": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
+  },
+  {
+    "Kind": "Item",
+    "ID": "sol.piezo_sword",
+    "effect.01": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.bustnut_shrapnel",
+    "Name": "Bustnut Shrapnel"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.buttnut_shrapnel",
+    "Name": "Buttnut Shrapnel"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.green_ominous",
+    "Name": "Green Ominous Projectile"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.orange_ominous",
+    "Name": "Orange Ominous Projectile"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.purple_ominous",
+    "Name": "Purple Ominous Projectile"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.spraynut_shrapnel",
+    "Name": "Spraynut Shrapnel"
+  },
+  {
+    "Kind": "Projectile",
+    "ID": "sol.white_ominous",
+    "Name": "White Ominous Projectile"
+  },
+  {
+    "Kind": "Status",
+    "ID": "sol.mod_max_health",
+    "Name": "Modify Maximum Health",
+    "Description": "Your maximum health is increased."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.granite_hinged_door",
+    "Name": "Granite Door",
+    "Description": "A granite door."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.iron_hinged_door",
+    "Name": "Iron Door",
+    "Description": "An iron door."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.marble_hinged_door",
+    "Name": "Marble Door",
+    "Description": "A marble door."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.ramshackle_hinged_door",
+    "Name": "Ramshackle Door",
+    "Description": "A poorly constructed door made of poor materials. What a shame."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.steel_hinged_door",
+    "Name": "Steel Door",
+    "Description": "A steel door."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.stone_hinged_door",
+    "Name": "Stone Door",
+    "Description": "A stone door."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_hinged_door",
+    "Name": "Tech Door",
+    "Description": "A high tech door."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.wood_hinged_door",
+    "Name": "Wood Door",
+    "Description": "A wood door."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.large_specimen_container",
+    "Name": "Large Specimen Container",
+    "Description": "A large glass container with some kind of specimen within."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.specimen_container_chicken_fetus",
+    "Name": "Chicken Fetus Specimen Container",
+    "Description": "A large glass container with some kind of specimen within."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.specimen_container_mature_chicken_fetus",
+    "Name": "Mature Chicken Fetus Specimen Container",
+    "Description": "A large glass container with some kind of specimen within."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_barricade",
+    "Name": "Construction Barricade",
+    "Description": "Barricades used for designating construction areas."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_materials",
+    "Name": "Construction Materials",
+    "Description": "Materials used for construction."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_panels",
+    "Name": "Construction Panels",
+    "Description": "Panels that are under construction."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_posts",
+    "Name": "Construction Posts",
+    "Description": "Posts used for designating construction areas."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_scaffold",
+    "Name": "Construction Scaffold",
+    "Description": "A large construction scaffold."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_wall_tarp_large",
+    "Name": "Large Construction Tarp",
+    "Description": "A large construction tarp."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.construction_wall_tarp_small",
+    "Name": "Small Construction Tarp",
+    "Description": "A small construction tarp."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.corroded_coolant_tank",
+    "Name": "Corroded Coolant Tank",
+    "Description": "A large coolant tank that has been corroded by some kind of organic acid."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.corroded_wooden_crate",
+    "Name": "Corroded Wooden Crate",
+    "Description": "A wooden crate that seems to have been corroded by some kind of organic acid."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_data_storage",
+    "Name": "Data Storage Unit",
+    "Description": "A highly technological unit that stores data for the Pioneer Station's systems."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_extension_ladder",
+    "Name": "Extension Ladder",
+    "Description": "A large metal ladder used for construction."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.pioneer_generator_coolant",
+    "Name": "Generator Coolant Tanks",
+    "Description": "A large set of coolant tanks used for the operation of the Pioneer Station generator."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_server_stack",
+    "Name": "Server Stack",
+    "Description": "A set of servers used by the Pioneer Station."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_stacked_panels",
+    "Name": "Stacked Construction Panels",
+    "Description": "A stack of panels that are going to be used for various construction purposes around the Pioneer Station."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_window_round1",
+    "Name": "Tech Window Round 1",
+    "Description": "A round tech window."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_window_square3",
+    "Name": "Tech Window Square 3",
+    "Description": "A square tech window."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.tech_window_square4",
+    "Name": "Tech Window Square 4",
+    "Description": "A square tech window."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_sconce_empty",
+    "Name": "Empty Xenostone Sconce",
+    "Description": "A piece of alien decoration composed of a strange material."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_sconce_filled",
+    "Name": "Filled Xenostone Sconce",
+    "Description": "A piece of alien decoration composed of a strange material."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.ruined_claw_door",
+    "Name": "Ruined Strange Door",
+    "Description": "This seems to be the ruined remains of what probably used to be some kind of door."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.ruined_claw_statue",
+    "Name": "Ruined Strange Statue",
+    "Description": "This seems to be a statue that has deteriorated over time. Based on the pieces lying around, I suspect that this may have originally been a claw-shaped statue grasping a purple orb."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_decor_claw",
+    "Name": "Xenostone Claw",
+    "Description": "A piece of alien decoration composed of a strange material."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_decor_runestone",
+    "Name": "Rune Covered Xenostone Decor",
+    "Description": "A piece of alien decoration composed of a strange material. It is covered in strange runes that are not in my database."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_decor_stonestack0",
+    "Name": "Xenostone Pile",
+    "Description": "A pile of strange stones."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_decor_stonestack1",
+    "Name": "Xenostone Pile 2",
+    "DisplayName": "Xenostone Pile",
+    "Description": "A pile of strange stones."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_ringstone_empty",
+    "Name": "Empty Xenostone Ringstone",
+    "Description": "This appears to be some kind of alien decoration."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_ringstone_filled",
+    "Name": "Filled Xenostone Ringstone",
+    "Description": "This appears to be some kind of alien decoration."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xns_recess_0",
+    "Name": "Xenostone Recess 0",
+    "Description": "This appears to be an intentionally created recess composed of an unknown material."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xns_recess_3",
+    "Name": "Xenostone Recess 3",
+    "Description": "This appears to be an intentionally created recess composed of an unknown material."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xns_recess_4",
+    "Name": "Xenostone Recess 4",
+    "Description": "This appears to be an intentionally created recess composed of an unknown material."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_barnacle",
+    "Name": "Xenostone Barnacle",
+    "Description": "This appears to be some kind of stone growth, with a gross questionably living thing sticking off the side."
+  },
+  {
+    "Kind": "Structure",
+    "ID": "sol.xenostone_boulder",
+    "Name": "Xenostone Boulder",
+    "Description": "A large boulder that seems to be impervious to any known mining techniques or explosives. It is perched somewhat precariously, though and may be possible to dislodge with a sufficiently hard direct impact."
+  }
+]

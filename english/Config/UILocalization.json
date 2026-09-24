@@ -416,6 +416,138 @@
     "Text": "INTERFACE"
   },
   {
+    "ID": "controller.category",
+    "Text": "CONTROLLER"
+  },
+  {
+    "ID": "controller.settingsTitle",
+    "Text": "Controller Settings"
+  },
+  {
+    "ID": "controller.bindingsTitle",
+    "Text": "Controller Bindings"
+  },
+  {
+    "ID": "controller.swapSticks",
+    "Text": "Swap Sticks"
+  },
+  {
+    "ID": "controller.invertAimX",
+    "Text": "Invert Aim X"
+  },
+  {
+    "ID": "controller.invertAimY",
+    "Text": "Invert Aim Y"
+  },
+  {
+    "ID": "controller.moveDeadZone",
+    "Text": "Move Dead Zone"
+  },
+  {
+    "ID": "controller.aimDeadZone",
+    "Text": "Aim Dead Zone"
+  },
+  {
+    "ID": "controller.cursorSpeed",
+    "Text": "Cursor Speed"
+  },
+  {
+    "ID": "controller.swapConfirmCancel",
+    "Text": "Swap Confirm / Cancel"
+  },
+  {
+    "ID": "controller.promptFamily",
+    "Text": "Button Prompts"
+  },
+  {
+    "ID": "controller.family.auto",
+    "Text": "Auto"
+  },
+  {
+    "ID": "controller.family.xbox",
+    "Text": "Xbox"
+  },
+  {
+    "ID": "controller.family.playstation",
+    "Text": "PlayStation"
+  },
+  {
+    "ID": "controller.family.nintendo",
+    "Text": "Nintendo"
+  },
+  {
+    "ID": "controller.family.generic",
+    "Text": "Generic"
+  },
+  {
+    "ID": "controller.family.steamDeck",
+    "Text": "Steam Deck"
+  },
+  {
+    "ID": "controller.vibration",
+    "Text": "Vibration"
+  },
+  {
+    "ID": "controller.vibrationStrength",
+    "Text": "Vibration Strength"
+  },
+  {
+    "ID": "controller.aimAssist",
+    "Text": "Aim Assist"
+  },
+  {
+    "ID": "controller.aimAssistStrength",
+    "Text": "Aim Assist Strength"
+  },
+  {
+    "ID": "controller.bindingsButton",
+    "Text": "Bindings"
+  },
+  {
+    "ID": "controller.optionsButton",
+    "Text": "Options"
+  },
+  {
+    "ID": "controller.rebindPrompt",
+    "Text": "Press a controller control for {0}."
+  },
+  {
+    "ID": "controller.confirmRebind",
+    "Text": "Bind {0} to {1}?"
+  },
+  {
+    "ID": "controller.bind.confirm",
+    "Text": "Confirm"
+  },
+  {
+    "ID": "controller.bind.cancel",
+    "Text": "Cancel"
+  },
+  {
+    "ID": "controller.bind.uiSecondary",
+    "Text": "UI Secondary"
+  },
+  {
+    "ID": "controller.bind.pause",
+    "Text": "Pause"
+  },
+  {
+    "ID": "controller.bind.primary",
+    "Text": "Primary"
+  },
+  {
+    "ID": "controller.bind.secondary",
+    "Text": "Secondary"
+  },
+  {
+    "ID": "controller.bind.quickSlot1",
+    "Text": "Quick Slot 1"
+  },
+  {
+    "ID": "controller.bind.quickSlot2",
+    "Text": "Quick Slot 2"
+  },
+  {
     "ID": "settings.title.display",
     "Text": "Display Settings"
   },
@@ -510,6 +642,10 @@
   {
     "ID": "settings.tooltips",
     "Text": "Tooltips"
+  },
+  {
+    "ID": "settings.swapMouseButtons",
+    "Text": "Swap Mouse Buttons"
   },
   {
     "ID": "settings.fontSize",
@@ -898,6 +1034,30 @@
   {
     "ID": "load.tip.groundCache",
     "Text": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring."
+  },
+  {
+    "ID": "load.waitingForHost",
+    "Text": "Waiting for Host"
+  },
+  {
+    "ID": "load.waitingForPlayers",
+    "Text": "Waiting for Players"
+  },
+  {
+    "ID": "load.phase.settlingParty",
+    "Text": "Settling Inventories"
+  },
+  {
+    "ID": "load.phase.waitingForHost",
+    "Text": "Waiting for Host World"
+  },
+  {
+    "ID": "load.phase.joiningParty",
+    "Text": "Joining Party World"
+  },
+  {
+    "ID": "load.phase.waitingForPlayers",
+    "Text": "Waiting for Players"
   },
   {
     "ID": "char.customization",
@@ -1680,6 +1840,10 @@
     "Text": "No description available."
   },
   {
+    "ID": "item.purelyDecorative",
+    "Text": "This item is purely decorative."
+  },
+  {
     "ID": "item.missingModName",
     "Text": "Missing mod item"
   },
@@ -1690,5 +1854,2437 @@
   {
     "ID": "item.batteryCharge",
     "Text": "Battery Charge: [charge]/[capacity] ([percent]%)"
+  },
+  {
+    "ID": "crew.ops.title",
+    "Text": "Crew Operations"
+  },
+  {
+    "ID": "crew.activity.maintenance",
+    "Text": "Performing maintenance."
+  },
+  {
+    "ID": "crew.activity.survey",
+    "Text": "Surveying the area."
+  },
+  {
+    "ID": "crew.activity.rest",
+    "Text": "Resting."
+  },
+  {
+    "ID": "crew.activity.idle",
+    "Text": "Just hanging out."
+  },
+  {
+    "ID": "crew.activity.haul",
+    "Text": "Hauling"
+  },
+  {
+    "ID": "crew.activity.flora",
+    "Text": "Flora"
+  },
+  {
+    "ID": "crew.ops.tab.crew",
+    "Text": "Crew"
+  },
+  {
+    "ID": "crew.ops.tab.log",
+    "Text": "Log"
+  },
+  {
+    "ID": "crew.log.started",
+    "Text": "Task started."
+  },
+  {
+    "ID": "crew.log.completed",
+    "Text": "Task completed."
+  },
+  {
+    "ID": "crew.log.interrupted",
+    "Text": "Task interrupted."
+  },
+  {
+    "ID": "crew.ops.tab.policy",
+    "Text": "Policy"
+  },
+  {
+    "ID": "crew.policy.family.maintenance",
+    "Text": "Maintenance"
+  },
+  {
+    "ID": "crew.policy.family.survey",
+    "Text": "Survey"
+  },
+  {
+    "ID": "crew.policy.stance.avoid",
+    "Text": "Avoid"
+  },
+  {
+    "ID": "crew.policy.stance.normal",
+    "Text": "Normal"
+  },
+  {
+    "ID": "crew.policy.stance.prefer",
+    "Text": "Prefer"
+  },
+  {
+    "ID": "crew.policy.risk",
+    "Text": "Risk"
+  },
+  {
+    "ID": "crew.policy.risk.cautious",
+    "Text": "Cautious"
+  },
+  {
+    "ID": "crew.policy.risk.normal",
+    "Text": "Normal"
+  },
+  {
+    "ID": "crew.policy.risk.bold",
+    "Text": "Bold"
+  },
+  {
+    "ID": "crew.policy.fieldCapacity",
+    "Text": "Field Capacity"
+  },
+  {
+    "ID": "crew.policy.recall",
+    "Text": "Recall"
+  },
+  {
+    "ID": "crew.policy.fieldDuty",
+    "Text": "Field Duty"
+  },
+  {
+    "ID": "agis.unknownDescription",
+    "Text": "I have no idea what that is."
+  },
+  {
+    "ID": "agis.playerDescription",
+    "Text": "That seems to be some sort of fleshy bag containing mostly meat."
+  },
+  {
+    "ID": "agis.meteorDescription",
+    "Text": "This appears to be some kind of meteorite. My scans indicate that it is composed of a brittle outer shell with a denser material within."
+  },
+  {
+    "ID": "craft.action.craft",
+    "Text": "Craft"
+  },
+  {
+    "ID": "craft.action.refiners",
+    "Text": "Refiners"
+  },
+  {
+    "ID": "craft.action.transfer",
+    "Text": "Transfer"
+  },
+  {
+    "ID": "craft.action.draftFurnace",
+    "Text": "Refine In Draft Furnace"
+  },
+  {
+    "ID": "craft.action.buildInWorld",
+    "Text": "Build In World"
+  },
+  {
+    "ID": "craft.action.blastFurnace",
+    "Text": "Refine In Blast Furnace"
+  },
+  {
+    "ID": "craft.action.inductionFurnace",
+    "Text": "Refine In Induction Furnace"
+  },
+  {
+    "ID": "craft.action.campfire",
+    "Text": "Make With Campfire"
+  },
+  {
+    "ID": "craft.action.brickOven",
+    "Text": "Make With Brick Oven"
+  },
+  {
+    "ID": "craft.action.ironStove",
+    "Text": "Make With Iron Stove"
+  },
+  {
+    "ID": "craft.action.kitchenette",
+    "Text": "Make With Kitchenette"
+  },
+  {
+    "ID": "craft.action.mortar",
+    "Text": "Make With Mortar"
+  },
+  {
+    "ID": "craft.action.chemBench",
+    "Text": "Make With Chem Bench"
+  },
+  {
+    "ID": "craft.action.chemLab",
+    "Text": "Make With Chem Lab"
+  },
+  {
+    "ID": "craft.action.min",
+    "Text": "Min"
+  },
+  {
+    "ID": "craft.action.max",
+    "Text": "Max"
+  },
+  {
+    "ID": "hud.recipeObtained",
+    "Text": "Obtained the recipe for {0}."
+  },
+  {
+    "ID": "hud.itemPickedUp",
+    "Text": "Picked up {0} {1}."
+  },
+  {
+    "ID": "hud.openCodexHint",
+    "Text": "Click to open Codex"
+  },
+  {
+    "ID": "hud.creatureScanned",
+    "Text": "Creature scanned"
+  },
+  {
+    "ID": "hud.helpUnlocked",
+    "Text": "Help unlocked"
+  },
+  {
+    "ID": "ui.unknown",
+    "Text": "Unknown"
+  },
+  {
+    "ID": "container.backpack",
+    "Text": "Backpack"
+  },
+  {
+    "ID": "container.wooden_footlocker",
+    "Text": "Wooden Footlocker"
+  },
+  {
+    "ID": "container.satchel",
+    "Text": "Satchel"
+  },
+  {
+    "ID": "container.leather_bag",
+    "Text": "Leather Bag"
+  },
+  {
+    "ID": "container.cargo_hold",
+    "Text": "Cargo Hold"
+  },
+  {
+    "ID": "container.small_tech_crate",
+    "Text": "Small Tech Crate"
+  },
+  {
+    "ID": "container.large_tech_crate",
+    "Text": "Large Tech Crate"
+  },
+  {
+    "ID": "container.crafting_table_surface",
+    "Text": "Crafting Table Surface"
+  },
+  {
+    "ID": "container.small_tech_footlocker",
+    "Text": "Small Tech Footlocker"
+  },
+  {
+    "ID": "container.tech_pouch",
+    "Text": "Tech Pouch"
+  },
+  {
+    "ID": "container.tech_drawers",
+    "Text": "Tech Drawers"
+  },
+  {
+    "ID": "container.forager_pouch",
+    "Text": "Forager Pouch"
+  },
+  {
+    "ID": "container.blue_cooler",
+    "Text": "Blue Cooler"
+  },
+  {
+    "ID": "container.hunter_pouch",
+    "Text": "Hunter Pouch"
+  },
+  {
+    "ID": "container.excavator_pouch",
+    "Text": "Excavator Pouch"
+  },
+  {
+    "ID": "container.munition_pouch",
+    "Text": "Munition Pouch"
+  },
+  {
+    "ID": "container.jeweler_pouch",
+    "Text": "Jeweler Pouch"
+  },
+  {
+    "ID": "container.key_item_pouch",
+    "Text": "Key Item Pouch"
+  },
+  {
+    "ID": "container.trash_pouch",
+    "Text": "Trash Pouch"
+  },
+  {
+    "ID": "container.crafting_pouch",
+    "Text": "Crafting Pouch"
+  },
+  {
+    "ID": "container.block_pouch",
+    "Text": "Block Pouch"
+  },
+  {
+    "ID": "container.xenite_artifact",
+    "Text": "Xenite Artifact"
+  },
+  {
+    "ID": "container.xenostone_chest",
+    "Text": "Xenostone Chest"
+  },
+  {
+    "ID": "container.paper_bag",
+    "Text": "Paper Bag"
+  },
+  {
+    "ID": "container.xenostone_barrel",
+    "Text": "Xenostone Barrel"
+  },
+  {
+    "ID": "container.xenostone_wall_compartment",
+    "Text": "Xenostone Wall Compartment"
+  },
+  {
+    "ID": "container.xenocloth_bag",
+    "Text": "Xenocloth Bag"
+  },
+  {
+    "ID": "container.xenocloth_pouch",
+    "Text": "Xenocloth Pouch"
+  },
+  {
+    "ID": "container.xenostone_small_chest",
+    "Text": "Xenostone Small Chest"
+  },
+  {
+    "ID": "container.toilet",
+    "Text": "Toilet"
+  },
+  {
+    "ID": "container.makeshift_pouch",
+    "Text": "Makeshift Pouch"
+  },
+  {
+    "ID": "container.chess_board",
+    "Text": "Chess Board"
+  },
+  {
+    "ID": "container.plastic_pumpkin_bucket",
+    "Text": "Plastic Pumpkin Bucket"
+  },
+  {
+    "ID": "container.makeshift_crate",
+    "Text": "Makeshift Crate"
+  },
+  {
+    "ID": "container.billy_container",
+    "Text": "Billy Container"
+  },
+  {
+    "ID": "container.diaper",
+    "Text": "Diaper"
+  },
+  {
+    "ID": "container.tech_dumpster",
+    "Text": "Tech Dumpster"
+  },
+  {
+    "ID": "char.noPlayerSelected",
+    "Text": "No Player Selected"
+  },
+  {
+    "ID": "menu.retrievingRecentUpdates",
+    "Text": "Retrieving recent updates..."
+  },
+  {
+    "ID": "menu.recentUpdatesUnavailable",
+    "Text": "Could not retrieve recent updates.\n\nPlease visit www.playsignsoflife.com or the Steam announcements for the recent updates."
+  },
+  {
+    "ID": "codex.title",
+    "Text": "Codex"
+  },
+  {
+    "ID": "codex.drops",
+    "Text": "Drops:"
+  },
+  {
+    "ID": "meg.skill.ninjutsu",
+    "Text": "Ninjutsu"
+  },
+  {
+    "ID": "meg.skill.ninjutsuDescription",
+    "Text": "Gunkata without the gun."
+  },
+  {
+    "ID": "meg.slot.grapple",
+    "Text": "Grapple"
+  },
+  {
+    "ID": "meg.slot.extract",
+    "Text": "Extract"
+  },
+  {
+    "ID": "meg.slot.scan",
+    "Text": "Scan"
+  },
+  {
+    "ID": "meg.slot.grab",
+    "Text": "Grab"
+  },
+  {
+    "ID": "meg.slot.glow",
+    "Text": "Glow"
+  },
+  {
+    "ID": "meg.slot.lens",
+    "Text": "Lens"
+  },
+  {
+    "ID": "meg.slot.battery",
+    "Text": "Battery"
+  },
+  {
+    "ID": "meg.slot.capacitor",
+    "Text": "Capacitor"
+  },
+  {
+    "ID": "meg.upgradeInfo",
+    "Text": "Your MEG tool can be equipped with a Lens which upgrades your mining ability, a Battery for your total energy storage, and a Capacitor for usable energy. It can also be upgraded with beautiful gems!"
+  },
+  {
+    "ID": "meg.journalTitle",
+    "Text": "-AGIS Assisted Journal-"
+  },
+  {
+    "ID": "item.enterLabelPrompt",
+    "Text": "Enter the label you would like to use."
+  },
+  {
+    "ID": "item.stat.damageRange",
+    "Text": "Damage: {0} - {1}"
+  },
+  {
+    "ID": "item.stat.handlingPercent",
+    "Text": "Handling: {0}%"
+  },
+  {
+    "ID": "item.stat.recoilPercent",
+    "Text": "Recoil: {0}%"
+  },
+  {
+    "ID": "item.stat.ammoDamageRange",
+    "Text": "Ammo Damage: {0} - {1}"
+  },
+  {
+    "ID": "item.stat.ammoAp",
+    "Text": "Ammo AP: {0}"
+  },
+  {
+    "ID": "item.stat.power",
+    "Text": "Power: {0}"
+  },
+  {
+    "ID": "item.stat.reloadSpeed",
+    "Text": "Reload Speed: {0}"
+  },
+  {
+    "ID": "item.stat.spread",
+    "Text": "Spread: {0}"
+  },
+  {
+    "ID": "item.stat.ammoBaseDamageParenthesized",
+    "Text": "Ammo Base Damage: ({0} - {1})"
+  },
+  {
+    "ID": "item.stat.ammoSpeedModifier",
+    "Text": "Ammo Speed Modifier: {0}"
+  },
+  {
+    "ID": "item.stat.ammoBreakChance",
+    "Text": "Ammo Break Chance: {0}%"
+  },
+  {
+    "ID": "item.stat.attackSpeed",
+    "Text": "Attack Speed: {0}"
+  },
+  {
+    "ID": "item.stat.maxProjectiles",
+    "Text": "Max Projectiles: {0}"
+  },
+  {
+    "ID": "item.stat.ammoDamageParenthesized",
+    "Text": "Ammo Damage: ({0} - {1})"
+  },
+  {
+    "ID": "item.stat.arrowDamageType",
+    "Text": "Arrow Damage Type: {0}"
+  },
+  {
+    "ID": "item.stat.arrowDamageParenthesized",
+    "Text": "Arrow Damage: ({0} - {1})"
+  },
+  {
+    "ID": "item.stat.arrowAp",
+    "Text": "Arrow AP: {0}"
+  },
+  {
+    "ID": "item.stat.arrowSpeedModifier",
+    "Text": "Arrow Speed Modifier: {0}"
+  },
+  {
+    "ID": "item.stat.arrowBreakChance",
+    "Text": "Arrow Break Chance: {0}%"
+  },
+  {
+    "ID": "item.stat.ammoDamageType",
+    "Text": "Ammo Damage Type: {0}"
+  },
+  {
+    "ID": "item.stat.blockingReduction",
+    "Text": "{0}% Blocking Reduction"
+  },
+  {
+    "ID": "item.stat.encumbranceLine",
+    "Text": "\n{0} Encumbrance"
+  },
+  {
+    "ID": "item.modifications",
+    "Text": "Modifications:"
+  },
+  {
+    "ID": "item.alienWriting.unknownLanguage",
+    "Text": "\n\nThere appears to be some kind of alien writing etched into the item, but we have no knowledge of how to interpret their language."
+  },
+  {
+    "ID": "item.alienWriting.noWords",
+    "Text": "\n\nThere is alien writing etched into the item, but we still don't know enough about the language to translate any of it."
+  },
+  {
+    "ID": "item.alienWriting.someWords",
+    "Text": "\n\nThere is alien writing etched into the item, and we have learned enough of their language to understand bits and pieces. I have translated some of it:"
+  },
+  {
+    "ID": "item.alienWriting.mostWords",
+    "Text": "\n\nThere is alien writing etched into the item, and we have learned enough of their language to translate most of it:"
+  },
+  {
+    "ID": "item.alienWriting.allWords",
+    "Text": "\n\nThere is alien writing etched into the item. I have been able to fully translate it:"
+  },
+  {
+    "ID": "item.alienWriting.translation",
+    "Text": "\n\n\"{0}\""
+  },
+  {
+    "ID": "glyph.translationPrefix",
+    "Text": "Translation: {0}"
+  },
+  {
+    "ID": "consumable.fullnessRequired",
+    "Text": "Fullness Required {0}%"
+  },
+  {
+    "ID": "consumable.fullnessRemaining",
+    "Text": "Fullness Remaining {0}%"
+  },
+  {
+    "ID": "credits.additionalProgramming",
+    "Text": "-Additional Programming-"
+  },
+  {
+    "ID": "credits.music",
+    "Text": "-Music-"
+  },
+  {
+    "ID": "credits.additionalSoundFx",
+    "Text": "-Additional Sound FX-"
+  },
+  {
+    "ID": "credits.specialThanks",
+    "Text": "-Special Thanks-"
+  },
+  {
+    "ID": "credits.extraSpecialThanks",
+    "Text": "-Extra Special Thanks-"
+  },
+  {
+    "ID": "credits.earlyAccessPlayers",
+    "Text": "All of our Early Access players,"
+  },
+  {
+    "ID": "credits.families",
+    "Text": "Our families, for their support along the way."
+  },
+  {
+    "ID": "cybernetics.install",
+    "Text": "Install"
+  },
+  {
+    "ID": "cybernetics.title",
+    "Text": "Cybernetics"
+  },
+  {
+    "ID": "station.brickOven",
+    "Text": "Brick Oven"
+  },
+  {
+    "ID": "station.blastFurnace",
+    "Text": "Blast Furnace"
+  },
+  {
+    "ID": "menu.help",
+    "Text": "Help"
+  },
+  {
+    "ID": "station.dyePigments",
+    "Text": "Dye Pigments"
+  },
+  {
+    "ID": "station.draftFurnace",
+    "Text": "Draft Furnace"
+  },
+  {
+    "ID": "station.chemistryLab",
+    "Text": "Chemistry Lab"
+  },
+  {
+    "ID": "station.ironStove",
+    "Text": "Iron Stove"
+  },
+  {
+    "ID": "station.inductionFurnace",
+    "Text": "Induction Furnace"
+  },
+  {
+    "ID": "station.kitchenette",
+    "Text": "Kitchenette"
+  },
+  {
+    "ID": "station.portableIronGrill",
+    "Text": "Portable Iron Grill"
+  },
+  {
+    "ID": "station.portableElectricGrill",
+    "Text": "Portable Electric Grill"
+  },
+  {
+    "ID": "station.fire",
+    "Text": "Fire"
+  },
+  {
+    "ID": "world.delete",
+    "Text": "Delete"
+  },
+  {
+    "ID": "world.load",
+    "Text": "Load"
+  },
+  {
+    "ID": "mp.join",
+    "Text": "Join"
+  },
+  {
+    "ID": "mp.version",
+    "Text": "Version: {0}"
+  },
+  {
+    "ID": "mp.ping",
+    "Text": "Ping: {0}"
+  },
+  {
+    "ID": "mp.players",
+    "Text": "Players: {0}"
+  },
+  {
+    "ID": "mp.pingRetrieving",
+    "Text": "Ping: Retrieving..."
+  },
+  {
+    "ID": "mp.playersRetrieving",
+    "Text": "Players: Retrieving..."
+  },
+  {
+    "ID": "world.deleteConfirm",
+    "Text": "Are you sure you want to delete the map named \"{0}\"?"
+  },
+  {
+    "ID": "inventory.searchPrompt",
+    "Text": "What would you like to search for?"
+  },
+  {
+    "ID": "datapad.discardConfirm",
+    "Text": "Discard unsaved datapad changes?"
+  },
+  {
+    "ID": "network.localServerWarning",
+    "Text": "Warning: we were unable to connect to the local server, you might want to try temporarily disabling any anti-virus or firewall software you are using to see if this message stops popping up. The game might run fine anyway, but let us know if you have problems."
+  },
+  {
+    "ID": "network.joinNeedsCharacter",
+    "Text": "You must have a character in order to join a friend's game."
+  },
+  {
+    "ID": "network.friendVersionMismatch",
+    "Text": "Your friend is not using the same version as you and so you were unable to connect."
+  },
+  {
+    "ID": "network.friendInIntro",
+    "Text": "You cannot join your friend until they finish the introduction map."
+  },
+  {
+    "ID": "network.joiningFriend",
+    "Text": "Joining your friend's game."
+  },
+  {
+    "ID": "network.friendDeniedJoin",
+    "Text": "Your friend denied your request to join their game."
+  },
+  {
+    "ID": "network.joinRequestTimeout",
+    "Text": "Player join request timed out."
+  },
+  {
+    "ID": "network.friendJoinRequest",
+    "Text": "{0} would like to join your game."
+  },
+  {
+    "ID": "settings.hardwareCursorEnabled",
+    "Text": "Hardware Cursor Enabled at 1x Game Scale. Scaled modes use the software cursor."
+  },
+  {
+    "ID": "settings.hardwareCursorDisabled",
+    "Text": "Hardware Cursor Disabled, May require restart."
+  },
+  {
+    "ID": "workshop.uploadConfirm",
+    "Text": "Are you sure you want to upload the selected data for the Steam Workshop mod \"{0}\"?"
+  },
+  {
+    "ID": "mods.updateConfirm",
+    "Text": "Update the Steam Workshop mod \"{0}\"?\n\nThis replaces that mod for everyone who subscribed. Use the staged package \"{1}\"."
+  },
+  {
+    "ID": "mods.deleteWorkshopConfirm",
+    "Text": "Delete \"{0}\" from the Steam Workshop?\n\nThis permanently removes the Workshop item for everyone — it is not just uninstalling it from your game. This cannot be undone."
+  },
+  {
+    "ID": "item.meleeDamage",
+    "Text": "DMG: {0}"
+  },
+  {
+    "ID": "item.meleeAttackSpeed",
+    "Text": "ATK SPD: {0}"
+  },
+  {
+    "ID": "world.moon",
+    "Text": "Moon"
+  },
+  {
+    "ID": "world.packWorld",
+    "Text": "Pack World"
+  },
+  {
+    "ID": "world.smallDeep",
+    "Text": "Small Deep"
+  },
+  {
+    "ID": "world.lastModifiedUnknown",
+    "Text": "Last modified: unknown"
+  },
+  {
+    "ID": "world.lastModified",
+    "Text": "Last modified: {0}"
+  },
+  {
+    "ID": "datapad.saved",
+    "Text": "Saved"
+  },
+  {
+    "ID": "datapad.saving",
+    "Text": "Saving..."
+  },
+  {
+    "ID": "datapad.editRejected",
+    "Text": "Edit rejected"
+  },
+  {
+    "ID": "grinder.fuel",
+    "Text": "FUEL"
+  },
+  {
+    "ID": "grinder.blade",
+    "Text": "BLADE"
+  },
+  {
+    "ID": "tinker.item",
+    "Text": "Item"
+  },
+  {
+    "ID": "tinker.accuracy",
+    "Text": "Accuracy"
+  },
+  {
+    "ID": "tinker.damage",
+    "Text": "Damage"
+  },
+  {
+    "ID": "tinker.fireRate",
+    "Text": "Fire Rate"
+  },
+  {
+    "ID": "tinker.undefined",
+    "Text": "UNDEFINED"
+  },
+  {
+    "ID": "radial.selectItemToEquip",
+    "Text": "Select Item To Equip"
+  },
+  {
+    "ID": "mods.packageSummaryOne",
+    "Text": "{0} file, {1} MB"
+  },
+  {
+    "ID": "mods.packageSummaryMany",
+    "Text": "{0} files, {1} MB"
+  },
+  {
+    "ID": "mods.packageSummaryUnavailable",
+    "Text": "unable to read package summary"
+  },
+  {
+    "ID": "mods.subscriptionReloadError",
+    "Text": "Workshop subscription changed, but active mod content could not be reloaded: {0}"
+  },
+  {
+    "ID": "workshop.shortDescriptionPrefix",
+    "Text": "Short Description: {0}"
+  },
+  {
+    "ID": "workshop.descriptionPrefix",
+    "Text": "Description: {0}"
+  },
+  {
+    "ID": "prefab.fcSlot",
+    "Text": "FC"
+  },
+  {
+    "ID": "mods.statusVanilla",
+    "Text": "Status: Loaded this session (vanilla — always enabled)"
+  },
+  {
+    "ID": "mods.statusMarkedDisabled",
+    "Text": "Status: Loaded this session — marked disabled (Disable reloads content to unload)"
+  },
+  {
+    "ID": "mods.statusDisabled",
+    "Text": "Status: Disabled — won't load on next launch or Load Now"
+  },
+  {
+    "ID": "mods.statusPendingLoadNow",
+    "Text": "Status: Pending — use Load Now (or restart) to merge into this session"
+  },
+  {
+    "ID": "mods.statusPendingDownload",
+    "Text": "Status: Pending (waiting for download/install)"
+  },
+  {
+    "ID": "mods.statusLoaded",
+    "Text": "Status: Loaded this session"
+  },
+  {
+    "ID": "mods.safetyNote",
+    "Text": "\nNote: Enabled mods can change your world and inventories. Lua runs in a sandbox (no OS file/process access)."
+  },
+  {
+    "ID": "mods.browserDescription",
+    "Text": "\nDescription: {0}"
+  },
+  {
+    "ID": "mods.disabledAndReloaded",
+    "Text": "Disabled '{0}' and reloaded content — it is no longer active this session."
+  },
+  {
+    "ID": "mods.disabledReloadFailed",
+    "Text": "Disabled '{0}' for next launch, but reload failed: {1}"
+  },
+  {
+    "ID": "mods.disabledNextLaunch",
+    "Text": "Disabled '{0}' — it will not load on the next launch (or Load Now)."
+  },
+  {
+    "ID": "mods.enabledAndLoaded",
+    "Text": "Enabled '{0}' and loaded it into this session."
+  },
+  {
+    "ID": "mods.enabledLoadFailed",
+    "Text": "Enabled '{0}' for next launch, but it could not load this session."
+  },
+  {
+    "ID": "mods.enabledNextLaunchMultiplayer",
+    "Text": "Enabled '{0}' for next launch. Load Now is blocked during multiplayer."
+  },
+  {
+    "ID": "mods.enabledNextLaunch",
+    "Text": "Enabled '{0}' for next launch."
+  },
+  {
+    "ID": "artifact.spellbox",
+    "Text": "SPELLBOX"
+  },
+  {
+    "ID": "category.unknown",
+    "Text": "UNKNOWN"
+  },
+  {
+    "ID": "workshop.upload",
+    "Text": "Upload to Workshop"
+  },
+  {
+    "ID": "workshop.uploadData",
+    "Text": "Upload Data"
+  },
+  {
+    "ID": "skill.moreInfo",
+    "Text": "More Info"
+  },
+  {
+    "ID": "dialogue.end",
+    "Text": "END"
+  },
+  {
+    "ID": "craft.tool",
+    "Text": "Tool ({0})"
+  },
+  {
+    "ID": "crew.ops.activity.clay",
+    "Text": "Clay Digging"
+  },
+  {
+    "ID": "crew.ops.activity.fruit",
+    "Text": "Fruit foraging"
+  },
+  {
+    "ID": "crew.ops.activity.fungi",
+    "Text": "Fungi foraging"
+  },
+  {
+    "ID": "crew.ops.activity.healing",
+    "Text": "Healing"
+  },
+  {
+    "ID": "crew.ops.activity.hunting",
+    "Text": "Hunting"
+  },
+  {
+    "ID": "crew.ops.activity.mining",
+    "Text": "Basic mining"
+  },
+  {
+    "ID": "crew.ops.activity.nuts",
+    "Text": "Nut foraging"
+  },
+  {
+    "ID": "crew.ops.activity.wood",
+    "Text": "Wood gathering"
+  },
+  {
+    "ID": "crew.ops.back",
+    "Text": "Back"
+  },
+  {
+    "ID": "crew.ops.behavior.assign",
+    "Text": "Assign jobs on the Production page."
+  },
+  {
+    "ID": "crew.ops.behavior.defense",
+    "Text": "Defense"
+  },
+  {
+    "ID": "crew.ops.behavior.hostOnly",
+    "Text": "Only the host can change behavior."
+  },
+  {
+    "ID": "crew.ops.behavior.outings",
+    "Text": "Crew outings are enabled."
+  },
+  {
+    "ID": "crew.ops.behavior.production",
+    "Text": "Resource production continues during recall."
+  },
+  {
+    "ID": "crew.ops.behavior.recallCrew",
+    "Text": "Recall crew"
+  },
+  {
+    "ID": "crew.ops.behavior.recalled",
+    "Text": "Crew are recalled to the landing pad."
+  },
+  {
+    "ID": "crew.ops.behavior.resumeOutings",
+    "Text": "Resume outings"
+  },
+  {
+    "ID": "crew.ops.behavior.returnDelay",
+    "Text": "Returns wait until unseen for five minutes."
+  },
+  {
+    "ID": "crew.ops.behavior.riskHelp",
+    "Text": "Controls how far crew intercept threats."
+  },
+  {
+    "ID": "crew.ops.details",
+    "Text": "Details"
+  },
+  {
+    "ID": "crew.ops.food.basic",
+    "Text": "Basic"
+  },
+  {
+    "ID": "crew.ops.food.basic.requirement",
+    "Text": "Cooks one simple ingredient."
+  },
+  {
+    "ID": "crew.ops.food.filling",
+    "Text": "Filling"
+  },
+  {
+    "ID": "crew.ops.food.filling.requirement",
+    "Text": "Cooks a two-ingredient glazed dish."
+  },
+  {
+    "ID": "crew.ops.food.meals",
+    "Text": "Meals"
+  },
+  {
+    "ID": "crew.ops.food.meals.requirement",
+    "Text": "Needs a Clay Plate plus toppings. Raw meat is cooked as it is plated."
+  },
+  {
+    "ID": "crew.ops.housing.header",
+    "Text": "Valid rooms: {0}, assigned {1}, unassigned {2}"
+  },
+  {
+    "ID": "crew.ops.next",
+    "Text": "Next"
+  },
+  {
+    "ID": "crew.ops.or",
+    "Text": " or "
+  },
+  {
+    "ID": "crew.ops.orders.add",
+    "Text": "Add order"
+  },
+  {
+    "ID": "crew.ops.orders.addThenAssign",
+    "Text": "Add an order, then assign workers."
+  },
+  {
+    "ID": "crew.ops.orders.assigned",
+    "Text": "Assigned: {0} | Available: {1}"
+  },
+  {
+    "ID": "crew.ops.orders.autoIngredients",
+    "Text": "Uses suitable ingredients automatically."
+  },
+  {
+    "ID": "crew.ops.orders.batchTime",
+    "Text": "5:00 worker time / batch"
+  },
+  {
+    "ID": "crew.ops.orders.chooseFood",
+    "Text": "Choose food type"
+  },
+  {
+    "ID": "crew.ops.orders.chooseRecipe",
+    "Text": "Choose recipe"
+  },
+  {
+    "ID": "crew.ops.orders.editRejected",
+    "Text": "Edit rejected. Reopen the order."
+  },
+  {
+    "ID": "crew.ops.orders.examples",
+    "Text": "Examples: {0}"
+  },
+  {
+    "ID": "crew.ops.orders.hostOnly",
+    "Text": "Only the host can edit orders."
+  },
+  {
+    "ID": "crew.ops.orders.ingredientHelp",
+    "Text": "Uses loose Pneumail ingredients. Orders run top to bottom."
+  },
+  {
+    "ID": "crew.ops.orders.keepPneumail",
+    "Text": "Keep in Pneumail:"
+  },
+  {
+    "ID": "crew.ops.orders.keepStock",
+    "Text": "Keep {0}; have {1}"
+  },
+  {
+    "ID": "crew.ops.orders.maintainStock",
+    "Text": "Maintain stock"
+  },
+  {
+    "ID": "crew.ops.orders.makeMore",
+    "Text": "Make more:"
+  },
+  {
+    "ID": "crew.ops.orders.makeQuantity",
+    "Text": "Make quantity"
+  },
+  {
+    "ID": "crew.ops.orders.makeRemaining",
+    "Text": "Make: {0} left"
+  },
+  {
+    "ID": "crew.ops.orders.manage",
+    "Text": "Manage"
+  },
+  {
+    "ID": "crew.ops.orders.matchingStock",
+    "Text": "Matching stock: {0}"
+  },
+  {
+    "ID": "crew.ops.orders.moveDown",
+    "Text": "Move down"
+  },
+  {
+    "ID": "crew.ops.orders.moveUp",
+    "Text": "Move up"
+  },
+  {
+    "ID": "crew.ops.orders.nextBatch",
+    "Text": "Next batch: {0}"
+  },
+  {
+    "ID": "crew.ops.orders.none",
+    "Text": "No orders."
+  },
+  {
+    "ID": "crew.ops.orders.ordered",
+    "Text": "Ordered. "
+  },
+  {
+    "ID": "crew.ops.orders.remove",
+    "Text": "Remove order"
+  },
+  {
+    "ID": "crew.ops.orders.removeWarning",
+    "Text": "Remove cancels unfinished work."
+  },
+  {
+    "ID": "crew.ops.orders.singleTitle",
+    "Text": "{0} order"
+  },
+  {
+    "ID": "crew.ops.orders.title",
+    "Text": "{0} orders"
+  },
+  {
+    "ID": "crew.ops.pause",
+    "Text": "Pause"
+  },
+  {
+    "ID": "crew.ops.previous",
+    "Text": "Previous"
+  },
+  {
+    "ID": "crew.ops.production.assignedWorkers",
+    "Text": "Assigned workers: {0}"
+  },
+  {
+    "ID": "crew.ops.production.assignHelp",
+    "Text": "Use - / + to assign workers."
+  },
+  {
+    "ID": "crew.ops.production.atPost",
+    "Text": "At post: {0} / {1}"
+  },
+  {
+    "ID": "crew.ops.production.bowls",
+    "Text": "Bowls"
+  },
+  {
+    "ID": "crew.ops.production.counts",
+    "Text": "Crew: {0}   Assigned: {1}   Available: {2}"
+  },
+  {
+    "ID": "crew.ops.production.guardBlocked",
+    "Text": "Blocked travel waits until unseen for 5 minutes."
+  },
+  {
+    "ID": "crew.ops.production.guardDefends",
+    "Text": "Defends the area; stays near the post."
+  },
+  {
+    "ID": "crew.ops.production.guardFacility",
+    "Text": "Stays near a nearby table or window with two chairs."
+  },
+  {
+    "ID": "crew.ops.production.guardRecalled",
+    "Text": "Recalled to the landing pad."
+  },
+  {
+    "ID": "crew.ops.production.hostOnly",
+    "Text": "Only the host can assign workers."
+  },
+  {
+    "ID": "crew.ops.production.nextPoint",
+    "Text": "Next gathering point"
+  },
+  {
+    "ID": "crew.ops.production.pausedIngredients",
+    "Text": "Paused: needs ingredients"
+  },
+  {
+    "ID": "crew.ops.production.pausedNoWorkers",
+    "Text": "Paused: no workers assigned"
+  },
+  {
+    "ID": "crew.ops.production.plates",
+    "Text": "Plates"
+  },
+  {
+    "ID": "crew.ops.production.range",
+    "Text": "{0}-{1} of {2}"
+  },
+  {
+    "ID": "crew.ops.resume",
+    "Text": "Resume"
+  },
+  {
+    "ID": "crew.ops.roomHelp.background",
+    "Text": "Rooms must have a solid background"
+  },
+  {
+    "ID": "crew.ops.roomHelp.bed",
+    "Text": "Bed"
+  },
+  {
+    "ID": "crew.ops.roomHelp.contents",
+    "Text": "Must include a bed, a door (or hatch), and some form of lighting"
+  },
+  {
+    "ID": "crew.ops.roomHelp.diagramBackground",
+    "Text": "Background"
+  },
+  {
+    "ID": "crew.ops.roomHelp.diagramPage",
+    "Text": "2 / 2 - Room diagram"
+  },
+  {
+    "ID": "crew.ops.roomHelp.door",
+    "Text": "Door"
+  },
+  {
+    "ID": "crew.ops.roomHelp.eightTiles",
+    "Text": "8 tiles"
+  },
+  {
+    "ID": "crew.ops.roomHelp.fourTiles",
+    "Text": "4 tiles"
+  },
+  {
+    "ID": "crew.ops.roomHelp.light",
+    "Text": "Light"
+  },
+  {
+    "ID": "crew.ops.roomHelp.max",
+    "Text": "Max size is 32 by 16"
+  },
+  {
+    "ID": "crew.ops.roomHelp.requirementsPage",
+    "Text": "1 / 2 - Requirements"
+  },
+  {
+    "ID": "crew.ops.roomHelp.size",
+    "Text": "Rooms must be at least 8 tiles wide and 4 tiles tall"
+  },
+  {
+    "ID": "crew.ops.save",
+    "Text": "Save"
+  },
+  {
+    "ID": "crew.ops.station.title",
+    "Text": "Station status"
+  },
+  {
+    "ID": "crew.ops.station.unavailable",
+    "Text": "Unable to connect to the Hephaestus."
+  },
+  {
+    "ID": "crew.ops.station.warning",
+    "Text": "WARNING: CONNECTION UNAVAILABLE"
+  },
+  {
+    "ID": "crew.ops.status.complete",
+    "Text": "Complete"
+  },
+  {
+    "ID": "crew.ops.status.cooking",
+    "Text": "Cooking"
+  },
+  {
+    "ID": "crew.ops.status.cookingProgress",
+    "Text": "Cooking: {0}"
+  },
+  {
+    "ID": "crew.ops.status.delivery",
+    "Text": "Awaiting delivery"
+  },
+  {
+    "ID": "crew.ops.status.ingredients",
+    "Text": "Waiting for ingredients"
+  },
+  {
+    "ID": "crew.ops.status.noWorkers",
+    "Text": "Assign workers to start"
+  },
+  {
+    "ID": "crew.ops.status.paused",
+    "Text": "Paused"
+  },
+  {
+    "ID": "crew.ops.status.producing",
+    "Text": "Producing: {0}"
+  },
+  {
+    "ID": "crew.ops.status.queued",
+    "Text": "Queued"
+  },
+  {
+    "ID": "crew.ops.status.target",
+    "Text": "Target reached"
+  },
+  {
+    "ID": "crew.ops.status.unavailable",
+    "Text": "Recipe unavailable"
+  },
+  {
+    "ID": "crew.ops.status.working",
+    "Text": "Working"
+  },
+  {
+    "ID": "crew.ops.status.workingProgress",
+    "Text": "Working: {0}"
+  },
+  {
+    "ID": "crew.ops.summary.awaiting",
+    "Text": "Awaiting delivery: {0} batches"
+  },
+  {
+    "ID": "crew.ops.summary.deliveries",
+    "Text": "Latest deliveries to Pneumail (per job):"
+  },
+  {
+    "ID": "crew.ops.summary.medics",
+    "Text": "Medic service: {0} assigned; nearby, out of combat"
+  },
+  {
+    "ID": "crew.ops.summary.noDeliveries",
+    "Text": "No deliveries recorded yet."
+  },
+  {
+    "ID": "crew.ops.summary.noMedics",
+    "Text": "Medic service: no medics assigned"
+  },
+  {
+    "ID": "crew.ops.summary.producing",
+    "Text": "Producing supplies: {0} workers"
+  },
+  {
+    "ID": "crew.ops.summary.workers",
+    "Text": "Workers: {0} available / {1} crew"
+  },
+  {
+    "ID": "crew.ops.tab.behavior",
+    "Text": "Behavior"
+  },
+  {
+    "ID": "crew.ops.tab.production",
+    "Text": "Production"
+  },
+  {
+    "ID": "crew.ops.tab.summary",
+    "Text": "Summary"
+  },
+  {
+    "ID": "crew.ops.thaw.confirm",
+    "Text": "Confirm thaw"
+  },
+  {
+    "ID": "crew.ops.thaw.currentCrew",
+    "Text": "Current crew: {0}"
+  },
+  {
+    "ID": "crew.ops.thaw.pending",
+    "Text": "Thaw request pending..."
+  },
+  {
+    "ID": "crew.ops.thaw.requiredRooms",
+    "Text": "Rooms required after thaw: {0}"
+  },
+  {
+    "ID": "crew.ops.thaw.roomRequirements",
+    "Text": "Room requirements"
+  },
+  {
+    "ID": "crew.ops.thaw.success",
+    "Text": "Crew member thawed"
+  },
+  {
+    "ID": "crew.ops.thaw.validRooms",
+    "Text": "Valid rooms: {0}"
+  },
+  {
+    "ID": "crew.ops.thaw.viewCrew",
+    "Text": "View crew"
+  },
+  {
+    "ID": "crew.ops.thawCrew",
+    "Text": "Thaw crew"
+  },
+  {
+    "ID": "crew.ops.waitingForHost",
+    "Text": "Waiting for host information..."
+  },
+  {
+    "ID": "crew.ops.summary.salad",
+    "Text": "{0} salad"
+  },
+  {
+    "ID": "crew.ops.summary.salads",
+    "Text": "{0} salads"
+  },
+  {
+    "ID": "crew.ops.summary.plate",
+    "Text": "{0} clay plate"
+  },
+  {
+    "ID": "crew.ops.summary.plates",
+    "Text": "{0} clay plates"
+  },
+  {
+    "ID": "crew.ops.summary.bowl",
+    "Text": "{0} clay bowl"
+  },
+  {
+    "ID": "crew.ops.summary.bowls",
+    "Text": "{0} clay bowls"
+  },
+  {
+    "ID": "crew.ops.summary.ingot",
+    "Text": "{0} ingot"
+  },
+  {
+    "ID": "crew.ops.summary.ingots",
+    "Text": "{0} ingots"
+  },
+  {
+    "ID": "crew.ops.job.PlantGathering",
+    "Text": "Plant gathering"
+  },
+  {
+    "ID": "crew.ops.job.Hunting",
+    "Text": "Hunting"
+  },
+  {
+    "ID": "crew.ops.job.WoodGathering",
+    "Text": "Wood gathering"
+  },
+  {
+    "ID": "crew.ops.job.Foraging",
+    "Text": "Fruit foraging"
+  },
+  {
+    "ID": "crew.ops.job.FungiForaging",
+    "Text": "Fungi foraging"
+  },
+  {
+    "ID": "crew.ops.job.NutForaging",
+    "Text": "Nut foraging"
+  },
+  {
+    "ID": "crew.ops.job.BasicMining",
+    "Text": "Basic mining"
+  },
+  {
+    "ID": "crew.ops.job.ClayDigging",
+    "Text": "Clay Digging"
+  },
+  {
+    "ID": "crew.ops.job.Cooking",
+    "Text": "Cooking"
+  },
+  {
+    "ID": "crew.ops.job.SaladPrep",
+    "Text": "Salad Prep"
+  },
+  {
+    "ID": "crew.ops.job.Pottery",
+    "Text": "Pottery"
+  },
+  {
+    "ID": "crew.ops.job.Processing",
+    "Text": "Workshop processing"
+  },
+  {
+    "ID": "crew.ops.job.Smelting",
+    "Text": "Smelting"
+  },
+  {
+    "ID": "crew.ops.job.Chemistry",
+    "Text": "Chemistry"
+  },
+  {
+    "ID": "crew.ops.job.Ammunition",
+    "Text": "Ammunition"
+  },
+  {
+    "ID": "crew.ops.job.Medic",
+    "Text": "Medic"
+  },
+  {
+    "ID": "crew.ops.job.Guard",
+    "Text": "Guard duty"
+  },
+  {
+    "ID": "crew.ops.job.description.PlantGathering",
+    "Text": "Gathers Plant Fiber, Lettuce, and Corn over time."
+  },
+  {
+    "ID": "crew.ops.job.description.Hunting",
+    "Text": "Hunts Hide, Raw Red Meat, and Bone over time."
+  },
+  {
+    "ID": "crew.ops.job.description.WoodGathering",
+    "Text": "Gathers Wood Board and Sap over time."
+  },
+  {
+    "ID": "crew.ops.job.description.Foraging",
+    "Text": "Gathers {0}s over time."
+  },
+  {
+    "ID": "crew.ops.job.description.FungiForaging",
+    "Text": "Gathers {0}s over time."
+  },
+  {
+    "ID": "crew.ops.job.description.NutForaging",
+    "Text": "Gathers {0}s over time."
+  },
+  {
+    "ID": "crew.ops.job.description.BasicMining",
+    "Text": "Mines {0}s over time."
+  },
+  {
+    "ID": "crew.ops.job.description.ClayDigging",
+    "Text": "Digs Loose Clay over time."
+  },
+  {
+    "ID": "crew.ops.job.description.SaladPrep",
+    "Text": "Makes salad from Clay Bowls and Lettuce."
+  },
+  {
+    "ID": "crew.ops.job.description.Pottery",
+    "Text": "Makes Clay Bowls from Loose Clay."
+  },
+  {
+    "ID": "crew.ops.job.description.Pottery.plates",
+    "Text": "Makes Clay Plates from Loose Clay."
+  },
+  {
+    "ID": "crew.ops.job.description.Processing",
+    "Text": "Turns Hide into Leather Straps."
+  },
+  {
+    "ID": "crew.ops.job.description.Smelting",
+    "Text": "Smelts copper, tin, iron, or lead ore into ingots."
+  },
+  {
+    "ID": "crew.ops.job.description.Medic",
+    "Text": "Heals nearby players out of combat."
+  },
+  {
+    "ID": "crew.ops.job.smeltingPreference",
+    "Text": "Prefers steel when iron and coal are both present."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.None",
+    "Text": "Ready to thaw."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.Unavailable",
+    "Text": "Waiting for host information..."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.WrongPlanet",
+    "Text": "Available on Osiris after arrival."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.CheckingRooms",
+    "Text": "Checking rooms..."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.MoreRooms",
+    "Text": "More valid rooms required."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.StaleRoster",
+    "Text": "Crew changed. Review and confirm again."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.ArrivalUnavailable",
+    "Text": "Arrival point unavailable."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.ArrivalBlocked",
+    "Text": "Clear space at the arrival pad."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.CannotInteract",
+    "Text": "Stand at the operations display."
+  },
+  {
+    "ID": "crew.ops.thaw.failure.Failed",
+    "Text": "Thaw failed. Please try again."
+  },
+  {
+    "ID": "creative.folder.group.armor",
+    "Text": "Armor"
+  },
+  {
+    "ID": "creative.folder.group.clothing",
+    "Text": "Clothing"
+  },
+  {
+    "ID": "creative.folder.group.accessories",
+    "Text": "Accessories"
+  },
+  {
+    "ID": "creative.folder.group.weapons",
+    "Text": "Weapons"
+  },
+  {
+    "ID": "creative.folder.group.ammo",
+    "Text": "Ammo"
+  },
+  {
+    "ID": "creative.folder.group.tools",
+    "Text": "Tools"
+  },
+  {
+    "ID": "creative.folder.group.gadgets",
+    "Text": "Gadgets"
+  },
+  {
+    "ID": "creative.folder.group.throwables",
+    "Text": "Throwables"
+  },
+  {
+    "ID": "creative.folder.group.consumables",
+    "Text": "Consumables"
+  },
+  {
+    "ID": "creative.folder.group.materials",
+    "Text": "Materials"
+  },
+  {
+    "ID": "creative.folder.group.furniture",
+    "Text": "Furniture"
+  },
+  {
+    "ID": "creative.folder.group.placeables",
+    "Text": "Placeables"
+  },
+  {
+    "ID": "creative.folder.group.tiles",
+    "Text": "Tiles"
+  },
+  {
+    "ID": "creative.folder.group.containers",
+    "Text": "Containers"
+  },
+  {
+    "ID": "creative.folder.group.equipment",
+    "Text": "Equipment"
+  },
+  {
+    "ID": "creative.folder.group.recipes",
+    "Text": "Recipes"
+  },
+  {
+    "ID": "creative.folder.group.other",
+    "Text": "Other"
+  },
+  {
+    "ID": "creative.folder.segment.accessories",
+    "Text": "Accessories"
+  },
+  {
+    "ID": "creative.folder.segment.accessory",
+    "Text": "Accessory"
+  },
+  {
+    "ID": "creative.folder.segment.accessory1",
+    "Text": "Accessory1"
+  },
+  {
+    "ID": "creative.folder.segment.accessory2",
+    "Text": "Accessory2"
+  },
+  {
+    "ID": "creative.folder.segment.accessory3",
+    "Text": "Accessory3"
+  },
+  {
+    "ID": "creative.folder.segment.accessory4",
+    "Text": "Accessory4"
+  },
+  {
+    "ID": "creative.folder.segment.accessory5",
+    "Text": "Accessory5"
+  },
+  {
+    "ID": "creative.folder.segment.alien",
+    "Text": "Alien"
+  },
+  {
+    "ID": "creative.folder.segment.ammo",
+    "Text": "Ammo"
+  },
+  {
+    "ID": "creative.folder.segment.arm",
+    "Text": "Arm"
+  },
+  {
+    "ID": "creative.folder.segment.armor",
+    "Text": "Armor"
+  },
+  {
+    "ID": "creative.folder.segment.arrows",
+    "Text": "Arrows"
+  },
+  {
+    "ID": "creative.folder.segment.axes",
+    "Text": "Axes"
+  },
+  {
+    "ID": "creative.folder.segment.back",
+    "Text": "Back"
+  },
+  {
+    "ID": "creative.folder.segment.background",
+    "Text": "Background"
+  },
+  {
+    "ID": "creative.folder.segment.belt",
+    "Text": "Belt"
+  },
+  {
+    "ID": "creative.folder.segment.bolts",
+    "Text": "Bolts"
+  },
+  {
+    "ID": "creative.folder.segment.bone_set",
+    "Text": "Bone Set"
+  },
+  {
+    "ID": "creative.folder.segment.boot",
+    "Text": "Boot"
+  },
+  {
+    "ID": "creative.folder.segment.bornite_set",
+    "Text": "Bornite Set"
+  },
+  {
+    "ID": "creative.folder.segment.bows",
+    "Text": "Bows"
+  },
+  {
+    "ID": "creative.folder.segment.bronze_set",
+    "Text": "Bronze Set"
+  },
+  {
+    "ID": "creative.folder.segment.cartridges",
+    "Text": "Cartridges"
+  },
+  {
+    "ID": "creative.folder.segment.chews",
+    "Text": "Chews"
+  },
+  {
+    "ID": "creative.folder.segment.clothing",
+    "Text": "Clothing"
+  },
+  {
+    "ID": "creative.folder.segment.clubs",
+    "Text": "Clubs"
+  },
+  {
+    "ID": "creative.folder.segment.components",
+    "Text": "Components"
+  },
+  {
+    "ID": "creative.folder.segment.consumables",
+    "Text": "Consumables"
+  },
+  {
+    "ID": "creative.folder.segment.containers",
+    "Text": "Containers"
+  },
+  {
+    "ID": "creative.folder.segment.cooked",
+    "Text": "Cooked"
+  },
+  {
+    "ID": "creative.folder.segment.copper_set",
+    "Text": "Copper Set"
+  },
+  {
+    "ID": "creative.folder.segment.crossbows",
+    "Text": "Crossbows"
+  },
+  {
+    "ID": "creative.folder.segment.cybernetic_arms",
+    "Text": "Cybernetic Arms"
+  },
+  {
+    "ID": "creative.folder.segment.cybernetic_eyes",
+    "Text": "Cybernetic Eyes"
+  },
+  {
+    "ID": "creative.folder.segment.cybernetic_heart",
+    "Text": "Cybernetic Heart"
+  },
+  {
+    "ID": "creative.folder.segment.cybernetic_legs",
+    "Text": "Cybernetic Legs"
+  },
+  {
+    "ID": "creative.folder.segment.cybernetic_lungs",
+    "Text": "Cybernetic Lungs"
+  },
+  {
+    "ID": "creative.folder.segment.cybernetic_stomach",
+    "Text": "Cybernetic Stomach"
+  },
+  {
+    "ID": "creative.folder.segment.cybernetics",
+    "Text": "Cybernetics"
+  },
+  {
+    "ID": "creative.folder.segment.daggers",
+    "Text": "Daggers"
+  },
+  {
+    "ID": "creative.folder.segment.decorations",
+    "Text": "Decorations"
+  },
+  {
+    "ID": "creative.folder.segment.duglett",
+    "Text": "Duglett"
+  },
+  {
+    "ID": "creative.folder.segment.energy",
+    "Text": "Energy"
+  },
+  {
+    "ID": "creative.folder.segment.energy_plate_set",
+    "Text": "Energy Plate Set"
+  },
+  {
+    "ID": "creative.folder.segment.equipment",
+    "Text": "Equipment"
+  },
+  {
+    "ID": "creative.folder.segment.explosive",
+    "Text": "Explosive"
+  },
+  {
+    "ID": "creative.folder.segment.explosives",
+    "Text": "Explosives"
+  },
+  {
+    "ID": "creative.folder.segment.fauna",
+    "Text": "Fauna"
+  },
+  {
+    "ID": "creative.folder.segment.fireworks",
+    "Text": "Fireworks"
+  },
+  {
+    "ID": "creative.folder.segment.foreground",
+    "Text": "Foreground"
+  },
+  {
+    "ID": "creative.folder.segment.fungi",
+    "Text": "Fungi"
+  },
+  {
+    "ID": "creative.folder.segment.furniture",
+    "Text": "Furniture"
+  },
+  {
+    "ID": "creative.folder.segment.gadgets",
+    "Text": "Gadgets"
+  },
+  {
+    "ID": "creative.folder.segment.gems",
+    "Text": "Gems"
+  },
+  {
+    "ID": "creative.folder.segment.ghost_hide_set",
+    "Text": "Ghost Hide Set"
+  },
+  {
+    "ID": "creative.folder.segment.glove",
+    "Text": "Glove"
+  },
+  {
+    "ID": "creative.folder.segment.greatswords",
+    "Text": "Greatswords"
+  },
+  {
+    "ID": "creative.folder.segment.guns",
+    "Text": "Guns"
+  },
+  {
+    "ID": "creative.folder.segment.hahn_s_set",
+    "Text": "Hahn's Set"
+  },
+  {
+    "ID": "creative.folder.segment.hat",
+    "Text": "Hat"
+  },
+  {
+    "ID": "creative.folder.segment.heavy",
+    "Text": "Heavy"
+  },
+  {
+    "ID": "creative.folder.segment.helmet",
+    "Text": "Helmet"
+  },
+  {
+    "ID": "creative.folder.segment.hephaestus_mining_set",
+    "Text": "Hephaestus Mining Set"
+  },
+  {
+    "ID": "creative.folder.segment.hephaestus_work_set",
+    "Text": "Hephaestus Work Set"
+  },
+  {
+    "ID": "creative.folder.segment.hybrid_set",
+    "Text": "Hybrid Set"
+  },
+  {
+    "ID": "creative.folder.segment.ingots",
+    "Text": "Ingots"
+  },
+  {
+    "ID": "creative.folder.segment.iron_set",
+    "Text": "Iron Set"
+  },
+  {
+    "ID": "creative.folder.segment.launchers",
+    "Text": "Launchers"
+  },
+  {
+    "ID": "creative.folder.segment.leaper_set",
+    "Text": "Leaper Set"
+  },
+  {
+    "ID": "creative.folder.segment.leather_set",
+    "Text": "Leather Set"
+  },
+  {
+    "ID": "creative.folder.segment.leg",
+    "Text": "Leg"
+  },
+  {
+    "ID": "creative.folder.segment.makeshift",
+    "Text": "Makeshift"
+  },
+  {
+    "ID": "creative.folder.segment.materials",
+    "Text": "Materials"
+  },
+  {
+    "ID": "creative.folder.segment.meat",
+    "Text": "Meat"
+  },
+  {
+    "ID": "creative.folder.segment.medical",
+    "Text": "Medical"
+  },
+  {
+    "ID": "creative.folder.segment.meg",
+    "Text": "MEG"
+  },
+  {
+    "ID": "creative.folder.segment.meg_accesscard",
+    "Text": "Meg Accesscard"
+  },
+  {
+    "ID": "creative.folder.segment.meg_battery",
+    "Text": "Meg Battery"
+  },
+  {
+    "ID": "creative.folder.segment.meg_capacitor",
+    "Text": "Meg Capacitor"
+  },
+  {
+    "ID": "creative.folder.segment.meg_core",
+    "Text": "Meg Core"
+  },
+  {
+    "ID": "creative.folder.segment.meg_extract_gem",
+    "Text": "Meg Extract Gem"
+  },
+  {
+    "ID": "creative.folder.segment.meg_grapple_gem",
+    "Text": "Meg Grapple Gem"
+  },
+  {
+    "ID": "creative.folder.segment.meg_illuminate_gem",
+    "Text": "Meg Illuminate Gem"
+  },
+  {
+    "ID": "creative.folder.segment.meg_lens",
+    "Text": "Meg Lens"
+  },
+  {
+    "ID": "creative.folder.segment.meg_manipulate_gem",
+    "Text": "Meg Manipulate Gem"
+  },
+  {
+    "ID": "creative.folder.segment.meg_mount",
+    "Text": "Meg Mount"
+  },
+  {
+    "ID": "creative.folder.segment.meg_scan_gem",
+    "Text": "Meg Scan Gem"
+  },
+  {
+    "ID": "creative.folder.segment.meg_scan_target",
+    "Text": "Meg Scan Target"
+  },
+  {
+    "ID": "creative.folder.segment.melee",
+    "Text": "Melee"
+  },
+  {
+    "ID": "creative.folder.segment.mining_suit_mk2_set",
+    "Text": "Mining Suit Mk2 Set"
+  },
+  {
+    "ID": "creative.folder.segment.misc",
+    "Text": "Misc"
+  },
+  {
+    "ID": "creative.folder.segment.nano_steel_set",
+    "Text": "Nano-Steel Set"
+  },
+  {
+    "ID": "creative.folder.segment.next_cybernetic_arms",
+    "Text": "Next Cybernetic Arms"
+  },
+  {
+    "ID": "creative.folder.segment.next_cybernetic_eyes",
+    "Text": "Next Cybernetic Eyes"
+  },
+  {
+    "ID": "creative.folder.segment.next_cybernetic_heart",
+    "Text": "Next Cybernetic Heart"
+  },
+  {
+    "ID": "creative.folder.segment.next_cybernetic_legs",
+    "Text": "Next Cybernetic Legs"
+  },
+  {
+    "ID": "creative.folder.segment.next_cybernetic_lungs",
+    "Text": "Next Cybernetic Lungs"
+  },
+  {
+    "ID": "creative.folder.segment.next_cybernetic_spleen",
+    "Text": "Next Cybernetic Spleen"
+  },
+  {
+    "ID": "creative.folder.segment.orange_jumpsuit_set",
+    "Text": "Orange Jumpsuit Set"
+  },
+  {
+    "ID": "creative.folder.segment.ores",
+    "Text": "Ores"
+  },
+  {
+    "ID": "creative.folder.segment.organic",
+    "Text": "Organic"
+  },
+  {
+    "ID": "creative.folder.segment.other",
+    "Text": "Other"
+  },
+  {
+    "ID": "creative.folder.segment.packaged",
+    "Text": "Packaged"
+  },
+  {
+    "ID": "creative.folder.segment.pants",
+    "Text": "Pants"
+  },
+  {
+    "ID": "creative.folder.segment.patchwork_set",
+    "Text": "Patchwork Set"
+  },
+  {
+    "ID": "creative.folder.segment.picks",
+    "Text": "Picks"
+  },
+  {
+    "ID": "creative.folder.segment.piezo_set",
+    "Text": "Piezo Set"
+  },
+  {
+    "ID": "creative.folder.segment.pioneer_station",
+    "Text": "Pioneer Station"
+  },
+  {
+    "ID": "creative.folder.segment.pistols",
+    "Text": "Pistols"
+  },
+  {
+    "ID": "creative.folder.segment.placeables",
+    "Text": "Placeables"
+  },
+  {
+    "ID": "creative.folder.segment.plants",
+    "Text": "Plants"
+  },
+  {
+    "ID": "creative.folder.segment.plated_hide_set",
+    "Text": "Plated Hide Set"
+  },
+  {
+    "ID": "creative.folder.segment.potions",
+    "Text": "Potions"
+  },
+  {
+    "ID": "creative.folder.segment.prototype_mining_suit_set",
+    "Text": "Prototype Mining Suit Set"
+  },
+  {
+    "ID": "creative.folder.segment.ranged",
+    "Text": "Ranged"
+  },
+  {
+    "ID": "creative.folder.segment.recipes",
+    "Text": "Recipes"
+  },
+  {
+    "ID": "creative.folder.segment.red_tracksuit_set",
+    "Text": "Red Tracksuit Set"
+  },
+  {
+    "ID": "creative.folder.segment.rifles",
+    "Text": "Rifles"
+  },
+  {
+    "ID": "creative.folder.segment.rock_set",
+    "Text": "Rock Set"
+  },
+  {
+    "ID": "creative.folder.segment.rubber_set",
+    "Text": "Rubber Set"
+  },
+  {
+    "ID": "creative.folder.segment.seeds",
+    "Text": "Seeds"
+  },
+  {
+    "ID": "creative.folder.segment.shells",
+    "Text": "Shells"
+  },
+  {
+    "ID": "creative.folder.segment.shield",
+    "Text": "Shield"
+  },
+  {
+    "ID": "creative.folder.segment.shields",
+    "Text": "Shields"
+  },
+  {
+    "ID": "creative.folder.segment.shirt",
+    "Text": "Shirt"
+  },
+  {
+    "ID": "creative.folder.segment.shoes",
+    "Text": "Shoes"
+  },
+  {
+    "ID": "creative.folder.segment.shotguns",
+    "Text": "Shotguns"
+  },
+  {
+    "ID": "creative.folder.segment.silver_set",
+    "Text": "Silver Set"
+  },
+  {
+    "ID": "creative.folder.segment.smgs",
+    "Text": "SMGs"
+  },
+  {
+    "ID": "creative.folder.segment.spaceflex_set",
+    "Text": "Spaceflex Set"
+  },
+  {
+    "ID": "creative.folder.segment.spears",
+    "Text": "Spears"
+  },
+  {
+    "ID": "creative.folder.segment.special",
+    "Text": "Special"
+  },
+  {
+    "ID": "creative.folder.segment.steel_combat_set",
+    "Text": "Steel Combat Set"
+  },
+  {
+    "ID": "creative.folder.segment.swords",
+    "Text": "Swords"
+  },
+  {
+    "ID": "creative.folder.segment.tech",
+    "Text": "Tech"
+  },
+  {
+    "ID": "creative.folder.segment.throwables",
+    "Text": "Throwables"
+  },
+  {
+    "ID": "creative.folder.segment.tiles",
+    "Text": "Tiles"
+  },
+  {
+    "ID": "creative.folder.segment.tin_set",
+    "Text": "Tin Set"
+  },
+  {
+    "ID": "creative.folder.segment.titanium_set",
+    "Text": "Titanium Set"
+  },
+  {
+    "ID": "creative.folder.segment.tools",
+    "Text": "Tools"
+  },
+  {
+    "ID": "creative.folder.segment.torso",
+    "Text": "Torso"
+  },
+  {
+    "ID": "creative.folder.segment.uncategorized",
+    "Text": "Uncategorized"
+  },
+  {
+    "ID": "creative.folder.segment.weapons",
+    "Text": "Weapons"
+  },
+  {
+    "ID": "creative.folder.segment.whips",
+    "Text": "Whips"
+  },
+  {
+    "ID": "creative.folder.segment.xenohide_set",
+    "Text": "Xenohide Set"
+  },
+  {
+    "ID": "creative.folder.tile.ant",
+    "Text": "ant"
+  },
+  {
+    "ID": "creative.folder.tile.asteroid",
+    "Text": "asteroid"
+  },
+  {
+    "ID": "creative.folder.tile.background",
+    "Text": "background"
+  },
+  {
+    "ID": "creative.folder.tile.brick",
+    "Text": "brick"
+  },
+  {
+    "ID": "creative.folder.tile.clay",
+    "Text": "clay"
+  },
+  {
+    "ID": "creative.folder.tile.crawler",
+    "Text": "crawler"
+  },
+  {
+    "ID": "creative.folder.tile.dirt",
+    "Text": "dirt"
+  },
+  {
+    "ID": "creative.folder.tile.duglette",
+    "Text": "duglette"
+  },
+  {
+    "ID": "creative.folder.tile.elevator",
+    "Text": "Elevator"
+  },
+  {
+    "ID": "creative.folder.tile.granite",
+    "Text": "granite"
+  },
+  {
+    "ID": "creative.folder.tile.hephaestus",
+    "Text": "hephaestus"
+  },
+  {
+    "ID": "creative.folder.tile.iron",
+    "Text": "iron"
+  },
+  {
+    "ID": "creative.folder.tile.limestone",
+    "Text": "limestone"
+  },
+  {
+    "ID": "creative.folder.tile.marble",
+    "Text": "marble"
+  },
+  {
+    "ID": "creative.folder.tile.meteorite",
+    "Text": "Meteorite"
+  },
+  {
+    "ID": "creative.folder.tile.misc",
+    "Text": "misc"
+  },
+  {
+    "ID": "creative.folder.tile.mud",
+    "Text": "mud"
+  },
+  {
+    "ID": "creative.folder.tile.mudbrick",
+    "Text": "mudbrick"
+  },
+  {
+    "ID": "creative.folder.tile.pioneer",
+    "Text": "pioneer"
+  },
+  {
+    "ID": "creative.folder.tile.quartzite",
+    "Text": "quartzite"
+  },
+  {
+    "ID": "creative.folder.tile.sand",
+    "Text": "sand"
+  },
+  {
+    "ID": "creative.folder.tile.slate",
+    "Text": "slate"
+  },
+  {
+    "ID": "creative.folder.tile.softwood",
+    "Text": "softwood"
+  },
+  {
+    "ID": "creative.folder.tile.steel",
+    "Text": "steel"
+  },
+  {
+    "ID": "creative.folder.tile.stone",
+    "Text": "stone"
+  },
+  {
+    "ID": "creative.folder.tile.system",
+    "Text": "system"
+  },
+  {
+    "ID": "creative.folder.tile.tech",
+    "Text": "tech"
+  },
+  {
+    "ID": "creative.folder.tile.thatch",
+    "Text": "thatch"
+  },
+  {
+    "ID": "creative.folder.tile.wood",
+    "Text": "wood"
+  },
+  {
+    "ID": "creative.folder.tile.xenite",
+    "Text": "xenite"
+  },
+  {
+    "ID": "creative.folder.tile.xeno",
+    "Text": "xeno"
+  },
+  {
+    "ID": "creative.folder.tile.xenoid_carrier",
+    "Text": "Xenoid Carrier"
+  },
+  {
+    "ID": "creative.folder.tile.xenostone",
+    "Text": "xenostone"
+  },
+  {
+    "ID": "creative.folder.tile.title_elevator",
+    "Text": "Elevator"
+  },
+  {
+    "ID": "creative.folder.tile.title_hephaestus",
+    "Text": "Hephaestus"
+  },
+  {
+    "ID": "creative.folder.tile.title_iron",
+    "Text": "Iron"
+  },
+  {
+    "ID": "creative.folder.tile.title_meteorite",
+    "Text": "Meteorite"
+  },
+  {
+    "ID": "creative.folder.tile.title_mud",
+    "Text": "Mud"
+  },
+  {
+    "ID": "creative.folder.tile.title_xenoid_carrier",
+    "Text": "Xenoid Carrier"
+  },
+  {
+    "ID": "crew.ops.status.unstaffed",
+    "Text": "Unstaffed"
+  },
+  {
+    "ID": "crew.ops.status.treatsPlayers",
+    "Text": "Treats nearby players"
+  },
+  {
+    "ID": "crew.ops.status.noOrders",
+    "Text": "No orders"
+  },
+  {
+    "ID": "crew.ops.status.needsIngredients",
+    "Text": "Needs ingredients"
   }
 ]

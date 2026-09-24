@@ -335,7 +335,8 @@
           "Effect": "MAXHEALTH",
           "EffectIntensity": 15
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "HAT_ASTEROID_MITE",
@@ -343,7 +344,8 @@
       "Description": "A hat composed of various internal organs and other organic material.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "BACKGLIDER",
@@ -351,7 +353,8 @@
       "Description": "The skin of the strange creature from which this item was crafted generates enough drag and lift to allow for a nice glide.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "HAT_BANDANA",
@@ -359,7 +362,8 @@
       "Description": "A hat made of cloth.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "ACC_ENEMY_VITALS_DISPLAY",
@@ -374,7 +378,8 @@
           "EffectIntensity": 1,
           "Description": "Displays enemy health in the world."
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "BIONIC_ARM",
@@ -388,7 +393,8 @@
           "Effect": "meleespeed",
           "EffectIntensity": 0.1
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "SHIRT_BLACK_LEATHER_JACKET",
@@ -396,7 +402,8 @@
       "Description": "A black leather jacket.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SHIRT_SPORTSBRA_BLACK",
@@ -404,7 +411,8 @@
       "Description": "A supportive garment.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SHIRT_TANKTOP_BLACK",
@@ -412,7 +420,8 @@
       "Description": "Most of a shirt.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "BLAZE_SANDALS",
@@ -420,7 +429,8 @@
       "Description": "Fancy",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "BROKEN_PROTOTYPE_MINING_SUIT_JUMPJET",
@@ -429,15 +439,17 @@
       "Description": "A broken prototype jumpjet. It appears that the Jumpjet Core has been forcibly removed, rendering the device useless.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "BROODPACK",
       "Name": "Broodpack",
-      "Description": "This highly advanced backpack deploys a defensive proximity mine when you crouch. It has a 5 second cooldown.",
+      "Description": "This highly advanced backpack deploys a defensive proximity mine when you crouch. It has a 5-second cooldown.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "SHIRT_BROWN_LEATHER_JACKET",
@@ -445,7 +457,8 @@
       "Description": "A leather jacket.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SALVE_BURN",
@@ -459,7 +472,8 @@
           "Effect": "resistfirepercent",
           "EffectIntensity": 0.25
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "HAT_CADET",
@@ -467,7 +481,8 @@
       "Description": "A striking hat.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HAT_CAP",
@@ -475,7 +490,8 @@
       "Description": "A great cap.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PANTS_CARGO",
@@ -483,7 +499,8 @@
       "Description": "Pants made almost entirely of cargo.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HAT_CONVICT",
@@ -491,7 +508,8 @@
       "Description": "This makes you look like a criminal.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SALVE_CORROSIVE",
@@ -505,7 +523,8 @@
           "Effect": "resistcorrosivepercent",
           "EffectIntensity": 0.25
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "CRAWLER_SPINE_BRACE",
@@ -519,7 +538,8 @@
           "Effect": "thorns",
           "EffectIntensity": 5
         }
-      ]
+      ],
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "ACC_DEFENSE_DRONE",
@@ -533,7 +553,8 @@
           "Effect": "DEFENSEDRONE",
           "EffectIntensity": 1
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "PANTS_DENIM",
@@ -541,7 +562,8 @@
       "Description": "Pants made almost entirely of denim.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "XENOID_DOUBLEJUMP_BACKPACK",
@@ -549,11 +571,12 @@
       "Description": "This device creates a blast of energy when you are in the air. Basically it lets you do a sweet double jump. It does not require energy to function.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "ACC_DRONE_TARGETTING_COPROCESSOR",
-      "Name": "Drone Targetting Coprocessor",
+      "Name": "Drone Targeting Coprocessor",
       "Description": "This device will speed up the firing rate of your defense drones by reducing the time to establish firing solutions.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
@@ -563,7 +586,8 @@
           "Effect": "DRONETARGETTINGCOPROCESSOR",
           "EffectIntensity": 1
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "ENERGY_GLOVE",
@@ -571,7 +595,8 @@
       "Description": "Grants the Energy Charge gadget ability. You love how good it is.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "ACC_XEN_ENTROPIC_VITALITY",
@@ -589,7 +614,8 @@
           "Effect": "MAXHEALTH",
           "EffectIntensity": -10
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "ACC_XEN_GRAVITY_MINIMIZER",
@@ -603,16 +629,18 @@
           "Effect": "GRAVITYMOD",
           "EffectIntensity": -0.2
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "HAHNS_PANTS",
       "Name": "Hahn's Pants",
       "Set": "Hahn's Set",
-      "Description": "Pants that are coverd in feathers for some reason.",
+      "Description": "Pants that are covered in feathers for some reason.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HAHNS_SHIRT",
@@ -621,7 +649,8 @@
       "Description": "A shirt covered in feathers for some reason.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HAHNS_SHOES",
@@ -630,7 +659,8 @@
       "Description": "Shoes that are covered in feathers for some reason.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HALLOWEEN_HOOD",
@@ -638,7 +668,8 @@
       "Description": "A spooky scary hood. It is hooked up to your wrist light somehow, we don't really know how.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HAT_HEADBAND",
@@ -646,7 +677,8 @@
       "Description": "Does not give you infinite ammo because it is not magic. Magic isn't real.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HEPH_WORK_PANTS",
@@ -655,7 +687,8 @@
       "Description": "Pants",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HEPH_WORK_SHIRT",
@@ -664,7 +697,8 @@
       "Description": "A shirt",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SHOES_HEPH_WORK",
@@ -673,7 +707,8 @@
       "Description": "A smart looking pair of work shoes.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HOCKEY_MASK",
@@ -681,7 +716,8 @@
       "Description": "A piece of protective hockey gear.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "AUG_IMPACT_COMPESATION_FOOT",
@@ -695,7 +731,8 @@
           "Effect": "falldamagemodifier",
           "EffectIntensity": 0.5
         }
-      ]
+      ],
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "ACC_IMPACT_SOLES",
@@ -709,7 +746,8 @@
           "Effect": "falldamagemodifier",
           "EffectIntensity": 0.5
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "SALVE_INFLUX",
@@ -723,7 +761,8 @@
           "Effect": "energyovertime",
           "EffectIntensity": 1
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "JACK_O_LANTERN_MASK",
@@ -731,7 +770,8 @@
       "Description": "A pumpkin carved into a face. That you can wear. For some reason. Lights up when you use your wrist laser somehow.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PANTS_JORTS",
@@ -739,7 +779,8 @@
       "Description": "Never take these off. Never.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "ACC_KINETIC_INDUCTOR",
@@ -753,7 +794,8 @@
           "Effect": "chargeonstep",
           "EffectIntensity": 2
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "LED_BACKPACK",
@@ -761,7 +803,8 @@
       "Description": "A combination ambient energy harvester and high efficiency LED lightbulb. It lights your surroundings with no power draw.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Back Equipment"
     },
     {
       "Name": "Large NIMH Battery",
@@ -783,7 +826,8 @@
       "Description": "Provides an extra 25 units of storage to the user's inventory.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "BELT_LEATHER",
@@ -791,7 +835,8 @@
       "Description": "An anachronistic cosmetic device from an age before humans developed the technology to create clothing that fits properly.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "Name": "Lit Jack O' Lantern",
@@ -806,7 +851,8 @@
       "Description": "I have no idea what this is.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "LUCHADOR_MASK",
@@ -814,12 +860,13 @@
       "Description": "Viva!",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "ACC_MAGNETIC_PROJECTILE_REPULSOR",
       "Name": "Magnetic Projectile Repulsor",
-      "Description": "A device that uses your energy to generate EM waves in order to to deflect bullets that fly near you. How fortunate! ",
+      "Description": "A device that uses your energy to generate EM waves in order to deflect projectiles that fly near you. How fortunate!",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
       "Encumbrance": 1,
@@ -829,7 +876,8 @@
           "EffectIntensity": 1,
           "Description": "Attempts to redirect projectiles that fly near the player."
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "SHIRT_MAROON",
@@ -837,7 +885,8 @@
       "Description": "A shirt.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "ACC_XEN_MASS_ACCUMULATOR",
@@ -855,7 +904,8 @@
           "Effect": "MELEEDAMAGEPERCENT",
           "EffectIntensity": 0.2
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "ACC_XEN_MASS_DISPLACER",
@@ -873,7 +923,8 @@
           "Effect": "MELEEDAMAGEPERCENT",
           "EffectIntensity": -0.2
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "Name": "Medium NIMH Battery",
@@ -891,7 +942,7 @@
     {
       "ItemType": "ACC_MELEE_STATIC_CAPACITOR",
       "Name": "Melee Static Capacitor",
-      "Description": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds of inactivity.",
+      "Description": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
       "Encumbrance": 1,
@@ -901,7 +952,8 @@
           "EffectIntensity": 0.25,
           "Description": "Your next melee attack releases stored energy for a 25% energy damage boost. Recharges over 3 seconds."
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "MINING_LIGHT_HELMET",
@@ -909,13 +961,14 @@
       "Description": "A helmet with an integrated light. It harnesses ambient movement, temperature gradients and excess brainwaves to generate a pretty convenient light.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 5
+      "Encumbrance": 5,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "MINING_SUIT_ARMS_MK2",
       "Name": "Mining Suit Arms Mk2",
       "Set": "Mining Suit Mk2 Set",
-      "Description": "An improved set of mining arms. Their feedback sensors and muscle augments have been repaired and now provide more protection as well as lets you throw things with 25% more force.",
+      "Description": "An improved set of mining arms. Their feedback sensors and muscle augments have been repaired and now provide more protection as well as let you throw things with 25% more force.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
       "Encumbrance": 6,
@@ -924,7 +977,8 @@
           "Effect": "throwpowermodifier",
           "EffectIntensity": 0.25
         }
-      ]
+      ],
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "MINING_SUIT_BOOTS_MK2",
@@ -939,16 +993,18 @@
           "Effect": "falldamagemodifier",
           "EffectIntensity": 0.5
         }
-      ]
+      ],
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "MINING_SUIT_GLOVES_MK2",
       "Name": "Mining Suit Gloves Mk2",
       "Set": "Mining Suit Mk2 Set",
-      "Description": "An improved set of mining gloves, that provide more protection as well as warm your hands a little bit which feels great.",
+      "Description": "An improved set of mining gloves that provides more protection and warms your hands a little, which feels great.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "MINING_SUIT_HELMET_MK2",
@@ -964,7 +1020,8 @@
           "EffectIntensity": 30,
           "Description": "Shows trajectories."
         }
-      ]
+      ],
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "MINING_SUIT_JUMPJET_MK2",
@@ -973,13 +1030,14 @@
       "Description": "An improved jumpjet that is both faster and more energy efficient. Hold the jump key to activate.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "MINING_SUIT_LEGS_MK2",
       "Name": "Mining Suit Legs Mk2",
       "Set": "Mining Suit Mk2 Set",
-      "Description": "These improved mining leggings are still comfortable, but also the muscle support mechanisms have been repaired which increase your jump height slightly.",
+      "Description": "These improved mining leggings are still comfortable, and their repaired muscle support mechanisms slightly increase your jump height.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
       "Encumbrance": 10,
@@ -988,7 +1046,8 @@
           "Effect": "jumpheight",
           "EffectIntensity": 0.1
         }
-      ]
+      ],
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "MINING_SUIT_TORSO_MK2",
@@ -997,7 +1056,8 @@
       "Description": "An improved mining torso. It provides more protection and makes you feel like you could take on the world.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "XENOID_MOMENTUM_PRESERVER",
@@ -1005,7 +1065,8 @@
       "Description": "This device harnesses some kind of weird alien technology to preserve your momentum when in the air. It does not require energy to function.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "ACC_OPTICAL_CAMO",
@@ -1020,7 +1081,8 @@
           "EffectIntensity": 1,
           "Description": "Renders the user mostly invisible"
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "PANTS_ORANGE_JUMPSUIT",
@@ -1029,7 +1091,8 @@
       "Description": "Bright orange pants.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SHIRT_ORANGE_JUMPSUIT",
@@ -1038,7 +1101,8 @@
       "Description": "Bright orange shirt.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PANTS_SHORTS_ORANGE",
@@ -1046,7 +1110,8 @@
       "Description": "Orange shorts.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SHOES_SLIPPERS",
@@ -1054,43 +1119,48 @@
       "Description": "Comfy!",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PROTOTYPE_MINING_SUIT_ARMS",
       "Name": "Prototype Mining Suit Arms",
       "Set": "Prototype Mining Suit Set",
-      "Description": "Much like the leggings, these arm-guards fit comfortably.  Unfortunately, their feedback sensors and muscle augments are not functional. It seems to be designed to interlock with matching pieces of armor.",
+      "Description": "Much like the leggings, these arm-guards fit comfortably.  Unfortunately, their feedback sensors and muscle augments are not functional. They seem to be designed to interlock with matching pieces of armor.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 12
+      "Encumbrance": 12,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "PROTOTYPE_MINING_SUIT_BOOTS",
       "Name": "Prototype Mining Suit Boots",
       "Set": "Prototype Mining Suit Set",
-      "Description": "These boots are reinforced with a very durable and impact resistant polymer, however these properties have been severely diminished due to extensive use. It seems to be designed to interlock with matching pieces of armor.",
+      "Description": "These boots are reinforced with a very durable and impact-resistant polymer; however, these properties have been severely diminished due to extensive use. They seem to be designed to interlock with matching pieces of armor.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 12
+      "Encumbrance": 12,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "PROTOTYPE_MINING_SUIT_GLOVES",
       "Name": "Prototype Mining Suit Gloves",
       "Set": "Prototype Mining Suit Set",
-      "Description": "All of the tactile sensors in these gloves have worn out due to age. It seems to be designed to interlock with matching pieces of armor.",
+      "Description": "All of the tactile sensors in these gloves have worn out due to age. They seem to be designed to interlock with matching pieces of armor.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 12
+      "Encumbrance": 12,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "PROTOTYPE_MINING_SUIT_HELMET",
       "Name": "Prototype Mining Suit Helmet",
       "Set": "Prototype Mining Suit Set",
-      "Description": "A worn out protype mining suit helmet. Its battery is corroded over, so there is no telling what it was intended to do. It seems to be designed to interlock with matching pieces of armor.",
+      "Description": "A worn-out prototype mining suit helmet. Its battery is corroded over, so there is no telling what it was intended to do. It seems to be designed to interlock with matching pieces of armor.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 12
+      "Encumbrance": 12,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "PROTOTYPE_MINING_SUIT_JUMPJET",
@@ -1099,16 +1169,18 @@
       "Description": "A basic jumpjet, designed to give you added maneuverability while mining. Hold the jump key to activate.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "PROTOTYPE_MINING_SUIT_LEGS",
       "Name": "Prototype Mining Suit Legs",
       "Set": "Prototype Mining Suit Set",
-      "Description": "Despite the signs of overuse and wear, these leggings actually fit quite comfortably.  Unfortunately, the muscle support mechanisms burnt out long ago. It seems to be designed to interlock with matching pieces of armor.",
+      "Description": "Despite the signs of overuse and wear, these leggings actually fit quite comfortably.  Unfortunately, the muscle support mechanisms burnt out long ago. They seem to be designed to interlock with matching pieces of armor.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 21
+      "Encumbrance": 21,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "PROTOTYPE_MINING_SUIT_TORSO",
@@ -1117,7 +1189,8 @@
       "Description": "Once considered top of the line, this particular chestpiece should not be trusted for protection beyond the occasional bump or scrape due to its old age and worn out ablative armor plating. It seems to be designed to interlock with matching pieces of armor.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 21
+      "Encumbrance": 21,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "PUMPKIN_MASK",
@@ -1125,7 +1198,8 @@
       "Description": "A pumpkin that you can cram on your face.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PUNCHER_PLATE_HELMET",
@@ -1133,7 +1207,8 @@
       "Description": "This helmet will turn you into a real hard-head.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 10,
-      "Encumbrance": 15
+      "Encumbrance": 15,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "SHIRT_RED",
@@ -1141,7 +1216,8 @@
       "Description": "This shirt is a dangerous shade of red.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PANTS_SKIRT_RED",
@@ -1149,7 +1225,8 @@
       "Description": "A skirt!",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PANTS_RED_TRACKSUIT",
@@ -1158,7 +1235,8 @@
       "Description": "Red pants.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SHIRT_RED_TRACKSUIT",
@@ -1167,7 +1245,8 @@
       "Description": "A red shirt.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SHIRT_RED_AND_WHITE",
@@ -1175,7 +1254,8 @@
       "Description": "This shirt is a red AND white, spiffy!",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SALVE_REGENERATIVE",
@@ -1189,7 +1269,8 @@
           "Effect": "healovertime",
           "EffectIntensity": 0.25
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "HAT_SAFARI",
@@ -1197,7 +1278,8 @@
       "Description": "For when you have to go on a safari for some reason.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HAT_SHEEP_MASK",
@@ -1205,7 +1287,8 @@
       "Description": "A mask",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "Name": "Small NIMH Battery",
@@ -1226,7 +1309,8 @@
       "Description": "A classic.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SOLAR_BACKPACK",
@@ -1240,7 +1324,8 @@
           "Effect": "solarcharge",
           "EffectIntensity": 2
         }
-      ]
+      ],
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "SHOES_SPACEFLEX",
@@ -1249,7 +1334,8 @@
       "Description": "Futuristic boots.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PANTS_SPACEFLEX",
@@ -1258,7 +1344,8 @@
       "Description": "Futuristic pants.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "SHIRT_SPACEFLEX",
@@ -1267,7 +1354,8 @@
       "Description": "A futuristic shirt.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "AUG_JUMP_LEGS",
@@ -1281,7 +1369,8 @@
           "Effect": "jumpheight",
           "EffectIntensity": 0.5
         }
-      ]
+      ],
+      "Category": "Leg Armor"
     },
     {
       "Name": "Steel Jump Jet",
@@ -1296,7 +1385,8 @@
       "Description": "They are not blue. Get out.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "TORTOISE_SHELL_BRACE",
@@ -1304,7 +1394,8 @@
       "Description": "A bunch of hard carapace that can be worn on your back.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 5
+      "Encumbrance": 5,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "ACC_TRAJECTORY_COMPUTER",
@@ -1319,7 +1410,8 @@
           "EffectIntensity": 30,
           "Description": "Shows trajectories."
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "ACC_XEN_UNYIELDING_CARAPACE",
@@ -1333,7 +1425,8 @@
           "Effect": "ARMORED",
           "EffectIntensity": 5
         }
-      ]
+      ],
+      "Category": "Accessory"
     },
     {
       "ItemType": "SHIRT_WHITE",
@@ -1341,7 +1434,8 @@
       "Description": "A shirt.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HAT_WIDE_BRIM",
@@ -1349,7 +1443,8 @@
       "Description": "A stylin' hat.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "HAT_WINTER",
@@ -1357,7 +1452,8 @@
       "Description": "A man walks down the street in that hat, people know he's not afraid of anything.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "PANTS_YOGA",
@@ -1365,7 +1461,8 @@
       "Description": "Tight fitting pants.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 0
+      "Encumbrance": 0,
+      "Category": "armor"
     },
     {
       "ItemType": "BONE_ARMS",
@@ -1374,7 +1471,8 @@
       "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "BONE_BOOTS",
@@ -1383,7 +1481,8 @@
       "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "BONE_GLOVES",
@@ -1392,7 +1491,8 @@
       "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "BONE_HELMET",
@@ -1401,7 +1501,8 @@
       "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "BONE_LEGS",
@@ -1410,7 +1511,8 @@
       "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 17
+      "Encumbrance": 17,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "BONE_TORSO",
@@ -1419,7 +1521,8 @@
       "Description": "Spiky bones, shackled together with plant fibers to form a decent protection that gets revenge.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 17
+      "Encumbrance": 17,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "GEM_ARMS",
@@ -1428,7 +1531,8 @@
       "Description": "This armor piece helps to reduce negativity.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "GEM_BOOTS",
@@ -1437,7 +1541,8 @@
       "Description": "This armor piece reminds you that life is joyful.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "GEM_GLOVES",
@@ -1446,7 +1551,8 @@
       "Description": "This armor piece helps to break old patterns of emotion.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "GEM_HELMET",
@@ -1455,7 +1561,8 @@
       "Description": "This armor piece helps to break old patterns of thought.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "GEM_LEGS",
@@ -1464,7 +1571,8 @@
       "Description": "This armor piece helps to release that which is no longer useful.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "GEM_TORSO",
@@ -1473,7 +1581,8 @@
       "Description": "This armor piece brings you happiness.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "BRONZE_ARMS",
@@ -1482,7 +1591,8 @@
       "Description": "Arm-guards made of a copper alloy formed by adding tin to the smelter.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "BRONZE_BOOTS",
@@ -1491,7 +1601,8 @@
       "Description": "Comfy and functional, who could ask for more to protect their feet?",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "BRONZE_GLOVES",
@@ -1500,7 +1611,8 @@
       "Description": "Protect your fingers with these alloyed gauntlets.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "BRONZE_HELMET",
@@ -1509,7 +1621,8 @@
       "Description": "A stylish helmet, inspired by a roman centurion.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "BRONZE_LEGS",
@@ -1518,7 +1631,8 @@
       "Description": "Leggings that offer increased protection over iron or copper.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 14
+      "Encumbrance": 14,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "BRONZE_TORSO",
@@ -1527,7 +1641,8 @@
       "Description": "This deftly designed armor offers superior protection compared to lesser metals.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 14
+      "Encumbrance": 14,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "COPPER_ARMS",
@@ -1536,7 +1651,8 @@
       "Description": "Be proper as a penny in these arm-guards.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "COPPER_BOOTS",
@@ -1545,16 +1661,18 @@
       "Description": "A nice shiny pair of copper boots.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "COPPER_GLOVES",
       "Name": "Copper Gloves",
       "Set": "Copper Set",
-      "Description": "Copper gloves, that provide slight protection.",
+      "Description": "Copper gloves that provide slight protection.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "COPPER_HELMET",
@@ -1563,7 +1681,8 @@
       "Description": "A simple copper metal helmet.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "COPPER_LEGS",
@@ -1572,7 +1691,8 @@
       "Description": "A copper set of leggings.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 14
+      "Encumbrance": 14,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "COPPER_TORSO",
@@ -1581,7 +1701,8 @@
       "Description": "A copper piece of torso armor. Provides some protection against attacks.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 14
+      "Encumbrance": 14,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "ENERGY_PLATE_ARMS",
@@ -1590,7 +1711,8 @@
       "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "ENERGY_PLATE_BOOTS",
@@ -1599,7 +1721,8 @@
       "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "ENERGY_PLATE_BATTERY_PACK",
@@ -1618,7 +1741,8 @@
           "Effect": "EnergyShield",
           "EffectIntensity": 15
         }
-      ]
+      ],
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "ENERGY_PLATE_GLOVES",
@@ -1627,7 +1751,8 @@
       "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "ENERGY_PLATE_HELMET",
@@ -1636,7 +1761,8 @@
       "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "ENERGY_PLATE_LEGS",
@@ -1645,7 +1771,8 @@
       "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "ENERGY_PLATE_TORSO",
@@ -1654,7 +1781,8 @@
       "Description": "This piece of armor utilizes unique materials to generate a low-level forcefield when worn with additional pieces in the set. This forcefield protects a small amount of damage, and recharges over time. ",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "GHOST_HIDE_ARMS",
@@ -1669,7 +1797,8 @@
           "Effect": "thorns",
           "EffectIntensity": 2
         }
-      ]
+      ],
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "GHOST_HIDE_BOOTS",
@@ -1684,7 +1813,8 @@
           "Effect": "souldrain",
           "EffectIntensity": 0.2
         }
-      ]
+      ],
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "GHOST_HIDE_GLOVES",
@@ -1699,7 +1829,8 @@
           "Effect": "souldrain",
           "EffectIntensity": 0.2
         }
-      ]
+      ],
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "GHOST_HIDE_HELMET",
@@ -1714,7 +1845,8 @@
           "Effect": "souldrain",
           "EffectIntensity": 0.2
         }
-      ]
+      ],
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "GHOST_HIDE_LEGS",
@@ -1729,7 +1861,8 @@
           "Effect": "thorns",
           "EffectIntensity": 2
         }
-      ]
+      ],
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "GHOST_HIDE_TORSO",
@@ -1744,7 +1877,8 @@
           "Effect": "thorns",
           "EffectIntensity": 2
         }
-      ]
+      ],
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "HEPHAESTUS_MINING_SUIT_ARMS",
@@ -1753,7 +1887,8 @@
       "Description": "These are standard issue Hephaestus Mining Suit Arms.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2.5,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "HEPHAESTUS_MINING_SUIT_BACKPACK",
@@ -1762,7 +1897,8 @@
       "Description": "This is a standard issue Hephaestus Mining Suit Backpack, which comes pre-installed with an oxygen tank and other bio-regulation systems.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "HEPHAESTUS_MINING_SUIT_BOOTS",
@@ -1771,7 +1907,8 @@
       "Description": "These are standard issue Hephaestus Mining Suit Boots.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2.5,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "HEPHAESTUS_MINING_SUIT_GLOVES",
@@ -1780,7 +1917,8 @@
       "Description": "These are standard issue Hephaestus Mining Suit Gloves.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2.5,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "HEPHAESTUS_MINING_SUIT_HELMET",
@@ -1789,7 +1927,8 @@
       "Description": "This is a standard issue Hephaestus Mining Suit Helmet.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2.5,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "HEPHAESTUS_MINING_SUIT_LEGS",
@@ -1798,7 +1937,8 @@
       "Description": "These are standard issue Hephaestus Mining Suit Legs.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3.5,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "HEPHAESTUS_MINING_SUIT_TORSO",
@@ -1807,7 +1947,8 @@
       "Description": "This is a standard issue Hephaestus Mining Suit Torso.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3.5,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "XENITE_ARMS",
@@ -1816,7 +1957,8 @@
       "Description": "Arm armor that has been crafted from a combination of traditional and exotic materials.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "XENITE_BOOTS",
@@ -1825,7 +1967,8 @@
       "Description": "Boots that have been crafted from a combination of traditional and exotic materials.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "XENITE_GLOVES",
@@ -1834,7 +1977,8 @@
       "Description": "Gloves that have been crafted from a combination of traditional and exotic materials.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "XENITE_HELMET",
@@ -1843,7 +1987,8 @@
       "Description": "A helmet that has been crafted from a combination of traditional and exotic materials.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "XENITE_LEGS",
@@ -1852,7 +1997,8 @@
       "Description": "Leg armor that has been crafted from a combination of traditional and exotic materials.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "XENITE_BACKPACK",
@@ -1868,7 +2014,8 @@
           "EffectIntensity": 2,
           "Description": "Generates 2 units of alien energy per minute."
         }
-      ]
+      ],
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "XENITE_TORSO",
@@ -1877,7 +2024,8 @@
       "Description": "Torso armor that has been crafted from a combination of traditional and exotic materials.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "IRON_ARMS",
@@ -1886,7 +2034,8 @@
       "Description": "Metal armguards fit to carry a lance.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2.5,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "IRON_BOOTS",
@@ -1895,7 +2044,8 @@
       "Description": "These boots probably won many a melee back in the dark ages.  Actually, they didn't because you just made them.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2.5,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "IRON_GLOVES",
@@ -1904,7 +2054,8 @@
       "Description": "Smite your adversaries with these metal gauntlets.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2.5,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "IRON_HELMET",
@@ -1913,7 +2064,8 @@
       "Description": "Get medieval on your foes with this helmet.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2.5,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "IRON_LEGS",
@@ -1922,7 +2074,8 @@
       "Description": "Heavy metal casings for your meat columns.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3.5,
-      "Encumbrance": 14
+      "Encumbrance": 14,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "IRON_TORSO",
@@ -1931,7 +2084,8 @@
       "Description": "This very heavy chestpiece hinders movement but offers great physical protection.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3.5,
-      "Encumbrance": 14
+      "Encumbrance": 14,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "LEAPER_BOOTS",
@@ -1940,7 +2094,8 @@
       "Description": "Fatty round butt",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "LEAPER_LEGS",
@@ -1949,7 +2104,8 @@
       "Description": "Fatty round butt",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 15
+      "Encumbrance": 15,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "LEATHER_ARMS",
@@ -1958,7 +2114,8 @@
       "Description": "While leather may not offer the best protection, one's dexterity remains unhindered by these light arm-guards.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "LEATHER_BOOTS",
@@ -1967,7 +2124,8 @@
       "Description": "While these boots do protect your feet, they don't breathe.  Be sure to wash them often!",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "LEATHER_GLOVES",
@@ -1985,7 +2143,8 @@
       "Description": "This stylish cap provides modest protection while keeping your ears warm.  Delightful!",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "LEATHER_LEGS",
@@ -1994,7 +2153,8 @@
       "Description": "These leather leggings provide minor protection but fit snugly to the thighs.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 7
+      "Encumbrance": 7,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "LEATHER_TORSO",
@@ -2003,7 +2163,8 @@
       "Description": "As a fashion statement out of the 14th century, this medieval garb is sure to turn some heads.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 7
+      "Encumbrance": 7,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "STEEL_ARMS",
@@ -2012,7 +2173,8 @@
       "Description": "Science and technology filled arm armor that protects you without encumbering you, isn't modern technology great?",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "STEEL_BOOTS",
@@ -2021,25 +2183,28 @@
       "Description": "Hard, light, and made for stomping. These boots are basically great.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "STEEL_GLOVES",
       "Name": "Nano-Steel Gloves",
       "Set": "Nano-Steel Set",
-      "Description": "High quality gloves matched with low encumbrance, its really pretty convenient.",
+      "Description": "High-quality gloves with low encumbrance are really pretty convenient.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "STEEL_HELMET",
       "Name": "Nano-Steel Helmet",
       "Set": "Nano-Steel Set",
-      "Description": "A high tech, high quality steel helmet. Lightencumbrance, but incredibly strong.",
+      "Description": "A high-tech, high-quality steel helmet. It has light encumbrance but is incredibly strong.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "STEEL_LEGS",
@@ -2048,7 +2213,8 @@
       "Description": "High quality protection, light encumbrance, and full of science, what more could you ask for from a pair of armored leggings?",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "STEEL_TORSO",
@@ -2057,7 +2223,8 @@
       "Description": "A high quality steel torso armor piece, which provides incredible protection paired with some sort of gears or servos or some other sciency mumbo jumbo.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "PATCHWORK_ARMS",
@@ -2066,7 +2233,8 @@
       "Description": "Slight feelings of apprehension and disgust waft through your mind every time you don these arm-guards.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "PATCHWORK_BOOTS",
@@ -2075,7 +2243,8 @@
       "Description": "These boots are guaranteed to protect your feet from small sharp rocks and other minor harms, except for all the splinters.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "PATCHWORK_GLOVES",
@@ -2093,7 +2262,8 @@
       "Description": "A pitiful helmet of sticks and twigs you have lashed to your head. Is this really better than nothing?",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "PATCHWORK_LEGS",
@@ -2102,7 +2272,8 @@
       "Description": "Glorious leggings composed of the filth you managed to scrape together. You should be ashamed of yourself.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 17
+      "Encumbrance": 17,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "PATCHWORK_TORSO",
@@ -2111,61 +2282,68 @@
       "Description": "A shameful construct of bug bits, plant fiber and wood.  Nudity may be a reasonable alternative.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 1,
-      "Encumbrance": 17
+      "Encumbrance": 17,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "PLATINUM_ARMS",
       "Name": "Piezoelectric Arms",
       "Set": "Piezo Set",
-      "Description": "Advanced arm armor build around a lattice of platinum.",
+      "Description": "Advanced arm armor built around a lattice of platinum.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "PLATINUM_BOOTS",
       "Name": "Piezoelectric Boots",
       "Set": "Piezo Set",
-      "Description": "Advanced boot armor build around a lattice of platinum.",
+      "Description": "Advanced boot armor built around a lattice of platinum.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "PLATINUM_GLOVES",
       "Name": "Piezoelectric Gloves",
       "Set": "Piezo Set",
-      "Description": "Advanced glove armor build around a lattice of platinum.",
+      "Description": "Advanced glove armor built around a lattice of platinum.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "PLATINUM_HELMET",
       "Name": "Piezoelectric Helmet",
       "Set": "Piezo Set",
-      "Description": "Advanced helmet build around a lattice of platinum.",
+      "Description": "Advanced helmet built around a lattice of platinum.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "PLATINUM_LEGS",
       "Name": "Piezoelectric Legs",
       "Set": "Piezo Set",
-      "Description": "Advanced leg armor build around a lattice of platinum.",
+      "Description": "Advanced leg armor built around a lattice of platinum.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 8,
-      "Encumbrance": 17
+      "Encumbrance": 17,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "PLATINUM_TORSO",
       "Name": "Piezoelectric Torso",
       "Set": "Piezo Set",
-      "Description": "Advanced torso armor build around a lattice of platinum.",
+      "Description": "Advanced torso armor built around a lattice of platinum.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 8,
-      "Encumbrance": 17
+      "Encumbrance": 17,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "PLATED_HIDE_ARMS",
@@ -2174,7 +2352,8 @@
       "Description": "Arm-guards made from the hide of some unfortunate beast to cross your path.  Better protection than leather, but with added encumbrance.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "PLATED_HIDE_BOOTS",
@@ -2183,13 +2362,14 @@
       "Description": "Don't worry about stubbing your toes in these better-than-leather boots.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "PLATED_HIDE_GLOVES",
       "Name": "Plated Hide Gloves",
       "Set": "Plated Hide Set",
-      "Description": "These gloves will protect your fingers from crushed, thanks to an armored creature you crushed yourself.",
+      "Description": "These gloves will protect your fingers from being crushed, thanks to an armored creature you crushed yourself.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
       "Encumbrance": 10
@@ -2201,7 +2381,8 @@
       "Description": "You feel uniquely safe and secure in this helmet made of thick plated hide.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "PLATED_HIDE_LEGS",
@@ -2210,7 +2391,8 @@
       "Description": "These plated hide leggings will offer you better protection against physical damage than standard leather, but they weigh more.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 17
+      "Encumbrance": 17,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "PLATED_HIDE_TORSO",
@@ -2219,7 +2401,8 @@
       "Description": "Plated hide armor provides the strength of iron but will offer no protection against extreme heat.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 17
+      "Encumbrance": 17,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "GEOGUY_ARMS",
@@ -2228,7 +2411,8 @@
       "Description": "Hard like rock",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 10,
-      "Encumbrance": 15
+      "Encumbrance": 15,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "GEOGUY_GLOVES",
@@ -2237,7 +2421,8 @@
       "Description": "Hard like rock",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 10,
-      "Encumbrance": 15
+      "Encumbrance": 15,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "RUBBER_ARMS",
@@ -2246,7 +2431,8 @@
       "Description": "Rubbery alien arm armor",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 3
+      "Encumbrance": 3,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "RUBBER_BACKPACK",
@@ -2255,7 +2441,8 @@
       "Description": "A rubbery alien powerpack",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
-      "Encumbrance": 1
+      "Encumbrance": 1,
+      "Category": "Back Equipment"
     },
     {
       "ItemType": "RUBBER_BOOTS",
@@ -2264,7 +2451,8 @@
       "Description": "Rubbery alien Boots",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "RUBBER_GLOVES",
@@ -2273,7 +2461,8 @@
       "Description": "Rubbery alien Gloves",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "RUBBER_HELMET",
@@ -2282,7 +2471,8 @@
       "Description": "A rubbery alien helmet",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "RUBBER_LEGS",
@@ -2291,7 +2481,8 @@
       "Description": "Rubbery alien leg armor",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 8,
-      "Encumbrance": 9
+      "Encumbrance": 9,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "RUBBER_TORSO",
@@ -2300,7 +2491,8 @@
       "Description": "A rubbery alien chestpiece",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 8,
-      "Encumbrance": 9
+      "Encumbrance": 9,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "SILVER_ARMS",
@@ -2309,16 +2501,18 @@
       "Description": "Silver arm-guards offering decent protection, but weak to energy damage.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "SILVER_BOOTS",
       "Name": "Silver Boots",
       "Set": "Silver Set",
-      "Description": "Lightencumbrance boots that add a zip to your step.",
+      "Description": "Light-encumbrance boots that add a zip to your step.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "SILVER_GLOVES",
@@ -2327,7 +2521,8 @@
       "Description": "Quicksilver for quick fingers.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "SILVER_HELMET",
@@ -2336,7 +2531,8 @@
       "Description": "A shiny silver helmet, fit to protect your special head.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 5,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "SILVER_LEGS",
@@ -2345,7 +2541,8 @@
       "Description": "These shiny leggings won't impede your speed.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "SILVER_TORSO",
@@ -2354,7 +2551,8 @@
       "Description": "Well crafted armor, offering protection at a reduced encumbrance.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "STEEL_COMBAT_BOOTS",
@@ -2363,7 +2561,8 @@
       "Description": "These steel toed combat boots provide effective protection while maintaining mobility.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 5
+      "Encumbrance": 5,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "STEEL_COMBAT_GLOVES",
@@ -2372,7 +2571,8 @@
       "Description": "Gloves fitted with steel plates for protection.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 5
+      "Encumbrance": 5,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "STEEL_COMBAT_HELMET",
@@ -2381,7 +2581,8 @@
       "Description": "This steel combat helmet provides effective protection while maintaining mobility.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 5
+      "Encumbrance": 5,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "STEEL_COMBAT_ARMS",
@@ -2390,7 +2591,8 @@
       "Description": "Armored shoulder gear with steel inserts for protection.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 5
+      "Encumbrance": 5,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "STEEL_PLATE_CARRIER_TORSO",
@@ -2399,7 +2601,8 @@
       "Description": "This steel plate carrier vest provides effective protection while maintaining mobility.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 8,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "STEEL_COMBAT_LEGGINGS",
@@ -2408,7 +2611,8 @@
       "Description": "Leggings fitted with steel plates for protection.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 8,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "TIN_ARMS",
@@ -2417,16 +2621,18 @@
       "Description": "Tin arm-sockets to prevent you from corroding and decroding.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "TIN_BOOTS",
       "Name": "Tin Boots",
       "Set": "Tin Set",
-      "Description": "Stepping through any corrosive subtance in these boots will diminish the negative side-effects.",
+      "Description": "Stepping through any corrosive substance in these boots will diminish the negative side-effects.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "TIN_GLOVES",
@@ -2435,16 +2641,18 @@
       "Description": "Protect your fingers from melting in these tin gauntlets.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "TIN_HELMET",
       "Name": "Tin Helmet",
       "Set": "Tin Set",
-      "Description": "This helmet's cylindrical shape and material composition doesn't do much for you when deflecting physical blows, but any corrosive damage will be heavily reduced by it.",
+      "Description": "This helmet's cylindrical shape and material composition do not do much for you when deflecting physical blows, but any corrosive damage will be heavily reduced by it.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 8
+      "Encumbrance": 8,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "TIN_LEGS",
@@ -2453,7 +2661,8 @@
       "Description": "A tin set of legs.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 14
+      "Encumbrance": 14,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "TIN_TORSO",
@@ -2462,7 +2671,8 @@
       "Description": "This fashionable tin chestpiece offers decent protection.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 4,
-      "Encumbrance": 14
+      "Encumbrance": 14,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "TITANIUM_ARMS",
@@ -2477,7 +2687,8 @@
           "Effect": "MELEESTAMINACOST",
           "EffectIntensity": -0.15
         }
-      ]
+      ],
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "TITANIUM_BOOTS",
@@ -2492,7 +2703,8 @@
           "Effect": "MOVEMENTSTAMINACOST",
           "EffectIntensity": -0.15
         }
-      ]
+      ],
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "TITANIUM_GLOVES",
@@ -2507,7 +2719,8 @@
           "Effect": "MELEESTAMINACOST",
           "EffectIntensity": -0.15
         }
-      ]
+      ],
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "TITANIUM_HELMET",
@@ -2516,7 +2729,8 @@
       "Description": "This armor is built using Titanium, and as a result it is light and strong.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
-      "Encumbrance": 6
+      "Encumbrance": 6,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "TITANIUM_LEGS",
@@ -2531,7 +2745,8 @@
           "Effect": "MOVEMENTSTAMINACOST",
           "EffectIntensity": -0.15
         }
-      ]
+      ],
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "TITANIUM_TORSO",
@@ -2540,7 +2755,8 @@
       "Description": "This armor is built using Titanium, and as a result it is light and strong.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 7,
-      "Encumbrance": 10
+      "Encumbrance": 10,
+      "Category": "Torso Armor"
     },
     {
       "ItemType": "XENOHIDE_ARMS",
@@ -2549,7 +2765,8 @@
       "Description": "Leathery arm armor made from some creature's skin.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Arm Armor"
     },
     {
       "ItemType": "XENOHIDE_BOOTS",
@@ -2558,7 +2775,8 @@
       "Description": "Leathery boots made from some creature's skin.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Boot Armor"
     },
     {
       "ItemType": "XENOHIDE_GLOVES",
@@ -2567,7 +2785,8 @@
       "Description": "Leathery gloves made from some creature's skin.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Glove Armor"
     },
     {
       "ItemType": "XENOHIDE_HELMET",
@@ -2576,7 +2795,8 @@
       "Description": "A squishy leathery helmet made from some creature's skin.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 2,
-      "Encumbrance": 4
+      "Encumbrance": 4,
+      "Category": "Helmet Armor"
     },
     {
       "ItemType": "XENOHIDE_LEGS",
@@ -2585,7 +2805,8 @@
       "Description": "Leathery leggings made from some creature's skin.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 7
+      "Encumbrance": 7,
+      "Category": "Leg Armor"
     },
     {
       "ItemType": "XENOHIDE_TORSO",
@@ -2594,7 +2815,8 @@
       "Description": "A leathery piece of torso armor made from some creature's skin.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 3,
-      "Encumbrance": 7
+      "Encumbrance": 7,
+      "Category": "Torso Armor"
     }
   ]
 }

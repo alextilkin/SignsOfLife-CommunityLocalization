@@ -1,8 +1,9 @@
 {
   "game": "Signs of Life",
-  "snapshotCommit": "de0843626956390d51da28116208dfdbc517b84d",
-  "snapshotSubject": "Move datapad lore into Config JSON like the other overlay tables.",
-  "snapshotDate": "2026-08-28",
+  "snapshotCommit": "1218d1bc91cbb0cbf6aec8ab1e4e14581ac89e89",
+  "snapshotSubject": "Website work",
+  "snapshotDate": "2026-09-24",
+  "reviewStatus": "candidate; on-screen pseudo-locale review pending",
   "overlayableFiles": [
     "Config/UILocalization.json",
     "Config/TooltipLocalization.json",
@@ -17,7 +18,11 @@
     "Config/CreatureRegistrationData.json",
     "Config/StaticPrefabRegistrationData.json",
     "Config/DatapadTextData.json",
-    "Config/ArmorSetData.json"
+    "Config/ArmorSetData.json",
+    "Config/RecipeLocalization.json",
+    "Config/TileLocalization.json",
+    "Config/GlyphLocalization.json",
+    "Config/RuntimeContentLocalization.json"
   ],
-  "notes": "Packs overlay prose fields only. Leave ItemID, SaveName, LivingEntityType, StaticPrefabType, SaveAliases, AutoOrganizeString, Complexity, IsDefault, datapad ID, armor ItemType / set Name / piece Set, and combat stats in English. Container gump titles are not overlayable yet. Datapad English is Config/DatapadTextData.json in the game; copy that file the same way as journal/help. Armor English is Config/ArmorSetData.json in the game; the overlay uses the same shape. Vanilla pack-item Name/Description stays in LoadedContent item_*.json; export-pack-item-prose.py fills the sol.* overlay fields in this InventoryItemData snapshot. Unique EquipmentEffects Description is still pack-only."
+  "notes": "Packs overlay display/prose fields only. Leave IDs, save names, recipe Name/DisplaySource, category Key, glyph English, armor set Name and piece Set, and gameplay stats unchanged. Inherited recipe names and hidden debug recipes have no required DisplayName task. Prefab DisplayName inherits a translated Name where English values match. Container gump titles use UILocalization container.* keys. Vanilla pack-item Name/Description remains in LoadedContent item_*.json; export-pack-item-prose.py fills the sol.* InventoryItemData snapshot. Unique equipment-effect prose uses RuntimeContentLocalization effect.* fields. PREVIEW, INPUT, and PROMPT atlas labels are deferred until after the community localization launch."
 }

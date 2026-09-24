@@ -3,7 +3,6 @@
     "StaticPrefabType": "TECH_REINFORCED_DOOR",
     "SaveName": "Tech Reinforced Door",
     "Name": "Tech Reinforced Door",
-    "DisplayName": "Tech Reinforced Door",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -11,7 +10,6 @@
     "StaticPrefabType": "GLASS_WALL",
     "SaveName": "Glass Wall",
     "Name": "Glass Wall",
-    "DisplayName": "Glass Wall",
     "Description": "A nice glass wall.",
     "CodexCategory": "Human Technology"
   },
@@ -19,7 +17,6 @@
     "StaticPrefabType": "RESPAWNER",
     "SaveName": "Respawner",
     "Name": "Respawner",
-    "DisplayName": "Respawner",
     "Description": "This device prints your body out using spare atoms. As it turns out, the specific atoms in your body are less important than the way they are organized.",
     "CodexCategory": "Human Technology"
   },
@@ -27,7 +24,6 @@
     "StaticPrefabType": "CAMPFIRE",
     "SaveName": "Campfire",
     "Name": "Campfire",
-    "DisplayName": "Campfire",
     "Description": "A pile of sticks and stones that can provide heat and light. It can be used to cook food and make bricks.",
     "CodexCategory": "Metal Refining"
   },
@@ -35,7 +31,6 @@
     "StaticPrefabType": "TECH_DOOR",
     "SaveName": "Tech Sliding Door",
     "Name": "Tech Sliding Door",
-    "DisplayName": "Tech Sliding Door",
     "Description": "That is a high-tech steel reinforced door.",
     "CodexCategory": "Human Doors"
   },
@@ -43,7 +38,6 @@
     "StaticPrefabType": "BLAST_FURNACE",
     "SaveName": "Blast Furnace",
     "Name": "Blast Furnace",
-    "DisplayName": "Blast Furnace",
     "Description": "A specialized furnace that uses air pressure to produce metal and glass ingots.",
     "CodexCategory": "Metal Refining"
   },
@@ -51,14 +45,13 @@
     "StaticPrefabType": "ALIEN_WRECKAGE",
     "SaveName": "Alien Wreckage",
     "Name": "Alien Wreckage",
-    "DisplayName": "Alien Wreckage",
+    "Description": "This appears to be a technological artifact, although its purpose is unclear because my scans cannot penetrate its exterior.",
     "CodexCategory": "Alien Technology"
   },
   {
     "StaticPrefabType": "ESCAPE_POD",
     "SaveName": "Escape Pod",
     "Name": "Escape Pod",
-    "DisplayName": "Escape Pod",
     "Description": "A high tech escape pod, commonly used to escape from ships as they are under attack or threatened. Unpowered.",
     "CodexCategory": "Human Technology",
     "DescriptionsByState": {
@@ -69,7 +62,6 @@
     "StaticPrefabType": "DEACTIVATED_ELEVATOR",
     "SaveName": "Deactivated Elevator",
     "Name": "Deactivated Elevator",
-    "DisplayName": "Deactivated Elevator",
     "Description": "This is a non-functional elevator.",
     "CodexCategory": "Human Technology"
   },
@@ -77,7 +69,6 @@
     "StaticPrefabType": "PIONEER_COMM_JUNCTION",
     "SaveName": "Pioneer Comm Junction",
     "Name": "Pioneer Comm Junction",
-    "DisplayName": "Pioneer Comm Junction",
     "Description": "That is a communication junction. It can be used to contact ships within the solar system. It can also store holographic messages for later playback. It is useless without a power supply.",
     "CodexCategory": "Human Technology"
   },
@@ -85,7 +76,6 @@
     "StaticPrefabType": "PIONEER_COMM_ANTENNA",
     "SaveName": "Pioneer Comm Antenna",
     "Name": "Comm Beacon",
-    "DisplayName": "Comm Beacon",
     "Description": "A communications antenna that can broadcast a configurable beacon your MEG tool. Right click to set the label and color.",
     "CodexCategory": "Human Technology"
   },
@@ -93,7 +83,6 @@
     "StaticPrefabType": "TECH_GASPIPE",
     "SaveName": "Tech Gaspipe",
     "Name": "Tech Gaspipe",
-    "DisplayName": "Tech Gaspipe",
     "Description": "A metal gaspipe.",
     "CodexCategory": "Human Decoration"
   },
@@ -101,7 +90,6 @@
     "StaticPrefabType": "WOODEN_DOOR",
     "SaveName": "Wooden Door",
     "Name": "Wooden Door",
-    "DisplayName": "Wooden Door",
     "Description": "That is a door composed primarily of wood.",
     "CodexCategory": "Human Doors"
   },
@@ -109,7 +97,6 @@
     "StaticPrefabType": "SECURITY_LOCKDOWN_TERMINAL",
     "SaveName": "Security Lockdown Terminal",
     "Name": "Security Lockdown Terminal",
-    "DisplayName": "Security Lockdown Terminal",
     "Description": "Allows someone to activate or deactivate security in an area.",
     "CodexCategory": "Human Technology"
   },
@@ -117,7 +104,6 @@
     "StaticPrefabType": "TECH_REINFORCED_HORIZONTAL_DOOR",
     "SaveName": "Tech Reinforced Horizontal Door",
     "Name": "Tech Reinforced Horizontal Door",
-    "DisplayName": "Tech Reinforced Horizontal Door",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -125,7 +111,6 @@
     "StaticPrefabType": "TECH_REINFORCED_DOOR_LEVEL_1",
     "SaveName": "Reinforced Door (Level 1)",
     "Name": "Reinforced Door (Level 1)",
-    "DisplayName": "Reinforced Door (Level 1)",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -133,7 +118,6 @@
     "StaticPrefabType": "TECH_REINFORCED_DOOR_LEVEL_2",
     "SaveName": "Reinforced Door (Level 2)",
     "Name": "Reinforced Door (Level 2)",
-    "DisplayName": "Reinforced Door (Level 2)",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -141,7 +125,6 @@
     "StaticPrefabType": "TECH_REINFORCED_HORIZONTAL_DOOR_LEVEL_1",
     "SaveName": "Tech Reinforced Horizontal Door (Level 1)",
     "Name": "Tech Reinforced Horizontal Door (Level 1)",
-    "DisplayName": "Tech Reinforced Horizontal Door (Level 1)",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -149,7 +132,6 @@
     "StaticPrefabType": "TECH_REINFORCED_HORIZONTAL_DOOR_LEVEL_2",
     "SaveName": "Tech Reinforced Horizontal Door (Level 2)",
     "Name": "Tech Reinforced Horizontal Door (Level 2)",
-    "DisplayName": "Tech Reinforced Horizontal Door (Level 2)",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -157,7 +139,6 @@
     "StaticPrefabType": "ANT_FOOD_CEILING_1",
     "SaveName": "Ant Food Ceiling",
     "Name": "Ant Food Ceiling",
-    "DisplayName": "Ant Food Ceiling",
     "Description": "It looks like some kind of gross ant food that sticks to the ceiling.",
     "CodexCategory": "Environmental"
   },
@@ -165,7 +146,6 @@
     "StaticPrefabType": "ANT_FOOD_CEILING_2",
     "SaveName": "Ant Food Ceiling 2",
     "Name": "Ant Food Ceiling 2",
-    "DisplayName": "Ant Food Ceiling 2",
     "Description": "It looks like some kind of gross ant food that sticks to the ceiling.",
     "CodexCategory": "Environmental"
   },
@@ -173,7 +153,6 @@
     "StaticPrefabType": "ANT_JELLY",
     "SaveName": "Ant Jelly Ceiling",
     "Name": "Ant Jelly Ceiling",
-    "DisplayName": "Ant Jelly Ceiling",
     "Description": "This is some gross ant jelly that sticks to the ceiling.",
     "CodexCategory": "Environmental"
   },
@@ -181,7 +160,6 @@
     "StaticPrefabType": "MATERIAL_PRINTER",
     "SaveName": "Material Printer",
     "Name": "Material Printer",
-    "DisplayName": "Material Printer",
     "Description": "That is a device that assembles items at an atomic level.",
     "CodexCategory": "Processing Technology"
   },
@@ -189,7 +167,6 @@
     "StaticPrefabType": "ELEVATOR",
     "SaveName": "Elevator",
     "Name": "Elevator",
-    "DisplayName": "Elevator",
     "Description": "A magnetic elevator platform and accompanying elevator.",
     "CodexCategory": "Human Technology"
   },
@@ -197,14 +174,13 @@
     "StaticPrefabType": "TECH_ITEM_TERMINAL",
     "SaveName": "Tech Item Terminal",
     "Name": "Tech Item Terminal",
-    "DisplayName": "Tech Item Terminal",
+    "Description": "A secure housing that protects items from unauthorized access.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "XENOLITH",
     "SaveName": "Xenolith",
     "Name": "Xenolith",
-    "DisplayName": "Xenolith",
     "Description": "This appears to be either some form of Xenoid decoration or a technology with an unclear purpose. It has a recessed area in the center that suggests a missing element.",
     "CodexCategory": "Alien Technology",
     "DescriptionsByState": {
@@ -216,7 +192,6 @@
     "StaticPrefabType": "XENOLITH_ROOM_DOOR",
     "SaveName": "Xenolith Room Door",
     "Name": "Xenolith Room Door",
-    "DisplayName": "Xenolith Room Door",
     "Description": "This seems to be some kind of door.",
     "CodexCategory": "Alien Doors"
   },
@@ -224,7 +199,6 @@
     "StaticPrefabType": "XENOSTONE_PRESSURE_PLATE",
     "SaveName": "Xenostone Pressure Plate",
     "Name": "Xenostone Pressure Plate",
-    "DisplayName": "Xenostone Pressure Plate",
     "Description": "That appears to be some kind of pressure plate.",
     "CodexCategory": "Alien Technology"
   },
@@ -232,7 +206,6 @@
     "StaticPrefabType": "XENOID_ARTIFACT_STATUE",
     "SaveName": "Xenoid Artifact Statue",
     "Name": "Xenoid Artifact Statue",
-    "DisplayName": "Xenoid Artifact Statue",
     "Description": "That is some sort of strange statue. I wish I had more information for you.",
     "CodexCategory": "Alien Statue"
   },
@@ -240,7 +213,6 @@
     "StaticPrefabType": "XENOID_STATUE_LARGE",
     "SaveName": "Xenoid Statue Large",
     "Name": "Xenoid Statue Large",
-    "DisplayName": "Xenoid Statue Large",
     "Description": "That is some sort of strange statue.",
     "CodexCategory": "Alien Statue"
   },
@@ -248,8 +220,7 @@
     "StaticPrefabType": "XENITE_WALL_TORCH",
     "SaveName": "Xenoid Wall Torch",
     "Name": "Xenoid Wall Torch",
-    "DisplayName": "Xenoid Wall Torch",
-    "Description": "This is some kind light source made of an unknown material. It does not seem to burn out or degrade over time, curious.",
+    "Description": "This is some kind of light source made of an unknown material. It does not seem to burn out or degrade over time, curious.",
     "CodexCategory": "Alien Lights",
     "SaveAliases": [
       "Xenite Wall Torch"
@@ -259,14 +230,13 @@
     "StaticPrefabType": "MEDBAY_SHUTTERS",
     "SaveName": "Medbay Shutters",
     "Name": "Medbay Shutters",
-    "DisplayName": "Medbay Shutters",
+    "Description": "Shutters that prevent unauthorized access to the Med Bay.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "PERSONAL_MED_BAY",
     "SaveName": "Personal Med Bay",
     "Name": "Personal Med Bay",
-    "DisplayName": "Personal Med Bay",
     "Description": "That is a personal medical bay. It will heal you if you climb inside.",
     "CodexCategory": "Human Technology"
   },
@@ -274,94 +244,91 @@
     "StaticPrefabType": "XENOSTONE_PLATFORM_BLOCK",
     "SaveName": "Xenostone Platform Block",
     "Name": "Xenostone Platform Block",
-    "DisplayName": "Xenostone Platform Block",
+    "Description": "This block seems too weak and may be vulnerable to repeated strikes from a truly huge kinetic impact.",
     "CodexCategory": "Alien Architecture"
   },
   {
     "StaticPrefabType": "XENOSTONE_IRONBACK_PEDESTAL",
     "SaveName": "Xenostone Ironback Pedestal",
     "Name": "Xenostone Ironback Pedestal",
-    "DisplayName": "Xenostone Ironback Pedestal",
+    "Description": "This appears to be a decorative shelf or ledge, but it is composed of an unknown material that my scans cannot penetrate.",
     "CodexCategory": "Alien Architecture"
   },
   {
     "StaticPrefabType": "MAP",
     "SaveName": "Map",
     "Name": "Map",
-    "DisplayName": "Map",
     "CodexCategory": "Human Decoration"
   },
   {
     "StaticPrefabType": "ASTEROID_WALL",
     "SaveName": "Asteroid Wall",
     "Name": "Asteroid Wall",
-    "DisplayName": "Asteroid Wall",
+    "Description": "A formation of asteroid rock that seems to be housing a strange purple crystal. A sufficient jolt should release the crystal.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_CEILING_HAZARD",
     "SaveName": "Asteroid Ceiling Hazard",
-    "Name": "Asteroid Ceiling Hazard",
-    "DisplayName": "Asteroid Ceiling Hazard",
+    "Name": "Packed Asteroid Rocks",
+    "Description": "A collection of loosely packed rocks, held together by some kind of silicon-based residue.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_0",
     "SaveName": "Asteroid Decor 0",
-    "Name": "Asteroid Decor 0",
-    "DisplayName": "Asteroid Decor 0",
+    "Name": "Asteroid Rock",
+    "Description": "A piece of asteroid rock.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_1",
     "SaveName": "Asteroid Decor 1",
-    "Name": "Asteroid Decor 1",
-    "DisplayName": "Asteroid Decor 1",
+    "Name": "Asteroid Rock",
+    "Description": "A piece of asteroid rock.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_2",
     "SaveName": "Asteroid Decor 2",
-    "Name": "Asteroid Decor 2",
-    "DisplayName": "Asteroid Decor 2",
+    "Name": "Asteroid Rock",
+    "Description": "A piece of asteroid rock.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_CEILING_STORY_STONE",
     "SaveName": "Asteroid Ceiling Story Stone",
-    "Name": "Asteroid Ceiling Story Stone",
-    "DisplayName": "Asteroid Ceiling Story Stone",
+    "Name": "Precarious Asteroid Rock",
+    "Description": "A precariously perched chunk of a strange stone. A sufficiently violent jolt should dislodge it.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_3",
     "SaveName": "Asteroid Decor 3",
-    "Name": "Asteroid Decor 3",
-    "DisplayName": "Asteroid Decor 3",
+    "Name": "Asteroid Rock",
+    "Description": "A piece of asteroid rock.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_4",
     "SaveName": "Asteroid Decor 4",
-    "Name": "Asteroid Decor 4",
-    "DisplayName": "Asteroid Decor 4",
+    "Name": "Asteroid Rock",
+    "Description": "A piece of asteroid rock.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_5",
     "SaveName": "Asteroid Decor 5",
-    "Name": "Asteroid Decor 5",
-    "DisplayName": "Asteroid Decor 5",
+    "Name": "Asteroid Rock",
+    "Description": "A piece of asteroid rock.",
     "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ESCAPE_POD_NEW",
     "SaveName": "Escape Pod New",
-    "Name": "Escape Pod New",
-    "DisplayName": "Escape Pod New",
+    "Name": "Landing Pod",
     "Description": "A high tech escape pod, commonly used to escape from ships as they are under attack or threatened. Unpowered.",
     "CodexCategory": "Human Technology",
-    "TooltipNameOverride": "Landing Pod",
     "SpecificTooltips": {
       "chair": "Landing Pod Chair",
       "openClose": "Open/Close button",
@@ -373,21 +340,20 @@
     "StaticPrefabType": "GRAV_LIFT",
     "SaveName": "Grav Lift",
     "Name": "Grav Lift",
-    "DisplayName": "Grav Lift",
+    "Description": "A device that uses electricity to neutralize gravity through a series of highly realistic and plausible mechanisms.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "MATERIAL_DISPENSER",
     "SaveName": "Material Dispenser",
     "Name": "Material Dispenser",
-    "DisplayName": "Material Dispenser",
+    "Description": "A device that dispenses items as authorized by the AGIS network.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "MEG_STATION",
     "SaveName": "MEG Station",
     "Name": "MEG Station",
-    "DisplayName": "MEG Station",
     "Description": "This is a MEG tool install station.",
     "CodexCategory": "Human Technology"
   },
@@ -395,7 +361,6 @@
     "StaticPrefabType": "TELEPORTER",
     "SaveName": "Teleporter",
     "Name": "Teleporter",
-    "DisplayName": "Teleporter",
     "Description": "That is an experimental teleportation device. It can teleport you to other linked teleporters.",
     "CodexCategory": "Human Technology"
   },
@@ -403,7 +368,6 @@
     "StaticPrefabType": "XENOID_DEPLOYMENT_POD",
     "SaveName": "Xenoid Deployment Pod",
     "Name": "Xenoid Deployment Pod",
-    "DisplayName": "Xenoid Deployment Pod",
     "Description": "This appears to be some kind of highly advanced travel pod. You do not detect any signs of life within.",
     "CodexCategory": "Alien Technology"
   },
@@ -411,35 +375,33 @@
     "StaticPrefabType": "REHAB_SCREEN",
     "SaveName": "Rehab Screen",
     "Name": "Rehab Screen",
-    "DisplayName": "Rehab Screen",
+    "Description": "A calming virtual screen that reminds the user of what it was like to breathe air that hasn't been recirculated countless times.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "TECH_GATE",
     "SaveName": "Tech Gate",
     "Name": "Tech Gate",
-    "DisplayName": "Tech Gate",
+    "Description": "A highly advanced technological gate, used to allow or prevent access.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "TECH_CAMERA",
     "SaveName": "Tech Camera",
     "Name": "Tech Camera",
-    "DisplayName": "Tech Camera",
+    "Description": "Part of the glorious panopticon known as existence.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "TECH_GUN_TURRET",
     "SaveName": "Tech Gun Turret",
     "Name": "Tech Gun Turret",
-    "DisplayName": "Tech Gun Turret",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "XENOID_CLAW_STATUE",
     "SaveName": "Xenoid Claw Statue",
     "Name": "Xenoid Claw Statue",
-    "DisplayName": "Xenoid Claw Statue",
     "Description": "That is some sort of strange statue. It seems to be designed to hold something spherical.",
     "CodexCategory": "Alien Statue"
   },
@@ -447,7 +409,6 @@
     "StaticPrefabType": "XENOID_TABLET_ALTAR",
     "SaveName": "Xenoid Tablet Altar",
     "Name": "Xenoid Tablet Altar",
-    "DisplayName": "Xenoid Tablet Altar",
     "Description": "My first thought was that this was some kind of decoration, but between the cracks I can sense some kind of complex interior structure.",
     "CodexCategory": "Alien Decoration"
   },
@@ -455,7 +416,6 @@
     "StaticPrefabType": "XENOID_CLAW_DOOR",
     "SaveName": "Xenoid Claw Door",
     "Name": "Xenoid Claw Door",
-    "DisplayName": "Xenoid Claw Door",
     "Description": "This appears to be some kind of bizarre door.",
     "CodexCategory": "Alien Doors"
   },
@@ -463,7 +423,6 @@
     "StaticPrefabType": "XENOID_SOURCE_EXPANSION",
     "SaveName": "Xenoid Source Expansion",
     "Name": "Xenoid Source Expansion",
-    "DisplayName": "Xenoid Source Expansion",
     "Description": "It seems to be some kind of pedestal with a strange crystal protected by a thin layer of glass. No clue what it is or does.",
     "CodexCategory": "Alien Technology"
   },
@@ -471,7 +430,6 @@
     "StaticPrefabType": "XENOID_TABLET_ALTAR_PEDESTAL",
     "SaveName": "Xenoid Tablet Altar Pedestal",
     "Name": "Xenoid Tablet Altar Pedestal",
-    "DisplayName": "Xenoid Tablet Altar Pedestal",
     "Description": "This is some sort of platform.",
     "CodexCategory": "Alien Decoration"
   },
@@ -479,7 +437,6 @@
     "StaticPrefabType": "XENOID_CORNER_DECOR_0",
     "SaveName": "Xenoid Corner Decor 0",
     "Name": "Xenoid Corner Decor 0",
-    "DisplayName": "Xenoid Corner Decor 0",
     "Description": "That is some sort of strange statue.",
     "CodexCategory": "Alien Decoration"
   },
@@ -487,7 +444,6 @@
     "StaticPrefabType": "XENOID_DOORWAY_DECOR_0",
     "SaveName": "Xenoid Doorway Decor 0",
     "Name": "Xenoid Doorway Decor 0",
-    "DisplayName": "Xenoid Doorway Decor 0",
     "Description": "That is some sort of strange statue.",
     "CodexCategory": "Alien Decoration"
   },
@@ -495,7 +451,6 @@
     "StaticPrefabType": "XENOSTONE_PILLAR",
     "SaveName": "Xenostone Pillar",
     "Name": "Xenostone Pillar",
-    "DisplayName": "Xenostone Pillar",
     "Description": "A metal door that automatically opens when players are near.",
     "CodexCategory": "Alien Architecture"
   },
@@ -503,29 +458,27 @@
     "StaticPrefabType": "XENOID_CHANDELIER",
     "SaveName": "Xenoid Chandelier",
     "Name": "Xenoid Chandelier",
-    "DisplayName": "Xenoid Chandelier",
-    "Description": "That appears to be some kind of chandelier",
+    "Description": "That appears to be some kind of chandelier.",
     "CodexCategory": "Alien Decoration"
   },
   {
     "StaticPrefabType": "XENOSTONE_PILLAR_FULL",
     "SaveName": "Xenostone Pillar Full",
     "Name": "Xenostone Pillar Full",
-    "DisplayName": "Xenostone Pillar Full",
+    "Description": "A decorative pillar composed of an unknown material that my scans cannot penetrate.",
     "CodexCategory": "Alien Architecture"
   },
   {
     "StaticPrefabType": "XENOSTONE_PILLAR_RUINED_CEILING",
     "SaveName": "Xenostone Pillar Ruined Ceiling",
     "Name": "Xenostone Pillar Ruined Ceiling",
-    "DisplayName": "Xenostone Pillar Ruined Ceiling",
+    "Description": "A decorative pillar composed of an unknown material that my scans cannot penetrate.",
     "CodexCategory": "Alien Architecture"
   },
   {
     "StaticPrefabType": "XENOSTONE_DRIPPER",
     "SaveName": "Xenostone Dripper",
     "Name": "Xenostone Dripper",
-    "DisplayName": "Xenostone Dripper",
     "Description": "This appears to be some kind of unknown defense mechanism.",
     "CodexCategory": "Alien Technology"
   },
@@ -533,7 +486,6 @@
     "StaticPrefabType": "RUINED_SEAL_DOOR",
     "SaveName": "Ruined Seal Door",
     "Name": "Ruined Seal Door",
-    "DisplayName": "Ruined Seal Door",
     "Description": "This seems to be some kind of bunker door composed of an unknown material. It looks weak, and may be damaged by explosions.",
     "CodexCategory": "Alien Architecture"
   },
@@ -541,7 +493,6 @@
     "StaticPrefabType": "RUINED_BUNKER_DOOR",
     "SaveName": "Ruined Bunker Door",
     "Name": "Ruined Bunker Door",
-    "DisplayName": "Ruined Bunker Door",
     "Description": "This seems to be some kind of bunker door composed of an unknown material. It looks weak, and may be damaged by explosions.",
     "CodexCategory": "Alien Architecture"
   },
@@ -549,7 +500,6 @@
     "StaticPrefabType": "DUGLETTE_SNARE_TRAP",
     "SaveName": "Snare Trap",
     "Name": "Snare Trap",
-    "DisplayName": "Snare Trap",
     "Description": "This appears to be some kind of makeshift trap.",
     "CodexCategory": "Makeshift Trap"
   },
@@ -557,7 +507,6 @@
     "StaticPrefabType": "DUGLETTE_SPIKE_TRAP",
     "SaveName": "Spike Trap",
     "Name": "Spike Trap",
-    "DisplayName": "Spike Trap",
     "Description": "This appears to be some kind of makeshift trap.",
     "CodexCategory": "Makeshift Trap"
   },
@@ -565,7 +514,6 @@
     "StaticPrefabType": "LARGE_MAKESHIFT_TREE",
     "SaveName": "Large Makeshift Tree",
     "Name": "Large Makeshift Tree",
-    "DisplayName": "Large Makeshift Tree",
     "Description": "This appears to be a tree that has been colonized by some weird little creatures.",
     "CodexCategory": "Environmental"
   },
@@ -573,7 +521,6 @@
     "StaticPrefabType": "SMALL_MAKESHIFT_TREE",
     "SaveName": "Small Makeshift Tree",
     "Name": "Small Makeshift Tree",
-    "DisplayName": "Small Makeshift Tree",
     "Description": "This appears to be a tree that has been colonized by some weird little creatures.",
     "CodexCategory": "Environmental"
   },
@@ -581,14 +528,12 @@
     "StaticPrefabType": "DUGLETTE_MOUND",
     "SaveName": "Duglette Mound",
     "Name": "Duglette Mound",
-    "DisplayName": "Duglette Mound",
     "Description": "A mound that houses weird little creatures."
   },
   {
     "StaticPrefabType": "DARK_DUGLETTE_MOUND",
     "SaveName": "Dark Duglette Mound",
     "Name": "Dark Duglette Mound",
-    "DisplayName": "Dark Duglette Mound",
     "Description": "A mound that houses weird little creatures.",
     "CodexCategory": "Creature Den"
   },
@@ -596,7 +541,6 @@
     "StaticPrefabType": "GRASS_DUGLETTE_MOUND",
     "SaveName": "Grass Duglette Mound",
     "Name": "Grass Duglette Mound",
-    "DisplayName": "Grass Duglette Mound",
     "Description": "A mound that houses weird little creatures.",
     "CodexCategory": "Creature Den"
   },
@@ -604,7 +548,6 @@
     "StaticPrefabType": "REINFORCED_DUGLETTE_MOUND",
     "SaveName": "Reinforced Duglette Mound",
     "Name": "Reinforced Duglette Mound",
-    "DisplayName": "Reinforced Duglette Mound",
     "Description": "A mound that houses weird little creatures.",
     "CodexCategory": "Creature Den"
   },
@@ -612,7 +555,6 @@
     "StaticPrefabType": "SPORE_POD",
     "SaveName": "Spore Pod",
     "Name": "Spore Pod",
-    "DisplayName": "Spore Pod",
     "Description": "That appears to be some kind of spore pod.",
     "CodexCategory": "Environmental"
   },
@@ -621,6 +563,7 @@
     "SaveName": "Tortoise Ceiling Decor 0",
     "Name": "Tortoise Ceiling Decor 0",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
@@ -628,6 +571,7 @@
     "SaveName": "Tortoise Ceiling Decor 1",
     "Name": "Tortoise Ceiling Decor 1",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
@@ -635,6 +579,7 @@
     "SaveName": "Tortoise Ceiling Decor 2",
     "Name": "Tortoise Ceiling Decor 2",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
@@ -642,6 +587,7 @@
     "SaveName": "Tortoise Ceiling Decor 3",
     "Name": "Tortoise Ceiling Decor 3",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
@@ -649,6 +595,7 @@
     "SaveName": "Tortoise Overhang Decor 0",
     "Name": "Tortoise Overhang Decor 0",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
@@ -656,6 +603,7 @@
     "SaveName": "Tortoise Overhang Decor 1",
     "Name": "Tortoise Overhang Decor 1",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
@@ -663,6 +611,7 @@
     "SaveName": "Tortoise Overhang Decor 2",
     "Name": "Tortoise Overhang Decor 2",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
@@ -670,6 +619,7 @@
     "SaveName": "Tortoise Underhang Decor 0",
     "Name": "Tortoise Underhang Decor 0",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
@@ -677,139 +627,136 @@
     "SaveName": "Tortoise Wall Spikes",
     "Name": "Tortoise Wall Spikes",
     "DisplayName": "Spiky Growth",
+    "Description": "A chunk of compacted dirt embedded with sharp spikes.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "TORTOISE_EGG_CLUTCH",
     "SaveName": "Tortoise Egg Clutch",
     "Name": "Tortoise Egg Clutch",
-    "DisplayName": "Tortoise Egg Clutch",
     "Description": "That is a clutch of some kind of alien turtle eggs.",
     "CodexCategory": "Eggs"
   },
   {
     "StaticPrefabType": "DUGLETTE_TWIG_0",
     "SaveName": "Duglette Twig 0",
-    "Name": "Duglette Twig 0",
-    "DisplayName": "Duglette Twig Decoration",
+    "Name": "Twig Decoration",
+    "Description": "Some kind of decoration made of sticks and cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_TWIG_1",
     "SaveName": "Duglette Twig 1",
-    "Name": "Duglette Twig 1",
-    "DisplayName": "Duglette Twig Decoration",
+    "Name": "Twig Decoration",
+    "Description": "Some kind of decoration made of sticks and cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_TWIG_2",
     "SaveName": "Duglette Twig 2",
-    "Name": "Duglette Twig 2",
-    "DisplayName": "Duglette Twig Decoration",
+    "Name": "Twig Decoration",
+    "Description": "Some kind of decoration made of sticks and cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_TWIG_3",
     "SaveName": "Duglette Twig 3",
-    "Name": "Duglette Twig 3",
-    "DisplayName": "Duglette Twig Decoration",
+    "Name": "Twig Decoration",
+    "Description": "Some kind of decoration made of sticks and cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_TOTEM",
     "SaveName": "Duglette Totem",
     "Name": "Duglette Totem",
-    "DisplayName": "Duglette Totem",
+    "Description": "A decorative wooden structure.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_WOOD_BUNDLE",
     "SaveName": "Duglette Wood Bundle",
     "Name": "Duglette Wood Bundle",
-    "DisplayName": "Duglette Wood Bundle",
+    "Description": "A bundle of logs tied together with some cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DEAD_TORTOISE",
     "SaveName": "Dead Tortoise",
     "Name": "Dead Tortoise",
-    "DisplayName": "Dead Tortoise",
+    "Description": "A dead giant tortoise-like creature, covered in gross mushroom spores.",
     "CodexCategory": "Remains"
   },
   {
     "StaticPrefabType": "TECH_RETINA_SCANNER",
     "SaveName": "Tech Retina Scanner",
     "Name": "Tech Retina Scanner",
-    "DisplayName": "Tech Retina Scanner",
     "Description": "That is a biometric facial analysis device. It will activate nearby doors if it detects the right person's face.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "DUGLETTE_GRASS",
     "SaveName": "Duglette Grass 0",
-    "Name": "Duglette Grass 0",
-    "DisplayName": "Duglette Grass 0",
+    "Name": "Bundle of Grass",
+    "Description": "A bundle of grass tied with some fabric.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_BARRICADE",
     "SaveName": "Duglette Barricade",
     "Name": "Duglette Barricade",
-    "DisplayName": "Duglette Barricade",
     "Description": "A hurty barricade",
     "CodexCategory": "Makeshift Technology"
   },
   {
     "StaticPrefabType": "DUGLETTE_LOG_TRAP_0",
     "SaveName": "Duglette Trap Log 0",
-    "Name": "Duglette Trap Log 0",
-    "DisplayName": "Duglette Log Decoration",
+    "Name": "Log Decoration",
+    "Description": "Some sort of decoration made of logs and cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_LOG_TRAP_1",
     "SaveName": "Duglette Trap Log 1",
-    "Name": "Duglette Trap Log 1",
-    "DisplayName": "Duglette Log Decoration",
+    "Name": "Log Decoration",
+    "Description": "Some sort of decoration made of logs and cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_STONE_TRAP_0",
     "SaveName": "Duglette Trap Stone 0",
-    "Name": "Duglette Trap Stone 0",
-    "DisplayName": "Duglette Stone Decoration",
+    "Name": "Hanging Stone",
+    "Description": "A chunk of stone hung with some cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_STONE_TRAP_1",
     "SaveName": "Duglette Trap Stone 1",
-    "Name": "Duglette Trap Stone 1",
-    "DisplayName": "Duglette Stone Decoration",
+    "Name": "Hanging Stone",
+    "Description": "A chunk of stone hung with some cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_WALL_SHELF_0",
     "SaveName": "Duglette Wall Shelf 0",
-    "Name": "Duglette Wall Shelf 0",
-    "DisplayName": "Duglette Shelf",
+    "Name": "Decorative Shelf",
+    "Description": "A decorative shelf made of wood and cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "DUGLETTE_WALL_SHELF_1",
     "SaveName": "Duglette Wall Shelf 1",
-    "Name": "Duglette Wall Shelf 1",
-    "DisplayName": "Duglette Shelf",
+    "Name": "Decorative Shelf",
+    "Description": "A decorative shelf made of wood and cloth.",
     "CodexCategory": "Makeshift Decorations"
   },
   {
     "StaticPrefabType": "SATELLITE_RELAY",
     "SaveName": "Satellite Relay",
     "Name": "Satellite Relay",
-    "DisplayName": "Satellite Relay",
     "Description": "That is a satellite relay for contacting orbital assets and ships within the solar system.",
     "CodexCategory": "Human Technology",
     "DescriptionsByState": {
-      "disabled": "That is a satellite relay for contacting orbital assets and ships within the solar system. It seems to be missing it's signal decoder.",
+      "disabled": "That is a satellite relay for contacting orbital assets and ships within the solar system. It seems to be missing its signal decoder.",
       "placeDecoder": "That is a satellite relay for contacting orbital assets and ships within the solar system. It can be activated with a nearby communications junction.",
       "disabledDecoderPlaced": "That is a satellite relay for contacting orbital assets and ships within the solar system. It can be activated with a nearby communications junction.",
       "realign": "That is a satellite relay for contacting orbital assets and ships within the solar system. It can be activated with a nearby communications junction.",
@@ -820,7 +767,6 @@
     "StaticPrefabType": "DUGLETTE_PIT_TRAP",
     "SaveName": "Pit Trap",
     "Name": "Pit Trap",
-    "DisplayName": "Pit Trap",
     "Description": "This appears to be some kind of makeshift trap.",
     "CodexCategory": "Makeshift Trap"
   },
@@ -828,7 +774,6 @@
     "StaticPrefabType": "DUGLETTE_POISON_TRAP",
     "SaveName": "Poison Trap",
     "Name": "Poison Trap",
-    "DisplayName": "Poison Trap",
     "Description": "This appears to be some kind of makeshift trap.",
     "CodexCategory": "Makeshift Trap"
   },
@@ -853,7 +798,7 @@
     "SaveName": "Xenoid Waypoint Room Pedestal Exit",
     "Name": "Xenoid Waypoint Room Pedestal Exit",
     "DisplayName": "Xenoid Curved Decoration",
-    "Description": "This device appears to be more than just decorative, but it's purpose is unclear.",
+    "Description": "This device appears to be more than just decorative, but its purpose is unclear.",
     "CodexCategory": "Alien Technology"
   },
   {
@@ -868,7 +813,6 @@
     "StaticPrefabType": "XENOID_WAYPOINT_ROOM_HEAD_DECOR_EXIT",
     "SaveName": "Xenoid Waypoint Room Head Decor Exit",
     "Name": "Xenoid Waypoint Room Head Decor Exit",
-    "DisplayName": "Xenoid Waypoint Room Head Decor Exit",
     "Description": "This is some kind of decorative statue.",
     "CodexCategory": "Alien Statue"
   },
@@ -876,7 +820,6 @@
     "StaticPrefabType": "XENOID_WAYPOINT_ROOM_HEAD_DECOR_ENTRY",
     "SaveName": "Xenoid Waypoint Room Head Decor Entry",
     "Name": "Xenoid Waypoint Room Head Decor Entry",
-    "DisplayName": "Xenoid Waypoint Room Head Decor Entry",
     "Description": "This is some kind of decorative statue.",
     "CodexCategory": "Alien Statue"
   },
@@ -900,7 +843,6 @@
     "StaticPrefabType": "XENOSTONE_DRIPPER_FACING_RIGHT",
     "SaveName": "Xenostone Dripper",
     "Name": "Xenostone Dripper",
-    "DisplayName": "Xenostone Dripper",
     "Description": "This appears to be some kind of unknown defense mechanism.",
     "CodexCategory": "Alien Technology"
   },
@@ -908,7 +850,6 @@
     "StaticPrefabType": "XENOID_ARMORED_DEFENSE_TURRET",
     "SaveName": "Xenoid Armored Defense Turret",
     "Name": "Xenoid Armored Defense Turret",
-    "DisplayName": "Xenoid Armored Defense Turret",
     "Description": "This appears to be some kind of unknown defense mechanism.",
     "CodexCategory": "Alien Technology"
   },
@@ -916,7 +857,6 @@
     "StaticPrefabType": "SPHERE_CAPACITOR",
     "SaveName": "Sphere Capacitor",
     "Name": "Sphere Capacitor",
-    "DisplayName": "Sphere Capacitor",
     "Description": "That appears to be some kind of capacitor.",
     "CodexCategory": "Alien Technology"
   },
@@ -924,7 +864,6 @@
     "StaticPrefabType": "XENOID_CARRIER_DOOR",
     "SaveName": "Xenoid Carrier Door",
     "Name": "Xenoid Carrier Door",
-    "DisplayName": "Xenoid Carrier Door",
     "Description": "That appears to be some kind of door, although it does not match any known engineering methods.",
     "CodexCategory": "Alien Doors"
   },
@@ -932,7 +871,6 @@
     "StaticPrefabType": "XENOID_CARRIER_POD_SUPPORT",
     "SaveName": "Xenoid Carrier Pod Support",
     "Name": "Xenoid Carrier Pod Support",
-    "DisplayName": "Xenoid Carrier Pod Support",
     "Description": "This is some sort of large alien tube used for moving things around this alien stucture.",
     "CodexCategory": "Alien Architecture"
   },
@@ -940,7 +878,6 @@
     "StaticPrefabType": "XENOID_CARRIER_POD_PORT",
     "SaveName": "Xenoid Carrier Pod Port",
     "Name": "Xenoid Carrier Pod Port",
-    "DisplayName": "Xenoid Carrier Pod Port",
     "Description": "This appears to be a port that is used to transfer alien alien deployment pods to their launch location.",
     "CodexCategory": "Alien Technology"
   },
@@ -948,7 +885,6 @@
     "StaticPrefabType": "XENOID_CARRIER_LOCAL_WAYPOINT",
     "SaveName": "Xenoid Carrier Local Waypoint",
     "Name": "Xenoid Carrier Local Waypoint",
-    "DisplayName": "Xenoid Carrier Local Waypoint",
     "Description": "This piece of alien technology appears decorative, but it hums with some kind of energy.",
     "CodexCategory": "Alien Technology"
   },
@@ -956,7 +892,6 @@
     "StaticPrefabType": "XENOID_CARRIER_WARPGATE",
     "SaveName": "Xenoid Carrier Warpgate",
     "Name": "Xenoid Carrier Warpgate",
-    "DisplayName": "Xenoid Carrier Warpgate",
     "Description": "This massive structure appears to be some kind of portal generator.",
     "CodexCategory": "Alien Technology"
   },
@@ -964,7 +899,6 @@
     "StaticPrefabType": "XENOID_CARRIER_WARPGATE_TURRET_MOUNT",
     "SaveName": "Xenoid Carrier Warpgate Turret Mount",
     "Name": "Xenoid Carrier Warpgate Turret Mount",
-    "DisplayName": "Xenoid Carrier Warpgate Turret Mount",
     "Description": "This piece of alien technology seems mostly structural.",
     "CodexCategory": "Alien Technology"
   },
@@ -972,7 +906,6 @@
     "StaticPrefabType": "XENOID_CARRIER_WALL_CONDUIT",
     "SaveName": "Xenoid Wall Conduit",
     "Name": "Xenoid Wall Conduit",
-    "DisplayName": "Xenoid Wall Conduit",
     "Description": "This looks like some kind of battery. It appears that it can power connected devices.",
     "CodexCategory": "Alien Technology"
   },
@@ -980,7 +913,6 @@
     "StaticPrefabType": "XENOID_CARRIER_SUPPLY_ROOM_OBSTRUCTION",
     "SaveName": "Supply Room Obstruction",
     "Name": "Supply Room Obstruction",
-    "DisplayName": "Supply Room Obstruction",
     "Description": "This is some kind of overgrowth of unfamiliar material.",
     "CodexCategory": "Alien Overgrowth"
   },
@@ -988,7 +920,6 @@
     "StaticPrefabType": "XENOID_CARRIER_DERELICT_REFLECTOR_MOUNT",
     "SaveName": "Derelict Reflector Mount",
     "Name": "Derelict Reflector Mount",
-    "DisplayName": "Derelict Reflector Mount",
     "Description": "This alien device seems to be a mount for some kind of energy reflector. It has a small button on the right side.",
     "CodexCategory": "Alien Technology"
   },
@@ -996,7 +927,6 @@
     "StaticPrefabType": "XENOID_CARRIER_BEAM_STABILIZER",
     "SaveName": "Beam Stabilizer",
     "Name": "Beam Stabilizer",
-    "DisplayName": "Beam Stabilizer",
     "Description": "This alien technology seems to occasionally output a ball of energy. Its purpose is unclear.",
     "CodexCategory": "Alien Technology"
   },
@@ -1004,7 +934,6 @@
     "StaticPrefabType": "XENOID_CARRIER_MANUFACTURER_SE",
     "SaveName": "Carrier Manufacturer SE",
     "Name": "Carrier Manufacturer SE",
-    "DisplayName": "Carrier Manufacturer SE",
     "Description": "This is an unknown type of crystal that is mounted in a machine of apparently alien construction.",
     "CodexCategory": "Alien Technology"
   },
@@ -1012,7 +941,6 @@
     "StaticPrefabType": "XENOID_CARRIER_MANUFACTURER_SW",
     "SaveName": "Carrier Manufacturer SW",
     "Name": "Carrier Manufacturer SW",
-    "DisplayName": "Carrier Manufacturer SW",
     "Description": "This is an unknown type of crystal that is mounted in a machine of apparently alien construction.",
     "CodexCategory": "Alien Technology"
   },
@@ -1020,7 +948,6 @@
     "StaticPrefabType": "XENOID_CARRIER_MANUFACTURER_NE",
     "SaveName": "Carrier Manufacturer NE",
     "Name": "Carrier Manufacturer NE",
-    "DisplayName": "Carrier Manufacturer NE",
     "Description": "This is an unknown type of crystal that is mounted in a machine of apparently alien construction.",
     "CodexCategory": "Alien Technology"
   },
@@ -1028,7 +955,6 @@
     "StaticPrefabType": "XENOID_CARRIER_MANUFACTURER_NW",
     "SaveName": "Carrier Manufacturer NW",
     "Name": "Carrier Manufacturer NW",
-    "DisplayName": "Carrier Manufacturer NW",
     "Description": "This is an unknown type of crystal that is mounted in a machine of apparently alien construction.",
     "CodexCategory": "Alien Technology"
   },
@@ -1092,7 +1018,6 @@
     "StaticPrefabType": "XENOID_CARRIER_VENT",
     "SaveName": "Xenoid Carrier Vent",
     "Name": "Xenoid Carrier Vent",
-    "DisplayName": "Xenoid Carrier Vent",
     "Description": "This is some kind of vent, ostensibly used for eliminating hazardous gasses.",
     "CodexCategory": "Alien Technology"
   },
@@ -1100,7 +1025,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CORRIDOR_SUPPORT_0",
     "SaveName": "Corridor Support 0",
     "Name": "Corridor Support 0",
-    "DisplayName": "Corridor Support 0",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1108,7 +1032,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CORRIDOR_SUPPORT_1",
     "SaveName": "Corridor Support 1",
     "Name": "Corridor Support 1",
-    "DisplayName": "Corridor Support 1",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1116,7 +1039,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CORRIDOR_SUPPORT_2",
     "SaveName": "Corridor Support 2",
     "Name": "Corridor Support 2",
-    "DisplayName": "Corridor Support 2",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1124,7 +1046,6 @@
     "StaticPrefabType": "XENOID_CARRIER_PILLAR_SMALL",
     "SaveName": "Carrier Pillar Small",
     "Name": "Carrier Pillar Small",
-    "DisplayName": "Carrier Pillar Small",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1132,7 +1053,6 @@
     "StaticPrefabType": "XENOID_CARRIER_PILLAR_MEDIUM",
     "SaveName": "Carrier Pillar Medium",
     "Name": "Carrier Pillar Medium",
-    "DisplayName": "Carrier Pillar Medium",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1140,7 +1060,6 @@
     "StaticPrefabType": "XENOID_CARRIER_PILLAR_LARGE",
     "SaveName": "Carrier Pillar Large",
     "Name": "Carrier Pillar Large",
-    "DisplayName": "Carrier Pillar Large",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1148,7 +1067,6 @@
     "StaticPrefabType": "XENOID_MANUFACTURER_CORE",
     "SaveName": "Carrier Manufacturer Core",
     "Name": "Carrier Manufacturer Core",
-    "DisplayName": "Carrier Manufacturer Core",
     "Description": "This massive structure's purpose is not immediately obvious. It has what appears to be a tray to hold items and a lever.",
     "CodexCategory": "Alien Technology"
   },
@@ -1156,7 +1074,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CEILING_LAMP",
     "SaveName": "Carrier Ceiling Lamp",
     "Name": "Carrier Ceiling Lamp",
-    "DisplayName": "Carrier Ceiling Lamp",
     "Description": "That is some kind of alien light source.",
     "CodexCategory": "Alien Lighting"
   },
@@ -1164,7 +1081,6 @@
     "StaticPrefabType": "XENOID_CARRIER_WALL_LAMP",
     "SaveName": "Xenoid Carrier Powered Wall Lamp",
     "Name": "Xenoid Carrier Powered Wall Lamp",
-    "DisplayName": "Xenoid Carrier Powered Wall Lamp",
     "Description": "That is some kind of alien light source.",
     "CodexCategory": "Alien Lighting"
   },
@@ -1172,7 +1088,6 @@
     "StaticPrefabType": "XENOID_CARRIER_DROP_WALKWAY",
     "SaveName": "Carrier Drop Walkway",
     "Name": "Carrier Drop Walkway",
-    "DisplayName": "Carrier Drop Walkway",
     "Description": "This is just a walkway.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1180,7 +1095,6 @@
     "StaticPrefabType": "XENOID_CARRIER_SCAFFOLDING",
     "SaveName": "Carrier Scaffolding",
     "Name": "Carrier Scaffolding",
-    "DisplayName": "Carrier Scaffolding",
     "Description": "This is some scaffolding composed of an unknown material.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1188,7 +1102,6 @@
     "StaticPrefabType": "POWER_COUPLING",
     "SaveName": "Power Coupling",
     "Name": "Power Coupling",
-    "DisplayName": "Power Coupling",
     "Description": "This is some kind of alien power transfer technology. It looks like it has two holes for some kind of spherical device.",
     "CodexCategory": "Alien Technology"
   },
@@ -1284,7 +1197,6 @@
     "StaticPrefabType": "XENOID_CARRIER_BARREL_HAZARD",
     "SaveName": "Carrier Barrel Hazard",
     "Name": "Carrier Barrel Hazard",
-    "DisplayName": "Carrier Barrel Hazard",
     "Description": "This seems to be some kind of storage device. The contents cannot be discerned, but the slight hum and vibration or the containment vessel suggests that it contains something volatile.",
     "CodexCategory": "Alien Technology"
   },
@@ -1292,7 +1204,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CEILING_BIN_0",
     "SaveName": "Xenoid Carrier Bin 0",
     "Name": "Xenoid Carrier Bin 0",
-    "DisplayName": "Xenoid Carrier Bin 0",
     "Description": "This strange alien device seems to be purely decorative.",
     "CodexCategory": "Alien Decoration",
     "SaveAliases": [
@@ -1303,7 +1214,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CEILING_BIN_1",
     "SaveName": "Xenoid Carrier Bin 1",
     "Name": "Xenoid Carrier Bin 1",
-    "DisplayName": "Xenoid Carrier Bin 1",
     "Description": "This strange alien device seems to be purely decorative.",
     "CodexCategory": "Alien Decoration",
     "SaveAliases": [
@@ -1314,7 +1224,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CEILING_DECOR_1",
     "SaveName": "Carrier Ceiling Decor 1",
     "Name": "Carrier Ceiling Decor 1",
-    "DisplayName": "Carrier Ceiling Decor 1",
     "Description": "This alien technology's purpose cannot be determined.",
     "CodexCategory": "Alien Decoration"
   },
@@ -1322,7 +1231,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CEILING_DECOR_2",
     "SaveName": "Carrier Ceiling Decor 2",
     "Name": "Carrier Ceiling Decor 2",
-    "DisplayName": "Carrier Ceiling Decor 2",
     "Description": "This alien technology's purpose cannot be determined.",
     "CodexCategory": "Alien Decoration"
   },
@@ -1338,7 +1246,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CORNER_DECOR_0",
     "SaveName": "Carrier Corner Decor 0",
     "Name": "Carrier Corner Decor 0",
-    "DisplayName": "Carrier Corner Decor 0",
     "Description": "This seems to be some kind of alien technology. It is unclear if it has a purpose or if it is purely decorative.",
     "CodexCategory": "Alien Decoration"
   },
@@ -1346,23 +1253,20 @@
     "StaticPrefabType": "XENOID_CARRIER_XENOLITH",
     "SaveName": "Carrier Xenolith",
     "Name": "Carrier Xenolith",
-    "DisplayName": "Carrier Xenolith",
     "Description": "This appears to be either some form of Xenoid decoration or a technology with an unclear purpose. It has a recessed area in the center that suggests a missing element.",
     "CodexCategory": "Alien Technology"
   },
   {
     "StaticPrefabType": "XENOID_CARRIER_CORNER_LAMP",
     "SaveName": "Xenoid Carrier Corner Lamp",
-    "Name": "Xenoid Carrier Corner Lamp",
-    "DisplayName": "Xenoid Carrier Corner Lamp",
-    "Description": "That is some kind of alien light source.",
+    "Name": "Alien Device",
+    "Description": "Some kind of alien device.",
     "CodexCategory": "Alien Lighting"
   },
   {
     "StaticPrefabType": "XENOID_CARRIER_WALKWAY",
     "SaveName": "Carrier Walkway",
     "Name": "Carrier Walkway",
-    "DisplayName": "Carrier Walkway",
     "Description": "That is a walkway composed of unknown materials.",
     "CodexCategory": "Alien Architecture",
     "SaveAliases": [
@@ -1373,7 +1277,6 @@
     "StaticPrefabType": "XENOID_CARRIER_CORNER_DECOR_1",
     "SaveName": "Carrier Corner Decor 1",
     "Name": "Carrier Corner Decor 1",
-    "DisplayName": "Carrier Corner Decor 1",
     "Description": "This seems to be some kind of alien technology. It is unclear if it has a purpose or if it is purely decorative.",
     "CodexCategory": "Alien Decoration"
   },
@@ -1381,7 +1284,6 @@
     "StaticPrefabType": "XENOID_CARRIER_DECOR_LARGE_0",
     "SaveName": "Carrier Decor Large 0",
     "Name": "Carrier Decor Large 0",
-    "DisplayName": "Carrier Decor Large 0",
     "Description": "This seems to be some kind of alien technology. It is unclear if it has a purpose or if it is purely decorative.",
     "CodexCategory": "Alien Decoration"
   },
@@ -1389,7 +1291,6 @@
     "StaticPrefabType": "XENOID_CARRIER_DECOR_LARGE_1",
     "SaveName": "Carrier Decor Large 1",
     "Name": "Carrier Decor Large 1",
-    "DisplayName": "Carrier Decor Large 1",
     "Description": "This seems to be some kind of alien technology. It is unclear if it has a purpose or if it is purely decorative.",
     "CodexCategory": "Alien Decoration"
   },
@@ -1397,7 +1298,6 @@
     "StaticPrefabType": "XENOID_CARRIER_FLOW_CONTROL",
     "SaveName": "Carrier Flow Control",
     "Name": "Carrier Flow Control",
-    "DisplayName": "Carrier Flow Control",
     "Description": "This appears to be some kind of device that regulates the flow of a strange, glowing fluid. Cutting off the flow may prevent connected devices from functioning.",
     "CodexCategory": "Alien Technology"
   },
@@ -1405,7 +1305,6 @@
     "StaticPrefabType": "SPITTER_LAIR",
     "SaveName": "Spitter Lair",
     "Name": "Spitter Lair",
-    "DisplayName": "Spitter Lair",
     "Description": "A collection of rocks covered in a nasty poison.",
     "CodexCategory": "Creature Den"
   },
@@ -1413,7 +1312,6 @@
     "StaticPrefabType": "TECH_GARBAGE_CHUTE_LARGE",
     "SaveName": "Large Garbage Chute",
     "Name": "Large Garbage Chute",
-    "DisplayName": "Large Garbage Chute",
     "Description": "This is a large garbage chute.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1421,7 +1319,6 @@
     "StaticPrefabType": "TECH_PIPELINE_LARGE",
     "SaveName": "Large Pipeline",
     "Name": "Large Pipeline",
-    "DisplayName": "Large Pipeline",
     "Description": "This is a large pipeline.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1429,7 +1326,6 @@
     "StaticPrefabType": "TECH_RESERVE_GENERATOR",
     "SaveName": "Reserve Generator",
     "Name": "Reserve Generator",
-    "DisplayName": "Reserve Generator",
     "Description": "This is a reserve generator.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1437,7 +1333,6 @@
     "StaticPrefabType": "TECH_WALL_VENT_LARGE",
     "SaveName": "Large Wall Vent",
     "Name": "Large Wall Vent",
-    "DisplayName": "Large Wall Vent",
     "Description": "This is a large wall vent.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1445,7 +1340,6 @@
     "StaticPrefabType": "TECH_GARBAGE_CHUTE_SMALL",
     "SaveName": "Small Garbage Chute",
     "Name": "Small Garbage Chute",
-    "DisplayName": "Small Garbage Chute",
     "Description": "This is a small garbage chute.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1453,7 +1347,6 @@
     "StaticPrefabType": "HEPHAESTUS_HANGAR_AIRLOCK_DOOR",
     "SaveName": "Hangar Airlock Door",
     "Name": "Hangar Airlock Door",
-    "DisplayName": "Hangar Airlock Door",
     "Description": "That is a large airlock door.",
     "CodexCategory": "Doors",
     "DescriptionsByState": {
@@ -1464,30 +1357,27 @@
     "StaticPrefabType": "HEPHAESTUS_HANGAR_CARGO_DOOR",
     "SaveName": "Hangar Cargo Door",
     "Name": "Hangar Cargo Door",
-    "DisplayName": "Hangar Cargo Door",
     "Description": "This is a large cargo door.",
     "CodexCategory": "Doors"
   },
   {
     "StaticPrefabType": "SCANNING_DRONE_DOCK",
     "SaveName": "Hephaestus Scanner Drone Dock",
-    "Name": "Hephaestus Scanner Drone Dock",
-    "DisplayName": "Hephaestus Scanner Drone Dock",
+    "Name": "Scanner Drone Dock",
+    "Description": "A dock for security scanning drones.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "HEPHAESTUS_UTILITY_ARM",
     "SaveName": "Hephaestus Utility Arm",
-    "Name": "Hephaestus Utility Arm",
-    "DisplayName": "Hephaestus Utility Arm",
+    "Name": "Utility Arm",
     "Description": "That is a mechanical utility arm and associated housing.",
     "CodexCategory": "Hephaestus Technology"
   },
   {
     "StaticPrefabType": "HEPHAESTUS_SUPPLY_TABLE",
     "SaveName": "Hephaestus Supply Table",
-    "Name": "Hephaestus Supply Table",
-    "DisplayName": "Hephaestus Supply Table",
+    "Name": "Supply Table",
     "Description": "That is an overly complicated table.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1495,15 +1385,13 @@
     "StaticPrefabType": "HEPHAESTUS_HANGAR_POD_BAY",
     "SaveName": "Hangar Pod Bay",
     "Name": "Hangar Pod Bay",
-    "DisplayName": "Hangar Pod Bay",
     "Description": "That is a bay for maintaining and launching landing pods.",
     "CodexCategory": "Hephaestus Technology"
   },
   {
     "StaticPrefabType": "HEPHAESTUS_BATTERY_CHARGER",
     "SaveName": "Hephaestus Battery Charger",
-    "Name": "Hephaestus Battery Charger",
-    "DisplayName": "Hephaestus Battery Charger",
+    "Name": "Battery Charger",
     "Description": "This is a device used for charging power cores that have been depleted.",
     "CodexCategory": "Human Technology"
   },
@@ -1511,7 +1399,6 @@
     "StaticPrefabType": "SUPPLY_ROOM_DISPLAY",
     "SaveName": "Supply Room Display",
     "Name": "Supply Room Display",
-    "DisplayName": "Supply Room Display",
     "Description": "This is a display used during the MEG tool diagnostics system.",
     "CodexCategory": "Hephaestus Decorations"
   },
@@ -1519,7 +1406,6 @@
     "StaticPrefabType": "RAG_PILE",
     "SaveName": "Rag Pile",
     "Name": "Rag Pile",
-    "DisplayName": "Rag Pile",
     "Description": "This is a dirty pile of oily rags.",
     "CodexCategory": "Human Decoration"
   },
@@ -1529,8 +1415,7 @@
     "Name": "Asteroid Decor 6",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_7",
@@ -1538,8 +1423,7 @@
     "Name": "Asteroid Decor 7",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_8",
@@ -1547,8 +1431,7 @@
     "Name": "Asteroid Decor 8",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_9",
@@ -1556,8 +1439,7 @@
     "Name": "Asteroid Decor 9",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_XENITE_0",
@@ -1565,8 +1447,7 @@
     "Name": "Asteroid Decor Xenite 0",
     "DisplayName": "Crystal Outcropping",
     "Description": "A rocky outcropping with some crystals embedded within it.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_XENITE_1",
@@ -1574,8 +1455,7 @@
     "Name": "Asteroid Decor Xenite 1",
     "DisplayName": "Crystal Outcropping",
     "Description": "A rocky outcropping with some crystals embedded within it.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_XENITE_2",
@@ -1583,22 +1463,19 @@
     "Name": "Asteroid Decor Xenite 2",
     "DisplayName": "Crystal Outcropping",
     "Description": "A rocky outcropping with some crystals embedded within it.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "HANGAR_ACCESS_HATCH",
     "SaveName": "Hangar Access Hatch",
     "Name": "Hangar Access Hatch",
-    "DisplayName": "Hangar Access Hatch",
-    "Description": "That is a safety hatch used for accessing different areas",
+    "Description": "That is a safety hatch used for accessing different areas.",
     "CodexCategory": "Human Doors"
   },
   {
     "StaticPrefabType": "HANGAR_ACCESS_HATCH_VALVE",
     "SaveName": "Hangar Access Hatch Valve",
     "Name": "Hangar Access Hatch Valve",
-    "DisplayName": "Hangar Access Hatch Valve",
     "Description": "That is a valve used for opening a nearby access hatch.",
     "CodexCategory": "Doors"
   },
@@ -1622,7 +1499,6 @@
     "StaticPrefabType": "HANGAR_AIRLOCK_VENT",
     "SaveName": "Hangar Airlock Vent",
     "Name": "Hangar Airlock Vent",
-    "DisplayName": "Hangar Airlock Vent",
     "Description": "That is an airlock vent.",
     "CodexCategory": "Utility"
   },
@@ -1630,7 +1506,6 @@
     "StaticPrefabType": "TECH_DOOR_WITH_PANEL_SMALL",
     "SaveName": "Tech Door With Panel Small",
     "Name": "Tech Door With Panel Small",
-    "DisplayName": "Tech Door With Panel Small",
     "Description": "That is a high-tech steel reinforced door that opens when the panel on the side is used.",
     "CodexCategory": "Human Doors"
   },
@@ -1638,7 +1513,6 @@
     "StaticPrefabType": "TECH_DOOR_WITH_PANEL_MEDIUM",
     "SaveName": "Tech Door With Panel Medium",
     "Name": "Tech Door With Panel Medium",
-    "DisplayName": "Tech Door With Panel Medium",
     "Description": "That is a high-tech steel reinforced door that opens when the panel on the side is used.",
     "CodexCategory": "Human Doors"
   },
@@ -1646,7 +1520,6 @@
     "StaticPrefabType": "TECH_DOOR_WITH_PANEL_LARGE",
     "SaveName": "Tech Door With Panel Large",
     "Name": "Tech Door With Panel Large",
-    "DisplayName": "Tech Door With Panel Large",
     "Description": "That is a high-tech steel reinforced door that opens when the panel on the side is used.",
     "CodexCategory": "Human Doors"
   },
@@ -1654,22 +1527,20 @@
     "StaticPrefabType": "SEISMIC_IMAGER",
     "SaveName": "Seismic Imager",
     "Name": "Seismic Imager",
-    "DisplayName": "Seismic Imager",
+    "Description": "A device that can scan the nearby terrain and add the data to my MEG tool's wrist-mounted map.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "HANGAR_SECURITY_CHECKPOINT",
     "SaveName": "Hangar Security Checkpoint",
     "Name": "Hangar Security Checkpoint",
-    "DisplayName": "Hangar Security Checkpoint",
-    "Description": "This is a security checkpoint",
+    "Description": "This is a security checkpoint.",
     "CodexCategory": "Hephaestus Technology"
   },
   {
     "StaticPrefabType": "HANGAR_SECURITY_GATE",
     "SaveName": "Hangar Security Gate",
     "Name": "Hangar Security Gate",
-    "DisplayName": "Hangar Cargo Door",
     "Description": "That is a large security gate.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1677,7 +1548,6 @@
     "StaticPrefabType": "HANGAR_AIRLOCK_CEILING_VENT",
     "SaveName": "Hangar Airlock Ceiling Vent",
     "Name": "Hangar Airlock Ceiling Vent",
-    "DisplayName": "Hangar Airlock Ceiling Vent",
     "Description": "This is a vent used in an airlock.",
     "CodexCategory": "Doors"
   },
@@ -1685,7 +1555,6 @@
     "StaticPrefabType": "TECHNICIAN_LARRY",
     "SaveName": "Technician Larry",
     "Name": "Technician Larry",
-    "DisplayName": "Technician Larry",
     "Description": "This is Technician Larry and his workstation.",
     "CodexCategory": "Hephaestus Furniture"
   },
@@ -1693,127 +1562,111 @@
     "StaticPrefabType": "THERMOTHROWER_CHARGING_STATION",
     "SaveName": "Thermothrower Charging Station",
     "Name": "Thermothrower Charging Station",
-    "DisplayName": "Thermothrower Charging Station",
-    "Description": "This is a charging station for the Thermothrower.",
+    "Description": "This is a charging station for the Thermothrower. Requires a fully powered reactor in the general proximity to function.",
     "CodexCategory": "Hephaestus Technology"
   },
   {
     "StaticPrefabType": "GRAV_LIFT_WIDE",
     "SaveName": "Wide Grav Lift",
     "Name": "Wide Grav Lift",
-    "DisplayName": "Wide Grav Lift",
+    "Description": "A device that uses electricity to neutralize gravity through a series of highly realistic and plausible mechanisms.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "HYDROPONICS_ALGAE_TANK",
     "SaveName": "Hydroponics Algae Tank",
     "Name": "Hydroponics Algae Tank",
-    "DisplayName": "Hydroponics Algae Tank",
     "Description": "This is a large algae tank."
   },
   {
     "StaticPrefabType": "HYDROPONICS_NUTRIENT_TANK",
     "SaveName": "Hydroponics Nutrient Tank",
     "Name": "Hydroponics Nutrient Tank",
-    "DisplayName": "Hydroponics Nutrient Tank",
     "Description": "This is a large nutrient tank."
   },
   {
     "StaticPrefabType": "HYDROPONICS_PLANTER_TRAY_EMPTY",
     "SaveName": "Hydroponics Empty Planter Tray",
     "Name": "Hydroponics Empty Planter Tray",
-    "DisplayName": "Hydroponics Empty Planter Tray",
-    "Description": "This is a an empty tray used for growing plants."
+    "Description": "This is an empty tray used for growing plants."
   },
   {
     "StaticPrefabType": "HYDROPONICS_PLANTER_TRAY_FULL",
     "SaveName": "Hydroponics Planter Tray",
     "Name": "Hydroponics Planter Tray",
-    "DisplayName": "Hydroponics Planter Tray",
-    "Description": "This is a a tray used for growing plants."
+    "Description": "This is a tray used for growing plants."
   },
   {
     "StaticPrefabType": "HYDROPONICS_UV_LAMP",
     "SaveName": "Hydroponics UV Lamp",
     "Name": "Hydroponics UV Lamp",
-    "DisplayName": "Hydroponics UV Lamp",
     "Description": "This is a lamp that produces light in the ultraviolet spectrum."
   },
   {
     "StaticPrefabType": "HYDROPONICS_WATER_TREATMENT_TERMINAL",
     "SaveName": "Hydroponics Water Treatment Terminal",
     "Name": "Hydroponics Water Treatment Terminal",
-    "DisplayName": "Hydroponics Water Treatment Terminal",
     "Description": "This is a terminal that is used for configuring the water treatment processes of the hydroponics bay."
   },
   {
     "StaticPrefabType": "HYDROPONICS_CUBE_0",
     "SaveName": "Hydroponics Growth Cube 0",
     "Name": "Hydroponics Growth Cube 0",
-    "DisplayName": "Hydroponics Growth Cube 0",
     "Description": "This is a device used for growing plants hydroponically."
   },
   {
     "StaticPrefabType": "HYDROPONICS_CUBE_1",
     "SaveName": "Hydroponics Growth Cube 1",
     "Name": "Hydroponics Growth Cube 1",
-    "DisplayName": "Hydroponics Growth Cube 1",
     "Description": "This is a device used for growing plants hydroponically."
   },
   {
     "StaticPrefabType": "HYDROPONICS_CUBE_EMPTY",
     "SaveName": "Hydroponics Growth Empty Cube",
     "Name": "Hydroponics Growth Empty Cube",
-    "DisplayName": "Hydroponics Growth Empty Cube",
     "Description": "This is a device used for growing plants hydroponically."
   },
   {
     "StaticPrefabType": "HEPH_SIGNAGE",
     "SaveName": "Hephaestus Signage",
     "Name": "Hephaestus Signage",
-    "DisplayName": "Hephaestus Signage",
     "Description": "This is a sign that can direct you around the Hephaestus.",
     "CodexCategory": "Hephaestus Decorations"
   },
   {
     "StaticPrefabType": "HEPHAESTUS_ANGLED_SHELF_SMALL",
     "SaveName": "Hephaestus Small Angled Shelf",
-    "Name": "Hephaestus Small Angled Shelf",
-    "DisplayName": "Hephaestus Small Angled Shelf",
-    "Description": "This is a small shelf",
+    "Name": "Small Angled Shelf",
+    "Description": "This is a small shelf.",
     "CodexCategory": "Hephaestus Decorations"
   },
   {
     "StaticPrefabType": "HEPHAESTUS_ANGLED_SHELF_LARGE",
     "SaveName": "Hephaestus Large Angled Shelf",
-    "Name": "Hephaestus Large Angled Shelf",
-    "DisplayName": "Hephaestus Large Angled Shelf",
+    "Name": "Large Angled Shelf",
     "Description": "This is a large shelf.",
     "CodexCategory": "Hephaestus Decorations"
   },
   {
     "StaticPrefabType": "HEPHAESTUS_FLUID_PIPE_SHORT",
     "SaveName": "Hephaestus Short Fluid Pipe",
-    "Name": "Hephaestus Short Fluid Pipe",
-    "DisplayName": "Hephaestus Short Fluid Pipe",
+    "Name": "Short Fluid Pipe",
     "Description": "This is a short fluid pipe.",
     "CodexCategory": "Hephaestus Technology"
   },
   {
     "StaticPrefabType": "HEPHAESTUS_FLUID_PIPE_LONG",
     "SaveName": "Hephaestus Long Fluid Pipe",
-    "Name": "Hephaestus Long Fluid Pipe",
-    "DisplayName": "Hephaestus Long Fluid Pipe",
+    "Name": "Long Fluid Pipe",
     "Description": "This is a long fluid pipe.",
     "CodexCategory": "Hephaestus Technology"
   },
   {
     "StaticPrefabType": "ASTEROID_CEILING_STORY_STONE_2",
     "SaveName": "Asteroid Ceiling Story Stone2",
-    "Name": "Asteroid Ceiling Story Stone2",
-    "DisplayName": "Asteroid Ceiling Story Stone2",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Strange Stone"
+    "Name": "Packed Asteroid Rocks",
+    "Description": "A collection of loosely packed rocks, held together by some kind of silicon-based residue.",
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "DEAD_XENOID",
@@ -1829,8 +1682,7 @@
     "Name": "Asteroid Decor Surface 0",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_SURFACE_1",
@@ -1838,8 +1690,7 @@
     "Name": "Asteroid Decor Surface 1",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_SURFACE_2",
@@ -1847,8 +1698,7 @@
     "Name": "Asteroid Decor Surface 2",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_SURFACE_3",
@@ -1856,8 +1706,7 @@
     "Name": "Asteroid Decor Surface 3",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_DECOR_SURFACE_4",
@@ -1865,14 +1714,12 @@
     "Name": "Asteroid Decor Surface 4",
     "DisplayName": "Rocky Asteroid Outcropping",
     "Description": "This is a rocky outcropping.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "MASS_DRIVER_MAIN",
     "SaveName": "Mass Driver",
     "Name": "Mass Driver",
-    "DisplayName": "Mass Driver",
     "Description": "This is a Chekhov class mass driver, used for launching things into space at great velocities.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1880,7 +1727,6 @@
     "StaticPrefabType": "DR_STEIN",
     "SaveName": "Dr. Stein",
     "Name": "Dr. Stein",
-    "DisplayName": "Dr. Stein",
     "Description": "This is Dr Stein. He is the lead scientist of the Hephaestus vessel.",
     "CodexCategory": "Hephaestus Furniture"
   },
@@ -1890,8 +1736,7 @@
     "Name": "Asteroid Xenite Growth 0",
     "DisplayName": "Spindly Asteroid Growth",
     "Description": "This is some kind of rocky outcropping that appears to have some kind of organic appendages extending from it, although no living matter can be detected.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_XENITE_GROWTH_1",
@@ -1899,8 +1744,7 @@
     "Name": "Asteroid Xenite Growth 1",
     "DisplayName": "Spindly Asteroid Growth",
     "Description": "This is some kind of rocky outcropping that appears to have some kind of organic appendages extending from it, although no living matter can be detected.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_XENITE_GROWTH_2",
@@ -1908,8 +1752,7 @@
     "Name": "Asteroid Xenite Growth 2",
     "DisplayName": "Spindly Asteroid Growth",
     "Description": "This is some kind of rocky outcropping that appears to have some kind of organic appendages extending from it, although no living matter can be detected.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_XENITE_GROWTH_3",
@@ -1917,8 +1760,7 @@
     "Name": "Asteroid Xenite Growth 3",
     "DisplayName": "Spindly Asteroid Growth",
     "Description": "This is some kind of rocky outcropping that appears to have some kind of organic appendages extending from it, although no living matter can be detected.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_XENITE_GROWTH_4",
@@ -1926,8 +1768,7 @@
     "Name": "Asteroid Xenite Growth 4",
     "DisplayName": "Spindly Asteroid Growth",
     "Description": "This is some kind of rocky outcropping that appears to have some kind of organic appendages extending from it, although no living matter can be detected.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "ASTEROID_XENITE_GROWTH_5",
@@ -1935,14 +1776,12 @@
     "Name": "Asteroid Xenite Growth 5",
     "DisplayName": "Spindly Asteroid Growth",
     "Description": "This is some kind of rocky outcropping that appears to have some kind of organic appendages extending from it, although no living matter can be detected.",
-    "CodexCategory": "Asteroid Environmental",
-    "TooltipNameOverride": "Asteroid"
+    "CodexCategory": "Asteroid Environmental"
   },
   {
     "StaticPrefabType": "CRYO_STORAGE_UNIT",
     "SaveName": "Cryo Storage Unit",
     "Name": "Cryo Storage Unit",
-    "DisplayName": "Cryo Storage Unit",
     "Description": "This is a cryogenic chamber designed to put living creatures in a state of suspended animation for long voyages through space.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1950,7 +1789,6 @@
     "StaticPrefabType": "MASS_DRIVER_EXTENSION",
     "SaveName": "Mass Driver Extension",
     "Name": "Mass Driver Extension",
-    "DisplayName": "Mass Driver Extension",
     "Description": "This is a Chekhov class mass driver, used for launching things into space at great velocities.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1958,7 +1796,6 @@
     "StaticPrefabType": "MASS_DRIVER_BARREL",
     "SaveName": "Mass Driver Barrel",
     "Name": "Mass Driver Barrel",
-    "DisplayName": "Mass Driver Barrel",
     "Description": "This is a Chekhov class mass driver, used for launching things into space at great velocities.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1974,16 +1811,14 @@
     "StaticPrefabType": "PIONEER_BRISTLECONE_FOUNTAIN_SEGMENT",
     "SaveName": "Pioneer Bristlecone Fountain Segment",
     "Name": "Pioneer Bristlecone Fountain Segment",
-    "DisplayName": "Pioneer Bristlecone Fountain Segment",
-    "Description": "This is a small garbage chute.",
+    "Description": "This is a segment of a fountain.",
     "CodexCategory": "Human Decoration"
   },
   {
     "StaticPrefabType": "PIONEER_BRISTLECONE_FOUNTAIN_TOP",
     "SaveName": "Pioneer Bristlecone Fountain Top",
     "Name": "Pioneer Bristlecone Fountain Top",
-    "DisplayName": "Pioneer Bristlecone Fountain Top",
-    "Description": "This is a small garbage chute.",
+    "Description": "This is the top of a fountain.",
     "CodexCategory": "Human Decoration"
   },
   {
@@ -1997,65 +1832,57 @@
   {
     "StaticPrefabType": "PIONEER_GUARD_RAIL",
     "SaveName": "Pioneer Guard Rail",
-    "Name": "Pioneer Guard Rail",
-    "DisplayName": "Pioneer Guard Rail",
-    "Description": "This is a small garbage chute.",
+    "Name": "Guard Rail",
+    "Description": "This is a guard rail.",
     "CodexCategory": "Human Decoration"
   },
   {
     "StaticPrefabType": "PIONEER_ELEVATOR_CEILING_DECOR",
     "SaveName": "Pioneer Elevator Ceiling Decor",
     "Name": "Pioneer Elevator Ceiling Decor",
-    "DisplayName": "Pioneer Elevator Ceiling Decor",
-    "Description": "This is a small garbage chute.",
+    "Description": "This is decorative elevator ceiling trim.",
     "CodexCategory": "Human Decoration"
   },
   {
     "StaticPrefabType": "PIONEER_BRISTLECONE",
     "SaveName": "Pioneer Bristlecone",
     "Name": "Pioneer Bristlecone",
-    "DisplayName": "Pioneer Bristlecone",
     "Description": "This is a large Bristlecone Pine Tree. It was brought to this planet as a sapling, but it grew like crazy once the original crew landed.",
     "CodexCategory": "Human Decorations"
   },
   {
     "StaticPrefabType": "PIONEER_WALKWAY_EDGE",
     "SaveName": "Pioneer Walkway Edge",
-    "Name": "Pioneer Walkway Edge",
-    "DisplayName": "Pioneer Walkway Edge",
-    "Description": "This is a small garbage chute.",
+    "Name": "Walkway Edge",
+    "Description": "This is the edge of a walkway.",
     "CodexCategory": "Human Decoration"
   },
   {
     "StaticPrefabType": "PIONEER_WALKWAY_SECTION",
     "SaveName": "Pioneer Walkway Section",
-    "Name": "Pioneer Walkway Section",
-    "DisplayName": "Pioneer Walkway Section",
-    "Description": "This is a small garbage chute.",
+    "Name": "Walkway Section",
+    "Description": "This is a section of a walkway.",
     "CodexCategory": "Human Architecture"
   },
   {
     "StaticPrefabType": "PIONEER_EXTERIOR_EDGE",
     "SaveName": "Pioneer Exterior Edge",
     "Name": "Pioneer Exterior Edge",
-    "DisplayName": "Pioneer Exterior Edge",
-    "Description": "This is a small garbage chute.",
+    "Description": "This is an exterior edge of the Pioneer Station.",
     "CodexCategory": "Human Decoration"
   },
   {
     "StaticPrefabType": "PIONEER_HUB_DISPLAY_CANOPY",
     "SaveName": "Pioneer Hub Display Canopy",
     "Name": "Pioneer Hub Display Canopy",
-    "DisplayName": "Pioneer Hub Display Canopy",
-    "Description": "This is a canopy",
+    "Description": "This is a canopy.",
     "CodexCategory": "Human Furniture"
   },
   {
     "StaticPrefabType": "PIONEER_DECORATIVE_SHELF",
     "SaveName": "Pioneer Decorative Shelf",
-    "Name": "Pioneer Decorative Shelf",
-    "DisplayName": "Pioneer Decorative Shelf",
-    "Description": "This is a small garbage chute.",
+    "Name": "Decorative Shelf",
+    "Description": "This is a decorative shelf.",
     "CodexCategory": "Human Decoration"
   },
   {
@@ -2070,7 +1897,6 @@
     "StaticPrefabType": "IRIS_PORT_SPAWNER",
     "SaveName": "Iris Port Spawner",
     "Name": "Iris Port Spawner",
-    "DisplayName": "Iris Port Spawner",
     "Description": "This is some kind of dispenser.",
     "CodexCategory": "Human Technology"
   },
@@ -2087,13 +1913,13 @@
     "SaveName": "Pioneer Cafe Bar",
     "Name": "Pioneer Cafe Bar",
     "DisplayName": "Wooden Bar",
+    "Description": "A wooden bar.",
     "CodexCategory": "Human Furniture"
   },
   {
     "StaticPrefabType": "PIONEER_CAFE_COFFEE_STATION",
     "SaveName": "Pioneer Cafe Coffee Station",
-    "Name": "Pioneer Cafe Coffee Station",
-    "DisplayName": "Pioneer Cafe Coffee Station",
+    "Name": "Cafe Coffee Station",
     "Description": "A large piece of furniture that is designed for holding coffee and coffee accessories.",
     "CodexCategory": "Human Furniture"
   },
@@ -2101,7 +1927,6 @@
     "StaticPrefabType": "PIONEER_CAFE_SIGN",
     "SaveName": "Pioneer Cafe Sign",
     "Name": "Pioneer Cafe Sign",
-    "DisplayName": "Pioneer Cafe Sign",
     "Description": "This is a sign for the Pioneer Station's cafe.",
     "CodexCategory": "Human Decoration"
   },
@@ -2125,7 +1950,6 @@
     "StaticPrefabType": "TECH_DUMPSTER",
     "SaveName": "Tech Dumpster",
     "Name": "Tech Dumpster",
-    "DisplayName": "Tech Dumpster",
     "Description": "This is a high tech dumpster for garbage.",
     "CodexCategory": "Dumpster Related Technology"
   },
@@ -2141,7 +1965,6 @@
     "StaticPrefabType": "TECH_WINDOW_SQUARE",
     "SaveName": "Square Reinforced Window",
     "Name": "Square Reinforced Window",
-    "DisplayName": "Square Reinforced Window",
     "Description": "This is a steel and plastic window that has been reinforced with durable materials.",
     "CodexCategory": "Human Decoration"
   },
@@ -2174,15 +1997,14 @@
     "SaveName": "Pioneer Ruined Section 0",
     "Name": "Pioneer Ruined Section 0",
     "DisplayName": "Ruined Floor Section",
-    "Description": "This is a ruined section of the Pioneer Station",
+    "Description": "This is a ruined section of the Pioneer Station.",
     "CodexCategory": "Ruined Human Structure"
   },
   {
     "StaticPrefabType": "GENERATOR",
     "SaveName": "Pioneer Generator",
     "Name": "Pioneer Generator",
-    "DisplayName": "Pioneer Generator",
-    "Description": "A generator.",
+    "Description": "A Pioneer Station power generator.",
     "CodexCategory": "Human Technology"
   },
   {
@@ -2190,7 +2012,7 @@
     "SaveName": "Pioneer Ruined Section 1",
     "Name": "Pioneer Ruined Section 1",
     "DisplayName": "Ruined Floor Section",
-    "Description": "This is a ruined section of the Pioneer Station",
+    "Description": "This is a ruined section of the Pioneer Station.",
     "CodexCategory": "Ruined Human Structure"
   },
   {
@@ -2198,7 +2020,7 @@
     "SaveName": "Pioneer Ruined Section 2",
     "Name": "Pioneer Ruined Section 2",
     "DisplayName": "Ruined Floor Section",
-    "Description": "This is a ruined section of the Pioneer Station",
+    "Description": "This is a ruined section of the Pioneer Station.",
     "CodexCategory": "Ruined Human Structure"
   },
   {
@@ -2206,7 +2028,7 @@
     "SaveName": "Pioneer Ruined Section 3",
     "Name": "Pioneer Ruined Section 3",
     "DisplayName": "Ruined Floor Section",
-    "Description": "This is a ruined section of the Pioneer Station",
+    "Description": "This is a ruined section of the Pioneer Station.",
     "CodexCategory": "Ruined Human Structure"
   },
   {
@@ -2214,7 +2036,7 @@
     "SaveName": "Pioneer Generator Corroded Ceiling 0",
     "Name": "Pioneer Generator Corroded Ceiling 0",
     "DisplayName": "Corroded Ceiling",
-    "Description": "This is a ruined section of the Pioneer Station",
+    "Description": "This is a ruined section of the Pioneer Station.",
     "CodexCategory": "Ruined Human Structure"
   },
   {
@@ -2222,7 +2044,7 @@
     "SaveName": "Pioneer Generator Corroded Ceiling 1",
     "Name": "Pioneer Generator Corroded Ceiling 1",
     "DisplayName": "Corroded Ceiling",
-    "Description": "This is a ruined section of the Pioneer Station",
+    "Description": "This is a ruined section of the Pioneer Station.",
     "CodexCategory": "Ruined Human Structure"
   },
   {
@@ -2230,14 +2052,13 @@
     "SaveName": "Pioneer Generator Corroded Ceiling 2",
     "Name": "Pioneer Generator Corroded Ceiling 2",
     "DisplayName": "Corroded Ceiling",
-    "Description": "This is a ruined section of the Pioneer Station",
+    "Description": "This is a ruined section of the Pioneer Station.",
     "CodexCategory": "Ruined Human Structure"
   },
   {
     "StaticPrefabType": "PIONEER_GENERATOR_PISTON",
     "SaveName": "Pioneer Generator Piston",
     "Name": "Pioneer Generator Piston",
-    "DisplayName": "Pioneer Generator Piston",
     "Description": "A generator piston.",
     "CodexCategory": "Human Technology"
   },
@@ -2245,15 +2066,13 @@
     "StaticPrefabType": "PIONEER_ELEVATOR_HATCH",
     "SaveName": "Pioneer Station Elevator Hatch",
     "Name": "Pioneer Station Elevator Hatch",
-    "DisplayName": "Pioneer Station Elevator Hatch",
     "Description": "A generator piston.",
     "CodexCategory": "Human Technology"
   },
   {
     "StaticPrefabType": "PIONEER_PNEUMAIL_STORAGE",
     "SaveName": "Pioneer Pneumail Storage",
-    "Name": "Pioneer Pneumail Storage",
-    "DisplayName": "Pioneer Pneumail Storage",
+    "Name": "Pneumail Storage",
     "Description": "A unit that allows you to access your unique storage compartment.",
     "CodexCategory": "Human Technology"
   },
@@ -2261,7 +2080,6 @@
     "StaticPrefabType": "PIONEER_MAIN_DOOR",
     "SaveName": "Pioneer Station Main Door",
     "Name": "Pioneer Station Main Door",
-    "DisplayName": "Pioneer Station Main Door",
     "Description": "A large door.",
     "CodexCategory": "Human Doors"
   },
@@ -2269,7 +2087,6 @@
     "StaticPrefabType": "RIGGED_ALIEN_POD",
     "SaveName": "Rigged Alien Pod",
     "Name": "Rigged Alien Pod",
-    "DisplayName": "Rigged Alien Pod",
     "Description": "This appears to be some kind of alien technology that has been hooked up to a Pioneer Station computer.",
     "CodexCategory": "Hybrid Technology"
   },
@@ -2277,7 +2094,6 @@
     "StaticPrefabType": "SURGICAL_TABLE",
     "SaveName": "Surgical Table",
     "Name": "Surgical Table",
-    "DisplayName": "Surgical Table",
     "Description": "This is a table that is typically used for surgery.",
     "CodexCategory": "Human Furniture"
   },
@@ -2285,7 +2101,6 @@
     "StaticPrefabType": "BLOODY_SURGICAL_TABLE",
     "SaveName": "Bloody Surgical Table",
     "Name": "Bloody Surgical Table",
-    "DisplayName": "Bloody Surgical Table",
     "Description": "This is a table that is typically used for surgery.",
     "CodexCategory": "Human Furniture"
   },
@@ -2293,7 +2108,6 @@
     "StaticPrefabType": "HAHNS_DESK",
     "SaveName": "Dr. Hahn's Desk",
     "Name": "Dr. Hahn's Desk",
-    "DisplayName": "Dr. Hahn's Desk",
     "Description": "The computer desk of Dr. Hahn.",
     "CodexCategory": "Human Furniture"
   },
@@ -2301,7 +2115,6 @@
     "StaticPrefabType": "PIONEER_GARAGE_DOOR",
     "SaveName": "Pioneer Station Garage Door",
     "Name": "Pioneer Station Garage Door",
-    "DisplayName": "Pioneer Station Garage Door",
     "Description": "A large door.",
     "CodexCategory": "Human Doors",
     "DescriptionsByState": {
@@ -2313,7 +2126,6 @@
     "StaticPrefabType": "VANDALIZED_HANGAR_ACCESS_HATCH",
     "SaveName": "Vandalized Hangar Access Hatch",
     "Name": "Vandalized Hangar Access Hatch",
-    "DisplayName": "Vandalized Hangar Access Hatch",
     "Description": "This access hatch seems to have been vandalized. It looks like someone sawed the valve off of the top, and it can only be used from below.",
     "CodexCategory": "Human Doors"
   },
@@ -2321,7 +2133,6 @@
     "StaticPrefabType": "MEG_STATION_INSTALLER",
     "SaveName": "MEG Station Encryption Key Installer",
     "Name": "MEG Station Encryption Key Installer",
-    "DisplayName": "MEG Station Encryption Key Installer",
     "Description": "This is a MEG tool install station.",
     "CodexCategory": "Human Technology"
   },
@@ -2329,7 +2140,6 @@
     "StaticPrefabType": "SOLAR_CHARGING_STATION",
     "SaveName": "Solar Charging Station",
     "Name": "Solar Charging Station",
-    "DisplayName": "Solar Charging Station",
     "Description": "A battery charging station that harnesses solar power.",
     "CodexCategory": "Human Power Technology"
   },
@@ -2337,7 +2147,6 @@
     "StaticPrefabType": "POWERED_CHARGING_STATION",
     "SaveName": "Powered Charging Station",
     "Name": "Powered Charging Station",
-    "DisplayName": "Powered Charging Station",
     "Description": "A battery charging station that can only operate when in range of a power source.",
     "CodexCategory": "Human Power Technology"
   },
@@ -2345,7 +2154,6 @@
     "StaticPrefabType": "LIVING_XENOSTONE",
     "SaveName": "Strange Moving Deposit",
     "Name": "Strange Moving Deposit",
-    "DisplayName": "Strange Moving Deposit",
     "Description": "This is a glowing mineral deposit that is moving rhythmically, almost as if it is alive. My scans cannot penetrate the deposit, so I cannot confirm whether there is organic material beneath the surface. You may need something exotic to move this.",
     "CodexCategory": "Strange Environmental"
   },
@@ -2361,7 +2169,6 @@
     "StaticPrefabType": "XENOSTONE_RUBBLE",
     "SaveName": "Xenostone Rubble",
     "Name": "Xenostone Rubble",
-    "DisplayName": "Xenostone Rubble",
     "Description": "This seems to be a large pile of rubble with a boulder precariously perched on the top.",
     "CodexCategory": "Alien Architecture"
   },
@@ -2369,7 +2176,6 @@
     "StaticPrefabType": "GIVING_CAULDRON",
     "SaveName": "Giving Cauldron",
     "Name": "Giving Cauldron",
-    "DisplayName": "Giving Cauldron",
     "Description": "This large cauldron seems to react strongly when in the presence of Strange Motes.",
     "CodexCategory": "Strange Technology"
   },
@@ -2377,15 +2183,13 @@
     "StaticPrefabType": "XENOSTONE_CAVERN",
     "SaveName": "Xenostone Cavern",
     "Name": "Xenostone Cavern",
-    "DisplayName": "Xenostone Cavern",
-    "Description": "This seems to be a small cavern, it's too small to crawl through.",
+    "Description": "This seems to be a small cavern; it's too small to crawl through.",
     "CodexCategory": "Creature Den"
   },
   {
     "StaticPrefabType": "CYBERNETICS_STATION",
     "SaveName": "Cybernetics Station",
     "Name": "Cybernetics Station",
-    "DisplayName": "Cybernetics Station",
     "Description": "This device utilizes advanced surgery AI to replace normal human body parts with cybernetic replacements.",
     "CodexCategory": "Human Technology"
   },
@@ -2393,7 +2197,6 @@
     "StaticPrefabType": "CARBON_NANOTUBE_PROCESSOR",
     "SaveName": "Carbon Nanotube Processor",
     "Name": "Carbon Nanotube Processor",
-    "DisplayName": "Carbon Nanotube Processor",
     "Description": "This processor is able to generate highly scientific carbon nanotubes when provided with sources of carbon.",
     "CodexCategory": "Human Technology"
   },
@@ -2425,7 +2228,6 @@
     "StaticPrefabType": "DEAD_COLOSSUS",
     "SaveName": "Dead Colossus",
     "Name": "Dead Colossus",
-    "DisplayName": "Dead Colossus",
     "Description": "These are the remains of some kind of living stone creature. It is now just a pile of strange stones, mixed with what looks like decorative elements from an unknown culture.",
     "CodexCategory": "Alien Architecture"
   },
@@ -2441,15 +2243,13 @@
     "StaticPrefabType": "XENOID_REPULSOR_DYNAMO",
     "SaveName": "Strange Humming Crystal",
     "Name": "Strange Humming Crystal",
-    "DisplayName": "Strange Humming Crystal",
-    "Description": "This appears to be some piece of alien technology. It's purpose is unclear, and my scans cannot penetrate the outer housing.",
+    "Description": "This appears to be some piece of alien technology. Its purpose is unclear, and my scans cannot penetrate the outer housing.",
     "CodexCategory": "Alien Technology"
   },
   {
     "StaticPrefabType": "XENOID_REPULSOR",
     "SaveName": "Strange Alien Installation",
     "Name": "Strange Alien Installation",
-    "DisplayName": "Strange Alien Installation",
     "Description": "This piece of alien technology seems to have some kind of crystal pedestal with a small control panel in front of it. \n\nBased on previous examples of alien technology I've scanned, I think I would be able to send an activation command through the controls if you want.",
     "CodexCategory": "Alien Technology"
   },
@@ -2457,7 +2257,6 @@
     "StaticPrefabType": "DESTROYED_NODEPORT",
     "SaveName": "Destroyed Xenoid Architecture",
     "Name": "Destroyed Xenoid Architecture",
-    "DisplayName": "Destroyed Xenoid Architecture",
     "Description": "This appears to be some sort of decorative architecture. There are intricate elements that could have been functional, although the function is a mystery to me. My scans cannot penetrate the surface, so I cannot tell you anything about the interior composition.",
     "CodexCategory": "Alien Architecture"
   },
@@ -2465,7 +2264,6 @@
     "StaticPrefabType": "INDUCTION_FURNACE",
     "SaveName": "Induction Furnace",
     "Name": "Induction Furnace",
-    "DisplayName": "Induction Furnace",
     "Description": "A specialized furnace that uses electromagnetic fields to heat metals and glass into ingots extremely quickly. Runs on battery power.",
     "CodexCategory": "Metal Refining"
   },
@@ -2473,7 +2271,6 @@
     "StaticPrefabType": "DRAFT_FURNACE",
     "SaveName": "Draft Furnace",
     "Name": "Draft Furnace",
-    "DisplayName": "Draft Furnace",
     "Description": "A multi-purpose clay furnace with natural airflow that allows the interior chamber to reach high temperatures. It can refine metals and fire ceramics.",
     "CodexCategory": "Metal Refining"
   },
@@ -2481,7 +2278,6 @@
     "StaticPrefabType": "BRICK_OVEN",
     "SaveName": "Brick Oven",
     "Name": "Brick Oven",
-    "DisplayName": "Brick Oven",
     "Description": "A simple brick oven used for cooking. Its design is more fuel efficient than a campfire and it cooks food faster.",
     "CodexCategory": "Metal Refining"
   },
@@ -2489,7 +2285,6 @@
     "StaticPrefabType": "IRON_STOVE",
     "SaveName": "Iron Stove",
     "Name": "Iron Stove",
-    "DisplayName": "Iron Stove",
     "Description": "A well constructed iron stove that can cook delicious food if you use delicious ingredients and don't screw it up.",
     "CodexCategory": "Metal Refining"
   },
@@ -2497,7 +2292,6 @@
     "StaticPrefabType": "KITCHENETTE",
     "SaveName": "Kitchenette",
     "Name": "Kitchenette",
-    "DisplayName": "Kitchenette",
     "Description": "A high-tech set of kitchen gadgets and utensils with induction heating elements. Runs on battery power.",
     "CodexCategory": "Metal Refining"
   },
@@ -2505,7 +2299,6 @@
     "StaticPrefabType": "CHEMISTRY_BENCH",
     "SaveName": "Chemistry Bench",
     "Name": "Chemistry Bench",
-    "DisplayName": "Chemistry Bench",
     "Description": "A collection of basic chemistry tools that can be used to produce many materials through chemical processes.",
     "CodexCategory": "Metal Refining"
   },
@@ -2513,7 +2306,6 @@
     "StaticPrefabType": "CHEMISTRY_LAB",
     "SaveName": "Chemistry Lab",
     "Name": "Chemistry Lab",
-    "DisplayName": "Chemistry Lab",
     "Description": "A collection of advanced chemistry tools that can be used to produce many materials through chemical processes.",
     "CodexCategory": "Metal Refining"
   },
@@ -2521,7 +2313,6 @@
     "StaticPrefabType": "DROP_HAMMER",
     "SaveName": "Drop Hammer",
     "Name": "Drop Hammer",
-    "DisplayName": "Drop Hammer",
     "Description": "A device that uses a heavy metal hammer to manufacture metallic components.",
     "CodexCategory": "Manufacturing"
   },
@@ -2529,7 +2320,6 @@
     "StaticPrefabType": "STEEL_ANVIL",
     "SaveName": "Steel Anvil",
     "Name": "Steel Anvil",
-    "DisplayName": "Steel Anvil",
     "Description": "A big hunk of steel that you can use to form things out of metal.",
     "CodexCategory": "Manufacturing"
   },
@@ -2537,7 +2327,6 @@
     "StaticPrefabType": "IRON_ANVIL",
     "SaveName": "Iron Anvil",
     "Name": "Iron Anvil",
-    "DisplayName": "Iron Anvil",
     "Description": "A big hunk of iron that you can use to form things out of metal.",
     "CodexCategory": "Manufacturing"
   },
@@ -2545,7 +2334,6 @@
     "StaticPrefabType": "XENOID_GLYPH_DISPLAY",
     "SaveName": "Xenoid Glyph Display",
     "Name": "Xenoid Glyph Display",
-    "DisplayName": "Xenoid Glyph Display",
     "Description": "This looks like some kind of decoration with alien glyphs displayed in rows.",
     "CodexCategory": "Alien Decoration"
   },
@@ -2553,7 +2341,6 @@
     "StaticPrefabType": "XENOID_IFF_DETECTOR",
     "SaveName": "Strange Round Statue",
     "Name": "Strange Round Statue",
-    "DisplayName": "Strange Round Statue",
     "Description": "Presumably this is some kind of alien decoration.",
     "CodexCategory": "Alien Decor"
   },
@@ -2593,7 +2380,6 @@
     "StaticPrefabType": "MEG_STATION_GRAPPLE",
     "SaveName": "MEG Grapple Installer",
     "Name": "MEG Grapple Installer",
-    "DisplayName": "MEG Grapple Installer",
     "Description": "This is a MEG tool install station.",
     "CodexCategory": "Human Technology"
   },
@@ -2601,7 +2387,6 @@
     "StaticPrefabType": "RUINED_BUNKER_DOOR_XENOSTONE",
     "SaveName": "Ruined Xenostone Bunker Door",
     "Name": "Ruined Xenostone Bunker Door",
-    "DisplayName": "Ruined Xenostone Bunker Door",
     "Description": "This seems to be some kind of bunker door composed of an unknown material. It looks weak, and may be damaged by explosions.",
     "CodexCategory": "Alien Architecture"
   },
@@ -2617,7 +2402,6 @@
     "StaticPrefabType": "XENOID_LOCAL_TELEPORTER",
     "SaveName": "Xenoid Local Teleporter",
     "Name": "Xenoid Local Teleporter",
-    "DisplayName": "Xenoid Local Teleporter",
     "Description": "A xenoid teleporter pad of unknown destination.",
     "CodexCategory": "Alien Technology"
   },
@@ -2625,7 +2409,6 @@
     "StaticPrefabType": "XENOID_STATUE_FRONT_FACING_MEDIUM",
     "SaveName": "Xenoid Statue Front Facing Medium",
     "Name": "Xenoid Statue Front Facing Medium",
-    "DisplayName": "Xenoid Statue Front Facing Medium",
     "Description": "A medium xenoid statue facing forward.",
     "CodexCategory": "Alien Statue"
   },
@@ -2633,7 +2416,6 @@
     "StaticPrefabType": "XENOID_STATUE_PROFILE_LARGE",
     "SaveName": "Xenoid Statue Profile Large",
     "Name": "Xenoid Statue Profile Large",
-    "DisplayName": "Xenoid Statue Profile Large",
     "Description": "A large xenoid statue shown in profile.",
     "CodexCategory": "Alien Statue"
   },
@@ -2641,7 +2423,6 @@
     "StaticPrefabType": "XENOID_WALL_CONSOLE",
     "SaveName": "Xenoid Wall Console",
     "Name": "Xenoid Wall Console",
-    "DisplayName": "Xenoid Wall Console",
     "Description": "A wall-mounted xenoid control console.",
     "CodexCategory": "Alien Technology"
   },
@@ -2649,7 +2430,6 @@
     "StaticPrefabType": "XENOSTONE_BRAZIER",
     "SaveName": "Xenostone Brazier",
     "Name": "Xenostone Brazier",
-    "DisplayName": "Xenostone Brazier",
     "Description": "A xenostone brazier for ritual flame.",
     "CodexCategory": "Alien Furniture"
   },
@@ -2657,7 +2437,6 @@
     "StaticPrefabType": "XENOSTONE_OFFERING_BASIN",
     "SaveName": "Xenostone Offering Basin",
     "Name": "Xenostone Offering Basin",
-    "DisplayName": "Xenostone Offering Basin",
     "Description": "A wide xenostone basin used for offerings.",
     "CodexCategory": "Alien Furniture"
   },
@@ -2665,7 +2444,6 @@
     "StaticPrefabType": "XENOSTONE_ORNATE_POT",
     "SaveName": "Xenostone Ornate Pot",
     "Name": "Xenostone Ornate Pot",
-    "DisplayName": "Xenostone Ornate Pot",
     "Description": "An ornate xenostone pot.",
     "CodexCategory": "Alien Furniture"
   },
@@ -2673,7 +2451,6 @@
     "StaticPrefabType": "XENOSTONE_STATUE_PEDESTAL",
     "SaveName": "Xenostone Statue Pedestal",
     "Name": "Xenostone Statue Pedestal",
-    "DisplayName": "Xenostone Statue Pedestal",
     "Description": "A xenostone pedestal for supporting statues.",
     "CodexCategory": "Alien Architecture"
   },
@@ -2681,7 +2458,6 @@
     "StaticPrefabType": "XENOSTONE_TABLE_LARGE",
     "SaveName": "Xenostone Table Large",
     "Name": "Xenostone Table Large",
-    "DisplayName": "Xenostone Table Large",
     "Description": "A large xenostone table.",
     "CodexCategory": "Alien Furniture"
   }

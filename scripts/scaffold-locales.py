@@ -20,6 +20,10 @@ TABLES = (
     "StaticPrefabRegistrationData.json",
     "DatapadTextData.json",
     "ArmorSetData.json",
+    "RecipeLocalization.json",
+    "TileLocalization.json",
+    "GlyphLocalization.json",
+    "RuntimeContentLocalization.json",
 )
 
 
@@ -30,6 +34,8 @@ def unique_mod_name(code: str) -> str:
 def empty_table(name: str) -> str:
     if name == "ArmorSetData.json":
         return '{\n  "Sets": [],\n  "Pieces": []\n}\n'
+    if name == "RecipeLocalization.json":
+        return '{\n  "Recipes": [],\n  "Categories": [],\n  "Slots": [],\n  "AdjustedResults": []\n}\n'
     return "[]\n"
 
 

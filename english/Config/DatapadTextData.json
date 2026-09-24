@@ -12,12 +12,6 @@
     "Text": "I give up. \nRetreat and fortify is my final option.\nHe's really gone mad, I didn't want to believe it but there is no question now. I don't know if it was space madness during the trip or the exposure to the... artifacts, but he's changed. He's become something I... can't even \nunderstand. Why would a man do that to himself? How could a man do that to himself? No really... how?\nNow I sit here, holed up in my quarters hoping the supplies I managed to gather last until the screams and the clucking stops.\n"
   },
   {
-    "ID": 3,
-    "Title": "What a horrible night",
-    "Category": "Pioneer Station Records",
-    "Text": "I don't know how much longer I have. \nI thought I was safe in my quarters, he's far too big to get up the platforms...\nHe just keeps blasting away, chipping through little by little.\nIf anyone finds this, tell my family I love them.\nWhat a horrible night.\n"
-  },
-  {
     "ID": 4,
     "Title": "SAFETY FOLKS",
     "Category": "Pioneer Station Records",
@@ -46,12 +40,6 @@
     "Title": "Stranded, Issue 1",
     "Category": "Helpful",
     "Text": "So You've Been Stranded...\nIssue 1 - \"The first 24 hours\"\n\nSo you've been stranded... scared and alone on a potentially hostile alien planet. What do you do?\n\nIf your first instinct is to dig a hole and hide in it to avoid the local fauna (and sometimes flora), then go with your gut, it is probably a good idea to build some kind of shelter. Feel free to hide, cowering in the corner for as long as you'd like, but eventually you're going to get hungry, thirsty or bored, and you're going to have to go scavenging. Any planet with a healthy biosphere will likely have most of the basic materials you'd need to survive, but make sure to avoid getting stranded on any planets that do not have those materials.\n\nYour standard issue MEG tool has many useful functions for survival. The most valuable function of the MEG tool is the built in AGIS personal assistant/companion. AGIS will assist you by providing recipes and useful information that will greatly increase your chances of survival.* The MEG tool also has an Extraction Laser to dig through various materials such as dirt and wood. The Manipulation Laser allows you to pull items towards you through a very scientific and technical process. In addition, Your MEG tool is also equipped with a convenient light, that you can use to look at things that would normally be too dark to see. There is also a little minimap that can show you any signals in the vicinity. \n\n*Once you leave communication range with your home ship, the AGIS system in your MEG tool will revert to its emergency backup mode. In this backup mode, AGIS's AI routines are run locally, rather than in the ship-wide cloud computing network. As a result, you may notice a minor degradation in overall performance, but don't worry, it's fine, AGIS will still probably be a net benefit on a long enough timeline.\n\nFinally, the most important thing to keep in mind on any potentially hostile planet is that some planets have tiny little bugs that burrow through your skin and lay eggs inside of you, so do not get stranded on a planet with those creatures.\n"
-  },
-  {
-    "ID": 9,
-    "Title": "Stranded, Issue 2",
-    "Category": "Helpful",
-    "Text": "So You've Been Stranded...\nIssue 2 - \"It's fine. Everything is fine.\"\n\nIf you're reading this then you've probably survived at least the first day on a hostile planet. \n"
   },
   {
     "ID": 10,
@@ -84,18 +72,6 @@
     "Text": "Dr. Hahn should get a promotion and should be given all the tools he needs to complete his goals. I personally vouch for his skill and he is great. \n-Anonymous"
   },
   {
-    "ID": 15,
-    "Title": "Stinkturd Captain",
-    "Category": "Pioneer Station Records",
-    "Text": "That stinkturd Captain [CAPTAIN] took my lens away for basically no reason and said he put it \"somewhere safe\" and that if I needed one for any science reasons to requisition a lens from him. Balls to that though, so I'm designing my very own EVEN BETTER lens."
-  },
-  {
-    "ID": 16,
-    "Title": "Jewel Axe Details",
-    "Category": "Engineering Details",
-    "Text": "When we set out to craft the perfect axe, our impossible goal was to engineer a weapon that married the heft of a brutal smashing weapon, with the elegance of a finely tuned instrument. I think we succeeded."
-  },
-  {
     "ID": 17,
     "Title": "Jewel Sword Details",
     "Category": "Engineering Details",
@@ -112,12 +88,6 @@
     "Title": "Jewel Crossbow Details",
     "Category": "Engineering Details",
     "Text": "The beauty of our crossbow, is that it combines the responsiveness of a precisely machined device, with the power of a piece of military grade hardware."
-  },
-  {
-    "ID": 20,
-    "Title": "Jewel Armor Details",
-    "Category": "Engineering Details",
-    "Text": "When we set out to design a suit of armor powered by gems, our primary goal was to truly let form follow function. "
   },
   {
     "ID": 21,
@@ -148,18 +118,6 @@
     "Title": "Hahn Sucks",
     "Category": "Pioneer Station Records",
     "Text": "I caught Dr. Hahn going through containers in my room today. When I caught him he said that he was \"checking the structural integrity\" of my room. He put his ear up to the wall, knocked on it, and said \"Yep, everything checks out\" and then he literally whistled and started to walk out of the room with exaggerated arm movements. Needless to say, he's been stripped of his level 2 security status and I've moved the level 2 multipass upgrade terminal into my private quarters.\n\nI really hate that man."
-  },
-  {
-    "ID": 26,
-    "Title": "Parasites",
-    "Category": "Pioneer Station Records",
-    "Text": "I don't want alien eggs inside me.\nP.S. I've left various supplies and important documents in a secure location nearby. I hope they don't understand our language already..."
-  },
-  {
-    "ID": 27,
-    "Title": "Intelligent life...",
-    "Category": "Pioneer Station Records",
-    "Text": "If there was any question about intelligent life in the universe, we answered it here, on this planet. While mining, [ENGINEER] found some kind of underground structure. The structure was empty, but it was clearly built by intelligent hands. There was a thick layer of dust on all the surfaces, so whoever built the structure seems to be long gone."
   },
   {
     "ID": 28,
@@ -196,18 +154,6 @@
     "Title": "Makeshift Bridges",
     "Category": "Pioneer Station Records",
     "Text": "I've been going out DAILY making sure to cover all the holes between the mining base and the Pioneer Station, but sure enough every time I go and check there are patches missing. Either some of the local fauna is busting up my platforms or Dr. Hahn is removing them just to be a jerk, I'd give even odds at this point."
-  },
-  {
-    "ID": 34,
-    "Title": "Pink Gemstone",
-    "Category": "Pioneer Station Records",
-    "Text": "[XENOBIOLOGIST] brought me some samples of this strange pink gemstone with amazing properties and I believe I have designed a quite potent lens that can be retrofitted into our MEG tools. I don't yet have enough samples of the gem to make a working prototype, so I am going to start heading deeper to try and find some. If Dr. Hahn is reading this, get out.\n-Chief Engineer [ENGINEER]"
-  },
-  {
-    "ID": 35,
-    "Title": "Hahn is Garbage",
-    "Category": "Pioneer Station Records",
-    "Text": "Dr. Hahn's space madness is getting worse by the day so I've devised an ingenious defense against that lumpy mess finding my jewel pick design. If my blueprints somehow fell into his hands there would be no stopping him from getting into our rooms and rifling through our stuff and being a big huge creep. If the spiderbots don't stop him there is absolutely no way he is going to be able to drag his slovenly out of shape carcass down those annoying hallways.\n-Chief Engineer [ENGINEER]"
   },
   {
     "ID": 36,
@@ -351,7 +297,7 @@
     "ID": 59,
     "Title": "New Growth",
     "Category": "Pioneer Station Records",
-    "Text": "\nWe never expected to have a full size bristlecone pine so soon in the station.  We knew this place was going to be our home so we wanted to plant something that would last many generations.\nIt only took a day for the seed to sprout.  It took a week for this tree to do what similar trees do on Earth in two years.  After a month it was well into what we would classify as old age on Earth.  \nThe growth rate here is absolutely astounding.\n\nI'm not even sure how it's physically possible.\n"
+    "Text": "\nWe never expected to have a full size bristlecone pine so soon in the station.\n\nWe knew this place was going to be our home so we wanted to plant something that would last many generations.\n\nIt only took a day for the seed to sprout.\n\nIt took a week for this tree to do what similar trees do on Earth in two years.\n\nAfter a month it was well into what we would classify as old age on Earth.\n\nThe growth rate here is absolutely astounding.\n\nI'm not even sure how it's physically possible.\n"
   },
   {
     "ID": 60,
@@ -441,7 +387,7 @@
     "ID": 74,
     "Title": "What we've lost",
     "Category": "Hephaestus Records",
-    "Text": "I had an interaction with Dr. Hahn today that once again got me thinking about those we left behind on Earth. Every now and then when I breathe the clean air and feel the warm sun on this planet, I feel a powerful guilt about the ones that weren't chosen to come with us. In the past I've always been able to take solace in the knowledge that the AGIS system selected ideal candidates to ensure the survival of humanity. We needed the best scientists, doctors and engineers that the world had left. I believed that the AGIS system would see connections that we couldn't, and make better decisions than we ever could... and yet one of the first people it selected to set foot on this planet is Hahn? That fetid garbage bag of a person is crucial to humanity's survival? Really?! Billy is a better crew member and he's a goddamn trashcan!\n\nWhat else was it wrong about? How many good people did we leave behind because a cold calculating machine decided that they weren't worth saving? At this point, even if we save the human race, I fear that we may have lost our humanity in the process.\n-Captain [CAPTAIN]"
+    "Text": "I had an interaction with Dr. Hahn today that once again got me thinking about those we left behind on Earth. Every now and then when I breathe the clean air and feel the warm sun on this planet, I feel a powerful guilt about the ones that weren't chosen to come with us. In the past I've always been able to take solace in the knowledge that the AGIS system selected ideal candidates to ensure the survival of humanity. We needed the best scientists, doctors and engineers that the world had left. I believed that the AGIS system would see connections that we couldn't, and make better decisions than we ever could...\n\n...and yet one of the first people it selected to set foot on this planet is Hahn? That fetid garbage bag of a person is crucial to humanity's survival? Really?! Billy is a better crew member and he's a goddamn trashcan!\n\nWhat else was it wrong about? How many good people did we leave behind because a cold calculating machine decided that they weren't worth saving? At this point, even if we save the human race, I fear that we may have lost our humanity in the process.\n-Captain [CAPTAIN]"
   },
   {
     "ID": 75,

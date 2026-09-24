@@ -295,7 +295,7 @@
     },
     {
         "Name":  "Titanium Shield",
-        "Description":  "A shield composed primarily of Titanium.",
+        "Description":  "A shield composed primarily of titanium.",
         "MinDamage":  0,
         "MaxDamage":  0,
         "AttackSpeed":  1,
@@ -410,97 +410,19 @@
         "ItemID":  20003
     },
     {
-        "Name":  "Iron Greatsword",
-        "Description":  "A large heavy sword made of Iron.",
-        "MinDamage":  4,
-        "MaxDamage":  6,
+        "Name":  "Fishing Rod",
+        "Description":  "A simple rod used to catch fish.",
+        "MinDamage":  0,
+        "MaxDamage":  0,
         "AttackSpeed":  1,
         "Weight":  1,
         "CollisionPoints":  [
-                                {
-                                    "X":  1,
-                                    "Y":  0
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  15
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  30
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  45
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  60
-                                }
-                            ],
-        "ItemID":  5321
-    },
-    {
-        "Name":  "Basalt Axe",
-        "Description":  "A rock hastily tied to a stick.",
-        "MinDamage":  10,
-        "MaxDamage":  10,
-        "AttackSpeed":  1,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  1,
-                                    "Y":  5
-                                },
                                 {
                                     "X":  0,
-                                    "Y":  11
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  18
-                                },
-                                {
-                                    "X":  23,
-                                    "Y":  11
+                                    "Y":  0
                                 }
                             ],
-        "ItemID":  5200
-    },
-    {
-        "Name":  "Platinum Sword",
-        "Description":  "A high tech, heavy sword composed primarily of platinum.",
-        "MinDamage":  60,
-        "MaxDamage":  60,
-        "AttackSpeed":  0.875,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  15,
-                                    "Y":  1
-                                },
-                                {
-                                    "X":  9,
-                                    "Y":  6
-                                },
-                                {
-                                    "X":  4,
-                                    "Y":  11
-                                },
-                                {
-                                    "X":  4,
-                                    "Y":  23
-                                },
-                                {
-                                    "X":  4,
-                                    "Y":  38
-                                },
-                                {
-                                    "X":  4,
-                                    "Y":  50
-                                }
-                            ],
-        "ItemID":  5309
+        "ItemID":  20021
     },
     {
         "Name":  "Ghost Blade",
@@ -538,274 +460,6 @@
         "ItemID":  5308
     },
     {
-        "Name":  "Copper Spear",
-        "Description":  "A copper spear that smells like pennies.",
-        "MinDamage":  15,
-        "MaxDamage":  15,
-        "AttackSpeed":  0.85,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  4,
-                                    "Y":  0
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  10
-                                },
-                                {
-                                    "X":  7,
-                                    "Y":  10
-                                },
-                                {
-                                    "X":  0,
-                                    "Y":  17
-                                },
-                                {
-                                    "X":  8,
-                                    "Y":  17
-                                }
-                            ],
-        "ItemID":  5400
-    },
-    {
-        "Name":  "Iron Spear",
-        "Description":  "Offers a distinct advantage at medium range over other melee weapons, but is rendered almost useless in close quarters.",
-        "MinDamage":  22,
-        "MaxDamage":  22,
-        "AttackSpeed":  1,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  6,
-                                    "Y":  0
-                                },
-                                {
-                                    "X":  0,
-                                    "Y":  12
-                                },
-                                {
-                                    "X":  12,
-                                    "Y":  12
-                                }
-                            ],
-        "ItemID":  5401
-    },
-    {
-        "Name":  "Bronze Spear",
-        "Description":  "A unique spear with a heavy head.  Not much use in close-quarters.",
-        "MinDamage":  30,
-        "MaxDamage":  30,
-        "AttackSpeed":  0.85,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  5,
-                                    "Y":  0
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  11
-                                },
-                                {
-                                    "X":  9,
-                                    "Y":  11
-                                },
-                                {
-                                    "X":  0,
-                                    "Y":  20
-                                },
-                                {
-                                    "X":  10,
-                                    "Y":  20
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  31
-                                },
-                                {
-                                    "X":  9,
-                                    "Y":  31
-                                }
-                            ],
-        "ItemID":  5402
-    },
-    {
-        "Name":  "Silver Spear",
-        "Description":  "Thrust this into the hearts of vampires and werewolves so that they die.",
-        "MinDamage":  37,
-        "MaxDamage":  37,
-        "AttackSpeed":  1,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  9,
-                                    "Y":  0
-                                },
-                                {
-                                    "X":  5,
-                                    "Y":  7
-                                },
-                                {
-                                    "X":  4,
-                                    "Y":  11
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  20
-                                },
-                                {
-                                    "X":  0,
-                                    "Y":  27
-                                },
-                                {
-                                    "X":  0,
-                                    "Y":  33
-                                }
-                            ],
-        "ItemID":  5403
-    },
-    {
-        "Name":  "Steel Spear",
-        "Description":  "A speedy spear made of the finest steel, allowing you to combat your enemies from long range.",
-        "MinDamage":  33,
-        "MaxDamage":  33,
-        "AttackSpeed":  1.2,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  9,
-                                    "Y":  0
-                                },
-                                {
-                                    "X":  6,
-                                    "Y":  4
-                                },
-                                {
-                                    "X":  5,
-                                    "Y":  9
-                                },
-                                {
-                                    "X":  4,
-                                    "Y":  14
-                                },
-                                {
-                                    "X":  4,
-                                    "Y":  23
-                                }
-                            ],
-        "ItemID":  5404
-    },
-    {
-        "Name":  "Jewel Spear",
-        "Description":  "Insert love and happiness into your enemies with the tip of this heart-shaped spear.",
-        "MinDamage":  45,
-        "MaxDamage":  45,
-        "AttackSpeed":  0.7,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  8,
-                                    "Y":  0
-                                },
-                                {
-                                    "X":  3,
-                                    "Y":  5
-                                },
-                                {
-                                    "X":  13,
-                                    "Y":  5
-                                },
-                                {
-                                    "X":  0,
-                                    "Y":  9
-                                },
-                                {
-                                    "X":  16,
-                                    "Y":  9
-                                },
-                                {
-                                    "X":  9,
-                                    "Y":  16
-                                },
-                                {
-                                    "X":  13,
-                                    "Y":  16
-                                }
-                            ],
-        "ItemID":  5405
-    },
-    {
-        "Name":  "Platinum Spear",
-        "Description":  "A high tech, heavy spear composed primarily of platinum.",
-        "MinDamage":  45,
-        "MaxDamage":  45,
-        "AttackSpeed":  0.7,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  16,
-                                    "Y":  1
-                                },
-                                {
-                                    "X":  10,
-                                    "Y":  6
-                                },
-                                {
-                                    "X":  6,
-                                    "Y":  10
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  26
-                                },
-                                {
-                                    "X":  21,
-                                    "Y":  26
-                                },
-                                {
-                                    "X":  10,
-                                    "Y":  14
-                                }
-                            ],
-        "ItemID":  5407
-    },
-    {
-        "Name":  "Titanium Spear",
-        "Description":  "A high tech, light spear composed primarily of titanium.",
-        "MinDamage":  37,
-        "MaxDamage":  37,
-        "AttackSpeed":  1.4,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  14,
-                                    "Y":  1
-                                },
-                                {
-                                    "X":  9,
-                                    "Y":  15
-                                },
-                                {
-                                    "X":  18,
-                                    "Y":  15
-                                },
-                                {
-                                    "X":  14,
-                                    "Y":  22
-                                },
-                                {
-                                    "X":  2,
-                                    "Y":  40
-                                },
-                                {
-                                    "X":  26,
-                                    "Y":  40
-                                }
-                            ],
-        "ItemID":  5408
-    },
-    {
         "Name":  "Makeshift Spear",
         "Description":  "A spear.",
         "MinDamage":  25,
@@ -838,7 +492,7 @@
     },
     {
         "Name":  "Platinum Club",
-        "Description":  "A high tech club composed primarily of platinum.",
+        "Description":  "A high-tech club composed primarily of platinum.",
         "MinDamage":  60,
         "MaxDamage":  60,
         "AttackSpeed":  0.7,
@@ -999,33 +653,6 @@
         "ItemID":  100
     },
     {
-        "Name":  "Medical Scalpel",
-        "Description":  "Very sharp looking. Not sharp like a sharp looking suit, sharp like you could use it to shank someone.",
-        "MinDamage":  8,
-        "MaxDamage":  8,
-        "AttackSpeed":  1,
-        "Weight":  1,
-        "CollisionPoints":  [
-                                {
-                                    "X":  3,
-                                    "Y":  0
-                                },
-                                {
-                                    "X":  1,
-                                    "Y":  3
-                                },
-                                {
-                                    "X":  2,
-                                    "Y":  6
-                                },
-                                {
-                                    "X":  3,
-                                    "Y":  11
-                                }
-                            ],
-        "ItemID":  6300
-    },
-    {
         "Name":  "Medical Bonesaw",
         "Description":  "A saw, specially designed for cutting through bone.",
         "MinDamage":  8,
@@ -1135,7 +762,7 @@
     },
     {
         "Name":  "Screwdriver",
-        "Description":  "A normal phillips head screwdriver. It is not special. It is a tool used during crafting, and it can also be used to open some panels in the world.",
+        "Description":  "A normal Phillips-head screwdriver. It is not special. It is a tool used during crafting, and it can also be used to open some panels in the world.",
         "MinDamage":  6,
         "MaxDamage":  6,
         "AttackSpeed":  1,
