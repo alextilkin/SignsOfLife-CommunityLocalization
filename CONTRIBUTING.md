@@ -1,34 +1,24 @@
 # Contributing translations
 
-This repository collects optional community translations, corrections, and
-localization notes for Signs of Life. Contributors are independent community
-contributors, not employees, contractors, or volunteers working for Sweet Dog
-Studios LLC.
-
-The human-authorship requirement below governs submissions to this repository.
-Independent translation mods, including machine-assisted packs, follow a
-separate path and do not require this repository's contributor agreement unless
-their authors also submit work here. See the
-[free independent-pack permission](LICENSE.md#free-independent-translation-mods)
-and its separate rule for shared community translations.
+This repository welcomes translations, corrections, and localization notes for
+Signs of Life. You can contribute a single string or a larger set of related
+strings.
 
 Read the
 [Translation Contributor Terms v1.0](https://github.com/alextilkin/SignsOfLife-CommunityLocalization/blob/terms-v1.0/legal/TRANSLATION_TERMS_v1.0.md)
 before you open a pull request. You must be at least 18 years old.
 
-## Agreement
+## Before you submit
 
-Pull request template checkboxes are conspicuous notice. GitHub does not actually
-require them to be checked.
+Your submission must be your own human-authored writing. Do not use machine
+translation or generative AI to draft, translate, post-edit, or rewrite it.
+Ordinary spelling and grammar checkers are fine. Do not copy translations from
+other games, unofficial patches, websites, subtitles, or other sources unless
+you have the rights to submit them and disclose the source.
 
-[CLA Assistant](https://cla-assistant.io) is the authoritative record. It
-authenticates you through GitHub and records agreement to the Terms. Every
-**commit author** on the pull request must sign — not only the person who opened
-it. A pull request that carries unsigned co-authors will not be merged.
-
-Do not submit another person’s translation behind your own signature. One
-translator per pull request, or each translator must have their own commits and
-sign.
+When you open a pull request, [CLA Assistant](https://cla-assistant.io) will ask
+you to accept the Terms through GitHub. Every person who wrote text in the pull
+request must accept them; do not submit someone else's work under your name.
 
 ## How to translate
 
@@ -36,8 +26,8 @@ sign.
 2. Read [`TRANSLATING.md`](TRANSLATING.md) for voice and markup.
 3. Edit files under `locales/<code>/Config/`. Leave untranslated rows out so
    the game keeps English. Do not copy the whole `english/` directory into a locale.
-4. Open a pull request using the template. Confirm you did not use machine
-   translation or generative AI, and answer the third-party-source question.
+4. Open a pull request using the template. Describe your changes and identify
+   any third-party sources you used.
 
 ## Your first entry in an empty locale file
 
@@ -52,7 +42,7 @@ pencil (**Edit this file**) on the language file. Replace its `[]` with:
 [
   {
     "ID": "item.ammo",
-    "Text": "<your own human translation of Ammo>"
+    "Text": "<your translation of Ammo>"
   }
 ]
 ```
@@ -67,11 +57,11 @@ entry, put a comma **between** the two objects, with no comma after the last:
 [
   {
     "ID": "item.ammo",
-    "Text": "<your own human translation of Ammo>"
+    "Text": "<your translation of Ammo>"
   },
   {
     "ID": "item.none",
-    "Text": "<your own human translation of None>"
+    "Text": "<your translation of None>"
   }
 ]
 ```
@@ -86,43 +76,15 @@ in bulk: missing rows already fall back to English in the game.
 
 ## What to submit
 
-- One language, and one concern when practical (for example UI chrome, not an
-  entire game dump mixed with notes).
-- Overlay JSON that follows this repository’s English templates. Leave IDs,
-  keys, and markup tokens in English as the translation guide describes.
-- Original, human-authored work. Do not paste unofficial translation patches,
-  other games, published translations, websites, subtitle files, or similar
-  third-party material.
-- No machine translation and no generative AI. Do not use DeepL, Google
-  Translate, ChatGPT, or similar tools to draft, translate, post-edit, or
-  rewrite the Contribution. Ordinary spelling and grammar checkers that do
-  not translate or generate the wording are allowed.
-
-## Third-party sources
-
-The pull request template asks whether you used a third-party source. Answer
-it. Undisclosed copies are rejected. Machine-translated or AI-generated text
-is rejected even if disclosed.
+- One language per pull request, with related changes together when practical.
+- Overlay JSON that follows the English reference. Keep IDs, keys, and markup
+  tokens unchanged as [`TRANSLATING.md`](TRANSLATING.md) describes.
+- A short explanation of any terminology choice that may need context.
 
 ## Public credit
 
-The Studio aims to maintain [`CONTRIBUTORS.md`](CONTRIBUTORS.md) for people whose
-accepted translations it uses. The pull request template lets you choose your
-GitHub username, another public name, or no public credit. If you leave that
-field blank, we will use your GitHub username. You may later ask the maintainers
-to correct or remove your listing. Do not submit an email address or private
-legal name for the list. This is a best-effort practice, not a guarantee that
-credit will appear or remain in every pack or game release.
-
-## What this is not
-
-- Not paid work, employment, or a promise of a game key in exchange for volume.
-- Not a schedule, quota, or assigned chapter list.
-- Not a guarantee that a Contribution will be used, credited, or kept.
-
-You choose whether, when, and how much to contribute. The Studio may edit,
-combine, replace, or decline any Contribution.
-
-Accepted Community Contributions, if used, are expected to ship as community or
-Workshop locale packs unless the Studio later formalizes an official language
-separately.
+The pull request template lets you choose your GitHub username, another public
+name, or no public credit. If you leave it blank, we will use your GitHub
+username in [`CONTRIBUTORS.md`](CONTRIBUTORS.md) if your work is accepted and
+used. You can ask us to correct or remove a listing later. Do not put private
+contact details in the public credit field.
