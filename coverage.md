@@ -1,10 +1,10 @@
 # Coverage
 
 Counted against `english/` snapshot `de084362`.
-A field counts as translated when the overlay is non-empty and not identical to English.
+A field counts toward text coverage when the overlay is non-empty and not identical to English.
 Empty overlay fields keep English in-game and count as missing.
 
-| Locale | Translated | Total | Percent |
+| Locale | Translated fields | Total fields | Text coverage |
 | --- | ---: | ---: | ---: |
 | `af` | 0 | 6130 | 0.0% |
 | `bg` | 0 | 6130 | 0.0% |

@@ -280,10 +280,10 @@ def render_markdown(results: list, source: dict) -> str:
         "# Coverage",
         "",
         "Counted against `english/` snapshot `%s`." % source.get("snapshotCommit", "?")[:8],
-        "A field counts as translated when the overlay is non-empty and not identical to English.",
+        "A field counts toward text coverage when the overlay is non-empty and not identical to English.",
         "Empty overlay fields keep English in-game and count as missing.",
         "",
-        "| Locale | Translated | Total | Percent |",
+        "| Locale | Translated fields | Total fields | Text coverage |",
         "| --- | ---: | ---: | ---: |",
     ]
     for row in results:
@@ -309,10 +309,10 @@ def render_readme_table(results: list, source: dict) -> str:
     lines = [
         README_TABLE_START,
         "",
-        "A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game. %s fields."
+        "A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. %s fields in this snapshot."
         % total,
         "",
-        "| Language | Pack | Translated |",
+        "| Language | Pack | Text coverage |",
         "| --- | --- | ---: |",
     ]
     for row in ordered:

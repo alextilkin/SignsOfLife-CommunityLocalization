@@ -8,6 +8,12 @@
 
 <!-- Write “None,” or identify the source and explain your permission to use it. -->
 
+**Public credit preference:** GitHub username / another public name: ___ / no public credit
+
+<!-- If left blank, we will use your GitHub username for the contributor list.
+     Do not put a private email address or legal name here. Credit is best-effort,
+     not guaranteed in every pack or game release. -->
+
 ## Contributor agreement
 
 - [ ] I did not use machine translation or a generative-AI tool (including DeepL, Google Translate, ChatGPT, and similar) to draft, translate, post-edit, or rewrite this Contribution.
