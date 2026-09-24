@@ -54,7 +54,13 @@ STRUCTURED_TABLES = (
 )
 FORMAT_TOKEN = re.compile(r"\{\d+(?:,[+-]?\d+)?(?::[^{}]*)?\}")
 BRACKET_TOKEN = re.compile(r"\[[A-Za-z0-9_]+\]")
-AT_TOKEN = re.compile(r"@[A-Za-z0-9_]+@")
+REQUIRED_BRACKET_TOKENS = frozenset((
+    "[lightkey]", "[menukey]", "[grablaserkey]", "[minimapkey]", "[mapkey]",
+    "[grapplekey]", "[holsterkey]", "[kickkey]", "[reloadkey]", "[jump]",
+    "[crouch]", "[up]", "[down]", "[left]", "[right]", "[primary]",
+    "[secondary]", "[scrollslot1]", "[scrollslot4]", "[hostname]", "[al]",
+    "[ENGINEER]", "[CAPTAIN]", "[JANITOR]", "[XENOBIOLOGIST]", "[HOSTNAME]",
+))
 
 
 def assert_unique(rows, keys, label):
@@ -122,17 +128,22 @@ def tokens_match(english, translated):
         return False
     if Counter(FORMAT_TOKEN.findall(english)) != Counter(FORMAT_TOKEN.findall(translated)):
         return False
-    for pattern in (BRACKET_TOKEN, AT_TOKEN):
-        required = Counter(pattern.findall(english))
-        supplied = Counter(pattern.findall(translated))
-        if any(supplied[token] < count for token, count in required.items()):
-            return False
+    def required_brackets(value):
+        return Counter(token for token in BRACKET_TOKEN.findall(value)
+                       if token in REQUIRED_BRACKET_TOKENS or token[1:-1].lower().endswith("key"))
+    required = required_brackets(english)
+    supplied = required_brackets(translated)
+    if any(supplied[token] < count for token, count in required.items()):
+        return False
+    # The words inside @...@ are translated; the markup delimiters must remain.
+    if english.count("@") != translated.count("@"):
+        return False
     return True
 
 
 def check_tokens(errors, label, english, translated):
     if translated and not tokens_match(english, translated):
-        errors.append("%s has missing or malformed format/keybind/lore tokens" % label)
+        errors.append("%s has missing or malformed format/keybind/lore/highlight tokens" % label)
 
 
 def structured_index(name, data):
