@@ -1,17 +1,31 @@
 # Signs of Life community localization
 
-> **[How to translate (wiki)](https://www.playsignsoflife.com/wiki/modding/localization.html)** —
-> work in the browser, no Git required.
+> **[Start translating in your browser](CONTRIBUTING.md#your-first-entry-in-an-empty-locale-file)** —
+> no local Git installation required.
 
-English overlay tables and locale packs for *Signs of Life*. The game loads a
-locale as an ordinary mod pack: copy `locales/<code>/` into
+Help other players enjoy *Signs of Life* in your language. A few menu labels, a
+dialogue correction, or feedback on a pack can help; you do not need to
+translate the whole game.
+
+This repository collects human-authored community translations. You can also
+make an independent translation mod without submitting it here. The human-only
+submission rule below applies to this repository, including its pull requests;
+it is not a rule for independent Workshop packs, including machine-assisted
+ones. Independent packs still need to follow the applicable content and
+platform permissions. The current
+[`LICENSE.md`](LICENSE.md) does not grant public redistribution rights to the
+English reference or to other contributors' translations.
+
+The game loads a locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
 restart. Enable only one locale pack at a time; the last loaded overlay wins.
 
 ## Contributing translations
 
-We welcome optional community translations, corrections, and localization
-suggestions for Signs of Life.
+Contributions here are optional, unpaid, and must be your own human-authored
+work. This curated path allows accepted text to be considered for commercial
+use in the game; acceptance as a community contribution or testing in a
+community mod does not make a language officially supported.
 
 Accepted Contributions may be edited, combined with other work, and commercially
 distributed as part of Signs of Life. Contributors must be at least 18 years old
@@ -28,7 +42,8 @@ grammar checkers are fine.
 Contributions are not paid work, and submission does not guarantee inclusion or
 credit. There are no schedules, quotas, or continuing obligations.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a pull request.
+Start with the [first-entry browser tutorial](CONTRIBUTING.md#your-first-entry-in-an-empty-locale-file),
+then see [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a pull request.
 
 ## Repository rights
 
@@ -40,13 +55,18 @@ outside the functionality provided by GitHub.
 Translation Contributions are governed by the Translation Contributor Terms and
 any separately identified license. See [`LICENSE.md`](LICENSE.md).
 
-## Languages Currently Supported
+## Available language templates and translation progress
+
+These folders are templates, not claims of official language support. The
+percentage measures text coverage against the dated English snapshot; it does
+not measure translation quality, in-game review, or release readiness. Names
+and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts as translated when it is non-empty and not a copy of English. Empty overlays stay English in-game. 6130 fields.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 6130 fields in this snapshot.
 
-| Language | Pack | Translated |
+| Language | Pack | Text coverage |
 | --- | --- | ---: |
 | Afrikaans | [`af`](locales/af/) | 0.0% |
 | Български | [`bg`](locales/bg/) | 0.0% |
@@ -83,7 +103,7 @@ A field counts as translated when it is non-empty and not a copy of English. Emp
 
 <!-- coverage-table:end -->
 
-## Unsupported Languages
+## Font and script limits
 
 <!-- unsupported-table:start -->
 
@@ -114,10 +134,13 @@ The shipped fonts cannot draw these scripts yet, so there is no pack folder.
 | [`LICENSE.md`](LICENSE.md) | English stays studio-owned; contributions are not MIT/CC |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to submit; checkbox is notice, not the merge gate |
 
-## What the game actually overlays
+## What this English snapshot contains
 
-These pack files replace English prose. Combat stats and frozen lookup keys
-are ignored even if present:
+These files provide the reference rows currently in this repository. The
+snapshot commit and date are recorded in [`english/SOURCE.json`](english/SOURCE.json);
+it is not yet a complete inventory of the current game build. A refresh after
+the game's English freeze will add the newer recipe, tile, glyph, and runtime
+content tables. Combat stats and frozen lookup keys are ignored even if present:
 
 - `Config/UILocalization.json`
 - `Config/TooltipLocalization.json`
@@ -135,5 +158,5 @@ are ignored even if present:
 - `Config/ArmorSetData.json`
 
 Empty arrays (and empty armor `Sets` / `Pieces`) mean “nothing translated yet.”
-Leave untranslated rows out rather than copying English. Container gump titles
-are not overlayable yet.
+Leave untranslated rows out rather than copying English. This snapshot does
+not yet provide separate container gump title rows.

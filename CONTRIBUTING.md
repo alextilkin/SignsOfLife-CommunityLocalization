@@ -5,6 +5,12 @@ localization notes for Signs of Life. Contributors are independent community
 contributors, not employees, contractors, or volunteers working for Sweet Dog
 Studios LLC.
 
+The human-authorship requirement below governs submissions to this repository.
+Independent translation mods, including machine-assisted packs, follow a
+separate path and do not require this repository's contributor agreement unless
+their authors also submit work here. See [`LICENSE.md`](LICENSE.md) for the
+current limits on reusing this repository's English and shared translations.
+
 Read the
 [Translation Contributor Terms v1.0](https://github.com/alextilkin/SignsOfLife-CommunityLocalization/blob/terms-v1.0/legal/TRANSLATION_TERMS_v1.0.md)
 before you open a pull request. You must be at least 18 years old.
@@ -25,12 +31,57 @@ sign.
 
 ## How to translate
 
-1. Read [`TRANSLATING.md`](TRANSLATING.md) for voice and markup.
-2. Edit files under `locales/<code>/Config/`. Leave untranslated rows out so
-   the game keeps English.
-3. Do not copy `english/` into a locale folder.
+1. Start with [one entry in an empty locale file](#your-first-entry-in-an-empty-locale-file).
+2. Read [`TRANSLATING.md`](TRANSLATING.md) for voice and markup.
+3. Edit files under `locales/<code>/Config/`. Leave untranslated rows out so
+   the game keeps English. Do not copy the whole `english/` directory into a locale.
 4. Open a pull request using the template. Confirm you did not use machine
    translation or generative AI, and answer the third-party-source question.
+
+## Your first entry in an empty locale file
+
+You can do this entirely on GitHub. Fork the repository, then open
+[`english/Config/UILocalization.json`](english/Config/UILocalization.json) in one
+browser tab and your language's `locales/<code>/Config/UILocalization.json` in
+another. The English file begins with `{"ID":"item.ammo","Text":"Ammo"}`;
+an untouched language file may contain only `[]`. In your fork, click the
+pencil (**Edit this file**) on the language file. Replace its `[]` with:
+
+```json
+[
+  {
+    "ID": "item.ammo",
+    "Text": "<your own human translation of Ammo>"
+  }
+]
+```
+
+The angle-bracket text is an **instructional placeholder**, not a translation
+to submit. Replace it with your own wording. Copy only the entry you are
+translating, keep `ID` unchanged, and change only `Text`. Preserve any tokens
+such as `{0}` or `[lightkey]` when the source entry contains them. For a second
+entry, put a comma **between** the two objects, with no comma after the last:
+
+```json
+[
+  {
+    "ID": "item.ammo",
+    "Text": "<your own human translation of Ammo>"
+  },
+  {
+    "ID": "item.none",
+    "Text": "<your own human translation of None>"
+  }
+]
+```
+
+Replace both placeholders before submitting. Use GitHub's preview to check
+the changed file, commit to a new branch in your fork, and open a pull request.
+Follow the template and CLA Assistant instructions above. The repository's
+checks will validate the JSON; using command-line tools is optional. If you
+have Python locally, `python scripts/measure-coverage.py` also checks the
+locale against the English snapshot. Do not copy untranslated English entries
+in bulk: missing rows already fall back to English in the game.
 
 ## What to submit
 
