@@ -27,9 +27,18 @@ class CoverageTests(unittest.TestCase):
     def test_required_tokens_survive_translation(self):
         source = "Use [jump_key] to collect {0} @CHECKLIST@."
         self.assertTrue(coverage.tokens_match(
-            source, "[test] Usa [jump_key] para {0} @CHECKLIST@."))
+            source, "[test] Usa [jump_key] para {0} @LISTA@."))
         self.assertFalse(coverage.tokens_match(source, "Usa [jump_key] para {0}."))
         self.assertFalse(coverage.tokens_match(source, "Usa [jump_key] para {0."))
+
+    def test_highlighted_and_bracketed_words_can_be_translated(self):
+        source = "It [was] near @SOURCE CRYSTALS@, signed [CAPTAIN]."
+        self.assertTrue(coverage.tokens_match(
+            source, "[Estaba] cerca de @CRISTALES@, firmado [CAPTAIN]."))
+        self.assertFalse(coverage.tokens_match(
+            source, "[Estaba] cerca de @CRISTALES@, firmado."))
+        self.assertFalse(coverage.tokens_match(
+            source, "[Estaba] cerca de @CRISTALES, firmado [CAPTAIN]."))
 
     def test_inherited_and_debug_recipes_are_not_required(self):
         rows = coverage.structured_index("RecipeLocalization.json", {
