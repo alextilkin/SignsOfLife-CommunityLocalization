@@ -11,10 +11,11 @@ This repository collects human-authored community translations. You can also
 make an independent translation mod without submitting it here. The human-only
 submission rule below applies to this repository, including its pull requests;
 it is not a rule for independent Workshop packs, including machine-assisted
-ones. Independent packs still need to follow the applicable content and
-platform permissions. The current
-[`LICENSE.md`](LICENSE.md) does not grant public redistribution rights to the
-English reference or to other contributors' translations.
+ones. The [free translation-mod permission](LICENSE.md#free-independent-translation-mods)
+lets you distribute your own pack for the game without charging for it. It
+does not let you redistribute other contributors' translations. Independent
+authors should describe their pack honestly, including whether it is
+machine-assisted, and follow applicable platform rules.
 
 The game loads a locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
@@ -39,8 +40,10 @@ material. Do not submit machine-translated or generative-AI text, including
 DeepL, Google Translate, ChatGPT, or similar tools. Ordinary spelling and
 grammar checkers are fine.
 
-Contributions are not paid work, and submission does not guarantee inclusion or
-credit. There are no schedules, quotas, or continuing obligations.
+Contributions are not paid work. We aim to acknowledge accepted work that we
+use in a [public contributor list](CONTRIBUTORS.md), with a no-credit option;
+inclusion and credit are not guaranteed. There are no schedules, quotas, or
+continuing obligations.
 
 Start with the [first-entry browser tutorial](CONTRIBUTING.md#your-first-entry-in-an-empty-locale-file),
 then see [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a pull request.
@@ -48,12 +51,12 @@ then see [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a pull request.
 ## Repository rights
 
 Signs of Life, its English source text, and other Studio-provided materials are
-proprietary and are © Sweet Dog Studios LLC. Publishing this repository does
-not place those materials in the public domain or grant permission to use them
-outside the functionality provided by GitHub.
+proprietary and are © Sweet Dog Studios LLC. [`LICENSE.md`](LICENSE.md) grants
+a narrow exception for free, independent Signs of Life translation packs.
 
 Translation Contributions are governed by the Translation Contributor Terms and
-any separately identified license. See [`LICENSE.md`](LICENSE.md).
+any separately identified license. Only the Studio or maintainers it authorizes
+in writing may publish combined packs containing other contributors' work.
 
 ## Available language templates and translation progress
 

@@ -8,8 +8,9 @@ Studios LLC.
 The human-authorship requirement below governs submissions to this repository.
 Independent translation mods, including machine-assisted packs, follow a
 separate path and do not require this repository's contributor agreement unless
-their authors also submit work here. See [`LICENSE.md`](LICENSE.md) for the
-current limits on reusing this repository's English and shared translations.
+their authors also submit work here. See the
+[free independent-pack permission](LICENSE.md#free-independent-translation-mods)
+and its separate rule for shared community translations.
 
 Read the
 [Translation Contributor Terms v1.0](https://github.com/alextilkin/SignsOfLife-CommunityLocalization/blob/terms-v1.0/legal/TRANSLATION_TERMS_v1.0.md)
@@ -102,6 +103,16 @@ in bulk: missing rows already fall back to English in the game.
 The pull request template asks whether you used a third-party source. Answer
 it. Undisclosed copies are rejected. Machine-translated or AI-generated text
 is rejected even if disclosed.
+
+## Public credit
+
+The Studio aims to maintain [`CONTRIBUTORS.md`](CONTRIBUTORS.md) for people whose
+accepted translations it uses. The pull request template lets you choose your
+GitHub username, another public name, or no public credit. If you leave that
+field blank, we will use your GitHub username. You may later ask the maintainers
+to correct or remove your listing. Do not submit an email address or private
+legal name for the list. This is a best-effort practice, not a guarantee that
+credit will appear or remain in every pack or game release.
 
 ## What this is not
 
