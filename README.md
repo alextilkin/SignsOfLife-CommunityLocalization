@@ -7,15 +7,9 @@ Help other players enjoy *Signs of Life* in your language. A few menu labels, a
 dialogue correction, or feedback on a pack can help; you do not need to
 translate the whole game.
 
-This repository collects human-authored community translations. You can also
-make an independent translation mod without submitting it here. The human-only
-submission rule below applies to this repository, including its pull requests;
-it is not a rule for independent Workshop packs, including machine-assisted
-ones. The [free translation-mod permission](LICENSE.md#free-independent-translation-mods)
-lets you distribute your own pack for the game without charging for it. It
-does not let you redistribute other contributors' translations. Independent
-authors should describe their pack honestly, including whether it is
-machine-assisted, and follow applicable platform rules.
+Use the English files here as a reference and put translated entries in a
+language pack. You can start with one line; untranslated entries stay in English
+in the game.
 
 The game loads a locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
@@ -23,40 +17,19 @@ restart. Enable only one locale pack at a time; the last loaded overlay wins.
 
 ## Contributing translations
 
-Contributions here are optional, unpaid, and must be your own human-authored
-work. This curated path allows accepted text to be considered for commercial
-use in the game; acceptance as a community contribution or testing in a
-community mod does not make a language officially supported.
+Submissions to this repository must be your own human-authored work. Please do
+not submit text copied from another source or produced with machine translation
+or generative AI. Contributors must be at least 18 and agree to the
+[Translation Contributor Terms](https://github.com/alextilkin/SignsOfLife-CommunityLocalization/blob/terms-v1.0/legal/TRANSLATION_TERMS_v1.0.md).
 
-Accepted Contributions may be edited, combined with other work, and commercially
-distributed as part of Signs of Life. Contributors must be at least 18 years old
-and must agree to the
-[Translation Contributor Terms](https://github.com/alextilkin/SignsOfLife-CommunityLocalization/blob/terms-v1.0/legal/TRANSLATION_TERMS_v1.0.md)
-before a pull request can be accepted.
-
-Please do not submit text copied from unofficial translation patches, other
-games, published translations, websites, subtitle files, or other third-party
-material. Do not submit machine-translated or generative-AI text, including
-DeepL, Google Translate, ChatGPT, or similar tools. Ordinary spelling and
-grammar checkers are fine.
-
-Contributions are not paid work. We aim to acknowledge accepted work that we
-use in a [public contributor list](CONTRIBUTORS.md), with a no-credit option;
-inclusion and credit are not guaranteed. There are no schedules, quotas, or
-continuing obligations.
-
-Start with the [first-entry browser tutorial](CONTRIBUTING.md#your-first-entry-in-an-empty-locale-file),
-then see [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a pull request.
+Start with the [first-entry browser tutorial](CONTRIBUTING.md#your-first-entry-in-an-empty-locale-file).
+The [contribution guide](CONTRIBUTING.md) explains submissions and public credit.
 
 ## Repository rights
 
-Signs of Life, its English source text, and other Studio-provided materials are
-proprietary and are © Sweet Dog Studios LLC. [`LICENSE.md`](LICENSE.md) grants
-a narrow exception for free, independent Signs of Life translation packs.
-
-Translation Contributions are governed by the Translation Contributor Terms and
-any separately identified license. Only the Studio or maintainers it authorizes
-in writing may publish combined packs containing other contributors' work.
+The English reference remains © Sweet Dog Studios LLC. Read
+[`LICENSE.md`](LICENSE.md) for the terms covering unofficial packs.
+Submission rules are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Available language templates and translation progress
 
@@ -133,41 +106,15 @@ The shipped fonts cannot draw these scripts yet, so there is no pack folder.
 | [`english/Config/`](english/Config/) | English tables to translate against |
 | [`locales/<code>/`](locales/) | One loadable pack per language |
 | [`TRANSLATING.md`](TRANSLATING.md) | Voice, glossary, markup tokens |
-| [`legal/TRANSLATION_TERMS_v1.0.md`](legal/TRANSLATION_TERMS_v1.0.md) | Frozen contributor terms (CLA Assistant is the merge record) |
-| [`LICENSE.md`](LICENSE.md) | English stays studio-owned; contributions are not MIT/CC |
-| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to submit; checkbox is notice, not the merge gate |
+| [`legal/TRANSLATION_TERMS_v1.0.md`](legal/TRANSLATION_TERMS_v1.0.md) | Terms for submitting translations |
+| [`LICENSE.md`](LICENSE.md) | Rights for the English reference and unofficial packs |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to submit a translation |
 
-## What this English snapshot contains
+## English reference and locale files
 
-These files provide the reference rows currently in this repository. The
-snapshot commit and date are recorded in [`english/SOURCE.json`](english/SOURCE.json);
-it is not yet a complete inventory of the current game build. A refresh after
-the game's English freeze will add the newer recipe, tile, glyph, and runtime
-content tables. Combat stats and frozen lookup keys are ignored even if present:
-
-- `Config/UILocalization.json`
-- `Config/TooltipLocalization.json`
-- `Config/StatusEffectLocalization.json`
-- `Config/DialogLocalization.json`
-- `Config/helpData.json`
-- `Config/journalEntries.json`
-- `Config/InventoryItemData.json` — compiled items and vanilla pack `sol.*` cards
-- `Config/MeleeWeaponData.json`
-- `Config/RangedWeaponData.json`
-- `Config/ProjectileRegistrationData.json`
-- `Config/CreatureRegistrationData.json`
-- `Config/StaticPrefabRegistrationData.json`
-- `Config/DatapadTextData.json`
-- `Config/ArmorSetData.json`
-- `Config/RecipeLocalization.json` — explicit names, categories, adjusted results
-- `Config/TileLocalization.json` — block item names
-- `Config/GlyphLocalization.json` — xenoid inscription display text
-- `Config/RuntimeContentLocalization.json` — vanilla pack prose and unique effects
-
-Empty arrays (and empty armor `Sets` / `Pieces`) mean “nothing translated yet.”
-Leave untranslated rows out rather than copying English. Recipe files use empty
-`Recipes` / `Categories` / `Slots` / `AdjustedResults` arrays. Inherited recipe
-and prefab names do not create a second required translation. See
-[`TRANSLATING.md`](TRANSLATING.md) for stable keys, fallback, and the three art
-labels deferred until after the community localization launch. The English
-snapshot is a candidate until the on-screen review is complete.
+[`english/Config/`](english/Config/) contains the source text for the supported
+overlay files. Its version is recorded in [`english/SOURCE.json`](english/SOURCE.json).
+The wording may still change as the English text is reviewed. Use the matching
+file under `locales/<code>/Config/` for your language, and include only entries
+you have translated. See [`TRANSLATING.md`](TRANSLATING.md) for the fields to
+translate and the identifiers and tokens to preserve.
