@@ -54,8 +54,7 @@ Common UI terms to keep consistent:
 | Wrist Scanner / Scan Laser | Scans creatures and ore. Its beam hurts xenoids. |
 | Hotbar / scroll slots | The 1–8 equipment row. |
 | Quick slots | Z/X utility slots, separate from the hotbar. |
-| Projects / Build in World | Large recipes placed in the world. |
-| Bank | Shared storage, not a financial bank. |
+| Projects / Build in World | Large structures built directly in the world rather than produced as inventory items. |
 | Codex | Creature and datapad archive in the MEG. |
 | Respawner | Device that reprints the player after death. |
 
@@ -67,9 +66,10 @@ player choices. Keep `ID`; translate the supplied `Normal` and, where present,
 calm and formal; Larry is practical and informal.
 
 AGIS has two voices. `Normal` is the degraded, playful voice in the story on
-Osiris. `Robot` is the professional voice in sandbox worlds. If a row has no
-`Robot`, the game uses `Normal` for both. NPC, player, and xenoid lines use
-`Normal`. When both AGIS versions exist, keep the *same gameplay facts* in
+Osiris. `Robot` is the polished, robotic version for when AGIS is running at
+full capacity. If a row has no `Robot`, the game uses `Normal` for both.
+NPC, player, and xenoid lines use `Normal`. When both AGIS versions exist,
+keep the *same gameplay facts* in
 both; only the personality changes. Weird AGIS may ramble, use fragments, or
 say “lol,” but its instructions must remain clear. Robot AGIS is direct and
 unsentimental. IDs 138–144 in the English file show a complete voice sample.
@@ -112,8 +112,6 @@ Keep these datapad tokens exactly; the game replaces them in shipped logs:
 | `[HOSTNAME]` | The host machine name. |
 
 Names such as **Stein**, **Hahn**, **Larry**, and **AGIS** stay as names.
-Player-authored datapads show bracketed tokens literally; they do not
-replace them.
 
 ## Equipment and items
 
@@ -123,9 +121,9 @@ existing `Templates` text; keep `ItemID`, `AutoOrganizeString`, and template
 keys. Some artifacts switch from a human guess (“Strange Material”) to a true
 xenoid name (“Sourcemetal”) as the player learns the language. Translate
 the true `Name` supplied here. The earlier guess labels are not present in
-the English reference yet.
-An artifact's `AlienString` reveals words gradually. Translate the full text and separate
-words with spaces; the game shows `[?]` for words still hidden from the player.
+the English reference yet. An artifact's `AlienString` reveals words gradually.
+Translate the full text and separate words with spaces; the game shows
+`[?]` for words still hidden from the player.
 
 **`MeleeWeaponData.json`** and **`RangedWeaponData.json`** use `ItemID`. Translate
 `Name` and `Description`; keep the ID. **`ProjectileRegistrationData.json`**
@@ -157,9 +155,8 @@ once for the block item and its matching inherited recipe. Keep the ID.
 `Name`, `Description`, and `CodexCategory`; keep the type. Earth animals such
 as Chicken, Sheep, and Goat translate normally. Invented creature names such
 as Duglette, Kangit, Pindlebag, and Monstralorp should remain playful names.
-Keep **Billy** as the name of one creature, and preserve the absurdity of
-**Buff Mechington**. Xenoid Churl, Scout, Hound, and similar names describe
-roles within the xenoid faction.
+Preserve the absurdity of **Buff Mechington**. Xenoid Churl, Scout, Hound,
+and similar names describe roles within the xenoid faction.
 
 **`StaticPrefabRegistrationData.json`** uses `SaveName` and `SaveAliases` as
 identities. Translate supplied `Name`, `DisplayName`, `Description`,
@@ -168,12 +165,10 @@ identities. Translate supplied `Name`, `DisplayName`, `Description`,
 a translated `Name` also supplies the display name unless you explicitly
 translate `DisplayName` differently.
 
-**`RuntimeContentLocalization.json`** contains visible vanilla fluid, flora,
+**`RuntimeContentLocalization.json`** contains visible vanilla flora,
 structure, status, projectile, and unique equipment-effect prose. Keep
 `Kind`, the full `sol.*` `ID`, and any `effect.*` text keys; translate
-only their supplied text values. Identical English wording may have
-different context in two entries, so check each before reusing a translation. Workshop content
-provides its own text.
+only their supplied text values.
 
 ## Glyphs and language learning
 
@@ -211,7 +206,7 @@ for other scripts.
 ## Setting and terminology (spoilers)
 
 *Signs of Life* is a survival sandbox about a colonist stranded on **Osiris**.
-The scout ship **Hermes** arrives before the colony ship **U.N. Hephaestus**.
+The scout ship **Hermes** arrives before the colony ship **Hephaestus**.
 A discovery on an asteroid leads to the Hephaestus's destruction, leaving the
 player with a damaged MEG tool and AGIS in local backup. **Pioneer Station**
 and the **Mining Base** are already ruined. Deeper in, the player encounters
