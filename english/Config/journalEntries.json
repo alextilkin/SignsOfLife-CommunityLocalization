@@ -1,11 +1,11 @@
 [
   {
     "ID": 0,
-    "Message": "AGIS Assisted Journalling Subsystem Activated. For quality control purposes, your actions will be recorded in this journal. You are permitted to peruse the journal data during any alotted free activity time."
+    "Message": "AGIS Assisted Journalling Subsystem Activated. For quality control purposes, your actions will be recorded in this journal. You are permitted to peruse the journal data during any allotted free activity time."
   },
   {
     "ID": 1,
-    "Message": "You were randomly selected to be cycled out of Cryo-Sleep for a shift 6 week shift aboard the Hephaestus. Planned deceleration should result in a stable orbit around Osiris in 1 week, 2 days and 24 seconds."
+    "Message": "You were randomly selected to be cycled out of Cryo-Sleep for a 6 week shift aboard the Hephaestus. Planned deceleration should result in a stable orbit around Osiris in 1 week, 2 days and 24 seconds."
   },
   {
     "ID": 2,
@@ -33,7 +33,7 @@
   },
   {
     "ID": 8,
-    "Message": "You decided that it was prudent to insert a crystal into a slot on some kind of unknown alien device. Shortly afterward, the asteroid started shaking violently. Your actions were been reported to the central computer."
+    "Message": "You decided that it was prudent to insert a crystal into a slot on some kind of unknown alien device. Shortly afterward, the asteroid started shaking violently. Your actions have been reported to the central computer."
   },
   {
     "ID": 9,
@@ -85,11 +85,11 @@
   },
   {
     "ID": 21,
-    "Message": "You were struck by a tranquilizer dart from a peacekeeping drone. Your actions were been reported to the central computer."
+    "Message": "You were struck by a tranquilizer dart from a peacekeeping drone. Your actions have been reported to the central computer."
   },
   {
     "ID": 22,
-    "Message": "You found the Pioneer Station Communications Junction, although it was missing it's power core."
+    "Message": "You found the Pioneer Station Communications Junction, although it was missing its power core."
   },
   {
     "ID": 23,
@@ -133,7 +133,7 @@
   },
   {
     "ID": 33,
-    "Message": "You found a complicated looking alien device with a surface that items can be placed on on as well as a prominent lever. You decided to pull the lever just to see what would happen. "
+    "Message": "You found a complicated looking alien device with a surface that items can be placed on as well as a prominent lever. You decided to pull the lever just to see what would happen. "
   },
   {
     "ID": 34,

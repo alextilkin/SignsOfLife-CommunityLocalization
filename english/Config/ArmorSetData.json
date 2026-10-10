@@ -407,7 +407,7 @@
     },
     {
       "ItemType": "SHIRT_SPORTSBRA_BLACK",
-      "Name": "Black Sportsbra",
+      "Name": "Black Sports Bra",
       "Description": "A supportive garment.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
@@ -416,7 +416,7 @@
     },
     {
       "ItemType": "SHIRT_TANKTOP_BLACK",
-      "Name": "Black Tanktop",
+      "Name": "Black Tank Top",
       "Description": "Most of a shirt.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
@@ -847,7 +847,7 @@
     },
     {
       "ItemType": "SHIRT_BROWN_LONG_SLEEVE",
-      "Name": "Long Sleeve Brown Shirt",
+      "Name": "Brown Long-Sleeve Shirt",
       "Description": "I have no idea what this is.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,

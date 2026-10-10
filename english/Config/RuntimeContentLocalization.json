@@ -467,18 +467,21 @@
     "Kind": "Structure",
     "ID": "sol.tech_window_round1",
     "Name": "Tech Window Round 1",
+    "DisplayName": "Arched Reinforced Window",
     "Description": "A round tech window."
   },
   {
     "Kind": "Structure",
     "ID": "sol.tech_window_square3",
     "Name": "Tech Window Square 3",
+    "DisplayName": "Small Rectangular Reinforced Window",
     "Description": "A square tech window."
   },
   {
     "Kind": "Structure",
     "ID": "sol.tech_window_square4",
     "Name": "Tech Window Square 4",
+    "DisplayName": "Tall Reinforced Window",
     "Description": "A square tech window."
   },
   {
@@ -515,6 +518,7 @@
     "Kind": "Structure",
     "ID": "sol.xenostone_decor_runestone",
     "Name": "Rune Covered Xenostone Decor",
+    "DisplayName": "Xenostone Runestone",
     "Description": "A piece of alien decoration composed of a strange material. It is covered in strange runes that are not in my database."
   },
   {
@@ -546,18 +550,21 @@
     "Kind": "Structure",
     "ID": "sol.xns_recess_0",
     "Name": "Xenostone Recess 0",
+    "DisplayName": "Arched Xenostone Recess",
     "Description": "This appears to be an intentionally created recess composed of an unknown material."
   },
   {
     "Kind": "Structure",
     "ID": "sol.xns_recess_3",
     "Name": "Xenostone Recess 3",
+    "DisplayName": "Small Xenostone Recess",
     "Description": "This appears to be an intentionally created recess composed of an unknown material."
   },
   {
     "Kind": "Structure",
     "ID": "sol.xns_recess_4",
     "Name": "Xenostone Recess 4",
+    "DisplayName": "Wide Xenostone Recess",
     "Description": "This appears to be an intentionally created recess composed of an unknown material."
   },
   {

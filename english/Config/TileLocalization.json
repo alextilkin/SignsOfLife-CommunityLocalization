@@ -153,7 +153,7 @@
   },
   {
     "ID": 112,
-    "DisplayName": "Weakend Reinforced Steel Insulation Wall"
+    "DisplayName": "Weakened Reinforced Steel Insulation Wall"
   },
   {
     "ID": 113,
@@ -365,27 +365,27 @@
   },
   {
     "ID": 304,
-    "DisplayName": "Alien Block 0"
+    "DisplayName": "Segmented Alien Block"
   },
   {
     "ID": 305,
-    "DisplayName": "Alien Block 1"
+    "DisplayName": "Dotted Alien Block"
   },
   {
     "ID": 306,
-    "DisplayName": "Alien Block 2"
+    "DisplayName": "Veined Alien Block"
   },
   {
     "ID": 307,
-    "DisplayName": "Alien Block 3"
+    "DisplayName": "Rough Alien Block"
   },
   {
     "ID": 308,
-    "DisplayName": "Alien Block 4"
+    "DisplayName": "Patterned Alien Block"
   },
   {
     "ID": 309,
-    "DisplayName": "Alien Block 5"
+    "DisplayName": "Plain Alien Block"
   },
   {
     "ID": 310,
@@ -441,11 +441,11 @@
   },
   {
     "ID": 323,
-    "DisplayName": "Alien Block 7"
+    "DisplayName": "Ringed Alien Block"
   },
   {
     "ID": 324,
-    "DisplayName": "Alien Block 6"
+    "DisplayName": "Slotted Alien Block"
   },
   {
     "ID": 325,
@@ -849,15 +849,15 @@
   },
   {
     "ID": 500,
-    "DisplayName": "Tech Background"
+    "DisplayName": "Wall Panel"
   },
   {
     "ID": 501,
-    "DisplayName": "Tech Elevator Background Center"
+    "DisplayName": "Elevator Wall Panel Center"
   },
   {
     "ID": 502,
-    "DisplayName": "Tech Elevator Background Side"
+    "DisplayName": "Elevator Wall Panel Side"
   },
   {
     "ID": 503,
@@ -873,51 +873,51 @@
   },
   {
     "ID": 506,
-    "DisplayName": "Tech Background Red"
+    "DisplayName": "Red Wall Panel"
   },
   {
     "ID": 507,
-    "DisplayName": "Tech Background Red Striped"
+    "DisplayName": "Red Striped Wall Panel"
   },
   {
     "ID": 508,
-    "DisplayName": "Tech Background Orange"
+    "DisplayName": "Orange Wall Panel"
   },
   {
     "ID": 509,
-    "DisplayName": "Tech Background Orange Striped"
+    "DisplayName": "Orange Striped Wall Panel"
   },
   {
     "ID": 510,
-    "DisplayName": "Tech Background Yellow"
+    "DisplayName": "Yellow Wall Panel"
   },
   {
     "ID": 511,
-    "DisplayName": "Tech Background Yellow Striped"
+    "DisplayName": "Yellow Striped Wall Panel"
   },
   {
     "ID": 512,
-    "DisplayName": "Tech Background Cyan"
+    "DisplayName": "Cyan Wall Panel"
   },
   {
     "ID": 513,
-    "DisplayName": "Tech Background Cyan Striped"
+    "DisplayName": "Cyan Striped Wall Panel"
   },
   {
     "ID": 514,
-    "DisplayName": "Tech Background Blue"
+    "DisplayName": "Blue Wall Panel"
   },
   {
     "ID": 515,
-    "DisplayName": "Tech Background Blue Striped"
+    "DisplayName": "Blue Striped Wall Panel"
   },
   {
     "ID": 516,
-    "DisplayName": "Tech Background Green"
+    "DisplayName": "Green Wall Panel"
   },
   {
     "ID": 517,
-    "DisplayName": "Tech Background Green Striped"
+    "DisplayName": "Green Striped Wall Panel"
   },
   {
     "ID": 518,
@@ -929,7 +929,7 @@
   },
   {
     "ID": 520,
-    "DisplayName": "Reinforced Tech Background"
+    "DisplayName": "Reinforced Wall Panel"
   },
   {
     "ID": 550,

@@ -706,6 +706,12 @@
     "Health": 100
   },
   {
+    "LivingEntityType": "DEIMOS",
+    "Name": "Deimos",
+    "Health": 1000,
+    "MeleeDamage": 0
+  },
+  {
     "LivingEntityType": "DEAD_HAHN",
     "Name": "Feathered Body",
     "Description": "This is a human body that seems to be wearing clothing covered in feathers. The feathers seem intentional.",

@@ -1676,7 +1676,7 @@
     {
         "ItemID":  3012,
         "Complexity":  1,
-        "Name":  "Munition Pouch",
+        "Name":  "Ammo Pouch",
         "Description":  "This container helps you organize your inventory by automatically collecting ammunition.",
         "Category":  "Container"
     },
@@ -2229,7 +2229,7 @@
         "Complexity":  0,
         "Name":  "AGIS Emitter",
         "Description":  "Allows remote access to the Artificial General Intelligence System of the USS Hephaestus. In the event that the user loses communication with the Hephaestus, the portable holo-emitter's backup AI routines can be used. WARNING: Backup AI routines run at reduced quality when running on local resources.",
-        "Category":  "weapons"
+        "Category":  "Gadget"
     },
     {
         "ItemID":  4005,
@@ -2284,7 +2284,7 @@
         "ItemID":  4014,
         "Complexity":  1,
         "Name":  "Firestarter",
-        "Description":  "This starts fires, sometimes.",
+        "Description":  "This starts fires, sometimes. Aim its sparks at what you want to light, then get clear.",
         "Category":  "Gadget"
     },
     {
@@ -2386,7 +2386,7 @@
     {
         "ItemID":  4030,
         "Complexity":  0,
-        "Name":  "Satellite Relay Signal Decoder",
+        "Name":  "Satellite Signal Decoder",
         "Description":  "A highly technical widget that decodes satellite signals.",
         "Category":  "Key Item"
     },
@@ -2635,7 +2635,7 @@
     {
         "ItemID":  4072,
         "Complexity":  1,
-        "Name":  "Mortar And Pestle",
+        "Name":  "Mortar and Pestle",
         "Description":  "This can be used to grind some materials into a fine paste or powder. It can also be used to craft potions.",
         "Category":  "Container"
     },
@@ -4117,7 +4117,7 @@
         "ItemID":  10077,
         "Complexity":  5,
         "Description":  "A set of shelves composed of an unknown material.",
-        "Name":  "Xenoid Carrier Shelf 2",
+        "Name":  "Xenoid Carrier Shelf",
         "PurelyDecorative":  true,
         "Category":  "Placeable"
     },
@@ -5084,7 +5084,7 @@
         "ItemID":  16013,
         "Complexity":  2,
         "Name":  "Material Grinder",
-        "Description":  "This device grinds up items in order to extract some of the raw materials and occasionally extracts trace metals and gems from basalt, granite, slate and marble. Higher capacity batteries enable faster grinding.",
+        "Description":  "This device grinds up items to recover raw materials and can extract trace metals and gems from basalt, granite, slate and marble. Install a grinder blade and a charged battery before switching it on.",
         "Category":  "Container"
     },
     {
@@ -5151,7 +5151,7 @@
         "ItemID":  16023,
         "Complexity":  3,
         "Name":  "Full Power Cell",
-        "Description":  "This is a power cell that has been filled with a liquid battery solution. It can be used to quickly add charge to a battery installed in your MEG tool.",
+        "Description":  "This is a power cell filled with liquid battery solution. Use it to quickly recharge your MEG tool's capacitor.",
         "Category":  "Gadget"
     },
     {
@@ -5344,7 +5344,7 @@
         "Complexity":  1,
         "Name":  "Lettuce Seed",
         "AutoOrganizeString":  "forager",
-        "Description":  "An adorable little seed.",
+        "Description":  "An adorable little seed. Toss it onto bare dirt, with some room away from other plants, to grow lettuce.",
         "Category":  "Throwable"
     },
     {
@@ -5473,7 +5473,7 @@
     {
         "ItemID":  18002,
         "Complexity":  3,
-        "Name":  "This is some kind of egg shaped explosive.",
+        "Name":  "Brood Explosive Egg",
         "AutoOrganizeString":  "munition",
         "Description":  "This is some kind of egg shaped explosive.",
         "Category":  "Explosive"
@@ -5492,7 +5492,7 @@
         "Name":  "Blueprint",
         "Description":  "A blank blueprint.",
         "Templates":  {
-                          "filled":  "A blueprint for a [itemname].",
+                          "filled":  "A blueprint for a [itemname]. Use it from your inventory to learn how to craft one.",
                           "nameFilled":  "[itemname] Blueprint",
                           "nameEmpty":  "Blank Blueprint"
                       }
@@ -5667,7 +5667,7 @@
         "ItemID":  20017,
         "Complexity":  2,
         "Name":  "Dye Basin",
-        "Description":  "A small wooden tub full of water that can be used to dye clothing and armor. You can change the color of the water by using Dye Pigments on the basin.",
+        "Description":  "A small wooden tub for dyeing clothing and armor. Use the basin, then target the item you want to dye. Use Dye Pigments on the basin to change its color.",
         "Category":  "Tool"
     },
     {
@@ -5831,22 +5831,22 @@
     {
         "ItemID":  22008,
         "Complexity":  1,
-        "Name":  "Grey Stone Deposit 2"
+        "Name":  "Grey Stone Deposit"
     },
     {
         "ItemID":  22009,
         "Complexity":  1,
-        "Name":  "Grey Stone Deposit 3"
+        "Name":  "Grey Stone Deposit"
     },
     {
         "ItemID":  22010,
         "Complexity":  1,
-        "Name":  "Grey Stone Deposit 4"
+        "Name":  "Grey Stone Deposit"
     },
     {
         "ItemID":  22011,
         "Complexity":  1,
-        "Name":  "Grey Stone Deposit 5"
+        "Name":  "Grey Stone Deposit"
     },
     {
         "ItemID":  22012,
@@ -6015,7 +6015,7 @@
     {
         "ItemID":  23004,
         "Complexity":  1,
-        "Name":  "O2 Cannister",
+        "Name":  "Oxygen Canister",
         "Description":  "A cannister of supplementary oxygen.",
         "Category":  "Cannister"
     },
@@ -6076,14 +6076,14 @@
     {
         "ItemID":  23014,
         "Complexity":  1,
-        "Name":  "Escape Pod Fairing 0",
+        "Name":  "Escape Pod Fairing",
         "Description":  "A fairing for an escape pod.",
         "Category":  "Construction"
     },
     {
         "ItemID":  23015,
         "Complexity":  1,
-        "Name":  "Escape Pod Fairing 1",
+        "Name":  "Escape Pod Fairing",
         "Description":  "A fairing for an escape pod.",
         "Category":  "Construction"
     },
@@ -6148,42 +6148,42 @@
     {
         "ItemID":  24001,
         "Complexity":  4,
-        "Name":  "Black alien_ship_scrap_1",
+        "Name":  "Black Alien Scrap",
         "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface.",
         "Category":  "materials"
     },
     {
         "ItemID":  24002,
         "Complexity":  4,
-        "Name":  "Black alien_ship_scrap_2",
+        "Name":  "Black Alien Scrap",
         "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface.",
         "Category":  "materials"
     },
     {
         "ItemID":  24003,
         "Complexity":  4,
-        "Name":  "Black alien_ship_scrap_3",
+        "Name":  "Black Alien Scrap",
         "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface.",
         "Category":  "materials"
     },
     {
         "ItemID":  24004,
         "Complexity":  4,
-        "Name":  "Black alien_ship_scrap_4",
+        "Name":  "Black Alien Scrap",
         "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface.",
         "Category":  "materials"
     },
     {
         "ItemID":  24005,
         "Complexity":  4,
-        "Name":  "Black alien_ship_scrap_5",
+        "Name":  "Black Alien Scrap",
         "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface.",
         "Category":  "materials"
     },
     {
         "ItemID":  24006,
         "Complexity":  4,
-        "Name":  "Black alien_ship_scrap_6",
+        "Name":  "Black Alien Scrap",
         "Description":  "A chunk of alien technology. Our scans cannot penetrate the surface.",
         "Category":  "materials"
     },
@@ -6537,7 +6537,7 @@
     {
         "ItemID":  "sol.energy_capsule",
         "Complexity":  1,
-        "Name":  "High Wavelength Energy Capsule",
+        "Name":  "Energy Capsule",
         "AutoOrganizeString":  "crafting",
         "Description":  "This appears to be a device used to focus energy into intense pulses."
     },
@@ -7413,25 +7413,25 @@
     {
         "ItemID":  "sol.cardboard_box0",
         "Complexity":  1,
-        "Name":  "Carboard Box",
+        "Name":  "Cardboard Box",
         "Description":  "A cardboard box container."
     },
     {
         "ItemID":  "sol.cardboard_box1",
         "Complexity":  1,
-        "Name":  "Carboard Box",
+        "Name":  "Cardboard Box",
         "Description":  "A cardboard box container."
     },
     {
         "ItemID":  "sol.cardboard_box2",
         "Complexity":  1,
-        "Name":  "Carboard Box",
+        "Name":  "Cardboard Box",
         "Description":  "A cardboard box container."
     },
     {
         "ItemID":  "sol.cardboard_box3",
         "Complexity":  1,
-        "Name":  "Carboard Box",
+        "Name":  "Cardboard Box",
         "Description":  "A cardboard box container."
     },
     {
@@ -7455,7 +7455,7 @@
     {
         "ItemID":  "sol.tech_trash_receptacle",
         "Complexity":  2,
-        "Name":  "Tech Trash Receptacle",
+        "Name":  "Tech Trash Bin",
         "Description":  "A trash can."
     },
     {

@@ -5,6 +5,16 @@ translated rows to the matching file under `locales/<code>/Config/`. You can
 start with one row. Missing rows and empty translated fields stay in English.
 For submissions to this repository, read [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+Test packs on the Steam beta branch, version **0.27.3 or newer**. The default
+branch's 0.26.16 has earlier translation support. Text introduced after your
+installed beta stays English or is not shown until the corresponding game
+update; check the snapshot's commit and date in
+[`english/SOURCE.json`](english/SOURCE.json).
+
+The latest snapshot also includes localization fixes awaiting the next
+contributor-test beta. Use that beta when it is available for a complete
+in-game check; earlier builds may leave text in English or clip longer labels.
+
 ## Find your file
 
 | What you are translating | JSON files | Guide section |
@@ -193,13 +203,18 @@ have a choice.
   `[kickkey]`, `[reloadkey]`, `[jump]`, `[crouch]`, `[up]`, `[down]`, `[left]`,
   `[right]`, `[primary]`, `[secondary]`, `[scrollslot1]`, `[scrollslot4]`,
   `[hostname]`, and `[al]`.
+- Preserve the newer input tokens `[uiprimary]`, `[worldsecondary]`,
+  `[itemcycle]`, and `[hotbarselect]`. Also keep the runtime substitutions
+  `[itemname]`, `[level]`, `[mobname]`, `[charge]`, `[capacity]`, and `[percent]`.
+  You may move these tokens to suit sentence order, but must keep their spelling
+  and number of occurrences.
 - The player can be male or female. Avoid gendered descriptions of the player
   where your language allows it. Keep gameplay numbers and units accurate.
 - Translate the intended meaning of accidental English typos. Keep deliberate
   voice quirks, jokes, and invented syllables.
 
-The `PREVIEW`, `INPUT`, and `PROMPT` labels are embedded in game artwork and
-cannot yet be changed by a locale pack. Current fonts support Latin and
+The `PREVIEW`, `INPUT`, `PROMPT`, and decorative `MAGNETIC HANDLE` labels are
+embedded in game artwork and cannot yet be changed by a locale pack. Current fonts support Latin and
 Cyrillic; see the README's [font and script limits](README.md#font-and-script-limits)
 for other scripts.
 

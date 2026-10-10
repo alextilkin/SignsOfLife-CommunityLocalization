@@ -548,6 +548,34 @@
     "Text": "Quick Slot 2"
   },
   {
+    "ID": "controller.hint.shortcuts",
+    "Text": "Hold {0} for shortcuts"
+  },
+  {
+    "ID": "controller.hint.shortcutTitle",
+    "Text": "{0} Shortcuts"
+  },
+  {
+    "ID": "controller.hint.ui",
+    "Text": "UI"
+  },
+  {
+    "ID": "controller.hint.returnToGame",
+    "Text": "Return to game"
+  },
+  {
+    "ID": "controller.hint.holsterDraw",
+    "Text": "Holster / Draw"
+  },
+  {
+    "ID": "controller.hint.chat",
+    "Text": "Chat"
+  },
+  {
+    "ID": "controller.keyboardRequired",
+    "Text": "On-screen keyboard unavailable. Use a keyboard to enter text."
+  },
+  {
     "ID": "settings.title.display",
     "Text": "Display Settings"
   },
@@ -589,7 +617,23 @@
   },
   {
     "ID": "settings.gameScale",
-    "Text": "Game Scale"
+    "Text": "World Scale"
+  },
+  {
+    "ID": "settings.uiScale",
+    "Text": "UI Scale"
+  },
+  {
+    "ID": "settings.uiScaleEffective",
+    "Text": "Requested: {0}% / Effective: {1}%"
+  },
+  {
+    "ID": "settings.uiScaleSprites",
+    "Text": "UI sprites look best at 100% increments (100%, 200%, 300%)."
+  },
+  {
+    "ID": "settings.uiScaleLimited",
+    "Text": "UI Scale {0}% is too large for {1} x {2}. UI Scale has been set to {3}% to keep the interface visible."
   },
   {
     "ID": "settings.scaleFiltering",
@@ -642,6 +686,10 @@
   {
     "ID": "settings.tooltips",
     "Text": "Tooltips"
+  },
+  {
+    "ID": "settings.interactionPrompts",
+    "Text": "Interaction Prompts"
   },
   {
     "ID": "settings.swapMouseButtons",
@@ -2117,7 +2165,7 @@
   },
   {
     "ID": "container.munition_pouch",
-    "Text": "Munition Pouch"
+    "Text": "Ammo Pouch"
   },
   {
     "ID": "container.jeweler_pouch",
@@ -2565,7 +2613,7 @@
   },
   {
     "ID": "settings.hardwareCursorEnabled",
-    "Text": "Hardware Cursor Enabled at 1x Game Scale. Scaled modes use the software cursor."
+    "Text": "Hardware Cursor Enabled at 100% UI Scale. Other UI scales use the software cursor."
   },
   {
     "ID": "settings.hardwareCursorDisabled",
@@ -3089,7 +3137,7 @@
   },
   {
     "ID": "crew.ops.roomHelp.diagramPage",
-    "Text": "2 / 2 - Room diagram"
+    "Text": "{0} / {1} - Room diagram"
   },
   {
     "ID": "crew.ops.roomHelp.door",
@@ -3113,7 +3161,7 @@
   },
   {
     "ID": "crew.ops.roomHelp.requirementsPage",
-    "Text": "1 / 2 - Requirements"
+    "Text": "{0} / {1} - Requirements"
   },
   {
     "ID": "crew.ops.roomHelp.size",
@@ -4286,5 +4334,1057 @@
   {
     "ID": "crew.ops.status.needsIngredients",
     "Text": "Needs ingredients"
+  },
+  {
+    "ID": "tutorial.repeat",
+    "Text": "Repeat instructions"
+  },
+  {
+    "ID": "tutorial.light",
+    "Text": "Wrist Light"
+  },
+  {
+    "ID": "tutorial.grab",
+    "Text": "Grab Laser"
+  },
+  {
+    "ID": "tutorial.dig",
+    "Text": "Dig Laser"
+  },
+  {
+    "ID": "tutorial.place",
+    "Text": "Place Test Block"
+  },
+  {
+    "ID": "tutorial.scan",
+    "Text": "Scan Laser"
+  },
+  {
+    "ID": "interaction.use",
+    "Text": "Use"
+  },
+  {
+    "ID": "interaction.open",
+    "Text": "Open"
+  },
+  {
+    "ID": "interaction.close",
+    "Text": "Close"
+  },
+  {
+    "ID": "interaction.talk",
+    "Text": "Talk"
+  },
+  {
+    "ID": "interaction.sit",
+    "Text": "Sit"
+  },
+  {
+    "ID": "interaction.sleep",
+    "Text": "Sleep"
+  },
+  {
+    "ID": "interaction.enter",
+    "Text": "Enter"
+  },
+  {
+    "ID": "interaction.inspect",
+    "Text": "Inspect"
+  },
+  {
+    "ID": "interaction.examine",
+    "Text": "Examine"
+  },
+  {
+    "ID": "interaction.read",
+    "Text": "Read"
+  },
+  {
+    "ID": "interaction.collect",
+    "Text": "Collect"
+  },
+  {
+    "ID": "interaction.call",
+    "Text": "Call"
+  },
+  {
+    "ID": "interaction.toggle",
+    "Text": "Toggle"
+  },
+  {
+    "ID": "interaction.charge",
+    "Text": "Charge"
+  },
+  {
+    "ID": "interaction.activate",
+    "Text": "Activate"
+  },
+  {
+    "ID": "interaction.deactivate",
+    "Text": "Deactivate"
+  },
+  {
+    "ID": "interaction.configure",
+    "Text": "Configure"
+  },
+  {
+    "ID": "interaction.travel",
+    "Text": "Travel"
+  },
+  {
+    "ID": "interaction.install",
+    "Text": "Install"
+  },
+  {
+    "ID": "interaction.increase",
+    "Text": "Increase"
+  },
+  {
+    "ID": "interaction.decrease",
+    "Text": "Decrease"
+  },
+  {
+    "ID": "interaction.release",
+    "Text": "Release"
+  },
+  {
+    "ID": "interaction.remove",
+    "Text": "Remove"
+  },
+  {
+    "ID": "interaction.connect",
+    "Text": "Connect"
+  },
+  {
+    "ID": "interaction.play",
+    "Text": "Play"
+  },
+  {
+    "ID": "interaction.back",
+    "Text": "Back"
+  },
+  {
+    "ID": "interaction.moveUp",
+    "Text": "Move up"
+  },
+  {
+    "ID": "interaction.moveDown",
+    "Text": "Move down"
+  },
+  {
+    "ID": "interaction.checkSystems",
+    "Text": "Check systems"
+  },
+  {
+    "ID": "interaction.light",
+    "Text": "Light"
+  },
+  {
+    "ID": "interaction.raise",
+    "Text": "Raise"
+  },
+  {
+    "ID": "interaction.scan",
+    "Text": "Scan"
+  },
+  {
+    "ID": "interaction.codex",
+    "Text": "Open Codex"
+  },
+  {
+    "ID": "interaction.outOfReach",
+    "Text": "Out of reach"
+  },
+  {
+    "ID": "interaction.obstructed",
+    "Text": "Cannot reach through this obstacle"
+  },
+  {
+    "ID": "interaction.locked",
+    "Text": "Locked"
+  },
+  {
+    "ID": "interaction.unpowered",
+    "Text": "No power"
+  },
+  {
+    "ID": "interaction.busy",
+    "Text": "Busy"
+  },
+  {
+    "ID": "interaction.missingItem",
+    "Text": "Required item missing"
+  },
+  {
+    "ID": "interaction.wrongTool",
+    "Text": "Different tool required"
+  },
+  {
+    "ID": "interaction.empty",
+    "Text": "Empty"
+  },
+  {
+    "ID": "interaction.occupied",
+    "Text": "Occupied"
+  },
+  {
+    "ID": "interaction.accessDenied",
+    "Text": "Access denied"
+  },
+  {
+    "ID": "interaction.notReady",
+    "Text": "Not ready"
+  },
+  {
+    "ID": "interaction.waitForParty",
+    "Text": "Wait for everyone"
+  },
+  {
+    "ID": "interaction.unavailable",
+    "Text": "Unavailable"
+  },
+  {
+    "ID": "interaction.alreadyComplete",
+    "Text": "Already complete"
+  },
+  {
+    "ID": "interaction.lock",
+    "Text": "Lock"
+  },
+  {
+    "ID": "interaction.unlock",
+    "Text": "Unlock"
+  },
+  {
+    "ID": "interaction.hold",
+    "Text": "Hold"
+  },
+  {
+    "ID": "controller.action.activate",
+    "Text": "Activate"
+  },
+  {
+    "ID": "controller.action.item",
+    "Text": "Details · hold and move to drag"
+  },
+  {
+    "ID": "controller.action.place",
+    "Text": "Place item"
+  },
+  {
+    "ID": "controller.action.release",
+    "Text": "Release"
+  },
+  {
+    "ID": "controller.action.cancelDrag",
+    "Text": "Cancel drag"
+  },
+  {
+    "ID": "controller.action.closeDetails",
+    "Text": "Close details"
+  },
+  {
+    "ID": "controller.action.close",
+    "Text": "Close"
+  },
+  {
+    "ID": "controller.action.cancel",
+    "Text": "Cancel"
+  },
+  {
+    "ID": "controller.action.back",
+    "Text": "Back"
+  },
+  {
+    "ID": "controller.action.dismiss",
+    "Text": "Dismiss"
+  },
+  {
+    "ID": "controller.action.reveal",
+    "Text": "Show full text"
+  },
+  {
+    "ID": "controller.action.choose",
+    "Text": "Choose"
+  },
+  {
+    "ID": "controller.action.next",
+    "Text": "Next"
+  },
+  {
+    "ID": "controller.action.finish",
+    "Text": "Finish"
+  },
+  {
+    "ID": "controller.action.enterText",
+    "Text": "Enter text"
+  },
+  {
+    "ID": "controller.action.leaveSearch",
+    "Text": "Leave search"
+  },
+  {
+    "ID": "controller.action.leaveChat",
+    "Text": "Leave chat"
+  },
+  {
+    "ID": "controller.action.discardEdits",
+    "Text": "Discard edits"
+  },
+  {
+    "ID": "controller.action.edit",
+    "Text": "Edit"
+  },
+  {
+    "ID": "controller.action.save",
+    "Text": "Save"
+  },
+  {
+    "ID": "controller.action.scroll",
+    "Text": "Scroll up / down"
+  },
+  {
+    "ID": "controller.action.equip",
+    "Text": "Equip"
+  },
+  {
+    "ID": "controller.action.open",
+    "Text": "Open"
+  },
+  {
+    "ID": "controller.action.use",
+    "Text": "Use"
+  },
+  {
+    "ID": "controller.action.trash",
+    "Text": "Trash"
+  },
+  {
+    "ID": "controller.action.flip",
+    "Text": "Flip"
+  },
+  {
+    "ID": "controller.action.rotate",
+    "Text": "Rotate"
+  },
+  {
+    "ID": "controller.action.rename",
+    "Text": "Rename"
+  },
+  {
+    "ID": "controller.action.hide",
+    "Text": "Toggle hotbar visibility"
+  },
+  {
+    "ID": "controller.action.split",
+    "Text": "Split stack"
+  },
+  {
+    "ID": "controller.action.ammo",
+    "Text": "Change ammo"
+  },
+  {
+    "ID": "controller.action.adjustSplit",
+    "Text": "Hold and move to adjust split"
+  },
+  {
+    "ID": "controller.hint.categories",
+    "Text": "Tap {0}/{1} Change hotbar slot · Hold {2}/{3} for slot wheel"
+  },
+  {
+    "ID": "controller.hint.items",
+    "Text": "Tap {0}/{1} Change item in slot · Hold {2}/{3} for item wheel"
+  },
+  {
+    "ID": "controller.hint.categoriesCompact",
+    "Text": "{0}/{1} Change hotbar slot"
+  },
+  {
+    "ID": "controller.gameplayHints",
+    "Text": "Gameplay Hints"
+  },
+  {
+    "ID": "controller.gameplayHints.contextual",
+    "Text": "Contextual"
+  },
+  {
+    "ID": "controller.gameplayHints.always",
+    "Text": "Always Visible"
+  },
+  {
+    "ID": "controller.gameplayHints.off",
+    "Text": "Off"
+  },
+  {
+    "ID": "controller.hint.itemsCompact",
+    "Text": "{0}/{1} Change item in slot"
+  },
+  {
+    "ID": "controller.hint.navigationGesture",
+    "Text": "Tap to cycle · Hold for selection wheel"
+  },
+  {
+    "ID": "controller.hint.inventory",
+    "Text": "Inventory"
+  },
+  {
+    "ID": "controller.hint.moreControls",
+    "Text": "Hold {0} for more controls"
+  },
+  {
+    "ID": "controller.hint.reloadAmmoCompact",
+    "Text": "{0} Reload · Hold for ammo wheel"
+  },
+  {
+    "ID": "controller.hint.drawAmmoCompact",
+    "Text": "{0} Cancel draw · Hold for ammo wheel"
+  },
+  {
+    "ID": "controller.hint.reloadAmmo",
+    "Text": "Tap {0} Reload · Hold {1} Ammo"
+  },
+  {
+    "ID": "controller.hint.drawAmmo",
+    "Text": "Tap {0} Cancel draw · Hold {1} Ammo"
+  },
+  {
+    "ID": "controller.hint.reload",
+    "Text": "Tap {0} Reload"
+  },
+  {
+    "ID": "controller.hint.ammoOnly",
+    "Text": "Hold {0} Ammo"
+  },
+  {
+    "ID": "controller.hint.rotate",
+    "Text": "Tap {0} Rotate"
+  },
+  {
+    "ID": "controller.hint.cancelDraw",
+    "Text": "Tap {0} Cancel draw"
+  },
+  {
+    "ID": "controller.hint.light",
+    "Text": "Tap {0} Light"
+  },
+  {
+    "ID": "controller.hint.zoom",
+    "Text": "Hold {0} + {1} up / down: Zoom"
+  },
+  {
+    "ID": "controller.hint.holster",
+    "Text": "Holster"
+  },
+  {
+    "ID": "controller.hint.draw",
+    "Text": "Draw"
+  },
+  {
+    "ID": "controller.hint.investigate",
+    "Text": "Aim · {0} Investigate"
+  },
+  {
+    "ID": "controller.hint.returnToAim",
+    "Text": "Return to game to aim"
+  },
+  {
+    "ID": "controller.hint.cursor",
+    "Text": "{0} Move cursor"
+  },
+  {
+    "ID": "controller.hint.wheelSelect",
+    "Text": "Move {0} Select"
+  },
+  {
+    "ID": "controller.hint.wheelAmmoCommit",
+    "Text": "Release {0} Change ammo"
+  },
+  {
+    "ID": "controller.hint.wheelAmmoCommitBoth",
+    "Text": "Release {0}/{1} Change ammo"
+  },
+  {
+    "ID": "controller.hint.wheelEquipCommit",
+    "Text": "Release {0} Equip"
+  },
+  {
+    "ID": "controller.hint.wheelHolsterCommit",
+    "Text": "Release {0} Holster"
+  },
+  {
+    "ID": "controller.hint.wheelKeepCommit",
+    "Text": "Release {0} Keep ammo"
+  },
+  {
+    "ID": "controller.hint.wheelKeepCommitBoth",
+    "Text": "Release {0}/{1} Keep ammo"
+  },
+  {
+    "ID": "controller.hint.wheelKeepAmmo",
+    "Text": "Center: keep current ammo"
+  },
+  {
+    "ID": "controller.hint.wheelHolster",
+    "Text": "Center: holster"
+  },
+  {
+    "ID": "controller.reference.title",
+    "Text": "Controls reference"
+  },
+  {
+    "ID": "controller.reference.fixed",
+    "Text": "These gestures are shown for reference."
+  },
+  {
+    "ID": "controller.reference.crouch",
+    "Text": "Crouch: tap to toggle; hold for temporary crouch."
+  },
+  {
+    "ID": "controller.reference.quickSlots",
+    "Text": "Quick slots: hold, toggle, use once, or equip / holster, depending on the item."
+  },
+  {
+    "ID": "controller.reference.quickAssign",
+    "Text": "In UI mode, drag an item onto a quick slot to assign it. Select its magnifying glass to view details."
+  },
+  {
+    "ID": "controller.gesture.tap",
+    "Text": "Tap"
+  },
+  {
+    "ID": "controller.capture.neutral",
+    "Text": "Release all controller controls, then press a control for {0}. Keyboard Escape cancels."
+  },
+  {
+    "ID": "controller.capture.press",
+    "Text": "Press a controller control for {0}. Keyboard Escape cancels."
+  },
+  {
+    "ID": "controller.capture.release",
+    "Text": "Release all controller controls to confirm {0}: {1}. Keyboard Escape cancels."
+  },
+  {
+    "ID": "controller.action.previousOption",
+    "Text": "Previous option"
+  },
+  {
+    "ID": "controller.action.nextOption",
+    "Text": "Next option"
+  },
+  {
+    "ID": "controller.action.selectOption",
+    "Text": "Select option"
+  },
+  {
+    "ID": "controller.action.adjustValue",
+    "Text": "Hold and move: adjust"
+  },
+  {
+    "ID": "controller.action.panMap",
+    "Text": "Hold and move: pan map"
+  },
+  {
+    "ID": "controller.action.adjustMapZoom",
+    "Text": "Hold and move: zoom"
+  },
+  {
+    "ID": "controller.action.centerMap",
+    "Text": "Center map"
+  },
+  {
+    "ID": "controller.action.zoomIn",
+    "Text": "Zoom in"
+  },
+  {
+    "ID": "controller.action.zoomOut",
+    "Text": "Zoom out"
+  },
+  {
+    "ID": "controller.action.panUp",
+    "Text": "Pan up"
+  },
+  {
+    "ID": "controller.action.panDown",
+    "Text": "Pan down"
+  },
+  {
+    "ID": "controller.action.panLeft",
+    "Text": "Pan left"
+  },
+  {
+    "ID": "controller.action.panRight",
+    "Text": "Pan right"
+  },
+  {
+    "ID": "controller.action.selectRecipe",
+    "Text": "Select recipe"
+  },
+  {
+    "ID": "controller.action.toggleCategory",
+    "Text": "Expand/collapse category"
+  },
+  {
+    "ID": "controller.action.inspectItem",
+    "Text": "Details"
+  },
+  {
+    "ID": "controller.action.randomize",
+    "Text": "Randomize"
+  },
+  {
+    "ID": "controller.action.selectCharacter",
+    "Text": "Select character"
+  },
+  {
+    "ID": "controller.action.deleteCharacter",
+    "Text": "Delete character"
+  },
+  {
+    "ID": "controller.action.refresh",
+    "Text": "Refresh"
+  },
+  {
+    "ID": "controller.action.scrollUp",
+    "Text": "Scroll up"
+  },
+  {
+    "ID": "controller.action.scrollDown",
+    "Text": "Scroll down"
+  },
+  {
+    "ID": "controller.action.scrollBar",
+    "Text": "Hold and move: scroll"
+  },
+  {
+    "ID": "controller.action.expandAll",
+    "Text": "Expand all"
+  },
+  {
+    "ID": "controller.action.collapseAll",
+    "Text": "Collapse all"
+  },
+  {
+    "ID": "controller.action.findRecipe",
+    "Text": "Find recipe"
+  },
+  {
+    "ID": "controller.reference.previousHotbar",
+    "Text": "Previous hotbar slot"
+  },
+  {
+    "ID": "controller.reference.nextHotbar",
+    "Text": "Next hotbar slot"
+  },
+  {
+    "ID": "controller.reference.hotbarWheel",
+    "Text": "Hotbar wheel"
+  },
+  {
+    "ID": "controller.reference.previousItem",
+    "Text": "Previous item"
+  },
+  {
+    "ID": "controller.reference.nextItem",
+    "Text": "Next item"
+  },
+  {
+    "ID": "controller.reference.itemWheel",
+    "Text": "Item wheel"
+  },
+  {
+    "ID": "controller.reference.previousMegTab",
+    "Text": "Previous MEG tab"
+  },
+  {
+    "ID": "controller.reference.nextMegTab",
+    "Text": "Next MEG tab"
+  },
+  {
+    "ID": "controller.reference.holsterCenter",
+    "Text": "hotbar wheel center"
+  },
+  {
+    "ID": "controller.action.quantityUp",
+    "Text": "Increase quantity"
+  },
+  {
+    "ID": "controller.action.quantityUp10",
+    "Text": "Increase quantity by 10"
+  },
+  {
+    "ID": "controller.action.quantityDown",
+    "Text": "Decrease quantity"
+  },
+  {
+    "ID": "controller.action.quantityDown10",
+    "Text": "Decrease quantity by 10"
+  },
+  {
+    "ID": "controller.action.quantityMin",
+    "Text": "Minimum quantity"
+  },
+  {
+    "ID": "controller.action.quantityMax",
+    "Text": "Maximum quantity"
+  },
+  {
+    "ID": "controller.action.analyzeRecipes",
+    "Text": "Analyze for recipes"
+  },
+  {
+    "ID": "controller.action.sortRecipes",
+    "Text": "Sort recipes"
+  },
+  {
+    "ID": "controller.action.markRead",
+    "Text": "Mark recipes read"
+  },
+  {
+    "ID": "controller.action.journal",
+    "Text": "Journal"
+  },
+  {
+    "ID": "controller.action.creatures",
+    "Text": "Creatures"
+  },
+  {
+    "ID": "controller.action.structures",
+    "Text": "Structures"
+  },
+  {
+    "ID": "controller.action.datapads",
+    "Text": "Datapads"
+  },
+  {
+    "ID": "keyboard.hint.ammo",
+    "Text": "Hold {0} for ammo wheel"
+  },
+  {
+    "ID": "keyboard.hint.rotate",
+    "Text": "{0} Rotate"
+  },
+  {
+    "ID": "keyboard.hint.flip",
+    "Text": "{0} Flip"
+  },
+  {
+    "ID": "keyboard.hint.background",
+    "Text": "{0} Background"
+  },
+  {
+    "ID": "keyboard.hint.changeItem",
+    "Text": "{0}/{1} Change item"
+  },
+  {
+    "ID": "keyboard.hint.changeSlot",
+    "Text": "{0}/{1} Change slot"
+  },
+  {
+    "ID": "keyboard.hint.itemWheel",
+    "Text": "Hold {0} for item wheel"
+  },
+  {
+    "ID": "keyboard.hint.wheelSelect",
+    "Text": "Move mouse to select"
+  },
+  {
+    "ID": "keyboard.hint.wheelReleaseAmmo",
+    "Text": "Release {0} to confirm"
+  },
+  {
+    "ID": "keyboard.hint.wheelReleaseItem",
+    "Text": "Release {0} to equip"
+  },
+  {
+    "ID": "keyboard.hint.wheelReleaseHolster",
+    "Text": "Release {0} to holster"
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.ship",
+    "Text": "Let me tell you about your ship."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.cost",
+    "Text": "The Hephaestus is an interstellar colony ship, constructed by the United Nations at a cost of 278 billion dollars."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.purpose",
+    "Text": "Its purpose is to transport one thousand, five hundred and thirty souls to a recently discovered potentially habitable planet 14 light years from Earth."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.osiris",
+    "Text": "This is Osiris. We think we can live there."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.engineering",
+    "Text": "This is the Engineering Bay, where our Chief Technician Larry is preparing the landing pods for their descent to Osiris."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.hydroponics",
+    "Text": "This is the hydroponics bay, where we sustainably grow food for the crew during the voyage."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.messHall",
+    "Text": "And this is the mess hall, where Chief Marco... does what he can with the algae."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.bridge",
+    "Text": "This is the bridge, where the captain, Dr. Stein, commands the ship."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.cryogenics",
+    "Text": "Here is the Cryogenics Bay, where everyone who isn't essential to the ship's operation has been suspended."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.crewQuarters",
+    "Text": "These are the active crew quarters,"
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.player",
+    "Text": "And this, is you."
+  },
+  {
+    "ID": "cutscene.hephaestusIntro.skip",
+    "Text": "Hold {0} to Skip"
+  },
+  {
+    "ID": "crew.name.numbered",
+    "Text": "Crew {0}"
+  },
+  {
+    "ID": "dialogue.speaker.xenoidChief",
+    "Text": "Xenoid Chief"
+  },
+  {
+    "ID": "item.category.????????",
+    "Text": "????????"
+  },
+  {
+    "ID": "item.category.Arm Armor",
+    "Text": "Arm Armor"
+  },
+  {
+    "ID": "item.category.Armor",
+    "Text": "Armor"
+  },
+  {
+    "ID": "item.category.Battery",
+    "Text": "Battery"
+  },
+  {
+    "ID": "item.category.Block",
+    "Text": "Block"
+  },
+  {
+    "ID": "item.category.Boot Armor",
+    "Text": "Boot Armor"
+  },
+  {
+    "ID": "item.category.Cannister",
+    "Text": "Cannister"
+  },
+  {
+    "ID": "item.category.Cleaning Product",
+    "Text": "Cleaning Product"
+  },
+  {
+    "ID": "item.category.Computers",
+    "Text": "Computers"
+  },
+  {
+    "ID": "item.category.Construction",
+    "Text": "Construction"
+  },
+  {
+    "ID": "item.category.Construction Parts",
+    "Text": "Construction Parts"
+  },
+  {
+    "ID": "item.category.Consumable",
+    "Text": "Consumable"
+  },
+  {
+    "ID": "item.category.Container",
+    "Text": "Container"
+  },
+  {
+    "ID": "item.category.Crafting",
+    "Text": "Crafting"
+  },
+  {
+    "ID": "item.category.Cybernetic Implant",
+    "Text": "Cybernetic Implant"
+  },
+  {
+    "ID": "item.category.Decorations",
+    "Text": "Decorations"
+  },
+  {
+    "ID": "item.category.Digging",
+    "Text": "Digging"
+  },
+  {
+    "ID": "item.category.Electrical",
+    "Text": "Electrical"
+  },
+  {
+    "ID": "item.category.Energy Glove Upgrades",
+    "Text": "Energy Glove Upgrades"
+  },
+  {
+    "ID": "item.category.Explosive",
+    "Text": "Explosive"
+  },
+  {
+    "ID": "item.category.Food",
+    "Text": "Food"
+  },
+  {
+    "ID": "item.category.Gadget",
+    "Text": "Gadget"
+  },
+  {
+    "ID": "item.category.Gemology",
+    "Text": "Gemology"
+  },
+  {
+    "ID": "item.category.Generator Parts",
+    "Text": "Generator Parts"
+  },
+  {
+    "ID": "item.category.Glove Armor",
+    "Text": "Glove Armor"
+  },
+  {
+    "ID": "item.category.Gross",
+    "Text": "Gross"
+  },
+  {
+    "ID": "item.category.Helmet Armor",
+    "Text": "Helmet Armor"
+  },
+  {
+    "ID": "item.category.Instrument",
+    "Text": "Instrument"
+  },
+  {
+    "ID": "item.category.Key Item",
+    "Text": "Key Item"
+  },
+  {
+    "ID": "item.category.Leg Armor",
+    "Text": "Leg Armor"
+  },
+  {
+    "ID": "item.category.MEG Equipment",
+    "Text": "MEG Equipment"
+  },
+  {
+    "ID": "item.category.Materials",
+    "Text": "Materials"
+  },
+  {
+    "ID": "item.category.Medical",
+    "Text": "Medical"
+  },
+  {
+    "ID": "item.category.Melee",
+    "Text": "Melee"
+  },
+  {
+    "ID": "item.category.Misc",
+    "Text": "Misc"
+  },
+  {
+    "ID": "item.category.Misc.",
+    "Text": "Misc."
+  },
+  {
+    "ID": "item.category.Missing Mod Content",
+    "Text": "Missing Mod Content"
+  },
+  {
+    "ID": "item.category.Musical Device",
+    "Text": "Musical Device"
+  },
+  {
+    "ID": "item.category.Placeable",
+    "Text": "Placeable"
+  },
+  {
+    "ID": "item.category.Plants",
+    "Text": "Plants"
+  },
+  {
+    "ID": "item.category.Ranged",
+    "Text": "Ranged"
+  },
+  {
+    "ID": "item.category.Ruined Technology",
+    "Text": "Ruined Technology"
+  },
+  {
+    "ID": "item.category.Strange Crystal Device",
+    "Text": "Strange Crystal Device"
+  },
+  {
+    "ID": "item.category.Strange Material",
+    "Text": "Strange Material"
+  },
+  {
+    "ID": "item.category.Throwable",
+    "Text": "Throwable"
+  },
+  {
+    "ID": "item.category.Tool",
+    "Text": "Tool"
+  },
+  {
+    "ID": "item.category.Torso Armor",
+    "Text": "Torso Armor"
+  },
+  {
+    "ID": "item.category.Trash",
+    "Text": "Trash"
+  },
+  {
+    "ID": "item.category.Xenostone Husk",
+    "Text": "Xenostone Husk"
+  },
+  {
+    "ID": "item.category.materials",
+    "Text": "materials"
+  },
+  {
+    "ID": "item.category.weapons",
+    "Text": "weapons"
+  },
+  {
+    "ID": "char.loadingName",
+    "Text": "{0}(LOADING)"
+  },
+  {
+    "ID": "char.loadFailed",
+    "Text": "*LOAD FAILED*"
+  },
+  {
+    "ID": "item.category.Accessory",
+    "Text": "Accessory"
+  },
+  {
+    "ID": "item.category.Back Equipment",
+    "Text": "Back Equipment"
+  },
+  {
+    "ID": "item.category.armor",
+    "Text": "armor"
+  },
+  {
+    "ID": "creative.folder.segment.xenostone_set",
+    "Text": "Xenostone Set"
+  },
+  {
+    "ID": "creative.folder.segment.xenotech_set",
+    "Text": "Xenotech Set"
   }
 ]

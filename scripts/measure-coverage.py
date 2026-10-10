@@ -58,7 +58,9 @@ REQUIRED_BRACKET_TOKENS = frozenset((
     "[lightkey]", "[menukey]", "[grablaserkey]", "[minimapkey]", "[mapkey]",
     "[grapplekey]", "[holsterkey]", "[kickkey]", "[reloadkey]", "[jump]",
     "[crouch]", "[up]", "[down]", "[left]", "[right]", "[primary]",
-    "[secondary]", "[scrollslot1]", "[scrollslot4]", "[hostname]", "[al]",
+    "[secondary]", "[uiprimary]", "[worldsecondary]", "[itemcycle]", "[hotbarselect]",
+    "[itemname]", "[level]", "[mobname]", "[charge]", "[capacity]", "[percent]",
+    "[scrollslot1]", "[scrollslot4]", "[hostname]", "[al]",
     "[ENGINEER]", "[CAPTAIN]", "[JANITOR]", "[XENOBIOLOGIST]", "[HOSTNAME]",
 ))
 
@@ -91,7 +93,9 @@ def validate_unique_rows(path, data):
             raise ValueError("%s must be an object" % name)
         for section, key in (("Recipes", "Name"), ("Categories", "Key"),
                              ("Slots", "Key"), ("AdjustedResults", "Key")):
-            assert_unique(data.get(section) or [], (key,), name + "." + section)
+            if not isinstance(data.get(section), list):
+                raise ValueError("%s needs an array: %s" % (name, section))
+            assert_unique(data[section], (key,), name + "." + section)
     elif name == "RuntimeContentLocalization.json":
         assert_unique(data, ("Kind", "ID"), name)
     elif name in UI_TABLES + (DIALOG_TABLE, "TileLocalization.json", "GlyphLocalization.json"):

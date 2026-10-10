@@ -11,14 +11,14 @@
     "IsDefault": true,
     "Category": "MEG Tool",
     "Label": "MEG Information",
-    "Text": "The MEG tool is your laser powered wrist tool with a variety of features. It can project light into the environment, dig blocks out of the world, pull items to you, scan creatures, scan the environment for useful resources, display a local map and even grapple to nearby surfaces. The MEG tool's range is limited to the area around you, but the range can be upgraded by installing sapphires. The MEG tool also allows you to communicate with the U.N. Hephaestus's central artifical intelligence core.\n\nModules for the MEG tool's various functions can be found in the Key Items pouch."
+    "Text": "The MEG tool is your laser powered wrist tool with a variety of features. It can project light into the environment, dig blocks out of the world, pull items to you, scan creatures, scan the environment for useful resources, display a local map and even grapple to nearby surfaces. The MEG tool's range is limited to the area around you, but the range can be upgraded by installing sapphires. The MEG tool also allows you to communicate with the U.N. Hephaestus's central artificial intelligence core.\n\nModules for the MEG tool's various functions can be found in the Key Items pouch."
   },
   {
     "Key": "DIGTOOL",
     "IsDefault": true,
     "Category": "MEG Tool",
     "Label": "Dig Tool",
-    "Text": "Your MEG tool comes equipped with a dig laser that is tuned to specific frequencies of light that allow it to dig through blocks. The digging power is limited by the quality of lens you have installed in your MEG tool, and the number of blocks that you can simultaneously dig can be increased by installing rubies.\n\nYou can dig with the wrist laser by equipping it and then left clicking on blocks you can see in the world. You can right click to dig blocks out of the background.\n\nYour wrist laser dig tool is accesssible from the first slot on your hotbar, but it can also be found in the Key Items pouch."
+    "Text": "Your MEG tool comes equipped with a dig laser that is tuned to specific frequencies of light that allow it to dig through blocks. The digging power is limited by the quality of lens you have installed in your MEG tool, and the number of blocks that you can simultaneously dig can be increased by installing rubies.\n\nYou can dig with the wrist laser by equipping it and then pressing [primary] on blocks you can see in the world. You can press [worldsecondary] to dig blocks out of the background.\n\nYour wrist laser dig tool is accessible from the first slot on your hotbar, but it can also be found in the Key Items pouch."
   },
   {
     "Key": "INVENTORY",
@@ -39,42 +39,42 @@
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Trashing Items",
-    "Text": "You can trash items by either left clicking on them and selecting the trash can icon to the side of the item's description or by draggin them to the trash pouch on the right side of your backpack. Items marked as trash will be removed the next time you exit the game."
+    "Text": "You can trash items by either selecting them with [uiprimary] and selecting the trash can icon to the side of the item's description or by dragging them to the trash pouch on the right side of your backpack. Items marked as trash will be removed the next time you exit the game."
   },
   {
     "Key": "CONTAINERS",
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Containers",
-    "Text": "Containers can be opened by right clicking on them, and items can be dragged in or out."
+    "Text": "Containers can be opened by selecting them with [secondary], and items can be dragged in or out."
   },
   {
     "Key": "EATINGFOOD",
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Eating Food",
-    "Text": "In order to eat food, you must first equip it and then left click in the world. You can equip the food by either right clicking it in your inventory or selecting it from the food slot on your hotbar.\n\nAs long as you have some food in your stomach you will regenerate health slowly."
+    "Text": "In order to eat food, you must first equip it and then press [primary] in the world. You can equip the food by either selecting it with [secondary] in your inventory or selecting it from the food slot on your hotbar.\n\nAs long as you have some food in your stomach you will regenerate health slowly."
   },
   {
     "Key": "HOTBAR",
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Hotbar Usage",
-    "Text": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through a category by using the scroll wheel on your mouse. If you would prefer to place items in the hotbar manually, you can change the hotbar behavior from the settings menu."
+    "Text": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through a category by using [itemcycle]. If you would prefer to place items in the hotbar manually, you can change the hotbar behavior from the settings menu."
   },
   {
     "Key": "EQUIPPING",
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Equipping Clothing and Armor",
-    "Text": "You can equip clothing and armor by either right clicking on them in your inventory or by draggin them to the appropriate slot in your equipment menu. Your equipment menu can be accessed by clicking the button at the top of your HUD."
+    "Text": "You can equip clothing and armor by either selecting them with [secondary] in your inventory or by dragging them to the appropriate slot in your equipment menu. Your equipment menu can be accessed by clicking the button at the top of your HUD."
   },
   {
     "Key": "PROJECTS",
     "IsDefault": true,
     "Category": "Crafting",
     "Label": "Building Projects",
-    "Text": "Some objects that you can craft are too big to fit in your inventory, and they must be built in the world. All of the projects that you have recipes for can be found by clicking the bottom left button in the Crafting Menu. As long as you have the items required to craft the project, you'll be able to choose a place in the world to build after pressing the \"Build in World\" button. You can cancel building a project in the world by right clicking before you select a location to build."
+    "Text": "Some objects that you can craft are too big to fit in your inventory, and they must be built in the world. All of the projects that you have recipes for can be found by clicking the bottom left button in the Crafting Menu. As long as you have the items required to craft the project, you'll be able to choose a place in the world to build after pressing the \"Build in World\" button. You can cancel building a project in the world by pressing [worldsecondary] before you select a location to build."
   },
   {
     "Key": "GRABLASER",
@@ -109,7 +109,7 @@
     "IsDefault": true,
     "Category": "Building",
     "Label": "Placing Blocks",
-    "Text": "To place blocks, you must equip a block from your inventory, and then left click in the world to place it. You can right click in order to place blocks in the background."
+    "Text": "To place blocks, you must equip a block from your inventory, and then press [primary] in the world to place it. You can press [worldsecondary] in order to place blocks in the background."
   },
   {
     "Key": "WRISTSCANNER",
@@ -123,7 +123,7 @@
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Holster",
-    "Text": "You can holster your weapon by pressing [holsterkey]. You can also unequip a held item by clicking it on your hotbar or by typing the slot number it is in."
+    "Text": "You can holster your weapon by pressing [holsterkey]. You can also unequip a held item by clicking it on your hotbar or by using [hotbarselect]."
   },
   {
     "Key": "REDCOMET",
