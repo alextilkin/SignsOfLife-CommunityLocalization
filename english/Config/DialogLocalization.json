@@ -7,7 +7,7 @@
   {
     "ID": 2,
     "Normal": "Show me what you want to know more about.",
-    "Robot": "Specify the target for you need additional information about."
+    "Robot": "Specify the target you need additional information about."
   },
   {
     "ID": 3,
@@ -1326,19 +1326,19 @@
   },
   {
     "ID": 282,
-    "Normal": "You need to test the @DIG LASER@ function of your @MEG TOOL@ by removing the @TEST BLOCK@. Your dig laser should be in the 1st slot on the @ITEM HOTBAR@ at the top of the screen."
+    "Normal": "Select the @DIG LASER@ on your hotbar. Or open your inventory ([menukey]) and press [secondary] on it in the @KEY ITEMS@ pouch. Aim at the @TEST BLOCK@ and hold [primary] until it breaks."
   },
   {
     "ID": 283,
-    "Normal": "You need to test the block placing system of your @MEG TOOL@. Replace the block you just removed."
+    "Normal": "Replace the block you just removed. Aim at the dropped @TEST BLOCK@ and hold [grablaserkey] to collect it."
   },
   {
     "ID": 284,
-    "Normal": "You can use the @GRAB LASER@ to get the block, and it will go into the @BLOCK POUCH@ on the side of your inventory."
+    "Normal": "Select the @TEST BLOCK@ on your Block hotbar. Or open your inventory ([menukey]) and press [secondary] on it in the @BLOCK POUCH@. Aim at the outlined empty space and hold [primary] to place it."
   },
   {
     "ID": 285,
-    "Normal": "You need to test the @SCAN LASER@ function of your @MEG TOOL@ by scanning this chicken. Your scan laser should be the in the @GADGETS SLOT@ in the 4th @SCROLL SLOT@ at the top of the screen."
+    "Normal": "Select the @SCAN LASER@ on your hotbar. Or open your inventory ([menukey]) and press [secondary] on it in the @KEY ITEMS@ pouch. Aim at the chicken and hold [primary] until the scan completes."
   },
   {
     "ID": 286,
@@ -2903,5 +2903,169 @@
   {
     "ID": 688,
     "Normal": "You're going to need some kind of keycard to use this."
+  },
+  {
+    "ID": 689,
+    "Normal": "I have seen many wonders on Osiris, and I hope to keep documenting them for as long as I can."
+  },
+  {
+    "ID": 690,
+    "Normal": "I have a deep appreciation for the beauty and mystery of this planet."
+  },
+  {
+    "ID": 691,
+    "Normal": "I enjoy spending time with the flora and fauna that are blessed by the Source."
+  },
+  {
+    "ID": 692,
+    "Normal": "It is my job to maintain and harvest the Source Stalks."
+  },
+  {
+    "ID": 693,
+    "Normal": "The nugs are my friends."
+  },
+  {
+    "ID": 694,
+    "Normal": "Greetings, traveler. Welcome to our tunnels."
+  },
+  {
+    "ID": 695,
+    "Normal": "It is a joy to see another kind among us."
+  },
+  {
+    "ID": 696,
+    "Normal": "Life underground has been difficult, but we make do."
+  },
+  {
+    "ID": 697,
+    "Normal": "I have seen much in my time."
+  },
+  {
+    "ID": 698,
+    "Normal": "The Source is our lifeblood. Without it, we could not survive on this planet."
+  },
+  {
+    "ID": 699,
+    "Normal": "We have adapted to life underground, but it is not an easy existence. I admire your courage for venturing down here."
+  },
+  {
+    "ID": 700,
+    "Normal": "May your journey be safe and fruitful. Good luck, traveler."
+  },
+  {
+    "ID": 701,
+    "Normal": "I can't believe we're all here... after everything, it almost feels unreal."
+  },
+  {
+    "ID": 702,
+    "Normal": "You know, I wasn't sure we'd make it back. I owe you more than I can say."
+  },
+  {
+    "ID": 703,
+    "Normal": "Every time I walk these corridors, I half-expect the alarms to start blaring again."
+  },
+  {
+    "ID": 704,
+    "Normal": "The crew's morale is high, thanks to you. I didn't think we'd see this moment."
+  },
+  {
+    "ID": 705,
+    "Normal": "Sometimes I catch myself smiling when I remember... we actually got a second chance."
+  },
+  {
+    "ID": 706,
+    "Normal": "I've started keeping a log of the anomalies we've encountered. Maybe one day someone will understand them."
+  },
+  {
+    "ID": 707,
+    "Normal": "I keep checking the scanners, just in case there's another surprise waiting for us."
+  },
+  {
+    "ID": 708,
+    "Normal": "Funny... I dreamed about Osiris before we left, but it was nothing like this."
+  },
+  {
+    "ID": 709,
+    "Normal": "We're officially pioneers... the first to see Osiris, and survive it, thanks to you."
+  },
+  {
+    "ID": 710,
+    "Normal": "The ship feels... different. Like it's carrying more than just us now."
+  },
+  {
+    "ID": 711,
+    "Normal": "I've been practicing some old Earth recipes again. Maybe one day you'll try them."
+  },
+  {
+    "ID": 712,
+    "Normal": "I've started training the younger crew. They'll need guidance if we face this again."
+  },
+  {
+    "ID": 713,
+    "Normal": "We really should celebrate surviving, don't you think? Maybe after the next mission."
+  },
+  {
+    "ID": 714,
+    "Normal": "I've seen a lot in my life, but what you did... that was something else entirely."
+  },
+  {
+    "ID": 715,
+    "Normal": "Honestly, I can't stop thinking about what we left behind... and what we saved."
+  },
+  {
+    "ID": 716,
+    "Normal": "You've got a way of making the impossible seem normal. I wish I had your nerve."
+  },
+  {
+    "ID": 717,
+    "Normal": "Do you ever wonder what the aliens were really after? Some mysteries are better left unsolved."
+  },
+  {
+    "ID": 718,
+    "Normal": "You really did change the course of history today. I hope you understand what that means."
+  },
+  {
+    "ID": 719,
+    "Normal": "Weird seeing ours up there instead of that carrier."
+  },
+  {
+    "ID": 720,
+    "Normal": "First survey sweep's done. Osiris still has teeth, but the pad's holding."
+  },
+  {
+    "ID": 721,
+    "Normal": "I'm planting flags as we go — don't kick them over if you can help it."
+  },
+  {
+    "ID": 722,
+    "Normal": "If you find anything anomalous near the pad, bring it by. Stein wants a clean log."
+  },
+  {
+    "ID": 723,
+    "Normal": "Larry's teleporter held up. Figured we'd stake the pad before anyone else came down."
+  },
+  {
+    "ID": 724,
+    "Normal": "Wireless battery's trickle-charging from the Hephaestus. Give it a minute between hops."
+  },
+  {
+    "ID": 725,
+    "Normal": "If the pad lights flicker, tell me before you go kicking conduits."
+  },
+  {
+    "ID": 726,
+    "Normal": "We're not building a colony tonight — just a foothold that won't blow away."
+  },
+  {
+    "ID": 727,
+    "Normal": "Hello."
+  },
+  {
+    "ID": 728,
+    "Normal": "Good to see a friendly face."
+  },
+  {
+    "ID": 729,
+    "Normal": "Stay safe out there."
   }
 ]

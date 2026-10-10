@@ -3,6 +3,7 @@
     "StaticPrefabType": "TECH_REINFORCED_DOOR",
     "SaveName": "Tech Reinforced Door",
     "Name": "Tech Reinforced Door",
+    "DisplayName": "Reinforced Door",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -31,6 +32,7 @@
     "StaticPrefabType": "TECH_DOOR",
     "SaveName": "Tech Sliding Door",
     "Name": "Tech Sliding Door",
+    "DisplayName": "Sliding Door",
     "Description": "That is a high-tech steel reinforced door.",
     "CodexCategory": "Human Doors"
   },
@@ -69,6 +71,7 @@
     "StaticPrefabType": "PIONEER_COMM_JUNCTION",
     "SaveName": "Pioneer Comm Junction",
     "Name": "Pioneer Comm Junction",
+    "DisplayName": "Comm Console",
     "Description": "That is a communication junction. It can be used to contact ships within the solar system. It can also store holographic messages for later playback. It is useless without a power supply.",
     "CodexCategory": "Human Technology"
   },
@@ -83,6 +86,7 @@
     "StaticPrefabType": "TECH_GASPIPE",
     "SaveName": "Tech Gaspipe",
     "Name": "Tech Gaspipe",
+    "DisplayName": "Gas Pipe",
     "Description": "A metal gaspipe.",
     "CodexCategory": "Human Decoration"
   },
@@ -97,6 +101,7 @@
     "StaticPrefabType": "SECURITY_LOCKDOWN_TERMINAL",
     "SaveName": "Security Lockdown Terminal",
     "Name": "Security Lockdown Terminal",
+    "DisplayName": "Lockdown Terminal",
     "Description": "Allows someone to activate or deactivate security in an area.",
     "CodexCategory": "Human Technology"
   },
@@ -104,6 +109,7 @@
     "StaticPrefabType": "TECH_REINFORCED_HORIZONTAL_DOOR",
     "SaveName": "Tech Reinforced Horizontal Door",
     "Name": "Tech Reinforced Horizontal Door",
+    "DisplayName": "Reinforced Hatch",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -125,6 +131,7 @@
     "StaticPrefabType": "TECH_REINFORCED_HORIZONTAL_DOOR_LEVEL_1",
     "SaveName": "Tech Reinforced Horizontal Door (Level 1)",
     "Name": "Tech Reinforced Horizontal Door (Level 1)",
+    "DisplayName": "Reinforced Hatch (Level 1)",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -132,6 +139,7 @@
     "StaticPrefabType": "TECH_REINFORCED_HORIZONTAL_DOOR_LEVEL_2",
     "SaveName": "Tech Reinforced Horizontal Door (Level 2)",
     "Name": "Tech Reinforced Horizontal Door (Level 2)",
+    "DisplayName": "Reinforced Hatch (Level 2)",
     "Description": "That is a high-tech steel reinforced door. It can be opened and closed with nearby security panels.",
     "CodexCategory": "Human Doors"
   },
@@ -174,6 +182,7 @@
     "StaticPrefabType": "TECH_ITEM_TERMINAL",
     "SaveName": "Tech Item Terminal",
     "Name": "Tech Item Terminal",
+    "DisplayName": "Secure Item Terminal",
     "Description": "A secure housing that protects items from unauthorized access.",
     "CodexCategory": "Human Technology"
   },
@@ -437,6 +446,7 @@
     "StaticPrefabType": "XENOID_CORNER_DECOR_0",
     "SaveName": "Xenoid Corner Decor 0",
     "Name": "Xenoid Corner Decor 0",
+    "DisplayName": "Xenoid Corner Statue",
     "Description": "That is some sort of strange statue.",
     "CodexCategory": "Alien Decoration"
   },
@@ -444,6 +454,7 @@
     "StaticPrefabType": "XENOID_DOORWAY_DECOR_0",
     "SaveName": "Xenoid Doorway Decor 0",
     "Name": "Xenoid Doorway Decor 0",
+    "DisplayName": "Xenoid Doorway Statue",
     "Description": "That is some sort of strange statue.",
     "CodexCategory": "Alien Decoration"
   },
@@ -465,6 +476,7 @@
     "StaticPrefabType": "XENOSTONE_PILLAR_FULL",
     "SaveName": "Xenostone Pillar Full",
     "Name": "Xenostone Pillar Full",
+    "DisplayName": "Xenostone Pillar",
     "Description": "A decorative pillar composed of an unknown material that my scans cannot penetrate.",
     "CodexCategory": "Alien Architecture"
   },
@@ -472,6 +484,7 @@
     "StaticPrefabType": "XENOSTONE_PILLAR_RUINED_CEILING",
     "SaveName": "Xenostone Pillar Ruined Ceiling",
     "Name": "Xenostone Pillar Ruined Ceiling",
+    "DisplayName": "Ruined Xenostone Pillar",
     "Description": "A decorative pillar composed of an unknown material that my scans cannot penetrate.",
     "CodexCategory": "Alien Architecture"
   },
@@ -690,6 +703,7 @@
     "StaticPrefabType": "TECH_RETINA_SCANNER",
     "SaveName": "Tech Retina Scanner",
     "Name": "Tech Retina Scanner",
+    "DisplayName": "Retina Scanner",
     "Description": "That is a biometric facial analysis device. It will activate nearby doors if it detects the right person's face.",
     "CodexCategory": "Human Technology"
   },
@@ -813,6 +827,7 @@
     "StaticPrefabType": "XENOID_WAYPOINT_ROOM_HEAD_DECOR_EXIT",
     "SaveName": "Xenoid Waypoint Room Head Decor Exit",
     "Name": "Xenoid Waypoint Room Head Decor Exit",
+    "DisplayName": "Xenoid Head Statue",
     "Description": "This is some kind of decorative statue.",
     "CodexCategory": "Alien Statue"
   },
@@ -820,6 +835,7 @@
     "StaticPrefabType": "XENOID_WAYPOINT_ROOM_HEAD_DECOR_ENTRY",
     "SaveName": "Xenoid Waypoint Room Head Decor Entry",
     "Name": "Xenoid Waypoint Room Head Decor Entry",
+    "DisplayName": "Xenoid Head Statue",
     "Description": "This is some kind of decorative statue.",
     "CodexCategory": "Alien Statue"
   },
@@ -1025,6 +1041,7 @@
     "StaticPrefabType": "XENOID_CARRIER_CORRIDOR_SUPPORT_0",
     "SaveName": "Corridor Support 0",
     "Name": "Corridor Support 0",
+    "DisplayName": "Corridor Support",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1032,6 +1049,7 @@
     "StaticPrefabType": "XENOID_CARRIER_CORRIDOR_SUPPORT_1",
     "SaveName": "Corridor Support 1",
     "Name": "Corridor Support 1",
+    "DisplayName": "Corridor Support",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1039,6 +1057,7 @@
     "StaticPrefabType": "XENOID_CARRIER_CORRIDOR_SUPPORT_2",
     "SaveName": "Corridor Support 2",
     "Name": "Corridor Support 2",
+    "DisplayName": "Corridor Support",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1046,6 +1065,7 @@
     "StaticPrefabType": "XENOID_CARRIER_PILLAR_SMALL",
     "SaveName": "Carrier Pillar Small",
     "Name": "Carrier Pillar Small",
+    "DisplayName": "Small Xenoid Pillar",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1053,6 +1073,7 @@
     "StaticPrefabType": "XENOID_CARRIER_PILLAR_MEDIUM",
     "SaveName": "Carrier Pillar Medium",
     "Name": "Carrier Pillar Medium",
+    "DisplayName": "Medium Xenoid Pillar",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1060,6 +1081,7 @@
     "StaticPrefabType": "XENOID_CARRIER_PILLAR_LARGE",
     "SaveName": "Carrier Pillar Large",
     "Name": "Carrier Pillar Large",
+    "DisplayName": "Large Xenoid Pillar",
     "Description": "This is some sort of structural support composed of unknown materials.",
     "CodexCategory": "Alien Architecture"
   },
@@ -1109,7 +1131,7 @@
     "StaticPrefabType": "XENOID_CARRIER_LEDGE_0",
     "SaveName": "Overgrowth Ledge 0",
     "Name": "Overgrowth Ledge 0",
-    "DisplayName": "Xennoid Carrier Ledge",
+    "DisplayName": "Xenoid Carrier Ledge",
     "Description": "This is some kind of rocky growth emerging from the surrounding material.",
     "CodexCategory": "Alien Overgrowth"
   },
@@ -1117,7 +1139,7 @@
     "StaticPrefabType": "XENOID_CARRIER_LEDGE_1",
     "SaveName": "Overgrowth Ledge 1",
     "Name": "Overgrowth Ledge 1",
-    "DisplayName": "Xennoid Carrier Ledge",
+    "DisplayName": "Xenoid Carrier Ledge",
     "Description": "This is some kind of rocky growth emerging from the surrounding material.",
     "CodexCategory": "Alien Overgrowth"
   },
@@ -1125,7 +1147,7 @@
     "StaticPrefabType": "XENOID_CARRIER_LEDGE_2",
     "SaveName": "Overgrowth Ledge 2",
     "Name": "Overgrowth Ledge 2",
-    "DisplayName": "Xennoid Carrier Ledge",
+    "DisplayName": "Xenoid Carrier Ledge",
     "Description": "This is some kind of rocky growth emerging from the surrounding material.",
     "CodexCategory": "Alien Overgrowth"
   },
@@ -1133,7 +1155,7 @@
     "StaticPrefabType": "XENOID_CARRIER_LEDGE_3",
     "SaveName": "Overgrowth Ledge 3",
     "Name": "Overgrowth Ledge 3",
-    "DisplayName": "Xennoid Carrier Ledge",
+    "DisplayName": "Xenoid Carrier Ledge",
     "Description": "This is some kind of rocky growth emerging from the surrounding material.",
     "CodexCategory": "Alien Overgrowth"
   },
@@ -1141,7 +1163,7 @@
     "StaticPrefabType": "XENOID_CARRIER_LEDGE_4",
     "SaveName": "Overgrowth Ledge 4",
     "Name": "Overgrowth Ledge 4",
-    "DisplayName": "Xennoid Carrier Ledge",
+    "DisplayName": "Xenoid Carrier Ledge",
     "Description": "This is some kind of rocky growth emerging from the surrounding material.",
     "CodexCategory": "Alien Overgrowth"
   },
@@ -1149,7 +1171,7 @@
     "StaticPrefabType": "XENOID_CARRIER_LEDGE_5",
     "SaveName": "Overgrowth Ledge 5",
     "Name": "Overgrowth Ledge 5",
-    "DisplayName": "Xennoid Carrier Ledge",
+    "DisplayName": "Xenoid Carrier Ledge",
     "Description": "This is some kind of rocky growth emerging from the surrounding material.",
     "CodexCategory": "Alien Overgrowth"
   },
@@ -1476,6 +1498,7 @@
     "StaticPrefabType": "HANGAR_ACCESS_HATCH_VALVE",
     "SaveName": "Hangar Access Hatch Valve",
     "Name": "Hangar Access Hatch Valve",
+    "DisplayName": "Hangar Hatch Valve",
     "Description": "That is a valve used for opening a nearby access hatch.",
     "CodexCategory": "Doors"
   },
@@ -1506,6 +1529,7 @@
     "StaticPrefabType": "TECH_DOOR_WITH_PANEL_SMALL",
     "SaveName": "Tech Door With Panel Small",
     "Name": "Tech Door With Panel Small",
+    "DisplayName": "Small Security Door",
     "Description": "That is a high-tech steel reinforced door that opens when the panel on the side is used.",
     "CodexCategory": "Human Doors"
   },
@@ -1513,6 +1537,7 @@
     "StaticPrefabType": "TECH_DOOR_WITH_PANEL_MEDIUM",
     "SaveName": "Tech Door With Panel Medium",
     "Name": "Tech Door With Panel Medium",
+    "DisplayName": "Medium Security Door",
     "Description": "That is a high-tech steel reinforced door that opens when the panel on the side is used.",
     "CodexCategory": "Human Doors"
   },
@@ -1520,6 +1545,7 @@
     "StaticPrefabType": "TECH_DOOR_WITH_PANEL_LARGE",
     "SaveName": "Tech Door With Panel Large",
     "Name": "Tech Door With Panel Large",
+    "DisplayName": "Large Security Door",
     "Description": "That is a high-tech steel reinforced door that opens when the panel on the side is used.",
     "CodexCategory": "Human Doors"
   },
@@ -1562,6 +1588,7 @@
     "StaticPrefabType": "THERMOTHROWER_CHARGING_STATION",
     "SaveName": "Thermothrower Charging Station",
     "Name": "Thermothrower Charging Station",
+    "DisplayName": "Thermothrower Charger",
     "Description": "This is a charging station for the Thermothrower. Requires a fully powered reactor in the general proximity to function.",
     "CodexCategory": "Hephaestus Technology"
   },
@@ -1588,6 +1615,7 @@
     "StaticPrefabType": "HYDROPONICS_PLANTER_TRAY_EMPTY",
     "SaveName": "Hydroponics Empty Planter Tray",
     "Name": "Hydroponics Empty Planter Tray",
+    "DisplayName": "Empty Planter Tray",
     "Description": "This is an empty tray used for growing plants."
   },
   {
@@ -1612,18 +1640,21 @@
     "StaticPrefabType": "HYDROPONICS_CUBE_0",
     "SaveName": "Hydroponics Growth Cube 0",
     "Name": "Hydroponics Growth Cube 0",
+    "DisplayName": "Hydroponic Growth Cube",
     "Description": "This is a device used for growing plants hydroponically."
   },
   {
     "StaticPrefabType": "HYDROPONICS_CUBE_1",
     "SaveName": "Hydroponics Growth Cube 1",
     "Name": "Hydroponics Growth Cube 1",
+    "DisplayName": "Hydroponic Growth Cube",
     "Description": "This is a device used for growing plants hydroponically."
   },
   {
     "StaticPrefabType": "HYDROPONICS_CUBE_EMPTY",
     "SaveName": "Hydroponics Growth Empty Cube",
     "Name": "Hydroponics Growth Empty Cube",
+    "DisplayName": "Empty Hydroponic Cube",
     "Description": "This is a device used for growing plants hydroponically."
   },
   {
@@ -1825,7 +1856,7 @@
     "StaticPrefabType": "PIONEER_BACKGROUND_VIEWPORT",
     "SaveName": "Pioneer Background Viewport",
     "Name": "Pioneer Background Viewport",
-    "DisplayName": "Reinforced Background Viewport",
+    "DisplayName": "Reinforced Viewport",
     "Description": "This is a large steel and plastic viewport that has been reinforced with durable materials.",
     "CodexCategory": "Human Decorations"
   },
@@ -1840,6 +1871,7 @@
     "StaticPrefabType": "PIONEER_ELEVATOR_CEILING_DECOR",
     "SaveName": "Pioneer Elevator Ceiling Decor",
     "Name": "Pioneer Elevator Ceiling Decor",
+    "DisplayName": "Elevator Ceiling Trim",
     "Description": "This is decorative elevator ceiling trim.",
     "CodexCategory": "Human Decoration"
   },
@@ -1965,6 +1997,7 @@
     "StaticPrefabType": "TECH_WINDOW_SQUARE",
     "SaveName": "Square Reinforced Window",
     "Name": "Square Reinforced Window",
+    "DisplayName": "Rectangular Reinforced Window",
     "Description": "This is a steel and plastic window that has been reinforced with durable materials.",
     "CodexCategory": "Human Decoration"
   },
@@ -1972,7 +2005,7 @@
     "StaticPrefabType": "TECH_WINDOW_SQUARE_1",
     "SaveName": "Tech Window Square 1",
     "Name": "Tech Window Square 1",
-    "DisplayName": "Square Reinforced Window 2",
+    "DisplayName": "Wide Reinforced Window",
     "Description": "This is a steel and plastic window that has been reinforced with durable materials.",
     "CodexCategory": "Human Decoration"
   },
@@ -1980,7 +2013,7 @@
     "StaticPrefabType": "TECH_WINDOW_SQUARE_2",
     "SaveName": "Tech Window Square 2",
     "Name": "Tech Window Square 2",
-    "DisplayName": "Square Reinforced Window 3",
+    "DisplayName": "Small Square Reinforced Window",
     "Description": "This is a steel and plastic window that has been reinforced with durable materials.",
     "CodexCategory": "Human Decoration"
   },
@@ -2066,6 +2099,7 @@
     "StaticPrefabType": "PIONEER_ELEVATOR_HATCH",
     "SaveName": "Pioneer Station Elevator Hatch",
     "Name": "Pioneer Station Elevator Hatch",
+    "DisplayName": "Pioneer Elevator Hatch",
     "Description": "A generator piston.",
     "CodexCategory": "Human Technology"
   },
@@ -2080,6 +2114,7 @@
     "StaticPrefabType": "PIONEER_MAIN_DOOR",
     "SaveName": "Pioneer Station Main Door",
     "Name": "Pioneer Station Main Door",
+    "DisplayName": "Pioneer Main Door",
     "Description": "A large door.",
     "CodexCategory": "Human Doors"
   },
@@ -2115,6 +2150,7 @@
     "StaticPrefabType": "PIONEER_GARAGE_DOOR",
     "SaveName": "Pioneer Station Garage Door",
     "Name": "Pioneer Station Garage Door",
+    "DisplayName": "Pioneer Garage Door",
     "Description": "A large door.",
     "CodexCategory": "Human Doors",
     "DescriptionsByState": {
@@ -2126,6 +2162,7 @@
     "StaticPrefabType": "VANDALIZED_HANGAR_ACCESS_HATCH",
     "SaveName": "Vandalized Hangar Access Hatch",
     "Name": "Vandalized Hangar Access Hatch",
+    "DisplayName": "Vandalized Hangar Hatch",
     "Description": "This access hatch seems to have been vandalized. It looks like someone sawed the valve off of the top, and it can only be used from below.",
     "CodexCategory": "Human Doors"
   },
@@ -2133,6 +2170,7 @@
     "StaticPrefabType": "MEG_STATION_INSTALLER",
     "SaveName": "MEG Station Encryption Key Installer",
     "Name": "MEG Station Encryption Key Installer",
+    "DisplayName": "MEG Encryption Installer",
     "Description": "This is a MEG tool install station.",
     "CodexCategory": "Human Technology"
   },
@@ -2235,7 +2273,6 @@
     "StaticPrefabType": "XENOID_ARTILLERY_SPAWN",
     "SaveName": "Loose Rocks",
     "Name": "Loose Rocks",
-    "DisplayName": "An inconspicuous pile of rocks.",
     "Description": "This is just a pile of rocks.",
     "CodexCategory": "Alien Decoration"
   },
@@ -2458,6 +2495,7 @@
     "StaticPrefabType": "XENOSTONE_TABLE_LARGE",
     "SaveName": "Xenostone Table Large",
     "Name": "Xenostone Table Large",
+    "DisplayName": "Large Xenostone Table",
     "Description": "A large xenostone table.",
     "CodexCategory": "Alien Furniture"
   }

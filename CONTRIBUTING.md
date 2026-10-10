@@ -74,6 +74,10 @@ have Python locally, `python scripts/measure-coverage.py` also checks the
 locale against the English snapshot. Do not copy untranslated English entries
 in bulk: missing rows already fall back to English in the game.
 
+You do not need to update `README.md` or `coverage.md` in your pull request.
+The checks publish current coverage as a summary and a downloadable artifact;
+maintainers refresh the repository's language table separately.
+
 ## What to submit
 
 - One language per pull request, with related changes together when practical.

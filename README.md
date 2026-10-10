@@ -11,6 +11,18 @@ Use the English files here as a reference and put translated entries in a
 language pack. You can start with one line; untranslated entries stay in English
 in the game.
 
+To test the current packs, use the **Steam beta branch, version 0.27.3 or
+newer**. The default branch's 0.26.16 has earlier translation support and
+will leave some of these translations in English. The dated English snapshot
+may also include text added after your installed beta; those entries appear
+when you update to a game version that includes them.
+
+The latest English snapshot includes reviewed localization fixes awaiting the
+next contributor-test beta. Use that beta when it is available to check all
+screens covered by this snapshot; earlier builds may leave text in English or
+clip longer labels. See [`english/SOURCE.json`](english/SOURCE.json) for the
+reviewed source and release status.
+
 The game loads a locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
 restart. Enable only one locale pack at a time; the last loaded overlay wins.
@@ -40,7 +52,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 7712 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8074 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |
