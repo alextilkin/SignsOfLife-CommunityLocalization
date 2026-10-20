@@ -3312,6 +3312,38 @@
     "Text": "Thaw crew"
   },
   {
+    "ID": "crew.ops.freezeColonist",
+    "Text": "Freeze colonist"
+  },
+  {
+    "ID": "crew.ops.freeze.confirm",
+    "Text": "Confirm freeze"
+  },
+  {
+    "ID": "crew.ops.freeze.description",
+    "Text": "Frozen colonists can be thawed again."
+  },
+  {
+    "ID": "crew.ops.freeze.workers",
+    "Text": "Worker allocations may decrease."
+  },
+  {
+    "ID": "crew.ops.freeze.pending",
+    "Text": "Freeze request pending..."
+  },
+  {
+    "ID": "crew.ops.freeze.ready",
+    "Text": "Ready to freeze."
+  },
+  {
+    "ID": "crew.ops.freeze.success",
+    "Text": "Colonist frozen"
+  },
+  {
+    "ID": "crew.ops.thaw.failure.NoCrew",
+    "Text": "No active colonists."
+  },
+  {
     "ID": "crew.ops.waitingForHost",
     "Text": "Waiting for host information..."
   },

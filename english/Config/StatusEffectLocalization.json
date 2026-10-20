@@ -1,5 +1,9 @@
 [
   {
+    "ID": "status.RESPAWN_PROTECTION",
+    "Text": "Respawn Protection\nImmune to damage for 60 seconds after respawning. Ends when you use a held item or wrist tool, or kick."
+  },
+  {
     "ID": "status.SPITTER_SPIT",
     "Text": "Corrosive Spitter Spit"
   },
