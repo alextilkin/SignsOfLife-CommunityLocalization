@@ -1,9 +1,9 @@
 {
   "game": "Signs of Life",
-  "snapshotCommit": "9a304d67f7824bdd05b829c9015d5d5531e6bf79",
-  "snapshotSubject": "Clarify interaction prompts and handle unbound or wheel controls",
+  "snapshotCommit": "77f7667234ae8cb1f1e820ba244f091159ba42bb",
+  "snapshotSubject": "Fix ordinary UI shortcuts, Workshop failures and stale content text",
   "snapshotDate": "2026-10-20",
-  "reviewStatus": "0.27 English snapshot refreshed after the completed localization and interaction-prompt reviews, retaining four approved decorative-art exceptions; Steam rollout and public announcement are not confirmed by this snapshot",
+  "reviewStatus": "0.27 English snapshot refreshed after the completed localization, interaction-prompt, UI, and player-facing copy reviews, retaining four approved decorative-art exceptions; Steam rollout and public announcement are not confirmed by this snapshot",
   "overlayableFiles": [
     "Config/UILocalization.json",
     "Config/TooltipLocalization.json",

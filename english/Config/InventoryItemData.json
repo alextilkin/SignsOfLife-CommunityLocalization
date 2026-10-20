@@ -1782,7 +1782,7 @@
         "ItemID":  3027,
         "Complexity":  1,
         "Name":  "Makeshift Crate",
-        "Description":  "A small ornate leather pouch. It has strange markings and decorations, although their origin is unknown.",
+        "Description":  "A makeshift crate for storing items.",
         "Category":  "Container"
     },
     {
