@@ -11,17 +11,17 @@ Use the English files here as a reference and put translated entries in a
 language pack. You can start with one line; untranslated entries stay in English
 in the game.
 
-To test the current packs, use the **Steam beta branch, version 0.27.3 or
-newer**. The default branch's 0.26.16 has earlier translation support and
-will leave some of these translations in English. The dated English snapshot
-may also include text added after your installed beta; those entries appear
-when you update to a game version that includes them.
+This English snapshot targets **Signs of Life 0.27**. Check the version on the
+game's main menu before testing. The snapshot is prepared for the 0.27 release;
+this repository does not confirm which Steam branch currently carries it.
+If your selected branch does not offer 0.27 yet, wait for its rollout or use a
+published build that contains the snapshot commit.
 
-The latest English snapshot includes reviewed localization fixes awaiting the
-next contributor-test beta. Use that beta when it is available to check all
-screens covered by this snapshot; earlier builds may leave text in English or
-clip longer labels. See [`english/SOURCE.json`](english/SOURCE.json) for the
-reviewed source and release status.
+Older beta builds may lack newer text or layout fixes. Version 0.26.16 has
+earlier translation support and will leave some of these translations in
+English. See [`english/SOURCE.json`](english/SOURCE.json) for the exact source
+commit, date, and target version. Missing or empty translations still fall back
+to the English supplied by your installed game.
 
 The game loads a locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
@@ -52,7 +52,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8074 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8102 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |
@@ -126,7 +126,8 @@ The shipped fonts cannot draw these scripts yet, so there is no pack folder.
 
 [`english/Config/`](english/Config/) contains the source text for the supported
 overlay files. Its version is recorded in [`english/SOURCE.json`](english/SOURCE.json).
-The wording may still change as the English text is reviewed. Use the matching
-file under `locales/<code>/Config/` for your language, and include only entries
-you have translated. See [`TRANSLATING.md`](TRANSLATING.md) for the fields to
+The 0.27 reference includes the completed English localization review; later
+English changes will arrive as reviewed snapshot updates. Use the matching file
+under `locales/<code>/Config/` for your language, and include only entries you
+have translated. See [`TRANSLATING.md`](TRANSLATING.md) for the fields to
 translate and the identifiers and tokens to preserve.

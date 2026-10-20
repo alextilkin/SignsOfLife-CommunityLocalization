@@ -3312,6 +3312,38 @@
     "Text": "Thaw crew"
   },
   {
+    "ID": "crew.ops.freezeColonist",
+    "Text": "Freeze colonist"
+  },
+  {
+    "ID": "crew.ops.freeze.confirm",
+    "Text": "Confirm freeze"
+  },
+  {
+    "ID": "crew.ops.freeze.description",
+    "Text": "Frozen colonists can be thawed again."
+  },
+  {
+    "ID": "crew.ops.freeze.workers",
+    "Text": "Worker allocations may decrease."
+  },
+  {
+    "ID": "crew.ops.freeze.pending",
+    "Text": "Freeze request pending..."
+  },
+  {
+    "ID": "crew.ops.freeze.ready",
+    "Text": "Ready to freeze."
+  },
+  {
+    "ID": "crew.ops.freeze.success",
+    "Text": "Colonist frozen"
+  },
+  {
+    "ID": "crew.ops.thaw.failure.NoCrew",
+    "Text": "No active colonists."
+  },
+  {
     "ID": "crew.ops.waitingForHost",
     "Text": "Waiting for host information..."
   },
@@ -4558,6 +4590,74 @@
   {
     "ID": "interaction.hold",
     "Text": "Hold"
+  },
+  {
+    "ID": "interaction.nextChannel",
+    "Text": "Next channel"
+  },
+  {
+    "ID": "interaction.previousChannel",
+    "Text": "Previous channel"
+  },
+  {
+    "ID": "interaction.removePowerPanel",
+    "Text": "Remove power panel"
+  },
+  {
+    "ID": "interaction.openBatteryCompartment",
+    "Text": "Open battery compartment"
+  },
+  {
+    "ID": "interaction.installSignalDecoder",
+    "Text": "Install Signal Decoder"
+  },
+  {
+    "ID": "interaction.installMnemonic",
+    "Text": "Insert Strange Gadget"
+  },
+  {
+    "ID": "interaction.removeShield",
+    "Text": "Remove shield"
+  },
+  {
+    "ID": "interaction.releaseSpheres",
+    "Text": "Release spheres"
+  },
+  {
+    "ID": "interaction.requiresScrewdriver",
+    "Text": "Requires Screwdriver"
+  },
+  {
+    "ID": "interaction.requiresSignalDecoder",
+    "Text": "Requires Signal Decoder"
+  },
+  {
+    "ID": "interaction.requiresMnemonic",
+    "Text": "Requires Strange Gadget"
+  },
+  {
+    "ID": "interaction.standInScanPosition",
+    "Text": "Stand in the scan position"
+  },
+  {
+    "ID": "interaction.standOnPlatform",
+    "Text": "Stand on the platform"
+  },
+  {
+    "ID": "interaction.shear",
+    "Text": "Shear"
+  },
+  {
+    "ID": "interaction.requiresScissors",
+    "Text": "Requires Scissors"
+  },
+  {
+    "ID": "interaction.reset",
+    "Text": "Reset"
+  },
+  {
+    "ID": "interaction.unbound",
+    "Text": "Not bound"
   },
   {
     "ID": "controller.action.activate",

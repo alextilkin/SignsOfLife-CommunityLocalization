@@ -1,9 +1,9 @@
 {
   "game": "Signs of Life",
-  "snapshotCommit": "241deb50f97817676058587476f99a0b32d61581",
-  "snapshotSubject": "Complete community localization freeze review",
-  "snapshotDate": "2026-10-10",
-  "reviewStatus": "reviewed exact-commit English snapshot with four approved decorative-art exceptions; contributor beta release and announcement pending",
+  "snapshotCommit": "9a304d67f7824bdd05b829c9015d5d5531e6bf79",
+  "snapshotSubject": "Clarify interaction prompts and handle unbound or wheel controls",
+  "snapshotDate": "2026-10-20",
+  "reviewStatus": "0.27 English snapshot refreshed after the completed localization and interaction-prompt reviews, retaining four approved decorative-art exceptions; Steam rollout and public announcement are not confirmed by this snapshot",
   "overlayableFiles": [
     "Config/UILocalization.json",
     "Config/TooltipLocalization.json",
@@ -24,5 +24,6 @@
     "Config/GlyphLocalization.json",
     "Config/RuntimeContentLocalization.json"
   ],
-  "notes": "Packs overlay display/prose fields only. Leave IDs, save names, recipe Name/DisplaySource, category Key, glyph English, armor set Name and piece Set, and gameplay stats unchanged. Inherited recipe names and hidden debug recipes have no required DisplayName task. Prefab DisplayName inherits a translated Name where English values match. Container gump titles use UILocalization container.* keys. Vanilla pack-item Name/Description remains in LoadedContent item_*.json; export-pack-item-prose.py fills the sol.* InventoryItemData snapshot. Unique equipment-effect prose uses RuntimeContentLocalization effect.* fields. PREVIEW, INPUT, PROMPT, and decorative MAGNETIC HANDLE art labels are deferred until after the community localization launch."
+  "notes": "Packs overlay display/prose fields only. Leave IDs, save names, recipe Name/DisplaySource, category Key, glyph English, armor set Name and piece Set, and gameplay stats unchanged. Inherited recipe names and hidden debug recipes have no required DisplayName task. Prefab DisplayName inherits a translated Name where English values match. Container gump titles use UILocalization container.* keys. Vanilla pack-item Name/Description remains in LoadedContent item_*.json; export-pack-item-prose.py fills the sol.* InventoryItemData snapshot. Unique equipment-effect prose uses RuntimeContentLocalization effect.* fields. PREVIEW, INPUT, PROMPT, and decorative MAGNETIC HANDLE art labels are deferred until after the community localization launch.",
+  "targetGameVersion": "0.27"
 }

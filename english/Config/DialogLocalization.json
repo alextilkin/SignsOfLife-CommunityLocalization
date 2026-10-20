@@ -3067,5 +3067,10 @@
   {
     "ID": 729,
     "Normal": "Stay safe out there."
+  },
+  {
+    "ID": 730,
+    "Normal": "You've got a parasite growing inside you. Ipecac Medicine will make you throw it up. The recipe is in your crafting menu.",
+    "Robot": "A growing parasite has been detected inside your body. Use Ipecac Medicine to expel it. The recipe is available in your crafting menu."
   }
 ]

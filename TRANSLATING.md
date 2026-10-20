@@ -5,15 +5,16 @@ translated rows to the matching file under `locales/<code>/Config/`. You can
 start with one row. Missing rows and empty translated fields stay in English.
 For submissions to this repository, read [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Test packs on the Steam beta branch, version **0.27.3 or newer**. The default
-branch's 0.26.16 has earlier translation support. Text introduced after your
-installed beta stays English or is not shown until the corresponding game
-update; check the snapshot's commit and date in
-[`english/SOURCE.json`](english/SOURCE.json).
+Test this snapshot with **Signs of Life 0.27**, checking the version on the main
+menu. It is prepared for the 0.27 release; check the available Steam builds
+before installing, since this repository does not confirm the live rollout.
+Use 0.27 when available, or a published build containing the exact snapshot
+commit in [`english/SOURCE.json`](english/SOURCE.json).
 
-The latest snapshot also includes localization fixes awaiting the next
-contributor-test beta. Use that beta when it is available for a complete
-in-game check; earlier builds may leave text in English or clip longer labels.
+Older beta builds may lack newer text or layout fixes. Version 0.26.16 has
+earlier translation support. Text introduced after your installed build stays
+English or is not shown until the corresponding game update. Missing or empty
+translations always use the English supplied by the installed game.
 
 ## Find your file
 
