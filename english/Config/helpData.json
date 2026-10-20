@@ -25,7 +25,7 @@
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Inventory Usage",
-    "Text": "Your inventory can be accessed by pressing [menukey] or by clicking the backpack icon on the top of your HUD. In order to pick up items, you can either drag them from the world into your pack with your mouse cursor or you can use the Grab Laser tool by pressing [grablaserkey] and pointing at the item. You can also drag items from your inventory back into the world.\n\nNote: When you die, your items spew out of your pack, but they do not decay and they will be right where you left them."
+    "Text": "Your inventory can be accessed by pressing [menukey] or by clicking the backpack icon on the top of your HUD. In order to pick up items, you can either drag them from the world into your pack with your mouse cursor or you can use the Grab Laser tool by pressing [grablaserkey] and pointing at the item. You can also drag items from your inventory back into the world.\n\nNote: When you die and lose your items, they are stored in a dropped backpack. They do not decay, and you can return to the backpack to recover them."
   },
   {
     "Key": "KEYITEMS",

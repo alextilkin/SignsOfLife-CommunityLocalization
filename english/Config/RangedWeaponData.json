@@ -658,7 +658,7 @@
         "Kind":  "Gun",
         "ItemID":  6129,
         "Name":  "C96",
-        "Description":  "An old gun commonly used in the wars during the early 20th century that chambers 9mm rounds.  Can be outfitted with a stock for greater firing stability.  It cannot be reloaded very quickly, but it has above average stopping power.",
+        "Description":  "An old gun commonly used in the wars during the early 20th century that chambers 9mm rounds.  It cannot be reloaded very quickly, but it has above average stopping power.",
         "ClipSize":  8,
         "MinSpread":  0.025,
         "MaxSpread":  0.06,

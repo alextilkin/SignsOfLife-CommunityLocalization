@@ -1820,6 +1820,22 @@
     "Text": "Steam is not initialized, so the game cannot check whether this mod already exists."
   },
   {
+    "ID": "mods.steamUnavailable",
+    "Text": "Steam Workshop is unavailable. Start the game through Steam to use online Workshop features. Local mods are still available."
+  },
+  {
+    "ID": "mods.loadingPublished",
+    "Text": "Loading the mods published by your Steam account…"
+  },
+  {
+    "ID": "mods.publishedQueryFailed",
+    "Text": "Could not load your published Workshop mods. Try again."
+  },
+  {
+    "ID": "mods.workshopActionFailed",
+    "Text": "Steam Workshop could not complete this action. Please try again."
+  },
+  {
     "ID": "mods.couldNotCheckPublished",
     "Text": "Steam could not check the mods published by this account. Nothing was uploaded; try again."
   },
