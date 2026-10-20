@@ -4592,6 +4592,74 @@
     "Text": "Hold"
   },
   {
+    "ID": "interaction.nextChannel",
+    "Text": "Next channel"
+  },
+  {
+    "ID": "interaction.previousChannel",
+    "Text": "Previous channel"
+  },
+  {
+    "ID": "interaction.removePowerPanel",
+    "Text": "Remove power panel"
+  },
+  {
+    "ID": "interaction.openBatteryCompartment",
+    "Text": "Open battery compartment"
+  },
+  {
+    "ID": "interaction.installSignalDecoder",
+    "Text": "Install Signal Decoder"
+  },
+  {
+    "ID": "interaction.installMnemonic",
+    "Text": "Insert Strange Gadget"
+  },
+  {
+    "ID": "interaction.removeShield",
+    "Text": "Remove shield"
+  },
+  {
+    "ID": "interaction.releaseSpheres",
+    "Text": "Release spheres"
+  },
+  {
+    "ID": "interaction.requiresScrewdriver",
+    "Text": "Requires Screwdriver"
+  },
+  {
+    "ID": "interaction.requiresSignalDecoder",
+    "Text": "Requires Signal Decoder"
+  },
+  {
+    "ID": "interaction.requiresMnemonic",
+    "Text": "Requires Strange Gadget"
+  },
+  {
+    "ID": "interaction.standInScanPosition",
+    "Text": "Stand in the scan position"
+  },
+  {
+    "ID": "interaction.standOnPlatform",
+    "Text": "Stand on the platform"
+  },
+  {
+    "ID": "interaction.shear",
+    "Text": "Shear"
+  },
+  {
+    "ID": "interaction.requiresScissors",
+    "Text": "Requires Scissors"
+  },
+  {
+    "ID": "interaction.reset",
+    "Text": "Reset"
+  },
+  {
+    "ID": "interaction.unbound",
+    "Text": "Not bound"
+  },
+  {
     "ID": "controller.action.activate",
     "Text": "Activate"
   },

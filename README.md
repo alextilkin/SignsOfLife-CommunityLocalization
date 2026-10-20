@@ -52,7 +52,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8085 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8102 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |
