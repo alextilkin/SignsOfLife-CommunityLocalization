@@ -708,6 +708,14 @@
     "Text": "Auto Run"
   },
   {
+    "ID": "settings.toggleRun",
+    "Text": "Toggle Run"
+  },
+  {
+    "ID": "settings.toggleCrouch",
+    "Text": "Toggle Crouch"
+  },
+  {
     "ID": "settings.edgePeek",
     "Text": "Edge Peek"
   },
@@ -2550,6 +2558,14 @@
   {
     "ID": "station.fire",
     "Text": "Fire"
+  },
+  {
+    "ID": "station.massDriver.hostileShip",
+    "Text": "Hostile ship"
+  },
+  {
+    "ID": "station.massDriver.sun",
+    "Text": "Sun"
   },
   {
     "ID": "world.delete",
@@ -5502,5 +5518,37 @@
   {
     "ID": "creative.folder.segment.xenotech_set",
     "Text": "Xenotech Set"
+  },
+  {
+    "ID": "consumable.restoreHealth",
+    "Text": "Restores health immediately"
+  },
+  {
+    "ID": "consumable.restoreStrangeEnergy",
+    "Text": "Restores strange energy immediately"
+  },
+  {
+    "ID": "consumable.effectTimed",
+    "Text": "{0} ({1})"
+  },
+  {
+    "ID": "consumable.effectPerSip",
+    "Text": "{0} per sip"
+  },
+  {
+    "ID": "consumable.durationSeconds",
+    "Text": "{0:0.###} s"
+  },
+  {
+    "ID": "consumable.durationMinutes",
+    "Text": "{0:0.###} min"
+  },
+  {
+    "ID": "consumable.durationHours",
+    "Text": "{0:0.###} h"
+  },
+  {
+    "ID": "meg.extractedDataHeader",
+    "Text": "[Extracted Data]"
   }
 ]

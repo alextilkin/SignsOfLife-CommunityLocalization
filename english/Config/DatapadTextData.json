@@ -418,5 +418,33 @@
     "Title": "Mining Suit Disposition",
     "Category": "Pioneer Station Records",
     "Text": "I took the only remaining mining suit and hid the parts. In case I forget, I wrote them all down:\n\n(Locations are filled in when this world is generated.)"
+  },
+  {
+    "ID": 80,
+    "Title": "Codex 1",
+    "Category": "Xenoid Archives",
+    "IsExtractedData": true,
+    "Text": "We have managed to build a life here, but the lost potential of our race is staggering.\n\nThe time before the Calamity was an age of wonders. It was a time of great abundance and peace.\n\nOur greatest minds performed technological miracles, and we started to believe that we had tamed space and time itself.\n\nWe all know what came next.\n\nIt is a sad reality that the horrible moments tend to have the most impact in our shared history. Our collective sense of despair can be overwhelming when looking backward.\n\nKeep looking forward.\n\nIf I must crystalize my primary experiences into a singular piece of wisdom, it would be to avoid taking the good things for granted.\n\nGive the good a chance to shine through to future generations."
+  },
+  {
+    "ID": 81,
+    "Title": "Codex 2",
+    "Category": "Xenoid Archives",
+    "IsExtractedData": true,
+    "Text": "As my time starts to run out and I grow weaker, I spend more and more time pondering the implications of the Great Web.\n\nSo many choices that led to so many branching strands. The scale of it all is beyond humbling. We were able to peek into the true vastness of it all for such a short time before the Calamity, but it wasn't hard to understand what it all meant.\n\nI've been around for... awhile, and I've seen so much, but even after all I've seen I cannot decide if we're on one of the good or bad strands.\n\nOur ancestral history is full of so many examples of heartache and despair on an almost unfathomable scale, but for every horrific act there are countless smaller stories of kindness and strength.\n\nOur present circumstances are less than ideal, I'll grant you that, but at least we're in one of the strands with life at all."
+  },
+  {
+    "ID": 82,
+    "Title": "Codex 3",
+    "Category": "Xenoid Archives",
+    "IsExtractedData": true,
+    "Text": "When we first got here, I was aghast at the conditions. I genuinely did not know if we would be able to survive here.\n\nThe radiation keeps us so far from the surface, and underground it is dark and unforgiving. Food was scarce, and sometimes it even contains parasites that can grow inside our bodies until they mature and burst from our chests. We were cramped, scared, and we had salvaged barely enough Source to keep us from drying up and fading away forever.\n\nFor so long I simply went through the motions of survival. I could not imagine a better future. It wasn't until the first generation of younglings spawned here and learned to share their emotions that I experienced optimism again.\n\nIt was easy to get bogged down in how far we had fallen, but the younglings knew nothing else. To them this was simply home.\n\nMany of us refrained from sharing our experiences with them, but eventually they all came to understand our sad history. The lights in their eyes always dimmed a bit when they understood, but the light was always still there and brighter than any of the survivors.\n\nOur nature makes it impossible to completely forget the sins of our past, but every generation will be impacted less and less. Like a copy of a copy, the memories of before will lose clarity. In time, the Calamity will be just another part of our vast ancestral history, and new stories will out shine them."
+  },
+  {
+    "ID": 83,
+    "Title": "Codex 4",
+    "Category": "Xenoid Archives",
+    "IsExtractedData": true,
+    "Text": "Now it is finally my turn, and I have little to say. I am the last survivor with primary memories of the calamity, and so I am the last that fully understands what was lost. I wish I had some great insight to pass on, but I am nobody special. I'm just the one that happened to last the longest. All I will say is this:\n\nCherish every moment, because the odds against your very existence are astronomical."
   }
 ]
