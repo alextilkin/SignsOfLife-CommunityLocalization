@@ -11,11 +11,10 @@ Use the English files here as a reference and put translated entries in a
 language pack. You can start with one line; untranslated entries stay in English
 in the game.
 
-This English snapshot targets **Signs of Life 0.27**. Check the version on the
-game's main menu before testing. The snapshot is prepared for the 0.27 release;
-this repository does not confirm which Steam branch currently carries it.
-If your selected branch does not offer 0.27 yet, wait for its rollout or use a
-published build that contains the snapshot commit.
+This English snapshot targets **Signs of Life 0.27.11**. Check the version on the
+game's main menu before testing. Text added after your installed version stays
+English until the corresponding game update. See `english/SOURCE.json` for the
+exact snapshot commit; this repository does not certify a Steam branch rollout.
 
 Older beta builds may lack newer text or layout fixes. Version 0.26.16 has
 earlier translation support and will leave some of these translations in
@@ -52,7 +51,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8106 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8137 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |

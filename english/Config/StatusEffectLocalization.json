@@ -314,5 +314,13 @@
   {
     "ID": "status.ANTIPARASITIC",
     "Text": "Prevents parasites from attaching themselves to the inside of your organs while they gestate."
+  },
+  {
+    "ID": "status.REDUCE_HEALTH_REGEN",
+    "Text": "Suppresses health regeneration from being well fed"
+  },
+  {
+    "ID": "status.IPECAC",
+    "Text": "Causes vomiting"
   }
 ]

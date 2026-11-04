@@ -1850,7 +1850,7 @@
   },
   {
     "ID": 413,
-    "Normal": "The remaining survivors you see were among the first group of laborers sent here."
+    "Normal": "The people you see here are descendants of the original laborers sent to this planet."
   },
   {
     "ID": 414,
@@ -3072,5 +3072,9 @@
     "ID": 730,
     "Normal": "You've got a parasite growing inside you. Ipecac Medicine will make you throw it up. The recipe is in your crafting menu.",
     "Robot": "A growing parasite has been detected inside your body. Use Ipecac Medicine to expel it. The recipe is available in your crafting menu."
+  },
+  {
+    "ID": 731,
+    "Normal": "I can't extract that data until we've learned more about the alien language."
   }
 ]

@@ -3306,7 +3306,8 @@
         "Complexity":  6,
         "Name":  "Energy Glove Charge Upgrade",
         "Description":  "An upgrade for the Energy Glove that allows the user to drop little energy bombs that explode after an amount of time.",
-        "Category":  "Energy Glove Upgrades"
+        "Category":  "Energy Glove Upgrades",
+        "DerivedWeaponCategory":  "Gadget"
     },
     {
         "ItemID":  6902,
@@ -5571,6 +5572,30 @@
         "AutoOrganizeString":  "crafting",
         "Description":  "This lens utilizes carbon nanotubes to guide photons dramatically better than more traditional lenses. It's unique photon wave guide allows your MEG tool's wrist laser to cut through almost any known material.",
         "Category":  "MEG Equipment"
+    },
+    {
+        "ItemID":  19011,
+        "Complexity":  2,
+        "Name":  "Xenoid Archive Record 1",
+        "Description":  ""
+    },
+    {
+        "ItemID":  19012,
+        "Complexity":  2,
+        "Name":  "Xenoid Archive Record 2",
+        "Description":  ""
+    },
+    {
+        "ItemID":  19013,
+        "Complexity":  2,
+        "Name":  "Xenoid Archive Record 3",
+        "Description":  ""
+    },
+    {
+        "ItemID":  19014,
+        "Complexity":  2,
+        "Name":  "Xenoid Archive Record 4",
+        "Description":  ""
     },
     {
         "ItemID":  20000,
@@ -8304,7 +8329,7 @@
         "Complexity":  1,
         "Name":  "Citrica Seed",
         "AutoOrganizeString":  "forager",
-        "Description":  "A seed for a stalk of Citrica. If planted on bare dirt, it can grow into a mighty tree."
+        "Description":  "Grows into a dense, sinewy bush that fruits with Citrica fruit."
     },
     {
         "ItemID":  "sol.corn_seed",
