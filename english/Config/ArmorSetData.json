@@ -529,7 +529,7 @@
     {
       "ItemType": "CRAWLER_SPINE_BRACE",
       "Name": "Crawler Spine Brace",
-      "Description": "A crude but effective piece of defensive armor. This will reflect 5 damage back at any attacker.",
+      "Description": "A crude but effective piece of defensive armor. Contact attackers take 5 physical damage before their defenses are applied.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
       "Encumbrance": 1,
@@ -866,7 +866,7 @@
     {
       "ItemType": "ACC_MAGNETIC_PROJECTILE_REPULSOR",
       "Name": "Magnetic Projectile Repulsor",
-      "Description": "A device that uses your energy to generate EM waves in order to deflect projectiles that fly near you. How fortunate!",
+      "Description": "A device that uses your energy to generate EM waves in order to deflect projectiles that fly near you, including your own shots. Energy use increases with the number of nearby projectiles being redirected. How fortunate!",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
       "Encumbrance": 1,
@@ -1027,7 +1027,7 @@
       "ItemType": "MINING_SUIT_JUMPJET_MK2",
       "Name": "Mining Suit Jumpjet Mk2",
       "Set": "Mining Suit Mk2 Set",
-      "Description": "An improved jumpjet that is both faster and more energy efficient. Hold the jump key to activate.",
+      "Description": "An improved jumpjet that is both faster and more energy efficient. Hold the jump key while falling to activate. Requires capacitor charge and cannot operate while disrupted.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 6,
       "Encumbrance": 0,
@@ -1400,7 +1400,7 @@
     {
       "ItemType": "ACC_TRAJECTORY_COMPUTER",
       "Name": "Trajectory Computer",
-      "Description": "A device that interfaces with your MEG tool and shows the projected trajectory of thrown items and arrows shot from your bow.",
+      "Description": "A device that interfaces with your MEG tool and shows the projected trajectory of thrown items and arcing shots.",
       "DamageReductionPercent": 0,
       "DamageReductionFlat": 0,
       "Encumbrance": 1,

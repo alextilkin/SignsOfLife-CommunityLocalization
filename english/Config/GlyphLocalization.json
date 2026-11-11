@@ -235,6 +235,241 @@
     "Text": "A brief respite can make all the difference."
   },
   {
+    "ID": "glyph.tablet.FIREBALL",
+    "English": "Launches a ball of fire that burns its target.",
+    "Text": "Launches a ball of fire that burns its target."
+  },
+  {
+    "ID": "glyph.tablet.FIREBALL_SEEKING",
+    "English": "Launches a seeking ball of fire that burns its target.",
+    "Text": "Launches a seeking ball of fire that burns its target."
+  },
+  {
+    "ID": "glyph.tablet.CALM_MIND",
+    "English": "Launches a bolt that calms its target.",
+    "Text": "Launches a bolt that calms its target."
+  },
+  {
+    "ID": "glyph.tablet.CALM_MIND_SEEKING",
+    "English": "Launches a seeking bolt that calms its target.",
+    "Text": "Launches a seeking bolt that calms its target."
+  },
+  {
+    "ID": "glyph.tablet.ENERGYBOLT",
+    "English": "Launches a bolt of energy that damages its target.",
+    "Text": "Launches a bolt of energy that damages its target."
+  },
+  {
+    "ID": "glyph.tablet.ENERGYBOLT_SEEKING",
+    "English": "Launches a seeking bolt of energy that damages its target.",
+    "Text": "Launches a seeking bolt of energy that damages its target."
+  },
+  {
+    "ID": "glyph.tablet.ANIMATE_MATERIAL_GOLEM",
+    "English": "Raises a friendly golem from dirt, stone, or xenite.",
+    "Text": "Raises a friendly golem from dirt, stone, or xenite."
+  },
+  {
+    "ID": "glyph.tablet.FLARE",
+    "English": "Launches a glowing flare that lights the area.",
+    "Text": "Launches a glowing flare that lights the area."
+  },
+  {
+    "ID": "glyph.tablet.HOMEWARD",
+    "English": "Returns its target to a spacetime totem or an active xenolith.",
+    "Text": "Returns its target to a spacetime totem or an active xenolith."
+  },
+  {
+    "ID": "glyph.tablet.MEND_AREA",
+    "English": "Creates an area that heals nearby living creatures.",
+    "Text": "Creates an area that heals nearby living creatures."
+  },
+  {
+    "ID": "glyph.tablet.ICEDART",
+    "English": "Launches an ice dart that damages and freezes its target.",
+    "Text": "Launches an ice dart that damages and freezes its target."
+  },
+  {
+    "ID": "glyph.tablet.ICEDART_SEEKING",
+    "English": "Launches a seeking ice dart that damages and freezes its target.",
+    "Text": "Launches a seeking ice dart that damages and freezes its target."
+  },
+  {
+    "ID": "glyph.tablet.CHAOS_BOLTS",
+    "English": "Launches five erratic bolts that damage their targets.",
+    "Text": "Launches five erratic bolts that damage their targets."
+  },
+  {
+    "ID": "glyph.tablet.TOTEM_BODY",
+    "English": "Creates a totem that heals nearby living creatures.",
+    "Text": "Creates a totem that heals nearby living creatures."
+  },
+  {
+    "ID": "glyph.tablet.TOTEM_CHAOS",
+    "English": "Creates a totem that fires erratic damaging bolts.",
+    "Text": "Creates a totem that fires erratic damaging bolts."
+  },
+  {
+    "ID": "glyph.tablet.TOTEM_ENERGY",
+    "English": "Creates a totem that damages nearby targets with an energy beam.",
+    "Text": "Creates a totem that damages nearby targets with an energy beam."
+  },
+  {
+    "ID": "glyph.tablet.TOTEM_FROST",
+    "English": "Creates a totem that freezes nearby targets with a frost beam.",
+    "Text": "Creates a totem that freezes nearby targets with a frost beam."
+  },
+  {
+    "ID": "glyph.tablet.TOTEM_HEAT",
+    "English": "Creates a totem that spreads walls of flame.",
+    "Text": "Creates a totem that spreads walls of flame."
+  },
+  {
+    "ID": "glyph.tablet.TOTEM_MATTER",
+    "English": "Creates a totem that makes nearby plants grow faster.",
+    "Text": "Creates a totem that makes nearby plants grow faster."
+  },
+  {
+    "ID": "glyph.tablet.TOTEM_MIND",
+    "English": "Creates a totem that fires calming bolts at nearby targets.",
+    "Text": "Creates a totem that fires calming bolts at nearby targets."
+  },
+  {
+    "ID": "glyph.tablet.TOTEM_SPACETIME",
+    "English": "Creates a destination totem for the Homeward ability.",
+    "Text": "Creates a destination totem for the Homeward ability."
+  },
+  {
+    "ID": "glyph.tablet.GATE_TRAVEL",
+    "English": "Carries its target along a chain of xenite travel nodes.",
+    "Text": "Carries its target along a chain of xenite travel nodes."
+  },
+  {
+    "ID": "glyph.capsule.FIREBALL",
+    "English": "Launches a ball of fire that burns its target. Consumed on use.",
+    "Text": "Launches a ball of fire that burns its target. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.FIREBALL_SEEKING",
+    "English": "Launches a seeking ball of fire that burns its target. Consumed on use.",
+    "Text": "Launches a seeking ball of fire that burns its target. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.CALM_MIND",
+    "English": "Launches a bolt that calms its target. Consumed on use.",
+    "Text": "Launches a bolt that calms its target. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.CALM_MIND_SEEKING",
+    "English": "Launches a seeking bolt that calms its target. Consumed on use.",
+    "Text": "Launches a seeking bolt that calms its target. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.ENERGYBOLT",
+    "English": "Launches a bolt of energy that damages its target. Consumed on use.",
+    "Text": "Launches a bolt of energy that damages its target. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.ENERGYBOLT_SEEKING",
+    "English": "Launches a seeking bolt of energy that damages its target. Consumed on use.",
+    "Text": "Launches a seeking bolt of energy that damages its target. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.ANIMATE_MATERIAL_GOLEM",
+    "English": "Raises a friendly golem from dirt, stone, or xenite. Consumed on use.",
+    "Text": "Raises a friendly golem from dirt, stone, or xenite. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.FLARE",
+    "English": "Launches a glowing flare that lights the area. Consumed on use.",
+    "Text": "Launches a glowing flare that lights the area. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.HOMEWARD",
+    "English": "Returns its target to a spacetime totem or an active xenolith. Consumed on use.",
+    "Text": "Returns its target to a spacetime totem or an active xenolith. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.MEND_AREA",
+    "English": "Creates an area that heals nearby living creatures. Consumed on use.",
+    "Text": "Creates an area that heals nearby living creatures. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.ICEDART",
+    "English": "Launches an ice dart that damages and freezes its target. Consumed on use.",
+    "Text": "Launches an ice dart that damages and freezes its target. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.ICEDART_SEEKING",
+    "English": "Launches a seeking ice dart that damages and freezes its target. Consumed on use.",
+    "Text": "Launches a seeking ice dart that damages and freezes its target. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.CHAOS_BOLTS",
+    "English": "Launches five erratic bolts that damage their targets. Consumed on use.",
+    "Text": "Launches five erratic bolts that damage their targets. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.TOTEM_BODY",
+    "English": "Creates a totem that heals nearby living creatures. Consumed on use.",
+    "Text": "Creates a totem that heals nearby living creatures. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.TOTEM_CHAOS",
+    "English": "Creates a totem that fires erratic damaging bolts. Consumed on use.",
+    "Text": "Creates a totem that fires erratic damaging bolts. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.TOTEM_ENERGY",
+    "English": "Creates a totem that damages nearby targets with an energy beam. Consumed on use.",
+    "Text": "Creates a totem that damages nearby targets with an energy beam. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.TOTEM_FROST",
+    "English": "Creates a totem that freezes nearby targets with a frost beam. Consumed on use.",
+    "Text": "Creates a totem that freezes nearby targets with a frost beam. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.TOTEM_HEAT",
+    "English": "Creates a totem that spreads walls of flame. Consumed on use.",
+    "Text": "Creates a totem that spreads walls of flame. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.TOTEM_MATTER",
+    "English": "Creates a totem that makes nearby plants grow faster. Consumed on use.",
+    "Text": "Creates a totem that makes nearby plants grow faster. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.TOTEM_MIND",
+    "English": "Creates a totem that fires calming bolts at nearby targets. Consumed on use.",
+    "Text": "Creates a totem that fires calming bolts at nearby targets. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.TOTEM_SPACETIME",
+    "English": "Creates a destination totem for the Homeward ability. Consumed on use.",
+    "Text": "Creates a destination totem for the Homeward ability. Consumed on use."
+  },
+  {
+    "ID": "glyph.capsule.GATE_TRAVEL",
+    "English": "Carries its target along a chain of xenite travel nodes. Consumed on use.",
+    "Text": "Carries its target along a chain of xenite travel nodes. Consumed on use."
+  },
+  {
+    "ID": "glyph.item.3022",
+    "English": "Combines three identical supported damaged objects into one working object. Refines supported strange materials in batches of three.",
+    "Text": "Combines three identical supported damaged objects into one working object. Refines supported strange materials in batches of three."
+  },
+  {
+    "ID": "glyph.item.16019",
+    "English": "Reflects incoming alien spell projectiles.",
+    "Text": "Reflects incoming alien spell projectiles."
+  },
+  {
+    "ID": "glyph.item.16021",
+    "English": "Draws Source energy from glowing purple plants.",
+    "Text": "Draws Source energy from glowing purple plants."
+  },
+  {
     "ID": "glyph.undefined",
     "English": "UNDEFINED",
     "Text": "UNDEFINED"

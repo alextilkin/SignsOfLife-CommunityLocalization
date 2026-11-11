@@ -421,30 +421,51 @@
   },
   {
     "ID": 80,
-    "Title": "Codex 1",
+    "Title": "Codex 1 (Shine)",
     "Category": "Xenoid Archives",
     "IsExtractedData": true,
-    "Text": "We have managed to build a life here, but the lost potential of our race is staggering.\n\nThe time before the Calamity was an age of wonders. It was a time of great abundance and peace.\n\nOur greatest minds performed technological miracles, and we started to believe that we had tamed space and time itself.\n\nWe all know what came next.\n\nIt is a sad reality that the horrible moments tend to have the most impact in our shared history. Our collective sense of despair can be overwhelming when looking backward.\n\nKeep looking forward.\n\nIf I must crystalize my primary experiences into a singular piece of wisdom, it would be to avoid taking the good things for granted.\n\nGive the good a chance to shine through to future generations."
+    "Text": "We have managed to build a life here, but the lost potential of our race is staggering.\n\nThe time before the Calamity was an age of wonders. It was a time of great abundance and peace.\n\nOur greatest minds performed technological miracles, and we started to believe that we had tamed space and time itself.\n\nWe all know what came next.\n\nIt is a sad reality that the horrible moments tend to have the most impact in our shared history. Our collective sense of despair can be overwhelming when looking backward.\n\nKeep looking forward.\n\nIf I must crystallize my primary experiences into a singular piece of wisdom, it would be to avoid taking the good things for granted.\n\nGive the good a chance to shine through to future generations."
   },
   {
     "ID": 81,
-    "Title": "Codex 2",
+    "Title": "Codex 2 (Strands)",
     "Category": "Xenoid Archives",
     "IsExtractedData": true,
     "Text": "As my time starts to run out and I grow weaker, I spend more and more time pondering the implications of the Great Web.\n\nSo many choices that led to so many branching strands. The scale of it all is beyond humbling. We were able to peek into the true vastness of it all for such a short time before the Calamity, but it wasn't hard to understand what it all meant.\n\nI've been around for... awhile, and I've seen so much, but even after all I've seen I cannot decide if we're on one of the good or bad strands.\n\nOur ancestral history is full of so many examples of heartache and despair on an almost unfathomable scale, but for every horrific act there are countless smaller stories of kindness and strength.\n\nOur present circumstances are less than ideal, I'll grant you that, but at least we're in one of the strands with life at all."
   },
   {
     "ID": 82,
-    "Title": "Codex 3",
+    "Title": "Codex 3 (Younglings)",
     "Category": "Xenoid Archives",
     "IsExtractedData": true,
-    "Text": "When we first got here, I was aghast at the conditions. I genuinely did not know if we would be able to survive here.\n\nThe radiation keeps us so far from the surface, and underground it is dark and unforgiving. Food was scarce, and sometimes it even contains parasites that can grow inside our bodies until they mature and burst from our chests. We were cramped, scared, and we had salvaged barely enough Source to keep us from drying up and fading away forever.\n\nFor so long I simply went through the motions of survival. I could not imagine a better future. It wasn't until the first generation of younglings spawned here and learned to share their emotions that I experienced optimism again.\n\nIt was easy to get bogged down in how far we had fallen, but the younglings knew nothing else. To them this was simply home.\n\nMany of us refrained from sharing our experiences with them, but eventually they all came to understand our sad history. The lights in their eyes always dimmed a bit when they understood, but the light was always still there and brighter than any of the survivors.\n\nOur nature makes it impossible to completely forget the sins of our past, but every generation will be impacted less and less. Like a copy of a copy, the memories of before will lose clarity. In time, the Calamity will be just another part of our vast ancestral history, and new stories will out shine them."
+    "Text": "When we first got here, I was aghast at the conditions. I genuinely did not know if we would be able to survive here.\n\nThe radiation keeps us so far from the surface, and underground it is dark and unforgiving. Food was scarce, and sometimes it even contains parasites that can grow inside our bodies until they mature and burst from our chests. We were cramped, scared, and we had salvaged barely enough Source to keep us from drying up and fading away forever.\n\nFor so long I simply went through the motions of survival. I could not imagine a better future. It wasn't until the first generation of younglings spawned here and learned to share their emotions that I experienced optimism again.\n\nIt was easy to get bogged down in how far we had fallen, but the younglings knew nothing else. To them this was simply home.\n\nMany of us refrained from sharing our experiences with them, but eventually they all came to understand our sad history. The lights in their eyes always dimmed a bit when they understood, but the light was always still there and brighter than any of the survivors.\n\nOur nature makes it impossible to completely forget the sins of our past, but every generation will be impacted less and less. Like a copy of a copy, the memories of before will lose clarity. In time, the Calamity will be just another part of our vast ancestral history, and new stories will outshine them."
+  },
+  {
+    "ID": 84,
+    "Title": "Codex 4 (Home)",
+    "Category": "Xenoid Archives",
+    "IsExtractedData": true,
+    "Text": "I can honestly say I've shared all my memories by now, and I will take for myself only my last moments. You should already know what I know, in all the ways that matter.\n\nI don't have much to say, except that I still love you all."
+  },
+  {
+    "ID": 85,
+    "Title": "Codex 5 (Time)",
+    "Category": "Xenoid Archives",
+    "IsExtractedData": true,
+    "Text": "Time is such a strange thing.\n\nWe want the Great Web to stop branching for us, just long enough to chase our passions... but it never quite works out that way. We can Refresh with the finest, purest Source, but the Diminishing reminds us that our strand has limited tensile strength.\n\nOn the other side of both triumph and grand failure you are changed, and you inevitably end on a deeper, richer branch of the Great Web."
+  },
+  {
+    "ID": 86,
+    "Title": "Codex 6 (Thrive)",
+    "Category": "Xenoid Archives",
+    "IsExtractedData": true,
+    "Text": "I would imagine there are many who would expect much from my final archive, given I have withheld so much. I know many of you resent my unwillingness to share my personal memories of the Calamity and the Division.\n\nYou do not need my personal memories of the Calamity, and I will not relive them to share. Even now, I cannot put my mind there even for myself.\n\nOf the Division, I will say that I am confident that we were right, even if right now it looks like we are the ones hiding. We sustain, and with time we will thrive."
   },
   {
     "ID": 83,
-    "Title": "Codex 4",
+    "Title": "Codex 7 (Odds)",
     "Category": "Xenoid Archives",
     "IsExtractedData": true,
-    "Text": "Now it is finally my turn, and I have little to say. I am the last survivor with primary memories of the calamity, and so I am the last that fully understands what was lost. I wish I had some great insight to pass on, but I am nobody special. I'm just the one that happened to last the longest. All I will say is this:\n\nCherish every moment, because the odds against your very existence are astronomical."
+    "Text": "Now it is finally my turn, and I have little to say. I am the last survivor with primary memories of the Calamity, and so I am the last that fully understands what was lost. I wish I had some great insight to pass on, but I am nobody special. I'm just the one that happened to last the longest. All I will say is this:\n\nCherish every moment, because the odds against your very existence are astronomical."
   }
 ]

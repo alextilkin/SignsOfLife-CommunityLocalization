@@ -187,6 +187,8 @@ def format_row(row: dict, name: str | None, description: str | None, newline: st
     templates = row.get("Templates")
     if isinstance(templates, dict) and templates:
         keys.append(("Templates", templates))
+    if "DescriptionVariants" in row:
+        keys.append(("DescriptionVariants", row["DescriptionVariants"]))
 
     lines = ["{"]
     last = len(keys) - 1

@@ -1,5 +1,29 @@
 [
   {
+    "ID": "housing.inspection.title",
+    "Text": "Room inspection"
+  },
+  {
+    "ID": "housing.inspection.dimensions",
+    "Text": "Interior: {0} by {1} tiles"
+  },
+  {
+    "ID": "housing.inspection.valid",
+    "Text": "Valid room"
+  },
+  {
+    "ID": "housing.inspection.missing",
+    "Text": "Missing: {0}"
+  },
+  {
+    "ID": "housing.inspection.enclosure",
+    "Text": "No enclosed room found within 32 by 16 tiles."
+  },
+  {
+    "ID": "housing.inspection.space",
+    "Text": "Outside the colony housing area."
+  },
+  {
     "ID": "item.ammo",
     "Text": "Ammo"
   },
@@ -53,7 +77,7 @@
   },
   {
     "ID": "armor.stat.JUMP_HEIGHT",
-    "Text": "Jump Height"
+    "Text": "Jump Launch Speed"
   },
   {
     "ID": "armor.stat.MOVE_SPEED",
@@ -533,11 +557,11 @@
   },
   {
     "ID": "controller.bind.primary",
-    "Text": "Primary"
+    "Text": "Use / Attack"
   },
   {
     "ID": "controller.bind.secondary",
-    "Text": "Secondary"
+    "Text": "Interact / Alternate Use"
   },
   {
     "ID": "controller.bind.quickSlot1",
@@ -1657,7 +1681,11 @@
   },
   {
     "ID": "mods.openModsFolder",
-    "Text": "Open Mods Folder"
+    "Text": "Local Mods Folder"
+  },
+  {
+    "ID": "mods.openFolder",
+    "Text": "Open Folder"
   },
   {
     "ID": "mods.openStagingFolder",
@@ -2352,6 +2380,86 @@
     "Text": "Damage: {0} - {1}"
   },
   {
+    "ID": "item.stat.damageUpTo",
+    "Text": "Damage: up to {0:0.###}"
+  },
+  {
+    "ID": "item.bandageHealOnCompletion",
+    "Text": "Restores {0} health when bandaging completes."
+  },
+  {
+    "ID": "item.stat.maxChargeTimeSeconds",
+    "Text": "Max Charge Time: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.armorPiercingFlat",
+    "Text": "Flat AP: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.armorPiercingPercent",
+    "Text": "Remaining Flat Armor Bypass: {0:0.###}%"
+  },
+  {
+    "ID": "item.stat.damagePerSecondRange",
+    "Text": "DPS: {0} - {1}"
+  },
+  {
+    "ID": "item.stat.energyPerSecond",
+    "Text": "Energy/Second: {0}"
+  },
+  {
+    "ID": "item.stat.damageValue",
+    "Text": "Damage: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.primaryDamage",
+    "Text": "Primary Damage: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.fullyChargedDamage",
+    "Text": "Fully Charged Damage: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.energyPerShot",
+    "Text": "Energy/Shot: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.chargingEnergyPerSecond",
+    "Text": "Energy/Second While Charging: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.primaryChargeTime",
+    "Text": "Primary Charge Time: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.secondaryChargeTime",
+    "Text": "Secondary Charge Time: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.alienEnergyPerUse",
+    "Text": "Alien Energy/Use: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.energyPerSwing",
+    "Text": "Energy/Swing: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.grappleSustainedEnergy",
+    "Text": "Base Energy/Second While Attached: {0:0.###}"
+  },
+  {
+    "ID": "item.stat.chargedBash",
+    "Text": "Charged Bash: 2 spines and a central projectile."
+  },
+  {
+    "ID": "item.stat.bashRecharge",
+    "Text": "Bash Recharge: {0:0.###} s"
+  },
+  {
+    "ID": "item.stat.baseDamageRampPerSecond",
+    "Text": "Base DPS Ramp/Second: {0}"
+  },
+  {
     "ID": "item.stat.handlingPercent",
     "Text": "Handling: {0}%"
   },
@@ -2488,6 +2596,10 @@
     "Text": "-Additional Sound FX-"
   },
   {
+    "ID": "credits.earlyAccess",
+    "Text": "-Early Access-"
+  },
+  {
     "ID": "credits.specialThanks",
     "Text": "-Special Thanks-"
   },
@@ -2497,7 +2609,11 @@
   },
   {
     "ID": "credits.earlyAccessPlayers",
-    "Text": "All of our Early Access players,"
+    "Text": "I want to thank all of our Early Access players."
+  },
+  {
+    "ID": "credits.earlyAccessFeedback",
+    "Text": "Your feedback and kind words of encouragement were so important along the way."
   },
   {
     "ID": "credits.families",
@@ -2602,6 +2718,34 @@
   {
     "ID": "world.deleteConfirm",
     "Text": "Are you sure you want to delete the map named \"{0}\"?"
+  },
+  {
+    "ID": "menu.retrySaveDiscovery",
+    "Text": "Retry Save Loading"
+  },
+  {
+    "ID": "world.discoveryFailed",
+    "Text": "Could not read this world save:\n{0}\n\n{1}\nWorld loading and creation are disabled. Make OneDrive files available locally, then confirm to retry. Cancel returns to the menu."
+  },
+  {
+    "ID": "world.discoveryUnavailable",
+    "Text": "The file or its folder is unavailable."
+  },
+  {
+    "ID": "world.discoveryInvalid",
+    "Text": "The saved world metadata could not be read."
+  },
+  {
+    "ID": "world.discoveryCopyDetails",
+    "Text": "Copy Details"
+  },
+  {
+    "ID": "world.deleteFailed",
+    "Text": "Could not delete the map named \"{0}\". It is still in the list. Close other copies of the game and try again. Details are in the game log."
+  },
+  {
+    "ID": "world.deleteLegacyUnsupported",
+    "Text": "This world is stored in an older shared save database and cannot be deleted from this menu."
   },
   {
     "ID": "inventory.searchPrompt",
@@ -5200,8 +5344,20 @@
     "Text": "{0} Flip"
   },
   {
+    "ID": "keyboard.hint.placeForeground",
+    "Text": "{0} Place foreground"
+  },
+  {
     "ID": "keyboard.hint.background",
-    "Text": "{0} Background"
+    "Text": "{0} Place background"
+  },
+  {
+    "ID": "keyboard.hint.digForeground",
+    "Text": "{0} Dig foreground"
+  },
+  {
+    "ID": "keyboard.hint.digBackground",
+    "Text": "{0} Dig background"
   },
   {
     "ID": "keyboard.hint.changeItem",
@@ -5550,5 +5706,52 @@
   {
     "ID": "meg.extractedDataHeader",
     "Text": "[Extracted Data]"
-  }
+  },
+  {
+    "ID": "armor.bonus.sourceConduit",
+    "Text": "Source Conduit: +{0:0.##} maximum alien energy. Recharges normally and powers bound tablets without a mnemonic."
+  },
+  {
+    "ID": "armor.bonus.xenostoneWard",
+    "Text": "Xenostone Ward: {0:0.##}% less damage from xenoid sources and heat."
+  },
+  { "ID": "equipment.droneFiringRateBonus", "Text": "Your drones fire {0}% faster." },
+  { "ID": "item.stat.repulsorEnergyPerProjectileSecond", "Text": "Energy/Second per Nearby Projectile: {0:0.###}" },
+  { "ID": "item.stat.batteryChargePerInput", "Text": "Battery Charge/Input: {0:0.###}" },
+  { "ID": "item.stat.activeProcessingInterval", "Text": "Active Processing Interval: {0:0.###} s" },
+  { "ID": "item.stat.livingTargetDpsRamp", "Text": "DPS Ramp/Second While Hitting Living Targets: {0:0.###}" },
+  { "ID": "item.stat.damagePerPulse", "Text": "Damage/Pulse: {0:0.###}" },
+  { "ID": "item.stat.damagePulseInterval", "Text": "Damage Pulse Interval: {0:0.###} s" },
+  { "ID": "item.stat.storedEnergyDrain", "Text": "Stored Energy/Second While Firing: {0:0.###}" },
+  { "ID": "item.stat.storedEnergyRegen", "Text": "Stored Energy/Second While Idle: {0:0.###}" },
+  { "ID": "item.stat.acquireDelay", "Text": "Target Acquisition Delay: {0:0.###} s" },
+  { "ID": "item.stat.storedEnergy", "Text": "Stored Energy: {0}/{1}" },
+  { "ID": "item.stat.heldAmmoRegeneration", "Text": "While Held: Regenerates 1 Shot Every {0:0.###} s" },
+  { "ID": "item.stat.clipCapacity", "Text": "Clip Capacity: {0}" },
+  { "ID": "item.stat.dartDamage", "Text": "Damage/Dart: {0:0.###}" },
+  { "ID": "item.stat.deployedDartOwnerRisk", "Text": "Deployed darts can harm their owner." },
+  { "ID": "ui.thermite.glob_lifetime", "Text": "Glob Lifetime: {0:0.###} seconds" },
+  { "ID": "ui.thermite.burn_refresh", "Text": "Burn Status: refreshed to {0:0.###} seconds while attached; continues after glob expires" },
+  { "ID": "item.stat.blockedArmorSlots", "Text": "Blocks These Equipment Slots: {0}" },
+  { "ID": "equipment.slot.ARM", "Text": "Arm Armor" },
+  { "ID": "equipment.slot.GLOVE", "Text": "Gloves" },
+  { "ID": "equipment.slot.SHIRT", "Text": "Shirt" },
+  { "ID": "equipment.slot.LEG", "Text": "Leg Armor" },
+  { "ID": "equipment.slot.BOOT", "Text": "Boots" },
+  { "ID": "equipment.slot.PANTS", "Text": "Pants" },
+  { "ID": "equipment.slot.SHOES", "Text": "Shoes" },
+  { "ID": "item.stat.ammoDamagePerPellet", "Text": "Base Ammo Damage/Pellet: {0:0.###} - {1:0.###}" },
+  { "ID": "item.stat.ammoDirectImpactDamage", "Text": "Direct Impact Damage: {0:0.###} - {1:0.###}" },
+  { "ID": "item.stat.primaryAmmoDamageModifier", "Text": "Primary Ammo Damage Multiplier: {0:0.###}x" },
+  { "ID": "item.stat.primaryPellets", "Text": "Primary Pellets/Discharge: {0}" },
+  { "ID": "item.stat.secondaryShotgunPayload", "Text": "Secondary: {0} Shells, {1} Pellets" },
+  { "ID": "item.stat.secondaryShotgunBurst", "Text": "Secondary: {0} Discharges, 1 Shell Each" },
+  { "ID": "item.stat.grenadeFuse", "Text": "Fuse: {0:0.###} s from Launch" },
+  { "ID": "item.stat.blastRadiusTiles", "Text": "Blast Radius: {0:0.###} Tiles" },
+  { "ID": "item.stat.launcherGrenadeDetonation", "Text": "Bounces off terrain. Detonates on creature contact or when its fuse expires." },
+  { "ID": "item.stat.decoyDeploymentTimer", "Text": "Deployment Timer: {0:0.###} s, then Fades" },
+  { "ID": "item.stat.trapContactDamage", "Text": "Base Trap Contact Damage: {0:0.###} Physical" },
+  { "ID": "item.stat.trapPlayerStun", "Text": "Base Player Stun Duration: {0:0.###} s" },
+  { "ID": "item.stat.capacitorChargePerCell", "Text": "Capacitor Charge/Cell: {0:0.###} (up to maximum)" },
+  { "ID": "item.stat.returnsEmptyCell", "Text": "Returns 1 Empty Power Cell when used." }
 ]

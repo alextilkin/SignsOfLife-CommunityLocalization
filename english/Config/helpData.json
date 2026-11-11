@@ -14,6 +14,34 @@
     "Text": "The MEG tool is your laser powered wrist tool with a variety of features. It can project light into the environment, dig blocks out of the world, pull items to you, scan creatures, scan the environment for useful resources, display a local map and even grapple to nearby surfaces. The MEG tool's range is limited to the area around you, but the range can be upgraded by installing sapphires. The MEG tool also allows you to communicate with the U.N. Hephaestus's central artificial intelligence core.\n\nModules for the MEG tool's various functions can be found in the Key Items pouch."
   },
   {
+    "Key": "MEGENERGY",
+    "IsDefault": true,
+    "Category": "MEG Tool",
+    "Label": "MEG Energy, Capacitor and Batteries",
+    "Text": "Your installed capacitor determines how much energy you have immediate access to. The capacitor recharges over time using harvested ambient energy, but a charged battery installed in your MEG tool refills the capacitor much faster.\n\nTo recharge a battery, place it in a powered charging station."
+  },
+  {
+    "Key": "AGISHELP",
+    "IsDefault": true,
+    "Category": "Gameplay",
+    "Label": "AGIS",
+    "Text": "AGIS is your personal helpful AI. A thin client is mounted on your wrist, which interfaces with the Hephaestus computers in order to provide you with situation and tactical advice while exploring unfamiliar environments.\n\nYou can contact AGIS while on the Hephaestus by interacting with panels mounted on the wall, and once you have a MEG tool installed on your wrist, you can contact AGIS by pressing the call button to the left of your HUD's item slots.\n\nAGIS can help you by telling you about things in the world, or giving you direction on what you should be doing."
+  },
+  {
+    "Key": "AGISGUIDANCE",
+    "IsDefault": false,
+    "Category": "Gameplay",
+    "Label": "AGIS Guidance",
+    "Text": "Your AGIS wrist-mounted companion can help give you guidance if you aren't sure what to do.\n[image:Sprites/Help/agis-button]\nClick the AGIS call button to start a dialog with AGIS, and then ask him what you should be doing.\n[image:Sprites/Help/agis-help-dialog]"
+  },
+  {
+    "Key": "CUTTINGTREES",
+    "IsDefault": false,
+    "Category": "Gameplay",
+    "Label": "Cutting Down Trees",
+    "Text": "To cut down a tree, equip your dig laser, aim at the tree, and hold [primary] until it falls. Collect the dropped wood with [grablaserkey].\n\nYou can also cut down trees with an axe. Stand close to the trunk and press [primary] to swing. Keep chopping until the tree falls.\n\nTree trunks can only be broken with an axe, as the wrist laser cannot penetrate deep into the trunk and roots."
+  },
+  {
     "Key": "DIGTOOL",
     "IsDefault": true,
     "Category": "MEG Tool",
@@ -59,8 +87,8 @@
     "Key": "HOTBAR",
     "IsDefault": true,
     "Category": "Inventory",
-    "Label": "Hotbar Usage",
-    "Text": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through a category by using [itemcycle]. If you would prefer to place items in the hotbar manually, you can change the hotbar behavior from the settings menu."
+    "Label": "Hotbar",
+    "Text": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through a category ([itemcycle]). If you would prefer to place items in the hotbar manually, you can change the hotbar behavior from the settings menu.\n\nHold the key for a populated slot to open its radial menu. With the default keyboard bindings, use the number of the slot. On a controller, use the Item Wheel control.\n\nAutomatic hotbar slots\n1. Digging tools\n2. Melee weapons\n3. Ranged weapons\n4. Gadgets\n5. Blocks\n6. Consumables\n7. Food\n8. Throwables"
   },
   {
     "Key": "EQUIPPING",
@@ -95,7 +123,7 @@
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Changing Ammo",
-    "Text": "Some weapons or gadgets may have multiple ammo types. To change the ammo type on a weapon, click on it in your inventory and select the ammo from the right side of the item details. You can also change an equipped weapon's ammo type by clicking the magnifying glass on it's scroll slot on your HUD. "
+    "Text": "Some weapons or gadgets may have multiple ammo types. To change the ammo type on a weapon, you can either select it in your inventory and change it in the item details, or you can hold [reload] while the item is equipped to select the ammo from a radial menu."
   },
   {
     "Key": "MINIMAP",
@@ -116,7 +144,7 @@
     "IsDefault": true,
     "Category": "MEG Tool",
     "Label": "Wrist Scanner",
-    "Text": "Your standard issue MEG Wrist Scanner sends out pulses of mostly harmless radiation that can scan creatures so they can be added to the Codex. It has an alternate function that can scan the environment for useful minerals. Any minerals detected are added to your Mini Map temporarily, which can be accessed by pressing [minimapkey]."
+    "Text": "Your MEG tool is equipped with a standard issue wrist scanner, which sends out pulses of mostly harmless radiation that can scan creatures and send the data to your Codex. To review the scans, open the Codex ([codexhotkey]).\n\nYou can also hold [orescankey] to send out scanning pulses that can reflect off of materials underground depending on the density. On a controller, equip the Wrist Scanner first."
   },
   {
     "Key": "HOLSTER",
@@ -138,6 +166,20 @@
     "Category": "Gameplay",
     "Label": "Ladders",
     "Text": "Ladders can be used by approaching them and pressing up ([up]), or down ([down]). You can also jump ([jump]) off the ladder at any time, and you can drop off the ladder by pressing crouch ([crouch])."
+  },
+  {
+    "Key": "SEISMICIMAGER",
+    "IsDefault": false,
+    "Category": "Crafting",
+    "Label": "Seismic Imager",
+    "Text": "The seismic imager uses acoustic waves to map the nearby terrain. To activate the device, insert your MEG tool (and accompanying arm) into the port on the side. Make sure to leave space to stand for the rest of the attached body as well when selecting a place to build one.\n\nOnce built, simply use [worldsecondary] on it to automatically approach it and start a scan. Once the scan is finished, the map data will be uploaded to your wrist map and minimap."
+  },
+  {
+    "Key": "OSIRISHOUSING",
+    "IsDefault": false,
+    "Category": "Gameplay",
+    "Label": "Osiris Housing and Crew",
+    "Text": "With the Hephaestus in the sky above Osiris, it is now possible to thaw some of the frozen crew and bring them down to help out around the planet.\n\nThe crew computer in the Pioneer Station is where you are able to manage the crew, including thawing and re-freezing them if necessary. You can use that computer to assign thawed crew to various tasks, like farming or cooking.\n\nEach crew member requires a valid room, which must be at least 8 tiles wide and 4 tiles tall. There also must be a source of light and a bed.\n\nThe Pneumail storage near the computer is used by the thawed crew to store things they produce, and they will also draw from the same storage if they need raw materials such as cooking ingredients."
   },
   {
     "Key": "HACKING",

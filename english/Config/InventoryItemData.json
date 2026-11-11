@@ -1642,7 +1642,7 @@
         "ItemID":  3007,
         "Complexity":  1,
         "Name":  "Excavator Pouch",
-        "Description":  "This container helps you organize your inventory by automatically collecting gathered minerals.",
+        "Description":  "This container helps you organize your inventory by automatically collecting gathered minerals while carried directly in your main inventory.",
         "Category":  "Container"
     },
     {
@@ -1677,7 +1677,7 @@
         "ItemID":  3012,
         "Complexity":  1,
         "Name":  "Ammo Pouch",
-        "Description":  "This container helps you organize your inventory by automatically collecting ammunition.",
+        "Description":  "This container helps you organize your inventory by automatically collecting ammunition while carried directly in your main inventory.",
         "Category":  "Container"
     },
     {
@@ -1748,7 +1748,11 @@
         "Complexity":  8,
         "Name":  "Strange Refinery",
         "Description":  "This appears to be some kind of alien refiner. Its usage and purpose are unclear.",
-        "Category":  "Container"
+        "AlienString":  "Combines three identical supported damaged objects into one working object. Refines supported strange materials in batches of three.",
+        "Category":  "Container",
+        "DescriptionVariants": [
+            { "ID": "understood", "Priority": 100, "RequiredKnowledgeFlags": ["XENOID_REFINERY_UNDERSTOOD"], "Text": "This Xenoid technology combines 3 identical supported damaged objects into one functional object. It also refines supported strange materials in batches of 3. How it does this is a complete mystery, as our scans cannot penetrate the device, and it is closed while functioning." }
+        ]
     },
     {
         "ItemID":  3023,
@@ -1938,7 +1942,7 @@
         "ItemID":  3051,
         "Complexity":  1,
         "Name":  "Blue Cooler",
-        "Description":  "This container helps you organize your inventory by automatically collecting gathered food.",
+        "Description":  "This container helps you organize your inventory by automatically collecting gathered food while carried directly in your main inventory.",
         "Category":  "Container"
     },
     {
@@ -2291,7 +2295,7 @@
         "ItemID":  4015,
         "Complexity":  0,
         "Name":  "Wrist Scanner",
-        "Description":  "A module for the MEG tool that allows you to scan the area around you. Scanned areas will be added to your minimap. Secondary function acts as an ore scanner, which can help find useful materials buried underground.",
+        "Description":  "A module for the MEG tool that allows you to scan the area around you. Scanned areas will be added to your minimap.",
         "Category":  "Gadget"
     },
     {
@@ -2338,11 +2342,16 @@
         "ItemID":  4023,
         "Complexity":  3,
         "Name":  "Strange Tablet",
-        "Description":  "A strange tablet, composed of some unfamiliar material. It has clear tool marks and engravings of unknown origin. \n\nThis weird tablet can be used on yourself by using the alternate fire or by holding the quick slot key. \n\nIt seems inactive.",
+        "Description":  "A strange tablet of unfamiliar material, covered in tool marks and engravings.\n\nUse alternate fire or hold the quick slot key to use it on yourself.\n\nIt seems inactive.",
         "Templates":  {
-                          "bound":  "A strange tablet, composed of some unfamiliar material. It has clear tool marks and engravings of unknown origin. \n\nThis weird tablet can be used on yourself by using the alternate fire or by holding the quick slot key. \n\nIt seems to be pulsing with energy."
+                          "bound":  "A strange tablet of unfamiliar material, covered in tool marks and engravings.\n\nUse alternate fire or hold the quick slot key to use it on yourself.\n\nIt seems to be pulsing with energy.",
+                          "learnedUnboundInfo": "Use alternate fire or hold the quick slot key to use it on yourself.\n\nIt seems inactive.",
+                          "learnedBoundInfo": "Use alternate fire or hold the quick slot key to use it on yourself.\n\nIt seems to be pulsing with energy."
                       },
-        "Category":  "Gadget"
+        "Category":  "Gadget",
+        "DescriptionVariants": [
+            { "ID": "understood", "Priority": 100, "RequiredKnowledgeFlags": ["XENOID_TABLET_UNDERSTOOD"], "Text": "This tablet can be imprinted with abilities using a Xenoid Mnemonic. Dials are spun to select specific symbols, which correspond to specific functionality once bound to the tablet." }
+        ]
     },
     {
         "ItemID":  4024,
@@ -2362,7 +2371,7 @@
         "ItemID":  4026,
         "Complexity":  2,
         "Name":  "Snare",
-        "Description":  "A metal snare. When triggered, it slams shut and hurts like heck. Can be reset by right-clicking."
+        "Description":  "A metal snare. When triggered, it slams shut and hurts like heck. It can also trigger on the player. After it closes, use the interaction prompt to reset it."
     },
     {
         "ItemID":  4027,
@@ -2649,7 +2658,7 @@
         "ItemID":  4074,
         "Complexity":  0,
         "Name":  "Grapple Module",
-        "Description":  "A module for the MEG tool that allows you to use some kind of arcane science to grapple a piece of terrain and hurtle your body towards it. You can use the function anytime by pressing [grapplekey], and you can disconnect your grapple by pressing [down].",
+        "Description":  "A module for the MEG tool that allows you to use some kind of arcane science to grapple a piece of terrain and hurtle your body towards it. Once installed, you can activate it by pressing [grapplekey] when you have enough energy. Disconnect your grapple by pressing [down].",
         "Category":  "Gadget"
     },
     {
@@ -3400,7 +3409,7 @@
         "Complexity":  2,
         "Name":  "9mm High Ricochet Ammo",
         "AutoOrganizeString":  "munition",
-        "Description":  "9mm ammo, treated with some kind of weird chemical that we found inside of a bug. Look, long story short, the bullets bounce now."
+        "Description":  "9mm ammo, treated with some kind of weird chemical that we found inside of a bug. Look, long story short, the bullets bounce now. Ricochets can hit you."
     },
     {
         "ItemID":  7011,
@@ -4045,7 +4054,7 @@
         "ItemID":  10066,
         "Complexity":  1,
         "Name":  "Tree Tap",
-        "Description":  "When attached to a tree, this tap will collect up to 20 sap over time.",
+        "Description":  "When attached to a supported tree, this tap will collect up to 20 sap or rubber over time, depending on the tree.",
         "Category":  "Placeable"
     },
     {
@@ -4188,13 +4197,13 @@
     {
         "ItemID":  10087,
         "Complexity":  3,
-        "Description":  "A device that uses energy and ambient particles to slowly produce a nanobot-infused healing solution. Requires wireless power from a functional Fusion Generator.",
+        "Description":  "A device that uses energy and ambient particles to slowly produce a nanobot-infused healing solution. Requires a powered map to refill and dispense.",
         "Category":  "Placeable"
     },
     {
         "ItemID":  10088,
         "Complexity":  3,
-        "Description":  "A device that stores energy as a sort of electron slurry. Requires wireless power from a functional Fusion Generator.",
+        "Description":  "A device that stores energy as a sort of electron slurry. Requires a powered map to refill and dispense.",
         "Category":  "Placeable"
     },
     {
@@ -4465,7 +4474,7 @@
         "Complexity":  2,
         "Name":  "High Explosive Grenade",
         "AutoOrganizeString":  "munition",
-        "Description":  "OH GOD",
+        "Description":  "A thrown grenade that detonates when its fuse expires.",
         "Category":  "Throwable"
     },
     {
@@ -4473,7 +4482,7 @@
         "Complexity":  2,
         "Name":  "Flubber Grenade",
         "AutoOrganizeString":  "munition",
-        "Description":  "OH GOD",
+        "Description":  "A bouncing grenade that scatters green particles on a hard impact or when its fuse expires.",
         "Category":  "Throwable"
     },
     {
@@ -4481,7 +4490,7 @@
         "Complexity":  2,
         "Name":  "Ant Goo Grenade",
         "AutoOrganizeString":  "munition",
-        "Description":  "This sticky and hard clump of ant guts splatters creatures with a gross goo that sticks them to the ground.",
+        "Description":  "This sticky and hard clump of ant guts splatters creatures with a gross goo that slows their movement.",
         "Category":  "Throwable"
     },
     {
@@ -4598,7 +4607,7 @@
         "Complexity":  1,
         "Name":  "Bottle Rocket",
         "AutoOrganizeString":  "munition",
-        "Description":  "A basic pistol ammunition."
+        "Description":  "A firework rocket used as ammunition in a Bottle Rocket Kit."
     },
     {
         "ItemID":  13109,
@@ -4613,7 +4622,7 @@
         "Complexity":  1,
         "Name":  "Bottle Rocket Kit",
         "AutoOrganizeString":  "munition",
-        "Description":  "A small, harmless rocket fired out of a glass bottle.",
+        "Description":  "A small rocket fired out of a glass bottle. It can damage creatures on contact.",
         "Category":  "Ranged"
     },
     {
@@ -4866,7 +4875,7 @@
         "Complexity":  1,
         "Name":  "Raw Amethyst",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 5 tiles.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle.",
         "Category":  "Gemology"
     },
     {
@@ -4874,7 +4883,7 @@
         "Complexity":  2,
         "Name":  "Rough Amethyst",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 10 tiles.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle.",
         "Category":  "Gemology"
     },
     {
@@ -4882,7 +4891,7 @@
         "Complexity":  3,
         "Name":  "Refined Amethyst",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 15 tiles.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle.",
         "Category":  "Gemology"
     },
     {
@@ -4890,7 +4899,7 @@
         "Complexity":  5,
         "Name":  "Faceted Amethyst",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 20 tiles.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle.",
         "Category":  "Gemology"
     },
     {
@@ -4898,7 +4907,7 @@
         "Complexity":  7,
         "Name":  "Brilliant Amethyst",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle and scan range by 25 tiles.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases scan angle.",
         "Category":  "Gemology"
     },
     {
@@ -4970,7 +4979,7 @@
         "Complexity":  1,
         "Name":  "Raw Emerald",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 3 tiles and reduces energy drain by 15%.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases maximum Grapple Tool range by 20% and reduces its sustained energy drain by 15%.",
         "Category":  "Gemology"
     },
     {
@@ -4978,7 +4987,7 @@
         "Complexity":  2,
         "Name":  "Rough Emerald",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 6 tiles and reduces energy drain by 30%.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases maximum Grapple Tool range by 40% and reduces its sustained energy drain by 30%.",
         "Category":  "Gemology"
     },
     {
@@ -4986,7 +4995,7 @@
         "Complexity":  3,
         "Name":  "Refined Emerald",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 9 tiles and reduces energy drain by 45%.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases maximum Grapple Tool range by 60% and reduces its sustained energy drain by 45%.",
         "Category":  "Gemology"
     },
     {
@@ -4994,7 +5003,7 @@
         "Complexity":  5,
         "Name":  "Faceted Emerald",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 12 tiles and reduces energy drain by 60%.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases maximum Grapple Tool range by 80% and reduces its sustained energy drain by 60%.",
         "Category":  "Gemology"
     },
     {
@@ -5002,7 +5011,7 @@
         "Complexity":  7,
         "Name":  "Brilliant Emerald",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases max range of Grapple Tool by 15 tiles and reduces energy drain by 75%.",
+        "Description":  "A gem that focuses the fidelity of your MEG tool.\r\nIncreases maximum Grapple Tool range by 100% and reduces its sustained energy drain by 75%.",
         "Category":  "Gemology"
     },
     {
@@ -5074,7 +5083,10 @@
         "Name":  "Strange Gadget",
         "Description":  "Some sort of strange alien device with various dials, buttons and compartments of unknown purpose.",
         "Category":  "????????",
-        "AlienString":  "The destiny of the Great Web is in your hands."
+        "AlienString":  "The destiny of the Great Web is in your hands.",
+        "DescriptionVariants": [
+            { "ID": "explained", "Priority": 100, "RequiredKnowledgeFlags": ["MNEMONIC_EXPLAINED"], "Text": "This Xenoid device harnesses a strange energy called Source, and channels it into functional technology. It's function is somewhere between a swiss army knife and a particle accelerator. It seems to be a required component of many forms of Xenoid technology, and it is capable of binding functional abilities to the Xenoid tablets, enabling fantastical abilities." }
+        ]
     },
     {
         "ItemID":  16012,
@@ -5092,7 +5104,7 @@
         "ItemID":  16014,
         "Complexity":  3,
         "Name":  "Hologram Decoy",
-        "Description":  "Dazzle your foes with this throwable gadget that acts as a decoy to draw attention away from yourself.",
+        "Description":  "Dazzle your foes with this throwable gadget that acts as a decoy to draw attention away from yourself. Deploys once it settles upright on the ground. Only distracts creatures that can be fooled by holograms. Retrieve it after the hologram fades.",
         "Category":  "Throwable"
     },
     {
@@ -5125,20 +5137,25 @@
         "Complexity":  7,
         "Name":  "Xenoid Reflector",
         "Description":  "Some sort of strange alien device that seems to be usable as a shield to reflect alien energy projectiles.",
+        "AlienString":  "Reflects incoming alien spell projectiles.",
         "Category":  "Gadget"
     },
     {
         "ItemID":  16020,
         "Complexity":  3,
         "Name":  "Acid Neutralizer Bag",
-        "Description":  "Throw this gunk on blocks that you want to protect from acid damage.",
+        "Description":  "Throw this gunk on uncovered blocks that you want to protect from acid damage. Grass and other existing coverings prevent the coating from being applied.",
         "Category":  "Gadget"
     },
     {
         "ItemID":  16021,
         "Complexity":  3,
         "Description":  "This appears to be some sort of hand-held device, but I cannot give you any more details because my scans cannot penetrate the surface.",
-        "Category":  "Gadget"
+        "AlienString":  "Draws Source energy from glowing purple plants.",
+        "Category":  "Gadget",
+        "DescriptionVariants": [
+            { "ID": "understood", "Priority": 100, "RequiredKnowledgeFlags": ["XENITE_LEECHER_UNDERSTOOD"], "Text": "This Xenoid device extracts strange energy from those purple plants with a glowing bulb on the end." }
+        ]
     },
     {
         "ItemID":  16022,
@@ -5159,7 +5176,7 @@
         "ItemID":  16024,
         "Complexity":  3,
         "Name":  "Empty Power Cell",
-        "Description":  "A fuel cell that can be used to quickly add charge to a capacitor installed in your MEG tool. Must be filled with power juice to be functional."
+        "Description":  "An empty fuel cell for recharging a capacitor installed in your MEG tool. Refill it using the Full Power Cell crafting recipe."
     },
     {
         "ItemID":  16025,
@@ -5594,7 +5611,25 @@
     {
         "ItemID":  19014,
         "Complexity":  2,
+        "Name":  "Xenoid Archive Record 7",
+        "Description":  ""
+    },
+    {
+        "ItemID":  19015,
+        "Complexity":  2,
         "Name":  "Xenoid Archive Record 4",
+        "Description":  ""
+    },
+    {
+        "ItemID":  19016,
+        "Complexity":  2,
+        "Name":  "Xenoid Archive Record 5",
+        "Description":  ""
+    },
+    {
+        "ItemID":  19017,
+        "Complexity":  2,
+        "Name":  "Xenoid Archive Record 6",
         "Description":  ""
     },
     {
@@ -5656,21 +5691,21 @@
         "ItemID":  20011,
         "Complexity":  1,
         "Name":  "Stone Grinder Blade",
-        "Description":  "A simple stone grinder blade, used in a Material Grinder to grind up items. Due to its relatively poor quality, it only has a 25% yield for ground up items.",
+        "Description":  "A simple stone grinder blade, used in a Material Grinder to grind up items. Due to its relatively poor quality, it has a base 25% material recovery chance when salvaging crafted items.",
         "Category":  "Tool"
     },
     {
         "ItemID":  20012,
         "Complexity":  3,
         "Name":  "Iron Grinder Blade",
-        "Description":  "An iron grinder blade, used in a Material Grinder to grind up items. Due to its halfway decent quality, it has a 50% yield for ground up items.",
+        "Description":  "An iron grinder blade, used in a Material Grinder to grind up items. Due to its halfway decent quality, it has a base 50% material recovery chance when salvaging crafted items.",
         "Category":  "Tool"
     },
     {
         "ItemID":  20013,
         "Complexity":  5,
         "Name":  "Steel Grinder Blade",
-        "Description":  "A steel grinder blade, used in a Material Grinder to grind up items. Due to its excellent quality, it has a 75% yield for ground up items.",
+        "Description":  "A steel grinder blade, used in a Material Grinder to grind up items. Due to its excellent quality, it has a base 75% material recovery chance when salvaging crafted items.",
         "Category":  "Tool"
     },
     {
@@ -6071,6 +6106,7 @@
         "Complexity":  2,
         "Name":  "Cloth Poultice",
         "Description":  "A cloth bandage with a medicinal substance applied. Stops bleeding and heals a moderate amount.",
+        "BandageHealAmount":  25,
         "Category":  "Consumable"
     },
     {
@@ -6300,21 +6336,21 @@
         "ItemID":  24500,
         "Complexity":  6,
         "Name":  "Optical Camouflage Armor Patch",
-        "Description":  "An armor layer that can be added to a piece of armor by right-clicking this item and then targeting a piece of armor in your inventory. Armor patches can be replaced but not removed. This weave works in conjunction with the Optical Camouflage gadget to render a user mostly invisible as long as nothing is looking too hard for you.",
+        "Description":  "An armor layer for helmets, torso armor, arm armor, gloves, leg armor and boots. Right-click this item, then target a supported piece of armor or an armor-incompatible cybernetic limb. Armor patches can be replaced but not removed. This weave works in conjunction with the Optical Camouflage gadget to render a user mostly invisible as long as nothing is looking too hard for you. All six body armor pieces must have this patch for the gadget to work. Armor-incompatible cybernetic arms or legs must have this patch in place of the armor they block.",
         "Category":  "Tool"
     },
     {
         "ItemID":  24501,
         "Complexity":  6,
         "Name":  "Carbon Nanofiber Armor Patch",
-        "Description":  "An armor layer that can be added to a piece of armor by right-clicking this item and then targeting a piece of armor in your inventory. This patch increases the physical resistance of a piece of armor by 1%, and increases flat damage resistance by 1.",
+        "Description":  "An armor layer for helmets, torso armor, arm armor, gloves, leg armor and boots. Right-click this item, then target a supported piece of armor in your inventory. This patch adds 1 percentage point of physical damage resistance and 1 flat damage resistance.",
         "Category":  "Tool"
     },
     {
         "ItemID":  24502,
         "Complexity":  5,
         "Name":  "Ceramic Plate Armor Patch",
-        "Description":  "An armor layer that can be added to a piece of armor by right-clicking this item and then targeting a piece of armor in your inventory. This patch adds a thin ceramic layer to the inside of your armor, which adds 5% protection from heat.",
+        "Description":  "An armor layer for helmets, torso armor, arm armor, gloves, leg armor and boots. Right-click this item, then target a supported piece of armor in your inventory. This patch adds a thin ceramic layer to the inside of your armor, which adds 5 percentage points of heat resistance.",
         "Category":  "Tool"
     },
     {
@@ -7001,7 +7037,7 @@
         "ItemID":  "sol.ipecac_medicine",
         "Complexity":  1,
         "Name":  "Ipecac Medicine",
-        "Description":  "A medicinal syrup that will cause you to eject matter from your guts out through your mouth."
+        "Description":  "A medicinal syrup that will cause you to eject matter from your guts out through your mouth. Vomiting empties your stomach and clears status effects, including beneficial timed effects."
     },
     {
         "ItemID":  "sol.pod_fruit",
@@ -8479,7 +8515,7 @@
         "ItemID":  "sol.antiparasitic_medicine",
         "Complexity":  3,
         "Name":  "Antiparasitic Medicine",
-        "Description":  "A medicinal powder that causes your body to be inhospitable to parasites and prevents them from implanting themselves in your organs."
+        "Description":  "A medicinal powder that causes your body to be inhospitable to parasites and prevents them from implanting themselves in your organs. Also removes an active early-stage parasite infection."
     },
     {
         "ItemID":  "sol.combat_knife",
@@ -8593,19 +8629,19 @@
         "ItemID":  "sol.wireless_battery",
         "Complexity":  3,
         "Name":  "Wireless Battery",
-        "Description":  "A highly advanced power core that utilizes wireless power transmission to keep itself topped off. Requires a local Fusion generator to function."
+        "Description":  "A highly advanced power core that utilizes wireless power transmission to keep itself topped off. Recharges on powered maps. Stored energy remains usable without wireless power."
     },
     {
         "ItemID":  "sol.xenostone_arms",
         "Complexity":  3,
         "Name":  "Xenostone Arms",
-        "Description":  "Xenostone arm guards. Slow to swing in, but they shrug off impacts."
+        "Description":  "Xenostone guards covering the upper arms."
     },
     {
         "ItemID":  "sol.xenostone_boots",
         "Complexity":  3,
         "Name":  "Xenostone Boots",
-        "Description":  "Heavy xenostone boots. Quiet on stone, punishing on anything softer."
+        "Description":  "Xenostone boots covering the lower legs and feet."
     },
     {
         "ItemID":  "sol.xenostone_dagger",
@@ -8617,25 +8653,25 @@
         "ItemID":  "sol.xenostone_gloves",
         "Complexity":  3,
         "Name":  "Xenostone Gloves",
-        "Description":  "Gauntlets of xenostone covering the forearms and hands."
+        "Description":  "Xenostone gauntlets covering the forearms and hands."
     },
     {
         "ItemID":  "sol.xenostone_helmet",
         "Complexity":  3,
         "Name":  "Xenostone Helmet",
-        "Description":  "A helmet carved from alien xenostone. Dense, glassy, and almost impossible to scratch."
+        "Description":  "A helmet made from xenostone."
     },
     {
         "ItemID":  "sol.xenostone_legs",
         "Complexity":  3,
         "Name":  "Xenostone Legs",
-        "Description":  "Xenostone greaves for the hips and thighs. Solid enough to stop a drill."
+        "Description":  "Xenostone armor covering the hips and thighs."
     },
     {
         "ItemID":  "sol.xenostone_torso",
         "Complexity":  3,
         "Name":  "Xenostone Torso",
-        "Description":  "Chest plating grown or carved from xenostone. Heavy, but nearly unyielding."
+        "Description":  "Xenostone plating covering the chest and abdomen."
     },
     {
         "ItemID":  "sol.xenotech_arms",

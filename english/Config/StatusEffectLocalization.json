@@ -277,7 +277,7 @@
   },
   {
     "ID": "status.STIMULANT",
-    "Text": "Increases your movement speed and jump height."
+    "Text": "Increases your movement speed."
   },
   {
     "ID": "status.FORTITUDE",
@@ -322,5 +322,13 @@
   {
     "ID": "status.IPECAC",
     "Text": "Causes vomiting"
+  },
+  {
+    "ID": "status.SOURCE_CONDUIT",
+    "Text": "Source Conduit"
+  },
+  {
+    "ID": "status.XENOSTONE_WARD",
+    "Text": "Xenostone Ward"
   }
 ]

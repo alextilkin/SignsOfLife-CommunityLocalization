@@ -58,6 +58,41 @@ class CoverageTests(unittest.TestCase):
                 self.assertFalse(coverage.tokens_match(source, "LOCALE"))
                 self.assertFalse(coverage.tokens_match(source, "LOCALE [changed_token]"))
 
+    def test_reload_and_reloadkey_are_distinct_required_tokens(self):
+        source = "SOURCE [reload] [reloadkey]"
+        self.assertTrue(coverage.tokens_match(source, "LOCALE [reloadkey] [reload]"))
+        for translated in ("LOCALE [reloadkey]", "LOCALE [reload]", "LOCALE [reloadkey] [reloadkey]"):
+            with self.subTest(translated=translated):
+                self.assertFalse(coverage.tokens_match(source, translated))
+
+    def test_help_images_keep_exact_asset_keys_counts_and_own_lines(self):
+        first = "[image:Sprites/Help/agis-button]"
+        second = "[image:Sprites/Help/agis-help-dialog]"
+        source = "SOURCE\n\n%s\n\n%s\n" % (first, second)
+        self.assertTrue(coverage.tokens_match(source, "LOCALE\n%s\n\n%s\n" % (second, first)))
+        self.assertTrue(coverage.tokens_match(source, "LOCALE\r\n  %s  \r\n%s" % (first, second)))
+        for translated in (source.replace(first, ""), source.replace(first, second),
+                           source.replace("agis-button", "changed-asset"),
+                           source.replace("image:", "imagen:"), source + first,
+                           "LOCALE %s\n%s" % (first, second)):
+            with self.subTest(translated=translated):
+                self.assertFalse(coverage.tokens_match(source, translated))
+
+    def test_description_variant_schema_is_validated_per_item(self):
+        path = Path("InventoryItemData.json")
+        for variants in ({}, "invalid", [None], [{"Text": "SOURCE"}],
+                         [{"ID": "known"}, {"ID": "known"}],
+                         [{"ID": " "}], [{"ID": 1}],
+                         [{"ID": "known", "Text": 42}],
+                         [{"ID": "known", "Text": []}]):
+            with self.subTest(variants=variants):
+                with self.assertRaises(ValueError):
+                    coverage.validate_unique_rows(path, [{"ItemID": "sol.test", "DescriptionVariants": variants}])
+        coverage.validate_unique_rows(path, [
+            {"ItemID": "sol.first", "DescriptionVariants": [{"ID": "known", "Text": None}]},
+            {"ItemID": "sol.second", "DescriptionVariants": [{"ID": "known"}]},
+        ])
+
     def test_inherited_and_debug_recipes_are_not_required(self):
         rows = coverage.structured_index("RecipeLocalization.json", {
             "Recipes": [
@@ -163,6 +198,60 @@ class ContributorCheckTests(unittest.TestCase):
                 result = self.run_check()
                 self.assertNotEqual(0, result.returncode)
                 self.assertIn("tokens", result.stderr)
+
+    def write_inventory(self, english, overlay):
+        for relative, rows in (("english", english), ("locales/test", overlay)):
+            (self.repo / relative / "Config" / "InventoryItemData.json").write_text(
+                json.dumps(rows), encoding="utf-8")
+
+    def test_description_variants_match_item_and_variant_ids_with_partial_fallback(self):
+        self.write_inventory([
+            {"ItemID": "sol.first", "Name": "SOURCE_NAME", "DescriptionVariants": [
+                {"ID": "known", "Text": "SOURCE {0} [reload]", "Priority": 100,
+                 "MinLanguage": 0.5, "RequiredKnowledgeFlags": ["RULE_ID"]},
+                {"ID": "second", "Text": "SOURCE [itemname]"},
+                {"ID": "missing", "Text": "SOURCE_MISSING"},
+                {"ID": "omitted-text", "Text": "SOURCE_OMITTED"},
+            ]},
+            {"ItemID": "sol.second", "DescriptionVariants": [{"ID": "known", "Text": "SOURCE_SECOND_ITEM"}]},
+        ], [
+            {"ItemID": "sol.second", "DescriptionVariants": [{"ID": "known", "Text": "LOCALE_SECOND_ITEM"}]},
+            {"ItemID": "sol.first", "DescriptionVariants": [
+                {"ID": "omitted-text"},
+                {"ID": "missing", "Text": " "},
+                {"ID": "second", "Text": "LOCALE [itemname]"},
+                {"ID": "known", "Text": "LOCALE [reload] {0}"},
+            ]},
+        ])
+        result = self.run_check()
+        self.assertEqual(0, result.returncode, result.stderr)
+        measured = json.loads((self.repo / "coverage.json").read_text(encoding="utf-8"))
+        self.assertEqual({"total": 6, "translated": 3, "missing": 3, "same-as-english": 0},
+                         measured["locales"][0]["tables"]["InventoryItemData.json"])
+
+    def test_description_variant_token_errors_fail_the_contributor_check(self):
+        for text in ("LOCALE [reload]", "LOCALE {0}", "LOCALE {0 [reload]"):
+            with self.subTest(text=text):
+                self.write_inventory([
+                    {"ItemID": "sol.test", "DescriptionVariants": [{"ID": "known", "Text": "SOURCE {0} [reload]"}]},
+                ], [
+                    {"ItemID": "sol.test", "DescriptionVariants": [{"ID": "known", "Text": text}]},
+                ])
+                result = self.run_check()
+                self.assertNotEqual(0, result.returncode)
+                self.assertIn("sol.test.DescriptionVariants.known.Text", result.stderr)
+
+    def test_unknown_description_variant_fails_even_when_empty(self):
+        for text in ("LOCALE", "", None):
+            with self.subTest(text=text):
+                self.write_inventory([
+                    {"ItemID": "sol.test", "DescriptionVariants": [{"ID": "known", "Text": "SOURCE"}]},
+                ], [
+                    {"ItemID": "sol.test", "DescriptionVariants": [{"ID": "unknown", "Text": text}]},
+                ])
+                result = self.run_check()
+                self.assertNotEqual(0, result.returncode)
+                self.assertIn("unknown field DescriptionVariants.unknown.Text", result.stderr)
 
 
 if __name__ == "__main__":

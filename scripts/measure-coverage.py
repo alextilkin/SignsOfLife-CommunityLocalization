@@ -54,9 +54,11 @@ STRUCTURED_TABLES = (
 )
 FORMAT_TOKEN = re.compile(r"\{\d+(?:,[+-]?\d+)?(?::[^{}]*)?\}")
 BRACKET_TOKEN = re.compile(r"\[[A-Za-z0-9_]+\]")
+HELP_IMAGE_TOKEN = re.compile(r"\[image:[^\]\r\n]+\]")
+HELP_IMAGE_LINE_TOKEN = re.compile(r"^[ \t]*(\[image:[^\]\r\n]+\])[ \t]*\r?$", re.MULTILINE)
 REQUIRED_BRACKET_TOKENS = frozenset((
     "[lightkey]", "[menukey]", "[grablaserkey]", "[minimapkey]", "[mapkey]",
-    "[grapplekey]", "[holsterkey]", "[kickkey]", "[reloadkey]", "[jump]",
+    "[grapplekey]", "[holsterkey]", "[kickkey]", "[reloadkey]", "[reload]", "[jump]",
     "[crouch]", "[up]", "[down]", "[left]", "[right]", "[primary]",
     "[secondary]", "[uiprimary]", "[worldsecondary]", "[itemcycle]", "[hotbarselect]",
     "[itemname]", "[level]", "[mobname]", "[charge]", "[capacity]", "[percent]",
@@ -104,6 +106,20 @@ def validate_unique_rows(path, data):
         for table, key, _, _ in PROSE_TABLES:
             if name == table:
                 assert_unique(data, (key,), name)
+                if name == "InventoryItemData.json":
+                    for row in data:
+                        variants = row.get("DescriptionVariants")
+                        if variants is None:
+                            continue
+                        label = "%s %s.DescriptionVariants" % (name, row[key])
+                        if not isinstance(variants, list):
+                            raise ValueError("%s must be an array" % label)
+                        assert_unique(variants, ("ID",), label)
+                        for variant in variants:
+                            if not isinstance(variant["ID"], str) or not variant["ID"].strip():
+                                raise ValueError("%s needs a non-empty string ID" % label)
+                            if variant.get("Text") is not None and not isinstance(variant["Text"], str):
+                                raise ValueError("%s %s.Text must be a string" % (label, variant["ID"]))
                 break
 
 
@@ -132,6 +148,10 @@ def tokens_match(english, translated):
         return False
     if Counter(FORMAT_TOKEN.findall(english)) != Counter(FORMAT_TOKEN.findall(translated)):
         return False
+    if Counter(HELP_IMAGE_TOKEN.findall(english)) != Counter(HELP_IMAGE_TOKEN.findall(translated)):
+        return False
+    if Counter(HELP_IMAGE_TOKEN.findall(english)) != Counter(HELP_IMAGE_LINE_TOKEN.findall(translated)):
+        return False
     def required_brackets(value):
         return Counter(token for token in BRACKET_TOKEN.findall(value)
                        if token in REQUIRED_BRACKET_TOKENS or token[1:-1].lower().endswith("key"))
@@ -147,7 +167,7 @@ def tokens_match(english, translated):
 
 def check_tokens(errors, label, english, translated):
     if translated and not tokens_match(english, translated):
-        errors.append("%s has missing or malformed format/keybind/lore/highlight tokens" % label)
+        errors.append("%s has missing or malformed format/keybind/lore/highlight/help-image tokens" % label)
 
 
 def structured_index(name, data):
@@ -266,13 +286,19 @@ def prose_fields(row, scalars, maps):
     return fields
 
 
-def prose_index(rows, key_name, scalars, maps):
+def prose_index(rows, key_name, scalars, maps, description_variants=False):
     index = {}
     for row in rows or []:
         ident = row_key(row, key_name)
         if ident is None:
             continue
         index[ident] = prose_fields(row, scalars, maps)
+        if description_variants:
+            for variant in row.get("DescriptionVariants") or []:
+                # Keep blank overlays in the index so an unknown variant ID
+                # cannot hide behind an empty translation. Rules are not prose.
+                index[ident]["DescriptionVariants.%s.Text" % variant["ID"]] = (
+                    variant.get("Text") or "").strip()
     return index
 
 
@@ -338,10 +364,12 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
 
     for name, key_name, scalars, maps in PROSE_TABLES:
         english_rows = prose_index(
-            load_json(english_root / "Config" / name) or [], key_name, scalars, maps
+            load_json(english_root / "Config" / name) or [], key_name, scalars, maps,
+            description_variants=name == "InventoryItemData.json",
         )
         overlay_rows = prose_index(
-            load_json(locale_root / "Config" / name) or [], key_name, scalars, maps
+            load_json(locale_root / "Config" / name) or [], key_name, scalars, maps,
+            description_variants=name == "InventoryItemData.json",
         )
         unknown = sorted(set(overlay_rows) - set(english_rows))
         if unknown:
@@ -359,6 +387,8 @@ def measure_locale(english_root: Path, locale_root: Path) -> dict:
             for field in unknown_fields:
                 errors.append("%s %s has unknown field %s" % (name, ident, field))
             for field, english_value in english_fields.items():
+                if not english_value:
+                    continue
                 table_total += 1
                 total += 1
                 overlay_value = overlay_fields.get(field, "")

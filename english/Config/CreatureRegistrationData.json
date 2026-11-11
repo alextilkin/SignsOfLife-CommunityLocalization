@@ -622,6 +622,12 @@
     "CodexCategory": "Xenoids"
   },
   {
+    "LivingEntityType": "XENOID_CHILD",
+    "Name": "Xenoid Child",
+    "Description": "",
+    "CodexCategory": "Xenoids"
+  },
+  {
     "LivingEntityType": "XENOID_SPECIALIST",
     "Name": "Xenoid Specialist",
     "Description": "A bipedal, apparently intelligent race of creatures. They have pale skin and seem to be quite agile.",

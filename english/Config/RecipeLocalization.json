@@ -1222,6 +1222,10 @@
       "Name": "Destroyed Xenoid Architecture"
     },
     {
+      "Name": "Dirt Corner",
+      "DisplaySource": "Tile:50"
+    },
+    {
       "Name": "Dismantle .22LR Ammo",
       "DisplayName": "Dismantle .22LR Ammo"
     },
@@ -1711,10 +1715,12 @@
       "DisplayName": "Halloween Hood"
     },
     {
-      "Name": "Hangar Access Hatch"
+      "Name": "Hangar Access Hatch",
+      "DisplaySource": "Prefab:203"
     },
     {
-      "Name": "Hangar Access Hatch Valve"
+      "Name": "Hangar Access Hatch Valve",
+      "DisplaySource": "Prefab:204"
     },
     {
       "Name": "Hangar Airlock Ceiling Vent"
@@ -4936,6 +4942,10 @@
     {
       "Key": "Decor - Windows",
       "DisplayName": "Decor - Windows"
+    },
+    {
+      "Key": "Dirt Tiles",
+      "DisplayName": "Dirt Tiles"
     },
     {
       "Key": "Doors - Basic",

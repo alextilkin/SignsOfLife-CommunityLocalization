@@ -1718,7 +1718,7 @@
   },
   {
     "ID": 380,
-    "Normal": "We call the relic that you possess a [Source Mnemonic]. It is a pre-Calamity artifact that allows translation of [Source Flows]."
+    "Normal": "We call the relic a [Source Mnemonic]. It is a pre-Calamity artifact that allows translation of [Source Flows]."
   },
   {
     "ID": 381,
@@ -2014,7 +2014,7 @@
   },
   {
     "ID": 454,
-    "Normal": "For awhile there, I really did think we'd ever make it."
+    "Normal": "For awhile there, I really didn't think we'd ever make it."
   },
   {
     "ID": 455,
@@ -2678,7 +2678,7 @@
   },
   {
     "ID": 631,
-    "Normal": "Pick up your Multipass."
+    "Normal": "Open your inventory ([menukey]) and drag the Multipass into it."
   },
   {
     "ID": 632,
@@ -2734,7 +2734,7 @@
   },
   {
     "ID": 646,
-    "Normal": "I'm sorry, I cannot let you equip that."
+    "Normal": "I'm sorry, I can't let you do that."
   },
   {
     "ID": 647,
@@ -2742,7 +2742,7 @@
   },
   {
     "ID": 648,
-    "Normal": "You've loaded the @WARHEAD@ into the mass driver. Firing it is the next step."
+    "Normal": "You've loaded the @PAYLOAD@ into the mass driver. Firing it is the next step."
   },
   {
     "ID": 649,
@@ -3076,5 +3076,101 @@
   {
     "ID": 731,
     "Normal": "I can't extract that data until we've learned more about the alien language."
+  },
+  {
+    "ID": 732,
+    "Normal": "I am Buur, I prepare the consumable food. I find joy in this."
+  },
+  {
+    "ID": 733,
+    "Normal": "The nug meat is prepared by smashing generally. It provides Source and is delicious."
+  },
+  {
+    "ID": 734,
+    "Normal": "We do not have many options of ingredients here. Sometimes the scouts bring back fruit and I make glazes for the nug meat."
+  },
+  {
+    "ID": 735,
+    "Normal": "I talk to the stalks as they grow, I believe they remember."
+  },
+  {
+    "ID": 736,
+    "Normal": "We all revere Source, but my time tending the stalks has revealed to me many vibes."
+  },
+  {
+    "ID": 737,
+    "Normal": "I tend the farm for me, for us, and for the younglings of the future."
+  },
+  {
+    "ID": 738,
+    "Normal": "I notice you have loose textiles draped on your form, this is fascinating."
+  },
+  {
+    "ID": 739,
+    "Normal": "There is little to do here but dream our past."
+  },
+  {
+    "ID": 740,
+    "Normal": "Our friends and family are here, that is enough."
+  },
+  {
+    "ID": 741,
+    "Normal": "Source refreshes us. More Source, more refreshment. This has diminishing returns as we age."
+  },
+  {
+    "ID": 742,
+    "Normal": "I still recall my first taste. We do not forget such events. We cannot."
+  },
+  {
+    "ID": 743,
+    "Normal": "Source refreshment is healthy, but we must resist the urge to delve deeper. We saw what happens."
+  },
+  {
+    "ID": 744,
+    "Normal": "I have spent time as a scout on this planet. Some creatures are beautiful. Some are horrid."
+  },
+  {
+    "ID": 745,
+    "Normal": "We all know of these things, I share all my memories, but most of the creature memories are mine originally."
+  },
+  {
+    "ID": 746,
+    "Normal": "I think we will find a way to thrive here in time."
+  },
+  {
+    "ID": 747,
+    "Normal": "- \"I delivered mine to the sun\""
+  },
+  {
+    "ID": 748,
+    "Normal": "I am at peace now."
+  },
+  {
+    "ID": 749,
+    "Normal": "Chief Chef Marco. I keep the crew fed."
+  },
+  {
+    "ID": 750,
+    "Normal": "The algae covers the nutrition. The rest takes some work."
+  },
+  {
+    "ID": 751,
+    "Normal": "Same ingredients, different preparation. That’s the job."
+  },
+  {
+    "ID": 752,
+    "Normal": "Take a seat. The food isn’t going to improve while you stand there."
+  },
+  {
+    "ID": 753,
+    "Normal": "I went ahead and uploaded a bunch of survival recipes to your @CRAFTING WINDOW@ ([craftingkey]), and I'll make sure to give you any new ones I figure out."
+  },
+  {
+    "ID": 754,
+    "Normal": "Your wrist laser should be able to dig through the terrain, trees and plants here, at least the ones in the local environment."
+  },
+  {
+    "ID": 755,
+    "Normal": "It looks like your armor and tools were destroyed in the crash. Uh, sorry."
   }
 ]

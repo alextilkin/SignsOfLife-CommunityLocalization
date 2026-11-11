@@ -11,7 +11,7 @@ Use the English files here as a reference and put translated entries in a
 language pack. You can start with one line; untranslated entries stay in English
 in the game.
 
-This English snapshot targets **Signs of Life 0.27.11**. Check the version on the
+This English snapshot targets **Signs of Life 1.0.7**. Check the version on the
 game's main menu before testing. Text added after your installed version stays
 English until the corresponding game update. See `english/SOURCE.json` for the
 exact snapshot commit; this repository does not certify a Steam branch rollout.
@@ -51,7 +51,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8137 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8329 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |
@@ -125,8 +125,8 @@ The shipped fonts cannot draw these scripts yet, so there is no pack folder.
 
 [`english/Config/`](english/Config/) contains the source text for the supported
 overlay files. Its version is recorded in [`english/SOURCE.json`](english/SOURCE.json).
-The 0.27 reference includes the completed English localization review; later
-English changes will arrive as reviewed snapshot updates. Use the matching file
+The original 0.27 reference completed the English localization review; this
+1.0.7 snapshot incorporates subsequent committed English updates. Use the matching file
 under `locales/<code>/Config/` for your language, and include only entries you
 have translated. See [`TRANSLATING.md`](TRANSLATING.md) for the fields to
 translate and the identifiers and tokens to preserve.

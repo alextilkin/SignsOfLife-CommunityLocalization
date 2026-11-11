@@ -5,11 +5,10 @@ translated rows to the matching file under `locales/<code>/Config/`. You can
 start with one row. Missing rows and empty translated fields stay in English.
 For submissions to this repository, read [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Test this snapshot with **Signs of Life 0.27**, checking the version on the main
-menu. It is prepared for the 0.27 release; check the available Steam builds
-before installing, since this repository does not confirm the live rollout.
-Use 0.27 when available, or a published build containing the exact snapshot
-commit in [`english/SOURCE.json`](english/SOURCE.json).
+Test this snapshot with **Signs of Life 1.0.7**, checking the version on the main
+menu. Use a published build containing the exact snapshot commit in
+[`english/SOURCE.json`](english/SOURCE.json); this repository does not confirm
+the live Steam rollout.
 
 Older beta builds may lack newer text or layout fixes. Version 0.26.16 has
 earlier translation support. Text introduced after your installed build stays
@@ -54,6 +53,10 @@ in the stomach, which helps regenerate health.
 `Category`, and `Text`. These are practical instructions, so preserve the
 actual action and keybind token even when AGIS makes a joke. Help and datapad
 text can be longer than dialogue, but check that headings remain easy to scan.
+
+Keep help image markers such as `[image:Sprites/Help/agis-button]` unchanged,
+on their own lines between paragraphs. Do not translate the asset key or replace
+it with a file path or URL. The game supplies the images from its compiled content.
 
 Common UI terms to keep consistent:
 
@@ -132,9 +135,16 @@ existing `Templates` text; keep `ItemID`, `AutoOrganizeString`, and template
 keys. Some artifacts switch from a human guess (“Strange Material”) to a true
 xenoid name (“Sourcemetal”) as the player learns the language. Translate
 the true `Name` supplied here. The earlier guess labels are not present in
-the English reference yet. An artifact's `AlienString` reveals words gradually.
-Translate the full text and separate words with spaces; the game shows
-`[?]` for words still hidden from the player.
+the English reference yet. Keep `AlienString` unchanged: it is an English
+scan-progress identity. Translate the corresponding `GlyphLocalization.json`
+`Text` where supplied; the game shows `[?]` for words still hidden from the player.
+
+Some items have `DescriptionVariants` for descriptions unlocked by language
+knowledge or story progress. Translate only each variant's `Text`, keeping its
+`ID` and the parent `ItemID`. Leave `Priority`, `MinLanguage`, and
+`RequiredKnowledgeFlags` unchanged. Variant order does not matter for matching;
+missing or empty translations keep the English description. Include only the
+variants you have translated, just as you would for other item fields.
 
 **`MeleeWeaponData.json`** and **`RangedWeaponData.json`** use `ItemID`. Translate
 `Name` and `Description`; keep the ID. **`ProjectileRegistrationData.json`**
@@ -201,7 +211,7 @@ have a choice.
   inserts a value. Move them within a sentence if grammar requires it.
 - Keep keybind tokens exactly as written: `[lightkey]`, `[menukey]`,
   `[grablaserkey]`, `[minimapkey]`, `[mapkey]`, `[grapplekey]`, `[holsterkey]`,
-  `[kickkey]`, `[reloadkey]`, `[jump]`, `[crouch]`, `[up]`, `[down]`, `[left]`,
+  `[kickkey]`, `[reloadkey]`, `[reload]`, `[jump]`, `[crouch]`, `[up]`, `[down]`, `[left]`,
   `[right]`, `[primary]`, `[secondary]`, `[scrollslot1]`, `[scrollslot4]`,
   `[hostname]`, and `[al]`.
 - Preserve the newer input tokens `[uiprimary]`, `[worldsecondary]`,
