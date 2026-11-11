@@ -1,9 +1,9 @@
 {
   "game": "Signs of Life",
-  "snapshotCommit": "d759a1a700168ef6b99513f27d22177213b30f2c",
-  "snapshotSubject": "Add hackable mass-driver Sun ending and shot recovery",
-  "snapshotDate": "2026-11-03",
-  "reviewStatus": "0.27.11 English snapshot synchronized from the exact committed game source after source/catalog/token review and automated coverage validation. This refresh does not renew the English freeze or certify final release screen fit or Steam rollout.",
+  "snapshotCommit": "ed694703b5abacac076b65e97e2dd62937b0e416",
+  "snapshotSubject": "Identify scanned ore deposits with compact labels",
+  "snapshotDate": "2026-11-11",
+  "reviewStatus": "1.0.7 English snapshot synchronized from the exact committed game source after source/catalog/token review and automated coverage validation. This refresh does not renew the English freeze or certify final release screen fit or Steam rollout.",
   "overlayableFiles": [
     "Config/UILocalization.json",
     "Config/TooltipLocalization.json",
@@ -24,6 +24,6 @@
     "Config/GlyphLocalization.json",
     "Config/RuntimeContentLocalization.json"
   ],
-  "notes": "Packs overlay display/prose fields only. Leave IDs, save names, recipe Name/DisplaySource, category Key, glyph English, armor set Name and piece Set, and gameplay stats unchanged. Inherited recipe names and hidden debug recipes have no required DisplayName task. Prefab DisplayName inherits a translated Name where English values match. Container gump titles use UILocalization container.* keys. Vanilla pack-item Name/Description remains in LoadedContent item_*.json; export-pack-item-prose.py fills the sol.* InventoryItemData snapshot. Unique equipment-effect prose uses RuntimeContentLocalization effect.* fields. PREVIEW, INPUT, PROMPT, and decorative MAGNETIC HANDLE art labels are deferred until after the community localization launch.",
-  "targetGameVersion": "0.27.11"
+  "notes": "Packs overlay display/prose fields only. Leave IDs, save names, recipe Name/DisplaySource, category Key, glyph English, armor set Name and piece Set, and gameplay stats unchanged. Inherited recipe names and hidden debug recipes have no required DisplayName task. Prefab DisplayName inherits a translated Name where English values match. Container gump titles use UILocalization container.* keys. Vanilla pack-item Name/Description remains in LoadedContent item_*.json; export-pack-item-prose.py fills the sol.* InventoryItemData snapshot. Unique equipment-effect prose uses RuntimeContentLocalization effect.* fields. PREVIEW, INPUT, PROMPT, and decorative MAGNETIC HANDLE art labels are deferred until after the community localization launch. Conditional item descriptions translate DescriptionVariants[].Text matched by ItemID and variant ID; keep Priority, MinLanguage, and RequiredKnowledgeFlags unchanged. Help image markers and their content keys must be preserved on standalone lines.",
+  "targetGameVersion": "1.0.7"
 }
