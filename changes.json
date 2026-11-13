@@ -1,0 +1,3854 @@
+{
+  "schemaVersion": 1,
+  "fromSnapshot": {
+    "targetGameVersion": "1.0.7",
+    "snapshotDate": "2026-11-11"
+  },
+  "toSnapshot": {
+    "targetGameVersion": "1.0.14",
+    "snapshotDate": "2026-11-13"
+  },
+  "summary": {
+    "added": 37,
+    "changed": 31,
+    "replaced": 49,
+    "unused": 31,
+    "removed": 0
+  },
+  "changes": [
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "ASTEROID_BARNACLE",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "ASTEROID_MITE",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "BABY",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "BEE_SWARM",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "CAVE_WYRM",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "CRYSTAL_NUG_BABY",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "DOG",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "OMINOUS_BULB",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "PIONEER_GARAGE_UTILITY_ARM",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "POD_FRUIT",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "SMALL_PARASITE",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "DialogLocalization.json",
+        "id": "39",
+        "field": "Normal"
+      },
+      "status": "changed",
+      "oldEnglish": "Energy Glove Slash upgrade aquired.",
+      "newEnglish": "Energy Glove Slash upgrade acquired.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "DialogLocalization.json",
+        "id": "39",
+        "field": "Robot"
+      },
+      "status": "replaced",
+      "oldEnglish": "Energy Glove Slash upgrade acquired.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "DialogLocalization.json",
+        "id": "39",
+        "field": "Normal"
+      },
+      "replacementEnglish": "Energy Glove Slash upgrade acquired.",
+      "replacementSourceHash": "76d8d72b5717c69a745ac32a7de5c19b221d6e0278498270a28db50a7da658c3",
+      "reason": "The existing correctly spelled wording is shared through Robot-to-Normal fallback."
+    },
+    {
+      "address": {
+        "table": "DialogLocalization.json",
+        "id": "756",
+        "field": "Normal"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Hmm, my sensors indicate that only works if something else is activated somewhere...",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "DialogLocalization.json",
+        "id": "757",
+        "field": "Normal"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "It looks like you need an activated Xenolith somewhere for that to work.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10086",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A strange purple crystal composed of an unknown material.",
+      "newEnglish": "A tapered purple crystal with a bright glow deep inside it.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10086",
+        "field": "DescriptionVariants.full.Name"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Xenite Keystone",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10086",
+        "field": "DescriptionVariants.full.Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "A xenite crystal used in Xenoid power systems. Its shape suggests it fits into a socket.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10086",
+        "field": "DescriptionVariants.partial.Name"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Xenite Crystal",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10086",
+        "field": "DescriptionVariants.partial.Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "A crystal of xenite used in Xenoid machinery. Its shape suggests it fits into a socket.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10086",
+        "field": "Name"
+      },
+      "status": "changed",
+      "oldEnglish": "Strange Crystal",
+      "newEnglish": "Glowing Purple Crystal",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10094",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A strange device of unknown origin.",
+      "newEnglish": "A bracket or device made of unknown materials, inset with a small purple crystal sphere.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10094",
+        "field": "DescriptionVariants.full.Name"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Xenoid Gate Keystone",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10094",
+        "field": "DescriptionVariants.full.Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "A Xenoid keystone, composed of xenostone and inset with a spherical xenite crystal. Its shape suggests it fits into a socket.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10094",
+        "field": "DescriptionVariants.partial.Name"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Xenoid Keystone",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10094",
+        "field": "DescriptionVariants.partial.Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "A Xenoid key, composed of xenostone and a spherical xenite crystal inset. Its shape suggests it fits into a socket.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10094",
+        "field": "Name"
+      },
+      "status": "changed",
+      "oldEnglish": "Strange Alien Device",
+      "newEnglish": "Jeweled Bracket",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10099",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "This strange alien device seems to be containing some kind of energy field.",
+      "newEnglish": "A rough stone frame surrounding a shimmering purple haze in the middle.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10099",
+        "field": "DescriptionVariants.full.Name"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Xenoid Portstone",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10099",
+        "field": "DescriptionVariants.full.Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "A Xenoid portstone containing a confined energy field. Its shape suggests it fits into a socket.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10099",
+        "field": "DescriptionVariants.partial.Name"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Xenoid Field Device",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10099",
+        "field": "DescriptionVariants.partial.Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "A Xenoid device containing an energy field within its metal frame. Its shape suggests it fits into a socket.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "10099",
+        "field": "Name"
+      },
+      "status": "changed",
+      "oldEnglish": "Strange Alien Device",
+      "newEnglish": "Shimmering Frame",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "15503",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 2 items at once.",
+      "newEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 3 items at once.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "15504",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 3 items at once.",
+      "newEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 4 items at once.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "15505",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 4 items at once.",
+      "newEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 5 items at once.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "15519",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 5 items at once.",
+      "newEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 6 items at once.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "15520",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 6 items at once.",
+      "newEnglish": "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 7 items at once.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "16013",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "This device grinds up items to recover raw materials and can extract trace metals and gems from basalt, granite, slate and marble. Install a grinder blade and a charged battery before switching it on.",
+      "newEnglish": "This device grinds up items to recover raw materials and can extract trace metals and gems from stone, granite, slate and marble. Install a grinder blade and a charged battery before switching it on.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "2038",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "A small steel fastener.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "RangedWeaponData.json",
+        "id": "2038",
+        "field": "Description"
+      },
+      "replacementEnglish": "A small steel fastener.",
+      "replacementSourceHash": "1b433d70f820e4ad2bce666a2e01688f379f46a1f8d61092120551dcfe39da20",
+      "reason": "Ranged ammunition owns the description, preserving the factory-visible rivet wording."
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "2039",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "A small tin fastener",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "RangedWeaponData.json",
+        "id": "2039",
+        "field": "Description"
+      },
+      "replacementEnglish": "A small tin fastener",
+      "replacementSourceHash": "4cddab568e17befca39a643abbfb9fc62c9150a56ea6ee11dd92411c7c86609b",
+      "reason": "Ranged ammunition owns the description, preserving the factory-visible rivet wording."
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "22000",
+        "field": "Name"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Deposit",
+      "newEnglish": "Stone Deposit",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "4071",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "This piece of mining equipment harnesses plasma and focused light beams to quickly dig through terrain.",
+      "newEnglish": "This piece of mining equipment harnesses plasma and focused light beams to quickly dig through terrain. Digging power depends on your MEG tool's installed lens.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "sol.copper_pick",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "The most basic of picks, with a very slow dig time.  Not much good for anything other than digging through dirt and basalt.",
+      "newEnglish": "The most basic of picks, with a very slow dig time.  Not much good for anything other than digging through dirt and stone.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RangedWeaponData.json",
+        "id": "2038",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A small steel rivet typically used for construction.",
+      "newEnglish": "A small steel fastener.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RangedWeaponData.json",
+        "id": "2039",
+        "field": "Description"
+      },
+      "status": "changed",
+      "oldEnglish": "A small tin rivet typically used for construction.",
+      "newEnglish": "A small tin fastener",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Aluminum Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Aluminum Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Block",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Block",
+      "newEnglish": "Stone Block",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Ceiling",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Ceiling",
+      "newEnglish": "Stone Ceiling",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Floor",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Floor",
+      "newEnglish": "Stone Floor",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Platform",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Platform",
+      "newEnglish": "Stone Platform",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Roof",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Roof",
+      "newEnglish": "Stone Roof",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Slope",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Slope",
+      "newEnglish": "Stone Slope",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Stairs",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Stairs",
+      "newEnglish": "Stone Stairs",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Tiles",
+        "field": "DisplayName",
+        "section": "Categories"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Tiles",
+      "newEnglish": "Stone Tiles",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Basalt Wall",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "changed",
+      "oldEnglish": "Basalt Wall",
+      "newEnglish": "Stone Wall",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Bornite Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Bornite Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Bronze Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Bronze Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Copper Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Copper Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Energite Rod Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Energite Rod Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Iron Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Iron Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Lead Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Lead Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Platinum Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Platinum Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Silver Ingot Enhanced Yield Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Silver Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Steel Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Steel Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "RecipeLocalization.json",
+        "id": "Tin Ingot Enhanced Yield",
+        "field": "DisplayName",
+        "section": "Recipes"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Tin Ingot Enhanced Yield",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "TooltipLocalization.json",
+        "id": "tooltip.EQUIPWINDOW_ENERGYGAIN.noBatteryCharge",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "The rate that you are generating capacitor charge, including baseline harvested energy ({0}), installed batteries (0) or other devices.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "TooltipLocalization.json",
+        "id": "tooltip.EQUIPWINDOW_ENERGYGAIN",
+        "field": "Text"
+      },
+      "replacementEnglish": "The rate that you are generating capacitor charge, including baseline harvested energy ({0}), installed batteries ({1}) or other devices.",
+      "replacementSourceHash": "eff6e6c8d4ff2afc3d466e8c7f222444447b17fe5ec28a2e053f354e46d943ad",
+      "reason": "Use the shared capacitor-generation template with zero as the battery contribution."
+    },
+    {
+      "address": {
+        "table": "TooltipLocalization.json",
+        "id": "tooltip.HOTBAR_HELP_BUTTON",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Hotbar help",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMiddleMouse",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to the Middle Mouse button?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized middle mouse button name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMouse3",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to the Mouse Button 3?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized Mouse Button 3 name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMouse4",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to the Mouse Button 4?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized Mouse Button 4 name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmScrollDown",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to Mousewheel Scroll Down?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized mousewheel scroll-down name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmScrollUp",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to Mousewheel Scroll Up?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized mousewheel scroll-up name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.mouse.button",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Mouse Button {0}",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.mouse.left",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Left Mouse Button",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.mouse.middle",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Middle Mouse Button",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.mouse.right",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Right Mouse Button",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.mouse.scrollDown",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Mousewheel Scroll Down",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.mouse.scrollUp",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Mousewheel Scroll Up",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.cancel",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Cancel",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "controller.action.cancel",
+        "field": "Text"
+      },
+      "replacementEnglish": "Cancel",
+      "replacementSourceHash": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "reason": "Controller bindings and prompt actions share the same Cancel label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.quickSlot1",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Quick Slot 1",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.quickSlot",
+        "field": "Text"
+      },
+      "replacementEnglish": "Quick Slot {0}",
+      "replacementSourceHash": "be1c3e9dd09fdbb47db72fe2c09d5d1e0aea59f92a99248ee5cb58dd8441f018",
+      "reason": "Shared quick-slot label; code supplies 1 for {0} in binding rows and rebind prompts."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.quickSlot2",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Quick Slot 2",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.quickSlot",
+        "field": "Text"
+      },
+      "replacementEnglish": "Quick Slot {0}",
+      "replacementSourceHash": "be1c3e9dd09fdbb47db72fe2c09d5d1e0aea59f92a99248ee5cb58dd8441f018",
+      "reason": "Shared quick-slot label; code supplies 2 for {0} in binding rows and rebind prompts."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.confirmRebind",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Bind {0} to {1}?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Keyboard, mouse, and controller rebind confirmations share the same template; {0} is the action and {1} is the localized control name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.gameplayHints.off",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Off",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "opt.off",
+        "field": "Text"
+      },
+      "replacementEnglish": "Off",
+      "replacementSourceHash": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1",
+      "reason": "Reuse the shared settings Off option."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.rebindPrompt",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Press a controller control for {0}.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; controller rebinding already uses the capture-state prompts."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.blastFurnace",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Refine In Blast Furnace",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.brickOven",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Brick Oven",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.campfire",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Campfire",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.chemBench",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Chem Bench",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.chemLab",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Chem Lab",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.draftFurnace",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Refine In Draft Furnace",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.inductionFurnace",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Refine In Induction Furnace",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.ironStove",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Iron Stove",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.kitchenette",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Kitchenette",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.mortar",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Mortar",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.discoverIngredient",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "{0} to discover",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "hud.recipeObtained",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Obtained the recipe for {0}.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the recipe-obtained pickup notification has no active callers."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "interaction.decrease",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Decrease",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; no live interaction consumes this label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "interaction.increase",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Increase",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; no live interaction consumes this label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "item.missingModName",
+        "field": "Text"
+      },
+      "status": "changed",
+      "oldEnglish": "Missing mod item",
+      "newEnglish": "Item from missing mod",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "item.stat.ammoAp",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Ammo AP: {0}",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; ammunition already displays separate flat and percentage armor-piercing statistics."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "item.stat.arrowAp",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Arrow AP: {0}",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; arrows already display separate flat and percentage armor-piercing statistics."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.generatingWorld",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Generating World",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.phase.generatingWorld",
+        "field": "Text"
+      },
+      "replacementEnglish": "Generating World",
+      "replacementSourceHash": "726dd71c06af9ad40f05203129afdcb1dd55cf149fd99666a1eff2970da7b3ef",
+      "reason": "Loading title and phase share the same status label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.droppedNoDecay",
+        "field": "Text"
+      },
+      "status": "changed",
+      "oldEnglish": "Tip: Items that you drop on the ground do not decay over time. You can trash them from your inventory.",
+      "newEnglish": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring. You can trash them from your inventory.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.futuristic",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Scientists are saying the future is going to be far more futuristic than they originally predicted.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.futuristicTip",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: Scientists are saying the future is going to be far more futuristic than they originally predicted.",
+      "replacementSourceHash": "ee42019c692306a9d7e0281be3cb062d94da0741a3ea5f3ba8e14c58b57144bd",
+      "reason": "Reuse the existing Tip-prefixed version of the same loading advice."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.groundCache",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.droppedNoDecay",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring. You can trash them from your inventory.",
+      "replacementSourceHash": "a2d7d07d6cb656bcf3b5f5463309c3b83625e9f2937fa3b235592e4a02669e3f",
+      "reason": "Merged no-decay, temporary-cache, and inventory-trash advice."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.helpButton",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Tip: If you get stuck, don't forget that you can check the help menu by pressing the ? button at the top of the screen.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.helpPauseMeg",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: If you need help, you can access the help menu from the pause menu or the MEG tool.",
+      "replacementSourceHash": "384db91a277ceb28ff98a132fb8e7aee112d62e5f91841457d8c24d771c73b02",
+      "reason": "Reuse current Help access guidance through the pause menu or MEG tool."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holdReload",
+        "field": "Text"
+      },
+      "status": "changed",
+      "oldEnglish": "Tip: You can hold {0} to open the ammo radial menu.",
+      "newEnglish": "Tip: You can hold {0} to open the ammo radial menu when your weapon has more than one ammo type.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holster",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "You can holster your current held item by pressing {0}.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holsterTip",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: You can holster your current held item by pressing {0}.",
+      "replacementSourceHash": "edc14ec002600d788273c12c61a10c7e737605d098986bbb83abb678333fb412",
+      "reason": "Reuse the existing Tip-prefixed version of the same loading advice."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.reloadRadial",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Tip: Holding the reload button opens the ammo radial menu when your weapon has more than one ammo type.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holdReload",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: You can hold {0} to open the ammo radial menu when your weapon has more than one ammo type.",
+      "replacementSourceHash": "e0b574cf500999e854efc95b1a3db039950dd3c3d850e2a50ba0e4e0068be6bf",
+      "reason": "Merged radial-ammo advice with the reload binding and multiple-ammo-type condition."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.scanCodexReview",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Tip: Scanning a creature adds it to the MEG tool's codex so you can review its description later.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.scanCodex",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: Scanning a creature adds it to the MEG tool's codex so you can review it later.",
+      "replacementSourceHash": "75bd5a52e6846670c409eecb1a86eeca03e05ba10956d3785327481c684d37a4",
+      "reason": "Reuse the same creature-scanning and codex-review advice."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.waitingForPlayers",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Waiting for Players",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.phase.waitingForPlayers",
+        "field": "Text"
+      },
+      "replacementEnglish": "Waiting for Players",
+      "replacementSourceHash": "46a882400267a902a9a7c8cbb018b3c7b3adde8cf7b51d7ef0bec933ed86d75f",
+      "reason": "Loading title and phase share the same status label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "menu.deletingWorkshopItem",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Deleting Steam Workshop Item",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "mods.deletingItem",
+        "field": "Text"
+      },
+      "replacementEnglish": "Deleting Steam Workshop Item",
+      "replacementSourceHash": "df5e82000bc1dda43de85fe27d98dde0c4b7a95e5ba9a2c11ac6a19e1fe8d891",
+      "reason": "Both paths label the same Workshop deletion prompt."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.couldNotOpenThe",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Could not open the {0}:\n{1}",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "mods.couldNotOpen",
+        "field": "Text"
+      },
+      "replacementEnglish": "Could not open {0}:\n{1}",
+      "replacementSourceHash": "b9f06714cdf2322b45798967d1c3528f08f7fabe948e3925642510ee4287d228",
+      "reason": "Folder and tool launch failures share the same target-label and exception template."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.emptyPublishedUpdate",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "You do not have any published Workshop mods yet.\n\nGo back to Staged Mods and publish the package first.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.pickPublishedTitle",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Pick Which Published Mod to Update",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.publishedBlurbUpdate",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "You already picked a staged package. Now choose which live Workshop mod it should replace.\n\nOnly click Update This One on the mod you mean to change. That swaps the files for everyone who subscribed — so double-check the title.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.steamNotInit",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Steam is not initialized, so the game cannot check whether this mod already exists.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; current Workshop error paths already use the Steam-unavailable message."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.updateConfirm",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Update the Steam Workshop mod \"{0}\"?\n\nThis replaces that mod for everyone who subscribed. Use the staged package \"{1}\".",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.updateThisOne",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Update This One",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.uploading",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Uploading data to Steam Workshop",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "menu.preparingWorkshopUpload",
+        "field": "Text"
+      },
+      "replacementEnglish": "Preparing to Upload Data to Steam Workshop",
+      "replacementSourceHash": "1588c9d16b1da1f4c20449537873e711f45562c9e0b54317adbdfe78eda7ef8c",
+      "reason": "Initialize the upload prompt with its existing preparation-state label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "opt.projected",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Projected",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "opt.uiElement",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "UI Element",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.background",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Background",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.backgroundQuality",
+        "field": "Text"
+      },
+      "replacementEnglish": "Background Quality",
+      "replacementSourceHash": "e053574c60f59d1f73197d84498111366cc068ed97f199391d047bba9120a008",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.dialogue",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Dialogue",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.dialogueVolume",
+        "field": "Text"
+      },
+      "replacementEnglish": "Dialogue Volume",
+      "replacementSourceHash": "fb23fec1c3e2639e7b3903bf194e322b76ce4d5950b2cccbf60e06c9e53fc3c1",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.dodgeType",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Dodge Type",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.dodgeInput",
+        "field": "Text"
+      },
+      "replacementEnglish": "Dodge Input",
+      "replacementSourceHash": "44a2ad075e15dc47f34306ffd00a5ed5954418f79fa07f4ee6991bbb32a7a014",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.energyWeaponsBreakBlocks",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Energy Weapons Break Blocks",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.energyWeaponsVsBlocks",
+        "field": "Text"
+      },
+      "replacementEnglish": "Energy Weapons vs Blocks",
+      "replacementSourceHash": "8963cf16a12e7615d04791806f07354c0c35622d3eaac09d2db97ea5b7c05ebc",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.frameRateFps",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "{0} FPS",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.frameRateLimit",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Frame Rate Limit",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.holsterToPickup",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Holster to Pick up Items",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.pickupRequiresHolster",
+        "field": "Text"
+      },
+      "replacementEnglish": "Pickup Requires Holster",
+      "replacementSourceHash": "5b15d8d3d0006fd0f461a6981d6e719cbf91eb80b3634e1435e4dd0ab76565f6",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.hotbarType",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Hotbar Type",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.hotbarLayout",
+        "field": "Text"
+      },
+      "replacementEnglish": "Hotbar Layout",
+      "replacementSourceHash": "ac88c6cc4db446da6e0ffdeee2a63e242a19c22423a5a3916e9aae7a3f00e554",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.inventoryType",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Inventory Type",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.inventoryLayout",
+        "field": "Text"
+      },
+      "replacementEnglish": "Inventory Layout",
+      "replacementSourceHash": "7a8863e90c28ddd827efd46f440e098cd9a4e67a62973f408f77e16221c69229",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.meleeHitsBlocks",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "Melee Hits Blocks",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.meleeHitsBlocksHost",
+        "field": "Text"
+      },
+      "status": "added",
+      "oldEnglish": null,
+      "newEnglish": "The host controls this setting in multiplayer.",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.minimapType",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Minimap Type",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.music",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Music",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.musicVolume",
+        "field": "Text"
+      },
+      "replacementEnglish": "Music Volume",
+      "replacementSourceHash": "b3f848c2a09aa9edaeebc4ebd601839b2777403991aa366387d7c13cea1945b3",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.newRecipeNotifications",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "New Recipe Notifications",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.recipeNotifications",
+        "field": "Text"
+      },
+      "replacementEnglish": "Recipe Notifications",
+      "replacementSourceHash": "e75350602311fbee5da76790c3002d24790d954881f48c8994a5a9084132a7f3",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.openInventoryToPickup",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Open Inventory to Pick up Items",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.pickupRequiresInventory",
+        "field": "Text"
+      },
+      "replacementEnglish": "Pickup Requires Inventory",
+      "replacementSourceHash": "ef36230ef98650b464154bddebee2297ae538a055a299dc7622b392320725d7b",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.shadowQual",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Shadow Qual.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.shadowQuality",
+        "field": "Text"
+      },
+      "replacementEnglish": "Shadow Quality",
+      "replacementSourceHash": "1f5d826689374084807f990d11d8c19f7e8c8b44df6fda5b3e439653458fbbc8",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.soundFx",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Sound FX",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.soundFxVolume",
+        "field": "Text"
+      },
+      "replacementEnglish": "Sound FX Volume",
+      "replacementSourceHash": "d7319e8eea26b79c6ed4faef2db366c22f1fff4b3274dae2c484aa8a9e3f80a3",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.walkingSlope",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Single Blocks as Slopes While Walking",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.walkOverSingleBlocks",
+        "field": "Text"
+      },
+      "replacementEnglish": "Walk Over Single Blocks",
+      "replacementSourceHash": "61cba98314d2ff93b5bc49bd31df6e573c801649a67c7a16c5555775f95b183b",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.dig",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Dig Laser",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.grab",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Grab Laser",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.light",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Wrist Light",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.place",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Place Test Block",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.repeat",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Repeat instructions",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial replay uses authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.scan",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Scan Laser",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "helpData.json",
+        "id": "HOTBAR",
+        "field": "Text"
+      },
+      "status": "changed",
+      "oldEnglish": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through a category ([itemcycle]). If you would prefer to place items in the hotbar manually, you can change the hotbar behavior from the settings menu.\n\nHold the key for a populated slot to open its radial menu. With the default keyboard bindings, use the number of the slot. On a controller, use the Item Wheel control.\n\nAutomatic hotbar slots\n1. Digging tools\n2. Melee weapons\n3. Ranged weapons\n4. Gadgets\n5. Blocks\n6. Consumables\n7. Food\n8. Throwables",
+      "newEnglish": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through the item in a category's slot with ([itemcycle]).\n\n[image:Sprites/Help/hotbar-automatic]\n\nYou can hold the hotbar slot number to open a radial menu, with all the items in the category.\n\n[image:Sprites/Help/hotbar-radial]\n\nIf you'd prefer a simpler, more familiar hotbar, you can use the MANUAL mode:\n\n[image:Sprites/Help/hotbar-mode-switch]\n\nIn manual mode, you can drag items directly to the hotbar.\n\n[image:Sprites/Help/hotbar-manual]",
+      "needsReview": true,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": ""
+    }
+  ],
+  "retiredFields": [
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "ASTEROID_BARNACLE",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "ASTEROID_MITE",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "BABY",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "BEE_SWARM",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "CAVE_WYRM",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "CRYSTAL_NUG_BABY",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "DOG",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "OMINOUS_BULB",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "PIONEER_GARAGE_UTILITY_ARM",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "POD_FRUIT",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "CreatureRegistrationData.json",
+        "id": "SMALL_PARASITE",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "I have no idea what that is.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "replacementEnglish": "I have no idea what that is.",
+      "replacementSourceHash": "78a8ec217b230fef2489e39320681171618af74819530a93d3d1cfc697d5a08e",
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "address": {
+        "table": "DialogLocalization.json",
+        "id": "39",
+        "field": "Robot"
+      },
+      "status": "replaced",
+      "oldEnglish": "Energy Glove Slash upgrade acquired.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "DialogLocalization.json",
+        "id": "39",
+        "field": "Normal"
+      },
+      "replacementEnglish": "Energy Glove Slash upgrade acquired.",
+      "replacementSourceHash": "76d8d72b5717c69a745ac32a7de5c19b221d6e0278498270a28db50a7da658c3",
+      "reason": "The existing correctly spelled wording is shared through Robot-to-Normal fallback."
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "2038",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "A small steel fastener.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "RangedWeaponData.json",
+        "id": "2038",
+        "field": "Description"
+      },
+      "replacementEnglish": "A small steel fastener.",
+      "replacementSourceHash": "1b433d70f820e4ad2bce666a2e01688f379f46a1f8d61092120551dcfe39da20",
+      "reason": "Ranged ammunition owns the description, preserving the factory-visible rivet wording."
+    },
+    {
+      "address": {
+        "table": "InventoryItemData.json",
+        "id": "2039",
+        "field": "Description"
+      },
+      "status": "replaced",
+      "oldEnglish": "A small tin fastener",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "RangedWeaponData.json",
+        "id": "2039",
+        "field": "Description"
+      },
+      "replacementEnglish": "A small tin fastener",
+      "replacementSourceHash": "4cddab568e17befca39a643abbfb9fc62c9150a56ea6ee11dd92411c7c86609b",
+      "reason": "Ranged ammunition owns the description, preserving the factory-visible rivet wording."
+    },
+    {
+      "address": {
+        "table": "TooltipLocalization.json",
+        "id": "tooltip.EQUIPWINDOW_ENERGYGAIN.noBatteryCharge",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "The rate that you are generating capacitor charge, including baseline harvested energy ({0}), installed batteries (0) or other devices.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "TooltipLocalization.json",
+        "id": "tooltip.EQUIPWINDOW_ENERGYGAIN",
+        "field": "Text"
+      },
+      "replacementEnglish": "The rate that you are generating capacitor charge, including baseline harvested energy ({0}), installed batteries ({1}) or other devices.",
+      "replacementSourceHash": "eff6e6c8d4ff2afc3d466e8c7f222444447b17fe5ec28a2e053f354e46d943ad",
+      "reason": "Use the shared capacitor-generation template with zero as the battery contribution."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMiddleMouse",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to the Middle Mouse button?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized middle mouse button name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMouse3",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to the Mouse Button 3?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized Mouse Button 3 name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMouse4",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to the Mouse Button 4?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized Mouse Button 4 name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmScrollDown",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to Mousewheel Scroll Down?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized mousewheel scroll-down name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmScrollUp",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Would you like to bind {0} to Mousewheel Scroll Up?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized mousewheel scroll-up name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.cancel",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Cancel",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "controller.action.cancel",
+        "field": "Text"
+      },
+      "replacementEnglish": "Cancel",
+      "replacementSourceHash": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "reason": "Controller bindings and prompt actions share the same Cancel label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.quickSlot1",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Quick Slot 1",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.quickSlot",
+        "field": "Text"
+      },
+      "replacementEnglish": "Quick Slot {0}",
+      "replacementSourceHash": "be1c3e9dd09fdbb47db72fe2c09d5d1e0aea59f92a99248ee5cb58dd8441f018",
+      "reason": "Shared quick-slot label; code supplies 1 for {0} in binding rows and rebind prompts."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.quickSlot2",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Quick Slot 2",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.quickSlot",
+        "field": "Text"
+      },
+      "replacementEnglish": "Quick Slot {0}",
+      "replacementSourceHash": "be1c3e9dd09fdbb47db72fe2c09d5d1e0aea59f92a99248ee5cb58dd8441f018",
+      "reason": "Shared quick-slot label; code supplies 2 for {0} in binding rows and rebind prompts."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.confirmRebind",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Bind {0} to {1}?",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "replacementEnglish": "Would you like to bind {0} to {1}?",
+      "replacementSourceHash": "6d4efa725a6405e2fb6a68fce9e32cd6834ca77b5bf33658a5ccec482af0a6e5",
+      "reason": "Keyboard, mouse, and controller rebind confirmations share the same template; {0} is the action and {1} is the localized control name."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.gameplayHints.off",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Off",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "opt.off",
+        "field": "Text"
+      },
+      "replacementEnglish": "Off",
+      "replacementSourceHash": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1",
+      "reason": "Reuse the shared settings Off option."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "controller.rebindPrompt",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Press a controller control for {0}.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; controller rebinding already uses the capture-state prompts."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.blastFurnace",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Refine In Blast Furnace",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.brickOven",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Brick Oven",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.campfire",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Campfire",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.chemBench",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Chem Bench",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.chemLab",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Chem Lab",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.draftFurnace",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Refine In Draft Furnace",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.inductionFurnace",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Refine In Induction Furnace",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.ironStove",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Iron Stove",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.kitchenette",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Kitchenette",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "craft.action.mortar",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Make With Mortar",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "hud.recipeObtained",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Obtained the recipe for {0}.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the recipe-obtained pickup notification has no active callers."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "interaction.decrease",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Decrease",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; no live interaction consumes this label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "interaction.increase",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Increase",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; no live interaction consumes this label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "item.stat.ammoAp",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Ammo AP: {0}",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; ammunition already displays separate flat and percentage armor-piercing statistics."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "item.stat.arrowAp",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Arrow AP: {0}",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; arrows already display separate flat and percentage armor-piercing statistics."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.generatingWorld",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Generating World",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.phase.generatingWorld",
+        "field": "Text"
+      },
+      "replacementEnglish": "Generating World",
+      "replacementSourceHash": "726dd71c06af9ad40f05203129afdcb1dd55cf149fd99666a1eff2970da7b3ef",
+      "reason": "Loading title and phase share the same status label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.futuristic",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Scientists are saying the future is going to be far more futuristic than they originally predicted.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.futuristicTip",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: Scientists are saying the future is going to be far more futuristic than they originally predicted.",
+      "replacementSourceHash": "ee42019c692306a9d7e0281be3cb062d94da0741a3ea5f3ba8e14c58b57144bd",
+      "reason": "Reuse the existing Tip-prefixed version of the same loading advice."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.groundCache",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.droppedNoDecay",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring. You can trash them from your inventory.",
+      "replacementSourceHash": "a2d7d07d6cb656bcf3b5f5463309c3b83625e9f2937fa3b235592e4a02669e3f",
+      "reason": "Merged no-decay, temporary-cache, and inventory-trash advice."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.helpButton",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Tip: If you get stuck, don't forget that you can check the help menu by pressing the ? button at the top of the screen.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.helpPauseMeg",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: If you need help, you can access the help menu from the pause menu or the MEG tool.",
+      "replacementSourceHash": "384db91a277ceb28ff98a132fb8e7aee112d62e5f91841457d8c24d771c73b02",
+      "reason": "Reuse current Help access guidance through the pause menu or MEG tool."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holster",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "You can holster your current held item by pressing {0}.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holsterTip",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: You can holster your current held item by pressing {0}.",
+      "replacementSourceHash": "edc14ec002600d788273c12c61a10c7e737605d098986bbb83abb678333fb412",
+      "reason": "Reuse the existing Tip-prefixed version of the same loading advice."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.reloadRadial",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Tip: Holding the reload button opens the ammo radial menu when your weapon has more than one ammo type.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holdReload",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: You can hold {0} to open the ammo radial menu when your weapon has more than one ammo type.",
+      "replacementSourceHash": "e0b574cf500999e854efc95b1a3db039950dd3c3d850e2a50ba0e4e0068be6bf",
+      "reason": "Merged radial-ammo advice with the reload binding and multiple-ammo-type condition."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.tip.scanCodexReview",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Tip: Scanning a creature adds it to the MEG tool's codex so you can review its description later.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.tip.scanCodex",
+        "field": "Text"
+      },
+      "replacementEnglish": "Tip: Scanning a creature adds it to the MEG tool's codex so you can review it later.",
+      "replacementSourceHash": "75bd5a52e6846670c409eecb1a86eeca03e05ba10956d3785327481c684d37a4",
+      "reason": "Reuse the same creature-scanning and codex-review advice."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "load.waitingForPlayers",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Waiting for Players",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "load.phase.waitingForPlayers",
+        "field": "Text"
+      },
+      "replacementEnglish": "Waiting for Players",
+      "replacementSourceHash": "46a882400267a902a9a7c8cbb018b3c7b3adde8cf7b51d7ef0bec933ed86d75f",
+      "reason": "Loading title and phase share the same status label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "menu.deletingWorkshopItem",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Deleting Steam Workshop Item",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "mods.deletingItem",
+        "field": "Text"
+      },
+      "replacementEnglish": "Deleting Steam Workshop Item",
+      "replacementSourceHash": "df5e82000bc1dda43de85fe27d98dde0c4b7a95e5ba9a2c11ac6a19e1fe8d891",
+      "reason": "Both paths label the same Workshop deletion prompt."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.couldNotOpenThe",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Could not open the {0}:\n{1}",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "mods.couldNotOpen",
+        "field": "Text"
+      },
+      "replacementEnglish": "Could not open {0}:\n{1}",
+      "replacementSourceHash": "b9f06714cdf2322b45798967d1c3528f08f7fabe948e3925642510ee4287d228",
+      "reason": "Folder and tool launch failures share the same target-label and exception template."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.emptyPublishedUpdate",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "You do not have any published Workshop mods yet.\n\nGo back to Staged Mods and publish the package first.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.pickPublishedTitle",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Pick Which Published Mod to Update",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.publishedBlurbUpdate",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "You already picked a staged package. Now choose which live Workshop mod it should replace.\n\nOnly click Update This One on the mod you mean to change. That swaps the files for everyone who subscribed — so double-check the title.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.steamNotInit",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Steam is not initialized, so the game cannot check whether this mod already exists.",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; current Workshop error paths already use the Steam-unavailable message."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.updateConfirm",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Update the Steam Workshop mod \"{0}\"?\n\nThis replaces that mod for everyone who subscribed. Use the staged package \"{1}\".",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.updateThisOne",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Update This One",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "mods.uploading",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Uploading data to Steam Workshop",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "menu.preparingWorkshopUpload",
+        "field": "Text"
+      },
+      "replacementEnglish": "Preparing to Upload Data to Steam Workshop",
+      "replacementSourceHash": "1588c9d16b1da1f4c20449537873e711f45562c9e0b54317adbdfe78eda7ef8c",
+      "reason": "Initialize the upload prompt with its existing preparation-state label."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "opt.projected",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Projected",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "opt.uiElement",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "UI Element",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.background",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Background",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.backgroundQuality",
+        "field": "Text"
+      },
+      "replacementEnglish": "Background Quality",
+      "replacementSourceHash": "e053574c60f59d1f73197d84498111366cc068ed97f199391d047bba9120a008",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.dialogue",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Dialogue",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.dialogueVolume",
+        "field": "Text"
+      },
+      "replacementEnglish": "Dialogue Volume",
+      "replacementSourceHash": "fb23fec1c3e2639e7b3903bf194e322b76ce4d5950b2cccbf60e06c9e53fc3c1",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.dodgeType",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Dodge Type",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.dodgeInput",
+        "field": "Text"
+      },
+      "replacementEnglish": "Dodge Input",
+      "replacementSourceHash": "44a2ad075e15dc47f34306ffd00a5ed5954418f79fa07f4ee6991bbb32a7a014",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.energyWeaponsBreakBlocks",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Energy Weapons Break Blocks",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.energyWeaponsVsBlocks",
+        "field": "Text"
+      },
+      "replacementEnglish": "Energy Weapons vs Blocks",
+      "replacementSourceHash": "8963cf16a12e7615d04791806f07354c0c35622d3eaac09d2db97ea5b7c05ebc",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.holsterToPickup",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Holster to Pick up Items",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.pickupRequiresHolster",
+        "field": "Text"
+      },
+      "replacementEnglish": "Pickup Requires Holster",
+      "replacementSourceHash": "5b15d8d3d0006fd0f461a6981d6e719cbf91eb80b3634e1435e4dd0ab76565f6",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.hotbarType",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Hotbar Type",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.hotbarLayout",
+        "field": "Text"
+      },
+      "replacementEnglish": "Hotbar Layout",
+      "replacementSourceHash": "ac88c6cc4db446da6e0ffdeee2a63e242a19c22423a5a3916e9aae7a3f00e554",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.inventoryType",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Inventory Type",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.inventoryLayout",
+        "field": "Text"
+      },
+      "replacementEnglish": "Inventory Layout",
+      "replacementSourceHash": "7a8863e90c28ddd827efd46f440e098cd9a4e67a62973f408f77e16221c69229",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.minimapType",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Minimap Type",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.music",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Music",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.musicVolume",
+        "field": "Text"
+      },
+      "replacementEnglish": "Music Volume",
+      "replacementSourceHash": "b3f848c2a09aa9edaeebc4ebd601839b2777403991aa366387d7c13cea1945b3",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.newRecipeNotifications",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "New Recipe Notifications",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.recipeNotifications",
+        "field": "Text"
+      },
+      "replacementEnglish": "Recipe Notifications",
+      "replacementSourceHash": "e75350602311fbee5da76790c3002d24790d954881f48c8994a5a9084132a7f3",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.openInventoryToPickup",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Open Inventory to Pick up Items",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.pickupRequiresInventory",
+        "field": "Text"
+      },
+      "replacementEnglish": "Pickup Requires Inventory",
+      "replacementSourceHash": "ef36230ef98650b464154bddebee2297ae538a055a299dc7622b392320725d7b",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.shadowQual",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Shadow Qual.",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.shadowQuality",
+        "field": "Text"
+      },
+      "replacementEnglish": "Shadow Quality",
+      "replacementSourceHash": "1f5d826689374084807f990d11d8c19f7e8c8b44df6fda5b3e439653458fbbc8",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.soundFx",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Sound FX",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.soundFxVolume",
+        "field": "Text"
+      },
+      "replacementEnglish": "Sound FX Volume",
+      "replacementSourceHash": "d7319e8eea26b79c6ed4faef2db366c22f1fff4b3274dae2c484aa8a9e3f80a3",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "settings.walkingSlope",
+        "field": "Text"
+      },
+      "status": "replaced",
+      "oldEnglish": "Single Blocks as Slopes While Walking",
+      "newEnglish": null,
+      "needsReview": true,
+      "replacement": {
+        "table": "UILocalization.json",
+        "id": "settings.walkOverSingleBlocks",
+        "field": "Text"
+      },
+      "replacementEnglish": "Walk Over Single Blocks",
+      "replacementSourceHash": "61cba98314d2ff93b5bc49bd31df6e573c801649a67c7a16c5555775f95b183b",
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.dig",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Dig Laser",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.grab",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Grab Laser",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.light",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Wrist Light",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.place",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Place Test Block",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.repeat",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Repeat instructions",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial replay uses authored numeric dialogue."
+    },
+    {
+      "address": {
+        "table": "UILocalization.json",
+        "id": "tutorial.scan",
+        "field": "Text"
+      },
+      "status": "unused",
+      "oldEnglish": "Scan Laser",
+      "newEnglish": null,
+      "needsReview": false,
+      "replacement": null,
+      "replacementEnglish": null,
+      "replacementSourceHash": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    }
+  ]
+}

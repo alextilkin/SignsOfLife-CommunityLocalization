@@ -673,42 +673,36 @@
   {
     "LivingEntityType": "ASTEROID_BARNACLE",
     "Name": "Asteroid Barnacle",
-    "Description": "I have no idea what that is.",
     "Health": 100,
     "MeleeDamage": 15
   },
   {
     "LivingEntityType": "ASTEROID_MITE",
     "Name": "Asteroid Mite",
-    "Description": "I have no idea what that is.",
     "Health": 1,
     "MeleeDamage": 10
   },
   {
     "LivingEntityType": "BABY",
     "Name": "Baby",
-    "Description": "I have no idea what that is.",
     "Health": 15,
     "MeleeDamage": 10
   },
   {
     "LivingEntityType": "BEE_SWARM",
     "Name": "Bee Swarm",
-    "Description": "I have no idea what that is.",
     "Health": 30,
     "MeleeDamage": 10
   },
   {
     "LivingEntityType": "CAVE_WYRM",
     "Name": "Cave Wyrm",
-    "Description": "I have no idea what that is.",
     "Health": 200,
     "MeleeDamage": 15
   },
   {
     "LivingEntityType": "DOG",
     "Name": "Dog",
-    "Description": "I have no idea what that is.",
     "Health": 100
   },
   {
@@ -726,28 +720,24 @@
   {
     "LivingEntityType": "OMINOUS_BULB",
     "Name": "Ominous Bulb",
-    "Description": "I have no idea what that is.",
     "Health": 50,
     "MeleeDamage": 15
   },
   {
     "LivingEntityType": "PIONEER_GARAGE_UTILITY_ARM",
     "Name": "Pioneer Garage Utility Arm",
-    "Description": "I have no idea what that is.",
     "Health": 100,
     "MeleeDamage": 10
   },
   {
     "LivingEntityType": "POD_FRUIT",
     "Name": "Pod Fruit",
-    "Description": "I have no idea what that is.",
     "Health": 30,
     "MeleeDamage": 10
   },
   {
     "LivingEntityType": "SMALL_PARASITE",
     "Name": "Small Parasite",
-    "Description": "I have no idea what that is.",
     "Health": 100,
     "MeleeDamage": 15
   },
@@ -775,7 +765,6 @@
   {
     "LivingEntityType": "CRYSTAL_NUG_BABY",
     "Name": "Crystal Nug Baby",
-    "Description": "I have no idea what that is.",
     "Health": 100,
     "MeleeDamage": 10
   },

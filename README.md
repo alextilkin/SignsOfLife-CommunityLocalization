@@ -11,20 +11,30 @@ Use the English files here as a reference and put translated entries in a
 language pack. You can start with one line; untranslated entries stay in English
 in the game.
 
-This English snapshot targets **Signs of Life 1.0.7**. Check the version on the
-game's main menu before testing. Text added after your installed version stays
-English until the corresponding game update. See `english/SOURCE.json` for the
-exact snapshot commit; this repository does not certify a Steam branch rollout.
+This English snapshot targets **Signs of Life 1.0.14**. Check the version on the
+game's main menu before testing your translation pack. Some text may be missing
+or different in older game versions.
 
-Older beta builds may lack newer text or layout fixes. Version 0.26.16 has
-earlier translation support and will leave some of these translations in
-English. See [`english/SOURCE.json`](english/SOURCE.json) for the exact source
-commit, date, and target version. Missing or empty translations still fall back
-to the English supplied by your installed game.
+Missing or empty translations fall back to the English supplied by your installed game.
 
 The game loads a locale as an ordinary mod pack: copy `locales/<code>/` into
 `Documents/My Games/Signs of Life/Mods`, enable it, then **Load Now** or
 restart. Enable only one locale pack at a time; the last loaded overlay wins.
+
+<!-- translation-updates -->
+## Keeping a translation current
+
+After an English snapshot refresh, read [the English change report](changes.md),
+[your language's review status](translation-review.md), and
+[the updating guide](UPDATING.md). The report shows new and changed wording,
+replacement fields for consolidated text, and entries that are no longer used.
+Review a replacement's wording and tokens before reusing an older translation.
+
+Coverage measures how much text is translated. The separate review status shows
+existing translations that need checking against current English. Reports do
+not move or overwrite your translations. The review workflow on a translation
+PR provides status for your latest edits; the checked-in reports describe the
+last English refresh.
 
 ## Contributing translations
 
@@ -51,7 +61,7 @@ and words correctly left the same as English may count as untranslated.
 
 <!-- coverage-table:start -->
 
-A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8329 fields in this snapshot.
+A field counts toward text coverage when it is non-empty and not a copy of English. Empty overlays stay English in-game. 8286 fields in this snapshot.
 
 | Language | Pack | Text coverage |
 | --- | --- | ---: |
@@ -123,10 +133,7 @@ The shipped fonts cannot draw these scripts yet, so there is no pack folder.
 
 ## English reference and locale files
 
-[`english/Config/`](english/Config/) contains the source text for the supported
-overlay files. Its version is recorded in [`english/SOURCE.json`](english/SOURCE.json).
-The original 0.27 reference completed the English localization review; this
-1.0.7 snapshot incorporates subsequent committed English updates. Use the matching file
-under `locales/<code>/Config/` for your language, and include only entries you
-have translated. See [`TRANSLATING.md`](TRANSLATING.md) for the fields to
-translate and the identifiers and tokens to preserve.
+[`english/Config/`](english/Config/) contains the English text to translate.
+Use the matching file under `locales/<code>/Config/` for your language, and
+include only entries you have translated. See [`TRANSLATING.md`](TRANSLATING.md)
+for the fields to translate and the identifiers and placeholders to preserve.
