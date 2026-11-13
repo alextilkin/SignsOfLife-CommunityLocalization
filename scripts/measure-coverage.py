@@ -118,8 +118,9 @@ def validate_unique_rows(path, data):
                         for variant in variants:
                             if not isinstance(variant["ID"], str) or not variant["ID"].strip():
                                 raise ValueError("%s needs a non-empty string ID" % label)
-                            if variant.get("Text") is not None and not isinstance(variant["Text"], str):
-                                raise ValueError("%s %s.Text must be a string" % (label, variant["ID"]))
+                            for field in ("Name", "Text"):
+                                if variant.get(field) is not None and not isinstance(variant[field], str):
+                                    raise ValueError("%s %s.%s must be a string" % (label, variant["ID"], field))
                 break
 
 
@@ -299,6 +300,11 @@ def prose_index(rows, key_name, scalars, maps, description_variants=False):
                 # cannot hide behind an empty translation. Rules are not prose.
                 index[ident]["DescriptionVariants.%s.Text" % variant["ID"]] = (
                     variant.get("Text") or "").strip()
+                # Optional display names are prose too. Keep explicitly blank
+                # names so unknown variant/name fields still fail validation.
+                if "Name" in variant:
+                    index[ident]["DescriptionVariants.%s.Name" % variant["ID"]] = (
+                        variant.get("Name") or "").strip()
     return index
 
 
@@ -479,7 +485,7 @@ def render_markdown(results: list, source: dict) -> str:
     lines = [
         "# Coverage",
         "",
-        "Counted against `english/` snapshot `%s`." % source.get("snapshotCommit", "?")[:8],
+        "English reference for Signs of Life %s." % source.get("targetGameVersion", "(version not recorded)"),
         "A field counts toward text coverage when the overlay is non-empty and not identical to English.",
         "Empty overlay fields keep English in-game and count as missing.",
         "",
@@ -571,6 +577,8 @@ def main(argv: list[str] | None = None) -> int:
     english_root = repo / "english"
     locales_root = repo / "locales"
     source = json.loads((english_root / "SOURCE.json").read_text(encoding="utf-8"))
+    source = {key: source[key] for key in
+              ("game", "targetGameVersion", "snapshotDate", "overlayableFiles") if key in source}
     measured = set(UI_TABLES + (DIALOG_TABLE, ARMOR_TABLE) +
                    tuple(table[0] for table in PROSE_TABLES) + STRUCTURED_TABLES)
     declared = {Path(path).name for path in source["overlayableFiles"]}

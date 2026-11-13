@@ -190,8 +190,7 @@
   },
   {
     "ID": 39,
-    "Normal": "Energy Glove Slash upgrade aquired.",
-    "Robot": "Energy Glove Slash upgrade acquired."
+    "Normal": "Energy Glove Slash upgrade acquired."
   },
   {
     "ID": 40,
@@ -3172,5 +3171,13 @@
   {
     "ID": 755,
     "Normal": "It looks like your armor and tools were destroyed in the crash. Uh, sorry."
+  },
+  {
+    "ID": 756,
+    "Normal": "Hmm, my sensors indicate that only works if something else is activated somewhere..."
+  },
+  {
+    "ID": 757,
+    "Normal": "It looks like you need an activated Xenolith somewhere for that to work."
   }
 ]

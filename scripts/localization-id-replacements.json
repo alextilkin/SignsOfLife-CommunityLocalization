@@ -1,0 +1,930 @@
+{
+  "schemaVersion": 1,
+  "replacements": [
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "ASTEROID_BARNACLE",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "ASTEROID_MITE",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "BABY",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "BEE_SWARM",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "CAVE_WYRM",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "CRYSTAL_NUG_BABY",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "DOG",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "OMINOUS_BULB",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "PIONEER_GARAGE_UTILITY_ARM",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "POD_FRUIT",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "CreatureRegistrationData.json",
+        "id": "SMALL_PARASITE",
+        "field": "Description"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "agis.unknownDescription",
+        "field": "Text"
+      },
+      "reason": "Missing authored creature prose inherits the shared localized AGIS response."
+    },
+    {
+      "from": {
+        "table": "DialogLocalization.json",
+        "id": "39",
+        "field": "Robot"
+      },
+      "to": {
+        "table": "DialogLocalization.json",
+        "id": "39",
+        "field": "Normal"
+      },
+      "reason": "The existing correctly spelled wording is shared through Robot-to-Normal fallback."
+    },
+    {
+      "from": {
+        "table": "InventoryItemData.json",
+        "id": "2038",
+        "field": "Description"
+      },
+      "to": {
+        "table": "RangedWeaponData.json",
+        "id": "2038",
+        "field": "Description"
+      },
+      "reason": "Ranged ammunition owns the description, preserving the factory-visible rivet wording."
+    },
+    {
+      "from": {
+        "table": "InventoryItemData.json",
+        "id": "2039",
+        "field": "Description"
+      },
+      "to": {
+        "table": "RangedWeaponData.json",
+        "id": "2039",
+        "field": "Description"
+      },
+      "reason": "Ranged ammunition owns the description, preserving the factory-visible rivet wording."
+    },
+    {
+      "from": {
+        "table": "TooltipLocalization.json",
+        "id": "tooltip.EQUIPWINDOW_ENERGYGAIN.noBatteryCharge",
+        "field": "Text"
+      },
+      "to": {
+        "table": "TooltipLocalization.json",
+        "id": "tooltip.EQUIPWINDOW_ENERGYGAIN",
+        "field": "Text"
+      },
+      "reason": "Use the shared capacitor-generation template with zero as the battery contribution."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMiddleMouse",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized middle mouse button name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMouse3",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized Mouse Button 3 name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmMouse4",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized Mouse Button 4 name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmScrollDown",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized mousewheel scroll-down name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmScrollUp",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "reason": "Shared binding confirmation; {0} is the action and {1} is the localized mousewheel scroll-up name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.cancel",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "controller.action.cancel",
+        "field": "Text"
+      },
+      "reason": "Controller bindings and prompt actions share the same Cancel label."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.quickSlot1",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "bind.quickSlot",
+        "field": "Text"
+      },
+      "reason": "Shared quick-slot label; code supplies 1 for {0} in binding rows and rebind prompts."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "controller.bind.quickSlot2",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "bind.quickSlot",
+        "field": "Text"
+      },
+      "reason": "Shared quick-slot label; code supplies 2 for {0} in binding rows and rebind prompts."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "controller.confirmRebind",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "bind.confirmKey",
+        "field": "Text"
+      },
+      "reason": "Keyboard, mouse, and controller rebind confirmations share the same template; {0} is the action and {1} is the localized control name."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "controller.gameplayHints.off",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "opt.off",
+        "field": "Text"
+      },
+      "reason": "Reuse the shared settings Off option."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "controller.rebindPrompt",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; controller rebinding already uses the capture-state prompts."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.blastFurnace",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.brickOven",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.campfire",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.chemBench",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.chemLab",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.draftFurnace",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.inductionFurnace",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.ironStove",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.kitchenette",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "craft.action.mortar",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused legacy station shortcut; current processing recipes use Refiners/Transfer."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "hud.recipeObtained",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the recipe-obtained pickup notification has no active callers."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "interaction.decrease",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; no live interaction consumes this label."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "interaction.increase",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; no live interaction consumes this label."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "item.stat.ammoAp",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; ammunition already displays separate flat and percentage armor-piercing statistics."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "item.stat.arrowAp",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; arrows already display separate flat and percentage armor-piercing statistics."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "load.generatingWorld",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "load.phase.generatingWorld",
+        "field": "Text"
+      },
+      "reason": "Loading title and phase share the same status label."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "load.tip.futuristic",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "load.tip.futuristicTip",
+        "field": "Text"
+      },
+      "reason": "Reuse the existing Tip-prefixed version of the same loading advice."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "load.tip.groundCache",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "load.tip.droppedNoDecay",
+        "field": "Text"
+      },
+      "reason": "Merged no-decay, temporary-cache, and inventory-trash advice."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "load.tip.helpButton",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "load.tip.helpPauseMeg",
+        "field": "Text"
+      },
+      "reason": "Reuse current Help access guidance through the pause menu or MEG tool."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holster",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holsterTip",
+        "field": "Text"
+      },
+      "reason": "Reuse the existing Tip-prefixed version of the same loading advice."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "load.tip.reloadRadial",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "load.tip.holdReload",
+        "field": "Text"
+      },
+      "reason": "Merged radial-ammo advice with the reload binding and multiple-ammo-type condition."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "load.tip.scanCodexReview",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "load.tip.scanCodex",
+        "field": "Text"
+      },
+      "reason": "Reuse the same creature-scanning and codex-review advice."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "load.waitingForPlayers",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "load.phase.waitingForPlayers",
+        "field": "Text"
+      },
+      "reason": "Loading title and phase share the same status label."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "menu.deletingWorkshopItem",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "mods.deletingItem",
+        "field": "Text"
+      },
+      "reason": "Both paths label the same Workshop deletion prompt."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "mods.couldNotOpenThe",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "mods.couldNotOpen",
+        "field": "Text"
+      },
+      "reason": "Folder and tool launch failures share the same target-label and exception template."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "mods.emptyPublishedUpdate",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "mods.pickPublishedTitle",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "mods.publishedBlurbUpdate",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "mods.steamNotInit",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; current Workshop error paths already use the Steam-unavailable message."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "mods.updateConfirm",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "mods.updateThisOne",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the manual Workshop update-selection flow was retired."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "mods.uploading",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "menu.preparingWorkshopUpload",
+        "field": "Text"
+      },
+      "reason": "Initialize the upload prompt with its existing preparation-state label."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "opt.projected",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "opt.uiElement",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.background",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.backgroundQuality",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.dialogue",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.dialogueVolume",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.dodgeType",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.dodgeInput",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.energyWeaponsBreakBlocks",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.energyWeaponsVsBlocks",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.frameRateUncapped",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the frame-rate setting has no uncapped option."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.holsterToPickup",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.pickupRequiresHolster",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.hotbarType",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.hotbarLayout",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.inventoryType",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.inventoryLayout",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.minimapType",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; the minimap selector is not shown in any settings panel."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.music",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.musicVolume",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.newRecipeNotifications",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.recipeNotifications",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.openInventoryToPickup",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.pickupRequiresInventory",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.shadowQual",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.shadowQuality",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.soundFx",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.soundFxVolume",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "settings.walkingSlope",
+        "field": "Text"
+      },
+      "to": {
+        "table": "UILocalization.json",
+        "id": "settings.walkOverSingleBlocks",
+        "field": "Text"
+      },
+      "reason": "Reuse the visible settings-panel label for the same control."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "tutorial.dig",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "tutorial.grab",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "tutorial.light",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "tutorial.place",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "tutorial.repeat",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; tutorial replay uses authored numeric dialogue."
+    },
+    {
+      "from": {
+        "table": "UILocalization.json",
+        "id": "tutorial.scan",
+        "field": "Text"
+      },
+      "to": null,
+      "reason": "Unused; tutorial instructions use authored numeric dialogue."
+    }
+  ]
+}

@@ -396,10 +396,6 @@
     "Text": "The rate that you are generating capacitor charge, including baseline harvested energy ({0}), installed batteries ({1}) or other devices."
   },
   {
-    "ID": "tooltip.EQUIPWINDOW_ENERGYGAIN.noBatteryCharge",
-    "Text": "The rate that you are generating capacitor charge, including baseline harvested energy ({0}), installed batteries (0) or other devices."
-  },
-  {
     "ID": "tooltip.EQUIPWINDOW_ENERGYDRAIN",
     "Text": "The rate that your capacitor's charge is being drained by active devices."
   },
@@ -414,5 +410,9 @@
   {
     "ID": "tooltip.FAVORITES_BUTTON",
     "Text": "Toggle between displaying your hotbar as scrollable slots or manual slots that you can drag items to. Hotkey: {0}."
+  },
+  {
+    "ID": "tooltip.HOTBAR_HELP_BUTTON",
+    "Text": "Hotbar help"
   }
 ]

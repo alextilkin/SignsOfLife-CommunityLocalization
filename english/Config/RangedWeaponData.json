@@ -1141,8 +1141,8 @@
         "Kind":  "Arrow",
         "Name":  "Bornite Arrow",
         "Description":  "Inject fabulousness into something with these shafts.",
-        "MinDamage":  15,
-        "MaxDamage":  50,
+        "MinDamage":  17.25,
+        "MaxDamage":  57.5,
         "VelocityModifier":  0.7,
         "GravityMod":  0.85,
         "BreakChance":  0.1,
@@ -1302,7 +1302,7 @@
     {
         "Kind":  "Bolt",
         "Name":  "Steel Rivet",
-        "Description":  "A small steel rivet typically used for construction.",
+        "Description":  "A small steel fastener.",
         "Damage":  22,
         "VelocityModifier":  1.15,
         "GravityMod":  0.8,
@@ -1313,7 +1313,7 @@
     {
         "Kind":  "Bolt",
         "Name":  "Tin Rivet",
-        "Description":  "A small tin rivet typically used for construction.",
+        "Description":  "A small tin fastener",
         "Damage":  11,
         "VelocityModifier":  1,
         "GravityMod":  0.8,

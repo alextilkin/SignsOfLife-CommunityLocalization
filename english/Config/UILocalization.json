@@ -344,14 +344,6 @@
     "Text": "Bind Only"
   },
   {
-    "ID": "opt.projected",
-    "Text": "Projected"
-  },
-  {
-    "ID": "opt.uiElement",
-    "Text": "UI Element"
-  },
-  {
     "ID": "opt.grid",
     "Text": "Grid"
   },
@@ -418,10 +410,6 @@
   {
     "ID": "menu.uploadingWorkshop",
     "Text": "Uploading data to Steam Workshop ({0})"
-  },
-  {
-    "ID": "menu.deletingWorkshopItem",
-    "Text": "Deleting Steam Workshop Item"
   },
   {
     "ID": "settings.cat.display",
@@ -532,20 +520,8 @@
     "Text": "Options"
   },
   {
-    "ID": "controller.rebindPrompt",
-    "Text": "Press a controller control for {0}."
-  },
-  {
-    "ID": "controller.confirmRebind",
-    "Text": "Bind {0} to {1}?"
-  },
-  {
     "ID": "controller.bind.confirm",
     "Text": "Confirm"
-  },
-  {
-    "ID": "controller.bind.cancel",
-    "Text": "Cancel"
   },
   {
     "ID": "controller.bind.uiSecondary",
@@ -562,14 +538,6 @@
   {
     "ID": "controller.bind.secondary",
     "Text": "Interact / Alternate Use"
-  },
-  {
-    "ID": "controller.bind.quickSlot1",
-    "Text": "Quick Slot 1"
-  },
-  {
-    "ID": "controller.bind.quickSlot2",
-    "Text": "Quick Slot 2"
   },
   {
     "ID": "controller.hint.shortcuts",
@@ -664,16 +632,8 @@
     "Text": "Scale Filtering"
   },
   {
-    "ID": "settings.shadowQual",
-    "Text": "Shadow Qual."
-  },
-  {
     "ID": "settings.shadowQuality",
     "Text": "Shadow Quality"
-  },
-  {
-    "ID": "settings.background",
-    "Text": "Background"
   },
   {
     "ID": "settings.backgroundQuality",
@@ -684,16 +644,12 @@
     "Text": "Vertical Sync"
   },
   {
-    "ID": "settings.music",
-    "Text": "Music"
+    "ID": "settings.frameRateLimit",
+    "Text": "Frame Rate Limit"
   },
   {
-    "ID": "settings.soundFx",
-    "Text": "Sound FX"
-  },
-  {
-    "ID": "settings.dialogue",
-    "Text": "Dialogue"
+    "ID": "settings.frameRateFps",
+    "Text": "{0} FPS"
   },
   {
     "ID": "settings.musicVolume",
@@ -748,60 +704,36 @@
     "Text": "Auto Pickup"
   },
   {
-    "ID": "settings.dodgeType",
-    "Text": "Dodge Type"
-  },
-  {
     "ID": "settings.dodgeInput",
     "Text": "Dodge Input"
-  },
-  {
-    "ID": "settings.minimapType",
-    "Text": "Minimap Type"
-  },
-  {
-    "ID": "settings.hotbarType",
-    "Text": "Hotbar Type"
   },
   {
     "ID": "settings.hotbarLayout",
     "Text": "Hotbar Layout"
   },
   {
-    "ID": "settings.inventoryType",
-    "Text": "Inventory Type"
-  },
-  {
     "ID": "settings.inventoryLayout",
     "Text": "Inventory Layout"
-  },
-  {
-    "ID": "settings.energyWeaponsBreakBlocks",
-    "Text": "Energy Weapons Break Blocks"
   },
   {
     "ID": "settings.energyWeaponsVsBlocks",
     "Text": "Energy Weapons vs Blocks"
   },
   {
-    "ID": "settings.holsterToPickup",
-    "Text": "Holster to Pick up Items"
+    "ID": "settings.meleeHitsBlocks",
+    "Text": "Melee Hits Blocks"
+  },
+  {
+    "ID": "settings.meleeHitsBlocksHost",
+    "Text": "The host controls this setting in multiplayer."
   },
   {
     "ID": "settings.pickupRequiresHolster",
     "Text": "Pickup Requires Holster"
   },
   {
-    "ID": "settings.openInventoryToPickup",
-    "Text": "Open Inventory to Pick up Items"
-  },
-  {
     "ID": "settings.pickupRequiresInventory",
     "Text": "Pickup Requires Inventory"
-  },
-  {
-    "ID": "settings.newRecipeNotifications",
-    "Text": "New Recipe Notifications"
   },
   {
     "ID": "settings.recipeNotifications",
@@ -810,10 +742,6 @@
   {
     "ID": "settings.instantBlockPlacement",
     "Text": "Instant Block Placement"
-  },
-  {
-    "ID": "settings.walkingSlope",
-    "Text": "Single Blocks as Slopes While Walking"
   },
   {
     "ID": "settings.walkOverSingleBlocks",
@@ -838,10 +766,6 @@
   {
     "ID": "load.loadingWorld",
     "Text": "Loading World"
-  },
-  {
-    "ID": "load.generatingWorld",
-    "Text": "Generating World"
   },
   {
     "ID": "load.loadingNamed",
@@ -1052,28 +976,12 @@
     "Text": "Useful Fact: The human body contains both molecules and atoms."
   },
   {
-    "ID": "load.tip.futuristic",
-    "Text": "Scientists are saying the future is going to be far more futuristic than they originally predicted."
-  },
-  {
-    "ID": "load.tip.helpButton",
-    "Text": "Tip: If you get stuck, don't forget that you can check the help menu by pressing the ? button at the top of the screen."
-  },
-  {
-    "ID": "load.tip.holster",
-    "Text": "You can holster your current held item by pressing {0}."
-  },
-  {
     "ID": "load.tip.quickSlots",
     "Text": "Tip: Quick slots ({0} / {1}) hold gadgets and throwables you drag onto those HUD slots."
   },
   {
     "ID": "load.tip.map",
     "Text": "Tip: Press {0} to check your map and keep track of places you have discovered."
-  },
-  {
-    "ID": "load.tip.reloadRadial",
-    "Text": "Tip: Holding the reload button opens the ammo radial menu when your weapon has more than one ammo type."
   },
   {
     "ID": "load.tip.scanCodex",
@@ -1085,11 +993,11 @@
   },
   {
     "ID": "load.tip.holdReload",
-    "Text": "Tip: You can hold {0} to open the ammo radial menu."
+    "Text": "Tip: You can hold {0} to open the ammo radial menu when your weapon has more than one ammo type."
   },
   {
     "ID": "load.tip.droppedNoDecay",
-    "Text": "Tip: Items that you drop on the ground do not decay over time. You can trash them from your inventory."
+    "Text": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring. You can trash them from your inventory."
   },
   {
     "ID": "load.tip.holdHotbar",
@@ -1108,20 +1016,8 @@
     "Text": "Tip: You can holster your current held item by pressing {0}."
   },
   {
-    "ID": "load.tip.scanCodexReview",
-    "Text": "Tip: Scanning a creature adds it to the MEG tool's codex so you can review its description later."
-  },
-  {
-    "ID": "load.tip.groundCache",
-    "Text": "Tip: Items left on the ground do not decay, so you can make a temporary supply cache while exploring."
-  },
-  {
     "ID": "load.waitingForHost",
     "Text": "Waiting for Host"
-  },
-  {
-    "ID": "load.waitingForPlayers",
-    "Text": "Waiting for Players"
   },
   {
     "ID": "load.phase.settlingParty",
@@ -1476,24 +1372,28 @@
     "Text": "Would you like to bind {0} to {1}?"
   },
   {
-    "ID": "bind.confirmMiddleMouse",
-    "Text": "Would you like to bind {0} to the Middle Mouse button?"
+    "ID": "bind.mouse.left",
+    "Text": "Left Mouse Button"
   },
   {
-    "ID": "bind.confirmScrollUp",
-    "Text": "Would you like to bind {0} to Mousewheel Scroll Up?"
+    "ID": "bind.mouse.right",
+    "Text": "Right Mouse Button"
   },
   {
-    "ID": "bind.confirmScrollDown",
-    "Text": "Would you like to bind {0} to Mousewheel Scroll Down?"
+    "ID": "bind.mouse.middle",
+    "Text": "Middle Mouse Button"
   },
   {
-    "ID": "bind.confirmMouse3",
-    "Text": "Would you like to bind {0} to the Mouse Button 3?"
+    "ID": "bind.mouse.scrollUp",
+    "Text": "Mousewheel Scroll Up"
   },
   {
-    "ID": "bind.confirmMouse4",
-    "Text": "Would you like to bind {0} to the Mouse Button 4?"
+    "ID": "bind.mouse.scrollDown",
+    "Text": "Mousewheel Scroll Down"
+  },
+  {
+    "ID": "bind.mouse.button",
+    "Text": "Mouse Button {0}"
   },
   {
     "ID": "bind.left",
@@ -1704,10 +1604,6 @@
     "Text": "Update Existing Mod"
   },
   {
-    "ID": "mods.updateThisOne",
-    "Text": "Update This One"
-  },
-  {
     "ID": "mods.viewOnline",
     "Text": "View Online"
   },
@@ -1744,10 +1640,6 @@
     "Text": "Your Published Mods"
   },
   {
-    "ID": "mods.pickPublishedTitle",
-    "Text": "Pick Which Published Mod to Update"
-  },
-  {
     "ID": "mods.detectedCandidates",
     "Text": "Detected Workshop Mod Candidates"
   },
@@ -1760,10 +1652,6 @@
     "Text": "These packages are ready to publish. Pick one and the game will check the mods published by your Steam account.\n\nA new package creates a private or public Workshop page according to workshop.json. A package already linked to one of your Workshop items updates that item in place."
   },
   {
-    "ID": "mods.publishedBlurbUpdate",
-    "Text": "You already picked a staged package. Now choose which live Workshop mod it should replace.\n\nOnly click Update This One on the mod you mean to change. That swaps the files for everyone who subscribed — so double-check the title."
-  },
-  {
     "ID": "mods.publishedBlurb",
     "Text": "These are mods YOU already put on the Steam Workshop. Other players can find and subscribe to them.\n\nView Online opens the Steam page. Delete removes it forever for everyone — not just from your PC.\n\nWant to change a mod's files? Go to Staged Mods and publish its staged package; the game will identify the existing item."
   },
@@ -1774,10 +1662,6 @@
   {
     "ID": "mods.refreshing",
     "Text": "Refreshing Steam Workshop subscriptions…"
-  },
-  {
-    "ID": "mods.emptyPublishedUpdate",
-    "Text": "You do not have any published Workshop mods yet.\n\nGo back to Staged Mods and publish the package first."
   },
   {
     "ID": "mods.emptyPublished",
@@ -1824,10 +1708,6 @@
     "Text": "Subscribe to mods in the Steam Workshop overlay.\n\nNew subscriptions load automatically in single-player after Steam downloads them. If a pack stays Pending, use Load Now or restart the game."
   },
   {
-    "ID": "mods.uploading",
-    "Text": "Uploading data to Steam Workshop"
-  },
-  {
     "ID": "mods.deletingItem",
     "Text": "Deleting Steam Workshop Item"
   },
@@ -1850,10 +1730,6 @@
   {
     "ID": "mods.deleteFailedResult",
     "Text": "Delete failed: {0}"
-  },
-  {
-    "ID": "mods.steamNotInit",
-    "Text": "Steam is not initialized, so the game cannot check whether this mod already exists."
   },
   {
     "ID": "mods.steamUnavailable",
@@ -1916,10 +1792,6 @@
     "Text": "Mod Prep is not installed in this build. In a Steam installation, find it under Tools\\Mod Prep.bat next to the game files."
   },
   {
-    "ID": "mods.couldNotOpenThe",
-    "Text": "Could not open the {0}:\n{1}"
-  },
-  {
     "ID": "mods.couldNotOpen",
     "Text": "Could not open {0}:\n{1}"
   },
@@ -1945,7 +1817,7 @@
   },
   {
     "ID": "item.missingModName",
-    "Text": "Missing mod item"
+    "Text": "Item from missing mod"
   },
   {
     "ID": "item.missingModDescription",
@@ -2080,48 +1952,8 @@
     "Text": "Transfer"
   },
   {
-    "ID": "craft.action.draftFurnace",
-    "Text": "Refine In Draft Furnace"
-  },
-  {
     "ID": "craft.action.buildInWorld",
     "Text": "Build In World"
-  },
-  {
-    "ID": "craft.action.blastFurnace",
-    "Text": "Refine In Blast Furnace"
-  },
-  {
-    "ID": "craft.action.inductionFurnace",
-    "Text": "Refine In Induction Furnace"
-  },
-  {
-    "ID": "craft.action.campfire",
-    "Text": "Make With Campfire"
-  },
-  {
-    "ID": "craft.action.brickOven",
-    "Text": "Make With Brick Oven"
-  },
-  {
-    "ID": "craft.action.ironStove",
-    "Text": "Make With Iron Stove"
-  },
-  {
-    "ID": "craft.action.kitchenette",
-    "Text": "Make With Kitchenette"
-  },
-  {
-    "ID": "craft.action.mortar",
-    "Text": "Make With Mortar"
-  },
-  {
-    "ID": "craft.action.chemBench",
-    "Text": "Make With Chem Bench"
-  },
-  {
-    "ID": "craft.action.chemLab",
-    "Text": "Make With Chem Lab"
   },
   {
     "ID": "craft.action.min",
@@ -2130,10 +1962,6 @@
   {
     "ID": "craft.action.max",
     "Text": "Max"
-  },
-  {
-    "ID": "hud.recipeObtained",
-    "Text": "Obtained the recipe for {0}."
   },
   {
     "ID": "hud.itemPickedUp",
@@ -2472,10 +2300,6 @@
     "Text": "Ammo Damage: {0} - {1}"
   },
   {
-    "ID": "item.stat.ammoAp",
-    "Text": "Ammo AP: {0}"
-  },
-  {
     "ID": "item.stat.power",
     "Text": "Power: {0}"
   },
@@ -2518,10 +2342,6 @@
   {
     "ID": "item.stat.arrowDamageParenthesized",
     "Text": "Arrow Damage: ({0} - {1})"
-  },
-  {
-    "ID": "item.stat.arrowAp",
-    "Text": "Arrow AP: {0}"
   },
   {
     "ID": "item.stat.arrowSpeedModifier",
@@ -2798,10 +2618,6 @@
   {
     "ID": "workshop.uploadConfirm",
     "Text": "Are you sure you want to upload the selected data for the Steam Workshop mod \"{0}\"?"
-  },
-  {
-    "ID": "mods.updateConfirm",
-    "Text": "Update the Steam Workshop mod \"{0}\"?\n\nThis replaces that mod for everyone who subscribed. Use the staged package \"{1}\"."
   },
   {
     "ID": "mods.deleteWorkshopConfirm",
@@ -4544,30 +4360,6 @@
     "Text": "Needs ingredients"
   },
   {
-    "ID": "tutorial.repeat",
-    "Text": "Repeat instructions"
-  },
-  {
-    "ID": "tutorial.light",
-    "Text": "Wrist Light"
-  },
-  {
-    "ID": "tutorial.grab",
-    "Text": "Grab Laser"
-  },
-  {
-    "ID": "tutorial.dig",
-    "Text": "Dig Laser"
-  },
-  {
-    "ID": "tutorial.place",
-    "Text": "Place Test Block"
-  },
-  {
-    "ID": "tutorial.scan",
-    "Text": "Scan Laser"
-  },
-  {
     "ID": "interaction.use",
     "Text": "Use"
   },
@@ -4642,14 +4434,6 @@
   {
     "ID": "interaction.install",
     "Text": "Install"
-  },
-  {
-    "ID": "interaction.increase",
-    "Text": "Increase"
-  },
-  {
-    "ID": "interaction.decrease",
-    "Text": "Decrease"
   },
   {
     "ID": "interaction.release",
@@ -4986,10 +4770,6 @@
   {
     "ID": "controller.gameplayHints.always",
     "Text": "Always Visible"
-  },
-  {
-    "ID": "controller.gameplayHints.off",
-    "Text": "Off"
   },
   {
     "ID": "controller.hint.itemsCompact",
@@ -5753,5 +5533,6 @@
   { "ID": "item.stat.trapContactDamage", "Text": "Base Trap Contact Damage: {0:0.###} Physical" },
   { "ID": "item.stat.trapPlayerStun", "Text": "Base Player Stun Duration: {0:0.###} s" },
   { "ID": "item.stat.capacitorChargePerCell", "Text": "Capacitor Charge/Cell: {0:0.###} (up to maximum)" },
-  { "ID": "item.stat.returnsEmptyCell", "Text": "Returns 1 Empty Power Cell when used." }
+  { "ID": "item.stat.returnsEmptyCell", "Text": "Returns 1 Empty Power Cell when used." },
+  { "ID": "craft.discoverIngredient", "Text": "{0} to discover" }
 ]

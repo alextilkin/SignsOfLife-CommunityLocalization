@@ -1072,14 +1072,12 @@
     {
         "ItemID":  2038,
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting",
-        "Description":  "A small steel fastener."
+        "AutoOrganizeString":  "crafting"
     },
     {
         "ItemID":  2039,
         "Complexity":  1,
-        "AutoOrganizeString":  "crafting",
-        "Description":  "A small tin fastener"
+        "AutoOrganizeString":  "crafting"
     },
     {
         "ItemID":  2041,
@@ -2638,8 +2636,8 @@
         "ItemID":  4071,
         "Complexity":  8,
         "Name":  "Industrial Mining Laser",
-        "Description":  "This piece of mining equipment harnesses plasma and focused light beams to quickly dig through terrain.",
-        "Category":  "Gadget"
+        "Description":  "This piece of mining equipment harnesses plasma and focused light beams to quickly dig through terrain. Digging power depends on your MEG tool's installed lens.",
+        "Category":  "Digging"
     },
     {
         "ItemID":  4072,
@@ -4190,8 +4188,12 @@
     {
         "ItemID":  10086,
         "Complexity":  3,
-        "Name":  "Strange Crystal",
-        "Description":  "A strange purple crystal composed of an unknown material.",
+        "Name":  "Glowing Purple Crystal",
+        "Description":  "A tapered purple crystal with a bright glow deep inside it.",
+        "DescriptionVariants": [
+            { "ID": "partial", "Priority": 50, "MinLanguage": 0.5, "Name": "Xenite Crystal", "Text": "A crystal of xenite used in Xenoid machinery. Its shape suggests it fits into a socket." },
+            { "ID": "full", "Priority": 100, "MinLanguage": 1.0, "Name": "Xenite Keystone", "Text": "A xenite crystal used in Xenoid power systems. Its shape suggests it fits into a socket." }
+        ],
         "Category":  "????????"
     },
     {
@@ -4243,8 +4245,12 @@
     {
         "ItemID":  10094,
         "Complexity":  9,
-        "Name":  "Strange Alien Device",
-        "Description":  "A strange device of unknown origin.",
+        "Name":  "Jeweled Bracket",
+        "Description":  "A bracket or device made of unknown materials, inset with a small purple crystal sphere.",
+        "DescriptionVariants": [
+            { "ID": "partial", "Priority": 50, "MinLanguage": 0.5, "Name": "Xenoid Keystone", "Text": "A Xenoid key, composed of xenostone and a spherical xenite crystal inset. Its shape suggests it fits into a socket." },
+            { "ID": "full", "Priority": 100, "MinLanguage": 1.0, "Name": "Xenoid Gate Keystone", "Text": "A Xenoid keystone, composed of xenostone and inset with a spherical xenite crystal. Its shape suggests it fits into a socket." }
+        ],
         "Category":  "????????"
     },
     {
@@ -4279,8 +4285,12 @@
     {
         "ItemID":  10099,
         "Complexity":  3,
-        "Name":  "Strange Alien Device",
-        "Description":  "This strange alien device seems to be containing some kind of energy field.",
+        "Name":  "Shimmering Frame",
+        "Description":  "A rough stone frame surrounding a shimmering purple haze in the middle.",
+        "DescriptionVariants": [
+            { "ID": "partial", "Priority": 50, "MinLanguage": 0.5, "Name": "Xenoid Field Device", "Text": "A Xenoid device containing an energy field within its metal frame. Its shape suggests it fits into a socket." },
+            { "ID": "full", "Priority": 100, "MinLanguage": 1.0, "Name": "Xenoid Portstone", "Text": "A Xenoid portstone containing a confined energy field. Its shape suggests it fits into a socket." }
+        ],
         "Category":  "????????"
     },
     {
@@ -4803,7 +4813,7 @@
         "Complexity":  1,
         "Name":  "Raw Sapphire",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 2 items at once.",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 3 items at once.",
         "Category":  "Gemology"
     },
     {
@@ -4811,7 +4821,7 @@
         "Complexity":  2,
         "Name":  "Rough Sapphire",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 3 items at once.",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 4 items at once.",
         "Category":  "Gemology"
     },
     {
@@ -4819,7 +4829,7 @@
         "Complexity":  3,
         "Name":  "Refined Sapphire",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 4 items at once.",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 5 items at once.",
         "Category":  "Gemology"
     },
     {
@@ -4931,7 +4941,7 @@
         "Complexity":  5,
         "Name":  "Faceted Sapphire",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 5 items at once.",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 6 items at once.",
         "Category":  "Gemology"
     },
     {
@@ -4939,7 +4949,7 @@
         "Complexity":  7,
         "Name":  "Brilliant Sapphire",
         "AutoOrganizeString":  "jeweler",
-        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 6 items at once.",
+        "Description":  "A gem that focuses the resonance of your MEG tool.\r\nIncreases grab range and allows grabbing 7 items at once.",
         "Category":  "Gemology"
     },
     {
@@ -5097,7 +5107,7 @@
         "ItemID":  16013,
         "Complexity":  2,
         "Name":  "Material Grinder",
-        "Description":  "This device grinds up items to recover raw materials and can extract trace metals and gems from basalt, granite, slate and marble. Install a grinder blade and a charged battery before switching it on.",
+        "Description":  "This device grinds up items to recover raw materials and can extract trace metals and gems from stone, granite, slate and marble. Install a grinder blade and a charged battery before switching it on.",
         "Category":  "Container"
     },
     {
@@ -5851,7 +5861,7 @@
     {
         "ItemID":  22000,
         "Complexity":  1,
-        "Name":  "Basalt Deposit"
+        "Name":  "Stone Deposit"
     },
     {
         "ItemID":  22001,
@@ -7917,7 +7927,7 @@
         "ItemID":  "sol.copper_pick",
         "Complexity":  3,
         "Name":  "Copper Pick",
-        "Description":  "The most basic of picks, with a very slow dig time.  Not much good for anything other than digging through dirt and basalt."
+        "Description":  "The most basic of picks, with a very slow dig time.  Not much good for anything other than digging through dirt and stone."
     },
     {
         "ItemID":  "sol.hephaestus_pick",

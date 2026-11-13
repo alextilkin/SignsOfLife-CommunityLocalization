@@ -88,7 +88,7 @@
     "IsDefault": true,
     "Category": "Inventory",
     "Label": "Hotbar",
-    "Text": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through a category ([itemcycle]). If you would prefer to place items in the hotbar manually, you can change the hotbar behavior from the settings menu.\n\nHold the key for a populated slot to open its radial menu. With the default keyboard bindings, use the number of the slot. On a controller, use the Item Wheel control.\n\nAutomatic hotbar slots\n1. Digging tools\n2. Melee weapons\n3. Ranged weapons\n4. Gadgets\n5. Blocks\n6. Consumables\n7. Food\n8. Throwables"
+    "Text": "By default, your hotbar will automatically fill with items from your inventory and you can scroll through the item in a category's slot with ([itemcycle]).\n\n[image:Sprites/Help/hotbar-automatic]\n\nYou can hold the hotbar slot number to open a radial menu, with all the items in the category.\n\n[image:Sprites/Help/hotbar-radial]\n\nIf you'd prefer a simpler, more familiar hotbar, you can use the MANUAL mode:\n\n[image:Sprites/Help/hotbar-mode-switch]\n\nIn manual mode, you can drag items directly to the hotbar.\n\n[image:Sprites/Help/hotbar-manual]"
   },
   {
     "Key": "EQUIPPING",

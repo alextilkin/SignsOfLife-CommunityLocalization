@@ -1,0 +1,33 @@
+name: Translation review
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  translation-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Report outstanding translation reviews
+        run: python scripts/localization-change-report.py status --repo . --output .artifacts/translation-review
+      - name: Publish review summary
+        if: always()
+        run: |
+          if [ -f .artifacts/translation-review/translation-review.md ]; then
+            cat .artifacts/translation-review/translation-review.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: translation-review
+          path: |
+            .artifacts/translation-review/translation-review.md
+            .artifacts/translation-review/translation-review.json
+            .artifacts/translation-review/UPDATING.md

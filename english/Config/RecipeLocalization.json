@@ -108,7 +108,8 @@
       "DisplayName": "Aluminum Ingot"
     },
     {
-      "Name": "Aluminum Ingot Enhanced Yield"
+      "Name": "Aluminum Ingot Enhanced Yield",
+      "DisplayName": "Aluminum Ingot Enhanced Yield"
     },
     {
       "Name": "Ammonia",
@@ -258,35 +259,35 @@
     },
     {
       "Name": "Basalt Block",
-      "DisplayName": "Basalt Block"
+      "DisplayName": "Stone Block"
     },
     {
       "Name": "Basalt Ceiling",
-      "DisplayName": "Basalt Ceiling"
+      "DisplayName": "Stone Ceiling"
     },
     {
       "Name": "Basalt Floor",
-      "DisplayName": "Basalt Floor"
+      "DisplayName": "Stone Floor"
     },
     {
       "Name": "Basalt Platform",
-      "DisplayName": "Basalt Platform"
+      "DisplayName": "Stone Platform"
     },
     {
       "Name": "Basalt Roof",
-      "DisplayName": "Basalt Roof"
+      "DisplayName": "Stone Roof"
     },
     {
       "Name": "Basalt Slope",
-      "DisplayName": "Basalt Slope"
+      "DisplayName": "Stone Slope"
     },
     {
       "Name": "Basalt Stairs",
-      "DisplayName": "Basalt Stairs"
+      "DisplayName": "Stone Stairs"
     },
     {
       "Name": "Basalt Wall",
-      "DisplayName": "Basalt Wall"
+      "DisplayName": "Stone Wall"
     },
     {
       "Name": "Basic Work Table",
@@ -440,7 +441,8 @@
       "DisplaySource": "Item:2108"
     },
     {
-      "Name": "Bornite Ingot Enhanced Yield"
+      "Name": "Bornite Ingot Enhanced Yield",
+      "DisplayName": "Bornite Ingot Enhanced Yield"
     },
     {
       "Name": "Bornite Leggings",
@@ -563,7 +565,8 @@
       "DisplayName": "Bronze Ingot"
     },
     {
-      "Name": "Bronze Ingot Enhanced Yield"
+      "Name": "Bronze Ingot Enhanced Yield",
+      "DisplayName": "Bronze Ingot Enhanced Yield"
     },
     {
       "Name": "Bronze Leggings",
@@ -949,7 +952,8 @@
       "DisplaySource": "Item:2100"
     },
     {
-      "Name": "Copper Ingot Enhanced Yield"
+      "Name": "Copper Ingot Enhanced Yield",
+      "DisplayName": "Copper Ingot Enhanced Yield"
     },
     {
       "Name": "Copper Leggings",
@@ -1413,7 +1417,8 @@
       "DisplayName": "Energite Rod"
     },
     {
-      "Name": "Energite Rod Enhanced Yield"
+      "Name": "Energite Rod Enhanced Yield",
+      "DisplayName": "Energite Rod Enhanced Yield"
     },
     {
       "Name": "Energy Beam Cannon",
@@ -1990,7 +1995,8 @@
       "DisplayName": "Iron Ingot"
     },
     {
-      "Name": "Iron Ingot Enhanced Yield"
+      "Name": "Iron Ingot Enhanced Yield",
+      "DisplayName": "Iron Ingot Enhanced Yield"
     },
     {
       "Name": "Iron Ladder",
@@ -2186,7 +2192,8 @@
       "DisplayName": "Lead Ingot"
     },
     {
-      "Name": "Lead Ingot Enhanced Yield"
+      "Name": "Lead Ingot Enhanced Yield",
+      "DisplayName": "Lead Ingot Enhanced Yield"
     },
     {
       "Name": "Leather Arms",
@@ -2958,7 +2965,8 @@
       "DisplayName": "Platinum Ingot"
     },
     {
-      "Name": "Platinum Ingot Enhanced Yield"
+      "Name": "Platinum Ingot Enhanced Yield",
+      "DisplayName": "Platinum Ingot Enhanced Yield"
     },
     {
       "Name": "Pneumail Storage"
@@ -3360,7 +3368,8 @@
       "DisplaySource": "Item:2105"
     },
     {
-      "Name": "Silver Ingot Enhanced Yield Enhanced Yield"
+      "Name": "Silver Ingot Enhanced Yield Enhanced Yield",
+      "DisplayName": "Silver Ingot Enhanced Yield"
     },
     {
       "Name": "Silver Leggings",
@@ -3656,7 +3665,8 @@
       "DisplayName": "Steel Ingot"
     },
     {
-      "Name": "Steel Ingot Enhanced Yield"
+      "Name": "Steel Ingot Enhanced Yield",
+      "DisplayName": "Steel Ingot Enhanced Yield"
     },
     {
       "Name": "Steel Insulation",
@@ -4065,7 +4075,8 @@
       "DisplaySource": "Item:2104"
     },
     {
-      "Name": "Tin Ingot Enhanced Yield"
+      "Name": "Tin Ingot Enhanced Yield",
+      "DisplayName": "Tin Ingot Enhanced Yield"
     },
     {
       "Name": "Tin Leggings",
@@ -4809,7 +4820,7 @@
     },
     {
       "Key": "Basalt Tiles",
-      "DisplayName": "Basalt Tiles"
+      "DisplayName": "Stone Tiles"
     },
     {
       "Key": "Bows",

@@ -13,7 +13,7 @@ SPEC.loader.exec_module(export)
 class PackItemExportTests(unittest.TestCase):
     def test_pack_prose_merge_preserves_variant_text_and_rules(self):
         variants = [
-            {"ID": "known", "Text": "SOURCE {0} [reload]", "Priority": 100,
+            {"ID": "known", "Name": "SOURCE_NAME", "Text": "SOURCE {0} [reload]", "Priority": 100,
              "MinLanguage": 0.5, "RequiredKnowledgeFlags": ["RULE_ID"]},
             {"ID": "other", "Text": "SOURCE_OTHER", "Priority": 5},
         ]

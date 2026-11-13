@@ -14,6 +14,12 @@ SPEC.loader.exec_module(coverage)
 
 
 class CoverageTests(unittest.TestCase):
+    def test_readable_coverage_uses_the_game_version_without_game_commits(self):
+        rendered = coverage.render_markdown([], {
+            "targetGameVersion": "1.0.13", "snapshotCommit": "private-game-revision"})
+        self.assertIn("English reference for Signs of Life 1.0.13.", rendered)
+        self.assertNotIn("private-game-revision", rendered)
+
     def test_duplicate_ids_are_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "UILocalization.json"
@@ -84,7 +90,9 @@ class CoverageTests(unittest.TestCase):
                          [{"ID": "known"}, {"ID": "known"}],
                          [{"ID": " "}], [{"ID": 1}],
                          [{"ID": "known", "Text": 42}],
-                         [{"ID": "known", "Text": []}]):
+                         [{"ID": "known", "Text": []}],
+                         [{"ID": "known", "Name": 42}],
+                         [{"ID": "known", "Name": []}]):
             with self.subTest(variants=variants):
                 with self.assertRaises(ValueError):
                     coverage.validate_unique_rows(path, [{"ItemID": "sol.test", "DescriptionVariants": variants}])
@@ -155,6 +163,9 @@ class ContributorCheckTests(unittest.TestCase):
         ]), encoding="utf-8")
         (self.repo / "english" / "SOURCE.json").write_text(json.dumps({
             "snapshotCommit": "test-source",
+            "snapshotSubject": "PRIVATE_SUBJECT",
+            "reviewStatus": "PRIVATE_PREPARATION",
+            "notes": "PRIVATE_NOTES",
             "overlayableFiles": ["Config/" + name for name in tables],
         }), encoding="utf-8")
         (self.repo / "languages.json").write_text(json.dumps({
@@ -179,6 +190,9 @@ class ContributorCheckTests(unittest.TestCase):
         measured = json.loads((self.repo / "coverage.json").read_text(encoding="utf-8"))
         self.assertEqual(1, measured["locales"][0]["translated"])
         self.assertEqual(2, measured["locales"][0]["total"])
+        self.assertEqual({"overlayableFiles"}, set(measured["source"]))
+        for key in ("snapshotCommit", "snapshotSubject", "reviewStatus", "notes"):
+            self.assertNotIn(key, measured["source"])
         self.assertIn("| `test` | 1 | 2 | 50.0% |", result.stdout)
         self.assertEqual("STALE_README_COVERAGE\n", self.readme.read_text(encoding="utf-8"))
 
@@ -240,6 +254,46 @@ class ContributorCheckTests(unittest.TestCase):
                 result = self.run_check()
                 self.assertNotEqual(0, result.returncode)
                 self.assertIn("sol.test.DescriptionVariants.known.Text", result.stderr)
+
+    def test_optional_variant_names_count_with_independent_text_fallback(self):
+        self.write_inventory([
+            {"ItemID": "sol.test", "DescriptionVariants": [
+                {"ID": "known", "Name": "SOURCE {0}", "Text": "SOURCE [reload]"},
+                {"ID": "missing", "Name": "SOURCE_MISSING", "Text": "SOURCE_TEXT"},
+            ]},
+        ], [
+            {"ItemID": "sol.test", "DescriptionVariants": [
+                {"ID": "missing", "Name": " "},
+                {"ID": "known", "Name": "LOCALE {0}"},
+            ]},
+        ])
+        result = self.run_check()
+        self.assertEqual(0, result.returncode, result.stderr)
+        measured = json.loads((self.repo / "coverage.json").read_text(encoding="utf-8"))
+        self.assertEqual({"total": 4, "translated": 1, "missing": 3, "same-as-english": 0},
+                         measured["locales"][0]["tables"]["InventoryItemData.json"])
+
+    def test_variant_name_tokens_and_unknown_names_fail_the_contributor_check(self):
+        for name in ("LOCALE", "LOCALE {0"):
+            with self.subTest(name=name):
+                self.write_inventory([
+                    {"ItemID": "sol.test", "DescriptionVariants": [{"ID": "known", "Name": "SOURCE {0}"}]},
+                ], [
+                    {"ItemID": "sol.test", "DescriptionVariants": [{"ID": "known", "Name": name}]},
+                ])
+                result = self.run_check()
+                self.assertNotEqual(0, result.returncode)
+                self.assertIn("sol.test.DescriptionVariants.known.Name", result.stderr)
+        for name in ("LOCALE", "", None):
+            with self.subTest(unknown_name=name):
+                self.write_inventory([
+                    {"ItemID": "sol.test", "DescriptionVariants": [{"ID": "known", "Text": "SOURCE"}]},
+                ], [
+                    {"ItemID": "sol.test", "DescriptionVariants": [{"ID": "known", "Name": name}]},
+                ])
+                result = self.run_check()
+                self.assertNotEqual(0, result.returncode)
+                self.assertIn("unknown field DescriptionVariants.known.Name", result.stderr)
 
     def test_unknown_description_variant_fails_even_when_empty(self):
         for text in ("LOCALE", "", None):

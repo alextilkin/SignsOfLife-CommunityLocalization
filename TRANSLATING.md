@@ -134,16 +134,17 @@ numeric `ItemID` or a full `sol.*` ID. Translate `Name`, `Description`, and
 existing `Templates` text; keep `ItemID`, `AutoOrganizeString`, and template
 keys. Some artifacts switch from a human guess (“Strange Material”) to a true
 xenoid name (“Sourcemetal”) as the player learns the language. Translate
-the true `Name` supplied here. The earlier guess labels are not present in
-the English reference yet. Keep `AlienString` unchanged: it is an English
+each supplied `Name`, including conditional variant names for different
+knowledge levels. Keep `AlienString` unchanged: it is an English
 scan-progress identity. Translate the corresponding `GlyphLocalization.json`
 `Text` where supplied; the game shows `[?]` for words still hidden from the player.
 
 Some items have `DescriptionVariants` for descriptions unlocked by language
-knowledge or story progress. Translate only each variant's `Text`, keeping its
+knowledge or story progress. Translate each supplied variant's `Name` and `Text`,
+keeping its
 `ID` and the parent `ItemID`. Leave `Priority`, `MinLanguage`, and
 `RequiredKnowledgeFlags` unchanged. Variant order does not matter for matching;
-missing or empty translations keep the English description. Include only the
+missing or empty translations keep the English name or description. Include only the
 variants you have translated, just as you would for other item fields.
 
 **`MeleeWeaponData.json`** and **`RangedWeaponData.json`** use `ItemID`. Translate
